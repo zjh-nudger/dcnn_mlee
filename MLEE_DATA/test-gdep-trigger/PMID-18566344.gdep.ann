@@ -1,0 +1,268 @@
+1	Neurotrophin	Neurotrophin	B-NP	NN	B-protein	3	NMOD	0
+2	p75	p75	I-NP	NN	I-protein	3	NMOD	0
+3	receptor	receptor	I-NP	NN	I-protein	7	SUB	0
+4	(	(	O	(	O	6	DEP	0
+5	p75NTR	p75NTR	B-NP	NN	B-protein	6	DEP	0
+6	)	)	O	)	O	3	NMOD	0
+7	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+8	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	0
+9	cell	cell	I-NP	NN	I-cell_type	10	NMOD	0
+10	apoptosis	apoptosis	I-NP	NN	O	7	OBJ	5	apoptosis
+11	and	and	O	CC	O	7	VMOD	0
+12	inhibits	inhibit	B-VP	VBZ	O	7	VMOD	18	inhibits
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	OBJ	3	angiogenesis
+14	:	:	O	:	O	7	P	0
+15	implications	implication	B-NP	NNS	O	7	VMOD	0
+16	for	for	B-PP	IN	O	15	NMOD	0
+17	diabetes-induced	diabetes-induced	B-NP	JJ	O	19	NMOD	0
+18	impaired	impaired	I-NP	JJ	O	19	NMOD	18	impaired
+19	neovascularization	neovascularization	I-NP	NN	O	16	PMOD	3	neovascularization
+20	in	in	B-PP	IN	O	19	NMOD	0
+21	ischemic	ischemic	B-NP	JJ	O	23	NMOD	0
+22	limb	limb	I-NP	NN	O	23	NMOD	0
+23	muscles	muscle	I-NP	NNS	O	20	PMOD	0
+24	.	.	O	.	O	15	P	0
+
+1	Diabetes	Diabetes	B-NP	NNP	O	2	SUB	0
+2	impairs	impair	B-VP	VBZ	O	0	ROOT	18	impairs
+3	endothelial	endothelial	B-NP	JJ	O	4	NMOD	0
+4	function	function	I-NP	NN	O	7	NMOD	0
+5	and	and	O	CC	O	7	NMOD	0
+6	reparative	reparative	B-NP	JJ	O	7	NMOD	0
+7	neovascularization	neovascularization	I-NP	NN	O	2	OBJ	3	neovascularization
+8	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	p75	p75	I-NP	NN	B-protein	3	NMOD	0
+3	receptor	receptor	I-NP	NN	I-protein	25	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	neurotrophins	neurotrophin	B-NP	NNS	O	4	PMOD	0
+6	(	(	O	(	O	11	DEP	0
+7	p75	p75	B-NP	NN	B-protein	9	NMOD	0
+8	(	(	O	(	I-protein	9	NMOD	0
+9	NTR	NTR	B-NP	NN	I-protein	11	DEP	0
+10	)	)	O	)	I-protein	9	NMOD	0
+11	)	)	O	)	O	5	NMOD	0
+12	,	,	O	,	O	3	P	0
+13	which	which	B-NP	WDT	O	3	NMOD	0
+14	is	be	B-VP	VBZ	O	13	SBAR	0
+15	scarcely	scarcely	B-ADJP	RB	O	16	AMOD	0
+16	present	present	I-ADJP	JJ	O	14	PRD	0
+17	in	in	B-PP	IN	O	16	AMOD	0
+18	healthy	healthy	B-NP	JJ	B-cell_type	20	NMOD	0
+19	endothelial	endothelial	I-NP	JJ	I-cell_type	20	NMOD	0
+20	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	0
+21	(	(	O	(	O	23	DEP	0
+22	ECs	EC	B-NP	NNS	B-cell_type	23	DEP	0
+23	)	)	O	)	O	20	NMOD	0
+24	,	,	O	,	O	3	P	0
+25	becomes	become	B-VP	VBZ	O	0	ROOT	0
+26	strongly	strongly	I-VP	RB	O	25	VMOD	0
+27	expressed	express	I-VP	VBN	O	25	VC	9	expressed
+28	by	by	B-PP	IN	O	27	VMOD	0
+29	capillary	capillary	B-NP	JJ	O	30	NMOD	0
+30	ECs	EC	I-NP	NNS	B-cell_type	28	PMOD	0
+31	after	after	B-PP	IN	O	27	VMOD	0
+32	induction	induction	B-NP	NN	O	31	PMOD	0
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	peripheral	peripheral	B-NP	JJ	O	35	NMOD	0
+35	ischemia	ischemia	I-NP	NN	O	33	PMOD	0
+36	in	in	B-PP	IN	O	32	NMOD	0
+37	type-1	type-1	B-NP	NN	O	39	NMOD	0
+38	diabetic	diabetic	I-NP	JJ	O	39	NMOD	0
+39	mice	mouse	I-NP	NNS	O	36	PMOD	0
+40	.	.	O	.	O	25	P	0
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	show	show	B-VP	VBP	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	gene	gene	B-NP	NN	O	8	NMOD	0
+7	transfer-induced	transfer-induced	I-NP	JJ	O	8	NMOD	17	induced
+8	p75	p75	I-NP	NN	O	12	NMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	NTR	NTR	B-NP	NN	B-protein	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	expression	expression	B-NP	NN	O	13	SUB	9	expression
+13	impairs	impair	B-VP	VBZ	O	5	SBAR	18	impairs
+14	the	the	B-NP	DT	O	23	NMOD	0
+15	survival	survival	I-NP	NN	O	23	NMOD	5	survival
+16	,	,	O	,	O	23	P	0
+17	proliferation	proliferation	B-NP	NN	O	23	NMOD	1	proliferation
+18	,	,	O	,	O	23	P	0
+19	migration	migration	B-NP	NN	O	23	NMOD	14	migration
+20	,	,	O	,	O	23	P	0
+21	and	and	O	CC	O	23	NMOD	0
+22	adhesion	adhesion	B-NP	NN	O	23	NMOD	15	adhesion
+23	capacities	capacity	I-NP	NNS	O	13	OBJ	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	cultured	culture	B-NP	VBN	O	26	NMOD	19	cultured
+26	ECs	EC	I-NP	NNS	B-cell_type	30	NMOD	0
+27	and	and	O	CC	O	30	NMOD	0
+28	endothelial	endothelial	B-NP	JJ	B-cell_type	30	NMOD	0
+29	progenitor	progenitor	I-NP	NN	I-cell_type	30	NMOD	0
+30	cells	cell	I-NP	NNS	I-cell_type	24	PMOD	0
+31	(	(	O	(	O	33	DEP	0
+32	EPCs	EPC	B-NP	NNS	B-cell_type	33	DEP	0
+33	)	)	O	)	O	30	NMOD	0
+34	and	and	O	CC	O	13	VMOD	0
+35	inhibits	inhibit	B-VP	VBZ	O	13	VMOD	18	inhibits
+36	angiogenesis	angiogenesis	B-NP	NN	O	35	OBJ	3	angiogenesis
+37	in	in	B-ADVP	FW	O	35	VMOD	0
+38	vitro	vitro	I-ADVP	FW	O	37	AMOD	0
+39	.	.	O	.	O	4	P	0
+
+1	Moreover	Moreover	B-ADVP	RB	O	10	VMOD	0
+2	,	,	O	,	O	10	P	0
+3	intramuscular	intramuscular	B-NP	JJ	O	4	NMOD	0
+4	p75	p75	I-NP	NN	O	9	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	NTR	NTR	B-NP	NN	O	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	gene	gene	B-NP	NN	O	9	NMOD	0
+9	delivery	delivery	I-NP	NN	O	10	SUB	14	delivery
+10	impairs	impair	B-VP	VBZ	O	0	ROOT	18	impairs
+11	neovascularization	neovascularization	B-NP	NN	O	15	NMOD	3	neovascularization
+12	and	and	I-NP	CC	O	15	NMOD	0
+13	blood	blood	I-NP	NN	O	15	NMOD	0
+14	flow	flow	I-NP	NN	O	15	NMOD	0
+15	recovery	recovery	I-NP	NN	O	10	OBJ	0
+16	in	in	B-PP	IN	O	15	NMOD	0
+17	a	a	B-NP	DT	O	19	NMOD	0
+18	mouse	mouse	I-NP	NN	O	19	NMOD	0
+19	model	model	I-NP	NN	O	16	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	limb	limb	B-NP	NN	O	22	NMOD	0
+22	ischemia	ischemia	I-NP	NN	O	20	PMOD	0
+23	.	.	O	.	O	10	P	0
+
+1	These	These	B-NP	DT	O	3	NMOD	0
+2	disturbed	disturbed	I-NP	JJ	O	3	NMOD	0
+3	functions	function	I-NP	NNS	O	4	SUB	0
+4	are	be	B-VP	VBP	O	0	ROOT	0
+5	associated	associate	I-VP	VBN	O	4	VC	0
+6	with	with	B-PP	IN	O	5	VMOD	0
+7	suppression	suppression	B-NP	NN	O	6	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	signaling	signaling	B-NP	NN	O	10	NMOD	0
+10	mechanisms	mechanism	I-NP	NNS	O	8	PMOD	0
+11	implicated	implicate	B-VP	VBN	O	10	NMOD	0
+12	in	in	B-PP	IN	O	11	VMOD	0
+13	EC	EC	B-NP	NN	B-cell_type	14	NMOD	0
+14	survival	survival	I-NP	NN	O	16	NMOD	5	survival
+15	and	and	I-NP	CC	O	16	NMOD	0
+16	angiogenesis	angiogenesis	I-NP	NN	O	12	PMOD	3	angiogenesis
+17	.	.	O	.	O	4	P	0
+
+1	In	In	B-PP	IN	O	8	VMOD	0
+2	fact	fact	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	8	P	0
+4	p75	p75	B-NP	NN	B-protein	6	NMOD	0
+5	(	(	O	(	I-protein	6	NMOD	0
+6	NTR	NTR	B-NP	NN	I-protein	8	SUB	0
+7	)	)	O	)	I-protein	6	NMOD	0
+8	depresses	depress	B-VP	VBZ	O	0	ROOT	18	depresses
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	VEGF-A/Akt/eNOS/NO	VEGF-A/Akt/eNOS/NO	I-NP	NN	O	11	NMOD	0
+11	pathway	pathway	I-NP	NN	O	8	OBJ	0
+12	and	and	O	CC	O	8	VMOD	0
+13	additionally	additionally	B-VP	RB	O	8	VMOD	0
+14	reduces	reduce	I-VP	VBZ	O	8	VMOD	18	reduces
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	mRNA	mRNA	I-NP	NN	B-RNA	17	NMOD	0
+17	levels	level	I-NP	NNS	O	14	OBJ	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	ITGB1	ITGB1	B-NP	NN	B-protein	38	NMOD	0
+20	[	[	O	(	O	26	DEP	0
+21	beta	beta	B-NP	NN	B-protein	25	NMOD	0
+22	(	(	O	(	I-protein	25	NMOD	0
+23	1	1	B-NP	CD	I-protein	25	NMOD	0
+24	)	)	O	)	I-protein	25	NMOD	0
+25	integrin	integrin	B-NP	NN	I-protein	26	DEP	0
+26	]	]	O	)	O	19	NMOD	0
+27	,	,	O	,	O	38	P	0
+28	BIRC5	BIRC5	B-NP	NN	B-protein	38	NMOD	0
+29	(	(	O	(	O	31	DEP	0
+30	survivin	survivin	B-NP	NN	O	31	DEP	0
+31	)	)	O	)	O	28	NMOD	0
+32	,	,	O	,	O	38	P	0
+33	PTTG1	PTTG1	B-NP	NN	B-protein	38	NMOD	0
+34	(	(	O	(	O	36	DEP	0
+35	securin	securin	B-NP	NN	O	36	DEP	0
+36	)	)	O	)	O	33	NMOD	0
+37	and	and	O	CC	O	38	NMOD	0
+38	VEZF1	VEZF1	B-NP	NN	B-protein	18	PMOD	0
+39	.	.	O	.	O	8	P	0
+
+1	Diabetic	Diabetic	B-NP	JJ	O	2	NMOD	0
+2	mice	mouse	I-NP	NNS	O	16	SUB	0
+3	,	,	O	,	O	2	P	0
+4	which	which	B-NP	WDT	O	2	NMOD	0
+5	typically	typically	B-ADVP	RB	O	6	VMOD	0
+6	show	show	B-VP	VBP	O	4	SBAR	0
+7	impaired	impaired	B-NP	JJ	O	10	NMOD	0
+8	postischemic	postischemic	I-NP	JJ	O	10	NMOD	0
+9	muscular	muscular	I-NP	JJ	O	10	NMOD	0
+10	neovascularization	neovascularization	I-NP	NN	O	14	NMOD	3	neovascularization
+11	and	and	I-NP	CC	O	14	NMOD	0
+12	blood	blood	I-NP	NN	O	14	NMOD	0
+13	perfusion	perfusion	I-NP	NN	O	14	NMOD	0
+14	recovery	recovery	I-NP	NN	O	6	OBJ	0
+15	,	,	O	,	O	2	P	0
+16	have	have	B-VP	VBP	O	0	ROOT	0
+17	these	these	B-NP	DT	O	18	NMOD	0
+18	defects	defect	I-NP	NNS	O	16	OBJ	0
+19	corrected	correct	B-VP	VBN	O	18	NMOD	0
+20	by	by	B-PP	IN	O	19	VMOD	0
+21	intramuscular	intramuscular	B-NP	JJ	O	23	NMOD	0
+22	gene	gene	I-NP	NN	O	23	NMOD	0
+23	transfer	transfer	I-NP	NN	O	20	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	a	a	B-NP	DT	O	29	NMOD	0
+26	dominant	dominant	I-NP	JJ	O	29	NMOD	0
+27	negative	negative	I-NP	JJ	O	29	NMOD	0
+28	mutant	mutant	I-NP	JJ	O	29	NMOD	0
+29	form	form	I-NP	NN	O	24	PMOD	0
+30	of	of	B-PP	IN	O	29	NMOD	0
+31	p75	p75	B-NP	NN	B-protein	30	PMOD	0
+32	(	(	O	(	O	34	DEP	0
+33	NTR	NTR	B-NP	NN	B-protein	34	DEP	0
+34	)	)	O	)	O	31	NMOD	0
+35	.	.	O	.	O	16	P	0
+
+1	Collectively	Collectively	B-ADVP	RB	O	6	VMOD	0
+2	,	,	O	,	O	6	P	0
+3	our	our	B-NP	PRP$	O	4	NMOD	0
+4	data	datum	I-NP	NNS	O	6	SUB	0
+5	newly	newly	B-ADVP	RB	O	6	VMOD	0
+6	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	antiangiogenic	antiangiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	action	action	I-NP	NN	O	6	OBJ	18	action
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	p75	p75	B-NP	NN	O	18	NMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	NTR	NTR	B-NP	NN	B-protein	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	and	and	O	CC	O	18	NMOD	0
+16	open	open	B-NP	JJ	O	18	NMOD	0
+17	new	new	I-NP	JJ	O	18	NMOD	0
+18	avenues	avenue	I-NP	NNS	O	10	PMOD	0
+19	for	for	B-PP	IN	O	18	NMOD	0
+20	the	the	B-NP	DT	O	22	NMOD	0
+21	therapeutic	therapeutic	I-NP	JJ	O	22	NMOD	0
+22	use	use	I-NP	NN	O	19	PMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	p75	p75	B-NP	NN	O	28	NMOD	0
+25	(	(	O	(	O	27	DEP	0
+26	NTR	NTR	B-NP	NN	O	27	DEP	0
+27	)	)	O	)	O	24	NMOD	0
+28	inhibition	inhibition	B-NP	NN	O	23	PMOD	18	inhibition
+29	to	to	B-VP	TO	O	30	VMOD	0
+30	combat	combat	I-VP	VB	O	22	NMOD	0
+31	diabetes-induced	diabetes-induced	B-NP	JJ	O	33	NMOD	17	induced
+32	microvascular	microvascular	I-NP	JJ	O	33	NMOD	0
+33	liabilities	liability	I-NP	NNS	O	30	OBJ	0
+34	.	.	O	.	O	6	P	0
+

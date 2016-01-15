@@ -1,0 +1,224 @@
+1	The	The	B-NP	DT	O	6	NMOD	0
+2	candidate	candidate	I-NP	NN	B-protein	5	NMOD	0
+3	tumour	tumour	I-NP	NN	I-protein	5	NMOD	0
+4	suppressor	suppressor	I-NP	NN	I-protein	5	NMOD	18	suppressor
+5	protein	protein	I-NP	NN	I-protein	6	NMOD	0
+6	ING4	ING4	I-NP	NN	B-protein	7	SUB	0
+7	regulates	regulate	B-VP	VBZ	O	0	ROOT	16	regulates
+8	brain	brain	B-NP	NN	O	10	NMOD	0
+9	tumour	tumour	I-NP	NN	O	10	NMOD	0
+10	growth	growth	I-NP	NN	O	12	NMOD	4	growth
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	angiogenesis	angiogenesis	I-NP	NN	O	7	OBJ	3	angiogenesis
+13	.	.	O	.	O	7	P	0
+
+1	Gliomas	Glioma	B-NP	NNS	O	2	SUB	0
+2	are	be	B-VP	VBP	O	0	ROOT	0
+3	the	the	B-NP	DT	O	7	NMOD	0
+4	most	most	I-NP	RBS	O	6	AMOD	0
+5	common	common	I-NP	JJ	O	6	AMOD	0
+6	primary	primary	I-NP	JJ	O	7	NMOD	0
+7	tumours	tumour	I-NP	NNS	O	2	PRD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	12	NMOD	0
+10	central	central	I-NP	JJ	O	12	NMOD	0
+11	nervous	nervous	I-NP	JJ	O	12	NMOD	0
+12	system	system	I-NP	NN	O	8	PMOD	0
+13	,	,	O	,	O	2	P	0
+14	with	with	B-PP	IN	O	2	VMOD	0
+15	nearly	nearly	B-NP	RB	O	19	VMOD	0
+16	15	15	I-NP	CD	O	15	AMOD	0
+17	,	,	I-NP	,	O	15	P	0
+18	000	000	I-NP	CD	O	15	NMOD	0
+19	diagnosed	diagnose	B-VP	VBN	O	14	SBAR	0
+20	annually	annually	B-ADVP	RB	O	19	VMOD	0
+21	in	in	B-PP	IN	O	19	VMOD	0
+22	the	the	B-NP	DT	O	24	NMOD	0
+23	United	United	I-NP	NNP	O	24	NMOD	0
+24	States	State	I-NP	NNPS	O	27	NMOD	0
+25	and	and	O	CC	O	27	NMOD	0
+26	a	a	B-NP	DT	O	27	NMOD	0
+27	lethality	lethality	I-NP	NN	O	21	PMOD	0
+28	approaching	approach	B-VP	VBG	O	27	NMOD	0
+29	80	80	B-NP	CD	O	30	NMOD	0
+30	%	%	I-NP	NN	O	28	OBJ	0
+31	within	within	B-PP	IN	O	28	VMOD	0
+32	the	the	B-NP	DT	O	34	NMOD	0
+33	first	first	I-NP	JJ	O	34	NMOD	0
+34	year	year	I-NP	NN	O	31	PMOD	0
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	glioblastoma	glioblastoma	B-NP	NN	O	37	NMOD	0
+37	diagnosis	diagnosis	I-NP	NN	O	35	PMOD	0
+38	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	marked	marked	I-NP	JJ	O	3	NMOD	0
+3	induction	induction	I-NP	NN	O	8	SUB	17	induction
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	PMOD	3	angiogenesis
+6	in	in	B-PP	IN	O	3	NMOD	0
+7	glioblastomas	glioblastoma	B-NP	NNS	B-cell_type	6	PMOD	0
+8	suggests	suggest	B-VP	VBZ	O	34	VMOD	0
+9	that	that	B-SBAR	IN	O	8	VMOD	0
+10	it	it	B-NP	PRP	O	11	SUB	0
+11	is	be	B-VP	VBZ	O	9	SBAR	0
+12	a	a	B-NP	DT	O	14	NMOD	0
+13	necessary	necessary	I-NP	JJ	O	14	NMOD	0
+14	part	part	I-NP	NN	O	11	PRD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	malignant	malignant	B-NP	JJ	O	17	NMOD	0
+17	progression	progression	I-NP	NN	O	15	PMOD	0
+18	;	;	O	:	O	34	P	0
+19	however	however	B-ADVP	RB	O	34	VMOD	0
+20	,	,	O	,	O	34	P	0
+21	the	the	B-NP	DT	O	24	NMOD	0
+22	precise	precise	I-NP	JJ	O	24	NMOD	0
+23	molecular	molecular	I-NP	JJ	O	24	NMOD	0
+24	mechanisms	mechanism	I-NP	NNS	O	34	SUB	0
+25	underlying	underlie	B-VP	VBG	O	24	NMOD	0
+26	the	the	B-NP	DT	O	27	NMOD	0
+27	regulation	regulation	I-NP	NN	O	25	OBJ	16	regulation
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	brain	brain	B-NP	NN	O	31	NMOD	0
+30	tumour	tumour	I-NP	NN	O	31	NMOD	0
+31	growth	growth	I-NP	NN	O	33	NMOD	4	growth
+32	and	and	I-NP	CC	O	33	NMOD	0
+33	angiogenesis	angiogenesis	I-NP	NN	O	28	PMOD	3	angiogenesis
+34	remain	remain	B-VP	VBP	O	0	ROOT	0
+35	unresolved	unresolved	B-ADJP	JJ	O	34	PRD	0
+36	.	.	O	.	O	34	P	0
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	report	report	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	a	a	B-NP	DT	O	9	NMOD	0
+6	candidate	candidate	I-NP	NN	B-DNA	9	NMOD	0
+7	tumour	tumour	I-NP	NN	I-DNA	9	NMOD	0
+8	suppressor	suppressor	I-NP	NN	I-DNA	9	NMOD	0
+9	gene	gene	I-NP	NN	I-DNA	11	NMOD	0
+10	,	,	O	,	O	11	P	0
+11	ING4	ING4	B-NP	NN	B-protein	13	SUB	0
+12	,	,	O	,	O	11	P	0
+13	is	be	B-VP	VBZ	O	4	SBAR	0
+14	involved	involve	I-VP	VBN	O	13	VC	0
+15	in	in	B-PP	IN	O	14	VMOD	0
+16	regulating	regulate	B-VP	VBG	O	15	PMOD	16	regulating
+17	brain	brain	B-NP	NN	O	19	NMOD	0
+18	tumour	tumour	I-NP	NN	O	19	NMOD	0
+19	growth	growth	I-NP	NN	O	21	NMOD	4	growth
+20	and	and	I-NP	CC	O	21	NMOD	0
+21	angiogenesis	angiogenesis	I-NP	NN	O	16	OBJ	3	angiogenesis
+22	.	.	O	.	O	3	P	0
+
+1	Expression	Expression	B-NP	NN	O	4	SUB	9	Expression
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	ING4	ING4	B-NP	NN	B-protein	2	PMOD	0
+4	is	be	B-VP	VBZ	O	22	VMOD	0
+5	significantly	significantly	I-VP	RB	O	4	VMOD	0
+6	reduced	reduce	I-VP	VBN	O	4	VC	18	reduced
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	gliomas	glioma	B-NP	NNS	O	7	PMOD	0
+9	as	as	B-PP	IN	O	6	VMOD	0
+10	compared	compare	B-PP	VBN	O	9	SBAR	0
+11	with	with	B-PP	IN	O	10	VMOD	0
+12	normal	normal	B-NP	JJ	O	15	NMOD	0
+13	human	human	I-NP	JJ	O	15	NMOD	0
+14	brain	brain	I-NP	NN	O	15	NMOD	0
+15	tissue	tissue	I-NP	NN	O	11	PMOD	0
+16	,	,	O	,	O	22	P	0
+17	and	and	O	CC	O	22	VMOD	0
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	extent	extent	I-NP	NN	O	22	SUB	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	reduction	reduction	B-NP	NN	O	20	PMOD	18	reduction
+22	correlates	correlate	B-VP	VBZ	O	0	ROOT	0
+23	with	with	B-PP	IN	O	22	VMOD	0
+24	the	the	B-NP	DT	O	25	NMOD	0
+25	progression	progression	I-NP	NN	O	23	PMOD	2	progression
+26	from	from	B-PP	IN	O	25	NMOD	0
+27	lower	low	B-ADJP	JJR	O	26	PMOD	0
+28	to	to	B-PP	TO	O	26	PMOD	0
+29	higher	high	B-NP	JJR	O	30	NMOD	0
+30	grades	grade	I-NP	NNS	O	26	PMOD	0
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	tumours	tumour	B-NP	NNS	O	31	PMOD	0
+33	.	.	O	.	O	22	P	0
+
+1	In	In	B-PP	IN	O	0	ROOT	0
+2	mice	mouse	B-NP	NNS	O	1	PMOD	0
+3	,	,	O	,	O	1	VMOD	0
+4	xenografts	xenograft	B-NP	NNS	O	3	ROOT	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	human	human	B-NP	JJ	B-protein	8	NMOD	0
+7	glioblastoma	glioblastoma	I-NP	NN	I-protein	8	NMOD	0
+8	U87MG	U87MG	I-NP	NN	I-protein	5	PMOD	0
+9	,	,	O	,	O	8	P	0
+10	which	which	B-NP	WDT	O	8	NMOD	0
+11	has	have	B-VP	VBZ	O	21	VMOD	0
+12	decreased	decrease	I-VP	VBN	O	11	VC	18	decreased
+13	expression	expression	B-NP	NN	O	12	OBJ	9	expression
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	ING4	ING4	B-NP	NN	B-protein	14	PMOD	0
+16	,	,	O	,	O	12	P	0
+17	grow	grow	B-VP	VB	O	12	VMOD	4	grow
+18	significantly	significantly	B-ADJP	RB	O	19	AMOD	0
+19	faster	fast	I-ADJP	JJR	O	17	VMOD	0
+20	and	and	O	CC	O	11	VMOD	0
+21	have	have	B-VP	VBP	O	10	SBAR	0
+22	higher	high	B-NP	JJR	O	25	NMOD	0
+23	vascular	vascular	I-NP	JJ	B-cell_type	25	NMOD	0
+24	volume	volume	I-NP	NN	I-cell_type	25	NMOD	0
+25	fractions	fraction	I-NP	NNS	I-cell_type	21	OBJ	0
+26	than	than	B-PP	IN	O	21	VMOD	0
+27	control	control	B-NP	NN	O	28	NMOD	0
+28	tumours	tumour	I-NP	NNS	O	26	PMOD	0
+29	.	.	O	.	O	4	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	show	show	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	19	DEP	0
+4	ING4	ING4	B-NP	NN	B-protein	6	SUB	0
+5	physically	physically	B-ADVP	RB	O	6	VMOD	0
+6	interacts	interact	B-VP	VBZ	O	3	SBAR	15	interacts
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	p65	p65	B-NP	NN	B-protein	12	NMOD	0
+9	(	(	O	(	I-protein	12	NMOD	0
+10	RelA	RelA	B-NP	NN	I-protein	12	NMOD	0
+11	)	)	O	)	I-protein	12	NMOD	0
+12	subunit	subunit	B-NP	NN	I-protein	7	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	nuclear	nuclear	B-NP	JJ	B-protein	16	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	16	NMOD	0
+16	NF-kappaB	NF-kappaB	I-NP	NN	B-protein	13	PMOD	0
+17	,	,	O	,	O	19	P	0
+18	and	and	O	CC	O	19	DEP	0
+19	that	that	B-SBAR	IN	O	2	VMOD	0
+20	ING4	ING4	B-NP	NN	B-protein	21	SUB	0
+21	regulates	regulate	B-VP	VBZ	O	19	SBAR	16	regulates
+22	brain	brain	B-NP	NN	O	24	NMOD	0
+23	tumour	tumour	I-NP	NN	O	24	NMOD	0
+24	angiogenesis	angiogenesis	I-NP	NN	O	21	OBJ	3	angiogenesis
+25	through	through	B-PP	IN	O	21	VMOD	0
+26	transcriptional	transcriptional	B-NP	JJ	O	27	NMOD	0
+27	repression	repression	I-NP	NN	O	25	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	NF-kappaB-responsive	NF-kappaB-responsive	B-NP	JJ	B-DNA	30	NMOD	0
+30	genes	gene	I-NP	NNS	I-DNA	28	PMOD	0
+31	.	.	O	.	O	2	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	ING4	ING4	B-NP	NN	B-protein	6	SUB	0
+6	has	have	B-VP	VBZ	O	4	SBAR	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	important	important	I-NP	JJ	O	9	NMOD	0
+9	role	role	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	0
+11	brain	brain	B-NP	NN	O	13	NMOD	0
+12	tumour	tumour	I-NP	NN	O	13	NMOD	0
+13	pathogenesis	pathogenesis	I-NP	NN	O	10	PMOD	2	pathogenesis
+14	.	.	O	.	O	3	P	0
+

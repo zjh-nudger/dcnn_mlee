@@ -1,0 +1,113 @@
+1	Tumor	Tumor	B-NP	NN	O	2	NMOD	0
+2	microenvironment	microenvironment	I-NP	NN	O	6	NMOD	0
+3	,	,	O	,	O	6	P	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	dangerous	dangerous	I-NP	JJ	O	6	NMOD	0
+6	society	society	I-NP	NN	O	0	ROOT	0
+7	leading	lead	B-VP	VBG	O	6	NMOD	0
+8	to	to	B-PP	TO	O	7	VMOD	0
+9	cancer	cancer	B-NP	NN	O	10	NMOD	0
+10	metastasis	metastasis	I-NP	NN	O	8	PMOD	14	metastasis
+11	.	.	O	.	O	6	P	0
+
+1	From	From	B-PP	IN	O	0	ROOT	0
+2	mechanisms	mechanism	B-NP	NNS	O	1	PMOD	0
+3	to	to	B-PP	TO	O	2	NMOD	0
+4	therapy	therapy	B-NP	NN	O	6	NMOD	0
+5	and	and	I-NP	CC	O	6	NMOD	0
+6	prevention	prevention	I-NP	NN	O	3	PMOD	0
+7	.	.	O	.	O	1	P	0
+
+1	Cancer	Cancer	B-NP	NN	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	no	no	I-VP	RB	O	2	VMOD	0
+4	longer	longer	I-VP	RBR	O	3	AMOD	0
+5	considered	consider	I-VP	VBN	O	2	VC	0
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	scientists	scientist	B-NP	NNS	O	10	NMOD	0
+8	just	just	B-NP	RB	O	10	NMOD	0
+9	a	a	I-NP	DT	O	10	NMOD	0
+10	jumble	jumble	I-NP	NN	O	6	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	mutated	mutate	B-NP	VBN	B-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+14	.	.	O	.	O	2	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	grow	grow	I-VP	VB	O	16	VMOD	4	grow
+3	,	,	I-VP	,	O	2	P	0
+4	invade	invade	I-VP	VB	O	2	VMOD	14	invade
+5	and	and	I-VP	CC	O	2	VMOD	0
+6	metastasize	metastasize	I-VP	VB	O	2	VMOD	14	metastasize
+7	,	,	O	,	O	16	P	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	treacherous	treacherous	I-NP	JJ	O	10	NMOD	0
+10	society	society	I-NP	NN	O	16	SUB	0
+11	between	between	B-PP	IN	O	10	NMOD	0
+12	cancer	cancer	B-NP	NN	O	15	NMOD	0
+13	and	and	I-NP	CC	O	15	NMOD	0
+14	host	host	I-NP	NN	B-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+16	must	must	B-VP	MD	O	23	VMOD	0
+17	be	be	I-VP	VB	O	16	VC	0
+18	formed	form	I-VP	VBN	O	17	VC	0
+19	,	,	O	,	O	23	P	0
+20	and	and	O	CC	O	23	VMOD	0
+21	this	this	B-NP	DT	O	22	NMOD	0
+22	association	association	I-NP	NN	O	23	SUB	0
+23	provides	provide	B-VP	VBZ	O	0	ROOT	0
+24	novel	novel	B-NP	JJ	O	28	NMOD	0
+25	and	and	I-NP	CC	O	28	NMOD	0
+26	effective	effective	I-NP	JJ	O	27	AMOD	0
+27	clinical	clinical	I-NP	JJ	O	28	NMOD	0
+28	targets	target	I-NP	NNS	O	23	OBJ	0
+29	for	for	B-PP	IN	O	28	NMOD	0
+30	cancer	cancer	B-NP	NN	O	29	PMOD	0
+31	control	control	I-NP	NN	O	30	NMOD	16	control
+32	and	and	I-NP	CC	O	30	NMOD	0
+33	prevention	prevention	I-NP	NN	O	30	NMOD	18	prevention
+34	.	.	O	.	O	23	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	collection	collection	I-NP	NN	O	11	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	reviews	review	B-NP	NNS	O	3	PMOD	0
+5	at	at	B-PP	IN	O	2	NMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	front-edge	front-edge	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	scientific	scientific	B-NP	JJ	O	10	NMOD	0
+10	knowledge	knowledge	I-NP	NN	O	8	PMOD	0
+11	focuses	focus	B-VP	VBZ	O	0	ROOT	0
+12	on	on	B-PP	IN	O	11	VMOD	0
+13	host-tumor	host-tumor	B-NP	NN	O	15	NMOD	0
+14	cell	cell	I-NP	NN	O	15	NMOD	0
+15	interactions	interaction	I-NP	NNS	O	12	PMOD	15	interactions
+16	,	,	O	,	O	11	P	0
+17	the	the	B-NP	DT	O	19	NMOD	0
+18	disastrous	disastrous	I-NP	JJ	O	19	NMOD	0
+19	consequences	consequence	I-NP	NNS	O	21	SUB	0
+20	they	they	B-NP	PRP	O	21	SUB	0
+21	can	can	B-VP	MD	O	11	VMOD	0
+22	produce	produce	I-VP	VB	O	21	VC	0
+23	and	and	O	CC	O	21	VMOD	0
+24	approaches	approach	B-VP	VBZ	O	21	VMOD	0
+25	the	the	B-NP	DT	O	26	NMOD	0
+26	ways	way	I-NP	NNS	O	24	OBJ	0
+27	to	to	B-VP	TO	O	28	VMOD	0
+28	break	break	I-VP	VB	O	26	NMOD	0
+29	up	up	B-PRT	RP	O	28	VMOD	0
+30	these	these	B-NP	DT	O	32	NMOD	0
+31	cellular	cellular	I-NP	JJ	O	32	NMOD	0
+32	conspiracies	conspiracy	I-NP	NNS	O	28	VMOD	0
+33	,	,	O	,	O	32	P	0
+34	to	to	B-VP	TO	O	35	VMOD	0
+35	leave	leave	I-VP	VB	O	32	NMOD	0
+36	the	the	B-NP	DT	O	38	NMOD	0
+37	tumor	tumor	I-NP	NN	B-cell_type	38	NMOD	0
+38	cells	cell	I-NP	NNS	I-cell_type	41	SUB	0
+39	unattended	unattended	B-ADJP	JJ	O	41	AMOD	0
+40	and	and	I-ADJP	CC	O	41	AMOD	0
+41	vulnerable	vulnerable	I-ADJP	JJ	O	35	VMOD	0
+42	.	.	O	.	O	11	P	0
+

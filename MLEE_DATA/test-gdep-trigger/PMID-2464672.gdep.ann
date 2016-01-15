@@ -1,0 +1,137 @@
+1	Experimental	Experimental	B-NP	JJ	O	3	NMOD	0
+2	drug	drug	I-NP	NN	O	3	NMOD	0
+3	therapy	therapy	I-NP	NN	O	0	ROOT	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	peritumoral	peritumoral	B-NP	JJ	O	7	NMOD	0
+6	brain	brain	I-NP	NN	O	7	NMOD	0
+7	edema	edema	I-NP	NN	O	4	PMOD	0
+8	.	.	O	.	O	3	P	0
+
+1	Four	Four	B-NP	CD	O	2	NMOD	0
+2	drugs	drug	I-NP	NNS	O	9	SUB	0
+3	with	with	B-PP	IN	O	2	NMOD	0
+4	potential	potential	B-NP	JJ	O	8	NMOD	0
+5	anti-peritumoral	anti-peritumoral	I-NP	JJ	O	8	NMOD	0
+6	brain	brain	I-NP	NN	O	8	NMOD	0
+7	edema	edema	I-NP	NN	O	8	NMOD	0
+8	activity	activity	I-NP	NN	O	3	PMOD	18	activity
+9	were	be	B-VP	VBD	O	0	ROOT	0
+10	studied	study	I-VP	VBN	O	9	VC	0
+11	using	use	B-VP	VBG	O	9	VMOD	0
+12	the	the	B-NP	DT	O	17	NMOD	0
+13	VX2	VX2	I-NP	NN	B-protein	17	NMOD	0
+14	rabbit	rabbit	I-NP	NN	O	17	NMOD	0
+15	brain	brain	I-NP	NN	O	17	NMOD	0
+16	tumor	tumor	I-NP	NN	O	17	NMOD	0
+17	model	model	I-NP	NN	O	11	OBJ	0
+18	.	.	O	.	O	9	P	0
+
+1	Meclofenamate	Meclofenamate	B-NP	NN	O	3	NMOD	0
+2	and	and	I-NP	CC	O	3	NMOD	0
+3	indomethacin	indomethacin	I-NP	NN	O	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	0
+5	tested	test	I-VP	VBN	O	4	VC	0
+6	in	in	B-PP	IN	O	5	VMOD	0
+7	an	an	B-NP	DT	O	8	NMOD	0
+8	attempt	attempt	I-NP	NN	O	6	PMOD	0
+9	to	to	B-VP	TO	O	10	VMOD	0
+10	confirm	confirm	I-VP	VB	O	8	NMOD	0
+11	recent	recent	B-NP	JJ	O	12	NMOD	0
+12	reports	report	I-NP	NNS	O	10	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	anti-edema	anti-edema	B-NP	JJ	O	15	NMOD	0
+15	activity	activity	I-NP	NN	O	13	PMOD	18	activity
+16	in	in	B-PP	IN	O	15	NMOD	0
+17	non	non	B-NP	JJ	O	20	NMOD	0
+18	steroidal	steroidal	I-NP	JJ	O	20	NMOD	0
+19	anti-inflammatory	anti-inflammatory	I-NP	JJ	O	20	NMOD	0
+20	drugs	drug	I-NP	NNS	O	16	PMOD	0
+21	(	(	O	(	O	24	DEP	0
+22	NSAID	NSAID	B-NP	NN	O	23	NMOD	0
+23	's	's	B-NP	POS	O	24	DEP	0
+24	)	)	O	)	O	20	NMOD	0
+25	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	'angiostatic	'angiostatic	I-NP	JJ	O	4	NMOD	0
+3	'	'	I-NP	``	O	4	NMOD	0
+4	steroids	steroid	I-NP	NNS	O	8	NMOD	0
+5	17	17	I-NP	CD	O	6	NMOD	0
+6	hydroxyprogesterone	hydroxyprogesterone	I-NP	NN	O	8	NMOD	0
+7	and	and	I-NP	CC	O	8	NMOD	0
+8	epicortisol	epicortisol	I-NP	NN	O	9	SUB	0
+9	were	be	B-VP	VBD	O	0	ROOT	0
+10	tested	test	I-VP	VBN	O	9	VC	0
+11	because	because	B-PP	IN	O	10	VMOD	0
+12	of	of	I-PP	IN	O	11	PMOD	0
+13	their	their	B-NP	PRP$	O	14	NMOD	0
+14	lack	lack	I-NP	NN	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	glucocorticoid	glucocorticoid	B-NP	NN	O	19	NMOD	0
+17	and	and	I-NP	CC	O	19	NMOD	0
+18	mineralocorticoid	mineralocorticoid	I-NP	NN	O	19	NMOD	0
+19	effects	effect	I-NP	NNS	O	23	NMOD	0
+20	and	and	O	CC	O	23	NMOD	0
+21	their	their	B-NP	PRP$	O	23	NMOD	0
+22	structural	structural	I-NP	JJ	O	23	NMOD	0
+23	similarity	similarity	I-NP	NN	O	15	PMOD	0
+24	to	to	B-PP	TO	O	23	NMOD	0
+25	glucocorticoids	glucocorticoid	B-NP	NNS	O	24	PMOD	0
+26	.	.	O	.	O	9	P	0
+
+1	The	The	B-NP	DT	O	5	NMOD	0
+2	protein	protein	I-NP	NN	O	5	NMOD	0
+3	and	and	I-NP	CC	O	5	NMOD	0
+4	water	water	I-NP	NN	O	5	NMOD	0
+5	component	component	I-NP	NN	O	9	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	brain	brain	B-NP	NN	O	8	NMOD	0
+8	edema	edema	I-NP	NN	O	6	PMOD	0
+9	were	be	B-VP	VBD	O	0	ROOT	0
+10	indirectly	indirectly	I-VP	RB	O	9	VMOD	0
+11	quantitated	quantitate	I-VP	VBN	O	9	VC	0
+12	.	.	O	.	O	9	P	0
+
+1	None	None	B-NP	NN	O	6	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	test	test	I-NP	NN	O	5	NMOD	0
+5	drugs	drug	I-NP	NNS	O	2	PMOD	0
+6	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	0
+7	significant	significant	B-NP	JJ	O	8	AMOD	0
+8	anti-edema	anti-edema	I-NP	JJ	O	9	NMOD	0
+9	activity	activity	I-NP	NN	O	6	OBJ	18	activity
+10	.	.	O	.	O	6	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	work	work	I-NP	NN	O	3	SUB	0
+3	does	do	B-VP	VBZ	O	0	ROOT	0
+4	not	not	I-VP	RB	O	3	VMOD	0
+5	confirm	confirm	I-VP	VB	O	3	VC	0
+6	reports	report	B-NP	NNS	O	5	OBJ	0
+7	that	that	B-SBAR	IN	O	6	NMOD	0
+8	NSAID	NSAID	B-NP	NNP	O	9	NMOD	0
+9	's	's	B-NP	POS	O	10	SUB	0
+10	have	have	B-VP	VBP	O	7	SBAR	0
+11	anti-edema	anti-edema	B-NP	JJ	O	12	NMOD	0
+12	activity	activity	I-NP	NN	O	10	OBJ	18	activity
+13	and	and	O	CC	O	10	VMOD	0
+14	suggests	suggest	B-VP	VBZ	O	7	SBAR	0
+15	that	that	B-SBAR	IN	O	14	VMOD	0
+16	there	there	B-NP	EX	O	17	SUB	0
+17	may	may	B-VP	MD	O	15	SBAR	0
+18	be	be	I-VP	VB	O	17	VC	0
+19	no	no	B-NP	DT	O	20	NMOD	0
+20	correlation	correlation	I-NP	NN	O	18	PRD	0
+21	between	between	B-PP	IN	O	20	NMOD	0
+22	'angiostatic	'angiostatic	B-ADJP	JJ	O	26	NMOD	0
+23	'	'	O	''	O	22	AMOD	0
+24	and	and	O	CC	O	22	AMOD	0
+25	anti-edema	anti-edema	B-NP	JJ	O	26	NMOD	0
+26	activity	activity	I-NP	NN	O	21	PMOD	18	activity
+27	in	in	B-PP	IN	O	26	NMOD	0
+28	certain	certain	B-NP	JJ	O	30	NMOD	0
+29	steroid	steroid	I-NP	NN	O	30	NMOD	0
+30	compounds	compound	I-NP	NNS	O	27	PMOD	0
+31	.	.	O	.	O	3	P	0
+

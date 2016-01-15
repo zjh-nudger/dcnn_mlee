@@ -1,0 +1,257 @@
+1	Role	Role	B-NP	NN	O	0	ROOT	16	Role
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	thrombin	thrombin	B-NP	NN	B-protein	2	PMOD	0
+4	in	in	B-PP	IN	O	1	NMOD	0
+5	angiogenesis	angiogenesis	B-NP	NN	O	8	NMOD	3	angiogenesis
+6	and	and	I-NP	CC	O	8	NMOD	0
+7	tumor	tumor	I-NP	NN	O	8	NMOD	0
+8	progression	progression	I-NP	NN	O	4	PMOD	2	progression
+9	.	.	O	.	O	1	P	0
+
+1	Clinical	Clinical	B-NP	JJ	O	10	SUB	0
+2	,	,	I-NP	,	O	10	P	0
+3	laboratory	laboratory	I-NP	NN	O	10	SUB	0
+4	,	,	O	,	O	10	P	0
+5	histopathological	histopathological	B-ADJP	JJ	O	10	VMOD	0
+6	,	,	O	,	O	10	P	0
+7	and	and	O	CC	O	9	NMOD	0
+8	pharmacological	pharmacological	B-NP	JJ	O	9	NMOD	0
+9	evidence	evidence	I-NP	NN	O	10	SUB	0
+10	support	support	B-VP	VBP	O	0	ROOT	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	notion	notion	I-NP	NN	O	10	OBJ	0
+13	that	that	B-SBAR	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	coagulation	coagulation	I-NP	NN	O	16	NMOD	0
+16	system	system	I-NP	NN	O	26	SUB	0
+17	,	,	O	,	O	16	P	0
+18	which	which	B-NP	WDT	O	16	NMOD	0
+19	is	be	B-VP	VBZ	O	18	SBAR	0
+20	activated	activate	I-VP	VBN	O	19	VC	17	activated
+21	in	in	B-PP	IN	O	20	VMOD	0
+22	most	most	B-NP	JJS	O	24	NMOD	0
+23	cancer	cancer	I-NP	NN	O	24	NMOD	0
+24	patients	patient	I-NP	NNS	O	21	PMOD	0
+25	,	,	O	,	O	26	P	0
+26	plays	play	B-VP	VBZ	O	13	SBAR	0
+27	an	an	B-NP	DT	O	29	NMOD	0
+28	important	important	I-NP	JJ	O	29	NMOD	0
+29	role	role	I-NP	NN	O	26	OBJ	0
+30	in	in	B-PP	IN	O	26	VMOD	0
+31	tumor	tumor	B-NP	NN	O	32	NMOD	0
+32	biology	biology	I-NP	NN	O	30	PMOD	0
+33	.	.	O	.	O	10	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	laboratory	laboratory	I-NP	NN	O	3	SUB	0
+3	has	have	B-VP	VBZ	O	0	ROOT	0
+4	provided	provide	I-VP	VBN	O	3	VC	0
+5	evidence	evidence	B-NP	NN	O	4	OBJ	0
+6	that	that	B-SBAR	IN	O	5	NMOD	0
+7	thrombin	thrombin	B-NP	NN	B-protein	8	SUB	0
+8	activates	activate	B-VP	VBZ	O	6	SBAR	17	activates
+9	angiogenesis	angiogenesis	B-NP	NN	O	12	NMOD	3	angiogenesis
+10	,	,	O	,	O	12	P	0
+11	a	a	B-NP	DT	O	12	NMOD	0
+12	process	process	I-NP	NN	O	8	OBJ	0
+13	which	which	B-NP	WDT	O	12	NMOD	0
+14	is	be	B-VP	VBZ	O	13	SBAR	0
+15	essential	essential	B-ADJP	JJ	O	14	PRD	17	essential
+16	in	in	B-PP	IN	O	15	AMOD	0
+17	tumor	tumor	B-NP	NN	O	18	NMOD	0
+18	growth	growth	I-NP	NN	O	20	NMOD	4	growth
+19	and	and	I-NP	CC	O	20	NMOD	0
+20	metastasis	metastasis	I-NP	NN	O	16	PMOD	14	metastasis
+21	.	.	O	.	O	3	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	event	event	I-NP	NN	O	3	SUB	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	independent	independent	B-ADJP	JJ	O	3	PRD	0
+5	of	of	B-PP	IN	O	4	AMOD	0
+6	fibrin	fibrin	B-NP	NN	O	7	NMOD	0
+7	formation	formation	I-NP	NN	O	5	PMOD	0
+8	.	.	O	.	O	3	P	0
+
+1	At	At	B-PP	IN	O	9	VMOD	0
+2	the	the	B-NP	DT	O	6	NMOD	0
+3	cellular	cellular	I-NP	JJ	O	6	NMOD	0
+4	level	level	I-NP	NN	O	6	NMOD	0
+5	many	many	I-NP	JJ	O	6	NMOD	0
+6	actions	action	I-NP	NNS	O	1	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	thrombin	thrombin	B-NP	NN	B-protein	7	PMOD	0
+9	can	can	B-VP	MD	O	0	ROOT	0
+10	contribute	contribute	I-VP	VB	O	9	VC	0
+11	to	to	B-PP	TO	O	10	VMOD	0
+12	activation	activation	B-NP	NN	O	11	PMOD	17	activation
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	angiogenesis	angiogenesis	B-NP	NN	O	13	PMOD	3	angiogenesis
+15	:	:	O	:	O	9	P	0
+16	(	(	B-LST	(	O	17	DEP	0
+17	1	1	I-LST	LS	O	9	VMOD	0
+18	)	)	O	)	O	17	DEP	0
+19	.	.	O	.	O	9	P	0
+
+1	Thrombin	Thrombin	B-NP	NN	B-protein	2	SUB	0
+2	decreases	decrease	B-VP	VBZ	O	0	ROOT	18	decreases
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	ability	ability	I-NP	NN	O	2	OBJ	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	endothelial	endothelial	B-NP	JJ	B-cell_type	7	NMOD	0
+7	cells	cell	I-NP	NNS	I-cell_type	5	PMOD	0
+8	to	to	B-VP	TO	O	9	VMOD	0
+9	attach	attach	I-VP	VB	O	4	NMOD	15	attach
+10	to	to	B-PP	TO	O	9	VMOD	0
+11	basement	basement	B-NP	NN	B-protein	13	NMOD	0
+12	membrane	membrane	I-NP	NN	I-protein	13	NMOD	0
+13	proteins	protein	I-NP	NNS	I-protein	10	PMOD	0
+14	.	.	O	.	O	2	P	0
+
+1	(	(	O	(	O	3	DEP	0
+2	2	2	B-NP	CD	O	3	DEP	0
+3	)	)	O	)	O	0	ROOT	0
+4	.	.	O	.	O	3	P	0
+
+1	Thrombin	Thrombin	B-NP	NN	B-protein	3	SUB	0
+2	greatly	greatly	B-VP	RB	O	3	VMOD	0
+3	potentiates	potentiate	I-VP	VBZ	O	11	VMOD	16	potentiates
+4	vascular	vascular	B-NP	JJ	B-protein	7	NMOD	0
+5	endothelial	endothelial	I-NP	JJ	I-protein	7	NMOD	0
+6	growth	growth	I-NP	NN	I-protein	7	NMOD	0
+7	factor-	factor-	I-NP	NN	I-protein	11	SUB	0
+8	(	(	O	(	O	10	DEP	0
+9	VEGF-	VEGF-	B-NP	NN	O	10	DEP	0
+10	)	)	O	)	O	7	NMOD	0
+11	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+12	endothelial	endothelial	B-NP	JJ	B-cell_type	14	NMOD	0
+13	cell	cell	I-NP	NN	I-cell_type	14	NMOD	0
+14	proliferation	proliferation	I-NP	NN	O	11	OBJ	1	proliferation
+15	.	.	O	.	O	11	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	potentiation	potentiation	I-NP	NN	O	3	SUB	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	accompanied	accompany	I-VP	VBN	O	3	VC	0
+5	by	by	B-PP	IN	O	4	VMOD	0
+6	up-regulation	up-regulation	B-NP	NN	O	5	PMOD	17	up-regulation
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	expression	expression	I-NP	NN	O	7	PMOD	9	expression
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	VEGF	VEGF	B-NP	NN	B-protein	12	NMOD	0
+12	receptors	receptor	I-NP	NNS	I-protein	10	PMOD	0
+13	(	(	O	(	O	28	DEP	0
+14	kinase	kinase	B-NP	NN	B-protein	17	NMOD	0
+15	insert	insert	I-NP	NN	I-protein	17	NMOD	0
+16	domain-containing	domain-containing	I-NP	JJ	I-protein	17	NMOD	0
+17	receptor	receptor	I-NP	NN	I-protein	24	NMOD	0
+18	[	[	O	(	O	20	DEP	0
+19	KDR	KDR	B-NP	NN	O	20	DEP	0
+20	]	]	O	)	O	17	NMOD	0
+21	and	and	O	CC	O	24	NMOD	0
+22	fms-like	fms-like	B-NP	JJ	B-protein	24	NMOD	0
+23	tyrosine	tyrosine	I-NP	NN	I-protein	24	NMOD	0
+24	kinase	kinase	I-NP	NN	I-protein	28	DEP	0
+25	[	[	O	(	O	27	DEP	0
+26	Flt-1	Flt-1	B-NP	NN	B-protein	27	DEP	0
+27	]	]	O	)	O	24	NMOD	0
+28	)	)	O	)	O	12	NMOD	0
+29	.	.	O	.	O	3	P	0
+
+1	(	(	O	(	O	3	DEP	0
+2	3	3	B-NP	CD	O	3	DEP	0
+3	)	)	O	)	O	0	ROOT	0
+4	.	.	O	.	O	3	P	0
+
+1	Thrombin	Thrombin	B-NP	NN	B-protein	2	SUB	0
+2	increases	increase	B-VP	VBZ	O	0	ROOT	17	increases
+3	the	the	B-NP	DT	O	7	NMOD	0
+4	mRNA	mRNA	I-NP	NN	B-RNA	7	NMOD	10	mRNA
+5	and	and	I-NP	CC	O	7	NMOD	0
+6	protein	protein	I-NP	NN	O	7	NMOD	0
+7	levels	level	I-NP	NNS	O	2	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	alpha	alpha	B-NP	NN	B-protein	17	NMOD	0
+10	(	(	O	(	I-protein	17	NMOD	0
+11	v	v	B-NP	NN	I-protein	17	NMOD	0
+12	)	)	O	)	I-protein	17	NMOD	0
+13	beta	beta	B-NP	NN	I-protein	17	NMOD	0
+14	(	(	O	(	I-protein	17	NMOD	0
+15	3	3	B-NP	CD	I-protein	17	NMOD	0
+16	)	)	O	)	I-protein	17	NMOD	0
+17	integrin	integrin	B-NP	NN	I-protein	8	PMOD	0
+18	and	and	O	CC	O	2	VMOD	0
+19	serves	serve	B-VP	VBZ	O	2	VMOD	0
+20	as	as	B-PP	IN	O	19	VMOD	0
+21	a	a	B-NP	DT	O	22	NMOD	0
+22	ligand	ligand	I-NP	NN	O	20	PMOD	0
+23	to	to	B-PP	TO	O	22	NMOD	0
+24	this	this	B-NP	DT	O	25	NMOD	0
+25	receptor	receptor	I-NP	NN	O	23	PMOD	0
+26	.	.	O	.	O	2	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	thrombin	thrombin	B-NP	NN	B-protein	4	SUB	0
+4	increases	increase	B-VP	VBZ	O	0	ROOT	17	increases
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	secretion	secretion	I-NP	NN	O	4	OBJ	14	secretion
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	VEGF	VEGF	B-NP	NN	B-protein	7	PMOD	0
+9	and	and	O	CC	O	4	VMOD	0
+10	enhances	enhance	B-VP	VBZ	O	4	VMOD	17	enhances
+11	the	the	B-NP	DT	O	15	NMOD	0
+12	expression	expression	B-NP	NN	O	15	NMOD	9	expression
+13	and	and	O	CC	O	15	NMOD	0
+14	protein	protein	B-NP	NN	O	15	NMOD	0
+15	synthesis	synthesis	I-NP	NN	O	10	OBJ	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	matrix	matrix	B-NP	NN	B-protein	18	NMOD	0
+18	metalloprotease-9	metalloprotease-9	I-NP	NN	I-protein	28	NMOD	0
+19	and	and	O	CC	O	28	NMOD	0
+20	alpha	alpha	B-NP	NN	B-protein	28	NMOD	0
+21	(	(	O	(	I-protein	28	NMOD	0
+22	v	v	B-NP	NN	I-protein	28	NMOD	0
+23	)	)	O	)	I-protein	28	NMOD	0
+24	beta	beta	B-NP	NN	I-protein	28	NMOD	0
+25	(	(	O	(	I-protein	28	NMOD	0
+26	3	3	B-NP	CD	I-protein	28	NMOD	0
+27	)	)	O	)	I-protein	28	NMOD	0
+28	integrin	integrin	B-NP	NN	I-protein	16	PMOD	0
+29	in	in	B-PP	IN	O	28	NMOD	0
+30	human	human	B-NP	JJ	B-cell_line	34	NMOD	0
+31	prostate	prostate	I-NP	NN	I-cell_line	34	NMOD	0
+32	cancer	cancer	I-NP	NN	I-cell_line	34	NMOD	0
+33	PC-3	PC-3	I-NP	NN	I-cell_line	34	NMOD	0
+34	cells	cell	I-NP	NNS	I-cell_line	29	PMOD	0
+35	.	.	O	.	O	4	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	could	could	B-VP	MD	O	13	VMOD	0
+4	explain	explain	I-VP	VB	O	3	VC	0
+5	the	the	B-NP	DT	O	9	NMOD	0
+6	angiogenic	angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+7	and	and	I-NP	CC	O	9	NMOD	0
+8	tumor-promoting	tumor-promoting	I-NP	JJ	O	9	NMOD	17	promoting
+9	effect	effect	I-NP	NN	O	4	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	thrombin	thrombin	B-NP	NN	B-protein	10	PMOD	0
+12	and	and	O	CC	O	3	VMOD	0
+13	provide	provide	B-VP	VBP	O	0	ROOT	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	basis	basis	I-NP	NN	O	13	OBJ	0
+16	for	for	B-PP	IN	O	15	NMOD	0
+17	development	development	B-NP	NN	O	16	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	thrombin	thrombin	B-NP	NN	B-protein	21	NMOD	0
+20	receptor	receptor	I-NP	NN	I-protein	21	NMOD	0
+21	mimetics	mimetic	I-NP	NNS	O	23	NMOD	0
+22	or	or	I-NP	CC	O	23	NMOD	0
+23	antagonists	antagonist	I-NP	NNS	O	18	PMOD	0
+24	for	for	B-PP	IN	O	17	NMOD	0
+25	therapeutic	therapeutic	B-NP	JJ	O	26	NMOD	0
+26	application	application	I-NP	NN	O	24	PMOD	0
+27	.	.	O	.	O	13	P	0
+

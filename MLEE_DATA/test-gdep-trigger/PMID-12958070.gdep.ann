@@ -1,0 +1,255 @@
+1	CCL16	CCL16	B-NP	NN	B-protein	2	SUB	0
+2	activates	activate	B-VP	VBZ	O	0	ROOT	17	activates
+3	an	an	B-NP	DT	O	5	NMOD	0
+4	angiogenic	angiogenic	I-NP	JJ	O	5	NMOD	3	angiogenic
+5	program	program	I-NP	NN	O	2	OBJ	0
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	vascular	vascular	B-NP	JJ	B-cell_type	9	NMOD	0
+8	endothelial	endothelial	I-NP	JJ	I-cell_type	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	0
+10	.	.	O	.	O	2	P	0
+
+1	Besides	Besides	B-PP	IN	O	13	VMOD	0
+2	regulating	regulate	B-VP	VBG	O	1	PMOD	16	regulating
+3	leukocyte	leukocyte	B-NP	NN	O	4	NMOD	0
+4	trafficking	trafficking	I-NP	NN	O	2	OBJ	14	trafficking
+5	in	in	B-PP	IN	O	4	NMOD	0
+6	normal	normal	B-NP	JJ	O	9	NMOD	0
+7	and	and	I-NP	CC	O	9	NMOD	0
+8	injured	injured	I-NP	JJ	O	9	NMOD	6	injured
+9	tissues	tissue	I-NP	NNS	O	5	PMOD	0
+10	,	,	O	,	O	13	P	0
+11	several	several	B-NP	JJ	O	12	NMOD	0
+12	chemokines	chemokine	I-NP	NNS	B-protein	13	SUB	0
+13	may	may	B-VP	MD	O	0	ROOT	0
+14	positively	positively	I-VP	RB	O	13	VMOD	17	positively
+15	or	or	I-VP	CC	O	14	AMOD	0
+16	negatively	negatively	I-VP	RB	O	14	AMOD	0
+17	regulate	regulate	I-VP	VB	O	13	VC	0
+18	angiogenesis	angiogenesis	B-NP	NN	O	17	OBJ	3	angiogenesis
+19	.	.	O	.	O	13	P	0
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	report	report	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	CCL16	CCL16	B-NP	NN	B-protein	6	SUB	0
+6	activates	activate	B-VP	VBZ	O	4	SBAR	17	activates
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	angiogenic	angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	program	program	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	9	NMOD	0
+11	vascular	vascular	B-NP	JJ	B-cell_type	13	NMOD	0
+12	endothelial	endothelial	I-NP	JJ	I-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	0
+14	by	by	B-PP	IN	O	6	VMOD	0
+15	activating	activate	B-VP	VBG	O	14	PMOD	17	activating
+16	CCR1	CCR1	B-NP	NN	B-protein	15	OBJ	0
+17	.	.	O	.	O	3	P	0
+
+1	CCL16	CCL16	B-NP	NN	B-protein	2	SUB	0
+2	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+3	dose-dependent	dose-dependent	B-NP	JJ	O	7	NMOD	0
+4	random	random	I-NP	JJ	O	7	NMOD	0
+5	and	and	I-NP	CC	O	7	NMOD	0
+6	directional	directional	I-NP	JJ	O	7	NMOD	0
+7	migration	migration	I-NP	NN	O	2	OBJ	14	migration
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	endothelial	endothelial	B-NP	JJ	B-cell_type	10	NMOD	0
+10	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	0
+11	isolated	isolate	B-VP	VBN	O	10	NMOD	0
+12	from	from	B-PP	IN	O	11	VMOD	0
+13	large	large	B-NP	JJ	O	14	NMOD	0
+14	vessels	vessel	I-NP	NNS	O	17	NMOD	0
+15	and	and	O	CC	O	17	NMOD	0
+16	liver	liver	B-NP	NN	O	17	NMOD	0
+17	capillaries	capillary	I-NP	NNS	O	12	PMOD	0
+18	without	without	B-PP	IN	O	2	VMOD	0
+19	inducing	induce	B-VP	VBG	O	18	PMOD	17	inducing
+20	their	their	B-NP	PRP$	O	21	NMOD	0
+21	proliferation	proliferation	I-NP	NN	O	19	OBJ	1	proliferation
+22	.	.	O	.	O	2	P	0
+
+1	It	It	B-NP	PRP	O	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+4	endothelial	endothelial	B-NP	JJ	O	5	NMOD	0
+5	differentiation	differentiation	I-NP	NN	O	3	OBJ	2	differentiation
+6	into	into	B-PP	IN	O	5	NMOD	0
+7	capillary-like	capillary-like	B-NP	JJ	O	8	NMOD	0
+8	structures	structure	I-NP	NNS	O	6	PMOD	0
+9	in	in	B-PP	IN	O	3	VMOD	0
+10	an	an	B-NP	DT	O	13	NMOD	0
+11	in	in	I-NP	FW	O	12	AMOD	0
+12	vitro	vitro	I-NP	FW	O	13	NMOD	0
+13	assay	assay	I-NP	NN	O	9	PMOD	0
+14	and	and	O	CC	O	3	VMOD	0
+15	is	be	B-VP	VBZ	O	3	VMOD	0
+16	angiogenic	angiogenic	B-ADJP	JJ	O	15	PRD	3	angiogenic
+17	in	in	B-PP	IN	O	16	AMOD	0
+18	the	the	B-NP	DT	O	21	NMOD	0
+19	chick	chick	I-NP	NN	O	21	NMOD	0
+20	chorionallantoic	chorionallantoic	I-NP	JJ	O	21	NMOD	0
+21	membrane	membrane	I-NP	NN	O	17	PMOD	0
+22	.	.	O	.	O	3	P	0
+
+1	These	These	B-NP	DT	O	3	NMOD	0
+2	angiogenic	angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	activities	activity	I-NP	NNS	O	4	SUB	0
+4	are	be	B-VP	VBP	O	0	ROOT	0
+5	neutralized	neutralize	I-VP	VBN	O	4	VC	18	neutralized
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	a	a	B-NP	DT	O	9	NMOD	0
+8	specific	specific	I-NP	JJ	O	9	NMOD	0
+9	antibody	antibody	I-NP	NN	O	6	PMOD	0
+10	against	against	B-PP	IN	O	9	NMOD	0
+11	CCL16	CCL16	B-NP	NN	B-protein	10	PMOD	0
+12	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	direct	direct	I-NP	JJ	O	4	NMOD	0
+3	angiogenic	angiogenic	I-NP	JJ	O	4	NMOD	3	angiogenic
+4	activity	activity	I-NP	NN	O	7	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	CCL16	CCL16	B-NP	NN	B-protein	5	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	further	further	I-VP	RBR	O	7	VMOD	0
+9	amplified	amplify	I-VP	VBN	O	7	VC	0
+10	by	by	B-PP	IN	O	9	VMOD	0
+11	its	its	B-NP	PRP$	O	12	NMOD	0
+12	ability	ability	I-NP	NN	O	10	PMOD	0
+13	to	to	B-PP	TO	O	12	NMOD	0
+14	prime	prime	B-NP	JJ	O	15	NMOD	0
+15	endothelium	endothelium	I-NP	NN	O	13	PMOD	0
+16	to	to	B-PP	TO	O	12	NMOD	0
+17	a	a	B-NP	DT	O	19	NMOD	0
+18	mitogen	mitogen	I-NP	NN	B-protein	19	NMOD	0
+19	signal	signal	I-NP	NN	O	16	PMOD	0
+20	induced	induce	B-VP	VBN	O	19	NMOD	0
+21	by	by	B-PP	IN	O	20	VMOD	0
+22	vascular	vascular	B-NP	JJ	B-protein	26	NMOD	0
+23	endothelial	endothelial	I-NP	JJ	I-protein	26	NMOD	0
+24	growth	growth	I-NP	NN	I-protein	26	NMOD	0
+25	factor	factor	I-NP	NN	I-protein	26	NMOD	0
+26	A	A	I-NP	NN	I-protein	21	PMOD	0
+27	and	and	O	CC	O	7	VMOD	0
+28	to	to	B-VP	TO	O	29	VMOD	0
+29	raise	raise	I-VP	VB	O	7	VMOD	17	raise
+30	their	their	B-NP	PRP$	O	32	NMOD	0
+31	basal	basal	I-NP	JJ	O	32	NMOD	0
+32	production	production	I-NP	NN	O	29	OBJ	9	production
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	CXCL8	CXCL8	B-NP	NN	B-protein	36	NMOD	0
+35	and	and	I-NP	CC	O	36	NMOD	0
+36	CCL2	CCL2	I-NP	NN	B-protein	33	PMOD	0
+37	,	,	O	,	O	7	P	0
+38	2	2	B-NP	CD	O	41	NMOD	0
+39	other	other	I-NP	JJ	O	41	NMOD	0
+40	angiogenic	angiogenic	I-NP	JJ	B-protein	41	NMOD	3	angiogenic
+41	chemokines	chemokine	I-NP	NNS	I-protein	7	PRD	0
+42	.	.	O	.	O	7	P	0
+
+1	BX471	BX471	B-NP	NN	O	15	NMOD	0
+2	(	(	O	(	O	14	DEP	0
+3	R-N-	R-N-	B-NP	NN	O	14	DEP	0
+4	[	[	O	(	O	14	DEP	0
+5	5-chloro-2-	5-chloro-2-	B-NP	CD	O	14	DEP	0
+6	[	[	O	(	O	14	DEP	0
+7	2-	2-	B-NP	CD	O	14	DEP	0
+8	[	[	O	(	O	14	DEP	0
+9	4	4	B-NP	CD	O	13	NMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	4-fluorophenyl	4-fluorophenyl	B-NP	NN	O	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	methyl	methyl	B-NP	NN	O	14	DEP	0
+14	]	]	O	)	O	1	NMOD	0
+15	-2-methyl-1-piperazinyl	-2-methyl-1-piperazinyl	B-NP	NN	O	24	NMOD	0
+16	]	]	O	)	O	15	NMOD	0
+17	-2-oxoethoxy	-2-oxoethoxy	O	JJ	O	15	AMOD	0
+18	]	]	O	)	O	15	NMOD	0
+19	phenyl	phenyl	B-NP	NN	O	24	NMOD	0
+20	]	]	O	)	O	24	NMOD	0
+21	urea	urea	B-NP	NN	O	24	NMOD	0
+22	hydrochloric	hydrochloric	I-NP	JJ	O	24	NMOD	0
+23	acid	acid	I-NP	NN	O	24	NMOD	0
+24	salt	salt	I-NP	NN	O	29	NMOD	0
+25	)	)	O	)	O	24	NMOD	0
+26	,	,	O	,	O	29	P	0
+27	a	a	B-NP	DT	O	29	NMOD	0
+28	CCR1	CCR1	I-NP	NN	B-protein	29	NMOD	0
+29	antagonist	antagonist	I-NP	NN	O	31	SUB	0
+30	,	,	O	,	O	29	P	0
+31	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+32	angiogenic	angiogenic	B-NP	JJ	O	33	NMOD	3	angiogenic
+33	properties	property	I-NP	NNS	O	31	OBJ	0
+34	of	of	B-PP	IN	O	33	NMOD	0
+35	CCL16	CCL16	B-NP	NN	B-protein	34	PMOD	0
+36	,	,	O	,	O	31	P	0
+37	whereas	whereas	O	IN	O	31	VMOD	0
+38	blocking	blocking	B-NP	NN	O	54	SUB	18	blocking
+39	of	of	B-PP	IN	O	38	NMOD	0
+40	CCR8	CCR8	B-NP	NN	B-protein	39	PMOD	0
+41	or	or	O	CC	O	38	DEP	0
+42	desensitizing	desensitize	B-VP	VBG	O	38	NMOD	18	desensitizing
+43	CCR2	CCR2	B-NP	NN	B-protein	42	OBJ	0
+44	,	,	O	,	O	43	P	0
+45	which	which	B-NP	WDT	O	43	NMOD	0
+46	are	be	B-VP	VBP	O	45	SBAR	0
+47	both	both	O	DT	O	50	NMOD	0
+48	well	well	B-NP	RB	O	49	AMOD	0
+49	known	know	I-NP	VBN	O	50	NMOD	0
+50	receptors	receptor	I-NP	NNS	O	46	PRD	0
+51	for	for	B-PP	IN	O	50	NMOD	0
+52	CCL16	CCL16	B-NP	NN	B-protein	51	PMOD	0
+53	,	,	O	,	O	38	P	0
+54	did	do	B-VP	VBD	O	37	SBAR	0
+55	not	not	I-VP	RB	O	54	VMOD	0
+56	abolish	abolish	I-VP	VB	O	54	VC	18	abolish
+57	endothelial	endothelial	B-NP	JJ	O	58	NMOD	0
+58	activation	activation	I-NP	NN	O	56	OBJ	17	activation
+59	.	.	O	.	O	31	P	0
+
+1	CCL16	CCL16	B-NP	NN	B-protein	2	SUB	0
+2	may	may	B-VP	MD	O	0	ROOT	0
+3	be	be	I-VP	VB	O	2	VC	0
+4	specifically	specifically	I-VP	RB	O	3	VMOD	0
+5	cross-linked	cross-linke	I-VP	VBN	O	3	VC	0
+6	to	to	B-PP	TO	O	5	VMOD	0
+7	CCR1	CCR1	B-NP	NN	B-protein	6	PMOD	0
+8	expressed	express	B-VP	VBN	O	7	NMOD	9	expressed
+9	on	on	B-PP	IN	O	8	VMOD	0
+10	endothelial	endothelial	B-NP	JJ	B-cell_type	11	NMOD	0
+11	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	0
+12	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	5	NMOD	0
+2	largely	largely	I-NP	RB	O	3	AMOD	0
+3	restricted	restricted	I-NP	JJ	O	5	NMOD	18	restricted
+4	CCL16	CCL16	I-NP	NN	O	5	NMOD	0
+5	expression	expression	I-NP	NN	O	9	SUB	9	expression
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	liver	liver	I-NP	NN	O	6	PMOD	0
+9	suggests	suggest	B-VP	VBZ	O	0	ROOT	0
+10	that	that	B-SBAR	IN	O	9	VMOD	0
+11	this	this	B-NP	DT	O	12	NMOD	0
+12	chemokine	chemokine	I-NP	NN	B-protein	13	SUB	0
+13	may	may	B-VP	MD	O	10	SBAR	0
+14	play	play	I-VP	VB	O	13	VC	0
+15	a	a	B-NP	DT	O	16	NMOD	0
+16	role	role	I-NP	NN	O	14	OBJ	0
+17	in	in	B-PP	IN	O	14	VMOD	0
+18	hepatic	hepatic	B-NP	JJ	O	20	NMOD	0
+19	vascular	vascular	I-NP	JJ	O	20	NMOD	0
+20	formation	formation	I-NP	NN	O	17	PMOD	2	formation
+21	during	during	B-PP	IN	O	20	NMOD	0
+22	development	development	B-NP	NN	O	21	PMOD	0
+23	and	and	B-PP	CC	O	17	PMOD	0
+24	in	in	B-PP	IN	O	17	PMOD	0
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	associated	associate	B-VP	VBN	O	25	NMOD	0
+27	to	to	B-PP	TO	O	26	VMOD	0
+28	hepatic	hepatic	B-NP	JJ	O	29	NMOD	0
+29	diseases	disease	I-NP	NNS	O	27	PMOD	0
+30	.	.	O	.	O	9	P	0
+

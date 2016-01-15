@@ -1,0 +1,265 @@
+1	Antiapoptotic	Antiapoptotic	B-NP	JJ	O	2	NMOD	0
+2	effect	effect	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	coagulation	coagulation	B-NP	NN	B-protein	6	NMOD	0
+5	factor	factor	I-NP	NN	I-protein	6	NMOD	0
+6	VIIa	VIIa	I-NP	NN	I-protein	3	PMOD	0
+7	.	.	O	.	O	2	P	0
+
+1	Binding	Binding	B-NP	NN	O	17	SUB	15	Binding
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	factor	factor	B-NP	NN	O	4	NMOD	0
+4	VIIa	VIIa	I-NP	NN	O	2	PMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	FVIIa	FVIIa	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	to	to	B-PP	TO	O	4	NMOD	0
+9	its	its	B-NP	PRP$	O	13	NMOD	0
+10	cellular	cellular	I-NP	JJ	B-protein	13	NMOD	0
+11	receptor	receptor	I-NP	NN	I-protein	13	NMOD	0
+12	tissue	tissue	I-NP	NN	I-protein	13	NMOD	0
+13	factor	factor	I-NP	NN	I-protein	8	PMOD	0
+14	(	(	O	(	O	16	DEP	0
+15	TF	TF	B-NP	NN	B-protein	16	DEP	0
+16	)	)	O	)	O	13	NMOD	0
+17	was	be	B-VP	VBD	O	0	ROOT	0
+18	previously	previously	I-VP	RB	O	17	VMOD	0
+19	shown	show	I-VP	VBN	O	17	VC	0
+20	to	to	I-VP	TO	O	21	VMOD	0
+21	induce	induce	I-VP	VB	O	19	VMOD	17	induce
+22	various	various	B-NP	JJ	O	25	NMOD	0
+23	intracellular	intracellular	I-NP	JJ	O	25	NMOD	0
+24	signaling	signaling	I-NP	NN	O	25	NMOD	0
+25	events	event	I-NP	NNS	O	21	OBJ	0
+26	,	,	O	,	O	25	P	0
+27	which	which	B-NP	WDT	O	25	NMOD	0
+28	were	be	B-VP	VBD	O	27	SBAR	0
+29	thought	think	I-VP	VBN	O	28	VC	0
+30	to	to	I-VP	TO	O	31	VMOD	0
+31	be	be	I-VP	VB	O	29	VMOD	0
+32	responsible	responsible	B-ADJP	JJ	O	31	PRD	0
+33	for	for	B-PP	IN	O	32	AMOD	0
+34	TF-mediated	TF-mediated	B-NP	JJ	O	36	NMOD	17	mediated
+35	biologic	biologic	I-NP	JJ	O	36	NMOD	0
+36	effects	effect	I-NP	NNS	O	33	PMOD	0
+37	,	,	O	,	O	36	P	0
+38	including	include	B-PP	VBG	O	36	NMOD	0
+39	angiogenesis	angiogenesis	B-NP	NN	O	45	NMOD	3	angiogenesis
+40	,	,	O	,	O	45	P	0
+41	tumor	tumor	B-NP	NN	O	42	NMOD	0
+42	metastasis	metastasis	I-NP	NN	O	45	NMOD	14	metastasis
+43	,	,	O	,	O	45	P	0
+44	and	and	O	CC	O	45	NMOD	0
+45	restenosis	restenosis	B-NP	NN	O	38	PMOD	0
+46	.	.	O	.	O	17	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	understand	understand	I-VP	VB	O	10	VMOD	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	mechanisms	mechanism	I-NP	NNS	O	2	OBJ	0
+5	behind	behind	B-PP	IN	O	4	NMOD	0
+6	these	these	B-NP	DT	O	7	NMOD	0
+7	processes	process	I-NP	NNS	O	5	PMOD	0
+8	,	,	O	,	O	10	P	0
+9	we	we	B-NP	PRP	O	10	SUB	0
+10	have	have	B-VP	VBP	O	0	ROOT	0
+11	examined	examine	I-VP	VBN	O	10	VC	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	effect	effect	I-NP	NN	O	11	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	FVIIa	FVIIa	B-NP	NN	B-protein	14	PMOD	0
+16	on	on	B-PP	IN	O	13	NMOD	0
+17	apoptosis	apoptosis	B-NP	NN	O	16	PMOD	0
+18	.	.	O	.	O	10	P	0
+
+1	Serum	Serum	B-NP	NN	O	3	NMOD	0
+2	deprivation-induced	deprivation-induced	I-NP	JJ	O	3	NMOD	17	induced
+3	apoptosis	apoptosis	I-NP	NN	O	10	SUB	5	apoptosis
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	BHK	BHK	B-NP	NN	B-protein	9	NMOD	0
+6	(	(	O	(	O	8	DEP	0
+7	+TF	+TF	B-NP	NN	O	8	DEP	0
+8	)	)	O	)	O	5	NMOD	0
+9	cells	cell	B-NP	NNS	O	4	PMOD	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	characterized	characterize	I-VP	VBN	O	10	VC	0
+12	by	by	B-PP	IN	O	11	VMOD	0
+13	apoptotic	apoptotic	B-NP	JJ	B-protein	14	NMOD	0
+14	blebs	bleb	I-NP	NNS	I-protein	12	PMOD	0
+15	,	,	O	,	O	16	P	0
+16	nuclei	nucleus	B-NP	NNS	O	14	NMOD	0
+17	with	with	B-PP	IN	O	16	NMOD	0
+18	chromatin-condensed	chromatin-condensed	B-NP	JJ	B-DNA	19	NMOD	0
+19	bodies	body	I-NP	NNS	I-DNA	17	PMOD	0
+20	,	,	O	,	O	22	P	0
+21	DNA	DNA	B-NP	NN	O	22	NMOD	0
+22	degradation	degradation	I-NP	NN	O	16	NMOD	0
+23	,	,	O	,	O	29	P	0
+24	and	and	O	CC	O	29	NMOD	0
+25	activation	activation	B-NP	NN	O	24	PMOD	17	activation
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	caspase	caspase	B-NP	NN	B-protein	26	PMOD	0
+28	3	3	I-NP	CD	I-protein	27	NMOD	0
+29	.	.	O	.	O	22	P	0
+
+1	FVIIa	FVIIa	B-NP	NN	B-protein	3	SUB	0
+2	markedly	markedly	B-ADVP	RB	O	3	VMOD	0
+3	decreased	decrease	B-VP	VBD	O	0	ROOT	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	number	number	I-NP	NN	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	cells	cell	B-NP	NNS	O	6	PMOD	0
+8	with	with	B-PP	IN	O	5	NMOD	0
+9	apoptotic	apoptotic	B-NP	JJ	O	10	NMOD	0
+10	morphology	morphology	I-NP	NN	O	8	PMOD	0
+11	and	and	O	CC	O	3	VMOD	0
+12	prevented	prevent	B-VP	VBD	O	3	VMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	DNA	DNA	I-NP	NN	O	15	NMOD	0
+15	degradation	degradation	I-NP	NN	O	12	OBJ	0
+16	as	as	B-SBAR	IN	O	12	VMOD	0
+17	measured	measure	B-VP	VBN	O	16	SBAR	0
+18	by	by	B-PP	IN	O	17	VMOD	0
+19	means	mean	B-NP	NNS	O	18	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	TdT-mediated	TdT-mediated	B-NP	JJ	O	25	NMOD	0
+22	dUTP	dUTP	I-NP	NN	O	25	NMOD	0
+23	nick	nick	I-NP	NN	O	25	NMOD	0
+24	end	end	I-NP	NN	O	25	NMOD	0
+25	labeling	labeling	I-NP	NN	O	20	PMOD	0
+26	(	(	O	(	O	28	DEP	0
+27	TUNEL	TUNEL	B-NP	NN	B-protein	28	DEP	0
+28	)	)	O	)	O	25	NMOD	0
+29	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	antiapoptotic	antiapoptotic	I-NP	JJ	O	3	NMOD	0
+3	effect	effect	I-NP	NN	O	6	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	FVIIa	FVIIa	B-NP	NN	B-protein	4	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	confirmed	confirm	I-VP	VBN	O	6	VC	0
+8	by	by	B-PP	IN	O	7	VMOD	0
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	observation	observation	I-NP	NN	O	8	PMOD	0
+11	that	that	B-SBAR	IN	O	10	NMOD	0
+12	FVIIa	FVIIa	B-NP	NN	B-protein	13	SUB	0
+13	attenuated	attenuate	B-VP	VBD	O	11	SBAR	18	attenuated
+14	caspase	caspase	B-NP	NN	B-protein	16	NMOD	0
+15	3	3	I-NP	CD	I-protein	16	NMOD	0
+16	activation	activation	I-NP	NN	O	13	OBJ	17	activation
+17	.	.	O	.	O	6	P	0
+
+1	FVIIa-induced	FVIIa-induced	B-NP	JJ	O	3	NMOD	0
+2	antiapoptotic	antiapoptotic	I-NP	JJ	O	3	NMOD	0
+3	effect	effect	I-NP	NN	O	4	SUB	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	dependent	dependent	B-ADJP	JJ	O	4	PRD	0
+6	on	on	B-PP	IN	O	5	AMOD	0
+7	its	its	B-NP	PRP$	O	9	NMOD	0
+8	proteolytic	proteolytic	I-NP	JJ	O	9	NMOD	0
+9	activity	activity	I-NP	NN	O	11	NMOD	0
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	TF	TF	I-NP	NN	B-protein	6	PMOD	0
+12	but	but	O	CC	O	13	AMOD	0
+13	independent	independent	B-ADJP	JJ	O	5	AMOD	0
+14	of	of	B-PP	IN	O	13	AMOD	0
+15	factor	factor	B-NP	NN	O	16	NMOD	0
+16	Xa	Xa	I-NP	NN	O	18	NMOD	0
+17	and	and	I-NP	CC	O	18	NMOD	0
+18	thrombin	thrombin	I-NP	NN	B-protein	14	PMOD	0
+19	.	.	O	.	O	4	P	0
+
+1	FVIIa-induced	FVIIa-induced	B-NP	JJ	O	3	NMOD	17	induced
+2	cell	cell	I-NP	NN	O	3	NMOD	0
+3	survival	survival	I-NP	NN	O	4	SUB	5	survival
+4	correlated	correlate	B-VP	VBD	O	0	ROOT	0
+5	with	with	B-PP	IN	O	4	VMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	activation	activation	I-NP	NN	O	5	PMOD	17	activation
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	Akt	Akt	B-NP	NN	B-protein	8	PMOD	0
+10	and	and	O	CC	O	4	VMOD	0
+11	was	be	B-VP	VBD	O	4	VMOD	0
+12	inhibited	inhibit	I-VP	VBN	O	11	VC	0
+13	markedly	markedly	B-ADVP	RB	O	12	VMOD	0
+14	by	by	B-PP	IN	O	12	VMOD	0
+15	the	the	B-NP	DT	O	18	NMOD	0
+16	specific	specific	I-NP	JJ	O	18	NMOD	0
+17	PI3-kinase	PI3-kinase	I-NP	NN	B-protein	18	NMOD	0
+18	inhibitor	inhibitor	I-NP	NN	O	20	NMOD	0
+19	,	,	O	,	O	20	P	0
+20	LY294002	LY294002	B-NP	NN	O	14	PMOD	0
+21	.	.	O	.	O	4	P	0
+
+1	Blocking	Block	B-VP	VBG	O	25	VMOD	18	Blocking
+2	the	the	B-NP	DT	O	3	NMOD	0
+3	activation	activation	I-NP	NN	O	1	OBJ	17	activation
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	p44/42	p44/42	B-NP	NN	B-protein	8	NMOD	0
+6	mitogen-activated	mitogen-activated	I-NP	JJ	I-protein	8	NMOD	0
+7	protein	protein	I-NP	NN	I-protein	8	NMOD	0
+8	kinase	kinase	I-NP	NN	I-protein	4	PMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	MAPK	MAPK	B-NP	NN	B-protein	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	by	by	B-PP	IN	O	1	VMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	specific	specific	I-NP	JJ	O	12	PMOD	0
+15	mitogen-induced	mitogen-induced	I-NP	JJ	B-protein	17	NMOD	0
+16	extracellular	extracellular	I-NP	JJ	I-protein	17	NMOD	0
+17	kinase	kinase	I-NP	NN	I-protein	21	NMOD	0
+18	(	(	O	(	O	20	DEP	0
+19	MEK	MEK	B-NP	NN	B-protein	20	DEP	0
+20	)	)	O	)	O	17	NMOD	0
+21	inhibitor	inhibitor	B-NP	NN	O	23	NMOD	0
+22	,	,	O	,	O	23	P	0
+23	U0126	U0126	B-NP	NN	O	14	NMOD	0
+24	,	,	O	,	O	25	P	0
+25	impaired	impair	B-VP	VBD	O	0	ROOT	18	impaired
+26	modestly	modestly	B-ADVP	RB	O	25	VMOD	0
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	ability	ability	I-NP	NN	O	25	OBJ	0
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	FVIIa	FVIIa	B-NP	NN	B-protein	29	PMOD	0
+31	to	to	B-VP	TO	O	32	VMOD	0
+32	promote	promote	I-VP	VB	O	28	NMOD	17	promote
+33	cell	cell	B-NP	NN	O	34	NMOD	0
+34	survival	survival	I-NP	NN	O	32	OBJ	5	survival
+35	.	.	O	.	O	25	P	0
+
+1	In	In	B-PP	IN	O	8	VMOD	0
+2	conclusion	conclusion	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	8	P	0
+4	FVIIa	FVIIa	B-NP	NN	O	5	NMOD	0
+5	binding	binding	I-NP	NN	O	8	SUB	15	binding
+6	to	to	B-PP	TO	O	5	NMOD	0
+7	TF	TF	B-NP	NN	B-protein	6	PMOD	0
+8	provided	provide	B-VP	VBD	O	0	ROOT	0
+9	protection	protection	B-NP	NN	O	8	OBJ	0
+10	against	against	B-PP	IN	O	9	NMOD	0
+11	apoptosis	apoptosis	B-NP	NN	O	10	PMOD	0
+12	induced	induce	B-VP	VBN	O	11	NMOD	0
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	growth	growth	B-NP	NN	B-protein	16	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	16	NMOD	0
+16	deprivation	deprivation	I-NP	NN	O	13	PMOD	0
+17	,	,	O	,	O	8	P	0
+18	primarily	primarily	B-ADVP	RB	O	19	PMOD	0
+19	through	through	B-PP	IN	O	33	NMOD	0
+20	activation	activation	B-NP	NN	O	19	PMOD	17	activation
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	PI3-kinase/Akt	PI3-kinase/Akt	B-NP	NN	B-protein	23	NMOD	0
+23	pathway	pathway	I-NP	NN	O	21	PMOD	0
+24	,	,	O	,	O	19	P	0
+25	and	and	O	CC	O	19	PMOD	0
+26	to	to	B-PP	TO	O	19	PMOD	0
+27	a	a	B-NP	DT	O	29	NMOD	0
+28	lesser	less	I-NP	JJR	O	29	NMOD	0
+29	extent	extent	I-NP	NN	O	26	PMOD	0
+30	,	,	O	,	O	19	P	0
+31	p44/42	p44/42	B-NP	NN	B-protein	33	NMOD	0
+32	MAPK	MAPK	I-NP	NN	I-protein	33	NMOD	0
+33	pathway	pathway	I-NP	NN	O	8	VMOD	0
+34	.	.	O	.	O	8	P	0
+

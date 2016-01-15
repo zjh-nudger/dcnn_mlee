@@ -1,0 +1,260 @@
+1	Autocrine	Autocrine	B-NP	JJ	O	4	NMOD	-1
+2	angiogenic	angiogenic	I-NP	JJ	O	4	NMOD	3	angiogenic
+3	vascular	vascular	I-NP	JJ	O	4	NMOD	-1
+4	prosthesis	prosthesis	I-NP	NN	O	0	ROOT	-1
+5	with	with	B-PP	IN	O	4	NMOD	-1
+6	bone	bone	B-NP	NN	O	8	NMOD	-1
+7	marrow	marrow	I-NP	NN	O	8	NMOD	-1
+8	transplantation	transplantation	I-NP	NN	O	5	PMOD	19	transplantation
+9	.	.	O	.	O	4	P	-1
+
+1	Synthetic	Synthetic	B-NP	JJ	O	3	NMOD	-1
+2	vascular	vascular	I-NP	JJ	O	3	NMOD	-1
+3	prostheses	prosthesis	I-NP	NNS	O	4	SUB	-1
+4	are	be	B-VP	VBP	O	0	ROOT	-1
+5	foreign	foreign	B-NP	JJ	O	6	NMOD	-1
+6	bodies	body	I-NP	NNS	O	4	PRD	-1
+7	,	,	O	,	O	4	P	-1
+8	so	so	B-SBAR	IN	O	4	VMOD	-1
+9	that	that	I-SBAR	IN	O	8	PMOD	-1
+10	blood	blood	B-NP	NN	O	11	NMOD	-1
+11	coagulation	coagulation	I-NP	NN	O	12	SUB	-1
+12	can	can	B-VP	MD	O	9	SBAR	-1
+13	occur	occur	I-VP	VB	O	12	VC	-1
+14	on	on	B-PP	IN	O	13	VMOD	-1
+15	their	their	B-NP	PRP$	O	17	NMOD	-1
+16	luminal	luminal	I-NP	JJ	O	17	NMOD	-1
+17	surfaces	surface	I-NP	NNS	O	14	PMOD	-1
+18	,	,	O	,	O	12	P	-1
+19	causing	cause	B-VP	VBG	O	12	VMOD	-1
+20	graft	graft	B-NP	NN	O	21	NMOD	-1
+21	occlusion	occlusion	I-NP	NN	O	19	OBJ	-1
+22	very	very	B-ADVP	RB	O	21	NMOD	-1
+23	frequently	frequently	I-ADVP	RB	O	22	AMOD	-1
+24	in	in	B-PP	IN	O	22	AMOD	-1
+25	prostheses	prosthesis	B-NP	NNS	O	24	PMOD	-1
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	small	small	B-NP	JJ	O	28	NMOD	-1
+28	diameter	diameter	I-NP	NN	O	26	PMOD	-1
+29	.	.	O	.	O	4	P	-1
+
+1	A	A	B-NP	DT	O	3	NMOD	-1
+2	vascular	vascular	I-NP	JJ	O	3	NMOD	-1
+3	prosthesis	prosthesis	I-NP	NN	O	4	SUB	-1
+4	needs	need	B-VP	VBZ	O	0	ROOT	-1
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	OBJ	3	angiogenesis
+6	for	for	B-PP	IN	O	5	NMOD	-1
+7	endothelialization	endothelialization	B-NP	NN	O	6	PMOD	3	endothelialization
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	luminal	luminal	I-NP	JJ	O	11	NMOD	-1
+11	surface	surface	I-NP	NN	O	8	PMOD	-1
+12	,	,	O	,	O	4	P	-1
+13	as	as	B-SBAR	IN	O	4	VMOD	-1
+14	endothelial	endothelial	B-NP	JJ	B-cell_type	15	NMOD	-1
+15	cells	cell	I-NP	NNS	I-cell_type	16	SUB	-1
+16	have	have	B-VP	VBP	O	13	SBAR	-1
+17	natural	natural	B-NP	JJ	O	21	NMOD	-1
+18	and	and	I-NP	CC	O	21	NMOD	-1
+19	permanent	permanent	I-NP	JJ	O	21	NMOD	-1
+20	antithrombogenic	antithrombogenic	I-NP	JJ	O	21	NMOD	-1
+21	properties	property	I-NP	NNS	O	16	OBJ	0
+22	.	.	O	.	O	4	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	induce	induce	I-VP	VB	O	10	VMOD	17	induce
+3	capillary	capillary	B-NP	JJ	O	4	NMOD	-1
+4	growth	growth	I-NP	NN	O	2	OBJ	4	growth
+5	into	into	B-PP	IN	O	2	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	graft	graft	I-NP	NN	O	5	PMOD	-1
+8	,	,	O	,	O	10	P	-1
+9	we	we	B-NP	PRP	O	10	SUB	-1
+10	developed	develop	B-VP	VBD	O	0	ROOT	0
+11	a	a	B-NP	DT	O	12	NMOD	-1
+12	method	method	I-NP	NN	O	10	OBJ	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	transplanting	transplant	B-VP	VBG	B-cell_type	17	NMOD	19	transplanting
+15	bone	bone	B-NP	NN	I-cell_type	17	NMOD	-1
+16	marrow	marrow	I-NP	NN	I-cell_type	17	NMOD	-1
+17	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	-1
+18	,	,	O	,	O	17	P	-1
+19	which	which	B-NP	WDT	O	17	NMOD	-1
+20	are	be	B-VP	VBP	O	19	SBAR	-1
+21	primitive	primitive	B-ADJP	JJ	O	23	AMOD	-1
+22	,	,	O	,	O	23	P	-1
+23	strong	strong	B-ADJP	JJ	O	24	AMOD	-1
+24	enough	enough	I-ADJP	RB	O	26	VMOD	-1
+25	to	to	B-VP	TO	O	26	VMOD	-1
+26	survive	survive	I-VP	VB	O	20	VMOD	0
+27	,	,	O	,	O	10	P	-1
+28	and	and	O	CC	O	10	VMOD	-1
+29	create	create	B-VP	VB	O	10	VMOD	2	create
+30	blood	blood	B-NP	NN	B-cell_type	31	NMOD	-1
+31	cells	cell	I-NP	NNS	I-cell_type	29	OBJ	-1
+32	,	,	O	,	O	29	P	-1
+33	resulting	result	B-VP	VBG	O	29	VMOD	17	resulting
+34	in	in	B-PP	IN	O	33	VMOD	-1
+35	the	the	B-NP	DT	O	36	NMOD	-1
+36	inducement	inducement	I-NP	NN	O	34	PMOD	17	inducement
+37	of	of	B-PP	IN	O	36	NMOD	-1
+38	capillary	capillary	B-NP	JJ	O	39	NMOD	-1
+39	growth	growth	I-NP	NN	O	37	PMOD	4	growth
+40	.	.	O	.	O	10	P	-1
+
+1	In	In	B-PP	IN	O	8	VMOD	-1
+2	an	an	B-NP	DT	O	4	NMOD	-1
+3	animal	animal	I-NP	NN	O	4	NMOD	-1
+4	experiment	experiment	I-NP	NN	O	1	PMOD	-1
+5	,	,	O	,	O	8	P	-1
+6	marrow	marrow	B-NP	NN	B-cell_type	7	NMOD	-1
+7	cells	cell	I-NP	NNS	I-cell_type	8	SUB	-1
+8	were	be	B-VP	VBD	O	0	ROOT	-1
+9	infiltrated	infiltrate	I-VP	VBN	O	8	VC	14	infiltrated
+10	into	into	B-PP	IN	O	9	VMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	walls	wall	I-NP	NNS	O	10	PMOD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	long-fibril	long-fibril	B-NP	JJ	O	16	NMOD	-1
+15	expanded	expand	I-NP	VBN	O	16	NMOD	-1
+16	polytetrafluoroethylene	polytetrafluoroethylene	I-NP	NN	O	21	NMOD	-1
+17	(	(	O	(	O	19	DEP	-1
+18	ePTFE	ePTFE	B-NP	NN	O	19	DEP	-1
+19	)	)	O	)	O	16	NMOD	-1
+20	vascular	vascular	B-NP	JJ	O	21	NMOD	-1
+21	grafts	graft	I-NP	NNS	O	13	PMOD	-1
+22	.	.	O	.	O	8	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	grafts	graft	I-NP	NNS	O	3	SUB	-1
+3	were	be	B-VP	VBD	O	0	ROOT	-1
+4	implanted	implant	I-VP	VBN	O	3	VC	19	implanted
+5	in	in	B-PP	IN	O	4	VMOD	-1
+6	the	the	B-NP	DT	O	9	NMOD	-1
+7	abdominal	abdominal	I-NP	JJ	O	9	NMOD	-1
+8	aortic	aortic	I-NP	JJ	O	9	NMOD	-1
+9	position	position	I-NP	NN	O	5	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	24	24	B-NP	CD	O	12	NMOD	-1
+12	dogs	dog	I-NP	NNS	O	10	PMOD	-1
+13	autologously	autologously	B-ADVP	RB	O	12	NMOD	-1
+14	.	.	O	.	O	3	P	-1
+
+1	Marrow	Marrow	B-NP	NN	B-cell_type	2	NMOD	-1
+2	cells	cell	I-NP	NNS	I-cell_type	3	SUB	-1
+3	survived	survive	B-VP	VBD	O	0	ROOT	5	survived
+4	and	and	O	CC	O	3	VMOD	-1
+5	continued	continue	B-NP	VBD	O	3	VMOD	-1
+6	exogenous	exogenous	I-NP	JJ	O	7	NMOD	-1
+7	hemopoiesis	hemopoiesis	I-NP	NN	O	5	OBJ	-1
+8	for	for	B-PP	IN	O	5	VMOD	-1
+9	up	up	B-NP	RB	O	12	NMOD	-1
+10	to	to	I-NP	TO	O	9	AMOD	-1
+11	six	six	I-NP	CD	O	9	AMOD	-1
+12	months	month	I-NP	NNS	O	8	PMOD	-1
+13	and	and	O	CC	O	3	VMOD	-1
+14	were	be	B-VP	VBD	O	3	VMOD	-1
+15	immunohistochemically	immunohistochemically	B-ADJP	RB	O	16	AMOD	-1
+16	reactive	reactive	I-ADJP	JJ	O	14	PRD	-1
+17	to	to	B-PP	TO	O	16	AMOD	-1
+18	basic	basic	B-NP	JJ	B-protein	21	NMOD	-1
+19	fibroblast	fibroblast	I-NP	NN	I-protein	21	NMOD	-1
+20	growth	growth	I-NP	NN	I-protein	21	NMOD	0
+21	factor	factor	I-NP	NN	I-protein	17	PMOD	-1
+22	(	(	O	(	O	24	DEP	-1
+23	bFGF	bFGF	B-NP	NN	B-protein	24	DEP	-1
+24	)	)	O	)	O	21	NMOD	-1
+25	.	.	O	.	O	3	P	-1
+
+1	All	All	B-NP	PDT	O	3	NMOD	-1
+2	the	the	I-NP	DT	O	3	NMOD	-1
+3	grafts	graft	I-NP	NNS	O	8	SUB	-1
+4	older	old	B-ADJP	JJR	O	3	NMOD	-1
+5	than	than	B-PP	IN	O	4	AMOD	-1
+6	three	three	B-NP	CD	O	7	NMOD	-1
+7	weeks	week	I-NP	NNS	O	5	PMOD	-1
+8	had	have	B-VP	VBD	O	0	ROOT	-1
+9	complete	complete	B-NP	JJ	O	10	NMOD	-1
+10	endothelialization	endothelialization	I-NP	NN	O	8	OBJ	3	endothelialization
+11	and	and	O	CC	O	8	VMOD	-1
+12	maintained	maintain	B-VP	VBD	O	8	VMOD	0
+13	their	their	B-NP	PRP$	O	14	NMOD	-1
+14	patency	patency	I-NP	NN	O	12	OBJ	-1
+15	.	.	O	.	O	8	P	-1
+
+1	Twenty	Twenty	B-NP	CD	O	2	NMOD	-1
+2	grafts	graft	I-NP	NNS	O	6	SUB	-1
+3	without	without	B-PP	IN	O	2	NMOD	-1
+4	bone	bone	B-NP	NN	O	5	NMOD	-1
+5	marrow	marrow	I-NP	NN	O	3	PMOD	-1
+6	were	be	B-VP	VBD	O	0	ROOT	-1
+7	implanted	implant	I-VP	VBN	O	6	VC	0
+8	as	as	B-PP	IN	O	7	VMOD	-1
+9	controls	control	B-NP	NNS	O	8	PMOD	0
+10	.	.	O	.	O	6	P	-1
+
+1	Endothelialization	Endothelialization	B-NP	NN	O	2	SUB	3	Endothelialization
+2	was	be	B-VP	VBD	O	11	VMOD	-1
+3	present	present	B-ADJP	JJ	O	2	PRD	0
+4	at	at	B-PP	IN	O	3	AMOD	-1
+5	anastomotic	anastomotic	B-NP	JJ	O	6	NMOD	-1
+6	sites	site	I-NP	NNS	O	4	PMOD	-1
+7	,	,	O	,	O	11	P	-1
+8	but	but	O	CC	O	11	VMOD	-1
+9	other	other	B-NP	JJ	O	10	NMOD	-1
+10	areas	area	I-NP	NNS	O	11	SUB	-1
+11	were	be	B-VP	VBD	O	0	ROOT	-1
+12	covered	cover	I-VP	VBN	O	11	VC	-1
+13	with	with	B-PP	IN	O	12	VMOD	-1
+14	fresh	fresh	B-NP	JJ	O	15	NMOD	-1
+15	thrombi	thrombi	I-NP	NN	O	13	PMOD	-1
+16	.	.	O	.	O	11	P	-1
+
+1	Four	Four	B-NP	CD	O	3	AMOD	-1
+2	out	out	I-NP	IN	O	3	AMOD	-1
+3	of	of	B-PP	IN	O	19	VMOD	-1
+4	seven	seven	B-NP	CD	O	3	AMOD	-1
+5	control	control	I-NP	NN	O	6	NMOD	0
+6	grafts	graft	I-NP	NNS	O	7	SUB	-1
+7	were	be	B-VP	VBD	O	19	VMOD	-1
+8	patent	patent	B-NP	NN	O	7	PRD	-1
+9	with	with	B-PP	IN	O	8	NMOD	-1
+10	endothelial	endothelial	B-NP	JJ	O	12	NMOD	-1
+11	cell	cell	I-NP	NN	O	12	NMOD	-1
+12	lining	lining	I-NP	NN	O	9	PMOD	-1
+13	at	at	B-PP	IN	O	7	VMOD	-1
+14	six	six	B-NP	CD	O	15	NMOD	-1
+15	months	month	I-NP	NNS	O	13	PMOD	-1
+16	,	,	O	,	O	19	P	-1
+17	but	but	O	CC	O	18	NMOD	-1
+18	three	three	B-NP	CD	O	19	SUB	-1
+19	were	be	B-VP	VBD	O	27	VMOD	-1
+20	occluded	occlude	I-VP	VBN	O	19	VC	-1
+21	and	and	O	CC	O	27	VMOD	-1
+22	one	one	B-NP	CD	O	27	SUB	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	the	the	B-NP	DT	O	26	NMOD	-1
+25	four	four	I-NP	CD	O	26	NMOD	-1
+26	grafts	graft	I-NP	NNS	O	23	PMOD	-1
+27	was	be	B-VP	VBD	O	0	ROOT	-1
+28	still	still	I-VP	RB	O	27	VMOD	-1
+29	covered	cover	I-VP	VBN	O	27	VC	-1
+30	with	with	B-PP	IN	O	29	VMOD	-1
+31	a	a	B-NP	DT	O	33	NMOD	-1
+32	thrombus	thrombus	I-NP	NN	O	33	NMOD	-1
+33	layer	layer	I-NP	NN	O	30	PMOD	-1
+34	.	.	O	.	O	27	P	-1
+
+1	Bone	Bone	B-NP	NN	O	2	NMOD	-1
+2	marrow	marrow	I-NP	NN	O	8	SUB	-1
+3	with	with	B-PP	IN	O	2	NMOD	-1
+4	its	its	B-NP	PRP$	O	7	NMOD	-1
+5	unique	unique	I-NP	JJ	O	6	AMOD	-1
+6	native	native	I-NP	JJ	O	7	NMOD	-1
+7	properties	property	I-NP	NNS	O	3	PMOD	0
+8	produced	produce	B-VP	VBD	O	0	ROOT	0
+9	autocrine	autocrine	B-NP	JJ	O	10	NMOD	-1
+10	angiogenicity	angiogenicity	I-NP	NN	O	8	OBJ	3	angiogenicity
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	graft	graft	I-NP	NN	O	11	PMOD	-1

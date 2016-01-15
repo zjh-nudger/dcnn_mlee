@@ -1,0 +1,268 @@
+1	Cell	Cell	B-NP	NN	O	3	NMOD	0
+2	type-specific	type-specific	I-NP	JJ	O	3	NMOD	0
+3	regulation	regulation	I-NP	NN	O	11	NMOD	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	angiogenic	angiogenic	B-NP	JJ	O	9	NMOD	3	angiogenic
+6	growth	growth	I-NP	NN	O	9	NMOD	0
+7	factor	factor	I-NP	NN	O	9	NMOD	0
+8	gene	gene	I-NP	NN	O	9	NMOD	0
+9	expression	expression	I-NP	NN	O	4	PMOD	0
+10	and	and	O	CC	O	11	NMOD	0
+11	induction	induction	B-NP	NN	O	0	ROOT	17	induction
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	PMOD	3	angiogenesis
+14	in	in	B-PP	IN	O	11	NMOD	0
+15	nonischemic	nonischemic	B-NP	JJ	O	16	NMOD	0
+16	tissue	tissue	I-NP	NN	O	14	PMOD	0
+17	by	by	B-PP	IN	O	11	NMOD	0
+18	a	a	B-NP	DT	O	21	NMOD	0
+19	constitutively	constitutively	I-NP	RB	O	20	AMOD	0
+20	active	active	I-NP	JJ	O	21	NMOD	0
+21	form	form	I-NP	NN	O	17	PMOD	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	hypoxia-inducible	hypoxia-inducible	B-NP	JJ	B-protein	24	NMOD	0
+24	factor	factor	I-NP	NN	I-protein	22	PMOD	0
+25	1	1	I-NP	CD	I-protein	24	NMOD	0
+26	.	.	O	.	O	11	P	0
+
+1	Understanding	Understand	B-VP	VBG	O	6	SUB	0
+2	molecular	molecular	B-NP	JJ	O	3	NMOD	0
+3	mechanisms	mechanism	I-NP	NNS	O	1	OBJ	0
+4	regulating	regulate	B-VP	VBG	O	3	NMOD	16	regulating
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	OBJ	3	angiogenesis
+6	may	may	B-VP	MD	O	0	ROOT	0
+7	lead	lead	I-VP	VB	O	6	VC	0
+8	to	to	B-PP	TO	O	7	VMOD	0
+9	novel	novel	B-NP	JJ	O	10	NMOD	0
+10	therapies	therapy	I-NP	NNS	O	8	PMOD	0
+11	for	for	B-PP	IN	O	10	NMOD	0
+12	ischemic	ischemic	B-NP	JJ	O	13	NMOD	0
+13	disorders	disorder	I-NP	NNS	O	11	PMOD	0
+14	.	.	O	.	O	6	P	0
+
+1	Hypoxia-inducible	Hypoxia-inducible	B-NP	JJ	B-protein	2	NMOD	0
+2	factor	factor	I-NP	NN	I-protein	7	SUB	0
+3	1	1	I-NP	CD	I-protein	2	NMOD	0
+4	(	(	O	(	O	6	DEP	0
+5	HIF-1	HIF-1	B-NP	NN	B-protein	6	DEP	0
+6	)	)	O	)	O	2	NMOD	0
+7	activates	activate	B-VP	VBZ	O	0	ROOT	17	activates
+8	vascular	vascular	B-NP	JJ	B-protein	11	NMOD	0
+9	endothelial	endothelial	I-NP	JJ	I-protein	11	NMOD	0
+10	growth	growth	I-NP	NN	I-protein	11	NMOD	0
+11	factor	factor	I-NP	NN	I-protein	16	NMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	VEGF	VEGF	B-NP	NN	O	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	gene	gene	B-NP	NN	O	16	NMOD	0
+16	expression	expression	I-NP	NN	O	7	OBJ	9	expression
+17	in	in	B-PP	IN	O	16	NMOD	0
+18	hypoxic/ischemic	hypoxic/ischemic	B-NP	JJ	O	19	NMOD	0
+19	tissue	tissue	I-NP	NN	O	17	PMOD	0
+20	.	.	O	.	O	7	P	0
+
+1	In	In	B-PP	IN	O	5	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	we	we	B-NP	PRP	O	5	SUB	0
+5	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	exposure	exposure	B-NP	NN	O	22	NMOD	19	exposure
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	primary	primary	B-NP	JJ	B-cell_line	10	NMOD	0
+10	cultures	culture	I-NP	NNS	I-cell_line	8	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	cardiac	cardiac	B-NP	JJ	O	15	NMOD	0
+13	and	and	I-NP	CC	O	15	NMOD	0
+14	vascular	vascular	I-NP	JJ	B-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+16	to	to	B-PP	TO	O	7	NMOD	0
+17	hypoxia	hypoxia	B-NP	NN	O	19	NMOD	0
+18	or	or	I-NP	CC	O	19	NMOD	0
+19	AdCA5	AdCA5	I-NP	NN	B-protein	16	PMOD	0
+20	,	,	O	,	O	22	P	0
+21	an	an	B-NP	DT	O	22	NMOD	0
+22	adenovirus	adenovirus	I-NP	NN	O	31	SUB	0
+23	encoding	encode	B-VP	VBG	O	22	NMOD	0
+24	a	a	B-NP	DT	O	27	NMOD	0
+25	constitutively	constitutively	I-NP	RB	O	26	AMOD	0
+26	active	active	I-NP	JJ	O	27	NMOD	0
+27	form	form	I-NP	NN	O	23	OBJ	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	28	PMOD	0
+30	,	,	O	,	O	22	P	0
+31	modulates	modulate	B-VP	VBZ	O	6	SBAR	16	modulates
+32	the	the	B-NP	DT	O	33	NMOD	0
+33	expression	expression	I-NP	NN	O	31	OBJ	9	expression
+34	of	of	B-PP	IN	O	33	NMOD	0
+35	genes	gene	B-NP	NNS	B-DNA	34	PMOD	0
+36	encoding	encode	B-VP	VBG	O	35	NMOD	0
+37	the	the	B-NP	DT	O	39	NMOD	0
+38	angiogenic	angiogenic	I-NP	JJ	B-protein	39	NMOD	3	angiogenic
+39	factors	factor	I-NP	NNS	I-protein	54	NMOD	0
+40	angiopoietin-1	angiopoietin-1	B-NP	NN	B-protein	54	NMOD	0
+41	(	(	O	(	O	43	DEP	0
+42	ANGPT1	ANGPT1	B-NP	NN	B-protein	43	DEP	0
+43	)	)	O	)	O	40	NMOD	0
+44	,	,	O	,	O	54	P	0
+45	ANGPT2	ANGPT2	B-NP	NN	B-protein	54	NMOD	0
+46	,	,	O	,	O	54	P	0
+47	placental	placental	B-NP	JJ	B-protein	49	NMOD	0
+48	growth	growth	I-NP	NN	I-protein	49	NMOD	0
+49	factor	factor	I-NP	NN	I-protein	54	NMOD	0
+50	,	,	O	,	O	54	P	0
+51	and	and	O	CC	O	54	NMOD	0
+52	platelet-derived	platelet-derived	B-NP	JJ	B-protein	54	NMOD	0
+53	growth	growth	I-NP	NN	I-protein	54	NMOD	0
+54	factor-B	factor-B	I-NP	NN	I-protein	36	OBJ	0
+55	.	.	O	.	O	5	P	0
+
+1	Loss-of-function	Loss-of-function	B-NP	JJ	O	2	NMOD	0
+2	effects	effect	I-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	0	ROOT	0
+4	also	also	I-VP	RB	O	3	VMOD	0
+5	observed	observe	I-VP	VBN	O	3	VC	0
+6	in	in	B-PP	IN	O	5	VMOD	0
+7	HIF-1alpha-null	HIF-1alpha-null	B-NP	JJ	B-cell_line	10	NMOD	0
+8	embryonic	embryonic	I-NP	JJ	I-cell_line	10	NMOD	0
+9	stem	stem	I-NP	NN	I-cell_line	10	NMOD	0
+10	cells	cell	I-NP	NNS	I-cell_line	6	PMOD	0
+11	.	.	O	.	O	3	P	0
+
+1	Depending	Depend	B-PP	VBG	O	12	VMOD	0
+2	on	on	B-PP	IN	O	1	PMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	cell	cell	I-NP	NN	O	5	NMOD	0
+5	type	type	I-NP	NN	O	2	PMOD	0
+6	,	,	O	,	O	12	P	0
+7	expression	expression	B-NP	NN	O	12	SUB	9	expression
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	ANGPT1	ANGPT1	B-NP	NN	B-protein	11	NMOD	0
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	ANGPT2	ANGPT2	I-NP	NN	B-protein	8	PMOD	0
+12	was	be	B-VP	VBD	O	0	ROOT	0
+13	either	either	I-VP	CC	O	12	VMOD	0
+14	activated	activate	I-VP	VBN	O	13	DEP	17	activated
+15	or	or	I-VP	CC	O	14	VMOD	0
+16	repressed	repress	I-VP	VBN	O	14	VMOD	18	repressed
+17	in	in	B-PP	IN	O	14	VMOD	0
+18	response	response	B-NP	NN	O	17	PMOD	0
+19	to	to	B-PP	TO	O	18	NMOD	0
+20	hypoxia	hypoxia	B-NP	NN	O	22	NMOD	0
+21	or	or	I-NP	CC	O	22	NMOD	0
+22	AdCA5	AdCA5	I-NP	NN	O	19	PMOD	0
+23	.	.	O	.	O	12	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	all	all	B-NP	DT	O	3	NMOD	0
+3	cases	case	I-NP	NNS	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	there	there	B-NP	EX	O	6	SUB	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	complete	complete	B-NP	JJ	O	8	NMOD	0
+8	concordance	concordance	I-NP	NN	O	6	PRD	0
+9	between	between	B-PP	IN	O	8	NMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	effects	effect	I-NP	NNS	O	9	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	hypoxia	hypoxia	B-NP	NN	O	15	NMOD	0
+14	and	and	I-NP	CC	O	15	NMOD	0
+15	AdCA5	AdCA5	I-NP	NN	O	12	PMOD	0
+16	.	.	O	.	O	6	P	0
+
+1	Injection	Injection	B-NP	NN	O	7	SUB	19	Injection
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	AdCA5	AdCA5	B-NP	NN	O	2	PMOD	0
+4	into	into	B-PP	IN	O	1	NMOD	0
+5	mouse	mouse	B-NP	NN	O	6	NMOD	0
+6	eyes	eye	I-NP	NNS	O	4	PMOD	0
+7	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+8	neovascularization	neovascularization	B-NP	NN	O	7	OBJ	3	neovascularization
+9	in	in	B-PP	IN	O	7	VMOD	0
+10	multiple	multiple	B-NP	JJ	O	12	NMOD	0
+11	capillary	capillary	I-NP	JJ	O	12	NMOD	0
+12	beds	bed	I-NP	NNS	O	9	PMOD	0
+13	,	,	O	,	O	12	P	0
+14	including	include	B-PP	VBG	O	12	NMOD	0
+15	those	those	B-NP	DT	O	14	PMOD	0
+16	not	not	O	RB	O	17	AMOD	0
+17	responsive	responsive	B-ADJP	JJ	O	15	NMOD	0
+18	to	to	B-PP	TO	O	17	AMOD	0
+19	VEGF	VEGF	B-NP	NN	B-protein	18	PMOD	0
+20	alone	alone	B-ADVP	RB	O	19	NMOD	0
+21	.	.	O	.	O	7	P	0
+
+1	Analysis	Analysis	B-NP	NN	O	5	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	gene	gene	B-NP	NN	O	4	NMOD	0
+4	expression	expression	I-NP	NN	O	2	PMOD	0
+5	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+6	increased	increase	B-NP	VBN	O	7	NMOD	17	increased
+7	expression	expression	I-NP	NN	O	5	OBJ	10	expression
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	ANGPT1	ANGPT1	B-NP	NN	B-protein	23	NMOD	0
+10	,	,	O	,	O	23	P	0
+11	ANGPT2	ANGPT2	B-NP	NN	B-protein	23	NMOD	0
+12	,	,	O	,	O	23	P	0
+13	platelet-derived	platelet-derived	B-NP	JJ	B-protein	15	NMOD	0
+14	growth	growth	I-NP	NN	I-protein	15	NMOD	0
+15	factor-B	factor-B	I-NP	NN	I-protein	23	NMOD	0
+16	,	,	O	,	O	23	P	0
+17	placental	placental	B-NP	JJ	B-protein	19	NMOD	0
+18	growth	growth	I-NP	NN	I-protein	19	NMOD	0
+19	factor	factor	I-NP	NN	I-protein	23	NMOD	0
+20	,	,	O	,	O	23	P	0
+21	and	and	O	CC	O	23	NMOD	0
+22	VEGF	VEGF	B-NP	NN	B-RNA	23	NMOD	0
+23	mRNA	mRNA	I-NP	NN	I-RNA	8	PMOD	0
+24	in	in	B-PP	IN	O	7	NMOD	0
+25	AdCA5-injected	AdCA5-injected	B-NP	JJ	O	26	NMOD	19	injected
+26	eyes	eye	I-NP	NNS	O	24	PMOD	0
+27	.	.	O	.	O	5	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	23	DEP	0
+5	HIF-1	HIF-1	B-NP	NN	B-protein	6	SUB	0
+6	functions	function	B-VP	VBZ	O	4	SBAR	0
+7	as	as	B-PP	IN	O	6	VMOD	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	master	master	I-NP	NN	O	10	NMOD	0
+10	regulator	regulator	I-NP	NN	O	7	PMOD	16	regulator
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	angiogenesis	angiogenesis	B-NP	NN	O	11	PMOD	3	angiogenesis
+13	by	by	B-PP	IN	O	6	VMOD	0
+14	controlling	control	B-VP	VBG	O	13	PMOD	16	controlling
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	expression	expression	I-NP	NN	O	14	OBJ	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	multiple	multiple	B-NP	JJ	O	21	NMOD	0
+19	angiogenic	angiogenic	I-NP	JJ	B-protein	21	NMOD	3	angiogenic
+20	growth	growth	I-NP	NN	I-protein	21	NMOD	0
+21	factors	factor	I-NP	NNS	I-protein	17	PMOD	0
+22	and	and	O	CC	O	23	DEP	0
+23	that	that	B-SBAR	IN	O	3	VMOD	0
+24	adenovirus-mediated	adenovirus-mediated	B-NP	JJ	O	25	NMOD	0
+25	expression	expression	I-NP	NN	O	33	SUB	9	expression
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	a	a	B-NP	DT	O	30	NMOD	0
+28	constitutively	constitutively	I-NP	RB	O	29	AMOD	0
+29	active	active	I-NP	JJ	O	30	NMOD	0
+30	form	form	I-NP	NN	O	26	PMOD	0
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	31	PMOD	0
+33	is	be	B-VP	VBZ	O	23	SBAR	0
+34	sufficient	sufficient	B-ADJP	JJ	O	33	PRD	0
+35	to	to	B-VP	TO	O	36	VMOD	0
+36	induce	induce	I-VP	VB	O	34	AMOD	17	induce
+37	angiogenesis	angiogenesis	B-NP	NN	O	36	OBJ	3	angiogenesis
+38	in	in	B-PP	IN	O	36	VMOD	0
+39	nonischemic	nonischemic	B-NP	JJ	O	40	NMOD	0
+40	tissue	tissue	I-NP	NN	O	38	PMOD	0
+41	of	of	B-PP	IN	O	40	NMOD	0
+42	an	an	B-NP	DT	O	44	NMOD	0
+43	adult	adult	I-NP	JJ	O	44	NMOD	0
+44	animal	animal	I-NP	NN	O	41	PMOD	0
+45	.	.	O	.	O	3	P	0
+

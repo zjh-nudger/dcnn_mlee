@@ -1,0 +1,305 @@
+1	External	External	B-NP	JJ	O	3	NMOD	-1
+2	beam	beam	I-NP	NN	O	3	NMOD	-1
+3	radiotherapy	radiotherapy	I-NP	NN	O	12	SUB	0
+4	for	for	B-PP	IN	O	3	NMOD	-1
+5	subretinal	subretinal	B-NP	JJ	O	6	NMOD	-1
+6	neovascularization	neovascularization	I-NP	NN	O	4	PMOD	3	neovascularization
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	age-related	age-related	B-NP	JJ	O	10	NMOD	-1
+9	macular	macular	I-NP	JJ	O	10	NMOD	-1
+10	degeneration	degeneration	I-NP	NN	O	7	PMOD	6	degeneration
+11	:	:	O	:	O	3	P	-1
+12	is	be	B-VP	VBZ	O	0	ROOT	-1
+13	this	this	B-NP	DT	O	14	NMOD	-1
+14	treatment	treatment	I-NP	NN	O	12	PRD	0
+15	efficient	efficient	B-ADJP	JJ	O	14	AMOD	-1
+16	?	?	O	.	O	12	P	-1
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	3	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Control	Control	B-NP	NN	O	21	SUB	16	Control
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	natural	natural	I-NP	JJ	O	7	NMOD	-1
+7	course	course	I-NP	NN	O	4	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	subretinal	subretinal	B-NP	JJ	O	10	NMOD	-1
+10	neovascularization	neovascularization	I-NP	NN	O	8	PMOD	3	neovascularization
+11	(	(	O	(	O	13	DEP	-1
+12	SRNV	SRNV	B-NP	NN	B-protein	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	in	in	B-PP	IN	O	10	NMOD	-1
+15	age-related	age-related	B-NP	JJ	O	17	NMOD	-1
+16	macular	macular	I-NP	JJ	O	17	NMOD	-1
+17	degeneration	degeneration	I-NP	NN	O	14	PMOD	6	degeneration
+18	(	(	O	(	O	20	DEP	-1
+19	AMD	AMD	B-NP	NN	O	20	DEP	-1
+20	)	)	O	)	O	17	NMOD	-1
+21	is	be	B-VP	VBZ	O	0	ROOT	-1
+22	difficult	difficult	B-ADJP	JJ	O	21	PRD	-1
+23	.	.	O	.	O	21	P	-1
+
+1	Only	Only	B-NP	RB	O	3	NMOD	-1
+2	a	a	I-NP	DT	O	3	NMOD	-1
+3	subset	subset	I-NP	NN	O	6	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	patients	patient	B-NP	NNS	O	4	PMOD	-1
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	suitable	suitable	B-ADJP	JJ	O	6	PRD	-1
+8	for	for	B-PP	IN	O	7	AMOD	-1
+9	laser	laser	B-NP	NN	O	10	NMOD	-1
+10	coagulation	coagulation	I-NP	NN	O	8	PMOD	-1
+11	.	.	O	.	O	6	P	-1
+
+1	This	This	B-NP	DT	O	3	NMOD	-1
+2	prospective	prospective	I-NP	JJ	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	4	SUB	-1
+4	aimed	aim	B-VP	VBD	O	0	ROOT	-1
+5	to	to	I-VP	TO	O	6	VMOD	-1
+6	determine	determine	I-VP	VB	O	4	VMOD	-1
+7	the	the	B-NP	DT	O	11	NMOD	-1
+8	efficacy	efficacy	I-NP	NN	O	11	NMOD	0
+9	and	and	O	CC	O	11	NMOD	-1
+10	individual	individual	B-NP	JJ	O	11	NMOD	-1
+11	benefit	benefit	I-NP	NN	O	6	OBJ	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	external	external	B-NP	JJ	O	15	NMOD	-1
+14	beam	beam	I-NP	NN	O	15	NMOD	-1
+15	radiotherapy	radiotherapy	I-NP	NN	O	12	PMOD	0
+16	(	(	O	(	O	18	DEP	-1
+17	EBRT	EBRT	B-NP	NN	B-protein	18	DEP	-1
+18	)	)	O	)	O	15	NMOD	-1
+19	.	.	O	.	O	4	P	-1
+
+1	METHODS	METHODS	B-NP	NNS	O	3	NMOD	-1
+2	AND	AND	I-NP	CC	O	3	NMOD	-1
+3	MATERIALS	MATERIALS	I-NP	NNS	O	7	NMOD	-1
+4	:	:	O	:	O	3	P	-1
+5	The	The	B-NP	DT	O	7	NMOD	-1
+6	prospective	prospective	I-NP	JJ	O	7	NMOD	-1
+7	trial	trial	I-NP	NN	O	8	SUB	-1
+8	included	include	B-VP	VBD	O	0	ROOT	-1
+9	287	287	B-NP	CD	O	10	NMOD	-1
+10	patients	patient	I-NP	NNS	O	8	OBJ	-1
+11	with	with	B-PP	IN	O	10	NMOD	-1
+12	subfoveal	subfoveal	B-NP	JJ	O	13	NMOD	-1
+13	neovascularization	neovascularization	I-NP	NN	O	11	PMOD	3	neovascularization
+14	due	due	B-ADJP	JJ	O	8	VMOD	0
+15	to	to	B-PP	TO	O	14	AMOD	-1
+16	AMD	AMD	B-NP	NN	O	15	PMOD	-1
+17	which	which	B-NP	WDT	O	16	NMOD	-1
+18	was	be	B-VP	VBD	O	17	SBAR	-1
+19	verified	verify	I-VP	VBN	O	18	VC	-1
+20	by	by	B-PP	IN	O	19	VMOD	-1
+21	fluorescein	fluorescein	B-NP	NN	O	22	NMOD	-1
+22	angiography	angiography	I-NP	NN	O	20	PMOD	0
+23	.	.	O	.	O	8	P	-1
+
+1	Patients	Patient	B-NP	NNS	O	2	SUB	-1
+2	have	have	B-VP	VBP	O	0	ROOT	-1
+3	been	be	I-VP	VBN	O	2	VC	-1
+4	treated	treat	I-VP	VBN	O	3	VC	19	treated
+5	between	between	B-PP	IN	O	4	VMOD	-1
+6	January	January	B-NP	NNP	O	9	NMOD	-1
+7	1996	1996	I-NP	CD	O	6	NMOD	-1
+8	and	and	O	CC	O	9	NMOD	-1
+9	October	October	B-NP	NNP	O	5	PMOD	-1
+10	1997	1997	I-NP	CD	O	9	NMOD	-1
+11	.	.	O	.	O	2	P	-1
+
+1	All	All	B-NP	DT	O	2	NMOD	-1
+2	patients	patient	I-NP	NNS	O	3	SUB	-1
+3	received	receive	B-VP	VBD	O	0	ROOT	19	received
+4	a	a	B-NP	DT	O	6	NMOD	-1
+5	total	total	I-NP	JJ	O	6	NMOD	-1
+6	dose	dose	I-NP	NN	O	3	OBJ	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	16	16	B-NP	CD	O	9	NMOD	-1
+9	Gy	Gy	I-NP	NN	O	7	PMOD	-1
+10	in	in	B-PP	IN	O	6	NMOD	-1
+11	2-Gy	2-Gy	B-NP	JJ	O	13	NMOD	-1
+12	daily	daily	I-NP	JJ	O	13	NMOD	-1
+13	fractions	fraction	I-NP	NNS	O	10	PMOD	-1
+14	with	with	B-PP	IN	O	3	VMOD	-1
+15	5-6	5-6	B-NP	CD	O	17	NMOD	-1
+16	MeV	MeV	I-NP	NN	O	17	NMOD	-1
+17	photons	photon	I-NP	NNS	O	14	PMOD	-1
+18	based	base	B-PP	VBN	O	17	NMOD	-1
+19	on	on	B-PP	IN	O	18	PMOD	-1
+20	computerized	computerized	B-NP	JJ	O	22	NMOD	-1
+21	treatment	treatment	I-NP	NN	O	22	NMOD	0
+22	planning	planning	I-NP	NN	O	19	PMOD	-1
+23	in	in	B-PP	IN	O	22	NMOD	-1
+24	individual	individual	B-NP	JJ	O	27	NMOD	-1
+25	head	head	I-NP	NN	O	27	NMOD	-1
+26	mask	mask	I-NP	NN	O	27	NMOD	-1
+27	fixation	fixation	I-NP	NN	O	23	PMOD	-1
+28	.	.	O	.	O	3	P	-1
+
+1	This	This	B-NP	DT	O	3	NMOD	-1
+2	first	first	I-NP	JJ	O	3	NMOD	-1
+3	analysis	analysis	I-NP	NN	O	4	SUB	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	based	base	I-VP	VBN	O	4	VC	-1
+6	on	on	B-PP	IN	O	5	VMOD	-1
+7	73	73	B-NP	CD	O	8	NMOD	-1
+8	patients	patient	I-NP	NNS	O	6	PMOD	-1
+9	(	(	O	(	O	20	DEP	-1
+10	50	50	B-NP	CD	O	11	NMOD	-1
+11	women	woman	I-NP	NNS	O	19	NMOD	-1
+12	,	,	O	,	O	19	P	-1
+13	23	23	B-NP	CD	O	14	NMOD	-1
+14	men	man	I-NP	NNS	O	17	NMOD	-1
+15	,	,	O	,	O	17	P	-1
+16	median	median	B-NP	JJ	O	17	NMOD	-1
+17	age	age	I-NP	NN	O	19	NMOD	-1
+18	74.3	74.3	B-NP	CD	O	19	NMOD	-1
+19	years	year	I-NP	NNS	O	20	DEP	-1
+20	)	)	O	)	O	8	NMOD	-1
+21	,	,	O	,	O	5	P	-1
+22	with	with	B-PP	IN	O	5	VMOD	-1
+23	a	a	B-NP	DT	O	25	NMOD	-1
+24	median	median	I-NP	JJ	O	25	NMOD	-1
+25	follow-up	follow-up	I-NP	NN	O	32	NMOD	-1
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	13.3	13.3	B-NP	CD	O	28	NMOD	-1
+28	months	month	I-NP	NNS	O	26	PMOD	-1
+29	and	and	O	CC	O	32	NMOD	-1
+30	a	a	B-NP	DT	O	32	NMOD	-1
+31	minimum	minimum	I-NP	JJ	O	32	NMOD	-1
+32	follow-up	follow-up	I-NP	NN	O	22	PMOD	-1
+33	of	of	B-PP	IN	O	32	NMOD	-1
+34	11	11	B-NP	CD	O	35	NMOD	-1
+35	months	month	I-NP	NNS	O	33	PMOD	-1
+36	.	.	O	.	O	4	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	All	All	B-NP	DT	O	4	NMOD	-1
+4	patients	patient	I-NP	NNS	O	5	SUB	-1
+5	completed	complete	B-VP	VBD	O	1	NMOD	-1
+6	therapy	therapy	B-NP	NN	O	8	NMOD	19	therapy
+7	and	and	I-NP	CC	O	8	NMOD	-1
+8	tolerability	tolerability	I-NP	NN	O	5	OBJ	-1
+9	was	be	B-VP	VBD	O	5	VMOD	-1
+10	good	good	B-ADJP	JJ	O	9	PRD	-1
+11	.	.	O	.	O	1	P	-1
+
+1	First	First	B-NP	JJ	O	3	NMOD	-1
+2	clinical	clinical	I-NP	JJ	O	3	NMOD	-1
+3	control	control	I-NP	NN	O	7	SUB	0
+4	with	with	B-PP	IN	O	3	NMOD	-1
+5	second	second	B-NP	JJ	O	6	NMOD	-1
+6	angiography	angiography	I-NP	NN	O	4	PMOD	0
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	performed	perform	I-VP	VBN	O	7	VC	-1
+9	6	6	B-NP	CD	O	10	NMOD	-1
+10	weeks	week	I-NP	NNS	O	8	VMOD	-1
+11	after	after	B-PP	IN	O	10	NMOD	-1
+12	irradiation	irradiation	B-NP	NN	O	11	PMOD	-1
+13	,	,	O	,	O	8	P	-1
+14	then	then	B-ADVP	RB	O	8	VMOD	-1
+15	in	in	B-PP	IN	O	8	VMOD	-1
+16	3-month	3-month	B-NP	JJ	O	17	NMOD	-1
+17	intervals	interval	I-NP	NNS	O	15	PMOD	-1
+18	.	.	O	.	O	7	P	-1
+
+1	Eighteen	Eighteen	B-NP	CD	O	2	NMOD	-1
+2	patients	patient	I-NP	NNS	O	7	SUB	-1
+3	with	with	B-PP	IN	O	2	NMOD	-1
+4	SRNV	SRNV	B-NP	NN	O	3	PMOD	-1
+5	refusing	refuse	B-VP	VBG	O	4	NMOD	18	refusing
+6	radiotherapy	radiotherapy	B-NP	NN	O	5	OBJ	19	radiotherapy
+7	served	serve	B-VP	VBD	O	0	ROOT	-1
+8	as	as	B-PP	IN	O	7	VMOD	-1
+9	a	a	B-NP	DT	O	11	NMOD	-1
+10	control	control	I-NP	NN	O	11	NMOD	0
+11	group	group	I-NP	NN	O	8	PMOD	-1
+12	and	and	O	CC	O	7	VMOD	-1
+13	were	be	B-VP	VBD	O	7	VMOD	-1
+14	matched	match	I-VP	VBN	O	13	VC	-1
+15	with	with	B-PP	IN	O	14	VMOD	-1
+16	18	18	B-NP	CD	O	18	NMOD	-1
+17	irradiated	irradiated	I-NP	JJ	O	18	NMOD	19	irradiated
+18	patients	patient	I-NP	NNS	O	15	PMOD	-1
+19	.	.	O	.	O	7	P	-1
+
+1	After	After	B-PP	IN	O	10	VMOD	-1
+2	7	7	B-NP	CD	O	3	NMOD	-1
+3	months	month	I-NP	NNS	O	1	PMOD	-1
+4	median	median	B-NP	JJ	O	6	NMOD	-1
+5	visual	visual	I-NP	JJ	O	6	NMOD	-1
+6	acuity	acuity	I-NP	NN	O	10	SUB	-1
+7	(	(	O	(	O	9	DEP	-1
+8	VA	VA	B-NP	NN	O	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	was	be	B-VP	VBD	O	0	ROOT	-1
+11	20/160	20/160	B-NP	CD	O	10	PRD	-1
+12	for	for	B-PP	IN	O	11	NMOD	-1
+13	the	the	B-NP	DT	O	16	NMOD	-1
+14	irradiated	irradiated	I-NP	JJ	O	16	NMOD	19	irradiated
+15	and	and	O	CC	O	16	NMOD	-1
+16	20/400	20/400	B-NP	CD	O	12	PMOD	-1
+17	for	for	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	untreated	untreated	I-NP	JJ	O	20	NMOD	19	untreated
+20	patients	patient	I-NP	NNS	O	17	PMOD	-1
+21	.	.	O	.	O	10	P	-1
+
+1	One	One	B-NP	CD	O	2	NMOD	-1
+2	year	year	I-NP	NN	O	8	SUB	-1
+3	after	after	B-PP	IN	O	2	NMOD	-1
+4	radiotherapy	radiotherapy	B-NP	NN	O	7	NMOD	0
+5	final	final	I-NP	JJ	O	7	NMOD	-1
+6	median	median	I-NP	JJ	O	7	NMOD	-1
+7	VA	VA	I-NP	NN	O	3	PMOD	-1
+8	was	be	B-VP	VBD	O	0	ROOT	-1
+9	20/400	20/400	B-NP	CD	O	8	PRD	-1
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	both	both	B-NP	DT	O	12	NMOD	-1
+12	groups	group	I-NP	NNS	O	10	PMOD	-1
+13	.	.	O	.	O	8	P	-1
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	These	These	B-NP	DT	O	4	NMOD	-1
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	suggest	suggest	B-VP	VBP	O	1	NMOD	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	16	16	B-NP	CD	O	8	NMOD	-1
+8	Gy	Gy	I-NP	NN	O	15	SUB	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	conventionally	conventionally	B-NP	RB	O	11	AMOD	-1
+11	fractionated	fractionate	I-NP	VBN	O	14	NMOD	-1
+12	external	external	I-NP	JJ	O	14	NMOD	-1
+13	beam	beam	I-NP	NN	O	14	NMOD	-1
+14	irradiation	irradiation	I-NP	NN	O	9	PMOD	-1
+15	slows	slow	B-VP	VBZ	O	6	SBAR	-1
+16	down	down	B-PRT	RP	O	15	VMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	visual	visual	I-NP	JJ	O	19	NMOD	-1
+19	loss	loss	I-NP	NN	O	15	OBJ	0
+20	in	in	B-PP	IN	O	19	NMOD	-1
+21	exudative	exudative	B-NP	JJ	O	22	NMOD	-1
+22	AMD	AMD	I-NP	NN	O	20	PMOD	-1
+23	for	for	B-PP	IN	O	22	NMOD	-1
+24	only	only	B-NP	RB	O	26	AMOD	-1
+25	a	a	I-NP	DT	O	26	AMOD	-1
+26	few	few	I-NP	JJ	O	27	NMOD	-1
+27	months	month	I-NP	NNS	O	23	PMOD	-1
+28	.	.	O	.	O	1	P	-1
+
+1	Patients	Patient	B-NP	NNS	O	2	NMOD	-1
+2	'	'	B-NP	POS	O	4	NMOD	-1
+3	reading	reading	I-NP	NN	O	4	NMOD	-1
+4	vision	vision	I-NP	NN	O	5	SUB	-1
+5	could	could	B-VP	MD	O	0	ROOT	-1
+6	not	not	I-VP	RB	O	5	VMOD	-1
+7	be	be	I-VP	VB	O	5	VC	-1
+8	saved	save	I-VP	VBN	O	7	VC	-1
+9	for	for	B-PP	IN	O	8	VMOD	-1
+10	a	a	B-NP	DT	O	12	NMOD	-1
+11	long-term	long-term	I-NP	JJ	O	12	NMOD	-1
+12	run	run	I-NP	NN	O	9	PMOD	-1
+13	.	.	O	.	O	5	P	-1
+

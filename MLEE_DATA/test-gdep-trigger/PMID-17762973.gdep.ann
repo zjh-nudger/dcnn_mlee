@@ -1,0 +1,318 @@
+1	Hedgehog	Hedgehog	B-NP	NN	O	2	NMOD	0
+2	signaling	signaling	I-NP	NN	O	0	ROOT	0
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	7	NMOD	0
+5	murine	murine	I-NP	JJ	O	7	NMOD	0
+6	melanoma	melanoma	I-NP	NN	O	7	NMOD	0
+7	microenvironment	microenvironment	I-NP	NN	O	3	PMOD	0
+8	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	5	NMOD	0
+2	Hedgehog	Hedgehog	I-NP	NNP	O	5	NMOD	0
+3	intercellular	intercellular	I-NP	JJ	O	5	NMOD	0
+4	signaling	signaling	I-NP	NN	O	5	NMOD	0
+5	pathway	pathway	I-NP	NN	O	6	SUB	0
+6	regulates	regulate	B-VP	VBZ	O	0	ROOT	0
+7	cell	cell	B-NP	NN	O	6	OBJ	0
+8	proliferation	proliferation	I-NP	NN	O	7	NMOD	1	proliferation
+9	and	and	O	CC	O	7	NMOD	0
+10	differentiation	differentiation	B-NP	NN	O	7	NMOD	2	differentiation
+11	.	.	O	.	O	6	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	pathway	pathway	I-NP	NN	O	3	SUB	0
+3	has	have	B-VP	VBZ	O	0	ROOT	0
+4	been	be	I-VP	VBN	O	3	VC	0
+5	implicated	implicate	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	0
+7	play	play	I-VP	VB	O	5	VMOD	0
+8	a	a	B-NP	DT	O	9	NMOD	0
+9	role	role	I-NP	NN	O	7	OBJ	0
+10	in	in	B-PP	IN	O	7	VMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	pathogenesis	pathogenesis	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	cancer	cancer	B-NP	NN	O	13	PMOD	0
+15	and	and	B-PP	CC	O	10	PMOD	0
+16	in	in	B-PP	IN	O	10	PMOD	0
+17	embryonic	embryonic	B-NP	JJ	O	20	NMOD	0
+18	blood	blood	I-NP	NN	O	20	NMOD	0
+19	vessel	vessel	I-NP	NN	O	20	NMOD	0
+20	development	development	I-NP	NN	O	16	PMOD	2	development
+21	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	14	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	current	current	I-NP	JJ	O	4	NMOD	0
+4	study	study	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	14	P	0
+6	Hedgehog	Hedgehog	B-NP	NN	O	7	NMOD	0
+7	signaling	signaling	I-NP	NN	O	14	SUB	0
+8	in	in	B-PP	IN	O	7	NMOD	0
+9	tumor	tumor	B-NP	NN	O	11	NMOD	0
+10	related	related	I-NP	JJ	O	9	AMOD	0
+11	vasculature	vasculature	I-NP	NN	O	13	NMOD	0
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	microenvironment	microenvironment	I-NP	NN	O	8	PMOD	0
+14	was	be	B-VP	VBD	O	0	ROOT	0
+15	examined	examine	I-VP	VBN	O	14	VC	0
+16	using	use	B-VP	VBG	O	15	VMOD	0
+17	human	human	B-NP	JJ	B-cell_type	21	NMOD	0
+18	umbilical	umbilical	I-NP	JJ	I-cell_type	21	NMOD	0
+19	vein	vein	I-NP	NN	I-cell_type	21	NMOD	0
+20	endothelial	endothelial	I-NP	JJ	I-cell_type	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_type	23	NMOD	0
+22	and	and	O	CC	O	23	NMOD	0
+23	B16F0	B16F0	B-NP	NN	B-protein	29	NMOD	0
+24	(	(	O	(	O	27	DEP	0
+25	murine	murine	B-NP	JJ	O	26	NMOD	0
+26	melanoma	melanoma	I-NP	NN	O	27	DEP	0
+27	)	)	O	)	O	23	NMOD	0
+28	tumors	tumor	B-NP	NNS	O	29	NMOD	0
+29	models	model	I-NP	NNS	O	16	OBJ	0
+30	.	.	O	.	O	14	P	0
+
+1	Use	Use	B-NP	NN	O	11	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	exogenous	exogenous	B-NP	JJ	O	5	NMOD	0
+4	Sonic	Sonic	I-NP	JJ	O	5	NMOD	0
+5	hedgehog	hedgehog	I-NP	NN	O	9	NMOD	0
+6	(	(	O	(	O	9	NMOD	0
+7	Shh	Shh	B-NP	NN	O	9	NMOD	0
+8	)	)	O	)	O	9	NMOD	0
+9	peptide	peptide	B-NP	NN	O	2	PMOD	0
+10	significantly	significantly	B-ADVP	RB	O	11	VMOD	0
+11	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+12	BrdU	BrdU	B-NP	NN	B-protein	13	NMOD	0
+13	incorporation	incorporation	I-NP	NN	O	11	OBJ	14	incorporation
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+17	in	in	B-PP	FW	O	13	NMOD	0
+18	vitro	vitro	B-NP	FW	O	17	AMOD	0
+19	by	by	B-PP	IN	O	11	VMOD	0
+20	a	a	B-NP	DT	O	21	NMOD	0
+21	factor	factor	I-NP	NN	O	19	PMOD	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	2	2	B-NP	CD	O	22	PMOD	0
+24	(	(	O	(	O	29	DEP	0
+25	P	P	B-NP	NN	O	29	DEP	0
+26	less	less	B-ADJP	JJR	O	25	NMOD	0
+27	than	than	B-PP	IN	O	26	AMOD	0
+28	0.001	0.001	B-NP	CD	O	27	PMOD	0
+29	)	)	O	)	O	23	NMOD	0
+30	.	.	O	.	O	11	P	0
+
+1	The	The	B-NP	DT	O	5	NMOD	0
+2	Hedgehog	Hedgehog	I-NP	NNP	O	5	NMOD	0
+3	pathway	pathway	I-NP	NN	O	5	NMOD	0
+4	antagonist	antagonist	I-NP	NN	O	5	NMOD	0
+5	cyclopamine	cyclopamine	I-NP	NN	O	7	SUB	0
+6	effectively	effectively	B-ADVP	RB	O	7	VMOD	0
+7	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+8	Shh-induced	Shh-induced	B-NP	JJ	O	9	NMOD	17	induced
+9	proliferation	proliferation	I-NP	NN	O	7	OBJ	1	proliferation
+10	to	to	B-PP	TO	O	9	NMOD	0
+11	control	control	B-NP	NN	O	12	NMOD	0
+12	levels	level	I-NP	NNS	O	10	PMOD	0
+13	.	.	O	.	O	7	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	study	study	I-VP	VB	O	17	VMOD	0
+3	Hedgehog	Hedgehog	B-NP	NN	O	4	NMOD	0
+4	signaling	signaling	I-NP	NN	O	11	NMOD	0
+5	in	in	B-ADVP	FW	O	4	NMOD	0
+6	vivo	vivo	I-ADVP	FW	O	5	AMOD	0
+7	a	a	B-NP	DT	O	11	NMOD	0
+8	hind	hind	I-NP	NN	O	11	NMOD	0
+9	limb	limb	I-NP	NN	O	11	NMOD	0
+10	tumor	tumor	I-NP	NN	O	11	NMOD	0
+11	model	model	I-NP	NN	O	17	SUB	0
+12	with	with	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	16	NMOD	0
+14	B16F0	B16F0	I-NP	NN	B-cell_line	16	NMOD	0
+15	cell	cell	I-NP	NN	I-cell_line	16	NMOD	0
+16	line	line	I-NP	NN	I-cell_line	12	PMOD	0
+17	was	be	B-VP	VBD	O	0	ROOT	0
+18	used	use	I-VP	VBN	O	17	VC	0
+19	.	.	O	.	O	17	P	0
+
+1	Treatment	Treatment	B-NP	NN	O	7	SUB	19	Treatment
+2	with	with	B-PP	IN	O	1	NMOD	0
+3	25	25	B-NP	CD	O	5	NMOD	0
+4	mg/kg	mg/kg	I-NP	NN	O	5	NMOD	0
+5	cyclopamine	cyclopamine	I-NP	NN	O	2	PMOD	0
+6	significantly	significantly	B-ADVP	RB	O	7	VMOD	0
+7	attenuated	attenuate	B-VP	VBD	O	36	VMOD	18	attenuated
+8	BrdU	BrdU	B-NP	NN	B-protein	9	NMOD	0
+9	incorporation	incorporation	I-NP	NN	O	7	OBJ	14	incorporation
+10	in	in	B-PP	IN	O	9	NMOD	0
+11	tumor	tumor	B-NP	NN	B-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	0
+13	threefold	threefold	B-ADVP	RB	O	7	VMOD	0
+14	(	(	O	(	O	19	DEP	0
+15	P	P	B-NP	NN	O	19	DEP	0
+16	less	less	B-ADJP	JJR	O	15	NMOD	0
+17	than	than	B-PP	IN	O	16	AMOD	0
+18	0.001	0.001	B-NP	CD	O	17	PMOD	0
+19	)	)	O	)	O	13	AMOD	0
+20	,	,	O	,	O	7	P	0
+21	in	in	B-PP	IN	O	7	VMOD	0
+22	tumor	tumor	B-NP	NN	B-cell_type	25	NMOD	0
+23	related	related	I-NP	JJ	I-cell_type	22	AMOD	0
+24	endothelial	endothelial	I-NP	JJ	I-cell_type	25	NMOD	0
+25	cells	cell	I-NP	NNS	I-cell_type	21	PMOD	0
+26	threefold	threefold	B-ADVP	RB	O	7	VMOD	0
+27	(	(	O	(	O	31	DEP	0
+28	P	P	B-NP	NN	O	31	DEP	0
+29	=	=	B-VP	SYM	O	28	NMOD	0
+30	0.004	0.004	B-NP	CD	O	29	AMOD	0
+31	)	)	O	)	O	26	AMOD	0
+32	,	,	O	,	O	36	P	0
+33	and	and	O	CC	O	36	NMOD	0
+34	delayed	delay	B-NP	VBN	O	36	NMOD	18	delayed
+35	tumor	tumor	I-NP	NN	O	36	NMOD	0
+36	growth	growth	I-NP	NN	O	0	ROOT	4	growth
+37	by	by	B-PP	IN	O	36	NMOD	0
+38	4	4	B-NP	CD	O	39	NMOD	0
+39	days	day	I-NP	NNS	O	37	PMOD	0
+40	.	.	O	.	O	36	P	0
+
+1	Immunohistochemistry	Immunohistochemistry	B-NP	NN	O	2	SUB	0
+2	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	15	DEP	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	Hedgehog	Hedgehog	I-NP	NN	B-protein	6	NMOD	0
+6	receptor	receptor	I-NP	NN	I-protein	7	NMOD	0
+7	Patched	Patched	B-NP	NNP	O	8	SUB	0
+8	was	be	B-VP	VBD	O	3	SBAR	0
+9	localized	localized	B-ADJP	JJ	O	8	PRD	14	localized
+10	to	to	B-PP	TO	O	9	AMOD	0
+11	the	the	B-NP	DT	O	13	NMOD	0
+12	tumor	tumor	I-NP	NN	O	13	NMOD	0
+13	stroma	stroma	I-NP	NN	O	10	PMOD	0
+14	and	and	O	CC	O	15	DEP	0
+15	that	that	B-SBAR	IN	O	2	VMOD	0
+16	B16F0	B16F0	B-NP	NN	B-cell_line	17	NMOD	0
+17	cells	cell	I-NP	NNS	I-cell_line	18	SUB	0
+18	expressed	express	B-VP	VBD	O	15	SBAR	9	expressed
+19	Shh	Shh	B-NP	NN	O	20	NMOD	0
+20	peptide	peptide	I-NP	NN	O	18	OBJ	0
+21	.	.	O	.	O	2	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	6	VMOD	0
+2	,	,	O	,	O	6	P	0
+3	mouse	mouse	B-NP	NN	B-cell_type	5	NMOD	0
+4	embryonic	embryonic	I-NP	JJ	I-cell_type	5	NMOD	0
+5	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	6	SUB	0
+6	required	require	B-VP	VBD	O	0	ROOT	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	presence	presence	I-NP	NN	O	6	OBJ	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	B16F0	B16F0	B-NP	NN	B-cell_line	11	NMOD	0
+11	cells	cell	I-NP	NNS	I-cell_line	9	PMOD	0
+12	to	to	B-VP	TO	O	13	VMOD	0
+13	express	express	I-VP	VB	O	8	NMOD	9	express
+14	Patched	Patch	I-VP	VBN	O	13	VC	0
+15	in	in	B-PP	IN	O	14	VMOD	0
+16	a	a	B-NP	DT	O	19	NMOD	0
+17	co-culture	co-culture	I-NP	NN	O	19	NMOD	0
+18	assay	assay	I-NP	NN	O	19	NMOD	0
+19	system	system	I-NP	NN	O	15	PMOD	0
+20	.	.	O	.	O	6	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	Shh	Shh	B-NP	NN	O	6	NMOD	0
+6	peptide	peptide	I-NP	NN	O	11	SUB	0
+7	produced	produce	B-VP	VBN	O	6	NMOD	9	produced
+8	by	by	B-PP	IN	O	7	VMOD	0
+9	melanoma	melanoma	B-NP	NN	B-cell_type	10	NMOD	0
+10	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	0
+11	induces	induce	B-VP	VBZ	O	4	SBAR	17	induces
+12	Patched	Patch	I-VP	VBN	O	13	NMOD	0
+13	expression	expression	B-NP	NN	O	11	OBJ	9	expression
+14	in	in	B-PP	IN	O	11	VMOD	0
+15	fibroblasts	fibroblast	B-NP	NNS	B-cell_type	14	PMOD	0
+16	.	.	O	.	O	3	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	study	study	I-VP	VB	O	10	VMOD	0
+3	tumor	tumor	B-NP	NN	O	5	NMOD	0
+4	related	related	I-NP	JJ	O	3	AMOD	0
+5	angiogenesis	angiogenesis	I-NP	NN	O	9	NMOD	3	angiogenesis
+6	a	a	B-NP	DT	O	9	NMOD	0
+7	vascular	vascular	I-NP	JJ	O	9	NMOD	0
+8	window	window	I-NP	NN	O	9	NMOD	0
+9	model	model	I-NP	NN	O	2	OBJ	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	used	use	I-VP	VBN	O	10	VC	0
+12	to	to	B-VP	TO	O	13	VMOD	0
+13	monitor	monitor	I-VP	VB	O	11	VMOD	0
+14	tumor	tumor	B-NP	NN	O	15	NMOD	0
+15	vascularity	vascularity	I-NP	NN	O	13	OBJ	0
+16	.	.	O	.	O	10	P	0
+
+1	Treatment	Treatment	B-NP	NN	O	5	SUB	19	Treatment
+2	with	with	B-PP	IN	O	1	NMOD	0
+3	cyclopamine	cyclopamine	B-NP	NN	O	2	PMOD	0
+4	significantly	significantly	B-ADVP	RB	O	5	VMOD	0
+5	attenuated	attenuate	B-VP	VBD	O	0	ROOT	18	attenuated
+6	vascular	vascular	B-NP	JJ	O	7	NMOD	0
+7	formation	formation	I-NP	NN	O	5	OBJ	2	formation
+8	by	by	B-PP	IN	O	5	VMOD	0
+9	a	a	B-NP	DT	O	10	NMOD	0
+10	factor	factor	I-NP	NN	O	8	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	2.5	2.5	B-NP	CD	O	18	NMOD	0
+13	(	(	O	(	O	18	DEP	0
+14	P	P	B-NP	NN	O	18	DEP	0
+15	less	less	B-ADJP	JJR	O	14	NMOD	0
+16	than	than	B-PP	IN	O	15	AMOD	0
+17	0.001	0.001	B-NP	CD	O	16	PMOD	0
+18	)	)	O	)	O	11	PMOD	0
+19	and	and	O	CC	O	5	VMOD	0
+20	altered	alter	B-VP	VBN	O	5	VMOD	16	altered
+21	vascular	vascular	B-NP	JJ	O	22	NMOD	0
+22	morphology	morphology	I-NP	NN	O	20	OBJ	0
+23	.	.	O	.	O	5	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	cyclopamine	cyclopamine	B-NP	NN	O	4	SUB	0
+4	reduced	reduce	B-VP	VBD	O	0	ROOT	0
+5	tumor	tumor	B-NP	NN	O	8	NMOD	0
+6	blood	blood	I-NP	NN	O	8	NMOD	0
+7	vessel	vessel	I-NP	NN	O	8	NMOD	0
+8	permeability	permeability	I-NP	NN	O	4	OBJ	0
+9	to	to	B-PP	TO	O	4	VMOD	0
+10	FITC	FITC	B-NP	NN	O	12	NMOD	0
+11	labeled	labeled	I-NP	JJ	O	12	NMOD	19	labeled
+12	dextran	dextran	I-NP	NN	O	9	PMOD	0
+13	while	while	B-SBAR	IN	O	4	VMOD	0
+14	having	have	B-VP	VBG	O	13	SBAR	0
+15	no	no	B-NP	DT	O	16	NMOD	0
+16	effect	effect	I-NP	NN	O	14	OBJ	16	effect
+17	on	on	B-PP	IN	O	14	VMOD	0
+18	normal	normal	B-NP	JJ	O	20	NMOD	0
+19	blood	blood	I-NP	NN	O	20	NMOD	0
+20	vessels	vessel	I-NP	NNS	O	17	PMOD	0
+21	.	.	O	.	O	4	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	Hedgehog	Hedgehog	B-NP	NN	O	6	NMOD	0
+6	signaling	signaling	I-NP	NN	O	7	SUB	0
+7	regulates	regulate	B-VP	VBZ	O	4	SBAR	16	regulates
+8	melanoma	melanoma	B-NP	NN	O	11	NMOD	0
+9	related	related	I-NP	JJ	O	11	NMOD	0
+10	vascular	vascular	I-NP	JJ	O	11	NMOD	0
+11	formation	formation	I-NP	NN	O	13	NMOD	2	formation
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	function	function	I-NP	NN	O	7	OBJ	0
+14	.	.	O	.	O	3	P	0
+

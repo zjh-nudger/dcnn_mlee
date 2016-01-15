@@ -1,0 +1,297 @@
+1	Mechanical	Mechanical	B-NP	JJ	O	2	NMOD	-1
+2	regulation	regulation	I-NP	NN	O	9	SUB	16	regulation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	8	NMOD	-1
+5	proangiogenic	proangiogenic	I-NP	JJ	B-DNA	8	NMOD	3	angiogenic
+6	factor	factor	I-NP	NN	I-DNA	8	NMOD	-1
+7	CCN1/CYR61	CCN1/CYR61	I-NP	NN	I-DNA	8	NMOD	-1
+8	gene	gene	I-NP	NN	I-DNA	3	PMOD	-1
+9	requires	require	B-VP	VBZ	O	0	ROOT	17	requires
+10	the	the	B-NP	DT	O	12	NMOD	-1
+11	combined	combine	I-NP	VBN	O	12	NMOD	-1
+12	activities	activity	I-NP	NNS	O	9	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	MRTF-A	MRTF-A	B-NP	NN	B-protein	19	NMOD	-1
+15	and	and	O	CC	O	19	NMOD	-1
+16	CREB-binding	CREB-binding	B-NP	JJ	B-protein	19	NMOD	-1
+17	protein	protein	I-NP	NN	I-protein	19	NMOD	-1
+18	histone	histone	I-NP	NN	I-protein	19	NMOD	-1
+19	acetyltransferase	acetyltransferase	I-NP	NN	I-protein	13	PMOD	-1
+20	.	.	O	.	O	9	P	-1
+
+1	Smooth	Smooth	B-NP	JJ	O	3	NMOD	-1
+2	muscle-rich	muscle-rich	I-NP	JJ	O	3	NMOD	-1
+3	tissues	tissue	I-NP	NNS	O	4	SUB	-1
+4	respond	respond	B-VP	VBP	O	0	ROOT	16	respond
+5	to	to	B-PP	TO	O	4	VMOD	-1
+6	mechanical	mechanical	B-NP	JJ	O	7	NMOD	-1
+7	overload	overload	I-NP	NN	O	5	PMOD	-1
+8	by	by	B-PP	IN	O	4	VMOD	-1
+9	an	an	B-NP	DT	O	12	NMOD	-1
+10	adaptive	adaptive	I-NP	JJ	O	12	NMOD	-1
+11	hypertrophic	hypertrophic	I-NP	JJ	O	12	NMOD	-1
+12	growth	growth	I-NP	NN	O	8	PMOD	0
+13	combined	combine	B-VP	VBN	O	12	NMOD	-1
+14	with	with	B-PP	IN	O	13	VMOD	-1
+15	activation	activation	B-NP	NN	O	14	PMOD	17	activation
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis
+18	,	,	O	,	O	17	P	-1
+19	which	which	B-NP	WDT	O	17	NMOD	-1
+20	potentiates	potentiate	B-VP	VBZ	O	19	SBAR	0
+21	their	their	B-NP	PRP$	O	24	NMOD	-1
+22	mechanical	mechanical	I-NP	JJ	O	24	NMOD	-1
+23	overload-bearing	overload-bearing	I-NP	JJ	O	24	NMOD	-1
+24	capabilities	capability	I-NP	NNS	O	20	OBJ	-1
+25	.	.	O	.	O	4	P	-1
+
+1	Neovascularization	Neovascularization	B-NP	NN	O	2	SUB	3	Neovascularization
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	associated	associate	I-VP	VBN	O	2	VC	0
+4	with	with	B-PP	IN	O	3	VMOD	-1
+5	mechanical	mechanical	B-NP	JJ	O	7	NMOD	-1
+6	strain-dependent	strain-dependent	I-NP	JJ	O	7	NMOD	-1
+7	induction	induction	I-NP	NN	O	4	PMOD	17	induction
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	angiogenic	angiogenic	B-NP	JJ	B-protein	10	NMOD	3	angiogenic
+10	factors	factor	I-NP	NNS	I-protein	8	PMOD	-1
+11	such	such	B-PP	JJ	O	12	PMOD	-1
+12	as	as	I-PP	IN	O	10	NMOD	-1
+13	CCN1	CCN1	B-NP	NN	B-protein	19	NMOD	-1
+14	,	,	O	,	O	19	P	-1
+15	an	an	B-NP	DT	O	19	NMOD	-1
+16	immediate-early	immediate-early	I-NP	JJ	B-protein	19	NMOD	-1
+17	gene-encoded	gene-encoded	I-NP	JJ	I-protein	19	NMOD	-1
+18	matricellular	matricellular	I-NP	JJ	I-protein	19	NMOD	-1
+19	molecule	molecule	I-NP	NN	I-protein	12	PMOD	-1
+20	critical	critical	B-ADJP	JJ	O	19	NMOD	17	critical
+21	for	for	B-PP	IN	O	20	AMOD	-1
+22	vascular	vascular	B-NP	JJ	O	23	NMOD	-1
+23	development	development	I-NP	NN	O	25	NMOD	2	development
+24	and	and	I-NP	CC	O	25	NMOD	-1
+25	repair	repair	I-NP	NN	O	21	PMOD	2	repair
+26	.	.	O	.	O	2	P	-1
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	have	have	B-VP	VBP	O	0	ROOT	-1
+4	demonstrated	demonstrate	I-VP	VBN	O	3	VC	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	mechanical	mechanical	B-NP	JJ	O	8	NMOD	-1
+7	strain-dependent	strain-dependent	I-NP	JJ	O	8	NMOD	-1
+8	induction	induction	I-NP	NN	O	13	SUB	17	induction
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	the	the	B-NP	DT	O	12	NMOD	-1
+11	CCN1	CCN1	I-NP	NN	B-DNA	12	NMOD	-1
+12	gene	gene	I-NP	NN	I-DNA	9	PMOD	-1
+13	involves	involve	B-VP	VBZ	O	5	SBAR	0
+14	signaling	signal	I-VP	VBG	O	15	NMOD	0
+15	cascades	cascade	B-NP	NNS	O	13	OBJ	-1
+16	through	through	B-PP	IN	O	13	VMOD	0
+17	RhoA-mediated	RhoA-mediated	B-NP	JJ	B-protein	19	NMOD	16	mediated
+18	actin	actin	I-NP	NN	I-protein	19	NMOD	-1
+19	remodeling	remodeling	I-NP	NN	O	16	PMOD	0
+20	and	and	O	CC	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	20	PMOD	-1
+22	p38	p38	I-NP	NN	B-protein	21	DEP	-1
+23	stress-activated	stress-activated	I-NP	JJ	O	22	NMOD	-1
+24	protein	protein	I-NP	NN	O	23	AMOD	-1
+25	kinase	kinase	I-NP	NN	O	24	PMOD	-1
+26	(	(	O	(	O	28	DEP	-1
+27	SAPK	SAPK	B-NP	NN	B-protein	28	DEP	-1
+28	)	)	O	)	O	25	NMOD	-1
+29	.	.	O	.	O	3	P	-1
+
+1	Actin	Actin	B-NP	NN	B-protein	2	NMOD	-1
+2	signaling	signaling	I-NP	NN	O	3	SUB	0
+3	controls	control	B-VP	VBZ	O	0	ROOT	16	controls
+4	serum	serum	B-NP	NN	B-protein	6	NMOD	-1
+5	response	response	I-NP	NN	I-protein	6	NMOD	0
+6	factor	factor	I-NP	NN	I-protein	10	NMOD	-1
+7	(	(	O	(	O	9	DEP	-1
+8	SRF	SRF	B-NP	NN	B-protein	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	activity	activity	B-NP	NN	O	3	OBJ	0
+11	via	via	B-PP	IN	O	3	VMOD	17	via
+12	SRF	SRF	B-NP	NN	B-protein	13	NMOD	-1
+13	interaction	interaction	I-NP	NN	O	11	PMOD	15	interaction
+14	with	with	B-PP	IN	O	13	NMOD	-1
+15	the	the	B-NP	DT	O	18	NMOD	-1
+16	myocardin-related	myocardin-related	I-NP	JJ	B-protein	18	NMOD	-1
+17	transcriptional	transcriptional	I-NP	JJ	I-protein	18	NMOD	0
+18	activator	activator	I-NP	NN	I-protein	24	NMOD	0
+19	(	(	O	(	O	21	DEP	-1
+20	MRTF	MRTF	B-NP	NN	B-protein	21	DEP	-1
+21	)	)	O	)	O	18	NMOD	-1
+22	-A	-A	B-NP	NN	O	24	NMOD	-1
+23	and	and	I-NP	CC	O	24	NMOD	-1
+24	tethering	tethering	I-NP	NN	O	14	PMOD	-1
+25	to	to	B-PP	TO	O	24	NMOD	-1
+26	a	a	B-NP	DT	O	30	NMOD	-1
+27	single	single	I-NP	JJ	O	30	NMOD	-1
+28	CArG	CArG	I-NP	NN	B-DNA	30	NMOD	-1
+29	box	box	I-NP	NN	I-DNA	30	NMOD	-1
+30	sequence	sequence	I-NP	NN	I-DNA	25	PMOD	-1
+31	within	within	B-PP	IN	O	30	NMOD	-1
+32	the	the	B-NP	DT	O	34	NMOD	-1
+33	CCN1	CCN1	I-NP	NN	B-DNA	34	NMOD	-1
+34	promoter	promoter	I-NP	NN	I-DNA	31	PMOD	-1
+35	.	.	O	.	O	3	P	-1
+
+1	Such	Such	B-NP	JJ	O	2	NMOD	-1
+2	activity	activity	I-NP	NN	O	3	SUB	0
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	abolished	abolish	I-VP	VBN	O	3	VC	0
+5	in	in	B-PP	IN	O	4	VMOD	-1
+6	mechanically	mechanically	B-NP	RB	O	7	AMOD	-1
+7	stimulated	stimulate	I-NP	VBN	O	13	NMOD	17	stimulated
+8	mouse	mouse	I-NP	NN	B-cell_line	9	NMOD	-1
+9	MRTF-A	MRTF-A	I-NP	NN	I-cell_line	13	NMOD	-1
+10	(	(	O	(	I-cell_line	12	DEP	-1
+11	-/-	-/-	O	JJ	I-cell_line	12	DEP	-1
+12	)	)	O	)	I-cell_line	9	NMOD	-1
+13	cells	cell	B-NP	NNS	I-cell_line	5	PMOD	-1
+14	or	or	B-PP	CC	O	5	PMOD	-1
+15	upon	upon	B-PP	IN	O	5	PMOD	-1
+16	inhibition	inhibition	B-NP	NN	O	15	PMOD	18	inhibition
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	CREB-binding	CREB-binding	B-NP	JJ	B-protein	19	NMOD	-1
+19	protein	protein	I-NP	NN	I-protein	24	NMOD	-1
+20	(	(	O	(	O	22	DEP	-1
+21	CBP	CBP	B-NP	NN	B-protein	22	DEP	-1
+22	)	)	O	)	O	19	NMOD	-1
+23	histone	histone	B-NP	NN	O	24	NMOD	-1
+24	acetyltransferase	acetyltransferase	I-NP	NN	O	17	PMOD	-1
+25	(	(	O	(	O	27	DEP	-1
+26	HAT	HAT	B-NP	NN	O	27	DEP	-1
+27	)	)	O	)	O	24	NMOD	-1
+28	either	either	B-PP	CC	O	17	PMOD	-1
+29	pharmacologically	pharmacologically	I-PP	RB	O	28	DEP	-1
+30	or	or	O	CC	O	17	PMOD	-1
+31	by	by	B-PP	IN	O	17	PMOD	-1
+32	siRNAs	siRNA	B-NP	NNS	O	31	PMOD	-1
+33	.	.	O	.	O	3	P	-1
+
+1	Mechanical	Mechanical	B-NP	JJ	O	2	NMOD	-1
+2	strain	strain	I-NP	NN	O	3	SUB	-1
+3	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+4	CBP-mediated	CBP-mediated	B-NP	JJ	O	5	NMOD	17	mediated
+5	acetylation	acetylation	I-NP	NN	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	histones	histone	B-NP	NNS	B-protein	6	PMOD	-1
+8	3	3	B-NP	CD	I-protein	10	NMOD	-1
+9	and	and	I-NP	CC	I-protein	10	NMOD	-1
+10	4	4	I-NP	CD	I-protein	7	NMOD	-1
+11	at	at	B-PP	IN	O	5	NMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	SRF-binding	SRF-binding	I-NP	JJ	B-DNA	14	NMOD	-1
+14	site	site	I-NP	NN	I-DNA	11	PMOD	-1
+15	and	and	B-PP	CC	O	3	VMOD	-1
+16	within	within	B-PP	IN	O	3	VMOD	-1
+17	the	the	B-NP	DT	O	21	NMOD	-1
+18	CCN1	CCN1	I-NP	NN	B-DNA	21	NMOD	-1
+19	gene	gene	I-NP	NN	I-DNA	21	NMOD	-1
+20	coding	coding	I-NP	NN	I-DNA	21	NMOD	-1
+21	region	region	I-NP	NN	I-DNA	16	PMOD	-1
+22	.	.	O	.	O	3	P	-1
+
+1	Inhibition	Inhibition	B-NP	NN	O	5	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	p38	p38	B-NP	NN	B-protein	4	NMOD	-1
+4	SAPK	SAPK	I-NP	NN	I-protein	2	PMOD	-1
+5	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+6	CBP	CBP	B-NP	NN	B-protein	8	NMOD	-1
+7	HAT	HAT	I-NP	NN	O	8	NMOD	-1
+8	activity	activity	I-NP	NN	O	11	NMOD	0
+9	and	and	O	CC	O	11	NMOD	-1
+10	its	its	B-NP	PRP$	O	11	NMOD	-1
+11	recruitment	recruitment	I-NP	NN	O	5	OBJ	15	recruitment
+12	to	to	B-PP	TO	O	11	NMOD	-1
+13	the	the	B-NP	DT	O	15	NMOD	-1
+14	SRF.MRTF-A	SRF.MRTF-A	I-NP	NN	B-protein	15	NMOD	-1
+15	complex	complex	I-NP	NN	I-protein	12	PMOD	-1
+16	,	,	O	,	O	5	P	-1
+17	whereas	whereas	O	IN	O	5	VMOD	-1
+18	enforced	enforce	B-NP	VBN	O	19	NMOD	0
+19	induction	induction	I-NP	NN	O	31	SUB	17	induction
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	p38	p38	B-NP	NN	B-protein	20	PMOD	-1
+22	by	by	B-PP	IN	O	19	NMOD	-1
+23	upstream	upstream	B-NP	JJ	B-protein	24	NMOD	-1
+24	activators	activator	I-NP	NNS	I-protein	22	PMOD	-1
+25	(	(	O	(	O	30	DEP	-1
+26	e.g.	e.g.	B-NP	FW	O	30	DEP	-1
+27	MKK3	MKK3	I-NP	NN	B-protein	29	NMOD	-1
+28	and	and	O	CC	O	29	NMOD	-1
+29	MKK6	MKK6	B-NP	NN	B-protein	30	DEP	-1
+30	)	)	O	)	O	24	NMOD	-1
+31	enhanced	enhance	B-VP	VBD	O	17	SBAR	17	enhanced
+32	both	both	O	CC	O	38	NMOD	-1
+33	CBP	CBP	B-NP	NN	B-protein	34	NMOD	-1
+34	HAT	HAT	I-NP	NN	O	38	NMOD	-1
+35	and	and	O	CC	O	38	NMOD	-1
+36	CCN1	CCN1	B-NP	NN	O	38	NMOD	-1
+37	promoter	promoter	I-NP	NN	O	38	NMOD	-1
+38	activities	activity	I-NP	NNS	O	31	OBJ	0
+39	.	.	O	.	O	5	P	-1
+
+1	Similarly	Similarly	B-ADVP	RB	O	10	VMOD	-1
+2	,	,	O	,	O	10	P	-1
+3	mechanical	mechanical	B-NP	JJ	O	7	NMOD	-1
+4	overload-induced	overload-induced	I-NP	JJ	O	7	NMOD	17	induced
+5	CCN1	CCN1	I-NP	NN	O	7	NMOD	-1
+6	gene	gene	I-NP	NN	O	7	NMOD	-1
+7	expression	expression	I-NP	NN	O	10	SUB	9	expression
+8	in	in	B-ADVP	FW	O	7	NMOD	-1
+9	vivo	vivo	I-ADVP	FW	O	8	AMOD	-1
+10	was	be	B-VP	VBD	O	0	ROOT	-1
+11	associated	associate	I-VP	VBN	O	10	VC	16	associated
+12	with	with	B-PP	IN	O	11	VMOD	-1
+13	nuclear	nuclear	B-NP	JJ	O	14	NMOD	-1
+14	localization	localization	I-NP	NN	O	12	PMOD	14	localization
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	MRTF-A	MRTF-A	B-NP	NN	B-protein	18	NMOD	-1
+17	and	and	I-NP	CC	O	18	NMOD	-1
+18	enrichment	enrichment	I-NP	NN	O	15	PMOD	-1
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	CCN1	CCN1	I-NP	NN	B-DNA	22	NMOD	-1
+22	promoter	promoter	I-NP	NN	I-DNA	19	PMOD	-1
+23	with	with	B-PP	IN	O	14	NMOD	-1
+24	both	both	O	CC	O	29	NMOD	-1
+25	MRTF-A	MRTF-A	B-NP	NN	B-protein	29	NMOD	-1
+26	and	and	O	CC	O	29	NMOD	-1
+27	acetylated	acetylate	B-NP	VBN	B-protein	29	NMOD	0
+28	histone	histone	I-NP	NN	I-protein	29	NMOD	-1
+29	H3	H3	I-NP	NN	I-protein	23	PMOD	-1
+30	.	.	O	.	O	10	P	-1
+
+1	Taken	Take	B-VP	VBN	O	6	VMOD	-1
+2	together	together	B-ADVP	RB	O	1	VMOD	-1
+3	,	,	O	,	O	6	P	-1
+4	these	these	B-NP	DT	O	5	NMOD	-1
+5	data	datum	I-NP	NNS	O	6	SUB	-1
+6	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	signal-controlled	signal-controlled	B-NP	JJ	O	9	NMOD	16	controlled
+9	activation	activation	I-NP	NN	O	7	SBAR	17	activation
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	SRF	SRF	B-NP	NN	B-protein	17	SUB	-1
+12	,	,	O	,	O	17	P	-1
+13	MRTF-A	MRTF-A	B-NP	NN	B-protein	17	SUB	-1
+14	,	,	O	,	O	17	P	-1
+15	and	and	O	CC	O	17	VMOD	-1
+16	CBP	CBP	B-NP	NN	B-protein	17	SUB	-1
+17	provides	provide	B-VP	VBZ	O	10	SBAR	-1
+18	a	a	B-NP	DT	O	20	NMOD	-1
+19	novel	novel	I-NP	JJ	O	20	NMOD	-1
+20	connection	connection	I-NP	NN	O	17	OBJ	0
+21	between	between	B-PP	IN	O	20	NMOD	-1
+22	mechanical	mechanical	B-NP	JJ	O	23	NMOD	-1
+23	stimuli	stimulus	I-NP	NNS	O	27	NMOD	-1
+24	and	and	O	CC	O	27	NMOD	-1
+25	angiogenic	angiogenic	B-NP	JJ	O	27	NMOD	3	angiogenic
+26	gene	gene	I-NP	NN	O	27	NMOD	-1
+27	expression	expression	I-NP	NN	O	21	PMOD	0
+28	.	.	O	.	O	6	P	-1
+

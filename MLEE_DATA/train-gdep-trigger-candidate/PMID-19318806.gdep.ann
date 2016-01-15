@@ -1,0 +1,256 @@
+1	The	The	B-NP	DT	O	6	NMOD	-1
+2	semaphorin	semaphorin	I-NP	NN	O	6	NMOD	-1
+3	7A	7A	I-NP	NN	O	6	NMOD	-1
+4	receptor	receptor	I-NP	NN	O	6	NMOD	-1
+5	Plexin	Plexin	I-NP	NN	O	6	NMOD	-1
+6	C1	C1	I-NP	NN	O	7	SUB	-1
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	lost	lose	I-VP	VBN	O	7	VC	-1
+9	during	during	B-PP	IN	O	8	VMOD	-1
+10	melanoma	melanoma	B-NP	NN	O	11	NMOD	-1
+11	metastasis	metastasis	I-NP	NN	O	9	PMOD	14	metastasis
+12	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	transformation	transformation	I-NP	NN	O	10	NMOD	2	transformation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	normal	normal	B-NP	JJ	B-cell_type	5	NMOD	-1
+5	melanocytes	melanocyte	I-NP	NNS	I-cell_type	3	PMOD	-1
+6	,	,	O	,	O	10	P	-1
+7	or	or	O	CC	O	10	NMOD	-1
+8	melanocyte	melanocyte	B-NP	NN	B-cell_type	10	NMOD	-1
+9	stem	stem	I-NP	NN	I-cell_type	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_type	15	SUB	-1
+11	,	,	O	,	O	10	P	-1
+12	to	to	B-PP	TO	O	10	NMOD	-1
+13	melanoma	melanoma	B-NP	NN	O	12	PMOD	-1
+14	,	,	O	,	O	10	P	-1
+15	is	be	B-VP	VBZ	O	0	ROOT	-1
+16	a	a	B-NP	DT	O	18	NMOD	-1
+17	complex	complex	I-NP	JJ	O	18	NMOD	-1
+18	process	process	I-NP	NN	O	15	PRD	-1
+19	involving	involve	B-VP	VBG	O	18	NMOD	0
+20	multiple	multiple	B-NP	JJ	O	21	NMOD	-1
+21	mechanisms	mechanism	I-NP	NNS	O	19	OBJ	-1
+22	.	.	O	.	O	15	P	-1
+
+1	Loss	Loss	B-NP	NN	O	21	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	tumor	tumor	B-NP	NN	B-protein	5	NMOD	-1
+4	suppressor	suppressor	I-NP	NN	I-protein	5	NMOD	0
+5	proteins	protein	I-NP	NNS	I-protein	2	PMOD	-1
+6	,	,	O	,	O	5	P	-1
+7	which	which	B-NP	WDT	O	5	NMOD	-1
+8	function	function	B-VP	VBP	O	7	SBAR	-1
+9	as	as	B-PP	IN	O	8	VMOD	-1
+10	brakes	brake	B-NP	NNS	O	9	PMOD	18	brakes
+11	on	on	B-PP	IN	O	10	NMOD	-1
+12	cell	cell	B-NP	NN	O	13	NMOD	-1
+13	growth	growth	I-NP	NN	O	19	NMOD	1	growth
+14	,	,	O	,	O	19	P	-1
+15	migration	migration	B-NP	NN	O	19	NMOD	14	migration
+16	,	,	O	,	O	19	P	-1
+17	or	or	O	CC	O	19	NMOD	-1
+18	cell	cell	B-NP	NN	O	19	NMOD	-1
+19	survival	survival	I-NP	NN	O	11	PMOD	5	survival
+20	,	,	O	,	O	1	P	-1
+21	was	be	B-VP	VBD	O	0	ROOT	-1
+22	recognized	recognize	I-VP	VBN	O	21	VC	-1
+23	early	early	B-ADVP	RB	O	22	VMOD	-1
+24	on	on	B-PP	IN	O	22	VMOD	-1
+25	as	as	B-PP	IN	O	24	PMOD	-1
+26	an	an	B-NP	DT	O	28	NMOD	-1
+27	important	important	I-NP	JJ	O	28	NMOD	0
+28	mechanism	mechanism	I-NP	NN	O	25	PMOD	0
+29	for	for	B-PP	IN	O	28	NMOD	-1
+30	initiation	initiation	B-NP	NN	O	32	NMOD	0
+31	and	and	I-NP	CC	O	32	NMOD	-1
+32	progression	progression	I-NP	NN	O	29	PMOD	0
+33	of	of	B-PP	IN	O	32	NMOD	-1
+34	melanoma	melanoma	B-NP	NN	O	33	PMOD	-1
+35	.	.	O	.	O	21	P	-1
+
+1	Semaphorins	Semaphorin	B-NP	NNS	O	9	NMOD	-1
+2	and	and	O	CC	O	9	NMOD	-1
+3	their	their	B-NP	PRP$	O	9	NMOD	-1
+4	cognate	cognate	I-NP	JJ	B-protein	5	NMOD	-1
+5	receptors	receptor	I-NP	NNS	I-protein	9	NMOD	-1
+6	,	,	I-NP	,	O	9	P	-1
+7	Plexins	Plexin	I-NP	NNS	B-protein	9	NMOD	-1
+8	and	and	I-NP	CC	O	9	NMOD	-1
+9	neuropilins	neuropilin	I-NP	NNS	B-protein	11	SUB	-1
+10	,	,	O	,	O	9	P	-1
+11	are	be	B-VP	VBP	O	0	ROOT	-1
+12	involved	involve	I-VP	VBN	O	11	VC	0
+13	in	in	B-PP	IN	O	12	VMOD	-1
+14	neuronal	neuronal	B-NP	JJ	O	15	NMOD	-1
+15	pathfinding	pathfinding	I-NP	NN	O	22	NMOD	-1
+16	,	,	O	,	O	22	P	-1
+17	immune	immune	B-NP	JJ	O	18	NMOD	-1
+18	function	function	I-NP	NN	O	22	NMOD	-1
+19	,	,	O	,	O	22	P	-1
+20	and	and	O	CC	O	22	NMOD	-1
+21	tumor	tumor	B-NP	NN	O	22	NMOD	-1
+22	progression	progression	I-NP	NN	O	13	PMOD	2	progression
+23	through	through	B-PP	IN	O	22	NMOD	17	through
+24	effects	effect	B-NP	NNS	O	23	PMOD	16	effects
+25	on	on	B-PP	IN	O	24	NMOD	-1
+26	blood	blood	B-NP	NN	O	28	NMOD	-1
+27	vessel	vessel	I-NP	NN	O	28	NMOD	-1
+28	growth	growth	I-NP	NN	O	31	NMOD	4	growth
+29	and	and	O	CC	O	31	NMOD	-1
+30	cell	cell	B-NP	NN	O	31	NMOD	-1
+31	migration	migration	I-NP	NN	O	25	PMOD	14	migration
+32	.	.	O	.	O	11	P	-1
+
+1	Semaphorin	Semaphorin	B-NP	NN	B-protein	2	NMOD	-1
+2	7A	7A	I-NP	NN	I-protein	6	SUB	-1
+3	(	(	O	(	O	5	DEP	-1
+4	Sema7A	Sema7A	B-NP	NN	O	5	DEP	-1
+5	)	)	O	)	O	2	NMOD	-1
+6	is	be	B-VP	VBZ	O	19	VMOD	-1
+7	a	a	B-NP	DT	O	9	NMOD	-1
+8	membrane-linked	membrane-linked	I-NP	JJ	B-protein	9	NMOD	15	linked
+9	semaphorin	semaphorin	I-NP	NN	I-protein	6	PRD	-1
+10	that	that	B-NP	WDT	O	9	NMOD	-1
+11	is	be	B-VP	VBZ	O	10	SBAR	-1
+12	expressed	express	I-VP	VBN	O	11	VC	9	expressed
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	human	human	B-NP	JJ	B-cell_type	15	NMOD	-1
+15	keratinocytes	keratinocyte	I-NP	NNS	I-cell_type	13	PMOD	-1
+16	,	,	O	,	O	19	P	-1
+17	and	and	O	CC	O	19	VMOD	-1
+18	we	we	B-NP	PRP	O	19	SUB	-1
+19	have	have	B-VP	VBP	O	0	ROOT	-1
+20	shown	show	I-VP	VBN	O	19	VC	-1
+21	that	that	B-SBAR	IN	O	20	VMOD	-1
+22	Sema7A	Sema7A	B-NP	NN	B-protein	23	SUB	-1
+23	binds	bind	B-VP	VBZ	O	21	SBAR	15	binds
+24	to	to	B-PP	TO	O	23	VMOD	-1
+25	human	human	B-NP	JJ	B-cell_type	26	NMOD	-1
+26	melanocytes	melanocyte	I-NP	NNS	I-cell_type	24	PMOD	-1
+27	through	through	B-PP	IN	O	23	VMOD	0
+28	beta1-integrins	beta1-integrin	B-NP	NNS	B-protein	33	NMOD	-1
+29	and	and	O	CC	O	33	NMOD	-1
+30	the	the	B-NP	DT	O	33	NMOD	-1
+31	Plexin	Plexin	I-NP	NN	B-protein	33	NMOD	-1
+32	C1	C1	I-NP	NN	I-protein	33	NMOD	-1
+33	receptor	receptor	I-NP	NN	I-protein	27	PMOD	-1
+34	.	.	O	.	O	19	P	-1
+
+1	Functional	Functional	B-NP	JJ	O	2	NMOD	-1
+2	studies	study	I-NP	NNS	O	3	SUB	-1
+3	showed	show	B-VP	VBD	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	Sema7A	Sema7A	B-NP	NN	B-protein	6	SUB	-1
+6	stimulates	stimulate	B-VP	VBZ	O	4	SBAR	17	stimulates
+7	cytoskeletal	cytoskeletal	B-NP	JJ	O	8	NMOD	-1
+8	reorganization	reorganization	I-NP	NN	O	6	OBJ	16	reorganization
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	human	human	B-NP	JJ	B-cell_type	11	NMOD	-1
+11	melanocytes	melanocyte	I-NP	NNS	I-cell_type	9	PMOD	-1
+12	,	,	O	,	O	6	P	-1
+13	resulting	result	B-VP	VBG	O	6	VMOD	17	resulting
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	adhesion	adhesion	B-NP	NN	O	18	NMOD	15	adhesion
+16	and	and	I-NP	CC	O	18	NMOD	-1
+17	dendrite	dendrite	I-NP	NN	O	18	NMOD	-1
+18	formation	formation	I-NP	NN	O	14	PMOD	0
+19	.	.	O	.	O	3	P	-1
+
+1	Downstream	Downstream	B-NP	JJ	O	2	NMOD	0
+2	targets	target	I-NP	NNS	O	10	SUB	16	targets
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	Plexin	Plexin	B-NP	NN	B-protein	6	NMOD	-1
+5	C1	C1	I-NP	NN	I-protein	6	NMOD	-1
+6	signaling	signaling	I-NP	NN	O	3	PMOD	0
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	human	human	B-NP	JJ	B-cell_type	9	NMOD	-1
+9	melanocytes	melanocyte	I-NP	NNS	I-cell_type	7	PMOD	-1
+10	include	include	B-VP	VBP	O	0	ROOT	-1
+11	cofilin	cofilin	B-NP	NN	O	14	NMOD	-1
+12	and	and	O	CC	O	14	NMOD	-1
+13	LIM	LIM	B-NP	NN	B-protein	14	NMOD	-1
+14	kinase	kinase	I-NP	NN	I-protein	10	OBJ	-1
+15	II	II	I-NP	CD	I-protein	14	NMOD	-1
+16	,	,	O	,	O	14	P	-1
+17	both	both	B-NP	DT	O	18	NMOD	-1
+18	of	of	B-PP	IN	O	14	NMOD	-1
+19	which	which	B-NP	WDT	O	18	PMOD	-1
+20	are	be	B-VP	VBP	O	18	SBAR	-1
+21	critical	critical	B-NP	JJ	O	22	NMOD	0
+22	mediators	mediator	I-NP	NNS	O	20	PRD	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	cell	cell	B-NP	NN	O	25	NMOD	-1
+25	adhesion	adhesion	I-NP	NN	O	27	NMOD	15	adhesion
+26	and	and	I-NP	CC	O	27	NMOD	-1
+27	migration	migration	I-NP	NN	O	23	PMOD	14	migration
+28	.	.	O	.	O	10	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	report	report	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	analyzed	analyze	B-VP	VBD	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	expression	expression	I-NP	NN	O	6	OBJ	9	expression
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	Plexin	Plexin	B-NP	NN	B-protein	11	NMOD	-1
+11	C1	C1	I-NP	NN	I-protein	9	PMOD	-1
+12	using	use	B-VP	VBG	O	6	VMOD	-1
+13	immunohistochemistry	immunohistochemistry	B-NP	NN	O	12	OBJ	-1
+14	on	on	B-PP	IN	O	13	NMOD	-1
+15	sections	section	B-NP	NNS	O	14	PMOD	-1
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	primary	primary	B-NP	JJ	O	21	NMOD	-1
+18	and	and	I-NP	CC	O	21	NMOD	-1
+19	matched	matched	I-NP	JJ	O	21	NMOD	-1
+20	metastatic	metastatic	I-NP	JJ	O	21	NMOD	0
+21	lesions	lesion	I-NP	NNS	O	16	PMOD	-1
+22	from	from	B-PP	IN	O	21	NMOD	-1
+23	19	19	B-NP	CD	O	24	NMOD	-1
+24	subjects	subject	I-NP	NNS	O	22	PMOD	-1
+25	and	and	B-PP	CC	O	14	PMOD	-1
+26	in	in	B-PP	IN	O	14	PMOD	-1
+27	a	a	B-NP	DT	O	31	NMOD	-1
+28	large	large	I-NP	JJ	O	31	NMOD	-1
+29	melanoma	melanoma	I-NP	NN	O	31	NMOD	-1
+30	tumor	tumor	I-NP	NN	O	31	NMOD	-1
+31	microarray	microarray	I-NP	NN	O	26	PMOD	-1
+32	.	.	O	.	O	6	P	-1
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	show	show	B-VP	VBP	O	0	ROOT	-1
+4	a	a	B-NP	DT	O	6	NMOD	-1
+5	significant	significant	I-NP	JJ	O	6	NMOD	-1
+6	loss	loss	I-NP	NN	O	3	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	Plexin	Plexin	B-NP	NN	B-protein	9	NMOD	-1
+9	C1	C1	I-NP	NN	I-protein	7	PMOD	-1
+10	in	in	B-PP	IN	O	6	NMOD	-1
+11	metastatic	metastatic	B-NP	JJ	O	12	NMOD	0
+12	melanoma	melanoma	I-NP	NN	O	10	PMOD	-1
+13	compared	compare	B-PP	VBN	O	3	VMOD	-1
+14	with	with	B-PP	IN	O	13	PMOD	-1
+15	primary	primary	B-NP	JJ	O	16	NMOD	-1
+16	melanoma	melanoma	I-NP	NN	O	14	PMOD	-1
+17	,	,	O	,	O	3	P	-1
+18	suggesting	suggest	B-VP	VBG	O	3	VMOD	-1
+19	the	the	B-NP	DT	O	20	NMOD	-1
+20	possibility	possibility	I-NP	NN	O	18	OBJ	-1
+21	that	that	B-SBAR	IN	O	20	NMOD	-1
+22	the	the	B-NP	DT	O	25	NMOD	-1
+23	Plexin	Plexin	I-NP	NN	B-protein	25	NMOD	-1
+24	C1	C1	I-NP	NN	I-protein	25	NMOD	-1
+25	receptor	receptor	I-NP	NN	I-protein	26	SUB	-1
+26	is	be	B-VP	VBZ	O	21	SBAR	-1
+27	a	a	B-NP	DT	O	30	NMOD	-1
+28	tumor	tumor	I-NP	NN	B-protein	30	NMOD	-1
+29	suppressor	suppressor	I-NP	NN	I-protein	30	NMOD	0
+30	protein	protein	I-NP	NN	I-protein	26	PRD	-1
+31	for	for	B-PP	IN	O	30	NMOD	-1
+32	melanoma	melanoma	B-NP	NN	O	31	PMOD	-1
+33	.	.	O	.	O	3	P	-1
+

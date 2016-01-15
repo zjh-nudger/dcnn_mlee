@@ -1,0 +1,263 @@
+1	Estradiol	Estradiol	B-NP	NN	O	2	SUB	0
+2	increases	increase	B-VP	VBZ	O	0	ROOT	17	increases
+3	IL-8	IL-8	B-NP	NN	B-protein	4	NMOD	0
+4	secretion	secretion	I-NP	NN	O	12	NMOD	14	secretion
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	normal	normal	B-NP	JJ	O	9	NMOD	0
+7	human	human	I-NP	JJ	O	9	NMOD	0
+8	breast	breast	I-NP	NN	O	9	NMOD	0
+9	tissue	tissue	I-NP	NN	O	5	PMOD	0
+10	and	and	O	CC	O	12	NMOD	0
+11	breast	breast	B-NP	NN	O	12	NMOD	0
+12	cancer	cancer	I-NP	NN	O	2	OBJ	0
+13	in	in	B-ADVP	FW	O	2	VMOD	0
+14	vivo	vivo	I-ADVP	FW	O	13	AMOD	0
+15	.	.	O	.	O	2	P	0
+
+1	IL-8	IL-8	B-NP	NN	B-protein	3	NMOD	0
+2	or	or	I-NP	CC	O	3	NMOD	0
+3	CXCL8	CXCL8	I-NP	NN	B-protein	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	associated	associate	I-VP	VBN	O	5	VC	16	associated
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	tumor	tumor	B-NP	NN	O	9	NMOD	0
+9	angiogenesis	angiogenesis	I-NP	NN	O	15	NMOD	3	angiogenesis
+10	,	,	O	,	O	15	P	0
+11	metastasis	metastasis	B-NP	NN	O	15	NMOD	14	metastasis
+12	,	,	O	,	O	15	P	0
+13	and	and	O	CC	O	15	NMOD	0
+14	poor	poor	B-NP	JJ	O	15	NMOD	0
+15	prognosis	prognosis	I-NP	NN	O	7	PMOD	0
+16	in	in	B-PP	IN	O	15	NMOD	0
+17	breast	breast	B-NP	NN	O	18	NMOD	0
+18	cancer	cancer	I-NP	NN	O	16	PMOD	0
+19	.	.	O	.	O	4	P	0
+
+1	Estrogen	Estrogen	B-NP	NN	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	crucial	crucial	B-ADJP	JJ	O	2	PRD	17	crucial
+4	in	in	B-PP	IN	O	3	AMOD	0
+5	breast	breast	B-NP	NN	O	6	NMOD	0
+6	carcinogenesis	carcinogenesis	I-NP	NN	O	9	NMOD	0
+7	and	and	O	CC	O	9	NMOD	0
+8	tumor	tumor	B-NP	NN	O	9	NMOD	0
+9	progression	progression	I-NP	NN	O	4	PMOD	2	progression
+10	.	.	O	.	O	2	P	0
+
+1	Whether	Whether	B-SBAR	IN	O	14	SUB	0
+2	sex	sex	B-NP	NN	O	3	NMOD	0
+3	steroids	steroid	I-NP	NNS	O	4	SUB	0
+4	affect	affect	B-VP	VBP	O	1	SBAR	16	affect
+5	IL-8	IL-8	B-NP	NN	B-protein	6	NMOD	0
+6	secretion	secretion	I-NP	NN	O	4	OBJ	14	secretion
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	normal	normal	B-NP	JJ	O	10	NMOD	0
+9	breast	breast	I-NP	NN	O	10	NMOD	0
+10	tissue	tissue	I-NP	NN	O	13	NMOD	0
+11	or	or	O	CC	O	13	NMOD	0
+12	breast	breast	B-NP	NN	O	13	NMOD	0
+13	cancer	cancer	I-NP	NN	O	7	PMOD	0
+14	is	be	B-VP	VBZ	O	0	ROOT	0
+15	not	not	I-VP	RB	O	14	VMOD	0
+16	known	know	I-VP	VBN	O	14	VC	0
+17	.	.	O	.	O	14	P	0
+
+1	Several	Several	B-NP	JJ	O	3	NMOD	0
+2	cell	cell	I-NP	NN	O	3	NMOD	0
+3	types	type	I-NP	NNS	O	0	ROOT	0
+4	in	in	B-PP	IN	O	3	NMOD	0
+5	a	a	B-NP	DT	O	8	NMOD	0
+6	tissue	tissue	I-NP	NN	O	8	NMOD	0
+7	secrete	secrete	I-NP	NN	O	8	NMOD	14	secrete
+8	IL-8	IL-8	I-NP	NN	B-protein	4	PMOD	0
+9	.	.	O	.	O	3	P	0
+
+1	Hence	Hence	B-ADVP	RB	O	7	VMOD	0
+2	,	,	O	,	O	7	P	0
+3	regulatory	regulatory	B-NP	JJ	O	4	NMOD	16	regulatory
+4	mechanisms	mechanism	I-NP	NNS	O	7	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	IL-8	IL-8	B-NP	NN	B-protein	5	PMOD	0
+7	need	need	B-VP	VBP	O	0	ROOT	0
+8	to	to	I-VP	TO	O	9	VMOD	0
+9	be	be	I-VP	VB	O	7	VMOD	0
+10	investigated	investigate	I-VP	VBN	O	9	VC	0
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	whole	whole	B-NP	JJ	O	13	NMOD	0
+13	tissue	tissue	I-NP	NN	O	11	PMOD	0
+14	.	.	O	.	O	7	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	used	use	B-VP	VBD	O	0	ROOT	0
+3	microdialysis	microdialysis	B-NP	NN	O	2	OBJ	0
+4	to	to	B-PP	TO	O	2	VMOD	0
+5	sample	sample	B-NP	NN	O	6	NMOD	0
+6	IL-8	IL-8	I-NP	NN	B-protein	4	PMOD	0
+7	in	in	B-PP	IN	O	2	VMOD	0
+8	normal	normal	B-NP	JJ	O	11	NMOD	0
+9	human	human	I-NP	JJ	O	11	NMOD	0
+10	breast	breast	I-NP	NN	O	11	NMOD	0
+11	tissue	tissue	I-NP	NN	O	7	PMOD	0
+12	in	in	B-ADVP	FW	O	11	NMOD	0
+13	situ	situ	I-ADVP	FW	O	12	AMOD	0
+14	in	in	B-PP	IN	O	2	VMOD	0
+15	pre-	pre-	B-NP	JJ	O	18	NMOD	0
+16	and	and	I-NP	CC	O	18	NMOD	0
+17	postmenopausal	postmenopausal	I-NP	JJ	O	18	NMOD	0
+18	women	woman	I-NP	NNS	O	14	PMOD	0
+19	,	,	O	,	O	2	P	0
+20	preoperatively	preoperatively	B-ADVP	RB	O	21	PMOD	0
+21	in	in	B-PP	IN	O	2	VMOD	0
+22	breast	breast	B-NP	NN	O	23	NMOD	0
+23	cancers	cancer	I-NP	NNS	O	21	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	women	woman	B-NP	NNS	O	24	PMOD	0
+26	,	,	O	,	O	21	P	0
+27	and	and	O	CC	O	21	PMOD	0
+28	in	in	B-PP	IN	O	2	VMOD	0
+29	experimental	experimental	B-NP	JJ	O	31	NMOD	0
+30	breast	breast	I-NP	NN	O	31	NMOD	0
+31	cancer	cancer	I-NP	NN	O	28	PMOD	0
+32	in	in	B-PP	IN	O	31	NMOD	0
+33	mice	mouse	B-NP	NNS	O	32	PMOD	0
+34	.	.	O	.	O	2	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	found	find	B-VP	VBD	O	0	ROOT	0
+3	a	a	B-NP	DT	O	6	NMOD	0
+4	significant	significant	I-NP	JJ	O	5	AMOD	0
+5	positive	positive	I-NP	JJ	O	6	NMOD	0
+6	correlation	correlation	I-NP	NN	O	2	OBJ	0
+7	between	between	B-PP	IN	O	6	NMOD	0
+8	IL-8	IL-8	B-NP	NN	B-protein	10	NMOD	0
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	estradiol	estradiol	I-NP	NN	O	18	NMOD	0
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	normal	normal	B-NP	JJ	O	14	NMOD	0
+13	breast	breast	I-NP	NN	O	14	NMOD	0
+14	tissue	tissue	I-NP	NN	O	11	PMOD	0
+15	and	and	O	CC	O	18	NMOD	0
+16	hormone-dependent	hormone-dependent	B-NP	JJ	O	18	NMOD	0
+17	breast	breast	I-NP	NN	O	18	NMOD	0
+18	cancer	cancer	I-NP	NN	O	7	PMOD	0
+19	in	in	B-ADVP	FW	O	18	NMOD	0
+20	vivo	vivo	I-ADVP	FW	O	19	AMOD	0
+21	.	.	O	.	O	2	P	0
+
+1	Ex	Ex	B-ADVP	FW	O	6	VMOD	0
+2	vivo	vivo	I-ADVP	FW	O	1	AMOD	0
+3	,	,	O	,	O	6	P	0
+4	estradiol	estradiol	B-NP	NN	O	5	NMOD	0
+5	exposure	exposure	I-NP	NN	O	6	SUB	19	exposure
+6	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	IL-8	IL-8	I-NP	NN	B-protein	9	NMOD	0
+9	secretion	secretion	I-NP	NN	O	6	OBJ	14	secretion
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	normal	normal	B-NP	JJ	O	14	NMOD	0
+12	whole	whole	I-NP	JJ	O	14	NMOD	0
+13	breast	breast	I-NP	NN	O	14	NMOD	0
+14	tissue	tissue	I-NP	NN	O	10	PMOD	0
+15	in	in	B-PP	IN	O	9	NMOD	0
+16	culture	culture	B-NP	NN	O	15	PMOD	19	culture
+17	.	.	O	.	O	6	P	0
+
+1	In	In	B-PP	IN	O	7	VMOD	0
+2	experimental	experimental	B-NP	JJ	O	4	NMOD	0
+3	breast	breast	I-NP	NN	O	4	NMOD	0
+4	cancer	cancer	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	estradiol	estradiol	B-NP	NN	O	7	SUB	0
+7	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+8	IL-8	IL-8	B-NP	NN	B-protein	7	OBJ	0
+9	whereas	whereas	B-PP	IN	O	7	VMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	anti-estrogen	anti-estrogen	I-NP	JJ	O	12	NMOD	0
+12	tamoxifen	tamoxifen	I-NP	NN	O	13	SUB	0
+13	inhibited	inhibit	B-VP	VBD	O	9	SBAR	18	inhibited
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	secretion	secretion	I-NP	NN	O	13	OBJ	14	secretion
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	IL-8	IL-8	B-NP	NN	B-protein	16	PMOD	0
+18	both	both	O	CC	O	15	NMOD	0
+19	in	in	B-ADVP	FW	O	18	DEP	0
+20	vitro	vitro	I-ADVP	FW	O	19	AMOD	0
+21	and	and	O	CC	O	18	DEP	0
+22	extracellularly	extracellularly	B-ADVP	RB	O	18	DEP	0
+23	in	in	B-ADVP	FW	O	18	PMOD	0
+24	vivo	vivo	I-ADVP	FW	O	23	AMOD	0
+25	in	in	B-PP	IN	O	15	NMOD	0
+26	tumors	tumor	B-NP	NNS	O	25	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	nude	nude	B-NP	JJ	O	29	NMOD	0
+29	mice	mouse	I-NP	NNS	O	27	PMOD	0
+30	.	.	O	.	O	7	P	0
+
+1	An	An	B-NP	DT	O	3	NMOD	0
+2	anti-IL-8	anti-IL-8	I-NP	JJ	B-protein	3	NMOD	0
+3	Ab	Ab	I-NP	NN	I-protein	4	SUB	0
+4	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+5	endothelial	endothelial	B-NP	JJ	B-cell_type	7	NMOD	0
+6	cell	cell	I-NP	NN	I-cell_type	7	NMOD	0
+7	proliferation	proliferation	I-NP	NN	O	4	OBJ	1	proliferation
+8	induced	induce	B-VP	VBN	O	7	NMOD	17	induced
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	cancer	cancer	B-NP	NN	B-cell_type	11	NMOD	0
+11	cell	cell	I-NP	NN	I-cell_type	9	PMOD	0
+12	produced	produce	B-VP	VBD	O	7	NMOD	9	produced
+13	IL-8	IL-8	B-NP	NN	B-protein	15	NMOD	0
+14	and	and	I-NP	CC	O	15	NMOD	0
+15	tumors	tumor	I-NP	NNS	O	12	OBJ	0
+16	with	with	B-PP	IN	O	12	VMOD	0
+17	low	low	B-NP	JJ	O	19	NMOD	0
+18	IL-8	IL-8	I-NP	NN	B-protein	19	NMOD	0
+19	levels	level	I-NP	NNS	O	16	PMOD	0
+20	exhibited	exhibit	B-VP	VBD	O	4	VMOD	0
+21	decreased	decrease	B-NP	VBN	O	22	NMOD	18	decreased
+22	angiogenesis	angiogenesis	I-NP	NN	O	20	OBJ	3	angiogenesis
+23	.	.	O	.	O	4	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	4	SUB	0
+3	strongly	strongly	B-VP	RB	O	4	VMOD	0
+4	suggest	suggest	I-VP	VBP	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	estradiol	estradiol	B-NP	NN	O	7	SUB	0
+7	has	have	B-VP	VBZ	O	5	SBAR	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	critical	critical	I-NP	JJ	O	10	NMOD	0
+10	role	role	I-NP	NN	O	7	OBJ	0
+11	in	in	B-PP	IN	O	7	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	regulation	regulation	I-NP	NN	O	24	NMOD	16	regulation
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	IL-8	IL-8	B-NP	NN	B-protein	14	PMOD	0
+16	in	in	B-PP	IN	O	13	NMOD	0
+17	normal	normal	B-NP	JJ	O	20	NMOD	0
+18	human	human	I-NP	JJ	O	20	NMOD	0
+19	breast	breast	I-NP	NN	O	20	NMOD	0
+20	tissue	tissue	I-NP	NN	O	16	PMOD	0
+21	and	and	O	CC	O	24	NMOD	0
+22	human	human	B-NP	JJ	O	24	NMOD	0
+23	breast	breast	I-NP	NN	O	24	NMOD	0
+24	cancer	cancer	I-NP	NN	O	11	PMOD	0
+25	.	.	O	.	O	4	P	0
+
+1	IL-8	IL-8	B-NP	NN	B-protein	2	SUB	0
+2	may	may	B-VP	MD	O	0	ROOT	0
+3	present	present	I-VP	VB	O	2	VC	0
+4	a	a	B-NP	DT	O	7	NMOD	0
+5	novel	novel	I-NP	JJ	O	6	AMOD	0
+6	therapeutic	therapeutic	I-NP	JJ	O	7	NMOD	0
+7	target	target	I-NP	NN	O	3	OBJ	0
+8	for	for	B-PP	IN	O	7	NMOD	0
+9	estrogen	estrogen	B-NP	NN	O	10	AMOD	0
+10	driven	drive	I-NP	VBN	O	15	NMOD	16	driven
+11	breast	breast	I-NP	NN	O	12	NMOD	0
+12	carcinogenesis	carcinogenesis	I-NP	NN	O	15	NMOD	0
+13	and	and	O	CC	O	15	NMOD	0
+14	tumor	tumor	B-NP	NN	O	15	NMOD	0
+15	progression	progression	I-NP	NN	O	8	PMOD	2	progression
+16	.	.	O	.	O	2	P	0
+

@@ -1,0 +1,230 @@
+1	Effects	Effect	B-NP	NNS	O	0	ROOT	16	Effects
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	morphological	morphological	B-NP	JJ	O	4	NMOD	0
+4	patterning	patterning	I-NP	NN	O	2	PMOD	0
+5	on	on	B-PP	IN	O	1	NMOD	0
+6	endothelial	endothelial	B-NP	JJ	B-cell_type	8	NMOD	0
+7	cell	cell	I-NP	NN	I-cell_type	8	NMOD	0
+8	migration	migration	I-NP	NN	O	5	PMOD	14	migration
+9	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	migration	migration	I-NP	NN	O	10	SUB	14	migration
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	vascular	vascular	B-NP	JJ	B-cell_type	6	NMOD	0
+5	endothelial	endothelial	I-NP	JJ	I-cell_type	6	NMOD	0
+6	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	0
+7	(	(	O	(	O	9	DEP	0
+8	ECs	EC	B-NP	NNS	B-cell_type	9	DEP	0
+9	)	)	O	)	O	6	NMOD	0
+10	plays	play	B-VP	VBZ	O	0	ROOT	0
+11	an	an	B-NP	DT	O	13	NMOD	0
+12	important	important	I-NP	JJ	O	13	NMOD	0
+13	role	role	I-NP	NN	O	10	OBJ	0
+14	in	in	B-PP	IN	O	10	VMOD	0
+15	vascular	vascular	B-NP	JJ	O	16	NMOD	0
+16	remodeling	remodeling	I-NP	NN	O	14	PMOD	7	remodeling
+17	.	.	O	.	O	10	P	0
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	studied	study	B-VP	VBD	O	0	ROOT	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	effects	effect	I-NP	NNS	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	cell	cell	B-NP	NN	O	8	NMOD	0
+8	morphology	morphology	I-NP	NN	O	6	PMOD	0
+9	on	on	B-PP	IN	O	5	NMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	migration	migration	I-NP	NN	O	9	PMOD	14	migration
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	bovine	bovine	B-NP	JJ	B-cell_type	15	NMOD	0
+14	aortic	aortic	I-NP	JJ	I-cell_type	15	NMOD	0
+15	ECs	EC	I-NP	NNS	I-cell_type	12	PMOD	0
+16	by	by	B-PP	IN	O	3	VMOD	0
+17	culturing	culture	B-VP	VBG	B-cell_type	18	NMOD	19	culturing
+18	cells	cell	B-NP	NNS	I-cell_type	16	PMOD	0
+19	on	on	B-PP	IN	O	18	NMOD	0
+20	micropatterned	micropatterne	B-NP	VBN	O	21	NMOD	0
+21	strips	strip	I-NP	NNS	O	19	PMOD	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	collagen	collagen	B-NP	NN	B-protein	24	NMOD	0
+24	matrix	matrix	I-NP	NN	O	22	PMOD	0
+25	(	(	O	(	O	33	DEP	0
+26	60-	60-	B-NP	CD	O	32	NMOD	0
+27	,	,	I-NP	,	O	32	P	0
+28	30-	30-	I-NP	CD	O	32	NMOD	0
+29	,	,	O	,	O	32	P	0
+30	and	and	O	CC	O	32	NMOD	0
+31	15-microm	15-microm	B-NP	JJ	O	32	NMOD	0
+32	wide	wide	I-NP	JJ	O	33	DEP	0
+33	)	)	O	)	O	24	NMOD	0
+34	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	spreading	spread	I-NP	VBG	O	3	NMOD	0
+3	areas	area	I-NP	NNS	O	13	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	cells	cell	I-NP	NNS	O	4	PMOD	0
+7	on	on	B-PP	IN	O	3	NMOD	0
+8	15-	15-	B-NP	CD	O	12	NMOD	0
+9	and	and	O	CC	O	12	NMOD	0
+10	30-microm	30-microm	B-NP	JJ	O	12	NMOD	0
+11	wide	wide	I-NP	JJ	O	12	NMOD	0
+12	strips	strip	I-NP	NNS	O	7	PMOD	0
+13	were	be	B-VP	VBD	O	0	ROOT	0
+14	30	30	B-NP	CD	O	15	NMOD	0
+15	%	%	I-NP	NN	O	16	AMOD	0
+16	lower	low	B-ADJP	JJR	O	13	PRD	0
+17	than	than	B-PP	IN	O	16	AMOD	0
+18	those	those	B-NP	DT	O	17	PMOD	0
+19	on	on	B-PP	IN	O	18	NMOD	0
+20	60-microm	60-microm	B-NP	JJ	O	22	NMOD	0
+21	wide	wide	I-NP	JJ	O	22	NMOD	0
+22	strips	strip	I-NP	NNS	O	25	NMOD	0
+23	and	and	O	CC	O	25	NMOD	0
+24	unpatterned	unpatterned	B-NP	JJ	O	25	NMOD	0
+25	collagen	collagen	I-NP	NN	O	19	PMOD	0
+26	.	.	O	.	O	13	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	cells	cell	I-NP	NNS	O	17	SUB	0
+3	on	on	B-PP	IN	O	2	NMOD	0
+4	15-microm	15-microm	B-NP	JJ	O	6	NMOD	0
+5	wide	wide	I-NP	JJ	O	6	NMOD	0
+6	strips	strip	I-NP	NNS	O	3	PMOD	0
+7	completely	completely	B-VP	RB	O	8	VMOD	0
+8	aligned	align	I-VP	VBN	O	6	NMOD	0
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	direction	direction	I-NP	NN	O	9	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	strip	strip	I-NP	NN	O	12	PMOD	0
+15	,	,	O	,	O	2	P	0
+16	and	and	O	CC	O	2	VMOD	0
+17	had	have	B-VP	VBD	O	0	ROOT	0
+18	significantly	significantly	B-NP	RB	O	19	AMOD	0
+19	lower	low	I-NP	JJR	O	21	NMOD	0
+20	shape	shape	I-NP	NN	O	21	NMOD	0
+21	index	index	I-NP	NN	O	17	OBJ	0
+22	than	than	B-PP	IN	O	21	NMOD	0
+23	those	those	B-NP	DT	O	22	PMOD	0
+24	in	in	B-PP	IN	O	23	NMOD	0
+25	all	all	B-NP	DT	O	27	NMOD	0
+26	other	other	I-NP	JJ	O	27	NMOD	0
+27	groups	group	I-NP	NNS	O	24	PMOD	0
+28	.	.	O	.	O	17	P	0
+
+1	On	On	B-PP	IN	O	8	VMOD	0
+2	strips	strip	B-NP	NNS	O	1	PMOD	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	all	all	B-NP	DT	O	5	NMOD	0
+5	widths	width	I-NP	NNS	O	3	PMOD	0
+6	,	,	O	,	O	8	P	0
+7	ECs	EC	B-NP	NNS	B-cell_type	8	SUB	0
+8	tended	tend	B-VP	VBD	O	0	ROOT	0
+9	to	to	I-VP	TO	O	10	VMOD	0
+10	migrate	migrate	I-VP	VB	O	8	VMOD	14	migrate
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	direction	direction	I-NP	NN	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	strips	strip	B-NP	NNS	O	14	PMOD	0
+16	.	.	O	.	O	8	P	0
+
+1	ECs	EC	B-NP	NNS	B-cell_type	6	SUB	0
+2	on	on	B-PP	IN	O	1	NMOD	0
+3	15-microm	15-microm	B-NP	JJ	O	5	NMOD	0
+4	wide	wide	I-NP	JJ	O	5	NMOD	0
+5	strips	strip	I-NP	NNS	O	2	PMOD	0
+6	had	have	B-VP	VBD	O	0	ROOT	0
+7	highest	high	B-NP	JJS	O	8	NMOD	0
+8	speed	speed	I-NP	NN	O	6	OBJ	0
+9	,	,	O	,	O	6	P	0
+10	particularly	particularly	B-ADVP	RB	O	11	PMOD	0
+11	in	in	B-PP	IN	O	6	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	direction	direction	I-NP	NN	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	strip	strip	I-NP	NN	O	14	PMOD	0
+17	.	.	O	.	O	6	P	0
+
+1	Vinculin	Vinculin	B-NP	NN	O	2	NMOD	0
+2	staining	staining	I-NP	NN	O	3	SUB	0
+3	showed	show	B-VP	VBD	O	37	VMOD	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	leading	lead	I-NP	VBG	O	7	NMOD	0
+7	edge	edge	I-NP	NN	O	14	SUB	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	ECs	EC	B-NP	NNS	B-cell_type	8	PMOD	0
+10	on	on	B-PP	IN	O	7	NMOD	0
+11	15-microm	15-microm	B-NP	JJ	O	13	NMOD	0
+12	wide	wide	I-NP	JJ	O	13	NMOD	0
+13	strips	strip	I-NP	NNS	O	10	PMOD	0
+14	had	have	B-VP	VBD	O	4	SBAR	0
+15	focal	focal	B-NP	JJ	O	16	NMOD	0
+16	adhesions	adhesion	I-NP	NNS	O	14	OBJ	0
+17	that	that	B-NP	WDT	O	16	NMOD	0
+18	were	be	B-VP	VBD	O	17	SBAR	0
+19	oriented	orient	I-VP	VBN	O	18	VC	0
+20	with	with	B-PP	IN	O	19	VMOD	0
+21	their	their	B-NP	PRP$	O	23	NMOD	0
+22	lamellipodial	lamellipodial	I-NP	JJ	O	23	NMOD	0
+23	protrusion	protrusion	I-NP	NN	O	26	NMOD	0
+24	and	and	O	CC	O	26	NMOD	0
+25	the	the	B-NP	DT	O	26	NMOD	0
+26	direction	direction	I-NP	NN	O	20	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	cell	cell	B-NP	NN	O	29	NMOD	0
+29	migration	migration	I-NP	NN	O	27	PMOD	14	migration
+30	;	;	O	:	O	37	P	0
+31	this	this	B-NP	DT	O	32	NMOD	0
+32	arrangement	arrangement	I-NP	NN	O	37	SUB	0
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	the	the	B-NP	DT	O	36	NMOD	0
+35	focal	focal	I-NP	JJ	O	36	NMOD	0
+36	adhesions	adhesion	I-NP	NNS	O	33	PMOD	0
+37	may	may	B-VP	MD	O	0	ROOT	0
+38	promote	promote	I-VP	VB	O	37	VC	17	promote
+39	EC	EC	B-NP	NNP	B-cell_type	40	NMOD	0
+40	migration	migration	I-NP	NN	O	38	OBJ	14	migration
+41	.	.	O	.	O	37	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	present	present	I-NP	JJ	O	3	NMOD	0
+3	study	study	I-NP	NN	O	4	SUB	0
+4	provides	provide	B-VP	VBZ	O	0	ROOT	0
+5	direct	direct	B-NP	JJ	O	6	NMOD	0
+6	evidence	evidence	I-NP	NN	O	4	OBJ	0
+7	on	on	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	role	role	I-NP	NN	O	7	PMOD	16	role
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	cell	cell	B-NP	NN	O	12	NMOD	0
+12	morphology	morphology	I-NP	NN	O	10	PMOD	0
+13	in	in	B-PP	IN	O	9	NMOD	0
+14	EC	EC	B-NP	NN	B-cell_type	15	NMOD	0
+15	migration	migration	I-NP	NN	O	13	PMOD	14	migration
+16	,	,	O	,	O	4	P	0
+17	and	and	O	CC	O	4	VMOD	0
+18	will	will	B-VP	MD	O	4	VMOD	0
+19	help	help	I-VP	VB	O	18	VC	0
+20	us	us	B-NP	PRP	O	22	SUB	0
+21	to	to	B-VP	TO	O	22	VMOD	0
+22	understand	understand	I-VP	VB	O	19	VMOD	0
+23	the	the	B-NP	DT	O	24	NMOD	0
+24	mechanisms	mechanism	I-NP	NNS	O	22	OBJ	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	EC	EC	B-NP	NN	B-cell_type	27	NMOD	0
+27	migration	migration	I-NP	NN	O	25	PMOD	14	migration
+28	during	during	B-PP	IN	O	27	NMOD	0
+29	angiogenesis	angiogenesis	B-NP	NN	O	32	NMOD	3	angiogenesis
+30	and	and	I-NP	CC	O	32	NMOD	0
+31	wound	wound	I-NP	NN	O	32	NMOD	0
+32	healing	healing	I-NP	NN	O	28	PMOD	0
+33	.	.	O	.	O	4	P	0
+

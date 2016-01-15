@@ -1,0 +1,301 @@
+1	M-CSF	M-CSF	B-NP	NN	B-protein	2	NMOD	0
+2	signals	signal	I-NP	NNS	O	14	SUB	16	signals
+3	through	through	B-PP	IN	O	2	VMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	MAPK/ERK	MAPK/ERK	I-NP	NN	O	6	NMOD	0
+6	pathway	pathway	I-NP	NN	O	3	PMOD	0
+7	via	via	B-PP	IN	O	6	NMOD	0
+8	Sp1	Sp1	B-NP	NN	B-protein	7	PMOD	0
+9	to	to	B-VP	TO	O	10	VMOD	0
+10	induce	induce	I-VP	VB	O	2	NMOD	17	induce
+11	VEGF	VEGF	B-NP	NN	B-protein	12	NMOD	0
+12	production	production	I-NP	NN	O	10	OBJ	9	production
+13	and	and	O	CC	O	10	VMOD	0
+14	induces	induce	B-VP	VBZ	O	0	ROOT	0
+15	angiogenesis	angiogenesis	B-NP	NN	O	14	OBJ	3	angiogenesis
+16	in	in	B-ADVP	FW	O	14	VMOD	0
+17	vivo	vivo	I-ADVP	FW	O	16	AMOD	0
+18	.	.	O	.	O	14	P	0
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	4	SUB	0
+2	:	:	O	:	O	4	P	0
+3	M-CSF	M-CSF	B-NP	NN	B-protein	4	SUB	0
+4	recruits	recruit	B-VP	VBZ	O	0	ROOT	16	recruits
+5	mononuclear	mononuclear	B-NP	JJ	B-cell_type	6	NMOD	0
+6	phagocytes	phagocyte	I-NP	NNS	I-cell_type	4	OBJ	0
+7	which	which	B-NP	WDT	O	6	NMOD	0
+8	regulate	regulate	B-VP	VBP	O	7	SBAR	16	regulate
+9	processes	process	B-NP	NNS	O	8	OBJ	0
+10	such	such	B-PP	JJ	O	11	PMOD	0
+11	as	as	I-PP	IN	O	9	NMOD	0
+12	angiogenesis	angiogenesis	B-NP	NN	O	14	NMOD	3	angiogenesis
+13	and	and	I-NP	CC	O	14	NMOD	0
+14	metastases	metastasis	I-NP	NNS	O	11	PMOD	14	metastases
+15	in	in	B-PP	IN	O	14	NMOD	0
+16	tumors	tumor	B-NP	NNS	O	15	PMOD	0
+17	.	.	O	.	O	4	P	0
+
+1	VEGF	VEGF	B-NP	NN	B-protein	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	potent	potent	I-NP	JJ	O	5	NMOD	0
+5	activator	activator	I-NP	NN	O	2	PRD	17	activator
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	PMOD	3	angiogenesis
+8	as	as	B-SBAR	IN	O	2	VMOD	0
+9	it	it	B-NP	PRP	O	10	SUB	0
+10	promotes	promote	B-VP	VBZ	O	8	SBAR	17	promotes
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	0
+12	cell	cell	I-NP	NN	I-cell_type	13	NMOD	0
+13	proliferation	proliferation	I-NP	NN	O	18	NMOD	1	proliferation
+14	and	and	O	CC	O	18	NMOD	0
+15	new	new	B-NP	JJ	O	18	NMOD	0
+16	blood	blood	I-NP	NN	O	18	NMOD	0
+17	vessel	vessel	I-NP	NN	O	18	NMOD	0
+18	formation	formation	I-NP	NN	O	10	OBJ	2	formation
+19	.	.	O	.	O	2	P	0
+
+1	Previously	Previously	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	reported	report	B-VP	VBD	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	in	in	B-NP	FW	O	7	AMOD	0
+7	vitro	vitro	I-NP	FW	O	8	NMOD	0
+8	M-CSF	M-CSF	I-NP	NN	B-protein	9	SUB	0
+9	induces	induce	B-VP	VBZ	O	5	SBAR	17	induces
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	expression	expression	I-NP	NN	O	9	OBJ	9	expression
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	biologically-active	biologically-active	B-NP	JJ	O	14	NMOD	0
+14	VEGF	VEGF	I-NP	NN	B-protein	12	PMOD	0
+15	from	from	B-PP	IN	O	11	NMOD	0
+16	human	human	B-NP	JJ	B-cell_type	17	NMOD	0
+17	monocytes	monocyte	I-NP	NNS	I-cell_type	15	PMOD	0
+18	.	.	O	.	O	4	P	0
+
+1	METHODOLOGY	METHODOLOGY	B-NP	NN	O	3	NMOD	0
+2	AND	AND	I-NP	CC	O	3	NMOD	0
+3	RESULTS	RESULTS	I-NP	NNS	O	10	SUB	0
+4	:	:	O	:	O	3	P	0
+5	In	In	B-PP	IN	O	10	VMOD	0
+6	this	this	B-NP	DT	O	7	NMOD	0
+7	study	study	I-NP	NN	O	5	PMOD	0
+8	,	,	O	,	O	10	P	0
+9	we	we	B-NP	PRP	O	10	SUB	0
+10	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+11	the	the	B-NP	DT	O	13	NMOD	0
+12	molecular	molecular	I-NP	JJ	O	13	NMOD	0
+13	mechanism	mechanism	I-NP	NN	O	10	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	M-CSF-induced	M-CSF-induced	B-NP	JJ	B-protein	17	NMOD	17	induced
+16	VEGF	VEGF	I-NP	NN	I-protein	17	NMOD	0
+17	production	production	I-NP	NN	O	14	PMOD	9	production
+18	.	.	O	.	O	10	P	0
+
+1	Using	Use	B-VP	VBG	O	15	VMOD	0
+2	a	a	B-NP	DT	O	3	NMOD	0
+3	construct	construct	I-NP	NN	O	1	OBJ	0
+4	containing	contain	B-VP	VBG	O	3	NMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	VEGF	VEGF	I-NP	NN	B-DNA	7	NMOD	0
+7	promoter	promoter	I-NP	NN	I-DNA	4	OBJ	0
+8	linked	link	B-VP	VBN	O	7	NMOD	19	linked
+9	to	to	B-PP	TO	O	8	VMOD	0
+10	a	a	B-NP	DT	O	12	NMOD	0
+11	luciferase	luciferase	I-NP	NN	B-DNA	12	NMOD	0
+12	reporter	reporter	I-NP	NN	I-DNA	9	PMOD	0
+13	,	,	O	,	O	15	P	0
+14	we	we	B-NP	PRP	O	15	SUB	0
+15	found	find	B-VP	VBD	O	0	ROOT	0
+16	that	that	B-SBAR	IN	O	15	VMOD	0
+17	a	a	B-NP	DT	O	18	NMOD	0
+18	mutation	mutation	I-NP	NN	O	26	SUB	0
+19	reducing	reduce	B-VP	VBG	O	18	NMOD	18	reducing
+20	HIF	HIF	B-NP	NN	B-protein	21	NMOD	0
+21	binding	binding	I-NP	NN	O	19	OBJ	15	binding
+22	to	to	B-PP	TO	O	21	NMOD	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	VEGF	VEGF	I-NP	NN	B-DNA	25	NMOD	0
+25	promoter	promoter	I-NP	NN	I-DNA	22	PMOD	0
+26	had	have	B-VP	VBD	O	16	SBAR	0
+27	no	no	B-NP	DT	O	29	NMOD	0
+28	significant	significant	I-NP	JJ	O	29	NMOD	0
+29	effect	effect	I-NP	NN	O	26	OBJ	16	effect
+30	on	on	B-PP	IN	O	26	VMOD	0
+31	luciferase	luciferase	B-NP	NN	B-protein	32	NMOD	0
+32	production	production	I-NP	NN	O	30	PMOD	9	production
+33	induced	induce	B-VP	VBN	O	32	NMOD	17	induced
+34	by	by	B-PP	IN	O	33	VMOD	0
+35	M-CSF	M-CSF	B-NP	NN	B-protein	36	NMOD	0
+36	stimulation	stimulation	I-NP	NN	O	34	PMOD	17	stimulation
+37	.	.	O	.	O	15	P	0
+
+1	Further	Further	B-NP	JJ	O	2	NMOD	0
+2	analysis	analysis	I-NP	NN	O	3	SUB	0
+3	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	M-CSF	M-CSF	B-NP	NN	B-protein	6	SUB	0
+6	induced	induce	B-VP	VBD	O	4	SBAR	16	induced
+7	VEGF	VEGF	B-NP	NN	B-protein	6	OBJ	0
+8	through	through	B-PP	IN	O	6	VMOD	0
+9	the	the	B-NP	DT	O	12	NMOD	0
+10	MAPK/ERK	MAPK/ERK	I-NP	NN	O	12	NMOD	0
+11	signaling	signaling	I-NP	NN	O	12	NMOD	0
+12	pathway	pathway	I-NP	NN	O	8	PMOD	0
+13	via	via	B-PP	IN	O	6	VMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	transcription	transcription	I-NP	NN	B-protein	16	NMOD	0
+16	factor	factor	I-NP	NN	I-protein	18	NMOD	0
+17	,	,	O	,	O	18	P	0
+18	Sp1	Sp1	B-NP	NN	B-protein	13	PMOD	0
+19	.	.	O	.	O	3	P	0
+
+1	Thus	Thus	B-ADVP	RB	O	9	VMOD	0
+2	,	,	O	,	O	9	P	0
+3	inhibition	inhibition	B-NP	NN	O	9	SUB	18	inhibition
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	either	either	O	CC	O	8	NMOD	0
+6	ERK	ERK	B-NP	NN	B-protein	8	NMOD	0
+7	or	or	O	CC	O	8	NMOD	0
+8	Sp1	Sp1	B-NP	NN	B-protein	4	PMOD	0
+9	suppressed	suppress	B-VP	VBD	O	0	ROOT	18	suppressed
+10	M-CSF-induced	M-CSF-induced	B-NP	JJ	B-protein	11	NMOD	17	induced
+11	VEGF	VEGF	I-NP	NN	I-protein	9	OBJ	0
+12	at	at	B-PP	IN	O	9	VMOD	0
+13	the	the	B-NP	DT	O	17	NMOD	0
+14	mRNA	mRNA	I-NP	NN	B-RNA	17	NMOD	0
+15	and	and	I-NP	CC	O	17	NMOD	0
+16	protein	protein	I-NP	NN	O	17	NMOD	0
+17	level	level	I-NP	NN	O	12	PMOD	0
+18	.	.	O	.	O	9	P	0
+
+1	M-CSF	M-CSF	B-NP	NN	B-protein	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	nuclear	nuclear	I-NP	JJ	O	6	NMOD	0
+6	localization	localization	I-NP	NN	O	3	OBJ	14	localization
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	Sp1	Sp1	B-NP	NN	B-protein	7	PMOD	0
+9	,	,	O	,	O	3	P	0
+10	which	which	B-NP	WDT	O	3	VMOD	0
+11	was	be	B-VP	VBD	O	10	SBAR	0
+12	blocked	block	I-VP	VBN	O	11	VC	18	blocked
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	ERK	ERK	B-NP	NN	B-protein	15	NMOD	0
+15	inhibition	inhibition	I-NP	NN	O	13	PMOD	18	inhibition
+16	.	.	O	.	O	3	P	0
+
+1	Finally	Finally	B-ADVP	RB	O	15	VMOD	0
+2	,	,	O	,	O	15	P	0
+3	mutating	mutate	B-VP	VBG	O	15	SUB	19	mutating
+4	the	the	B-NP	DT	O	7	NMOD	0
+5	Sp1	Sp1	I-NP	NN	B-DNA	7	NMOD	0
+6	binding	binding	I-NP	NN	I-DNA	7	NMOD	0
+7	sites	site	I-NP	NNS	I-DNA	3	OBJ	0
+8	within	within	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	VEGF	VEGF	I-NP	NN	B-DNA	11	NMOD	0
+11	promoter	promoter	I-NP	NN	I-DNA	8	PMOD	0
+12	or	or	O	CC	O	15	VMOD	0
+13	inhibiting	inhibit	B-NP	VBG	O	14	NMOD	18	inhibiting
+14	ERK	ERK	I-NP	NN	B-protein	15	SUB	0
+15	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+16	VEGF	VEGF	B-NP	NN	B-DNA	18	NMOD	0
+17	promoter	promoter	I-NP	NN	I-DNA	18	NMOD	0
+18	activity	activity	I-NP	NN	O	15	OBJ	0
+19	in	in	B-PP	IN	O	18	NMOD	0
+20	M-CSF-treated	M-CSF-treated	B-NP	JJ	B-cell_line	22	NMOD	19	treated
+21	human	human	I-NP	JJ	I-cell_line	22	NMOD	0
+22	monocytes	monocyte	I-NP	NNS	I-cell_line	19	PMOD	0
+23	.	.	O	.	O	15	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	evaluate	evaluate	I-VP	VB	O	13	VMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	biological	biological	I-NP	JJ	O	5	NMOD	0
+5	significance	significance	I-NP	NN	O	8	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	M-CSF	M-CSF	B-NP	NN	B-protein	6	PMOD	0
+8	induced	induce	B-VP	VBD	O	2	VMOD	17	induced
+9	VEGF	VEGF	B-NP	NN	B-protein	10	NMOD	0
+10	production	production	I-NP	NN	O	8	OBJ	9	production
+11	,	,	O	,	O	13	P	0
+12	we	we	B-NP	PRP	O	13	SUB	0
+13	used	use	B-VP	VBD	O	0	ROOT	0
+14	an	an	B-NP	DT	O	18	NMOD	0
+15	in	in	I-NP	FW	O	16	AMOD	0
+16	vivo	vivo	I-NP	FW	O	18	NMOD	0
+17	angiogenesis	angiogenesis	I-NP	NN	O	18	NMOD	3	angiogenesis
+18	model	model	I-NP	NN	O	13	OBJ	0
+19	to	to	B-VP	TO	O	20	VMOD	0
+20	illustrate	illustrate	I-VP	VB	O	13	VMOD	0
+21	the	the	B-NP	DT	O	22	NMOD	0
+22	ability	ability	I-NP	NN	O	20	OBJ	16	ability
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	M-CSF	M-CSF	B-NP	NN	B-protein	23	PMOD	0
+25	to	to	B-VP	TO	O	26	VMOD	0
+26	recruit	recruit	I-VP	VB	O	22	NMOD	14	recruit
+27	mononuclear	mononuclear	B-NP	JJ	B-cell_type	28	NMOD	0
+28	phagocytes	phagocyte	I-NP	NNS	I-cell_type	26	OBJ	0
+29	,	,	O	,	O	13	P	0
+30	increase	increase	B-VP	VB	O	13	VMOD	17	increase
+31	VEGF	VEGF	B-NP	NN	B-protein	32	NMOD	0
+32	levels	level	I-NP	NNS	O	30	OBJ	0
+33	,	,	O	,	O	13	P	0
+34	and	and	O	CC	O	13	VMOD	0
+35	enhance	enhance	B-VP	VBP	O	13	VMOD	17	enhance
+36	angiogenesis	angiogenesis	B-NP	NN	O	35	OBJ	3	angiogenesis
+37	.	.	O	.	O	13	P	0
+
+1	Importantly	Importantly	B-ADVP	RB	O	10	VMOD	0
+2	,	,	O	,	O	10	P	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	addition	addition	I-NP	NN	O	10	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	a	a	B-NP	DT	O	9	NMOD	0
+7	neutralizing	neutralize	I-NP	VBG	O	9	NMOD	0
+8	VEGF	VEGF	I-NP	NN	B-protein	9	NMOD	0
+9	antibody	antibody	I-NP	NN	I-protein	5	PMOD	0
+10	abolished	abolish	B-VP	VBD	O	0	ROOT	18	abolished
+11	M-CSF-induced	M-CSF-induced	B-NP	JJ	O	14	NMOD	17	induced
+12	blood	blood	I-NP	NN	O	14	NMOD	0
+13	vessel	vessel	I-NP	NN	O	14	NMOD	0
+14	formation	formation	I-NP	NN	O	10	OBJ	2	formation
+15	.	.	O	.	O	10	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	5	VMOD	0
+2	:	:	O	:	O	5	P	0
+3	These	These	B-NP	DT	O	4	NMOD	0
+4	data	datum	I-NP	NNS	O	5	SUB	0
+5	delineate	delineate	B-VP	VBP	O	0	ROOT	0
+6	an	an	B-NP	DT	O	10	NMOD	0
+7	ERK-	ERK-	I-NP	NN	O	10	NMOD	0
+8	and	and	I-NP	CC	O	10	NMOD	0
+9	Sp1-dependent	Sp1-dependent	I-NP	JJ	O	10	NMOD	17	dependent
+10	mechanism	mechanism	I-NP	NN	O	5	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	M-CSF	M-CSF	B-NP	NN	B-protein	11	PMOD	0
+13	induced	induce	B-VP	VBD	O	10	NMOD	17	induced
+14	VEGF	VEGF	B-NP	NN	B-protein	15	NMOD	0
+15	production	production	I-NP	NN	O	13	OBJ	9	production
+16	and	and	O	CC	O	5	VMOD	0
+17	demonstrate	demonstrate	B-VP	VBP	O	5	VMOD	0
+18	for	for	B-PP	IN	O	17	VMOD	0
+19	the	the	B-NP	DT	O	21	NMOD	0
+20	first	first	I-NP	JJ	O	21	NMOD	0
+21	time	time	I-NP	NN	O	18	PMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	ability	ability	I-NP	NN	O	17	OBJ	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	M-CSF	M-CSF	B-NP	NN	B-protein	24	PMOD	0
+26	to	to	B-VP	TO	O	27	VMOD	0
+27	induce	induce	I-VP	VB	O	23	NMOD	16	induce
+28	angiogenesis	angiogenesis	B-NP	NN	O	27	OBJ	3	angiogenesis
+29	via	via	B-PP	IN	O	27	VMOD	0
+30	VEGF	VEGF	B-NP	NN	B-protein	29	PMOD	0
+31	in	in	B-ADVP	FW	O	27	VMOD	0
+32	vivo	vivo	I-ADVP	FW	O	31	AMOD	0
+33	.	.	O	.	O	5	P	0
+

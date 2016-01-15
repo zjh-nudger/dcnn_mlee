@@ -1,0 +1,277 @@
+1	Levels	Level	B-NP	NNS	O	8	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	expression	expression	B-NP	NN	O	2	PMOD	9	expression
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	CYR61	CYR61	B-NP	NN	B-protein	7	NMOD	0
+6	and	and	I-NP	CC	O	7	NMOD	0
+7	CTGF	CTGF	I-NP	NN	B-protein	4	PMOD	0
+8	are	be	B-VP	VBP	O	0	ROOT	0
+9	prognostic	prognostic	B-ADJP	JJ	O	8	PRD	0
+10	for	for	B-PP	IN	O	9	AMOD	0
+11	tumor	tumor	B-NP	NN	O	12	NMOD	0
+12	progression	progression	I-NP	NN	O	14	NMOD	2	progression
+13	and	and	I-NP	CC	O	14	NMOD	0
+14	survival	survival	I-NP	NN	O	10	PMOD	5	survival
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	individuals	individual	B-NP	NNS	O	15	PMOD	0
+17	with	with	B-PP	IN	O	16	NMOD	0
+18	gliomas	glioma	B-NP	NNS	O	17	PMOD	0
+19	.	.	O	.	O	8	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	biological	biological	I-NP	JJ	O	3	NMOD	0
+3	properties	property	I-NP	NNS	O	7	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	CCN	CCN	B-NP	NN	B-protein	6	NMOD	0
+6	proteins	protein	I-NP	NNS	I-protein	4	PMOD	0
+7	include	include	B-VP	VBP	O	0	ROOT	0
+8	stimulation	stimulation	B-NP	NN	O	23	NMOD	17	stimulation
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	cell	cell	B-NP	NN	O	11	NMOD	0
+11	proliferation	proliferation	I-NP	NN	O	16	NMOD	1	proliferation
+12	,	,	O	,	O	16	P	0
+13	migration	migration	B-NP	NN	O	16	NMOD	14	migration
+14	,	,	O	,	O	16	P	0
+15	and	and	O	CC	O	16	NMOD	0
+16	adhesion	adhesion	B-NP	NN	O	9	PMOD	15	adhesion
+17	,	,	O	,	O	23	P	0
+18	as	as	B-CONJP	RB	O	23	NMOD	0
+19	well	well	I-CONJP	RB	O	18	DEP	0
+20	as	as	I-CONJP	IN	O	18	DEP	0
+21	angiogenesis	angiogenesis	B-NP	NN	O	23	NMOD	3	angiogenesis
+22	and	and	I-NP	CC	O	23	NMOD	0
+23	tumorigenesis	tumorigenesis	I-NP	NN	O	7	OBJ	0
+24	.	.	O	.	O	7	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	quantified	quantify	B-VP	VBD	O	0	ROOT	0
+3	CYR61	CYR61	B-NP	NN	B-protein	12	NMOD	0
+4	,	,	O	,	O	12	P	0
+5	CTGF	CTGF	B-NP	NN	B-protein	12	NMOD	0
+6	,	,	O	,	O	12	P	0
+7	WISP-1	WISP-1	B-NP	NN	B-protein	12	NMOD	0
+8	,	,	O	,	O	12	P	0
+9	and	and	O	CC	O	12	NMOD	0
+10	NOV	NOV	B-NP	NN	B-RNA	11	NMOD	0
+11	mRNA	mRNA	I-NP	NN	I-RNA	12	NMOD	0
+12	expression	expression	I-NP	NN	O	13	NMOD	10	expression
+13	levels	level	I-NP	NNS	O	2	OBJ	0
+14	in	in	B-PP	IN	O	2	VMOD	0
+15	samples	sample	B-NP	NNS	O	14	PMOD	0
+16	from	from	B-PP	IN	O	15	NMOD	0
+17	sixty-six	sixty-six	B-NP	CD	O	19	NMOD	0
+18	primary	primary	I-NP	JJ	O	19	NMOD	0
+19	gliomas	glioma	I-NP	NNS	O	24	NMOD	0
+20	and	and	O	CC	O	24	NMOD	0
+21	five	five	B-NP	CD	O	24	NMOD	0
+22	normal	normal	I-NP	JJ	O	24	NMOD	0
+23	brain	brain	I-NP	NN	O	24	NMOD	0
+24	samples	sample	I-NP	NNS	O	16	PMOD	0
+25	using	use	B-VP	VBG	O	2	VMOD	0
+26	quantitative	quantitative	B-NP	JJ	O	29	NMOD	0
+27	real-time	real-time	I-NP	JJ	O	29	NMOD	0
+28	PCR	PCR	I-NP	NN	O	29	NMOD	0
+29	assay	assay	I-NP	NN	O	25	OBJ	0
+30	.	.	O	.	O	2	P	0
+
+1	Statistical	Statistical	B-NP	JJ	O	2	NMOD	0
+2	analysis	analysis	I-NP	NN	O	3	SUB	0
+3	was	be	B-VP	VBD	O	0	ROOT	0
+4	performed	perform	I-VP	VBN	O	3	VC	0
+5	to	to	I-VP	TO	O	6	VMOD	0
+6	explore	explore	I-VP	VB	O	4	VMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	links	link	I-NP	NNS	O	6	OBJ	0
+9	between	between	B-PP	IN	O	8	NMOD	0
+10	expression	expression	B-NP	NN	O	19	NMOD	9	expression
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	the	the	B-NP	DT	O	14	NMOD	0
+13	CCN	CCN	I-NP	NN	B-DNA	14	NMOD	0
+14	genes	gene	I-NP	NNS	I-DNA	11	PMOD	0
+15	and	and	O	CC	O	19	NMOD	0
+16	clinical	clinical	B-NP	JJ	O	18	AMOD	0
+17	and	and	I-NP	CC	O	18	AMOD	0
+18	pathological	pathological	I-NP	JJ	O	19	NMOD	0
+19	parameters	parameter	I-NP	NNS	O	9	PMOD	0
+20	.	.	O	.	O	3	P	0
+
+1	Overexpression	Overexpression	B-NP	NN	O	11	SUB	9	Overexpression
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	CYR61	CYR61	B-NP	NN	B-protein	10	NMOD	0
+4	,	,	O	,	O	10	P	0
+5	CTGF	CTGF	B-NP	NN	B-protein	10	NMOD	0
+6	,	,	O	,	O	10	P	0
+7	WISP-1	WISP-1	B-NP	NN	B-protein	10	NMOD	0
+8	,	,	O	,	O	10	P	0
+9	and	and	O	CC	O	10	NMOD	0
+10	NOV	NOV	B-NP	NN	B-protein	2	PMOD	0
+11	occurred	occur	B-VP	VBD	O	0	ROOT	0
+12	in	in	B-PP	IN	O	11	VMOD	0
+13	48	48	B-NP	CD	O	14	NMOD	0
+14	%	%	I-NP	NN	O	39	NMOD	0
+15	(	(	O	(	O	19	DEP	0
+16	32	32	B-NP	CD	O	19	DEP	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	66	66	B-NP	CD	O	17	PMOD	0
+19	)	)	O	)	O	14	NMOD	0
+20	,	,	O	,	O	39	P	0
+21	58	58	B-NP	CD	O	22	NMOD	0
+22	%	%	I-NP	NN	O	39	NMOD	0
+23	(	(	O	(	O	27	DEP	0
+24	38	38	B-NP	CD	O	27	DEP	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	66	66	B-NP	CD	O	25	PMOD	0
+27	)	)	O	)	O	22	NMOD	0
+28	,	,	O	,	O	39	P	0
+29	36	36	B-NP	CD	O	30	NMOD	0
+30	%	%	I-NP	NN	O	39	NMOD	0
+31	(	(	O	(	O	35	DEP	0
+32	24	24	B-NP	CD	O	35	DEP	0
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	66	66	B-NP	CD	O	33	PMOD	0
+35	)	)	O	)	O	30	NMOD	0
+36	,	,	O	,	O	39	P	0
+37	and	and	O	CC	O	39	NMOD	0
+38	15	15	B-NP	CD	O	39	NMOD	0
+39	%	%	I-NP	NN	O	12	PMOD	0
+40	(	(	O	(	O	44	DEP	0
+41	10	10	B-NP	CD	O	42	AMOD	0
+42	of	of	B-PP	IN	O	44	DEP	0
+43	66	66	B-NP	CD	O	42	AMOD	0
+44	)	)	O	)	O	39	NMOD	0
+45	of	of	B-PP	IN	O	39	NMOD	0
+46	primary	primary	B-NP	JJ	O	47	NMOD	0
+47	gliomas	glioma	I-NP	NNS	O	45	PMOD	0
+48	,	,	O	,	O	11	P	0
+49	respectively	respectively	B-ADVP	RB	O	11	VMOD	0
+50	.	.	O	.	O	11	P	0
+
+1	Interestingly	Interestingly	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	significant	significant	B-NP	JJ	O	4	NMOD	0
+4	associations	association	I-NP	NNS	O	5	SUB	0
+5	were	be	B-VP	VBD	O	0	ROOT	0
+6	found	find	I-VP	VBN	O	5	VC	0
+7	between	between	B-PP	IN	O	6	VMOD	0
+8	CYR61	CYR61	B-NP	NN	B-protein	9	NMOD	0
+9	expression	expression	I-NP	NN	O	7	PMOD	9	expression
+10	versus	versus	B-PP	IN	O	9	NMOD	0
+11	tumor	tumor	B-NP	NN	O	12	NMOD	0
+12	grade	grade	I-NP	NN	O	19	NMOD	0
+13	,	,	O	,	O	19	P	0
+14	pathology	pathology	B-NP	NN	O	19	NMOD	0
+15	,	,	O	,	O	19	P	0
+16	gender	gender	B-NP	NN	O	19	NMOD	0
+17	,	,	O	,	O	19	P	0
+18	and	and	O	CC	O	19	NMOD	0
+19	age	age	B-NP	NN	O	10	PMOD	0
+20	at	at	B-PP	IN	O	19	NMOD	0
+21	diagnosis	diagnosis	B-NP	NN	O	20	PMOD	0
+22	.	.	O	.	O	5	P	0
+
+1	Also	Also	B-ADVP	RB	O	6	VMOD	0
+2	,	,	O	,	O	6	P	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	significant	significant	I-NP	JJ	O	5	NMOD	0
+5	correlation	correlation	I-NP	NN	O	6	SUB	0
+6	existed	exist	B-VP	VBD	O	0	ROOT	0
+7	between	between	B-PP	IN	O	6	VMOD	0
+8	CTGF	CTGF	B-NP	NN	B-RNA	9	NMOD	0
+9	mRNA	mRNA	I-NP	NN	I-RNA	10	NMOD	0
+10	levels	level	I-NP	NNS	O	18	NMOD	0
+11	versus	versus	O	CC	O	18	NMOD	0
+12	tumor	tumor	B-NP	NN	O	13	NMOD	0
+13	grade	grade	I-NP	NN	O	18	NMOD	0
+14	,	,	O	,	O	18	P	0
+15	gender	gender	B-NP	NN	O	18	NMOD	0
+16	,	,	O	,	O	18	P	0
+17	and	and	O	CC	O	18	NMOD	0
+18	pathology	pathology	B-NP	NN	O	7	PMOD	0
+19	.	.	O	.	O	6	P	0
+
+1	In	In	B-PP	IN	O	11	VMOD	0
+2	contrast	contrast	B-NP	NN	O	1	PMOD	0
+3	to	to	B-PP	TO	O	2	NMOD	0
+4	CYR61	CYR61	B-NP	NN	B-protein	6	NMOD	0
+5	and	and	I-NP	CC	O	6	NMOD	0
+6	CTGF	CTGF	I-NP	NN	B-protein	3	PMOD	0
+7	,	,	O	,	O	11	P	0
+8	no	no	B-NP	DT	O	10	NMOD	0
+9	significant	significant	I-NP	JJ	O	10	NMOD	0
+10	association	association	I-NP	NN	O	11	SUB	0
+11	was	be	B-VP	VBD	O	0	ROOT	0
+12	found	find	I-VP	VBN	O	11	VC	0
+13	between	between	B-PP	IN	O	12	VMOD	0
+14	expression	expression	B-NP	NN	O	13	PMOD	9	expression
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	either	either	O	CC	O	19	NMOD	0
+17	WISP-1	WISP-1	B-NP	NN	B-protein	19	NMOD	0
+18	or	or	I-NP	CC	O	19	NMOD	0
+19	NOV	NOV	I-NP	NN	O	15	PMOD	0
+20	versus	versus	B-PP	IN	O	14	NMOD	0
+21	any	any	B-NP	DT	O	20	PMOD	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	pathological	pathological	I-NP	JJ	O	25	NMOD	0
+25	features	feature	I-NP	NNS	O	22	PMOD	0
+26	.	.	O	.	O	11	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	6	VMOD	0
+2	,	,	O	,	O	6	P	0
+3	Cox	Cox	B-NP	NNP	O	5	NMOD	0
+4	regression	regression	I-NP	NN	O	5	NMOD	0
+5	analysis	analysis	I-NP	NN	O	6	SUB	0
+6	showed	show	B-VP	VBD	O	0	ROOT	0
+7	that	that	B-SBAR	IN	O	6	VMOD	0
+8	CYR61	CYR61	B-NP	NN	B-protein	11	NMOD	0
+9	and	and	I-NP	CC	O	11	NMOD	0
+10	CTGF	CTGF	I-NP	NN	B-protein	11	NMOD	0
+11	expression	expression	I-NP	NN	O	12	SUB	9	expression
+12	had	have	B-VP	VBD	O	7	SBAR	0
+13	a	a	B-NP	DT	O	15	NMOD	0
+14	significant	significant	I-NP	JJ	O	15	NMOD	0
+15	correlation	correlation	I-NP	NN	O	12	OBJ	0
+16	with	with	B-PP	IN	O	15	NMOD	0
+17	patient	patient	B-NP	NN	O	18	NMOD	0
+18	survival	survival	I-NP	NN	O	16	PMOD	5	survival
+19	.	.	O	.	O	6	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	30	VMOD	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	CYR61	CYR61	B-NP	NN	B-protein	7	NMOD	0
+6	and	and	I-NP	CC	O	7	NMOD	0
+7	CTGF	CTGF	I-NP	NN	B-protein	8	SUB	0
+8	may	may	B-VP	MD	O	4	SBAR	0
+9	play	play	I-VP	VB	O	8	VC	0
+10	a	a	B-NP	DT	O	11	NMOD	0
+11	role	role	I-NP	NN	O	9	OBJ	0
+12	in	in	B-PP	IN	O	9	VMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	progression	progression	I-NP	NN	O	12	PMOD	2	progression
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	gliomas	glioma	B-NP	NNS	O	15	PMOD	0
+17	;	;	O	:	O	3	P	0
+18	their	their	B-NP	PRP$	O	19	NMOD	0
+19	levels	level	I-NP	NNS	O	22	SUB	0
+20	at	at	B-PP	IN	O	19	NMOD	0
+21	diagnosis	diagnosis	B-NP	NN	O	20	PMOD	0
+22	may	may	B-VP	MD	O	30	VMOD	0
+23	have	have	I-VP	VB	O	22	VC	0
+24	prognostic	prognostic	B-NP	JJ	O	25	NMOD	0
+25	significance	significance	I-NP	NN	O	23	OBJ	0
+26	;	;	O	:	O	30	P	0
+27	and	and	O	CC	O	29	NMOD	0
+28	these	these	B-NP	DT	O	29	NMOD	0
+29	proteins	protein	I-NP	NNS	O	30	SUB	0
+30	might	might	B-VP	MD	O	0	ROOT	0
+31	serve	serve	I-VP	VB	O	30	VC	0
+32	as	as	B-PP	IN	O	31	VMOD	0
+33	valuable	valuable	B-NP	JJ	O	34	NMOD	0
+34	targets	target	I-NP	NNS	O	32	PMOD	0
+35	for	for	B-PP	IN	O	34	NMOD	0
+36	therapeutic	therapeutic	B-NP	JJ	O	37	NMOD	0
+37	intervention	intervention	I-NP	NN	O	35	PMOD	0
+38	.	.	O	.	O	30	P	0
+

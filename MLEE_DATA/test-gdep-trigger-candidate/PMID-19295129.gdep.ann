@@ -1,0 +1,208 @@
+1	Distinct	Distinct	B-NP	JJ	O	2	NMOD	-1
+2	role	role	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	PLCbeta3	PLCbeta3	B-NP	NN	B-protein	3	PMOD	-1
+5	in	in	B-PP	IN	O	2	NMOD	-1
+6	VEGF-mediated	VEGF-mediated	B-NP	JJ	O	8	NMOD	16	mediated
+7	directional	directional	I-NP	JJ	O	8	NMOD	-1
+8	migration	migration	I-NP	NN	O	11	NMOD	0
+9	and	and	O	CC	O	11	NMOD	-1
+10	vascular	vascular	B-NP	JJ	O	11	NMOD	-1
+11	sprouting	sprouting	I-NP	NN	O	5	PMOD	2	sprouting
+12	.	.	O	.	O	2	P	-1
+
+1	Endothelial	Endothelial	B-NP	JJ	B-cell_type	3	NMOD	-1
+2	cell	cell	I-NP	NN	I-cell_type	3	NMOD	-1
+3	proliferation	proliferation	I-NP	NN	O	5	NMOD	1	proliferation
+4	and	and	O	CC	O	5	NMOD	-1
+5	migration	migration	B-NP	NN	O	6	SUB	14	migration
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	essential	essential	B-ADJP	JJ	O	6	PRD	17	essential
+8	to	to	B-PP	TO	O	7	AMOD	-1
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	PMOD	3	angiogenesis
+10	.	.	O	.	O	6	P	-1
+
+1	Typically	Typically	B-ADVP	RB	O	9	VMOD	-1
+2	,	,	O	,	O	9	P	-1
+3	proliferation	proliferation	B-NP	NN	O	5	NMOD	1	proliferation
+4	and	and	I-NP	CC	O	5	NMOD	-1
+5	chemotaxis	chemotaxis	I-NP	NN	O	9	SUB	14	chemotaxis
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	endothelial	endothelial	B-NP	JJ	B-cell_type	8	NMOD	-1
+8	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	driven	drive	I-VP	VBN	O	9	VC	16	driven
+11	by	by	B-PP	IN	O	10	VMOD	-1
+12	growth	growth	B-NP	NN	B-protein	13	NMOD	0
+13	factors	factor	I-NP	NNS	I-protein	11	PMOD	-1
+14	such	such	B-PP	JJ	O	15	PMOD	-1
+15	as	as	I-PP	IN	O	13	NMOD	-1
+16	vascular	vascular	B-NP	JJ	B-protein	19	NMOD	-1
+17	endothelial	endothelial	I-NP	JJ	I-protein	19	NMOD	-1
+18	growth	growth	I-NP	NN	I-protein	19	NMOD	0
+19	factor	factor	I-NP	NN	I-protein	27	NMOD	-1
+20	(	(	O	(	O	22	DEP	-1
+21	VEGF	VEGF	B-NP	NN	B-protein	22	DEP	-1
+22	)	)	O	)	O	19	NMOD	-1
+23	and	and	O	CC	O	27	NMOD	-1
+24	basic	basic	B-NP	JJ	B-protein	27	NMOD	-1
+25	fibroblast	fibroblast	I-NP	NN	I-protein	27	NMOD	-1
+26	growth	growth	I-NP	NN	I-protein	27	NMOD	0
+27	factor	factor	I-NP	NN	I-protein	15	PMOD	-1
+28	(	(	O	(	O	30	DEP	-1
+29	bFGF	bFGF	B-NP	NN	B-protein	30	DEP	-1
+30	)	)	O	)	O	27	NMOD	-1
+31	.	.	O	.	O	9	P	-1
+
+1	VEGF	VEGF	B-NP	NN	B-protein	2	SUB	-1
+2	activates	activate	B-VP	VBZ	O	0	ROOT	17	activates
+3	phospholipases	phospholipas	B-NP	NNS	B-protein	2	OBJ	-1
+4	(	(	O	(	O	6	DEP	-1
+5	PLCs	PLC	B-NP	NNS	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	-	-	O	HYPH	O	2	VMOD	-1
+8	specifically	specifically	B-NP	RB	O	7	AMOD	-1
+9	PLCgamma1	PLCgamma1	I-NP	NN	B-protein	8	PMOD	-1
+10	-	-	O	HYPH	O	9	P	-1
+11	that	that	B-NP	WDT	O	9	NMOD	-1
+12	are	be	B-VP	VBP	O	11	SBAR	-1
+13	important	important	B-ADJP	JJ	O	12	PRD	17	important
+14	for	for	B-PP	IN	O	13	AMOD	-1
+15	tubulogenesis	tubulogenesis	B-NP	NN	O	20	NMOD	3	tubulogenesis
+16	,	,	O	,	O	20	P	-1
+17	differentiation	differentiation	B-NP	NN	O	20	NMOD	0
+18	and	and	O	CC	O	20	NMOD	-1
+19	DNA	DNA	B-NP	NN	O	20	NMOD	-1
+20	synthesis	synthesis	I-NP	NN	O	14	PMOD	0
+21	.	.	O	.	O	2	P	-1
+
+1	However	However	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	show	show	B-VP	VBP	O	0	ROOT	-1
+5	here	here	B-ADVP	RB	O	4	VMOD	-1
+6	that	that	B-SBAR	IN	O	4	VMOD	-1
+7	VEGF	VEGF	B-NP	NN	B-protein	13	SUB	-1
+8	,	,	O	,	O	7	P	-1
+9	specifically	specifically	B-ADVP	RB	O	10	PMOD	-1
+10	through	through	B-PP	IN	O	7	NMOD	0
+11	VEGFR2	VEGFR2	B-NP	NN	B-protein	10	PMOD	-1
+12	,	,	O	,	O	7	P	-1
+13	induces	induce	B-VP	VBZ	O	24	VMOD	16	induces
+14	phosphorylation	phosphorylation	B-NP	NN	O	13	OBJ	12	phosphorylation
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	two	two	B-NP	CD	O	18	NMOD	-1
+17	serine	serine	I-NP	NN	O	18	NMOD	-1
+18	residues	residue	I-NP	NNS	O	15	PMOD	-1
+19	on	on	B-PP	IN	O	13	VMOD	-1
+20	PLCbeta3	PLCbeta3	B-NP	NN	B-protein	19	PMOD	-1
+21	,	,	O	,	O	24	P	-1
+22	and	and	O	CC	O	24	VMOD	-1
+23	this	this	B-NP	DT	O	24	SUB	-1
+24	was	be	B-VP	VBD	O	6	SBAR	-1
+25	confirmed	confirm	I-VP	VBN	O	24	VC	-1
+26	in	in	B-PP	IN	O	25	VMOD	-1
+27	an	an	B-NP	DT	O	32	NMOD	-1
+28	ex	ex	I-NP	FW	O	29	AMOD	-1
+29	vivo	vivo	I-NP	FW	O	32	NMOD	-1
+30	embryoid	embryoid	I-NP	JJ	O	32	NMOD	-1
+31	body	body	I-NP	NN	O	32	NMOD	-1
+32	model	model	I-NP	NN	O	26	PMOD	-1
+33	.	.	O	.	O	4	P	-1
+
+1	Knockdown	Knockdown	B-NP	NN	O	7	SUB	19	Knockdown
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	PLCbeta3	PLCbeta3	B-NP	NN	B-protein	2	PMOD	-1
+4	in	in	B-PP	IN	O	1	NMOD	-1
+5	HUVEC	HUVEC	B-NP	NN	B-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	4	PMOD	-1
+7	affects	affect	B-VP	VBZ	O	24	VMOD	16	affects
+8	IP3	IP3	B-NP	NN	B-protein	9	NMOD	-1
+9	production	production	I-NP	NN	O	16	NMOD	9	production
+10	,	,	O	,	O	16	P	-1
+11	actin	actin	B-NP	NN	B-protein	12	NMOD	-1
+12	reorganization	reorganization	I-NP	NN	O	16	NMOD	16	reorganization
+13	,	,	O	,	O	16	P	-1
+14	migration	migration	B-NP	NN	O	16	NMOD	14	migration
+15	and	and	I-NP	CC	O	16	NMOD	-1
+16	proliferation	proliferation	I-NP	NN	O	7	OBJ	1	proliferation
+17	;	;	O	:	O	24	P	-1
+18	whereas	whereas	B-PP	IN	O	24	VMOD	-1
+19	migration	migration	B-NP	NN	O	20	SUB	14	migration
+20	is	be	B-VP	VBZ	O	18	SBAR	-1
+21	inhibited	inhibit	I-VP	VBN	O	20	VC	18	inhibited
+22	,	,	O	,	O	24	P	-1
+23	proliferation	proliferation	B-NP	NN	O	24	SUB	1	proliferation
+24	is	be	B-VP	VBZ	O	0	ROOT	-1
+25	enhanced	enhance	I-VP	VBN	O	24	VC	17	enhanced
+26	.	.	O	.	O	24	P	-1
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	enhanced	enhance	B-NP	VBN	O	6	NMOD	0
+6	proliferation	proliferation	I-NP	NN	O	7	SUB	0
+7	is	be	B-VP	VBZ	O	4	SBAR	-1
+8	precipitated	precipitate	I-VP	VBN	O	7	VC	-1
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	an	an	B-NP	DT	O	13	NMOD	-1
+11	accelerated	accelerate	I-NP	VBN	O	13	NMOD	0
+12	cell	cell	I-NP	NN	O	13	NMOD	-1
+13	cycle	cycle	I-NP	NN	O	9	PMOD	0
+14	,	,	O	,	O	3	P	-1
+15	and	and	O	CC	O	3	VMOD	-1
+16	decreased	decrease	B-VP	VBD	O	3	VMOD	0
+17	migration	migration	B-NP	NN	O	16	OBJ	0
+18	by	by	B-PP	IN	O	17	NMOD	-1
+19	an	an	B-NP	DT	O	20	NMOD	-1
+20	inability	inability	I-NP	NN	O	18	PMOD	-1
+21	to	to	B-VP	TO	O	22	VMOD	-1
+22	activate	activate	I-VP	VB	O	20	NMOD	17	activate
+23	CDC42	CDC42	B-NP	NN	B-protein	22	OBJ	-1
+24	.	.	O	.	O	3	P	-1
+
+1	Given	Give	B-VP	VBN	O	16	VMOD	0
+2	that	that	B-SBAR	IN	O	1	PMOD	-1
+3	PLCbeta3	PLCbeta3	B-NP	NN	B-protein	4	SUB	-1
+4	is	be	B-VP	VBZ	O	2	SBAR	-1
+5	typically	typically	I-VP	RB	O	4	VMOD	-1
+6	known	know	I-VP	VBN	O	4	VC	-1
+7	as	as	B-PP	IN	O	6	VMOD	-1
+8	an	an	B-NP	DT	O	9	NMOD	-1
+9	effector	effector	I-NP	NN	O	7	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	heterotrimeric	heterotrimeric	B-NP	JJ	B-protein	12	NMOD	-1
+12	G-proteins	G-protein	I-NP	NNS	I-protein	10	PMOD	-1
+13	,	,	O	,	O	16	P	-1
+14	our	our	B-NP	PRP$	O	15	NMOD	-1
+15	data	datum	I-NP	NNS	O	16	SUB	-1
+16	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+17	a	a	B-NP	DT	O	19	NMOD	-1
+18	unique	unique	I-NP	JJ	O	19	NMOD	-1
+19	crosstalk	crosstalk	I-NP	NN	O	16	OBJ	-1
+20	between	between	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	26	NMOD	-1
+22	G-protein	G-protein	I-NP	NN	B-protein	26	NMOD	-1
+23	and	and	I-NP	CC	O	26	NMOD	-1
+24	receptor	receptor	I-NP	NN	B-protein	26	NMOD	-1
+25	tyrosine	tyrosine	I-NP	NN	I-protein	26	NMOD	-1
+26	kinase	kinase	I-NP	NN	I-protein	30	NMOD	-1
+27	(	(	O	(	O	29	DEP	-1
+28	RTK	RTK	B-NP	NN	B-protein	29	DEP	-1
+29	)	)	O	)	O	26	NMOD	-1
+30	axes	ax	B-NP	NNS	O	20	PMOD	-1
+31	and	and	O	CC	O	16	VMOD	-1
+32	reveal	reveal	B-VP	VB	O	16	VMOD	-1
+33	a	a	B-NP	DT	O	36	NMOD	-1
+34	novel	novel	I-NP	JJ	O	36	NMOD	-1
+35	molecular	molecular	I-NP	JJ	O	36	NMOD	-1
+36	mechanism	mechanism	I-NP	NN	O	32	OBJ	0
+37	of	of	B-PP	IN	O	36	NMOD	-1
+38	VEGF	VEGF	B-NP	NN	B-protein	39	NMOD	-1
+39	signaling	signaling	I-NP	NN	O	37	PMOD	0
+40	and	and	O	CC	O	16	VMOD	-1
+41	,	,	O	,	O	16	P	-1
+42	thus	thus	B-ADVP	RB	O	16	VMOD	-1
+43	,	,	O	,	O	16	P	-1
+44	angiogenesis	angiogenesis	B-NP	NN	O	16	VMOD	3	angiogenesis

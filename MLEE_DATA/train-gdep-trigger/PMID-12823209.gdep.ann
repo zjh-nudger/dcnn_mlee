@@ -1,0 +1,255 @@
+1	Prognostic	Prognostic	B-NP	JJ	O	2	NMOD	0
+2	value	value	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	p53	p53	B-NP	NN	B-protein	6	NMOD	0
+5	protein	protein	I-NP	NN	I-protein	6	NMOD	0
+6	expression	expression	I-NP	NN	O	12	NMOD	9	expression
+7	and	and	O	CC	O	12	NMOD	0
+8	vascular	vascular	B-NP	JJ	B-protein	12	NMOD	0
+9	endothelial	endothelial	I-NP	JJ	I-protein	12	NMOD	0
+10	growth	growth	I-NP	NN	I-protein	12	NMOD	0
+11	factor	factor	I-NP	NN	I-protein	12	NMOD	0
+12	expression	expression	I-NP	NN	O	3	PMOD	9	expression
+13	in	in	B-PP	IN	O	2	NMOD	0
+14	resected	resecte	B-NP	VBN	O	17	NMOD	19	resected
+15	squamous	squamous	I-NP	JJ	O	17	NMOD	0
+16	cell	cell	I-NP	NN	O	17	NMOD	0
+17	carcinoma	carcinoma	I-NP	NN	O	13	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	esophagus	esophagus	I-NP	NN	O	18	PMOD	0
+21	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	5	NMOD	0
+2	most	most	I-NP	RBS	O	3	AMOD	0
+3	common	common	I-NP	JJ	O	5	NMOD	0
+4	genetic	genetic	I-NP	JJ	O	5	NMOD	0
+5	alterations	alteration	I-NP	NNS	O	13	SUB	0
+6	found	find	B-VP	VBN	O	5	NMOD	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	wide	wide	I-NP	JJ	O	10	NMOD	0
+10	variety	variety	I-NP	NN	O	7	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	cancers	cancer	B-NP	NNS	O	11	PMOD	0
+13	are	be	B-VP	VBP	O	0	ROOT	0
+14	p53	p53	B-NP	NN	B-DNA	17	NMOD	0
+15	tumor	tumor	I-NP	NN	I-DNA	17	NMOD	0
+16	suppressor	suppressor	I-NP	NN	I-DNA	17	NMOD	0
+17	gene	gene	I-NP	NN	I-DNA	18	NMOD	0
+18	mutations	mutation	I-NP	NNS	O	13	PRD	0
+19	.	.	O	.	O	13	P	0
+
+1	p53	p53	B-NP	NN	B-protein	2	SUB	0
+2	appears	appear	B-VP	VBZ	O	0	ROOT	0
+3	to	to	I-VP	TO	O	4	VMOD	0
+4	be	be	I-VP	VB	O	2	VMOD	0
+5	a	a	B-NP	DT	O	8	NMOD	0
+6	nuclear	nuclear	I-NP	JJ	B-protein	8	NMOD	0
+7	transcription	transcription	I-NP	NN	I-protein	8	NMOD	0
+8	factor	factor	I-NP	NN	I-protein	4	PRD	0
+9	that	that	B-NP	WDT	O	8	NMOD	0
+10	plays	play	B-VP	VBZ	O	9	SBAR	0
+11	a	a	B-NP	DT	O	12	NMOD	0
+12	role	role	I-NP	NN	O	10	OBJ	0
+13	in	in	B-PP	IN	O	10	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	control	control	I-NP	NN	O	13	PMOD	16	control
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	cell	cell	B-NP	NN	O	18	NMOD	0
+18	proliferation	proliferation	I-NP	NN	O	24	NMOD	1	proliferation
+19	,	,	O	,	O	24	P	0
+20	apoptosis	apoptosis	B-NP	NN	O	24	NMOD	5	apoptosis
+21	,	,	O	,	O	24	P	0
+22	and	and	O	CC	O	24	NMOD	0
+23	the	the	B-NP	DT	O	24	NMOD	0
+24	maintenance	maintenance	I-NP	NN	O	16	PMOD	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	genetic	genetic	B-NP	JJ	O	27	NMOD	0
+27	stability	stability	I-NP	NN	O	25	PMOD	0
+28	.	.	O	.	O	2	P	0
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	SUB	3	Angiogenesis
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	critical	critical	I-NP	JJ	O	5	NMOD	16	critical
+5	process	process	I-NP	NN	O	2	PRD	0
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	solid	solid	B-NP	JJ	O	9	NMOD	0
+8	tumor	tumor	I-NP	NN	O	9	NMOD	0
+9	growth	growth	I-NP	NN	O	11	NMOD	4	growth
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	metastasis	metastasis	I-NP	NN	O	6	PMOD	14	metastasis
+12	.	.	O	.	O	2	P	0
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	0
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	0
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	13	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	,	,	O	,	O	13	P	0
+9	a	a	B-NP	DT	O	13	NMOD	0
+10	recently	recently	I-NP	RB	O	11	AMOD	0
+11	identified	identify	I-NP	VBN	O	13	NMOD	0
+12	growth	growth	I-NP	NN	B-protein	13	NMOD	0
+13	factor	factor	I-NP	NN	I-protein	19	SUB	0
+14	with	with	B-PP	IN	O	13	NMOD	0
+15	significant	significant	B-NP	JJ	O	16	AMOD	0
+16	angiogenic	angiogenic	I-NP	JJ	O	17	NMOD	3	angiogenic
+17	properties	property	I-NP	NNS	O	14	PMOD	0
+18	,	,	O	,	O	13	P	0
+19	may	may	B-VP	MD	O	0	ROOT	0
+20	be	be	I-VP	VB	O	19	VC	0
+21	a	a	B-NP	DT	O	25	NMOD	0
+22	major	major	I-NP	JJ	O	25	NMOD	0
+23	tumor	tumor	I-NP	NN	O	25	NMOD	0
+24	angiogenesis	angiogenesis	I-NP	NN	O	25	NMOD	3	angiogenesis
+25	regulator	regulator	I-NP	NN	O	20	PRD	16	regulator
+26	.	.	O	.	O	19	P	0
+
+1	Few	Few	B-NP	JJ	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	have	have	B-VP	VBP	O	0	ROOT	0
+4	investigated	investigate	I-VP	VBN	O	3	VC	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	association	association	I-NP	NN	O	4	OBJ	0
+7	between	between	B-PP	IN	O	6	NMOD	0
+8	p53	p53	B-NP	NN	B-protein	11	NMOD	0
+9	and	and	I-NP	CC	O	11	NMOD	0
+10	VEGF	VEGF	I-NP	NN	B-protein	11	NMOD	0
+11	expressions	expression	I-NP	NNS	O	13	NMOD	9	expressions
+12	and	and	O	CC	O	13	NMOD	0
+13	prognosis	prognosis	B-NP	NN	O	7	PMOD	0
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	esophageal	esophageal	B-NP	JJ	O	16	NMOD	0
+16	carcinoma	carcinoma	I-NP	NN	O	14	PMOD	0
+17	.	.	O	.	O	3	P	0
+
+1	Forty-seven	Forty-seven	B-NP	CD	O	2	NMOD	0
+2	specimens	specimen	I-NP	NNS	O	20	SUB	0
+3	resected	resecte	B-VP	VBN	O	2	NMOD	19	resected
+4	from	from	B-PP	IN	O	3	VMOD	0
+5	patients	patient	B-NP	NNS	O	4	PMOD	0
+6	with	with	B-PP	IN	O	5	NMOD	0
+7	stage	stage	B-NP	NN	O	13	NMOD	0
+8	II	II	I-NP	CD	O	7	NMOD	0
+9	and	and	I-NP	CC	O	7	NMOD	0
+10	III	III	I-NP	CD	O	7	NMOD	0
+11	squamous	squamous	I-NP	JJ	O	13	NMOD	0
+12	cell	cell	I-NP	NN	O	13	NMOD	0
+13	carcinoma	carcinoma	I-NP	NN	O	6	PMOD	0
+14	(	(	O	(	O	16	DEP	0
+15	SCC	SCC	B-NP	NN	O	16	DEP	0
+16	)	)	O	)	O	13	NMOD	0
+17	of	of	B-PP	IN	O	13	NMOD	0
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	esophagus	esophagus	I-NP	NN	O	17	PMOD	0
+20	were	be	B-VP	VBD	O	0	ROOT	0
+21	studied	study	I-VP	VBN	O	20	VC	0
+22	using	use	B-VP	VBG	O	20	VMOD	0
+23	immunohistochemical	immunohistochemical	B-NP	JJ	O	24	NMOD	0
+24	staining	staining	I-NP	NN	O	22	OBJ	0
+25	.	.	O	.	O	20	P	0
+
+1	VEGF	VEGF	B-NP	NN	B-protein	4	NMOD	0
+2	and	and	I-NP	CC	O	4	NMOD	0
+3	p53	p53	I-NP	NN	B-protein	4	NMOD	0
+4	expressions	expression	I-NP	NNS	O	5	SUB	9	expressions
+5	were	be	B-VP	VBD	O	0	ROOT	0
+6	observed	observe	I-VP	VBN	O	5	VC	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	40	40	B-NP	CD	O	9	NMOD	0
+9	%	%	I-NP	NN	O	12	NMOD	0
+10	and	and	O	CC	O	12	NMOD	0
+11	53	53	B-NP	CD	O	12	NMOD	0
+12	%	%	I-NP	NN	O	7	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	tumors	tumor	I-NP	NNS	O	13	PMOD	0
+16	,	,	O	,	O	6	P	0
+17	respectively	respectively	B-ADVP	RB	O	6	VMOD	0
+18	.	.	O	.	O	5	P	0
+
+1	The	The	B-NP	DT	O	6	NMOD	0
+2	p53	p53	I-NP	NN	B-protein	6	NMOD	0
+3	and	and	I-NP	CC	O	6	NMOD	0
+4	VEGF	VEGF	I-NP	NN	B-protein	6	NMOD	0
+5	staining	staining	I-NP	NN	O	6	NMOD	0
+6	statuses	status	I-NP	NNS	O	7	SUB	0
+7	were	be	B-VP	VBD	O	21	VMOD	0
+8	coincident	coincident	B-ADJP	JJ	O	7	PRD	0
+9	in	in	B-PP	IN	O	8	AMOD	0
+10	only	only	B-NP	RB	O	12	NMOD	0
+11	21	21	I-NP	CD	O	10	AMOD	0
+12	%	%	I-NP	NN	O	9	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	tumors	tumor	I-NP	NNS	O	13	PMOD	0
+16	,	,	O	,	O	21	P	0
+17	and	and	O	CC	O	21	VMOD	0
+18	no	no	B-NP	DT	O	20	NMOD	0
+19	significant	significant	I-NP	JJ	O	20	NMOD	0
+20	correlation	correlation	I-NP	NN	O	21	SUB	0
+21	was	be	B-VP	VBD	O	0	ROOT	0
+22	found	find	I-VP	VBN	O	21	VC	0
+23	between	between	B-PP	IN	O	22	VMOD	0
+24	p53	p53	B-NP	NN	B-protein	27	NMOD	0
+25	and	and	I-NP	CC	O	27	NMOD	0
+26	VEGF	VEGF	I-NP	NN	O	27	NMOD	0
+27	statuses	status	I-NP	NNS	O	23	PMOD	0
+28	.	.	O	.	O	21	P	0
+
+1	No	No	B-NP	DT	O	3	NMOD	0
+2	clinicopathologic	clinicopathologic	I-NP	JJ	B-protein	3	NMOD	0
+3	factors	factor	I-NP	NNS	I-protein	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	0
+5	significantly	significantly	I-VP	RB	O	4	VMOD	0
+6	correlated	correlate	I-VP	VBN	O	4	VC	0
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	p53	p53	B-NP	NN	B-protein	11	NMOD	0
+9	or	or	I-NP	CC	O	11	NMOD	0
+10	VEGF	VEGF	I-NP	NN	B-protein	11	NMOD	0
+11	expression	expression	I-NP	NN	O	7	PMOD	9	expression
+12	.	.	O	.	O	4	P	0
+
+1	No	No	B-NP	DT	O	3	NMOD	0
+2	significant	significant	I-NP	JJ	O	3	NMOD	0
+3	association	association	I-NP	NN	O	12	SUB	0
+4	between	between	B-PP	IN	O	3	NMOD	0
+5	p53	p53	B-NP	NN	B-protein	8	NMOD	0
+6	and	and	I-NP	CC	O	8	NMOD	0
+7	VEGF	VEGF	I-NP	NN	B-protein	8	NMOD	0
+8	expressions	expression	I-NP	NNS	O	11	NMOD	9	expressions
+9	and	and	O	CC	O	11	NMOD	0
+10	poor	poor	B-NP	JJ	O	11	NMOD	0
+11	prognosis	prognosis	I-NP	NN	O	4	PMOD	0
+12	was	be	B-VP	VBD	O	0	ROOT	0
+13	found	find	I-VP	VBN	O	12	VC	0
+14	.	.	O	.	O	12	P	0
+
+1	In	In	B-PP	IN	O	7	VMOD	0
+2	conclusion	conclusion	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	7	P	0
+4	p53	p53	B-NP	NN	B-protein	6	NMOD	0
+5	and	and	I-NP	CC	O	6	NMOD	0
+6	VEGF	VEGF	I-NP	NN	B-protein	7	SUB	0
+7	were	be	B-VP	VBD	O	0	ROOT	0
+8	not	not	I-VP	RB	O	7	VMOD	0
+9	correlated	correlate	I-VP	VBN	O	7	VC	0
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	prognosis	prognosis	B-NP	NN	O	10	PMOD	0
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	patients	patient	B-NP	NNS	O	12	PMOD	0
+14	with	with	B-PP	IN	O	13	NMOD	0
+15	stage	stage	B-NP	NN	O	19	NMOD	0
+16	II	II	I-NP	CD	O	15	NMOD	0
+17	and	and	I-NP	CC	O	15	NMOD	0
+18	III	III	I-NP	CD	O	15	NMOD	0
+19	SCC	SCC	I-NP	NN	O	14	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	22	NMOD	0
+22	esophagus	esophagus	I-NP	NN	O	20	PMOD	0
+23	.	.	O	.	O	7	P	0
+

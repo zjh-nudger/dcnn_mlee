@@ -1,0 +1,153 @@
+1	Tumour	Tumour	B-NP	NN	O	2	NMOD	-1
+2	angiogenesis	angiogenesis	I-NP	NN	O	5	NMOD	3	angiogenesis
+3	:	:	O	:	O	2	P	-1
+4	its	its	B-NP	PRP$	O	5	NMOD	-1
+5	mechanism	mechanism	I-NP	NN	O	8	NMOD	0
+6	and	and	I-NP	CC	O	8	NMOD	-1
+7	therapeutic	therapeutic	I-NP	JJ	O	8	NMOD	-1
+8	implications	implication	I-NP	NNS	O	0	ROOT	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	malignant	malignant	B-NP	JJ	B-cell_type	11	NMOD	-1
+11	gliomas	glioma	I-NP	NNS	I-cell_type	9	PMOD	-1
+12	.	.	O	.	O	8	P	-1
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	SUB	3	Angiogenesis
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	a	a	B-NP	DT	O	5	NMOD	-1
+4	key	key	I-NP	JJ	O	5	NMOD	-1
+5	event	event	I-NP	NN	O	2	PRD	-1
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	progression	progression	I-NP	NN	O	6	PMOD	2	progression
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	malignant	malignant	B-NP	JJ	B-cell_type	11	NMOD	-1
+11	gliomas	glioma	I-NP	NNS	I-cell_type	9	PMOD	-1
+12	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	presence	presence	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	microvascular	microvascular	B-NP	JJ	O	5	NMOD	-1
+5	proliferation	proliferation	I-NP	NN	O	3	PMOD	2	proliferation
+6	leads	lead	B-VP	VBZ	O	0	ROOT	0
+7	to	to	B-PP	TO	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	histological	histological	I-NP	JJ	O	10	NMOD	-1
+10	diagnosis	diagnosis	I-NP	NN	O	7	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	glioblastoma	glioblastoma	B-NP	NN	B-protein	13	NMOD	-1
+13	multiforme	multiforme	I-NP	NN	I-protein	11	PMOD	-1
+14	.	.	O	.	O	6	P	-1
+
+1	Tumour	Tumour	B-NP	NN	O	2	NMOD	-1
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	involves	involve	B-VP	VBZ	O	0	ROOT	16	involves
+4	multiple	multiple	B-NP	JJ	O	6	NMOD	-1
+5	cellular	cellular	I-NP	JJ	O	6	NMOD	-1
+6	processes	process	I-NP	NNS	O	3	OBJ	-1
+7	including	include	B-PP	VBG	O	6	NMOD	-1
+8	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	-1
+9	cell	cell	I-NP	NN	I-cell_type	10	NMOD	-1
+10	proliferation	proliferation	I-NP	NN	O	14	NMOD	1	proliferation
+11	,	,	O	,	O	14	P	-1
+12	migration	migration	B-NP	NN	O	14	NMOD	14	migration
+13	,	,	O	,	O	14	P	-1
+14	reorganisation	reorganisation	B-NP	NN	O	7	PMOD	7	reorganisation
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	extracellular	extracellular	B-NP	JJ	O	17	NMOD	-1
+17	matrix	matrix	I-NP	NN	O	20	NMOD	-1
+18	and	and	I-NP	CC	O	20	NMOD	-1
+19	tube	tube	I-NP	NN	O	20	NMOD	-1
+20	formation	formation	I-NP	NN	O	15	PMOD	2	formation
+21	.	.	O	.	O	3	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	processes	process	I-NP	NNS	O	3	SUB	-1
+3	are	be	B-VP	VBP	O	0	ROOT	-1
+4	regulated	regulate	I-VP	VBN	O	3	VC	0
+5	by	by	B-PP	IN	O	4	VMOD	-1
+6	numerous	numerous	B-NP	JJ	O	5	PMOD	-1
+7	pro-angiogenic	pro-angiogenic	I-NP	JJ	O	6	NMOD	3	angiogenic
+8	and	and	I-NP	CC	O	6	NMOD	-1
+9	anti-angiogenic	anti-angiogenic	I-NP	JJ	B-protein	11	NMOD	3	angiogenic
+10	growth	growth	I-NP	NN	I-protein	11	NMOD	0
+11	factors	factor	I-NP	NNS	I-protein	6	NMOD	-1
+12	.	.	O	.	O	3	P	-1
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	NMOD	3	Angiogenesis
+2	inhibitors	inhibitor	I-NP	NNS	O	3	SUB	-1
+3	have	have	B-VP	VBP	O	0	ROOT	-1
+4	been	be	I-VP	VBN	O	3	VC	-1
+5	developed	develop	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	-1
+7	interrupt	interrupt	I-VP	VB	O	5	VMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	angiogenic	angiogenic	I-NP	JJ	O	10	NMOD	3	angiogenic
+10	process	process	I-NP	NN	O	7	OBJ	-1
+11	at	at	B-PP	IN	O	7	VMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	growth	growth	I-NP	NN	B-protein	14	NMOD	0
+14	factor	factor	I-NP	NN	I-protein	22	NMOD	-1
+15	,	,	O	,	O	22	P	-1
+16	receptor	receptor	B-NP	NN	B-protein	18	NMOD	-1
+17	tyrosine	tyrosine	I-NP	NN	I-protein	18	NMOD	-1
+18	kinase	kinase	I-NP	NN	I-protein	22	NMOD	-1
+19	and	and	O	CC	O	22	NMOD	-1
+20	intracellular	intracellular	B-NP	JJ	O	22	NMOD	-1
+21	kinase	kinase	I-NP	NN	O	22	NMOD	-1
+22	levels	level	I-NP	NNS	O	11	PMOD	-1
+23	.	.	O	.	O	3	P	-1
+
+1	Other	Other	B-NP	JJ	O	3	NMOD	-1
+2	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	therapies	therapy	I-NP	NNS	O	4	SUB	18	therapies
+4	alter	alter	B-VP	VBP	O	0	ROOT	0
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	immune	immune	I-NP	JJ	O	7	NMOD	-1
+7	response	response	I-NP	NN	O	12	NMOD	0
+8	and	and	O	CC	O	12	NMOD	-1
+9	endogeneous	endogeneous	B-NP	JJ	O	12	NMOD	-1
+10	angiogenesis	angiogenesis	I-NP	NN	O	12	NMOD	3	angiogenesis
+11	inhibitor	inhibitor	I-NP	NN	O	12	NMOD	0
+12	levels	level	I-NP	NNS	O	4	OBJ	-1
+13	.	.	O	.	O	4	P	-1
+
+1	Most	Most	B-NP	JJS	O	3	NMOD	-1
+2	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	therapies	therapy	I-NP	NNS	O	7	SUB	18	therapies
+4	for	for	B-PP	IN	O	3	NMOD	-1
+5	malignant	malignant	B-NP	JJ	O	6	NMOD	-1
+6	gliomas	glioma	I-NP	NNS	O	4	PMOD	-1
+7	are	be	B-VP	VBP	O	0	ROOT	-1
+8	in	in	B-PP	IN	O	7	PRD	-1
+9	Phase	Phase	B-NP	NN	O	11	NMOD	-1
+10	I/II	I/II	I-NP	NN	O	11	NMOD	-1
+11	trials	trial	I-NP	NNS	O	8	PMOD	-1
+12	and	and	O	CC	O	7	VMOD	-1
+13	only	only	B-NP	RB	O	14	AMOD	-1
+14	modest	modest	I-NP	JJ	O	15	NMOD	-1
+15	efficacies	efficacy	I-NP	NNS	O	16	SUB	-1
+16	are	be	B-VP	VBP	O	7	VMOD	-1
+17	reported	report	I-VP	VBN	O	16	VC	-1
+18	for	for	B-PP	IN	O	17	VMOD	-1
+19	monotherapies	monotherapy	B-NP	NNS	O	18	PMOD	-1
+20	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	greatest	great	I-NP	JJS	O	3	NMOD	-1
+3	potential	potential	I-NP	NN	O	7	SUB	0
+4	for	for	B-PP	IN	O	3	NMOD	-1
+5	angiogenesis	angiogenesis	B-NP	NN	O	6	NMOD	3	angiogenesis
+6	inhibitors	inhibitor	I-NP	NNS	O	4	PMOD	-1
+7	may	may	B-VP	MD	O	0	ROOT	-1
+8	lie	lie	I-VP	VB	O	7	VC	-1
+9	in	in	B-PP	IN	O	8	VMOD	-1
+10	their	their	B-NP	PRP$	O	11	NMOD	-1
+11	ability	ability	I-NP	NN	O	9	PMOD	0
+12	to	to	B-VP	TO	O	13	VMOD	-1
+13	combine	combine	I-VP	VB	O	11	NMOD	-1
+14	safely	safely	B-ADVP	RB	O	13	VMOD	-1
+15	with	with	B-PP	IN	O	13	VMOD	-1
+16	chemotherapy	chemotherapy	B-NP	NN	O	18	NMOD	0
+17	and	and	I-NP	CC	O	18	NMOD	-1
+18	radiotherapy	radiotherapy	I-NP	NN	O	15	PMOD	0

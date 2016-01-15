@@ -1,0 +1,271 @@
+1	Tumor	Tumor	B-NP	NN	O	3	NMOD	0
+2	endothelial	endothelial	I-NP	JJ	O	3	NMOD	0
+3	cell	cell	I-NP	NN	O	4	SUB	0
+4	targeted	target	B-VP	VBD	O	0	ROOT	19	targeted
+5	cyclic	cyclic	B-NP	JJ	O	8	NMOD	0
+6	RGD-modified	RGD-modified	I-NP	JJ	O	8	NMOD	0
+7	heparin	heparin	I-NP	NN	O	8	NMOD	0
+8	derivative	derivative	I-NP	NN	O	4	OBJ	0
+9	:	:	O	:	O	4	P	0
+10	inhibition	inhibition	B-NP	NN	O	4	VMOD	18	inhibition
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	angiogenesis	angiogenesis	B-NP	NN	O	15	NMOD	3	angiogenesis
+13	and	and	I-NP	CC	O	15	NMOD	0
+14	tumor	tumor	I-NP	NN	O	15	NMOD	0
+15	growth	growth	I-NP	NN	O	11	PMOD	4	growth
+16	.	.	O	.	O	4	P	0
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	4	SUB	0
+2	:	:	O	:	O	4	P	0
+3	We	We	B-NP	PRP	O	4	SUB	0
+4	prepared	prepare	B-VP	VBD	O	0	ROOT	0
+5	tumor	tumor	B-NP	NN	O	6	NMOD	0
+6	endothelium	endothelium	I-NP	NN	O	7	SUB	0
+7	targeted	target	B-VP	VBD	O	4	VMOD	19	targeted
+8	cRGD-modified	cRGD-modified	B-NP	JJ	O	10	NMOD	0
+9	heparin	heparin	I-NP	NN	O	10	NMOD	0
+10	derivative	derivative	I-NP	NN	O	7	OBJ	0
+11	(	(	O	(	O	13	DEP	0
+12	cRGD-HL	cRGD-HL	B-NP	NN	O	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	by	by	B-PP	IN	O	7	VMOD	0
+15	coupling	couple	B-VP	VBG	O	14	PMOD	0
+16	heparin-lithocholic	heparin-lithocholic	B-NP	JJ	O	17	NMOD	0
+17	acid	acid	I-NP	NN	O	15	OBJ	0
+18	(	(	O	(	O	20	DEP	0
+19	HL	HL	B-NP	NN	O	20	DEP	0
+20	)	)	O	)	O	17	NMOD	0
+21	with	with	B-PP	IN	O	17	NMOD	0
+22	cRGDyK	cRGDyK	B-NP	NN	B-protein	21	PMOD	0
+23	,	,	O	,	O	27	P	0
+24	and	and	O	CC	O	27	NMOD	0
+25	evaluated	evaluate	B-NP	VBN	O	27	NMOD	0
+26	inhibition	inhibition	I-NP	NN	O	27	NMOD	18	inhibition
+27	effects	effect	I-NP	NNS	O	4	VMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	cRGD-HL	cRGD-HL	B-NP	NN	O	28	PMOD	0
+30	on	on	B-PP	IN	O	27	NMOD	0
+31	angiogenesis	angiogenesis	B-NP	NN	O	34	NMOD	3	angiogenesis
+32	and	and	I-NP	CC	O	34	NMOD	0
+33	tumor	tumor	I-NP	NN	O	34	NMOD	0
+34	growth	growth	I-NP	NN	O	30	PMOD	4	growth
+35	.	.	O	.	O	4	P	0
+
+1	METHODS	METHODS	B-NP	NNS	O	11	VMOD	0
+2	:	:	O	:	O	1	P	0
+3	To	To	B-VP	TO	O	4	VMOD	0
+4	evaluate	evaluate	I-VP	VB	O	1	VMOD	0
+5	antiangiogenic	antiangiogenic	B-NP	JJ	O	6	NMOD	3	angiogenic
+6	activity	activity	I-NP	NN	O	4	OBJ	18	activity
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	cRGD-HL	cRGD-HL	B-NP	NN	O	7	PMOD	0
+9	,	,	O	,	O	11	P	0
+10	we	we	B-NP	PRP	O	11	SUB	0
+11	performed	perform	B-VP	VBD	O	0	ROOT	0
+12	tests	test	B-NP	NNS	O	11	OBJ	0
+13	on	on	B-PP	IN	O	12	NMOD	0
+14	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	0
+15	cell	cell	I-NP	NN	I-cell_type	16	NMOD	0
+16	adhesion	adhesion	I-NP	NN	O	18	NMOD	15	adhesion
+17	and	and	O	CC	O	18	NMOD	0
+18	migration	migration	B-NP	NN	O	26	NMOD	14	migration
+19	to	to	B-PP	TO	O	18	NMOD	0
+20	vitronectin	vitronectin	B-NP	NN	B-protein	19	PMOD	0
+21	,	,	O	,	O	26	P	0
+22	tube	tube	B-NP	NN	O	23	NMOD	0
+23	formation	formation	I-NP	NN	O	26	NMOD	2	formation
+24	,	,	O	,	O	26	P	0
+25	binding	binding	B-NP	NN	O	26	NMOD	15	binding
+26	affinity	affinity	I-NP	NN	O	13	PMOD	0
+27	to	to	B-PP	TO	O	26	NMOD	0
+28	purified	purify	B-NP	VBN	B-protein	37	NMOD	0
+29	alpha	alpha	I-NP	NN	I-protein	37	NMOD	0
+30	(	(	O	(	I-protein	37	NMOD	0
+31	v	v	B-NP	NN	I-protein	37	NMOD	0
+32	)	)	O	)	I-protein	37	NMOD	0
+33	beta	beta	B-NP	NN	I-protein	37	NMOD	0
+34	(	(	O	(	I-protein	37	NMOD	0
+35	3	3	B-NP	CD	I-protein	37	NMOD	0
+36	)	)	O	)	I-protein	37	NMOD	0
+37	integrin	integrin	B-NP	NN	I-protein	27	PMOD	0
+38	,	,	O	,	O	44	P	0
+39	and	and	O	CC	O	44	NMOD	0
+40	in	in	B-NP	FW	O	41	AMOD	0
+41	vivo	vivo	I-NP	FW	O	44	NMOD	0
+42	Matrigel	Matrigel	I-NP	NNP	O	44	NMOD	0
+43	plug	plug	I-NP	NN	O	44	NMOD	0
+44	assay	assay	I-NP	NN	O	11	VMOD	0
+45	.	.	O	.	O	11	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	antitumor	antitumor	I-NP	JJ	O	3	NMOD	0
+3	activity	activity	I-NP	NN	O	6	SUB	18	activity
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	cRGD-HL	cRGD-HL	B-NP	NN	O	4	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	also	also	I-VP	RB	O	6	VMOD	0
+8	evaluated	evaluate	I-VP	VBN	O	6	VC	0
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	monitoring	monitor	B-VP	VBG	O	9	PMOD	0
+11	tumor	tumor	B-NP	NN	O	12	NMOD	0
+12	growth	growth	I-NP	NN	O	15	NMOD	4	growth
+13	and	and	O	CC	O	15	NMOD	0
+14	microvessel	microvessel	B-NP	NN	O	15	NMOD	0
+15	formation	formation	I-NP	NN	O	10	OBJ	2	formation
+16	in	in	B-PP	IN	O	10	VMOD	0
+17	squamous	squamous	B-NP	JJ	O	19	NMOD	0
+18	cell	cell	I-NP	NN	O	19	NMOD	0
+19	carcinoma	carcinoma	I-NP	NN	O	23	NMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	SCC7	SCC7	B-NP	NN	B-protein	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	tumor	tumor	B-NP	NN	O	16	PMOD	0
+24	.	.	O	.	O	6	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	The	The	B-NP	DT	O	4	NMOD	0
+4	cRGD-HL	cRGD-HL	I-NP	NN	O	6	SUB	0
+5	significantly	significantly	B-ADVP	RB	O	6	VMOD	0
+6	inhibited	inhibit	B-VP	VBD	O	18	NMOD	18	inhibited
+7	adhesion	adhesion	B-NP	NN	O	9	NMOD	15	adhesion
+8	and	and	I-NP	CC	O	9	NMOD	0
+9	migration	migration	I-NP	NN	O	6	OBJ	14	migration
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	0
+13	to	to	B-PP	TO	O	9	NMOD	0
+14	vitronectin	vitronectin	B-NP	NN	B-protein	13	PMOD	0
+15	,	,	O	,	O	18	P	0
+16	and	and	O	CC	O	18	NMOD	0
+17	tubular	tubular	B-NP	JJ	O	18	NMOD	0
+18	structures	structure	I-NP	NNS	O	1	NMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	endothelial	endothelial	B-NP	JJ	B-cell_type	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_type	19	PMOD	0
+22	.	.	O	.	O	18	P	0
+
+1	Compared	Compare	B-PP	VBN	O	8	VMOD	0
+2	to	to	B-PP	TO	O	1	PMOD	0
+3	cRGDyK	cRGDyK	B-NP	NN	B-protein	5	NMOD	0
+4	and	and	I-NP	CC	O	5	NMOD	0
+5	HL	HL	I-NP	NN	O	2	PMOD	0
+6	,	,	O	,	O	8	P	0
+7	cRGD-HL	cRGD-HL	B-NP	NN	O	8	SUB	0
+8	has	have	B-VP	VBZ	O	0	ROOT	0
+9	high	high	B-NP	JJ	O	11	NMOD	0
+10	binding	binding	I-NP	NN	O	11	NMOD	15	binding
+11	affinity	affinity	I-NP	NN	O	8	OBJ	0
+12	to	to	B-PP	TO	O	11	NMOD	0
+13	purified	purify	B-NP	VBN	B-protein	22	NMOD	0
+14	alpha	alpha	I-NP	NN	I-protein	22	NMOD	0
+15	(	(	O	(	I-protein	22	NMOD	0
+16	v	v	B-NP	NN	I-protein	22	NMOD	0
+17	)	)	O	)	I-protein	22	NMOD	0
+18	beta	beta	B-NP	NN	I-protein	22	NMOD	0
+19	(	(	O	(	I-protein	22	NMOD	0
+20	3	3	B-NP	CD	I-protein	22	NMOD	0
+21	)	)	O	)	I-protein	22	NMOD	0
+22	integrin	integrin	B-NP	NN	I-protein	12	PMOD	0
+23	.	.	O	.	O	8	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	enhanced	enhance	I-NP	VBN	O	4	NMOD	17	enhanced
+3	antiangiogenic	antiangiogenic	I-NP	JJ	O	4	NMOD	3	angiogenic
+4	effect	effect	I-NP	NN	O	7	SUB	18	effect
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	cRGD-HL	cRGD-HL	B-NP	NN	O	5	PMOD	0
+7	was	be	B-VP	VBD	O	0	ROOT	0
+8	confirmed	confirm	I-VP	VBN	O	7	VC	0
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	Matrigel	Matrigel	B-NP	NNP	O	11	NMOD	0
+11	assay	assay	I-NP	NN	O	9	PMOD	0
+12	by	by	B-PP	IN	O	8	VMOD	0
+13	showing	show	B-VP	VBG	O	12	PMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	significant	significant	I-NP	JJ	O	16	NMOD	0
+16	inhibition	inhibition	I-NP	NN	O	13	OBJ	18	inhibition
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	bFGF-driven	bFGF-driven	B-NP	JJ	O	19	NMOD	17	driven
+19	angiogenesis	angiogenesis	I-NP	NN	O	23	NMOD	3	angiogenesis
+20	and	and	O	CC	O	23	NMOD	0
+21	blood	blood	B-NP	NN	O	23	NMOD	0
+22	vessel	vessel	I-NP	NN	O	23	NMOD	0
+23	formation	formation	I-NP	NN	O	17	PMOD	2	formation
+24	.	.	O	.	O	7	P	0
+
+1	It	It	B-NP	PRP	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	thought	think	I-VP	VBN	O	2	VC	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	potent	potent	B-NP	JJ	O	7	NMOD	0
+6	antiangiogenic	antiangiogenic	I-NP	JJ	O	7	NMOD	3	angiogenic
+7	effect	effect	I-NP	NN	O	10	SUB	18	effect
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	cRGD-HL	cRGD-HL	B-NP	NN	O	8	PMOD	0
+10	was	be	B-VP	VBD	O	4	SBAR	0
+11	probably	probably	B-ADVP	RB	O	10	VMOD	0
+12	due	due	B-ADJP	JJ	O	10	PRD	0
+13	to	to	B-PP	TO	O	12	AMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	interference	interference	I-NP	NN	O	13	PMOD	18	interference
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	alpha	alpha	B-NP	NN	O	21	NMOD	0
+18	(	(	O	(	O	20	DEP	0
+19	v	v	B-NP	NN	O	20	DEP	0
+20	)	)	O	)	O	17	NMOD	0
+21	beta	beta	B-NP	NN	O	26	NMOD	0
+22	(	(	O	(	O	26	NMOD	0
+23	3	3	B-NP	CD	O	26	NMOD	0
+24	)	)	O	)	O	26	NMOD	0
+25	-mediated	-mediated	B-NP	JJ	O	26	NMOD	0
+26	interaction	interaction	I-NP	NN	O	16	PMOD	15	interaction
+27	,	,	O	,	O	15	P	0
+28	resulting	result	B-VP	VBG	O	15	NMOD	0
+29	in	in	B-PP	IN	O	28	VMOD	0
+30	the	the	B-NP	DT	O	33	NMOD	0
+31	enhanced	enhance	I-NP	VBN	O	33	NMOD	17	enhanced
+32	antitumoral	antitumoral	I-NP	JJ	O	33	NMOD	0
+33	activity	activity	I-NP	NN	O	29	PMOD	0
+34	against	against	B-PP	IN	O	33	NMOD	18	against
+35	SCC7	SCC7	B-NP	NN	B-protein	36	NMOD	0
+36	tumor	tumor	I-NP	NN	O	34	PMOD	0
+37	.	.	O	.	O	2	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	These	These	B-NP	DT	O	4	NMOD	0
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	demonstrated	demonstrate	B-VP	VBD	O	1	NMOD	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	cRGD-modified	cRGD-modified	B-NP	JJ	O	9	NMOD	0
+8	heparin	heparin	I-NP	NN	O	9	NMOD	0
+9	derivative	derivative	I-NP	NN	O	10	SUB	0
+10	enhanced	enhance	B-VP	VBD	O	21	VMOD	17	enhanced
+11	anti-angiotherapeutic	anti-angiotherapeutic	B-NP	JJ	O	12	NMOD	3	angiotherapeutic
+12	effects	effect	I-NP	NNS	O	10	OBJ	18	effects
+13	against	against	B-PP	IN	O	12	NMOD	0
+14	solid	solid	B-NP	JJ	O	15	NMOD	0
+15	tumor	tumor	I-NP	NN	O	13	PMOD	0
+16	,	,	O	,	O	21	P	0
+17	and	and	O	CC	O	21	VMOD	0
+18	therefore	therefore	B-ADVP	RB	O	21	VMOD	0
+19	,	,	O	,	O	21	P	0
+20	it	it	B-NP	PRP	O	21	SUB	0
+21	could	could	B-VP	MD	O	6	SBAR	0
+22	be	be	I-VP	VB	O	21	VC	0
+23	applied	apply	I-VP	VBN	O	22	VC	0
+24	to	to	I-VP	TO	O	25	VMOD	0
+25	treat	treat	I-VP	VB	O	23	VMOD	19	treat
+26	various	various	B-NP	JJ	O	27	NMOD	0
+27	cancers	cancer	I-NP	NNS	O	30	NMOD	0
+28	and	and	O	CC	O	30	NMOD	0
+29	angiogenic	angiogenic	B-NP	JJ	O	30	NMOD	3	angiogenic
+30	diseases	disease	I-NP	NNS	O	25	OBJ	0
+31	as	as	B-PP	IN	O	25	VMOD	0
+32	a	a	B-NP	DT	O	35	NMOD	0
+33	potent	potent	I-NP	JJ	O	35	NMOD	0
+34	angiogenesis	angiogenesis	I-NP	NN	O	35	NMOD	3	angiogenesis
+35	inhibitor	inhibitor	I-NP	NN	O	31	PMOD	0
+36	.	.	O	.	O	1	P	0
+

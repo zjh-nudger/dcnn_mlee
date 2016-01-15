@@ -1,0 +1,309 @@
+1	A	A	B-NP	DT	O	3	NMOD	-1
+2	novel	novel	I-NP	JJ	O	3	NMOD	-1
+3	role	role	I-NP	NN	O	0	ROOT	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	thrombospondin-1	thrombospondin-1	B-NP	NN	B-protein	4	PMOD	-1
+6	in	in	B-PP	IN	O	3	NMOD	-1
+7	cervical	cervical	B-NP	JJ	O	8	NMOD	-1
+8	carcinogenesis	carcinogenesis	I-NP	NN	O	6	PMOD	0
+9	:	:	O	:	O	3	P	-1
+10	inhibit	inhibit	B-VP	VB	O	3	NMOD	18	inhibit
+11	stroma	stroma	B-NP	NN	O	12	NMOD	-1
+12	reaction	reaction	I-NP	NN	O	10	OBJ	-1
+13	by	by	B-PP	IN	O	3	NMOD	-1
+14	inhibiting	inhibit	B-VP	VBG	O	13	PMOD	18	inhibiting
+15	activated	activate	B-NP	VBN	B-cell_type	16	NMOD	17	activated
+16	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	14	OBJ	-1
+17	from	from	B-PP	IN	O	14	VMOD	-1
+18	invading	invade	B-VP	VBG	O	17	PMOD	14	invading
+19	cancer	cancer	B-NP	NN	O	18	OBJ	-1
+20	.	.	O	.	O	3	P	-1
+
+1	Thrombospondin	Thrombospondin	B-NP	NN	B-protein	3	NMOD	-1
+2	(	(	O	(	O	3	NMOD	-1
+3	TSP	TSP	B-NP	NN	O	10	NMOD	-1
+4	)	)	O	)	O	3	NMOD	-1
+5	-1	-1	B-NP	CD	O	3	NMOD	-1
+6	,	,	O	,	O	10	P	-1
+7	a	a	B-NP	DT	O	10	NMOD	-1
+8	potent	potent	I-NP	JJ	O	10	NMOD	-1
+9	angiogenesis	angiogenesis	I-NP	NN	O	10	NMOD	3	angiogenesis
+10	inhibitor	inhibitor	I-NP	NN	O	12	SUB	0
+11	,	,	O	,	O	10	P	-1
+12	has	have	B-VP	VBZ	O	0	ROOT	-1
+13	been	be	I-VP	VBN	O	12	VC	-1
+14	shown	show	I-VP	VBN	O	13	VC	-1
+15	to	to	I-VP	TO	O	16	VMOD	-1
+16	exert	exert	I-VP	VB	O	14	VMOD	-1
+17	different	different	B-NP	JJ	O	19	NMOD	-1
+18	biological	biological	I-NP	JJ	O	19	NMOD	-1
+19	functions	function	I-NP	NNS	O	16	OBJ	0
+20	on	on	B-PP	IN	O	16	VMOD	-1
+21	various	various	B-NP	JJ	O	23	NMOD	-1
+22	cell	cell	I-NP	NN	O	23	NMOD	-1
+23	types	type	I-NP	NNS	O	20	PMOD	-1
+24	.	.	O	.	O	12	P	-1
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	investigate	investigate	B-VP	VBP	O	0	ROOT	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	role	role	I-NP	NN	O	4	OBJ	16	role
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	TSP-1	TSP-1	B-NP	NN	B-protein	7	PMOD	-1
+9	in	in	B-PP	IN	O	6	NMOD	-1
+10	tumor-stroma	tumor-stroma	B-NP	NN	O	11	NMOD	-1
+11	reaction	reaction	I-NP	NN	O	9	PMOD	15	reaction
+12	,	,	O	,	O	6	P	-1
+13	which	which	B-NP	WDT	O	6	NMOD	-1
+14	is	be	B-VP	VBZ	O	13	SBAR	-1
+15	mainly	mainly	I-VP	RB	O	14	VMOD	-1
+16	characterized	characterize	I-VP	VBN	O	14	VC	-1
+17	by	by	B-PP	IN	O	16	VMOD	-1
+18	fibroblast	fibroblast	B-NP	NN	O	19	NMOD	-1
+19	activation	activation	I-NP	NN	O	17	PMOD	17	activation
+20	to	to	B-VP	TO	O	21	VMOD	-1
+21	create	create	I-VP	VB	O	19	NMOD	-1
+22	a	a	B-NP	DT	O	24	NMOD	-1
+23	permissive	permissive	I-NP	JJ	O	24	NMOD	-1
+24	microenvironment	microenvironment	I-NP	NN	O	21	OBJ	-1
+25	for	for	B-PP	IN	O	24	NMOD	-1
+26	tumor	tumor	B-NP	NN	O	27	NMOD	-1
+27	progression	progression	I-NP	NN	O	25	PMOD	2	progression
+28	.	.	O	.	O	4	P	-1
+
+1	Immunohistochemistry	Immunohistochemistry	B-NP	NN	O	2	NMOD	-1
+2	examinations	examination	I-NP	NNS	O	8	SUB	-1
+3	in	in	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	7	NMOD	-1
+5	human	human	I-NP	JJ	O	7	NMOD	-1
+6	surgical	surgical	I-NP	JJ	O	7	NMOD	-1
+7	specimens	specimen	I-NP	NNS	O	3	PMOD	-1
+8	have	have	B-VP	VBP	O	0	ROOT	-1
+9	shown	show	I-VP	VBN	O	8	VC	-1
+10	that	that	B-SBAR	IN	O	9	VMOD	-1
+11	a	a	B-NP	DT	O	12	NMOD	-1
+12	downregulation	downregulation	I-NP	NN	O	21	SUB	18	downregulation
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	TSP-1	TSP-1	B-NP	NN	B-protein	13	PMOD	-1
+15	during	during	B-PP	IN	O	12	NMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	progression	progression	I-NP	NN	O	15	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	cervical	cervical	B-NP	JJ	O	20	NMOD	-1
+20	carcinogenesis	carcinogenesis	I-NP	NN	O	18	PMOD	0
+21	was	be	B-VP	VBD	O	10	SBAR	-1
+22	accompanied	accompany	I-VP	VBN	O	21	VC	-1
+23	by	by	B-PP	IN	O	22	VMOD	-1
+24	an	an	B-NP	DT	O	25	NMOD	-1
+25	emergence	emergence	I-NP	NN	O	23	PMOD	-1
+26	in	in	B-PP	IN	O	25	NMOD	-1
+27	the	the	B-NP	DT	O	28	NMOD	-1
+28	upregulation	upregulation	I-NP	NN	O	26	PMOD	17	upregulation
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	stroma	stroma	B-NP	NN	B-protein	31	NMOD	-1
+31	markers	marker	I-NP	NNS	I-protein	40	NMOD	-1
+32	,	,	O	,	O	40	P	-1
+33	alpha-smooth	alpha-smooth	B-NP	JJ	B-protein	35	NMOD	-1
+34	muscle	muscle	I-NP	NN	I-protein	35	NMOD	-1
+35	actin	actin	I-NP	NN	I-protein	40	NMOD	-1
+36	(	(	O	(	O	38	DEP	-1
+37	alpha-SMA	alpha-SMA	B-NP	NN	B-protein	38	DEP	-1
+38	)	)	O	)	O	35	NMOD	-1
+39	and	and	O	CC	O	40	NMOD	-1
+40	desmin	desmin	B-NP	NN	O	29	PMOD	-1
+41	.	.	O	.	O	8	P	-1
+
+1	Transfection	Transfection	B-NP	NN	O	14	SUB	19	Transfection
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	SiHa	SiHa	B-NP	NN	B-cell_line	6	NMOD	-1
+4	cervical	cervical	I-NP	JJ	I-cell_line	6	NMOD	-1
+5	cancer	cancer	I-NP	NN	I-cell_line	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_line	2	PMOD	-1
+7	with	with	B-PP	IN	O	1	NMOD	-1
+8	a	a	B-NP	DT	O	9	NMOD	-1
+9	plasmid	plasmid	I-NP	NN	B-DNA	7	PMOD	-1
+10	expressing	express	B-VP	VBG	O	9	NMOD	9	expressing
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	TSP-1	TSP-1	I-NP	NN	B-protein	13	NMOD	-1
+13	protein	protein	I-NP	NN	I-protein	10	OBJ	-1
+14	exhibited	exhibit	B-VP	VBD	O	0	ROOT	0
+15	antiangiogenic	antiangiogenic	B-NP	JJ	O	16	NMOD	3	angiogenic
+16	activity	activity	I-NP	NN	O	14	OBJ	18	activity
+17	in	in	B-ADVP	FW	O	14	VMOD	-1
+18	vitro	vitro	I-ADVP	FW	O	17	AMOD	-1
+19	and	and	O	CC	O	14	VMOD	-1
+20	resulted	result	B-VP	VBD	O	14	VMOD	17	resulted
+21	in	in	B-PP	IN	O	20	VMOD	-1
+22	reduced	reduce	B-NP	VBN	O	24	NMOD	18	reduced
+23	tumor	tumor	I-NP	NN	O	24	NMOD	-1
+24	growth	growth	I-NP	NN	O	21	PMOD	4	growth
+25	in	in	B-PP	IN	O	24	NMOD	-1
+26	severe	severe	B-NP	JJ	O	28	NMOD	-1
+27	combined	combined	I-NP	JJ	O	28	NMOD	-1
+28	immunodeficiency	immunodeficiency	I-NP	NN	O	32	NMOD	-1
+29	(	(	O	(	O	31	DEP	-1
+30	SCID	SCID	B-NP	NN	O	31	DEP	-1
+31	)	)	O	)	O	28	NMOD	-1
+32	mice	mouse	B-NP	NNS	O	25	PMOD	-1
+33	,	,	O	,	O	14	P	-1
+34	which	which	B-NP	WDT	O	14	VMOD	-1
+35	was	be	B-VP	VBD	O	34	SBAR	-1
+36	accompanied	accompany	I-VP	VBN	O	35	VC	-1
+37	by	by	B-PP	IN	O	36	VMOD	-1
+38	a	a	B-NP	DT	O	39	NMOD	-1
+39	decrease	decrease	I-NP	NN	O	45	NMOD	18	decrease
+40	in	in	B-PP	IN	O	39	NMOD	-1
+41	tumor	tumor	B-NP	NN	O	42	NMOD	-1
+42	vascularization	vascularization	I-NP	NN	O	40	PMOD	3	vascularization
+43	and	and	O	CC	O	45	NMOD	-1
+44	lower	low	B-NP	JJR	O	45	NMOD	-1
+45	expressions	expression	I-NP	NNS	O	37	PMOD	9	expressions
+46	of	of	B-PP	IN	O	45	NMOD	-1
+47	alpha-SMA	alpha-SMA	B-NP	NN	B-protein	49	NMOD	-1
+48	and	and	I-NP	CC	O	49	NMOD	-1
+49	desmin	desmin	I-NP	NN	O	46	PMOD	-1
+50	than	than	B-PP	IN	O	36	VMOD	-1
+51	those	those	B-NP	DT	O	50	PMOD	-1
+52	in	in	B-PP	IN	O	51	NMOD	-1
+53	the	the	B-NP	DT	O	55	NMOD	-1
+54	vector	vector	I-NP	NN	O	55	NMOD	-1
+55	controls	control	I-NP	NNS	O	52	PMOD	0
+56	.	.	O	.	O	14	P	-1
+
+1	Transfection	Transfection	B-NP	NN	O	11	SUB	19	Transfection
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	TSP-1	TSP-1	B-NP	NN	B-protein	6	NMOD	-1
+4	and	and	O	CC	O	6	NMOD	-1
+5	purified	purify	B-NP	VBN	O	6	NMOD	0
+6	TSP-1	TSP-1	I-NP	NN	B-protein	2	PMOD	-1
+7	added	add	B-VP	VBN	O	6	NMOD	19	added
+8	to	to	B-PP	TO	O	7	VMOD	-1
+9	NIH3T3	NIH3T3	B-NP	NN	B-cell_line	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_line	8	PMOD	-1
+11	did	do	B-VP	VBD	O	0	ROOT	-1
+12	not	not	I-VP	RB	O	11	VMOD	-1
+13	alter	alter	I-VP	VB	O	11	VC	16	alter
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	protein	protein	I-NP	NN	O	16	NMOD	-1
+16	levels	level	I-NP	NNS	O	13	OBJ	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	alpha-SMA	alpha-SMA	B-NP	NN	B-protein	20	NMOD	-1
+19	and	and	I-NP	CC	O	20	NMOD	-1
+20	desmin	desmin	I-NP	NN	O	17	PMOD	-1
+21	but	but	O	CC	O	11	VMOD	-1
+22	significantly	significantly	B-VP	RB	O	11	VMOD	-1
+23	inhibited	inhibit	I-VP	VBD	O	11	VMOD	18	inhibited
+24	matrix	matrix	B-NP	NN	B-protein	26	NMOD	-1
+25	metalloprotease-2	metalloprotease-2	I-NP	NN	I-protein	26	NMOD	-1
+26	activity	activity	I-NP	NN	O	23	OBJ	0
+27	.	.	O	.	O	11	P	-1
+
+1	Transforming	Transform	B-NP	VBG	B-protein	3	NMOD	-1
+2	growth	growth	I-NP	NN	I-protein	3	NMOD	0
+3	factor-beta	factor-beta	I-NP	NN	I-protein	10	NMOD	-1
+4	(	(	O	(	O	6	DEP	-1
+5	TGF-beta	TGF-beta	B-NP	NN	B-protein	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	a	a	B-NP	DT	O	10	NMOD	-1
+9	major	major	I-NP	JJ	B-protein	10	NMOD	-1
+10	factor	factor	I-NP	NN	I-protein	17	SUB	-1
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	activation	activation	I-NP	NN	O	11	PMOD	17	activation
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	fibroblasts	fibroblast	B-NP	NNS	B-cell_type	14	PMOD	-1
+16	,	,	O	,	O	10	P	-1
+17	increased	increase	B-NP	VBN	O	21	NMOD	17	increased
+18	alpha-SMA	alpha-SMA	I-NP	NN	O	21	NMOD	-1
+19	and	and	I-NP	CC	O	21	NMOD	-1
+20	desmin	desmin	I-NP	NN	O	21	NMOD	-1
+21	expression	expression	I-NP	NN	O	24	NMOD	9	expression
+22	and	and	O	CC	O	24	NMOD	-1
+23	the	the	B-NP	DT	O	24	NMOD	-1
+24	ability	ability	I-NP	NN	O	0	ROOT	0
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	cell	cell	B-NP	NN	O	27	NMOD	-1
+27	migration	migration	I-NP	NN	O	29	NMOD	14	migration
+28	and	and	O	CC	O	29	NMOD	-1
+29	invasion	invasion	B-NP	NN	O	25	PMOD	14	invasion
+30	in	in	B-PP	IN	O	29	NMOD	-1
+31	NIH3T3	NIH3T3	B-NP	NN	B-cell_line	32	NMOD	-1
+32	cells	cell	I-NP	NNS	I-cell_line	30	PMOD	-1
+33	.	.	O	.	O	24	P	-1
+
+1	The	The	B-NP	DT	O	4	NMOD	-1
+2	increased	increase	I-NP	VBN	O	4	NMOD	17	increased
+3	migration	migration	I-NP	NN	O	4	NMOD	14	migration
+4	ability	ability	I-NP	NN	O	8	NMOD	0
+5	and	and	O	CC	O	8	NMOD	-1
+6	the	the	B-NP	DT	O	8	NMOD	-1
+7	invasive	invasive	I-NP	JJ	O	8	NMOD	14	invasive
+8	ability	ability	I-NP	NN	O	16	SUB	0
+9	into	into	B-PP	IN	O	8	NMOD	-1
+10	tumor	tumor	B-NP	NN	O	11	NMOD	-1
+11	cluster	cluster	I-NP	NN	O	9	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	TGF-beta-treated	TGF-beta-treated	B-NP	JJ	B-cell_line	15	NMOD	19	treated
+14	NIH3T3	NIH3T3	I-NP	NN	I-cell_line	15	NMOD	-1
+15	cells	cell	I-NP	NNS	I-cell_line	12	PMOD	-1
+16	were	be	B-VP	VBD	O	0	ROOT	-1
+17	dose	dose	B-NP	NN	O	16	PRD	-1
+18	dependently	dependently	B-VP	RB	O	19	VMOD	-1
+19	inhibited	inhibit	I-VP	VBN	O	17	NMOD	18	inhibited
+20	by	by	B-PP	IN	O	19	VMOD	-1
+21	TSP-1	TSP-1	B-NP	NN	B-protein	20	PMOD	-1
+22	.	.	O	.	O	16	P	-1
+
+1	In	In	B-PP	IN	O	10	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	10	P	-1
+4	ectopic	ectopic	B-NP	JJ	O	6	NMOD	-1
+5	TSP-1	TSP-1	I-NP	NN	B-protein	6	NMOD	-1
+6	expression	expression	I-NP	NN	O	10	SUB	9	expression
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	SiHa	SiHa	B-NP	NN	B-cell_line	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_line	7	PMOD	-1
+10	has	have	B-VP	VBZ	O	0	ROOT	-1
+11	little	little	B-NP	JJ	O	12	NMOD	-1
+12	effect	effect	I-NP	NN	O	10	OBJ	16	effect
+13	on	on	B-PP	IN	O	10	VMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	invasive	invasive	I-NP	JJ	O	16	NMOD	14	invasive
+16	ability	ability	I-NP	NN	O	13	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	NIH3T3	NIH3T3	I-NP	NN	B-cell_line	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_line	17	PMOD	-1
+21	.	.	O	.	O	10	P	-1
+
+1	Together	Together	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	our	our	B-NP	PRP$	O	4	NMOD	-1
+4	findings	finding	I-NP	NNS	O	5	SUB	-1
+5	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	novel	novel	I-NP	JJ	O	8	NMOD	-1
+8	role	role	I-NP	NN	O	5	OBJ	16	role
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	TSP-1	TSP-1	B-NP	NN	B-protein	9	PMOD	-1
+11	to	to	B-VP	TO	O	12	VMOD	-1
+12	inhibit	inhibit	I-VP	VB	O	8	NMOD	18	inhibit
+13	tumor-stroma	tumor-stroma	B-NP	NN	O	14	NMOD	-1
+14	reaction	reaction	I-NP	NN	O	12	OBJ	15	reaction
+15	that	that	B-NP	WDT	O	14	NMOD	-1
+16	could	could	B-VP	MD	O	15	SBAR	-1
+17	be	be	I-VP	VB	O	16	VC	-1
+18	attributed	attribute	I-VP	VBN	O	17	VC	-1
+19	to	to	B-PP	TO	O	18	VMOD	-1
+20	the	the	B-NP	DT	O	21	NMOD	-1
+21	blockage	blockage	I-NP	NN	O	19	PMOD	18	blockage
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	activated	activate	B-NP	VBN	B-cell_type	24	NMOD	17	activated
+24	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	22	PMOD	-1
+25	from	from	B-PP	IN	O	24	NMOD	-1
+26	invading	invade	B-VP	VBG	B-cell_type	28	NMOD	14	invading
+27	cancer	cancer	B-NP	NN	I-cell_type	28	NMOD	-1
+28	cells	cell	I-NP	NNS	I-cell_type	25	PMOD	-1

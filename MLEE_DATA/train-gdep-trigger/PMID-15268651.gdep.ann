@@ -1,0 +1,277 @@
+1	Safety	Safety	B-NP	NN	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	verteporfin	verteporfin	B-NP	NN	O	2	PMOD	0
+4	for	for	B-PP	IN	O	1	NMOD	0
+5	treatment	treatment	B-NP	NN	O	4	PMOD	19	treatment
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	subfoveal	subfoveal	B-NP	JJ	O	10	NMOD	0
+8	choroidal	choroidal	I-NP	JJ	O	10	NMOD	0
+9	neovascular	neovascular	I-NP	JJ	O	10	NMOD	0
+10	membranes	membrane	I-NP	NNS	O	6	PMOD	0
+11	associated	associate	B-VP	VBN	O	10	NMOD	0
+12	with	with	B-PP	IN	O	11	VMOD	0
+13	age-related	age-related	B-NP	JJ	O	15	NMOD	0
+14	macular	macular	I-NP	JJ	O	15	NMOD	0
+15	degeneration	degeneration	I-NP	NN	O	12	PMOD	6	degeneration
+16	.	.	O	.	O	1	P	0
+
+1	Photodynamic	Photodynamic	B-NP	JJ	O	2	NMOD	0
+2	therapy	therapy	I-NP	NN	O	6	SUB	0
+3	(	(	O	(	O	5	DEP	0
+4	PDT	PDT	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	novel	novel	I-NP	JJ	O	10	NMOD	0
+9	treatment	treatment	I-NP	NN	O	10	NMOD	0
+10	entity	entity	I-NP	NN	O	6	PRD	0
+11	that	that	B-NP	WDT	O	10	NMOD	0
+12	exploits	exploit	B-VP	VBZ	O	11	SBAR	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	photophysical	photophysical	I-NP	JJ	O	15	NMOD	0
+15	properties	property	I-NP	NNS	O	12	OBJ	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	various	various	B-NP	JJ	O	20	NMOD	0
+18	photosensitive	photosensitive	I-NP	JJ	O	20	NMOD	0
+19	chemical	chemical	I-NP	NN	O	20	NMOD	0
+20	entities	entity	I-NP	NNS	O	16	PMOD	0
+21	which	which	B-NP	WDT	O	20	NMOD	0
+22	,	,	O	,	O	21	P	0
+23	upon	upon	B-PP	IN	O	27	VMOD	0
+24	light	light	B-NP	JJ	O	25	NMOD	0
+25	activation	activation	I-NP	NN	O	23	PMOD	0
+26	,	,	O	,	O	27	P	0
+27	results	result	B-VP	VBZ	O	21	SBAR	0
+28	in	in	B-PP	IN	O	27	VMOD	0
+29	targeted	target	B-NP	VBN	O	30	NMOD	0
+30	photooxidation	photooxidation	I-NP	NN	O	34	NMOD	0
+31	and	and	O	CC	O	34	NMOD	0
+32	subsequent	subsequent	B-NP	JJ	O	34	NMOD	0
+33	tissue	tissue	I-NP	NN	O	34	NMOD	0
+34	destruction	destruction	I-NP	NN	O	28	PMOD	6	destruction
+35	.	.	O	.	O	6	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	antiangiogenic	antiangiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	properties	property	I-NP	NNS	O	6	SUB	18	properties
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	PDT	PDT	B-NP	NN	O	4	PMOD	0
+6	have	have	B-VP	VBP	O	0	ROOT	0
+7	been	be	I-VP	VBN	O	6	VC	0
+8	adapted	adapt	I-VP	VBN	O	7	VC	0
+9	for	for	B-PP	IN	O	8	VMOD	0
+10	treatment	treatment	B-NP	NN	O	9	PMOD	19	treatment
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	subfoveal	subfoveal	B-NP	JJ	O	14	AMOD	0
+13	choroidal	choroidal	I-NP	JJ	O	14	AMOD	0
+14	neovascular	neovascular	I-NP	JJ	O	15	NMOD	0
+15	membranes	membrane	I-NP	NNS	O	11	PMOD	0
+16	due	due	B-ADJP	JJ	O	17	PMOD	0
+17	to	to	B-PP	TO	O	8	VMOD	0
+18	disease	disease	B-NP	NN	O	19	NMOD	0
+19	states	state	I-NP	NNS	O	17	PMOD	0
+20	such	such	B-PP	JJ	O	21	PMOD	0
+21	as	as	I-PP	IN	O	19	NMOD	0
+22	age-related	age-related	B-NP	JJ	O	24	NMOD	0
+23	macular	macular	I-NP	JJ	O	24	NMOD	0
+24	degeneration	degeneration	I-NP	NN	O	21	PMOD	6	degeneration
+25	(	(	O	(	O	27	DEP	0
+26	AMD	AMD	B-NP	NN	O	27	DEP	0
+27	)	)	O	)	O	24	NMOD	0
+28	.	.	O	.	O	6	P	0
+
+1	Historically	Historically	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	PDT	PDT	B-NP	NN	O	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	limited	limit	I-VP	VBN	O	5	VC	0
+7	by	by	B-PP	IN	O	6	VMOD	0
+8	a	a	B-NP	DT	O	9	NMOD	0
+9	lack	lack	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	suitable	suitable	B-NP	JJ	O	13	NMOD	0
+12	photosensitive	photosensitive	I-NP	JJ	O	13	NMOD	0
+13	dyes	dye	I-NP	NNS	O	10	PMOD	0
+14	.	.	O	.	O	4	P	0
+
+1	However	However	B-ADVP	RB	O	13	VMOD	0
+2	,	,	O	,	O	13	P	0
+3	agents	agent	B-NP	NNS	O	13	SUB	0
+4	such	such	B-PP	JJ	O	5	PMOD	0
+5	as	as	I-PP	IN	O	3	NMOD	0
+6	verteporfin	verteporfin	B-NP	NN	B-protein	11	NMOD	0
+7	,	,	O	,	O	11	P	0
+8	a	a	B-NP	DT	O	11	NMOD	0
+9	second-generation	second-generation	I-NP	JJ	O	11	NMOD	0
+10	benzoporphyrin	benzoporphyrin	I-NP	NN	O	11	NMOD	0
+11	derivative	derivative	I-NP	NN	O	5	PMOD	0
+12	,	,	O	,	O	3	P	0
+13	appear	appear	B-VP	VBP	O	0	ROOT	0
+14	to	to	I-VP	TO	O	15	VMOD	0
+15	be	be	I-VP	VB	O	13	VMOD	0
+16	free	free	B-ADJP	JJ	O	15	PRD	0
+17	from	from	B-PP	IN	O	16	AMOD	0
+18	the	the	B-NP	DT	O	20	NMOD	0
+19	extensive	extensive	I-NP	JJ	O	20	NMOD	0
+20	phototoxicity	phototoxicity	I-NP	NN	O	17	PMOD	0
+21	that	that	B-NP	WDT	O	20	NMOD	0
+22	limited	limit	B-VP	VBD	O	21	SBAR	0
+23	the	the	B-NP	DT	O	24	NMOD	0
+24	success	success	I-NP	NN	O	22	OBJ	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	previous	previous	B-NP	JJ	O	27	NMOD	0
+27	agents	agent	I-NP	NNS	O	25	PMOD	0
+28	.	.	O	.	O	13	P	0
+
+1	Verteporfin	Verteporfin	B-NP	NN	B-protein	2	SUB	0
+2	has	have	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	high	high	I-NP	JJ	O	5	NMOD	0
+5	affinity	affinity	I-NP	NN	O	2	OBJ	15	affinity
+6	for	for	B-PP	IN	O	5	NMOD	0
+7	choroidal	choroidal	B-NP	JJ	O	9	NMOD	0
+8	neovascular	neovascular	I-NP	JJ	O	9	NMOD	0
+9	membranes	membrane	I-NP	NNS	O	6	PMOD	0
+10	,	,	O	,	O	5	P	0
+11	typically	typically	B-VP	RB	O	12	VMOD	0
+12	found	find	I-VP	VBN	O	5	NMOD	0
+13	with	with	B-PP	IN	O	12	VMOD	0
+14	exudative	exudative	B-NP	JJ	O	15	NMOD	0
+15	AMD	AMD	I-NP	NN	O	13	PMOD	0
+16	,	,	O	,	O	2	P	0
+17	and	and	O	CC	O	2	VMOD	0
+18	upon	upon	B-PP	IN	O	2	VMOD	0
+19	photoactivation	photoactivation	B-NP	NN	O	18	PMOD	0
+20	results	result	B-VP	VBZ	O	18	SBAR	17	results
+21	in	in	B-PP	IN	O	20	VMOD	0
+22	targeted	target	B-NP	VBN	O	27	NMOD	0
+23	microvascular	microvascular	I-NP	JJ	O	24	NMOD	0
+24	damage	damage	I-NP	NN	O	27	NMOD	6	damage
+25	and	and	I-NP	CC	O	27	NMOD	0
+26	thrombus	thrombus	I-NP	NN	O	27	NMOD	0
+27	formation	formation	I-NP	NN	O	21	PMOD	2	formation
+28	with	with	B-PP	IN	O	27	NMOD	0
+29	resultant	resultant	B-NP	JJ	O	31	NMOD	0
+30	vessel	vessel	I-NP	NN	O	31	NMOD	0
+31	occlusion	occlusion	I-NP	NN	O	28	PMOD	0
+32	.	.	O	.	O	2	P	0
+
+1	Scrutiny	Scrutiny	B-NP	NN	O	20	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	diagnostic	diagnostic	B-NP	JJ	O	4	NMOD	0
+4	indicators	indicator	I-NP	NNS	O	2	PMOD	0
+5	for	for	B-PP	IN	O	1	NMOD	0
+6	verteporfin	verteporfin	B-NP	NN	O	7	NMOD	0
+7	administration	administration	I-NP	NN	O	5	PMOD	19	administration
+8	,	,	O	,	O	1	P	0
+9	including	include	B-PP	VBG	O	1	NMOD	0
+10	critical	critical	B-NP	JJ	O	11	AMOD	0
+11	angiographic	angiographic	I-NP	JJ	O	12	NMOD	0
+12	evaluation	evaluation	I-NP	NN	O	18	NMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	lesion	lesion	B-NP	NN	O	15	NMOD	0
+15	size	size	I-NP	NN	O	13	PMOD	0
+16	and	and	O	CC	O	18	NMOD	0
+17	visual	visual	B-NP	JJ	O	18	NMOD	0
+18	acuity	acuity	I-NP	NN	O	9	PMOD	0
+19	,	,	O	,	O	1	P	0
+20	is	be	B-VP	VBZ	O	0	ROOT	0
+21	essential	essential	B-ADJP	JJ	O	20	PRD	0
+22	to	to	B-PP	TO	O	21	AMOD	0
+23	treatment	treatment	B-NP	NN	O	24	NMOD	0
+24	success	success	I-NP	NN	O	22	PMOD	0
+25	.	.	O	.	O	20	P	0
+
+1	Large	Large	B-NP	JJ	O	2	NMOD	0
+2	lesions	lesion	I-NP	NNS	O	13	SUB	0
+3	with	with	B-PP	IN	O	2	NMOD	0
+4	relatively	relatively	B-NP	RB	O	5	AMOD	0
+5	good	good	I-NP	JJ	O	7	NMOD	0
+6	visual	visual	I-NP	JJ	O	7	NMOD	0
+7	acuity	acuity	I-NP	NN	O	3	PMOD	0
+8	(	(	O	(	O	12	DEP	0
+9	20/50	20/50	B-NP	CD	O	12	DEP	0
+10	or	or	O	CC	O	12	DEP	0
+11	better	good	B-ADJP	JJR	O	12	DEP	0
+12	)	)	O	)	O	7	NMOD	0
+13	may	may	B-VP	MD	O	0	ROOT	0
+14	be	be	I-VP	VB	O	13	VC	0
+15	at	at	B-PP	IN	O	14	VMOD	0
+16	particular	particular	B-NP	JJ	O	17	NMOD	0
+17	risk	risk	I-NP	NN	O	15	PMOD	0
+18	for	for	B-PP	IN	O	17	NMOD	0
+19	marked	marked	B-NP	JJ	O	21	NMOD	0
+20	vision	vision	I-NP	NN	O	21	NMOD	0
+21	loss	loss	I-NP	NN	O	18	PMOD	0
+22	following	follow	B-VP	VBG	O	21	NMOD	0
+23	verteporfin	verteporfin	B-NP	NN	O	24	NMOD	0
+24	administration	administration	I-NP	NN	O	22	OBJ	19	administration
+25	.	.	O	.	O	13	P	0
+
+1	Lesion	Lesion	B-NP	NN	O	2	NMOD	0
+2	composition	composition	I-NP	NN	O	4	SUB	0
+3	also	also	B-ADVP	RB	O	4	VMOD	0
+4	appears	appear	B-VP	VBZ	O	0	ROOT	0
+5	to	to	I-VP	TO	O	6	VMOD	0
+6	influence	influence	I-VP	VB	O	4	VMOD	0
+7	visual	visual	B-NP	JJ	O	8	NMOD	0
+8	outcome	outcome	I-NP	NN	O	6	OBJ	0
+9	with	with	B-PP	IN	O	6	VMOD	0
+10	verteporfin	verteporfin	B-NP	NN	O	11	NMOD	0
+11	use	use	I-NP	NN	O	9	PMOD	19	use
+12	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	safety	safety	I-NP	NN	O	5	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	verteporfin	verteporfin	B-NP	NN	O	3	PMOD	0
+5	is	be	B-VP	VBZ	O	0	ROOT	0
+6	directly	directly	B-ADJP	RB	O	7	AMOD	0
+7	dependent	dependent	I-ADJP	JJ	O	5	PRD	0
+8	upon	upon	B-PP	IN	O	7	AMOD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	appropriate	appropriate	I-NP	JJ	O	11	NMOD	0
+11	integration	integration	I-NP	NN	O	18	NMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	dosage	dosage	B-NP	NN	O	12	PMOD	0
+14	,	,	O	,	O	18	P	0
+15	infusion	infusion	B-NP	NN	O	18	NMOD	0
+16	and	and	O	CC	O	18	NMOD	0
+17	light	light	B-NP	NN	O	18	NMOD	0
+18	activation	activation	I-NP	NN	O	8	PMOD	0
+19	required	require	B-VP	VBN	O	18	NMOD	0
+20	for	for	B-PP	IN	O	19	VMOD	0
+21	a	a	B-NP	DT	O	24	NMOD	0
+22	suitable	suitable	I-NP	JJ	O	24	NMOD	0
+23	pharmacotherapeutic	pharmacotherapeutic	I-NP	JJ	O	24	NMOD	0
+24	outcome	outcome	I-NP	NN	O	20	PMOD	0
+25	.	.	O	.	O	5	P	0
+
+1	When	When	B-ADVP	WRB	O	24	VMOD	0
+2	used	use	B-VP	VBN	O	1	SBAR	0
+3	appropriately	appropriately	B-ADVP	RB	O	2	VMOD	0
+4	,	,	O	,	O	24	P	0
+5	and	and	O	CC	O	24	VMOD	0
+6	with	with	B-PP	IN	O	24	SUB	0
+7	adequate	adequate	B-NP	JJ	O	9	NMOD	0
+8	patient	patient	I-NP	NN	O	9	NMOD	0
+9	education	education	I-NP	NN	O	6	PMOD	0
+10	regarding	regard	B-VP	VBG	O	9	NMOD	0
+11	photosensitivity	photosensitivity	B-NP	NN	O	14	NMOD	0
+12	,	,	O	,	O	14	P	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	risk-benefit	risk-benefit	I-NP	NN	O	10	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	verteporfin	verteporfin	B-NP	NN	O	15	PMOD	0
+17	for	for	B-PP	IN	O	14	NMOD	0
+18	the	the	B-NP	DT	O	20	NMOD	0
+19	medical	medical	I-NP	JJ	O	20	NMOD	0
+20	treatment	treatment	I-NP	NN	O	17	PMOD	19	treatment
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	neovascular	neovascular	B-NP	JJ	O	23	NMOD	0
+23	AMD	AMD	I-NP	NN	O	21	PMOD	0
+24	is	be	B-VP	VBZ	O	0	ROOT	0
+25	favourable	favourable	B-ADJP	JJ	O	24	PRD	0
+26	.	.	O	.	O	24	P	0
+

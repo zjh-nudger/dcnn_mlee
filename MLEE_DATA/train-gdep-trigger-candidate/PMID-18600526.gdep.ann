@@ -1,0 +1,226 @@
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	role	role	I-NP	NN	O	0	ROOT	16	role
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	platelet-derived	platelet-derived	B-NP	JJ	B-protein	9	NMOD	-1
+5	endothelial	endothelial	I-NP	JJ	I-protein	9	NMOD	-1
+6	cell	cell	I-NP	NN	I-protein	9	NMOD	-1
+7	growth	growth	I-NP	NN	I-protein	9	NMOD	0
+8	factor/thymidine	factor/thymidine	I-NP	NN	I-protein	9	NMOD	-1
+9	phosphorylase	phosphorylase	I-NP	NN	I-protein	3	PMOD	-1
+10	in	in	B-PP	IN	O	2	NMOD	-1
+11	tumor	tumor	B-NP	NN	O	12	NMOD	-1
+12	behavior	behavior	I-NP	NN	O	10	PMOD	-1
+13	.	.	O	.	O	2	P	-1
+
+1	Platelet-derived	Platelet-derived	B-NP	JJ	O	4	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	O	4	NMOD	-1
+3	cell	cell	I-NP	NN	O	4	NMOD	-1
+4	growth-factor	growth-factor	I-NP	NN	O	8	SUB	-1
+5	(	(	O	(	O	7	DEP	-1
+6	PD-ECGF	PD-ECGF	B-NP	NN	B-protein	7	DEP	-1
+7	)	)	O	)	O	4	NMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	similar	similar	B-ADJP	JJ	O	8	PRD	-1
+10	to	to	B-PP	TO	O	9	AMOD	-1
+11	the	the	B-NP	DT	O	15	NMOD	-1
+12	pyrimidine	pyrimidine	I-NP	NN	O	15	NMOD	-1
+13	enzyme	enzyme	I-NP	NN	O	15	NMOD	-1
+14	thymidine	thymidine	I-NP	NN	O	15	NMOD	-1
+15	phosphorylase	phosphorylase	I-NP	NN	O	10	PMOD	-1
+16	(	(	O	(	O	18	DEP	-1
+17	TP	TP	B-NP	NN	O	18	DEP	-1
+18	)	)	O	)	O	15	NMOD	-1
+19	.	.	O	.	O	8	P	-1
+
+1	A	A	B-NP	DT	O	4	NMOD	-1
+2	high	high	I-NP	JJ	O	4	NMOD	-1
+3	TP	TP	I-NP	NN	O	4	NMOD	-1
+4	expression	expression	I-NP	NN	O	8	SUB	9	expression
+5	at	at	B-PP	IN	O	4	NMOD	-1
+6	tumor	tumor	B-NP	NN	O	7	NMOD	-1
+7	sites	site	I-NP	NNS	O	5	PMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	correlated	correlate	I-VP	VBN	O	8	VC	-1
+10	with	with	B-PP	IN	O	9	VMOD	-1
+11	tumor	tumor	B-NP	NN	O	12	NMOD	-1
+12	growth	growth	I-NP	NN	O	10	PMOD	4	growth
+13	,	,	O	,	O	8	P	-1
+14	induction	induction	B-NP	NN	O	19	NMOD	17	induction
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	angiogenesis	angiogenesis	B-NP	NN	O	15	PMOD	3	angiogenesis
+17	,	,	O	,	O	19	P	-1
+18	and	and	O	CC	O	19	NMOD	-1
+19	metastasis	metastasis	B-NP	NN	O	8	VMOD	0
+20	.	.	O	.	O	8	P	-1
+
+1	Therefore	Therefore	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	high	high	B-NP	JJ	O	4	NMOD	-1
+4	TP	TP	I-NP	NN	O	5	SUB	-1
+5	is	be	B-VP	VBZ	O	0	ROOT	-1
+6	most	most	I-VP	RBS	O	7	AMOD	-1
+7	likely	likely	I-VP	RB	O	8	VMOD	-1
+8	associated	associate	I-VP	VBN	O	5	VC	0
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	a	a	B-NP	DT	O	12	NMOD	-1
+11	poor	poor	I-NP	JJ	O	12	NMOD	-1
+12	prognosis	prognosis	I-NP	NN	O	9	PMOD	-1
+13	.	.	O	.	O	5	P	-1
+
+1	TP	TP	B-NP	NN	B-protein	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	not	not	I-VP	RB	O	2	VMOD	-1
+4	only	only	I-VP	RB	O	2	VMOD	-1
+5	expressed	express	I-VP	VBN	O	2	VC	9	expressed
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	tumor	tumor	B-NP	NN	B-cell_type	8	NMOD	-1
+8	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	-1
+9	but	but	B-CONJP	CC	O	6	PMOD	-1
+10	also	also	I-CONJP	RB	O	6	PMOD	-1
+11	in	in	B-PP	IN	O	6	PMOD	-1
+12	tumor	tumor	B-NP	NN	O	14	NMOD	-1
+13	surrounding	surround	B-VP	VBG	O	14	NMOD	-1
+14	tissues	tissue	B-NP	NNS	O	11	PMOD	-1
+15	,	,	O	,	O	14	P	-1
+16	such	such	B-PP	JJ	O	17	PMOD	-1
+17	as	as	I-PP	IN	O	14	NMOD	-1
+18	tumor	tumor	B-NP	NN	B-cell_type	20	NMOD	-1
+19	infiltrating	infiltrate	B-VP	VBG	I-cell_type	20	NMOD	0
+20	macrophages	macrophage	B-NP	NNS	I-cell_type	17	PMOD	-1
+21	.	.	O	.	O	2	P	-1
+
+1	TP	TP	B-NP	NN	O	2	SUB	-1
+2	catalyzes	catalyze	B-VP	VBZ	O	0	ROOT	16	catalyzes
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	conversion	conversion	I-NP	NN	O	2	OBJ	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	thymidine	thymidine	B-NP	NN	O	5	PMOD	-1
+7	to	to	B-PP	TO	O	4	NMOD	-1
+8	thymine	thymine	B-NP	NN	O	10	NMOD	-1
+9	and	and	O	CC	O	10	NMOD	-1
+10	doxyribose-1-phosphate	doxyribose-1-phosphate	B-NP	NN	O	7	PMOD	-1
+11	(	(	O	(	O	13	DEP	-1
+12	dR-1-P	dR-1-P	B-NP	NN	O	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	latter	latter	I-NP	JJ	O	17	VMOD	-1
+3	in	in	B-PP	IN	O	2	NMOD	-1
+4	its	its	B-NP	PRP$	O	6	NMOD	-1
+5	parent	parent	I-NP	NN	O	6	NMOD	-1
+6	form	form	I-NP	NN	O	3	PMOD	0
+7	or	or	B-PP	CC	O	3	PMOD	-1
+8	in	in	B-PP	IN	O	3	PMOD	-1
+9	its	its	B-NP	PRP$	O	11	NMOD	-1
+10	sugar	sugar	I-NP	NN	O	11	NMOD	-1
+11	form	form	I-NP	NN	O	8	PMOD	0
+12	,	,	O	,	O	17	P	-1
+13	deoxyribose	deoxyribose	B-NP	NN	O	17	SUB	-1
+14	(	(	O	(	O	16	DEP	-1
+15	dR	dR	B-NP	NN	O	16	DEP	-1
+16	)	)	O	)	O	13	NMOD	-1
+17	may	may	B-VP	MD	O	0	ROOT	-1
+18	play	play	I-VP	VB	O	17	VC	0
+19	a	a	B-NP	DT	O	20	NMOD	-1
+20	role	role	I-NP	NN	O	18	OBJ	0
+21	in	in	B-PP	IN	O	18	VMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	induction	induction	I-NP	NN	O	21	PMOD	17	induction
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	.	.	O	.	O	17	P	-1
+
+1	It	It	B-NP	PRP	O	2	SUB	-1
+2	may	may	B-VP	MD	O	0	ROOT	-1
+3	modulate	modulate	I-VP	VB	O	2	VC	0
+4	cellular	cellular	B-NP	JJ	O	6	NMOD	-1
+5	energy	energy	I-NP	NN	O	6	NMOD	-1
+6	metabolism	metabolism	I-NP	NN	O	3	OBJ	0
+7	or	or	O	CC	O	3	VMOD	-1
+8	be	be	B-VP	VB	O	3	VMOD	-1
+9	a	a	B-NP	DT	O	10	NMOD	-1
+10	substrate	substrate	I-NP	NN	O	8	PRD	-1
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	a	a	B-NP	DT	O	14	NMOD	-1
+13	chemical	chemical	I-NP	JJ	O	14	NMOD	-1
+14	reaction	reaction	I-NP	NN	O	11	PMOD	-1
+15	generating	generate	B-VP	VBG	O	14	NMOD	0
+16	reactive	reactive	B-NP	JJ	O	18	NMOD	-1
+17	oxygen	oxygen	I-NP	NN	O	18	NMOD	-1
+18	species	specie	I-NP	NNS	O	15	OBJ	-1
+19	.	.	O	.	O	2	P	-1
+
+1	L-deoxyribose	L-deoxyribose	B-NP	NN	O	8	NMOD	-1
+2	(	(	O	(	O	4	DEP	-1
+3	L-dR	L-dR	B-NP	NN	B-protein	4	DEP	-1
+4	)	)	O	)	O	1	NMOD	-1
+5	and	and	O	CC	O	8	NMOD	-1
+6	thymidine	thymidine	B-NP	NN	O	8	NMOD	-1
+7	phosphorylase	phosphorylase	I-NP	NN	O	8	NMOD	-1
+8	inhibitor	inhibitor	I-NP	NN	O	12	SUB	0
+9	(	(	O	(	O	11	DEP	-1
+10	TPI	TPI	B-NP	NN	O	11	DEP	-1
+11	)	)	O	)	O	8	NMOD	-1
+12	can	can	B-VP	MD	O	0	ROOT	-1
+13	reverse	reverse	I-VP	VB	O	12	VC	-1
+14	these	these	B-NP	DT	O	15	NMOD	-1
+15	effects	effect	I-NP	NNS	O	13	OBJ	0
+16	.	.	O	.	O	12	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	mechanism	mechanism	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	TP	TP	B-NP	NN	O	5	NMOD	-1
+5	induction	induction	I-NP	NN	O	3	PMOD	17	induction
+6	is	be	B-VP	VBZ	O	19	VMOD	-1
+7	not	not	O	RB	O	6	VMOD	-1
+8	yet	yet	B-ADJP	RB	O	10	AMOD	-1
+9	completely	completely	I-ADJP	RB	O	10	AMOD	-1
+10	clear	clear	I-ADJP	JJ	O	6	PRD	-1
+11	,	,	O	,	O	17	P	-1
+12	but	but	O	CC	O	17	NMOD	-1
+13	TNF	TNF	B-NP	NN	B-protein	17	NMOD	-1
+14	,	,	O	,	O	17	P	-1
+15	IL10	IL10	B-NP	NN	B-protein	17	NMOD	-1
+16	and	and	O	CC	O	17	NMOD	-1
+17	other	other	B-NP	JJ	O	19	SUB	-1
+18	cytokines	cytokine	I-NP	NNS	B-protein	17	NMOD	-1
+19	have	have	B-VP	VBP	O	0	ROOT	-1
+20	been	be	I-VP	VBN	O	19	VC	-1
+21	clearly	clearly	I-VP	RB	O	20	VMOD	-1
+22	shown	show	I-VP	VBN	O	20	VC	-1
+23	to	to	I-VP	TO	O	24	VMOD	-1
+24	induce	induce	I-VP	VB	O	22	VMOD	17	induce
+25	its	its	B-NP	PRP$	O	26	NMOD	-1
+26	expression	expression	I-NP	NN	O	24	OBJ	9	expression
+27	.	.	O	.	O	19	P	-1
+
+1	The	The	B-NP	DT	O	4	NMOD	-1
+2	various	various	I-NP	JJ	O	4	NMOD	-1
+3	complex	complex	I-NP	JJ	O	4	NMOD	-1
+4	interactions	interaction	I-NP	NNS	O	7	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	TP	TP	B-NP	NN	O	5	PMOD	-1
+7	give	give	B-VP	VBP	O	0	ROOT	-1
+8	it	it	B-NP	PRP	O	11	NMOD	-1
+9	an	an	B-NP	DT	O	11	NMOD	-1
+10	essential	essential	I-NP	JJ	O	11	NMOD	0
+11	role	role	I-NP	NN	O	7	OBJ	0
+12	in	in	B-PP	IN	O	11	NMOD	-1
+13	cellular	cellular	B-NP	JJ	O	14	NMOD	-1
+14	functioning	functioning	I-NP	NN	O	12	PMOD	-1
+15	and	and	O	CC	O	7	VMOD	-1
+16	,	,	O	,	O	7	P	-1
+17	hence	hence	B-ADVP	RB	O	7	VMOD	-1
+18	,	,	O	,	O	7	P	-1
+19	it	it	B-NP	PRP	O	20	SUB	-1
+20	is	be	B-VP	VBZ	O	7	VMOD	-1
+21	an	an	B-NP	DT	O	23	NMOD	-1
+22	ideal	ideal	I-NP	JJ	O	23	NMOD	-1
+23	target	target	I-NP	NN	O	20	PRD	0
+24	in	in	B-PP	IN	O	23	NMOD	-1
+25	cancer	cancer	B-NP	NN	O	26	NMOD	-1
+26	therapy	therapy	I-NP	NN	O	24	PMOD	0
+27	.	.	O	.	O	7	P	-1
+

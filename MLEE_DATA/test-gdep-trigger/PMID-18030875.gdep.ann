@@ -1,0 +1,163 @@
+1	[	[	O	(	O	16	DEP	0
+2	Clinical	Clinical	B-NP	JJ	O	3	NMOD	0
+3	significance	significance	I-NP	NN	O	16	DEP	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	interleukin-6	interleukin-6	B-NP	NN	B-protein	4	PMOD	0
+6	(	(	O	(	O	8	DEP	0
+7	IL-6	IL-6	B-NP	NN	B-protein	8	DEP	0
+8	)	)	O	)	O	5	NMOD	0
+9	as	as	B-PP	IN	O	3	NMOD	0
+10	a	a	B-NP	DT	O	12	NMOD	0
+11	prognostic	prognostic	I-NP	JJ	O	12	NMOD	0
+12	factor	factor	I-NP	NN	O	9	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	cancer	cancer	B-NP	NN	O	15	NMOD	0
+15	disease	disease	I-NP	NN	O	13	PMOD	0
+16	]	]	O	)	O	0	ROOT	0
+
+1	Interleukin-6	Interleukin-6	B-NP	NN	B-protein	5	SUB	0
+2	(	(	O	(	O	4	DEP	0
+3	IL-6	IL-6	B-NP	NN	B-protein	4	DEP	0
+4	)	)	O	)	O	1	NMOD	0
+5	is	be	B-VP	VBZ	O	0	ROOT	0
+6	proinflammatory	proinflammatory	B-NP	JJ	B-protein	7	NMOD	0
+7	cytokine	cytokine	I-NP	NN	I-protein	5	PRD	0
+8	that	that	B-NP	WDT	O	7	NMOD	0
+9	produces	produce	B-VP	VBZ	O	8	SBAR	0
+10	multifunctional	multifunctional	B-NP	JJ	O	11	NMOD	0
+11	effects	effect	I-NP	NNS	O	9	OBJ	0
+12	.	.	O	.	O	5	P	0
+
+1	It	It	B-NP	PRP	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	also	also	I-VP	RB	O	2	VMOD	0
+4	involved	involve	I-VP	VBN	O	2	VC	0
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	regulation	regulation	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	immune	immune	B-NP	JJ	O	10	NMOD	0
+10	reactions	reaction	I-NP	NNS	O	15	NMOD	0
+11	,	,	O	,	O	15	P	0
+12	hematopoiesis	hematopoiesis	B-NP	NN	O	15	NMOD	0
+13	and	and	O	CC	O	15	NMOD	0
+14	inflammatory	inflammatory	B-NP	JJ	O	15	NMOD	0
+15	state	state	I-NP	NN	O	8	PMOD	0
+16	.	.	O	.	O	2	P	0
+
+1	Interleukin-6	Interleukin-6	B-NP	NN	B-protein	2	SUB	0
+2	has	have	B-VP	VBZ	O	0	ROOT	0
+3	been	be	I-VP	VBN	O	2	VC	0
+4	shown	show	I-VP	VBN	O	3	VC	0
+5	to	to	I-VP	TO	O	6	VMOD	0
+6	be	be	I-VP	VB	O	4	VMOD	0
+7	associated	associate	I-VP	VBN	O	6	VC	16	associated
+8	with	with	B-PP	IN	O	7	VMOD	0
+9	tumor	tumor	B-NP	NN	O	10	NMOD	0
+10	progression	progression	I-NP	NN	O	8	PMOD	2	progression
+11	including	include	B-PP	VBG	O	10	NMOD	0
+12	inhibition	inhibition	B-NP	NN	O	11	PMOD	18	inhibition
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	cancer	cancer	B-NP	NN	B-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	18	NMOD	0
+16	apoptosis	apoptosis	B-NP	NN	O	18	NMOD	5	apoptosis
+17	and	and	I-NP	CC	O	18	NMOD	0
+18	stimulation	stimulation	I-NP	NN	O	13	PMOD	17	stimulation
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	angiogenesis	angiogenesis	B-NP	NN	O	19	PMOD	3	angiogenesis
+21	.	.	O	.	O	2	P	0
+
+1	Anti-IL-6	Anti-IL-6	B-NP	NN	B-protein	2	NMOD	0
+2	therapy	therapy	I-NP	NN	O	3	SUB	19	therapy
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	new	new	I-NP	JJ	O	6	NMOD	0
+6	strategy	strategy	I-NP	NN	O	3	PRD	0
+7	in	in	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	11	NMOD	0
+9	inflammatory	inflammatory	I-NP	JJ	O	11	NMOD	0
+10	autoimmune	autoimmune	I-NP	JJ	O	11	NMOD	0
+11	diseases	disease	I-NP	NNS	O	13	NMOD	0
+12	and	and	O	CC	O	13	NMOD	0
+13	cancer	cancer	B-NP	NN	O	7	PMOD	0
+14	.	.	O	.	O	3	P	0
+
+1	Clinical	Clinical	B-NP	JJ	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	have	have	B-VP	VBP	O	0	ROOT	0
+4	shown	show	I-VP	VBN	O	3	VC	0
+5	elevated	elevated	B-NP	JJ	O	8	NMOD	17	elevated
+6	serum	serum	I-NP	NN	O	8	NMOD	0
+7	IL-6	IL-6	I-NP	NN	B-protein	8	NMOD	0
+8	concentrations	concentration	I-NP	NNS	O	30	NMOD	0
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	patients	patient	B-NP	NNS	O	9	PMOD	0
+11	with	with	B-PP	IN	O	10	NMOD	0
+12	endometrial	endometrial	B-NP	JJ	O	13	NMOD	0
+13	cancer	cancer	I-NP	NN	O	11	PMOD	0
+14	,	,	O	,	O	30	P	0
+15	non-small	non-small	B-NP	JJ	O	18	NMOD	0
+16	cell	cell	I-NP	NN	O	18	NMOD	0
+17	lung	lung	I-NP	NN	O	18	NMOD	0
+18	carcinoma	carcinoma	I-NP	NN	O	30	NMOD	0
+19	,	,	O	,	O	30	P	0
+20	colorectal	colorectal	B-NP	JJ	O	21	NMOD	0
+21	cancer	cancer	I-NP	NN	O	30	NMOD	0
+22	,	,	O	,	O	30	P	0
+23	renal	renal	B-NP	JJ	O	25	NMOD	0
+24	cell	cell	I-NP	NN	O	25	NMOD	0
+25	carcinoma	carcinoma	I-NP	NN	O	30	NMOD	0
+26	,	,	O	,	O	30	P	0
+27	breast	breast	B-NP	NN	O	30	NMOD	0
+28	and	and	O	CC	O	30	NMOD	0
+29	ovarian	ovarian	B-NP	JJ	O	30	NMOD	0
+30	cancer	cancer	I-NP	NN	O	4	OBJ	0
+31	.	.	O	.	O	3	P	0
+
+1	Serum	Serum	B-NP	NN	O	3	NMOD	0
+2	IL-6	IL-6	I-NP	NN	B-protein	3	NMOD	0
+3	levels	level	I-NP	NNS	O	4	SUB	0
+4	correlate	correlate	B-VP	VBP	O	0	ROOT	0
+5	with	with	B-PP	IN	O	4	VMOD	0
+6	tumor	tumor	B-NP	NN	O	7	NMOD	0
+7	stage	stage	I-NP	NN	O	5	PMOD	0
+8	,	,	O	,	O	10	P	0
+9	and	and	O	CC	O	10	NMOD	0
+10	survival	survival	B-NP	NN	O	4	OBJ	5	survival
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	patients	patient	B-NP	NNS	O	11	PMOD	0
+13	.	.	O	.	O	4	P	0
+
+1	In	In	B-PP	IN	O	5	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	article	article	I-NP	NN	O	1	PMOD	0
+4	we	we	B-NP	PRP	O	5	SUB	0
+5	have	have	B-VP	VBP	O	0	ROOT	0
+6	focused	focus	I-VP	VBN	O	5	VC	0
+7	on	on	B-PP	IN	O	6	VMOD	0
+8	a	a	B-NP	DT	O	9	NMOD	0
+9	role	role	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	IL-6	IL-6	B-NP	NN	B-protein	10	PMOD	0
+12	as	as	B-PP	IN	O	9	NMOD	0
+13	a	a	B-NP	DT	O	15	NMOD	0
+14	prognostic	prognostic	I-NP	JJ	O	15	NMOD	0
+15	factor	factor	I-NP	NN	O	12	PMOD	0
+16	in	in	B-PP	IN	O	15	NMOD	0
+17	several	several	B-NP	JJ	O	18	NMOD	0
+18	malignancies	malignancy	I-NP	NNS	O	16	PMOD	0
+19	such	such	B-PP	JJ	O	20	PMOD	0
+20	as	as	I-PP	IN	O	18	NMOD	0
+21	colorectal	colorectal	B-NP	JJ	O	22	NMOD	0
+22	cancer	cancer	I-NP	NN	O	31	NMOD	0
+23	,	,	O	,	O	31	P	0
+24	breast	breast	B-NP	NN	O	25	NMOD	0
+25	cancer	cancer	I-NP	NN	O	31	NMOD	0
+26	,	,	O	,	O	31	P	0
+27	gastric	gastric	B-NP	JJ	O	28	NMOD	0
+28	cancer	cancer	I-NP	NN	O	31	NMOD	0
+29	and	and	O	CC	O	31	NMOD	0
+30	pancreatic	pancreatic	B-NP	JJ	O	31	NMOD	0
+31	cancer	cancer	I-NP	NN	O	20	PMOD	0
+32	.	.	O	.	O	5	P	0
+

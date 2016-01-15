@@ -1,0 +1,143 @@
+1	[	[	O	(	O	20	DEP	-1
+2	Autologous	Autologous	B-NP	JJ	B-cell_line	6	NMOD	-1
+3	bone	bone	I-NP	NN	I-cell_line	6	NMOD	-1
+4	marrow	marrow	I-NP	NN	I-cell_line	6	NMOD	-1
+5	stem	stem	I-NP	NN	I-cell_line	6	NMOD	-1
+6	cell	cell	I-NP	NN	I-cell_line	13	NMOD	-1
+7	or	or	I-NP	CC	O	13	NMOD	-1
+8	peripheral	peripheral	I-NP	JJ	O	13	NMOD	-1
+9	blood	blood	I-NP	NN	O	13	NMOD	-1
+10	endothelial	endothelial	I-NP	JJ	O	13	NMOD	-1
+11	progenitor	progenitor	I-NP	NN	O	13	NMOD	-1
+12	cell	cell	I-NP	NN	O	13	NMOD	-1
+13	therapy	therapy	I-NP	NN	O	20	DEP	19	therapy
+14	in	in	B-PP	IN	O	13	NMOD	-1
+15	patients	patient	B-NP	NNS	O	14	PMOD	-1
+16	with	with	B-PP	IN	O	15	NMOD	-1
+17	peripheral	peripheral	B-NP	JJ	O	19	NMOD	-1
+18	limb	limb	I-NP	NN	O	19	NMOD	-1
+19	ischaemia	ischaemia	I-NP	NN	O	16	PMOD	-1
+20	]	]	O	)	O	0	ROOT	-1
+
+1	No	No	B-NP	DT	O	4	NMOD	-1
+2	effective	effective	I-NP	JJ	O	4	NMOD	0
+3	medical	medical	I-NP	JJ	O	4	NMOD	-1
+4	therapies	therapy	I-NP	NNS	O	5	SUB	0
+5	have	have	B-VP	VBP	O	0	ROOT	-1
+6	been	be	I-VP	VBN	O	5	VC	-1
+7	developed	develop	I-VP	VBN	O	6	VC	0
+8	sofar	sofar	B-ADVP	RB	O	10	VMOD	-1
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	enhance	enhance	I-VP	VB	O	7	VMOD	0
+11	blood	blood	B-NP	NN	O	12	NMOD	-1
+12	flow	flow	I-NP	NN	O	10	OBJ	-1
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	legs	leg	I-NP	NNS	O	13	PMOD	-1
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	patients	patient	B-NP	NNS	O	16	PMOD	-1
+18	with	with	B-PP	IN	O	17	NMOD	-1
+19	peripheral	peripheral	B-NP	JJ	O	21	NMOD	-1
+20	arterial	arterial	I-NP	JJ	O	21	NMOD	-1
+21	disease	disease	I-NP	NN	O	18	PMOD	-1
+22	(	(	O	(	O	24	DEP	-1
+23	PAD	PAD	B-NP	NN	O	24	DEP	-1
+24	)	)	O	)	O	21	NMOD	-1
+25	.	.	O	.	O	5	P	-1
+
+1	For	For	B-PP	IN	O	17	VMOD	-1
+2	patients	patient	B-NP	NNS	O	1	PMOD	-1
+3	with	with	B-PP	IN	O	2	NMOD	-1
+4	limb	limb	B-NP	NN	O	6	NMOD	-1
+5	threatening	threatening	I-NP	NN	O	6	NMOD	-1
+6	ischaemia	ischaemia	I-NP	NN	O	3	PMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	only	only	I-NP	JJ	O	9	NMOD	-1
+9	option	option	I-NP	NN	O	17	SUB	-1
+10	for	for	B-PP	IN	O	9	NMOD	-1
+11	relief	relief	B-NP	NN	O	10	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	rest	rest	B-NP	NN	O	14	NMOD	-1
+14	pain	pain	I-NP	NN	O	16	NMOD	-1
+15	or	or	I-NP	CC	O	16	NMOD	-1
+16	gangraena	gangraena	I-NP	NN	O	12	PMOD	-1
+17	is	be	B-VP	VBZ	O	0	ROOT	-1
+18	amputation	amputation	B-NP	NN	O	17	PRD	-1
+19	.	.	O	.	O	17	P	-1
+
+1	There	There	B-NP	EX	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	evidence	evidence	B-NP	NN	O	2	PRD	-1
+4	in	in	B-PP	IN	O	3	NMOD	-1
+5	experimental	experimental	B-NP	JJ	O	7	AMOD	-1
+6	and	and	I-NP	CC	O	7	AMOD	-1
+7	clinical	clinical	I-NP	JJ	O	8	NMOD	-1
+8	studies	study	I-NP	NNS	O	4	PMOD	-1
+9	that	that	B-NP	IN	O	8	NMOD	-1
+10	adult	adult	B-NP	JJ	B-cell_type	14	NMOD	-1
+11	bone	bone	I-NP	NN	I-cell_type	14	NMOD	-1
+12	marrow-derived	marrow-derived	I-NP	JJ	I-cell_type	14	NMOD	-1
+13	stem	stem	I-NP	NN	I-cell_type	14	NMOD	-1
+14	cells	cell	I-NP	NNS	I-cell_type	18	NMOD	-1
+15	and	and	O	CC	O	18	NMOD	-1
+16	endothelial	endothelial	B-NP	JJ	B-cell_type	18	NMOD	-1
+17	progenitor	progenitor	I-NP	NN	I-cell_type	18	NMOD	-1
+18	cells	cell	I-NP	NNS	I-cell_type	19	SUB	-1
+19	participate	participate	B-VP	VBP	O	9	SBAR	0
+20	in	in	B-PP	IN	O	19	VMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	development	development	I-NP	NN	O	20	PMOD	2	development
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	new	new	B-NP	JJ	O	26	NMOD	-1
+25	blood	blood	I-NP	NN	O	26	NMOD	-1
+26	vessels	vessel	I-NP	NNS	O	23	PMOD	-1
+27	,	,	O	,	O	22	P	-1
+28	called	call	B-VP	VBN	O	22	NMOD	-1
+29	neoangiogenesis	neoangiogenesis	B-NP	NN	O	31	NMOD	3	neoangiogenesis
+30	or	or	I-NP	CC	O	31	NMOD	-1
+31	neovascularization	neovascularization	I-NP	NN	O	28	VMOD	3	neovascularization
+32	.	.	O	.	O	2	P	-1
+
+1	Clinical	Clinical	B-NP	JJ	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	19	SUB	0
+3	induced	induce	B-VP	VBN	O	2	NMOD	0
+4	by	by	B-PP	IN	O	3	VMOD	-1
+5	autologous	autologous	B-NP	JJ	B-cell_type	9	NMOD	-1
+6	bone	bone	I-NP	NN	I-cell_type	9	NMOD	-1
+7	marrow	marrow	I-NP	NN	I-cell_type	9	NMOD	-1
+8	stem	stem	I-NP	NN	I-cell_type	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_type	13	NMOD	-1
+10	or	or	O	CC	O	13	NMOD	-1
+11	angiogenic	angiogenic	B-NP	JJ	B-protein	13	NMOD	3	angiogenic
+12	growth/differentiation	growth/differentiation	I-NP	NN	I-protein	13	NMOD	-1
+13	factors	factor	I-NP	NNS	I-protein	4	PMOD	-1
+14	in	in	B-PP	IN	O	3	VMOD	-1
+15	end-stage	end-stage	B-NP	JJ	O	16	NMOD	-1
+16	patients	patient	I-NP	NNS	O	14	PMOD	-1
+17	with	with	B-PP	IN	O	16	NMOD	-1
+18	PAD	PAD	B-NP	NN	O	17	PMOD	-1
+19	are	be	B-VP	VBP	O	0	ROOT	-1
+20	summarized	summarize	I-VP	VBN	O	19	VC	-1
+21	.	.	O	.	O	19	P	-1
+
+1	Considering	Consider	B-VP	VBG	O	18	VMOD	-1
+2	the	the	B-NP	DT	O	5	NMOD	-1
+3	relatively	relatively	I-NP	RB	O	4	AMOD	-1
+4	few	few	I-NP	JJ	O	5	NMOD	-1
+5	number	number	I-NP	NN	O	1	OBJ	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	patients	patient	B-NP	NNS	O	6	PMOD	-1
+8	treated	treat	B-VP	VBN	O	7	NMOD	19	treated
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	angiogenic	angiogenic	B-NP	JJ	O	11	NMOD	3	angiogenic
+11	therapy	therapy	I-NP	NN	O	9	PMOD	0
+12	,	,	O	,	O	18	P	-1
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	interpretation	interpretation	I-NP	NN	O	18	SUB	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	clinical	clinical	B-NP	JJ	O	17	NMOD	-1
+17	results	result	I-NP	NNS	O	15	PMOD	0
+18	needs	need	B-VP	VBZ	O	0	ROOT	-1
+19	cautiousness	cautiousness	B-NP	NN	O	18	OBJ	-1
+20	.	.	O	.	O	18	P	-1
+

@@ -1,0 +1,267 @@
+1	A	A	B-NP	DT	O	3	NMOD	-1
+2	key	key	I-NP	JJ	O	3	NMOD	-1
+3	role	role	I-NP	NN	O	0	ROOT	0
+4	for	for	B-PP	IN	O	3	NMOD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	integrin	integrin	I-NP	NN	B-protein	7	NMOD	-1
+7	alpha2beta1	alpha2beta1	I-NP	NN	I-protein	4	PMOD	-1
+8	in	in	B-PP	IN	O	3	NMOD	-1
+9	experimental	experimental	B-NP	JJ	O	12	NMOD	-1
+10	and	and	I-NP	CC	O	12	NMOD	-1
+11	developmental	developmental	I-NP	JJ	O	12	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	8	PMOD	3	angiogenesis
+13	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	4	NMOD	-1
+2	alpha2beta1	alpha2beta1	I-NP	NN	B-protein	4	NMOD	-1
+3	integrin	integrin	I-NP	NN	I-protein	4	NMOD	-1
+4	receptor	receptor	I-NP	NN	I-protein	5	SUB	-1
+5	plays	play	B-VP	VBZ	O	0	ROOT	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	key	key	I-NP	JJ	O	8	NMOD	-1
+8	role	role	I-NP	NN	O	5	OBJ	0
+9	in	in	B-PP	IN	O	5	VMOD	-1
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	PMOD	3	angiogenesis
+11	.	.	O	.	O	5	P	-1
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	investigated	investigate	B-VP	VBD	O	0	ROOT	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	effects	effect	I-NP	NNS	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	small	small	B-NP	JJ	O	9	NMOD	-1
+8	molecule	molecule	I-NP	NN	O	9	NMOD	-1
+9	inhibitors	inhibitor	I-NP	NNS	O	6	PMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	SMIs	SMI	B-NP	NNS	O	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	designed	design	B-VP	VBN	O	5	NMOD	-1
+14	to	to	I-VP	TO	O	15	VMOD	-1
+15	disrupt	disrupt	I-VP	VB	O	13	VMOD	0
+16	integrin	integrin	B-NP	NN	B-protein	17	NMOD	-1
+17	alpha2	alpha2	I-NP	NN	O	23	NMOD	-1
+18	I	I	I-NP	CD	O	17	NMOD	-1
+19	or	or	O	CC	O	23	NMOD	-1
+20	beta1	beta1	B-NP	NN	B-protein	22	NMOD	-1
+21	I-like	I-like	I-NP	JJ	I-protein	22	NMOD	-1
+22	domain	domain	I-NP	NN	I-protein	23	NMOD	-1
+23	function	function	I-NP	NN	O	15	OBJ	-1
+24	on	on	B-PP	IN	O	23	NMOD	-1
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	.	.	O	.	O	3	P	-1
+
+1	In	In	B-PP	IN	O	8	VMOD	-1
+2	unchallenged	unchallenged	B-NP	JJ	B-cell_line	4	NMOD	19	unchallenged
+3	endothelial	endothelial	I-NP	JJ	I-cell_line	4	NMOD	-1
+4	cells	cell	I-NP	NNS	I-cell_line	1	PMOD	-1
+5	,	,	O	,	O	8	P	-1
+6	fibrillar	fibrillar	B-NP	JJ	B-protein	7	NMOD	-1
+7	collagen	collagen	I-NP	NN	I-protein	8	SUB	-1
+8	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+9	robust	robust	B-NP	JJ	O	11	NMOD	-1
+10	capillary	capillary	I-NP	JJ	O	11	NMOD	-1
+11	morphogenesis	morphogenesis	I-NP	NN	O	8	OBJ	2	morphogenesis
+12	.	.	O	.	O	8	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	6	P	-1
+4	tube	tube	B-NP	NN	O	5	NMOD	-1
+5	formation	formation	I-NP	NN	O	6	SUB	2	formation
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	significantly	significantly	I-VP	RB	O	6	VMOD	-1
+8	reduced	reduce	I-VP	VBN	O	6	VC	18	reduced
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	SMI496	SMI496	B-NP	NN	B-protein	16	NMOD	-1
+11	,	,	O	,	O	16	P	-1
+12	a	a	B-NP	DT	O	16	NMOD	-1
+13	beta1	beta1	I-NP	NN	B-protein	16	NMOD	-1
+14	I-like	I-like	I-NP	JJ	I-protein	16	NMOD	-1
+15	domain	domain	I-NP	NN	I-protein	16	NMOD	-1
+16	inhibitor	inhibitor	I-NP	NN	O	9	PMOD	0
+17	and	and	B-PP	CC	O	9	PMOD	-1
+18	by	by	B-PP	IN	O	9	PMOD	-1
+19	function-blocking	function-blocking	B-NP	JJ	O	18	PMOD	-1
+20	anti-alpha2beta1	anti-alpha2beta1	I-NP	NN	B-protein	19	NMOD	-1
+21	but	but	B-CONJP	CC	O	23	AMOD	-1
+22	not	not	I-CONJP	RB	O	21	DEP	-1
+23	-alpha1beta1	-alpha1beta1	B-NP	CD	B-protein	24	NMOD	-1
+24	antibodies	antibody	I-NP	NNS	I-protein	19	NMOD	-1
+25	.	.	O	.	O	6	P	-1
+
+1	Endothelial	Endothelial	B-NP	JJ	B-cell_type	2	NMOD	-1
+2	cells	cell	I-NP	NNS	I-cell_type	3	SUB	-1
+3	bound	bind	B-VP	VBD	O	0	ROOT	15	bound
+4	fluorescein-labeled	fluorescein-labeled	B-NP	JJ	B-protein	7	NMOD	19	labeled
+5	collagen	collagen	I-NP	NN	I-protein	7	NMOD	-1
+6	I	I	B-NP	CD	I-protein	7	NMOD	-1
+7	fibrils	fibril	I-NP	NNS	I-protein	10	NMOD	-1
+8	,	,	O	,	O	10	P	-1
+9	an	an	B-NP	DT	O	10	NMOD	-1
+10	interaction	interaction	I-NP	NN	O	3	OBJ	0
+11	specifically	specifically	B-VP	RB	O	12	VMOD	-1
+12	inhibited	inhibit	I-VP	VBN	O	10	NMOD	18	inhibited
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	SMI496	SMI496	B-NP	NN	B-protein	13	PMOD	-1
+15	.	.	O	.	O	3	P	-1
+
+1	Moreover	Moreover	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	SMI496	SMI496	B-NP	NN	B-protein	4	SUB	-1
+4	caused	cause	B-VP	VBD	O	0	ROOT	17	caused
+5	cell	cell	B-NP	NN	O	6	NMOD	-1
+6	retraction	retraction	I-NP	NN	O	9	NMOD	-1
+7	and	and	O	CC	O	9	NMOD	-1
+8	cytoskeletal	cytoskeletal	B-NP	JJ	O	9	NMOD	-1
+9	collapse	collapse	I-NP	NN	O	20	NMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	-1
+13	as	as	B-CONJP	RB	O	20	NMOD	-1
+14	well	well	I-CONJP	RB	O	13	DEP	-1
+15	as	as	I-CONJP	IN	O	13	DEP	-1
+16	delayed	delay	B-NP	VBN	O	20	NMOD	18	delayed
+17	endothelial	endothelial	I-NP	JJ	O	20	NMOD	-1
+18	cell	cell	I-NP	NN	O	20	NMOD	-1
+19	wound	wound	I-NP	NN	O	20	NMOD	-1
+20	healing	healing	I-NP	NN	O	4	OBJ	-1
+21	.	.	O	.	O	4	P	-1
+
+1	SMI	SMI	B-NP	NN	O	2	NMOD	-1
+2	activities	activity	I-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	0	ROOT	-1
+4	examined	examine	I-VP	VBN	O	3	VC	-1
+5	in	in	B-ADVP	FW	O	4	VMOD	-1
+6	vivo	vivo	I-ADVP	FW	O	5	AMOD	-1
+7	by	by	B-PP	IN	O	4	VMOD	-1
+8	supplementing	supplement	B-VP	VBG	O	7	PMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	growth	growth	I-NP	NN	O	11	NMOD	0
+11	medium	medium	I-NP	NN	O	8	OBJ	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	zebrafish	zebrafish	B-NP	NN	B-protein	12	PMOD	-1
+14	embryos	embryo	I-NP	NNS	I-protein	13	NMOD	-1
+15	expressing	express	B-VP	VBG	I-protein	14	NMOD	9	expressing
+16	green	green	B-NP	JJ	I-protein	18	NMOD	-1
+17	fluorescent	fluorescent	I-NP	JJ	I-protein	18	NMOD	-1
+18	protein	protein	I-NP	NN	I-protein	15	OBJ	-1
+19	under	under	B-PP	IN	O	15	VMOD	-1
+20	the	the	B-NP	DT	O	21	NMOD	-1
+21	control	control	I-NP	NN	O	19	PMOD	16	control
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	the	the	B-NP	DT	O	29	NMOD	-1
+24	vascular	vascular	I-NP	JJ	B-DNA	29	NMOD	-1
+25	endothelial	endothelial	I-NP	JJ	I-DNA	29	NMOD	-1
+26	growth	growth	I-NP	NN	I-DNA	29	NMOD	0
+27	factor	factor	I-NP	NN	I-DNA	29	NMOD	-1
+28	receptor-2	receptor-2	I-NP	NN	I-DNA	29	NMOD	-1
+29	promoter	promoter	I-NP	NN	I-DNA	22	PMOD	-1
+30	.	.	O	.	O	3	P	-1
+
+1	SMI496	SMI496	B-NP	NN	B-protein	7	NMOD	-1
+2	,	,	O	,	O	7	P	-1
+3	but	but	B-CONJP	CC	O	7	NMOD	-1
+4	not	not	I-CONJP	RB	O	3	DEP	-1
+5	a	a	B-NP	DT	O	7	NMOD	-1
+6	control	control	I-NP	NN	O	7	NMOD	0
+7	compound	compound	I-NP	NN	O	9	SUB	-1
+8	,	,	O	,	O	9	P	-1
+9	interfered	interfere	B-VP	VBD	O	0	ROOT	18	interfered
+10	with	with	B-PP	IN	O	9	VMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	PMOD	3	angiogenesis
+12	in	in	B-ADVP	FW	O	9	VMOD	-1
+13	vivo	vivo	I-ADVP	FW	O	12	AMOD	-1
+14	by	by	B-PP	IN	O	9	VMOD	-1
+15	reversibly	reversibly	B-VP	RB	O	16	VMOD	-1
+16	inhibiting	inhibit	I-VP	VBG	O	14	PMOD	18	inhibiting
+17	sprouting	sprout	I-VP	VBG	O	16	VMOD	2	sprouting
+18	from	from	B-PP	IN	O	17	VMOD	-1
+19	the	the	B-NP	DT	O	21	NMOD	-1
+20	axial	axial	I-NP	JJ	O	21	NMOD	-1
+21	vessels	vessel	I-NP	NNS	O	18	PMOD	-1
+22	.	.	O	.	O	9	P	-1
+
+1	We	We	B-NP	PRP	O	3	SUB	-1
+2	further	further	B-ADVP	RB	O	3	VMOD	-1
+3	characterized	characterize	B-VP	VBD	O	0	ROOT	-1
+4	zebrafish	zebrafish	B-NP	NN	B-protein	6	NMOD	-1
+5	alpha2	alpha2	I-NP	NN	I-protein	6	NMOD	-1
+6	integrin	integrin	I-NP	NN	I-protein	3	OBJ	-1
+7	and	and	O	CC	O	3	VMOD	-1
+8	discovered	discover	B-VP	VBD	O	3	VMOD	-1
+9	that	that	B-SBAR	IN	O	8	VMOD	-1
+10	this	this	B-NP	DT	O	11	NMOD	-1
+11	integrin	integrin	I-NP	NN	B-protein	12	SUB	-1
+12	is	be	B-VP	VBZ	O	9	SBAR	-1
+13	highly	highly	I-VP	RB	O	12	VMOD	-1
+14	conserved	conserve	I-VP	VBN	O	12	VC	-1
+15	,	,	O	,	O	14	P	-1
+16	especially	especially	B-ADVP	RB	O	14	VMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	I	I	I-NP	NN	B-protein	19	NMOD	-1
+19	domain	domain	I-NP	NN	I-protein	12	VMOD	-1
+20	.	.	O	.	O	3	P	-1
+
+1	Notably	Notably	B-ADVP	RB	O	7	VMOD	-1
+2	,	,	O	,	O	7	P	-1
+3	a	a	B-NP	DT	O	6	NMOD	-1
+4	similar	similar	I-NP	JJ	O	6	NMOD	-1
+5	vascular	vascular	I-NP	JJ	O	6	NMOD	-1
+6	phenotype	phenotype	I-NP	NN	O	7	SUB	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	induced	induce	I-VP	VBN	O	7	VC	0
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	morpholino-mediated	morpholino-mediated	B-NP	JJ	O	11	NMOD	-1
+11	knockdown	knockdown	I-NP	NN	O	9	PMOD	19	knockdown
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	the	the	B-NP	DT	O	16	NMOD	-1
+14	integrin	integrin	I-NP	NN	B-protein	16	NMOD	-1
+15	alpha2	alpha2	I-NP	NN	I-protein	16	NMOD	-1
+16	subunit	subunit	I-NP	NN	I-protein	12	PMOD	-1
+17	.	.	O	.	O	7	P	-1
+
+1	By	By	B-PP	IN	O	6	VMOD	-1
+2	live	live	B-NP	JJ	O	3	NMOD	-1
+3	videomicroscopy	videomicroscopy	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	confirmed	confirm	B-VP	VBD	O	0	ROOT	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	vessels	vessel	I-NP	NNS	O	10	SUB	-1
+10	were	be	B-VP	VBD	O	7	SBAR	-1
+11	largely	largely	B-ADJP	RB	O	12	AMOD	-1
+12	nonfunctional	nonfunctional	I-ADJP	JJ	O	10	PRD	-1
+13	in	in	B-PP	IN	O	12	AMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	absence	absence	I-NP	NN	O	13	PMOD	-1
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	alpha2beta1	alpha2beta1	B-NP	NN	B-protein	18	NMOD	-1
+18	integrin	integrin	I-NP	NN	I-protein	16	PMOD	-1
+19	.	.	O	.	O	6	P	-1
+
+1	Collectively	Collectively	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	our	our	B-NP	PRP$	O	4	NMOD	-1
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	provide	provide	B-VP	VBP	O	0	ROOT	-1
+6	strong	strong	B-NP	JJ	O	10	NMOD	-1
+7	biochemical	biochemical	I-NP	JJ	O	10	NMOD	-1
+8	and	and	I-NP	CC	O	10	NMOD	-1
+9	genetic	genetic	I-NP	JJ	O	10	NMOD	-1
+10	evidence	evidence	I-NP	NN	O	5	OBJ	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	a	a	B-NP	DT	O	14	NMOD	-1
+13	central	central	I-NP	JJ	O	14	NMOD	-1
+14	role	role	I-NP	NN	O	11	PMOD	0
+15	for	for	B-PP	IN	O	14	NMOD	-1
+16	alpha2beta1	alpha2beta1	B-NP	NN	B-protein	17	NMOD	-1
+17	integrin	integrin	I-NP	NN	I-protein	15	PMOD	-1
+18	in	in	B-PP	IN	O	14	NMOD	-1
+19	experimental	experimental	B-NP	JJ	O	22	NMOD	-1
+20	and	and	I-NP	CC	O	22	NMOD	-1
+21	developmental	developmental	I-NP	JJ	O	22	NMOD	-1
+22	angiogenesis	angiogenesis	I-NP	NN	O	18	PMOD	3	angiogenesis
+23	.	.	O	.	O	5	P	-1
+

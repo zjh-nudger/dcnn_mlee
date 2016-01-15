@@ -1,0 +1,223 @@
+1	Neurovascular	Neurovascular	B-NP	JJ	O	2	NMOD	0
+2	effects	effect	I-NP	NNS	O	7	NMOD	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	CD47	CD47	B-NP	NN	B-protein	5	NMOD	0
+5	signaling	signaling	I-NP	NN	O	3	PMOD	0
+6	:	:	O	:	O	2	P	0
+7	promotion	promotion	B-NP	NN	O	0	ROOT	17	promotion
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	cell	cell	B-NP	NN	O	10	NMOD	0
+10	death	death	I-NP	NN	O	15	NMOD	5	death
+11	,	,	O	,	O	15	P	0
+12	inflammation	inflammation	B-NP	NN	O	15	NMOD	0
+13	,	,	O	,	O	15	P	0
+14	and	and	O	CC	O	15	NMOD	0
+15	suppression	suppression	B-NP	NN	O	8	PMOD	18	suppression
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis
+18	in	in	B-PP	IN	O	15	NMOD	0
+19	brain	brain	B-NP	NN	B-cell_type	21	NMOD	0
+20	endothelial	endothelial	I-NP	JJ	I-cell_type	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_type	18	PMOD	0
+22	in	in	B-ADVP	FW	O	7	NMOD	0
+23	vitro	vitro	I-ADVP	FW	O	22	AMOD	0
+24	.	.	O	.	O	7	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	concept	concept	I-NP	NN	O	7	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	neurovascular	neurovascular	I-NP	JJ	B-protein	6	NMOD	0
+6	unit	unit	I-NP	NN	I-protein	3	PMOD	0
+7	emphasizes	emphasize	B-VP	VBZ	O	0	ROOT	0
+8	that	that	B-SBAR	IN	O	7	VMOD	0
+9	common	common	B-NP	JJ	O	12	NMOD	0
+10	signals	signal	I-NP	NNS	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	substrates	substrate	I-NP	NNS	O	13	SUB	0
+13	underlie	underlie	B-VP	VBP	O	8	SBAR	0
+14	the	the	B-NP	DT	O	17	NMOD	0
+15	physiology	physiology	I-NP	NN	O	17	NMOD	0
+16	and	and	I-NP	CC	O	17	NMOD	0
+17	pathophysiology	pathophysiology	I-NP	NN	O	13	OBJ	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	neuronal	neuronal	B-NP	JJ	O	22	NMOD	0
+20	and	and	I-NP	CC	O	22	NMOD	0
+21	endothelial	endothelial	I-NP	JJ	O	22	NMOD	0
+22	compartments	compartment	I-NP	NNS	O	18	PMOD	0
+23	in	in	B-PP	IN	O	17	NMOD	0
+24	brain	brain	B-NP	NN	O	23	PMOD	0
+25	.	.	O	.	O	7	P	0
+
+1	Recent	Recent	B-NP	JJ	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	activation	activation	B-NP	NN	O	11	SUB	17	activation
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	10	NMOD	0
+8	integrin-associated	integrin-associated	I-NP	JJ	B-protein	9	NMOD	15	associated
+9	protein	protein	I-NP	NN	I-protein	10	NMOD	0
+10	CD47	CD47	I-NP	NN	B-protein	6	PMOD	0
+11	promotes	promote	B-VP	VBZ	O	4	SBAR	17	promotes
+12	neuronal	neuronal	B-NP	JJ	B-cell_type	14	NMOD	0
+13	cell	cell	I-NP	NN	I-cell_type	14	NMOD	0
+14	death	death	I-NP	NN	O	11	OBJ	5	death
+15	.	.	O	.	O	3	P	0
+
+1	Is	Be	O	VBZ	O	39	VMOD	0
+2	it	it	B-NP	PRP	O	1	SUB	0
+3	possible	possible	B-ADJP	JJ	O	1	PRD	0
+4	that	that	B-SBAR	IN	O	39	VMOD	0
+5	CD47	CD47	B-NP	NN	B-protein	6	SUB	0
+6	may	may	B-VP	MD	O	39	VMOD	0
+7	also	also	I-VP	RB	O	6	VMOD	0
+8	negatively	negatively	I-VP	RB	O	9	VMOD	0
+9	affect	affect	I-VP	VB	O	39	VMOD	0
+10	cerebral	cerebral	B-NP	JJ	O	12	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	B-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	39	VMOD	0
+13	?	?	O	.	O	39	VMOD	0
+14	Exposure	Exposure	B-NP	NN	O	31	SUB	19	Exposure
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	wild-type	wild-type	B-NP	JJ	B-cell_line	21	NMOD	0
+17	primary	primary	I-NP	JJ	I-cell_line	21	NMOD	0
+18	mouse	mouse	I-NP	NN	I-cell_line	21	NMOD	0
+19	cerebral	cerebral	I-NP	JJ	I-cell_line	21	NMOD	0
+20	endothelial	endothelial	I-NP	JJ	I-cell_line	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_line	15	PMOD	0
+22	to	to	B-PP	TO	O	14	NMOD	0
+23	the	the	B-NP	DT	O	26	NMOD	0
+24	CD47	CD47	I-NP	NN	B-protein	26	NMOD	0
+25	ligand	ligand	I-NP	NN	I-protein	26	NMOD	0
+26	thrombospondin	thrombospondin	I-NP	NN	O	22	PMOD	0
+27	1	1	I-NP	CD	O	26	NMOD	0
+28	(	(	O	(	O	30	DEP	0
+29	TSP-1	TSP-1	B-NP	NN	B-protein	30	DEP	0
+30	)	)	O	)	O	26	NMOD	0
+31	induced	induce	B-VP	VBD	O	39	VMOD	17	induced
+32	an	an	B-NP	DT	O	34	NMOD	0
+33	increasing	increase	I-NP	VBG	O	34	NMOD	0
+34	amount	amount	I-NP	NN	O	31	OBJ	0
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	cell	cell	B-NP	NN	O	37	NMOD	0
+37	death	death	I-NP	NN	O	35	PMOD	5	death
+38	,	,	O	,	O	39	P	0
+39	whereas	whereas	O	IN	O	0	ROOT	0
+40	cytotoxicity	cytotoxicity	B-NP	NN	O	41	SUB	0
+41	was	be	B-VP	VBD	O	39	VMOD	0
+42	significantly	significantly	I-VP	RB	O	41	VMOD	0
+43	decreased	decrease	I-VP	VBN	O	41	VC	0
+44	in	in	B-PP	IN	O	43	VMOD	0
+45	cerebral	cerebral	B-NP	JJ	B-cell_type	47	NMOD	0
+46	endothelial	endothelial	I-NP	JJ	I-cell_type	47	NMOD	0
+47	cells	cell	I-NP	NNS	I-cell_type	44	PMOD	0
+48	derived	derive	B-VP	VBN	O	47	NMOD	0
+49	from	from	B-PP	IN	O	48	VMOD	0
+50	CD47	CD47	B-NP	NN	B-protein	52	NMOD	0
+51	knockout	knockout	I-NP	NN	O	52	NMOD	19	knockout
+52	mice	mouse	I-NP	NNS	O	49	PMOD	0
+53	.	.	O	.	O	39	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	specific	specific	I-NP	JJ	O	4	NMOD	0
+3	CD47-activating	CD47-activating	I-NP	JJ	O	4	NMOD	17	activating
+4	peptide	peptide	I-NP	NN	O	6	NMOD	0
+5	,	,	O	,	O	6	P	0
+6	4N1K	4N1K	B-NP	NN	B-protein	9	SUB	0
+7	,	,	O	,	O	6	P	0
+8	similarly	similarly	B-ADVP	RB	O	9	VMOD	0
+9	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+10	cell	cell	B-NP	NN	O	11	NMOD	0
+11	death	death	I-NP	NN	O	9	OBJ	0
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	human	human	B-NP	JJ	B-cell_type	17	NMOD	0
+14	brain	brain	I-NP	NN	I-cell_type	17	NMOD	0
+15	microvascular	microvascular	I-NP	JJ	I-cell_type	17	NMOD	0
+16	endothelial	endothelial	I-NP	JJ	I-cell_type	17	NMOD	0
+17	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	0
+18	.	.	O	.	O	9	P	0
+
+1	Promotion	Promotion	B-NP	NN	O	4	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	inflammation	inflammation	B-NP	NN	O	2	PMOD	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	also	also	I-VP	RB	O	4	VMOD	0
+6	involved	involve	I-VP	VBN	O	4	VC	0
+7	because	because	B-SBAR	IN	O	6	VMOD	0
+8	lower	low	B-NP	JJR	O	9	NMOD	0
+9	TSP-1	TSP-1	I-NP	NN	B-protein	10	SUB	0
+10	was	be	B-VP	VBD	O	7	SBAR	0
+11	able	able	B-ADJP	JJ	O	10	PRD	0
+12	to	to	B-VP	TO	O	13	VMOD	0
+13	up-regulate	up-regulate	I-VP	VB	O	11	AMOD	17	up-regulate
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	adhesion	adhesion	I-NP	NN	B-protein	16	NMOD	0
+16	molecules	molecule	I-NP	NNS	I-protein	24	NMOD	0
+17	intercellular	intercellular	B-NP	JJ	B-protein	19	NMOD	0
+18	adhesion	adhesion	I-NP	NN	I-protein	19	NMOD	0
+19	molecule-1	molecule-1	I-NP	NN	I-protein	24	NMOD	0
+20	and	and	O	CC	O	24	NMOD	0
+21	vascular	vascular	B-NP	JJ	B-protein	24	NMOD	0
+22	cell	cell	I-NP	NN	I-protein	24	NMOD	0
+23	adhesion	adhesion	I-NP	NN	I-protein	24	NMOD	0
+24	molecule-1	molecule-1	I-NP	NN	I-protein	13	OBJ	0
+25	.	.	O	.	O	4	P	0
+
+1	Finally	Finally	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	CD47	CD47	B-NP	NN	B-protein	4	NMOD	0
+4	signaling	signaling	I-NP	NN	O	5	SUB	0
+5	may	may	B-VP	MD	O	0	ROOT	0
+6	suppress	suppress	I-VP	VB	O	5	VC	18	suppress
+7	angiogenesis	angiogenesis	B-NP	NN	B-protein	6	OBJ	3	angiogenesis
+8	because	because	B-SBAR	IN	I-protein	6	VMOD	0
+9	4N1K	4N1K	B-NP	NN	I-protein	11	SUB	0
+10	significantly	significantly	B-ADVP	RB	O	11	VMOD	0
+11	inhibited	inhibit	B-VP	VBD	O	8	SBAR	18	inhibited
+12	endothelial	endothelial	B-NP	JJ	O	14	NMOD	0
+13	cell	cell	I-NP	NN	O	14	NMOD	0
+14	migration	migration	I-NP	NN	O	17	NMOD	14	migration
+15	and	and	O	CC	O	17	NMOD	0
+16	tube	tube	B-NP	NN	O	17	NMOD	0
+17	formation	formation	I-NP	NN	O	11	OBJ	2	formation
+18	in	in	B-ADVP	FW	O	11	VMOD	0
+19	vitro	vitro	I-ADVP	FW	O	18	AMOD	0
+20	.	.	O	.	O	5	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	conclude	conclude	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	CD47	CD47	B-NP	NN	B-protein	5	NMOD	0
+5	signaling	signaling	I-NP	NN	O	6	SUB	0
+6	can	can	B-VP	MD	O	3	SBAR	0
+7	negatively	negatively	I-VP	RB	O	6	VMOD	0
+8	affect	affect	I-VP	VB	O	6	VC	0
+9	the	the	B-NP	DT	O	12	NMOD	0
+10	viability	viability	I-NP	NN	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	function	function	I-NP	NN	O	8	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	cerebral	cerebral	B-NP	JJ	B-cell_type	16	NMOD	0
+15	endothelial	endothelial	I-NP	JJ	I-cell_type	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	0
+17	,	,	O	,	O	6	P	0
+18	further	further	B-VP	RB	O	19	VMOD	0
+19	supporting	support	I-VP	VBG	O	6	VMOD	0
+20	the	the	B-NP	DT	O	21	NMOD	0
+21	notion	notion	I-NP	NN	O	19	OBJ	0
+22	that	that	B-SBAR	IN	O	21	NMOD	0
+23	CD47	CD47	B-NP	NN	B-protein	24	SUB	0
+24	may	may	B-VP	MD	O	22	SBAR	0
+25	be	be	I-VP	VB	O	24	VC	0
+26	a	a	B-NP	DT	O	29	NMOD	0
+27	potential	potential	I-NP	JJ	O	29	NMOD	0
+28	neurovascular	neurovascular	I-NP	JJ	O	29	NMOD	0
+29	target	target	I-NP	NN	O	25	PRD	0
+30	for	for	B-PP	IN	O	29	NMOD	0
+31	stroke	stroke	B-NP	NN	O	34	NMOD	0
+32	and	and	I-NP	CC	O	34	NMOD	0
+33	brain	brain	I-NP	NN	O	34	NMOD	0
+34	injury	injury	I-NP	NN	O	30	PMOD	6	injury
+35	.	.	O	.	O	2	P	0
+

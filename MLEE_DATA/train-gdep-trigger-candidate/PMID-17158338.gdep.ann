@@ -1,0 +1,255 @@
+1	Angiotensin	Angiotensin	B-NP	NN	B-protein	3	SUB	-1
+2	II	II	I-NP	CD	I-protein	1	NMOD	-1
+3	induces	induce	B-VP	VBZ	O	0	ROOT	16	induces
+4	soluble	soluble	B-NP	JJ	B-protein	7	NMOD	-1
+5	fms-Like	fms-Like	I-NP	NN	I-protein	7	NMOD	-1
+6	tyrosine	tyrosine	I-NP	NN	I-protein	7	NMOD	-1
+7	kinase-1	kinase-1	I-NP	NN	I-protein	8	NMOD	-1
+8	release	release	I-NP	NN	O	3	OBJ	14	release
+9	via	via	B-PP	IN	O	3	VMOD	0
+10	calcineurin	calcineurin	B-NP	NN	B-protein	12	NMOD	-1
+11	signaling	signaling	I-NP	NN	O	12	NMOD	0
+12	pathway	pathway	I-NP	NN	O	9	PMOD	0
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	pregnancy	pregnancy	B-NP	NN	O	13	PMOD	-1
+15	.	.	O	.	O	3	P	-1
+
+1	Maternal	Maternal	B-NP	JJ	O	3	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	O	3	NMOD	-1
+3	dysfunction	dysfunction	I-NP	NN	O	6	SUB	6	dysfunction
+4	in	in	B-PP	IN	O	3	NMOD	-1
+5	preeclampsia	preeclampsia	B-NP	NN	O	4	PMOD	-1
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	associated	associate	I-VP	VBN	O	6	VC	0
+8	with	with	B-PP	IN	O	7	VMOD	-1
+9	increased	increase	B-NP	VBN	O	13	NMOD	17	increased
+10	soluble	soluble	I-NP	JJ	B-protein	13	NMOD	-1
+11	fms-like	fms-like	I-NP	JJ	I-protein	13	NMOD	-1
+12	tyrosine	tyrosine	I-NP	NN	I-protein	13	NMOD	-1
+13	kinase-1	kinase-1	I-NP	NN	I-protein	20	NMOD	-1
+14	(	(	O	(	O	16	DEP	-1
+15	sFlt-1	sFlt-1	B-NP	NN	O	16	DEP	-1
+16	)	)	O	)	O	13	NMOD	-1
+17	,	,	O	,	O	20	P	-1
+18	a	a	B-NP	DT	O	20	NMOD	-1
+19	circulating	circulate	I-NP	VBG	O	20	NMOD	14	circulating
+20	antagonist	antagonist	I-NP	NN	O	8	PMOD	-1
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	vascular	vascular	B-NP	JJ	B-protein	25	NMOD	-1
+23	endothelial	endothelial	I-NP	JJ	I-protein	25	NMOD	-1
+24	growth	growth	I-NP	NN	I-protein	25	NMOD	0
+25	factor	factor	I-NP	NN	I-protein	29	NMOD	-1
+26	and	and	O	CC	O	29	NMOD	-1
+27	placental	placental	B-NP	JJ	B-protein	29	NMOD	-1
+28	growth	growth	I-NP	NN	I-protein	29	NMOD	0
+29	factor	factor	I-NP	NN	I-protein	21	PMOD	-1
+30	.	.	O	.	O	6	P	-1
+
+1	Angiotensin	Angiotensin	B-NP	NN	B-protein	7	SUB	-1
+2	II	II	I-NP	CD	I-protein	1	NMOD	-1
+3	(	(	O	(	O	6	DEP	-1
+4	Ang	Ang	B-NP	NN	B-protein	6	DEP	-1
+5	II	II	I-NP	CD	I-protein	4	NMOD	-1
+6	)	)	O	)	O	1	NMOD	-1
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	a	a	B-NP	DT	O	10	NMOD	-1
+9	potent	potent	I-NP	JJ	O	10	NMOD	-1
+10	vasoconstrictor	vasoconstrictor	I-NP	NN	O	7	PRD	-1
+11	that	that	B-NP	WDT	O	10	NMOD	-1
+12	increases	increase	B-VP	VBZ	O	11	SBAR	17	increases
+13	concomitant	concomitant	B-ADJP	JJ	O	12	VMOD	-1
+14	with	with	B-PP	IN	O	13	AMOD	-1
+15	sFlt-1	sFlt-1	B-NP	NN	O	14	PMOD	-1
+16	during	during	B-PP	IN	O	12	VMOD	-1
+17	pregnancy	pregnancy	B-NP	NN	O	16	PMOD	-1
+18	.	.	O	.	O	7	P	-1
+
+1	Therefore	Therefore	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	speculated	speculate	B-VP	VBD	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	Ang	Ang	B-NP	NN	B-protein	8	SUB	-1
+7	II	II	I-NP	CD	I-protein	6	NMOD	-1
+8	may	may	B-VP	MD	O	5	SBAR	-1
+9	promote	promote	I-VP	VB	O	8	VC	17	promote
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	expression	expression	I-NP	NN	O	9	OBJ	9	expression
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	sFlt-1	sFlt-1	B-NP	NN	B-protein	12	PMOD	-1
+14	in	in	B-PP	IN	O	11	NMOD	-1
+15	pregnancy	pregnancy	B-NP	NN	O	14	PMOD	-1
+16	.	.	O	.	O	4	P	-1
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	report	report	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	infusion	infusion	B-NP	NN	O	10	SUB	19	infusion
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	Ang	Ang	B-NP	NN	B-protein	6	PMOD	-1
+8	II	II	I-NP	CD	I-protein	7	NMOD	-1
+9	significantly	significantly	B-VP	RB	O	10	VMOD	-1
+10	increases	increase	I-VP	VBZ	O	4	SBAR	17	increases
+11	circulating	circulate	I-VP	VBG	O	12	NMOD	14	circulating
+12	levels	level	B-NP	NNS	O	10	OBJ	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	sFlt-1	sFlt-1	B-NP	NN	B-protein	13	PMOD	-1
+15	in	in	B-PP	IN	O	12	NMOD	-1
+16	pregnant	pregnant	B-NP	JJ	O	17	NMOD	-1
+17	mice	mouse	I-NP	NNS	O	15	PMOD	-1
+18	,	,	O	,	O	10	P	-1
+19	thereby	thereby	B-VP	RB	O	20	VMOD	-1
+20	demonstrating	demonstrate	I-VP	VBG	O	10	VMOD	-1
+21	that	that	B-SBAR	IN	O	20	VMOD	-1
+22	Ang	Ang	B-NP	NN	B-protein	24	SUB	-1
+23	II	II	I-NP	CD	I-protein	22	NMOD	-1
+24	is	be	B-VP	VBZ	O	21	SBAR	-1
+25	a	a	B-NP	DT	O	26	NMOD	-1
+26	regulator	regulator	I-NP	NN	O	24	PRD	0
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	sFlt-1	sFlt-1	B-NP	NN	O	29	NMOD	-1
+29	secretion	secretion	I-NP	NN	O	27	PMOD	14	secretion
+30	in	in	B-ADVP	FW	O	24	VMOD	-1
+31	vivo	vivo	I-ADVP	FW	O	30	AMOD	-1
+32	.	.	O	.	O	3	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	Ang	Ang	B-NP	NN	B-protein	5	SUB	-1
+4	II	II	I-NP	CD	I-protein	3	NMOD	-1
+5	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+6	sFlt-1	sFlt-1	B-NP	NN	O	7	NMOD	-1
+7	production	production	I-NP	NN	O	5	OBJ	9	production
+8	in	in	B-PP	IN	O	5	VMOD	-1
+9	a	a	B-NP	DT	O	13	NMOD	-1
+10	dose-	dose-	I-NP	NN	O	12	AMOD	-1
+11	and	and	I-NP	CC	O	12	AMOD	-1
+12	time-dependent	time-dependent	I-NP	JJ	O	13	NMOD	-1
+13	manner	manner	I-NP	NN	O	8	PMOD	-1
+14	from	from	B-PP	IN	O	5	VMOD	-1
+15	human	human	B-NP	JJ	O	17	NMOD	-1
+16	villous	villous	I-NP	JJ	O	17	NMOD	-1
+17	explants	explant	I-NP	NNS	O	20	NMOD	-1
+18	and	and	O	CC	O	20	NMOD	-1
+19	cultured	culture	B-NP	VBN	B-cell_line	20	NMOD	0
+20	trophoblasts	trophoblast	I-NP	NNS	I-cell_line	14	PMOD	-1
+21	but	but	B-PP	CC	O	14	PMOD	-1
+22	not	not	B-PP	RB	O	23	PMOD	-1
+23	from	from	I-PP	IN	O	14	PMOD	-1
+24	endothelial	endothelial	B-NP	JJ	B-cell_type	25	NMOD	-1
+25	cells	cell	I-NP	NNS	I-cell_type	23	PMOD	-1
+26	,	,	O	,	O	5	P	-1
+27	suggesting	suggest	B-VP	VBG	O	5	VMOD	-1
+28	that	that	B-SBAR	IN	O	27	VMOD	-1
+29	trophoblasts	trophoblast	B-NP	NNS	O	30	SUB	-1
+30	are	be	B-VP	VBP	O	28	SBAR	-1
+31	the	the	B-NP	DT	O	33	NMOD	-1
+32	primary	primary	I-NP	JJ	O	33	NMOD	-1
+33	source	source	I-NP	NN	O	30	PRD	-1
+34	of	of	B-PP	IN	O	33	NMOD	-1
+35	sFlt-1	sFlt-1	B-NP	NN	O	34	PMOD	-1
+36	during	during	B-PP	IN	O	33	NMOD	-1
+37	pregnancy	pregnancy	B-NP	NN	O	36	PMOD	-1
+38	.	.	O	.	O	5	P	-1
+
+1	As	As	B-SBAR	IN	O	8	VMOD	-1
+2	expected	expect	B-VP	VBN	O	1	SBAR	-1
+3	,	,	O	,	O	8	P	-1
+4	Ang	Ang	B-NP	NNP	O	7	NMOD	-1
+5	II-induced	II-induced	I-NP	JJ	O	7	NMOD	17	induced
+6	sFlt-1	sFlt-1	I-NP	NN	O	7	NMOD	-1
+7	secretion	secretion	I-NP	NN	O	8	SUB	14	secretion
+8	resulted	result	B-VP	VBD	O	0	ROOT	0
+9	in	in	B-PP	IN	O	8	VMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	inhibition	inhibition	I-NP	NN	O	20	NMOD	17	inhibition
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	endothelial	endothelial	B-NP	JJ	B-cell_type	15	NMOD	-1
+14	cell	cell	I-NP	NN	I-cell_type	15	NMOD	-1
+15	migration	migration	I-NP	NN	O	12	PMOD	14	migration
+16	and	and	O	CC	O	20	NMOD	-1
+17	in	in	B-NP	FW	O	18	AMOD	-1
+18	vitro	vitro	I-NP	FW	O	20	NMOD	-1
+19	tube	tube	I-NP	NN	O	20	NMOD	-1
+20	formation	formation	I-NP	NN	O	9	PMOD	2	formation
+21	.	.	O	.	O	8	P	-1
+
+1	In	In	B-ADVP	FW	O	2	AMOD	-1
+2	vitro	vitro	I-ADVP	FW	O	6	NMOD	-1
+3	and	and	O	CC	O	6	NMOD	-1
+4	in	in	B-NP	FW	O	5	AMOD	-1
+5	vivo	vivo	I-NP	FW	O	6	NMOD	-1
+6	studies	study	I-NP	NNS	O	18	SUB	-1
+7	with	with	B-PP	IN	O	6	NMOD	-1
+8	losartan	losartan	B-NP	NN	O	12	NMOD	-1
+9	,	,	O	,	O	12	P	-1
+10	small	small	B-NP	JJ	O	12	NMOD	-1
+11	interfering	interfere	I-NP	VBG	O	12	NMOD	-1
+12	RNA	RNA	I-NP	NN	O	7	PMOD	-1
+13	specific	specific	B-ADJP	JJ	O	12	NMOD	-1
+14	for	for	B-PP	IN	O	13	AMOD	-1
+15	calcineurin	calcineurin	B-NP	NN	B-protein	17	NMOD	-1
+16	and	and	I-NP	CC	O	17	NMOD	-1
+17	FK506	FK506	I-NP	NN	O	14	PMOD	-1
+18	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+19	that	that	B-SBAR	IN	O	18	VMOD	-1
+20	Ang	Ang	B-NP	NNP	O	23	NMOD	-1
+21	II-mediated	II-mediated	I-NP	JJ	O	23	NMOD	16	mediated
+22	sFlt-1	sFlt-1	I-NP	NN	O	23	NMOD	-1
+23	release	release	I-NP	NN	O	24	SUB	14	release
+24	was	be	B-VP	VBD	O	19	SBAR	-1
+25	via	via	B-PP	IN	O	24	PRD	0
+26	Ang	Ang	B-NP	NNP	B-protein	30	NMOD	-1
+27	II	II	I-NP	CD	I-protein	30	NMOD	-1
+28	type	type	I-NP	NN	I-protein	30	NMOD	-1
+29	1	1	I-NP	CD	I-protein	30	NMOD	-1
+30	receptor	receptor	I-NP	NN	I-protein	34	NMOD	-1
+31	activation	activation	B-NP	NN	O	34	NMOD	17	activation
+32	and	and	O	CC	O	34	NMOD	-1
+33	calcineurin	calcineurin	B-NP	NN	B-protein	34	NMOD	-1
+34	signaling	signaling	I-NP	NN	O	25	PMOD	0
+35	,	,	O	,	O	24	P	-1
+36	respectively	respectively	B-ADVP	RB	O	24	VMOD	-1
+37	.	.	O	.	O	18	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	findings	finding	I-NP	NNS	O	3	SUB	-1
+3	reveal	reveal	B-VP	VBP	O	0	ROOT	-1
+4	a	a	B-NP	DT	O	8	NMOD	-1
+5	previously	previously	I-NP	RB	O	6	AMOD	-1
+6	unrecognized	unrecognized	I-NP	JJ	O	8	NMOD	-1
+7	regulatory	regulatory	I-NP	JJ	O	8	NMOD	-1
+8	role	role	I-NP	NN	O	3	OBJ	0
+9	for	for	B-PP	IN	O	8	NMOD	-1
+10	Ang	Ang	B-NP	NN	B-protein	9	PMOD	-1
+11	II	II	I-NP	CD	I-protein	10	NMOD	-1
+12	on	on	B-PP	IN	O	8	NMOD	-1
+13	sFlt-1	sFlt-1	B-NP	NN	O	14	NMOD	-1
+14	expression	expression	I-NP	NN	O	12	PMOD	9	expression
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	murine	murine	B-NP	JJ	O	19	NMOD	-1
+17	and	and	I-NP	CC	O	19	NMOD	-1
+18	human	human	I-NP	JJ	O	19	NMOD	-1
+19	pregnancy	pregnancy	I-NP	NN	O	15	PMOD	-1
+20	and	and	O	CC	O	3	VMOD	-1
+21	suggest	suggest	B-VP	VBP	O	3	VMOD	-1
+22	that	that	B-SBAR	IN	O	21	VMOD	-1
+23	elevated	elevate	B-NP	VBN	O	25	NMOD	17	elevated
+24	sFlt-1	sFlt-1	I-NP	NN	O	25	NMOD	-1
+25	levels	level	I-NP	NNS	O	28	SUB	-1
+26	in	in	B-PP	IN	O	25	NMOD	-1
+27	preeclampsia	preeclampsia	B-NP	NN	O	26	PMOD	-1
+28	may	may	B-VP	MD	O	22	SBAR	-1
+29	be	be	I-VP	VB	O	28	VC	-1
+30	caused	cause	I-VP	VBN	O	29	VC	17	caused
+31	by	by	B-PP	IN	O	30	VMOD	-1
+32	a	a	B-NP	DT	O	33	NMOD	-1
+33	dysregulation	dysregulation	I-NP	NN	O	31	PMOD	18	dysregulation
+34	of	of	B-PP	IN	O	33	NMOD	-1
+35	the	the	B-NP	DT	O	38	NMOD	-1
+36	local	local	I-NP	JJ	O	38	NMOD	-1
+37	renin/angiotensin	renin/angiotensin	I-NP	NN	O	38	NMOD	-1
+38	system	system	I-NP	NN	O	34	PMOD	0
+39	.	.	O	.	O	3	P	-1
+

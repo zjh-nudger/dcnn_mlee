@@ -1,0 +1,196 @@
+1	Diverse	Diverse	B-NP	JJ	O	4	NMOD	0
+2	cell	cell	I-NP	NN	O	4	NMOD	0
+3	signaling	signaling	I-NP	NN	O	4	NMOD	0
+4	events	event	I-NP	NNS	O	0	ROOT	0
+5	modulated	modulate	B-VP	VBN	O	4	NMOD	0
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	perlecan	perlecan	B-NP	NN	O	6	PMOD	0
+8	.	.	O	.	O	4	P	0
+
+1	Perlecan	Perlecan	B-NP	NNP	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	6	NMOD	0
+4	ubiquitous	ubiquitous	I-NP	JJ	O	6	NMOD	0
+5	pericellular	pericellular	I-NP	JJ	O	6	NMOD	0
+6	proteoglycan	proteoglycan	I-NP	NN	O	2	PRD	0
+7	ideally	ideally	B-VP	RB	O	8	VMOD	0
+8	placed	place	I-VP	VBN	O	6	NMOD	0
+9	to	to	I-VP	TO	O	10	VMOD	0
+10	mediate	mediate	I-VP	VB	O	8	VMOD	0
+11	cell	cell	B-NP	NN	O	13	NMOD	0
+12	signaling	signaling	I-NP	NN	O	13	NMOD	0
+13	events	event	I-NP	NNS	O	10	OBJ	0
+14	controlling	control	B-VP	VBG	O	13	NMOD	0
+15	migration	migration	B-NP	NN	O	20	NMOD	0
+16	,	,	O	,	O	20	P	0
+17	proliferation	proliferation	B-NP	NN	O	20	NMOD	0
+18	,	,	O	,	O	20	P	0
+19	and	and	O	CC	O	20	NMOD	0
+20	differentiation	differentiation	B-NP	NN	O	14	OBJ	0
+21	.	.	O	.	O	2	P	0
+
+1	Its	Its	B-NP	PRP$	O	2	NMOD	0
+2	control	control	I-NP	NN	O	8	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	growth	growth	B-NP	NN	B-protein	6	NMOD	0
+5	factor	factor	I-NP	NN	I-protein	6	NMOD	0
+6	signaling	signaling	I-NP	NN	O	3	PMOD	0
+7	usually	usually	B-ADVP	RB	O	8	VMOD	0
+8	involves	involve	B-VP	VBZ	O	0	ROOT	0
+9	interactions	interaction	B-NP	NNS	O	8	OBJ	0
+10	with	with	B-PP	IN	O	9	NMOD	0
+11	the	the	B-NP	DT	O	14	NMOD	0
+12	heparan	heparan	I-NP	NN	B-protein	14	NMOD	0
+13	sulfate	sulfate	I-NP	NN	I-protein	14	NMOD	0
+14	chains	chain	I-NP	NNS	I-protein	10	PMOD	0
+15	covalently	covalently	B-VP	RB	O	16	VMOD	0
+16	coupled	couple	I-VP	VBN	O	14	NMOD	0
+17	to	to	B-PP	TO	O	16	VMOD	0
+18	the	the	B-NP	DT	O	21	NMOD	0
+19	protein	protein	I-NP	NN	O	21	NMOD	0
+20	core	core	I-NP	NN	O	21	NMOD	0
+21	's	's	B-NP	POS	O	22	NMOD	0
+22	N-terminus	N-terminus	I-NP	NN	B-protein	17	PMOD	0
+23	.	.	O	.	O	8	P	0
+
+1	However	However	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	this	this	B-NP	DT	O	6	NMOD	0
+4	modular	modular	I-NP	JJ	O	6	NMOD	0
+5	protein	protein	I-NP	NN	O	6	NMOD	0
+6	core	core	I-NP	NN	O	8	SUB	0
+7	also	also	B-ADVP	RB	O	8	VMOD	0
+8	binds	bind	B-VP	VBZ	O	0	ROOT	0
+9	with	with	B-PP	IN	O	8	VMOD	0
+10	relatively	relatively	B-NP	RB	O	11	AMOD	0
+11	high	high	I-NP	JJ	O	12	NMOD	0
+12	affinity	affinity	I-NP	NN	O	9	PMOD	0
+13	to	to	B-PP	TO	O	12	NMOD	0
+14	a	a	B-NP	DT	O	15	NMOD	0
+15	number	number	I-NP	NN	O	13	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	growth	growth	B-NP	NN	B-protein	18	NMOD	0
+18	factors	factor	I-NP	NNS	I-protein	21	NMOD	0
+19	and	and	O	CC	O	21	NMOD	0
+20	surface	surface	B-NP	NN	B-protein	21	NMOD	0
+21	receptors	receptor	I-NP	NNS	I-protein	16	PMOD	0
+22	,	,	O	,	O	8	P	0
+23	thereby	thereby	B-VP	RB	O	24	VMOD	0
+24	stabilizing	stabilize	I-VP	VBG	O	8	VMOD	0
+25	cell-matrix	cell-matrix	B-NP	JJ	O	26	NMOD	0
+26	links	link	I-NP	NNS	O	24	OBJ	0
+27	.	.	O	.	O	8	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	review	review	I-NP	NN	O	3	SUB	0
+3	will	will	B-VP	MD	O	0	ROOT	0
+4	focus	focus	I-VP	VB	O	3	VC	0
+5	on	on	B-PP	IN	O	4	VMOD	0
+6	perlecan-growth	perlecan-growth	B-NP	NN	O	8	NMOD	0
+7	factor	factor	I-NP	NN	O	8	NMOD	0
+8	interactions	interaction	I-NP	NNS	O	5	PMOD	15	interactions
+9	and	and	O	CC	O	3	VMOD	0
+10	describe	describe	B-VP	VBP	O	3	VMOD	0
+11	recent	recent	B-NP	JJ	O	12	NMOD	0
+12	advances	advance	I-NP	NNS	O	10	OBJ	0
+13	in	in	B-PP	IN	O	12	NMOD	0
+14	our	our	B-NP	PRP$	O	15	NMOD	0
+15	understanding	understanding	I-NP	NN	O	13	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	this	this	B-NP	DT	O	20	NMOD	0
+18	highly	highly	I-NP	RB	O	19	AMOD	0
+19	conserved	conserve	I-NP	VBN	O	20	NMOD	0
+20	proteoglycan	proteoglycan	I-NP	NN	O	28	NMOD	0
+21	during	during	B-PP	IN	O	20	NMOD	0
+22	development	development	B-NP	NN	O	21	PMOD	0
+23	,	,	O	,	O	28	P	0
+24	cancer	cancer	B-NP	NN	O	25	NMOD	0
+25	growth	growth	I-NP	NN	O	28	NMOD	4	growth
+26	,	,	O	,	O	28	P	0
+27	and	and	O	CC	O	28	NMOD	0
+28	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis
+29	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	pro-angiogenic	pro-angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	capacities	capacity	I-NP	NNS	O	0	ROOT	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	perlecan	perlecan	B-NP	NN	O	4	PMOD	0
+6	that	that	B-NP	WDT	O	3	NMOD	0
+7	involve	involve	B-VP	VBP	O	6	SBAR	0
+8	proliferative	proliferative	B-NP	JJ	O	11	NMOD	0
+9	and	and	I-NP	CC	O	11	NMOD	0
+10	migratory	migratory	I-NP	JJ	O	11	NMOD	0
+11	signals	signal	I-NP	NNS	O	7	OBJ	0
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	response	response	B-NP	NN	O	12	PMOD	0
+14	to	to	B-VP	TO	O	15	VMOD	0
+15	bound	bound	I-VP	VB	O	7	VMOD	15	bound
+16	growth	growth	B-NP	NN	B-protein	17	NMOD	0
+17	factors	factor	I-NP	NNS	I-protein	18	SUB	0
+18	will	will	B-VP	MD	O	15	VMOD	0
+19	be	be	I-VP	VB	O	18	VC	0
+20	explored	explore	I-VP	VBN	O	19	VC	0
+21	,	,	O	,	O	20	P	0
+22	as	as	B-CONJP	RB	O	27	NMOD	0
+23	well	well	I-CONJP	RB	O	22	DEP	0
+24	as	as	I-CONJP	IN	O	22	DEP	0
+25	the	the	B-NP	DT	O	27	NMOD	0
+26	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	27	NMOD	3	angiogenic
+27	signals	signal	I-NP	NNS	O	20	VMOD	18	signals
+28	resulting	result	B-VP	VBG	O	27	NMOD	17	resulting
+29	from	from	B-PP	IN	O	28	VMOD	0
+30	interactions	interaction	B-NP	NNS	O	29	PMOD	15	interactions
+31	between	between	B-PP	IN	O	30	NMOD	0
+32	the	the	B-NP	DT	O	34	NMOD	0
+33	C-terminal	C-terminal	I-NP	JJ	B-protein	34	NMOD	0
+34	domain	domain	I-NP	NN	I-protein	31	PMOD	0
+35	known	know	B-VP	VBN	O	34	NMOD	0
+36	as	as	B-PP	IN	O	35	VMOD	0
+37	endorepellin	endorepellin	B-NP	NN	B-protein	39	NMOD	0
+38	and	and	I-NP	CC	O	39	NMOD	0
+39	integrins	integrin	I-NP	NNS	B-protein	36	PMOD	0
+40	that	that	B-NP	WDT	O	39	NMOD	0
+41	control	control	B-VP	VBP	O	40	SBAR	16	control
+42	adhesion	adhesion	B-NP	NN	O	41	OBJ	15	adhesion
+43	of	of	B-PP	IN	O	42	NMOD	0
+44	cells	cell	B-NP	NNS	O	43	PMOD	0
+45	to	to	B-PP	TO	O	42	NMOD	0
+46	the	the	B-NP	DT	O	48	NMOD	0
+47	extracellular	extracellular	I-NP	JJ	O	48	NMOD	0
+48	matrix	matrix	I-NP	NN	O	45	PMOD	0
+49	.	.	O	.	O	3	P	0
+
+1	These	These	B-NP	DT	O	6	NMOD	0
+2	two	two	I-NP	CD	O	6	NMOD	0
+3	somewhat	somewhat	I-NP	RB	O	5	AMOD	0
+4	diametrically	diametrically	I-NP	RB	O	3	AMOD	0
+5	opposed	oppose	I-NP	VBN	O	6	NMOD	0
+6	roles	role	I-NP	NNS	O	7	SUB	0
+7	will	will	B-VP	MD	O	0	ROOT	0
+8	be	be	I-VP	VB	O	7	VC	0
+9	discussed	discuss	I-VP	VBN	O	8	VC	0
+10	in	in	B-PP	IN	O	9	VMOD	0
+11	light	light	B-NP	NN	O	10	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	new	new	B-NP	JJ	O	14	NMOD	0
+14	data	datum	I-NP	NNS	O	12	PMOD	0
+15	emerging	emerge	B-VP	VBG	O	14	NMOD	0
+16	from	from	B-PP	IN	O	15	VMOD	0
+17	various	various	B-NP	JJ	O	18	NMOD	0
+18	fields	field	I-NP	NNS	O	16	PMOD	0
+19	which	which	B-NP	WDT	O	18	NMOD	0
+20	converge	converge	B-VP	VBP	O	19	SBAR	0
+21	on	on	B-PP	IN	O	20	VMOD	0
+22	perlecan	perlecan	B-NP	NN	O	21	PMOD	0
+23	as	as	B-PP	IN	O	20	VMOD	0
+24	a	a	B-NP	DT	O	26	NMOD	0
+25	key	key	I-NP	JJ	O	26	NMOD	0
+26	regulator	regulator	I-NP	NN	O	23	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	cell	cell	B-NP	NN	O	27	PMOD	0
+29	growth	growth	I-NP	NN	O	28	NMOD	1	growth
+30	and	and	I-NP	CC	O	28	NMOD	0
+31	angiogenesis	angiogenesis	I-NP	NN	O	28	NMOD	3	angiogenesis
+32	.	.	O	.	O	7	P	0
+

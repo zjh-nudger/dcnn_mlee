@@ -1,0 +1,283 @@
+1	Alpha-melanocyte-stimulating	Alpha-melanocyte-stimulating	B-NP	JJ	O	2	NMOD	0
+2	hormone	hormone	I-NP	NN	O	3	SUB	0
+3	modulates	modulate	B-VP	VBZ	O	0	ROOT	16	modulates
+4	activation	activation	B-NP	NN	O	11	NMOD	17	activation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	NF-kappa	NF-kappa	B-NP	NN	B-protein	7	NMOD	0
+7	B	B	I-NP	NN	I-protein	9	NMOD	0
+8	and	and	O	CC	O	9	NMOD	0
+9	AP-1	AP-1	B-NP	NN	B-protein	5	PMOD	0
+10	and	and	O	CC	O	11	NMOD	0
+11	secretion	secretion	B-NP	NN	O	3	OBJ	14	secretion
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	interleukin-8	interleukin-8	B-NP	NN	B-protein	12	PMOD	0
+14	in	in	B-PP	IN	O	11	NMOD	0
+15	human	human	B-NP	JJ	B-cell_type	17	NMOD	0
+16	dermal	dermal	I-NP	JJ	I-cell_type	17	NMOD	0
+17	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	14	PMOD	0
+18	.	.	O	.	O	3	P	0
+
+1	Alpha-melanocyte-stimulating	Alpha-melanocyte-stimulating	B-NP	JJ	O	2	NMOD	0
+2	hormone	hormone	I-NP	NN	O	6	SUB	0
+3	(	(	O	(	O	5	DEP	0
+4	alpha-MSH	alpha-MSH	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	has	have	B-VP	VBZ	O	0	ROOT	0
+7	evolved	evolve	I-VP	VBN	O	6	VC	0
+8	as	as	B-PP	IN	O	7	VMOD	0
+9	a	a	B-NP	DT	O	10	NMOD	0
+10	mediator	mediator	I-NP	NN	O	8	PMOD	16	mediator
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	diverse	diverse	B-NP	JJ	O	14	NMOD	0
+13	biological	biological	I-NP	JJ	O	14	NMOD	0
+14	activities	activity	I-NP	NNS	O	11	PMOD	0
+15	in	in	B-PP	IN	O	10	NMOD	0
+16	an	an	B-NP	DT	O	18	NMOD	0
+17	ever-growing	ever-growing	I-NP	JJ	O	18	NMOD	1	growing
+18	number	number	I-NP	NN	O	15	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	non-melanocytic	non-melanocytic	B-NP	JJ	B-cell_type	22	NMOD	0
+21	cell	cell	I-NP	NN	I-cell_type	22	NMOD	0
+22	types	type	I-NP	NNS	I-cell_type	19	PMOD	0
+23	.	.	O	.	O	6	P	0
+
+1	One	One	B-NP	CD	O	2	NMOD	0
+2	mechanism	mechanism	I-NP	NN	O	9	SUB	0
+3	by	by	B-PP	IN	O	2	NMOD	0
+4	which	which	B-NP	WDT	O	3	PMOD	0
+5	alpha-MSH	alpha-MSH	B-NP	NN	B-protein	6	SUB	0
+6	exerts	exert	B-VP	VBZ	O	3	SBAR	0
+7	its	its	B-NP	PRP$	O	8	NMOD	0
+8	effects	effect	I-NP	NNS	O	6	OBJ	0
+9	is	be	B-VP	VBZ	O	0	ROOT	0
+10	modulation	modulation	B-NP	NN	O	9	PRD	16	modulation
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	AP-1	AP-1	B-NP	NN	B-protein	15	NMOD	0
+13	and	and	O	CC	O	15	NMOD	0
+14	NF-kappa	NF-kappa	B-NP	NN	B-protein	15	NMOD	0
+15	B	B	I-NP	NN	I-protein	11	PMOD	0
+16	.	.	O	.	O	9	P	0
+
+1	These	These	B-NP	DT	O	4	NMOD	0
+2	two	two	I-NP	CD	O	4	NMOD	0
+3	transcription	transcription	I-NP	NN	B-protein	4	NMOD	0
+4	factors	factor	I-NP	NNS	I-protein	6	SUB	0
+5	also	also	B-ADVP	RB	O	6	VMOD	0
+6	play	play	B-VP	VBP	O	0	ROOT	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	important	important	I-NP	JJ	O	9	NMOD	0
+9	role	role	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	0
+11	fibroblasts	fibroblast	B-NP	NNS	B-cell_type	10	PMOD	0
+12	,	,	O	,	O	6	P	0
+13	in	in	B-PP	IN	O	6	VMOD	0
+14	extracellular	extracellular	B-NP	JJ	O	16	NMOD	0
+15	matrix	matrix	I-NP	NN	O	16	NMOD	0
+16	composition	composition	I-NP	NN	O	13	PMOD	0
+17	,	,	O	,	O	6	P	0
+18	and	and	O	CC	O	6	VMOD	0
+19	in	in	B-PP	IN	O	6	VMOD	0
+20	cytokine	cytokine	B-NP	NN	B-protein	21	NMOD	0
+21	expression	expression	I-NP	NN	O	19	PMOD	0
+22	.	.	O	.	O	6	P	0
+
+1	By	By	B-PP	IN	O	10	VMOD	0
+2	use	use	B-NP	NN	O	1	PMOD	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	electric	electric	B-NP	JJ	O	7	NMOD	0
+5	mobility	mobility	I-NP	NN	O	7	NMOD	0
+6	shift	shift	I-NP	NN	O	7	NMOD	0
+7	assays	assay	I-NP	NNS	O	3	PMOD	0
+8	,	,	O	,	O	10	P	0
+9	we	we	B-NP	PRP	O	10	SUB	0
+10	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+11	that	that	B-SBAR	IN	O	10	VMOD	0
+12	alpha-MSH	alpha-MSH	B-NP	NN	O	25	SUB	0
+13	(	(	O	(	O	17	DEP	0
+14	10	10	B-NP	CD	O	17	DEP	0
+15	(	(	O	(	O	17	DEP	0
+16	-6	-6	B-NP	CD	O	17	DEP	0
+17	)	)	O	)	O	12	NMOD	0
+18	to	to	B-PP	TO	O	12	NMOD	0
+19	10	10	B-NP	CD	O	23	NMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	-14	-14	B-NP	CD	O	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	M	M	B-NP	NN	O	18	PMOD	0
+24	)	)	O	)	O	23	NMOD	0
+25	activates	activate	B-VP	VBZ	O	11	SBAR	17	activates
+26	AP-1	AP-1	B-NP	NN	B-protein	25	OBJ	0
+27	in	in	B-PP	IN	O	25	VMOD	0
+28	human	human	B-NP	JJ	B-cell_type	30	NMOD	0
+29	dermal	dermal	I-NP	JJ	I-cell_type	30	NMOD	0
+30	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	27	PMOD	0
+31	,	,	O	,	O	25	P	0
+32	whereas	whereas	O	IN	O	25	VMOD	0
+33	coincubation	coincubation	B-NP	NN	O	41	SUB	19	coincubation
+34	with	with	B-PP	IN	O	33	NMOD	0
+35	interleukin-1	interleukin-1	B-NP	NN	B-protein	36	NMOD	0
+36	beta	beta	I-NP	NN	I-protein	34	PMOD	0
+37	(	(	O	(	O	40	DEP	0
+38	IL-1	IL-1	B-NP	NN	B-protein	39	NMOD	0
+39	beta	beta	I-NP	NN	I-protein	40	DEP	0
+40	)	)	O	)	O	36	NMOD	0
+41	results	result	B-VP	VBZ	O	32	SBAR	0
+42	in	in	B-PP	IN	O	41	VMOD	0
+43	suppression	suppression	B-NP	NN	O	42	PMOD	18	suppression
+44	of	of	B-PP	IN	O	43	NMOD	0
+45	its	its	B-NP	PRP$	O	46	NMOD	0
+46	activation	activation	I-NP	NN	O	44	PMOD	0
+47	.	.	O	.	O	10	P	0
+
+1	alpha-MSH	alpha-MSH	B-NP	NN	O	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+4	activation	activation	B-NP	NN	O	3	OBJ	17	activation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	NF-kappa	NF-kappa	B-NP	NN	B-protein	7	NMOD	0
+7	B	B	I-NP	NN	I-protein	5	PMOD	0
+8	but	but	O	CC	O	3	VMOD	0
+9	does	do	B-VP	VBZ	O	3	VMOD	0
+10	not	not	I-VP	RB	O	9	VMOD	0
+11	modulate	modulate	I-VP	VB	O	9	VC	16	modulate
+12	DNA	DNA	B-NP	NN	O	13	NMOD	0
+13	binding	binding	I-NP	NN	O	11	OBJ	15	binding
+14	on	on	B-PP	IN	O	13	NMOD	0
+15	costimulation	costimulation	B-NP	NN	O	14	PMOD	17	costimulation
+16	with	with	B-PP	IN	O	15	NMOD	0
+17	IL-1	IL-1	B-NP	NN	B-protein	18	NMOD	0
+18	beta	beta	I-NP	NN	I-protein	16	PMOD	0
+19	.	.	O	.	O	3	P	0
+
+1	Since	Since	B-SBAR	IN	O	36	VMOD	0
+2	AP-1	AP-1	B-NP	NN	B-protein	5	NMOD	0
+3	and	and	O	CC	O	5	NMOD	0
+4	NF-kappa	NF-kappa	B-NP	NN	B-protein	5	NMOD	0
+5	B	B	I-NP	NN	I-protein	6	SUB	0
+6	are	be	B-VP	VBP	O	1	SBAR	0
+7	key	key	B-NP	JJ	O	8	NMOD	0
+8	elements	element	I-NP	NNS	O	6	PRD	0
+9	in	in	B-PP	IN	O	6	VMOD	0
+10	controlling	control	B-VP	VBG	O	9	PMOD	16	controlling
+11	interleukin-8	interleukin-8	B-NP	NN	B-protein	15	NMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	IL-8	IL-8	B-NP	NN	B-protein	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	transcription	transcription	B-NP	NN	O	10	OBJ	10	transcription
+16	,	,	O	,	O	36	P	0
+17	human	human	B-NP	JJ	B-cell_type	18	NMOD	0
+18	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	19	SUB	0
+19	were	be	B-VP	VBD	O	36	VMOD	0
+20	treated	treat	I-VP	VBN	O	19	VC	19	treated
+21	with	with	B-PP	IN	O	20	VMOD	0
+22	alpha-MSH	alpha-MSH	B-NP	NN	O	25	NMOD	0
+23	and	and	I-NP	CC	O	25	NMOD	0
+24	IL-1	IL-1	I-NP	NN	B-protein	25	NMOD	0
+25	beta	beta	I-NP	NN	I-protein	21	PMOD	0
+26	for	for	B-PP	IN	O	20	VMOD	0
+27	24	24	B-NP	CD	O	28	NMOD	0
+28	hours	hour	I-NP	NNS	O	26	PMOD	0
+29	,	,	O	,	O	36	P	0
+30	and	and	O	CC	O	32	NMOD	0
+31	cytokine	cytokine	B-NP	NN	B-protein	32	NMOD	0
+32	levels	level	I-NP	NNS	O	36	SUB	0
+33	in	in	B-PP	IN	O	32	NMOD	0
+34	the	the	B-NP	DT	O	35	NMOD	0
+35	supernatants	supernatant	I-NP	NNS	O	33	PMOD	0
+36	were	be	B-VP	VBD	O	0	ROOT	0
+37	measured	measure	I-VP	VBN	O	36	VC	0
+38	by	by	B-PP	IN	O	37	VMOD	0
+39	ELISA.	ELISA.	B-NP	NN	O	40	NMOD	0
+40	alpha-MSH	alpha-MSH	I-NP	NN	O	38	PMOD	0
+41	alone	alone	B-ADVP	RB	O	40	NMOD	0
+42	had	have	B-VP	VBD	O	36	VMOD	0
+43	little	little	B-NP	JJ	O	44	NMOD	0
+44	effect	effect	I-NP	NN	O	42	OBJ	0
+45	,	,	O	,	O	36	P	0
+46	whereas	whereas	O	IN	O	36	VMOD	0
+47	coincubation	coincubation	B-NP	NN	O	51	SUB	19	coincubation
+48	with	with	B-PP	IN	O	47	NMOD	0
+49	IL-1	IL-1	B-NP	NN	B-protein	50	NMOD	0
+50	beta	beta	I-NP	NN	I-protein	48	PMOD	0
+51	led	lead	B-VP	VBD	O	46	SBAR	17	led
+52	to	to	B-PP	TO	O	51	VMOD	0
+53	marked	marked	B-NP	JJ	O	54	NMOD	0
+54	downregulation	downregulation	I-NP	NN	O	52	PMOD	18	downregulation
+55	of	of	B-PP	IN	O	54	NMOD	0
+56	IL-8	IL-8	B-NP	NN	B-protein	57	NMOD	0
+57	secretion	secretion	I-NP	NN	O	55	PMOD	14	secretion
+58	(	(	O	(	O	65	DEP	0
+59	at	at	B-PP	IN	O	64	NMOD	0
+60	most	most	B-NP	JJS	O	59	AMOD	0
+61	288	288	I-NP	CD	O	59	AMOD	0
+62	+/-	+/-	I-NP	SYM	O	59	AMOD	0
+63	152	152	I-NP	CD	O	59	AMOD	0
+64	ng/mL	ng/mL	I-NP	NN	O	65	DEP	0
+65	)	)	O	)	O	54	NMOD	0
+66	when	when	B-ADVP	WRB	O	51	VMOD	0
+67	compared	compare	B-PP	VBN	O	66	SBAR	0
+68	to	to	B-PP	TO	O	67	VMOD	0
+69	treatment	treatment	B-NP	NN	O	68	PMOD	19	treatment
+70	with	with	B-PP	IN	O	69	NMOD	0
+71	IL-1	IL-1	B-NP	NN	B-protein	72	NMOD	0
+72	beta	beta	I-NP	NN	I-protein	70	PMOD	0
+73	alone	alone	B-ADVP	RB	O	72	NMOD	0
+74	(	(	O	(	O	79	DEP	0
+75	919	919	B-NP	CD	O	77	AMOD	0
+76	+/-	+/-	I-NP	SYM	O	77	AMOD	0
+77	157	157	I-NP	CD	O	78	NMOD	0
+78	ng/mL	ng/mL	I-NP	NN	O	79	DEP	0
+79	)	)	O	)	O	72	NMOD	0
+80	.	.	O	.	O	36	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	19	DEP	0
+5	alpha-MSH	alpha-MSH	B-NP	NN	O	6	SUB	0
+6	exerts	exert	B-VP	VBZ	O	4	SBAR	0
+7	modulatory	modulatory	B-NP	JJ	O	8	NMOD	0
+8	effects	effect	I-NP	NNS	O	6	OBJ	16	effects
+9	on	on	B-PP	IN	O	6	VMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	activation	activation	I-NP	NN	O	9	PMOD	17	activation
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	NF-kappa	NF-kappa	B-NP	NN	B-protein	14	NMOD	0
+14	B	B	I-NP	NN	I-protein	16	NMOD	0
+15	and	and	O	CC	O	16	NMOD	0
+16	AP-1	AP-1	B-NP	NN	B-protein	12	PMOD	0
+17	,	,	O	,	O	19	P	0
+18	and	and	O	CC	O	19	DEP	0
+19	that	that	B-SBAR	IN	O	3	VMOD	0
+20	it	it	B-NP	PRP	O	21	SUB	0
+21	can	can	B-VP	MD	O	19	SBAR	0
+22	regulate	regulate	I-VP	VB	O	21	VC	0
+23	chemokine	chemokine	B-NP	NN	B-protein	24	NMOD	0
+24	secretion	secretion	I-NP	NN	O	22	OBJ	0
+25	in	in	B-PP	IN	O	24	NMOD	0
+26	human	human	B-NP	JJ	B-cell_type	28	NMOD	0
+27	dermal	dermal	I-NP	JJ	I-cell_type	28	NMOD	0
+28	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	25	PMOD	0
+29	.	.	O	.	O	3	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	effects	effect	I-NP	NNS	O	5	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	alpha-MSH	alpha-MSH	B-NP	NN	B-protein	3	PMOD	0
+5	may	may	B-VP	MD	O	0	ROOT	0
+6	have	have	I-VP	VB	O	5	VC	0
+7	important	important	B-NP	JJ	O	9	NMOD	0
+8	regulatory	regulatory	I-NP	JJ	O	9	NMOD	0
+9	functions	function	I-NP	NNS	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	0
+11	extracellular	extracellular	B-NP	JJ	O	13	NMOD	0
+12	matrix	matrix	I-NP	NN	O	13	NMOD	0
+13	composition	composition	I-NP	NN	O	10	PMOD	0
+14	,	,	O	,	O	6	P	0
+15	wound	wound	B-NP	NN	O	16	NMOD	0
+16	healing	healing	I-NP	NN	O	6	VMOD	0
+17	,	,	O	,	O	6	P	0
+18	or	or	O	CC	O	6	VMOD	0
+19	angiogenesis	angiogenesis	B-NP	NN	O	6	VMOD	3	angiogenesis
+20	.	.	O	.	O	5	P	0
+

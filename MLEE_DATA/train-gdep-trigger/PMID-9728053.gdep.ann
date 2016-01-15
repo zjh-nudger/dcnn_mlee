@@ -1,0 +1,255 @@
+1	Store-operated	Store-operated	B-NP	JJ	O	3	NMOD	0
+2	calcium	calcium	I-NP	NN	O	3	NMOD	0
+3	entry	entry	I-NP	NN	O	4	SUB	14	entry
+4	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+5	shape	shape	B-NP	NN	O	6	NMOD	0
+6	change	change	I-NP	NN	O	4	OBJ	0
+7	in	in	B-PP	IN	O	6	NMOD	0
+8	pulmonary	pulmonary	B-NP	JJ	B-cell_type	10	NMOD	0
+9	endothelial	endothelial	I-NP	JJ	I-cell_type	10	NMOD	0
+10	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	0
+11	expressing	express	B-VP	VBG	O	10	NMOD	9	expressing
+12	Trp1	Trp1	B-NP	NN	B-protein	11	OBJ	0
+13	.	.	O	.	O	4	P	0
+
+1	Activation	Activation	B-NP	NN	O	5	SUB	17	Activation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	Ca2+	Ca2+	B-NP	NN	O	4	NMOD	0
+4	entry	entry	I-NP	NN	O	2	PMOD	14	entry
+5	is	be	B-VP	VBZ	O	0	ROOT	0
+6	known	know	I-VP	VBN	O	5	VC	0
+7	to	to	I-VP	TO	O	8	VMOD	0
+8	produce	produce	I-VP	VB	O	6	VMOD	16	produce
+9	endothelial	endothelial	B-NP	JJ	O	12	NMOD	0
+10	cell	cell	I-NP	NN	O	12	NMOD	0
+11	shape	shape	I-NP	NN	O	12	NMOD	0
+12	change	change	I-NP	NN	O	8	OBJ	0
+13	,	,	O	,	O	5	P	0
+14	leading	lead	B-VP	VBG	O	5	VMOD	0
+15	to	to	B-PP	TO	O	14	VMOD	0
+16	increased	increase	B-NP	VBN	O	17	NMOD	0
+17	permeability	permeability	I-NP	NN	O	15	PMOD	0
+18	,	,	O	,	O	5	P	0
+19	leukocyte	leukocyte	B-NP	NN	O	20	NMOD	0
+20	migration	migration	I-NP	NN	O	23	NMOD	14	migration
+21	,	,	O	,	O	23	P	0
+22	and	and	O	CC	O	23	NMOD	0
+23	initiation	initiation	B-NP	NN	O	5	VMOD	17	initiation
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	in	in	B-PP	IN	O	23	NMOD	0
+27	conduit-vessel	conduit-vessel	B-NP	JJ	B-cell_line	29	NMOD	0
+28	endothelial	endothelial	I-NP	JJ	I-cell_line	29	NMOD	0
+29	cells	cell	I-NP	NNS	I-cell_line	26	PMOD	0
+30	.	.	O	.	O	5	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	mode	mode	I-NP	NN	O	9	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	Ca2+	Ca2+	B-NP	NN	O	5	NMOD	0
+5	entry	entry	I-NP	NN	O	3	PMOD	14	entry
+6	regulating	regulate	B-VP	VBG	O	5	NMOD	0
+7	cell	cell	B-NP	NN	O	8	NMOD	0
+8	shape	shape	I-NP	NN	O	6	OBJ	0
+9	is	be	B-VP	VBZ	O	0	ROOT	0
+10	unknown	unknown	B-ADJP	JJ	O	9	PRD	0
+11	.	.	O	.	O	9	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	hypothesized	hypothesize	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	activation	activation	B-NP	NN	O	12	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	store-operated	store-operated	B-NP	JJ	B-protein	8	NMOD	0
+7	Ca2+	Ca2+	I-NP	NN	I-protein	8	NMOD	0
+8	channels	channel	I-NP	NNS	I-protein	5	PMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	SOCs	SOC	B-NP	NNS	B-protein	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	is	be	B-VP	VBZ	O	3	SBAR	0
+13	sufficient	sufficient	B-ADJP	JJ	O	12	PRD	0
+14	to	to	B-VP	TO	O	15	VMOD	0
+15	promote	promote	I-VP	VB	O	13	AMOD	0
+16	cell	cell	B-NP	NN	O	18	NMOD	0
+17	shape	shape	I-NP	NN	O	18	NMOD	0
+18	change	change	I-NP	NN	O	15	OBJ	0
+19	necessary	necessary	B-ADJP	JJ	O	18	NMOD	0
+20	for	for	B-PP	IN	O	19	AMOD	0
+21	these	these	B-NP	DT	O	22	NMOD	0
+22	processes	process	I-NP	NNS	O	20	PMOD	0
+23	.	.	O	.	O	2	P	0
+
+1	SOC	SOC	B-NP	NN	O	2	NMOD	0
+2	activation	activation	I-NP	NN	O	9	SUB	0
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	rat	rat	B-NP	NN	B-cell_line	8	NMOD	0
+5	pulmonary	pulmonary	I-NP	JJ	I-cell_line	8	NMOD	0
+6	arterial	arterial	I-NP	JJ	I-cell_line	8	NMOD	0
+7	endothelial	endothelial	I-NP	JJ	I-cell_line	8	NMOD	0
+8	cells	cell	I-NP	NNS	I-cell_line	3	PMOD	0
+9	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+10	free	free	B-NP	JJ	O	11	AMOD	0
+11	cytosolic	cytosolic	I-NP	JJ	O	12	NMOD	0
+12	Ca2+	Ca2+	I-NP	NN	O	9	OBJ	0
+13	that	that	B-NP	WDT	O	12	NMOD	0
+14	was	be	B-VP	VBD	O	13	SBAR	0
+15	dependent	dependent	B-ADJP	JJ	O	14	PRD	17	dependent
+16	on	on	B-PP	IN	O	15	AMOD	0
+17	a	a	B-NP	DT	O	19	NMOD	0
+18	membrane	membrane	I-NP	NN	O	19	NMOD	0
+19	current	current	I-NP	NN	O	16	PMOD	0
+20	having	have	B-VP	VBG	O	19	NMOD	0
+21	a	a	B-NP	DT	O	24	NMOD	0
+22	net	net	I-NP	JJ	O	24	NMOD	0
+23	inward	inward	I-NP	JJ	O	24	NMOD	0
+24	component	component	I-NP	NN	O	20	OBJ	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	5.45	5.45	B-NP	CD	O	28	AMOD	0
+27	+/-	+/-	I-NP	SYM	O	28	AMOD	0
+28	0.90	0.90	I-NP	CD	O	29	NMOD	0
+29	pA/pF	pA/pF	I-NP	NN	O	25	PMOD	0
+30	at	at	B-PP	IN	O	20	VMOD	0
+31	-80	-80	B-NP	CD	O	32	NMOD	0
+32	mV	mV	I-NP	NN	O	30	PMOD	0
+33	.	.	O	.	O	9	P	0
+
+1	Changes	Change	B-NP	NNS	O	6	SUB	2	Changes
+2	in	in	B-PP	IN	O	1	NMOD	0
+3	endothelial	endothelial	B-NP	JJ	O	5	NMOD	0
+4	cell	cell	I-NP	NN	O	5	NMOD	0
+5	shape	shape	I-NP	NN	O	2	PMOD	0
+6	accompanied	accompany	B-VP	VBD	O	0	ROOT	0
+7	SOC	SOC	B-NP	NN	O	8	NMOD	0
+8	activation	activation	I-NP	NN	O	6	OBJ	0
+9	and	and	O	CC	O	6	VMOD	0
+10	were	be	B-VP	VBD	O	6	VMOD	0
+11	dependent	dependent	B-ADJP	JJ	O	10	PRD	17	dependent
+12	on	on	B-PP	IN	O	11	AMOD	0
+13	Ca2+	Ca2+	B-NP	NN	O	15	NMOD	0
+14	entry-induced	entry-induced	I-NP	JJ	O	15	NMOD	17	induced
+15	reconfiguration	reconfiguration	I-NP	NN	O	12	PMOD	16	reconfiguration
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	peripheral	peripheral	O	JJ	B-protein	22	NMOD	0
+18	(	(	O	(	I-protein	20	DEP	0
+19	cortical	cortical	B-ADJP	JJ	I-protein	20	DEP	0
+20	)	)	O	)	I-protein	17	AMOD	0
+21	filamentous	filamentous	B-NP	JJ	I-protein	22	NMOD	0
+22	actin	actin	I-NP	NN	I-protein	16	PMOD	0
+23	(	(	O	(	O	25	DEP	0
+24	F-actin	F-actin	B-NP	NN	B-protein	25	DEP	0
+25	)	)	O	)	O	22	NMOD	0
+26	.	.	O	.	O	6	P	0
+
+1	Because	Because	B-SBAR	IN	O	25	VMOD	0
+2	the	the	B-NP	DT	O	3	NMOD	0
+3	identity	identity	I-NP	NN	O	8	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	pulmonary	pulmonary	B-NP	JJ	O	7	NMOD	0
+6	endothelial	endothelial	I-NP	JJ	O	7	NMOD	0
+7	SOCs	SOC	I-NP	NNS	O	4	PMOD	0
+8	is	be	B-VP	VBZ	O	1	SBAR	0
+9	unknown	unknown	B-ADJP	JJ	O	8	PRD	0
+10	,	,	O	,	O	25	P	0
+11	but	but	O	CC	O	25	VMOD	0
+12	mammalian	mammalian	B-NP	JJ	B-protein	13	NMOD	0
+13	homologues	homologue	I-NP	NNS	I-protein	25	SUB	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	24	NMOD	0
+16	Drosophila	Drosophila	I-NP	FW	B-DNA	24	NMOD	0
+17	melanogaster	melanogaster	I-NP	FW	I-DNA	24	NMOD	0
+18	transient	transient	I-NP	JJ	I-DNA	24	NMOD	0
+19	receptor	receptor	I-NP	NN	I-DNA	24	NMOD	0
+20	potential	potential	I-NP	NN	I-DNA	24	NMOD	0
+21	(	(	O	(	I-DNA	24	NMOD	0
+22	trp	trp	B-NP	NN	I-DNA	24	NMOD	0
+23	)	)	O	)	I-DNA	24	NMOD	0
+24	gene	gene	B-NP	NN	I-DNA	14	PMOD	0
+25	have	have	B-VP	VBP	O	38	VMOD	0
+26	been	be	I-VP	VBN	O	25	VC	0
+27	proposed	propose	I-VP	VBN	O	26	VC	0
+28	to	to	B-VP	TO	O	29	VMOD	0
+29	form	form	I-VP	VB	O	27	VMOD	0
+30	Ca2+	Ca2+	B-NP	NN	B-protein	32	NMOD	0
+31	entry	entry	I-NP	NN	I-protein	32	NMOD	14	entry
+32	channels	channel	I-NP	NNS	I-protein	29	OBJ	0
+33	in	in	B-PP	IN	O	32	NMOD	0
+34	nonexcitable	nonexcitable	B-NP	JJ	B-cell_type	35	NMOD	0
+35	cells	cell	I-NP	NNS	I-cell_type	33	PMOD	0
+36	,	,	O	,	O	25	P	0
+37	we	we	B-NP	PRP	O	38	SUB	0
+38	performed	perform	B-VP	VBD	O	0	ROOT	0
+39	RT-PCR	RT-PCR	B-NP	NN	O	38	OBJ	0
+40	using	use	B-VP	VBG	O	38	VMOD	0
+41	Trp	Trp	B-NP	NN	B-protein	43	NMOD	0
+42	oligonucleotide	oligonucleotide	I-NP	NN	O	43	NMOD	0
+43	primers	primer	I-NP	NNS	O	40	OBJ	0
+44	in	in	B-PP	IN	O	43	NMOD	0
+45	both	both	O	CC	O	52	NMOD	0
+46	rat	rat	B-NP	NN	O	52	NMOD	0
+47	and	and	O	CC	O	52	NMOD	0
+48	human	human	B-NP	JJ	B-cell_type	52	NMOD	0
+49	pulmonary	pulmonary	I-NP	JJ	I-cell_type	52	NMOD	0
+50	arterial	arterial	I-NP	JJ	I-cell_type	52	NMOD	0
+51	endothelial	endothelial	I-NP	JJ	I-cell_type	52	NMOD	0
+52	cells	cell	I-NP	NNS	I-cell_type	44	PMOD	0
+53	.	.	O	.	O	38	P	0
+
+1	Both	Both	B-NP	DT	O	3	NMOD	0
+2	cell	cell	I-NP	NN	O	3	NMOD	0
+3	types	type	I-NP	NNS	O	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	0
+5	found	find	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	0
+7	express	express	I-VP	VB	O	5	VMOD	9	express
+8	Trp1	Trp1	B-NP	NN	B-protein	7	OBJ	0
+9	,	,	O	,	O	7	P	0
+10	but	but	O	CC	O	12	VMOD	0
+11	neither	neither	B-NP	DT	O	12	SUB	0
+12	expressed	express	B-VP	VBD	O	7	VMOD	9	expressed
+13	Trp3	Trp3	B-NP	NN	B-protein	15	NMOD	0
+14	nor	nor	I-NP	CC	O	15	NMOD	0
+15	Trp6	Trp6	I-NP	NN	B-protein	12	OBJ	0
+16	.	.	O	.	O	4	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	study	study	I-NP	NN	O	3	SUB	0
+3	indicates	indicate	B-VP	VBZ	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	1	1	B-LST	LS	O	15	VMOD	0
+6	)	)	O	)	O	5	DEP	0
+7	Ca2+	Ca2+	B-NP	NN	O	8	NMOD	0
+8	entry	entry	I-NP	NN	O	15	SUB	14	entry
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	pulmonary	pulmonary	B-NP	JJ	B-cell_type	12	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	0
+13	through	through	B-PP	IN	O	8	NMOD	0
+14	SOCs	SOC	B-NP	NNS	B-protein	13	PMOD	0
+15	produces	produce	B-VP	VBZ	O	4	SBAR	16	produces
+16	cell	cell	B-NP	NN	O	18	NMOD	0
+17	shape	shape	I-NP	NN	O	18	NMOD	0
+18	change	change	I-NP	NN	O	33	SUB	0
+19	that	that	B-NP	WDT	O	18	NMOD	0
+20	is	be	B-VP	VBZ	O	19	SBAR	0
+21	dependent	dependent	B-ADJP	JJ	O	20	PRD	0
+22	on	on	B-PP	IN	O	21	AMOD	0
+23	site-specific	site-specific	B-NP	JJ	O	24	NMOD	0
+24	rearrangement	rearrangement	I-NP	NN	O	22	PMOD	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	the	the	B-NP	DT	O	28	NMOD	0
+27	microfilamentous	microfilamentous	I-NP	JJ	O	28	NMOD	0
+28	cytoskeleton	cytoskeleton	I-NP	NN	O	25	PMOD	0
+29	and	and	O	CC	O	33	VMOD	0
+30	2	2	B-LST	LS	O	33	VMOD	0
+31	)	)	O	)	O	30	DEP	0
+32	Trp1	Trp1	B-NP	NN	B-protein	33	SUB	0
+33	may	may	B-VP	MD	O	15	VMOD	0
+34	be	be	I-VP	VB	O	33	VC	0
+35	a	a	B-NP	DT	O	36	NMOD	0
+36	component	component	I-NP	NN	O	34	PRD	0
+37	of	of	B-PP	IN	O	36	NMOD	0
+38	pulmonary	pulmonary	B-NP	JJ	O	40	NMOD	0
+39	endothelial	endothelial	I-NP	JJ	O	40	NMOD	0
+40	SOCs	SOC	I-NP	NNS	O	37	PMOD	0
+41	.	.	O	.	O	3	P	0
+

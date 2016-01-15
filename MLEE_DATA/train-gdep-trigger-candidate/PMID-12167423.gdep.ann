@@ -1,0 +1,186 @@
+1	Molecular	Molecular	B-NP	JJ	O	2	NMOD	-1
+2	characterization	characterization	I-NP	NN	O	0	ROOT	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	angiogenic	angiogenic	B-NP	JJ	O	5	NMOD	3	angiogenic
+5	properties	property	I-NP	NNS	O	3	PMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	human	human	B-NP	JJ	B-cell_type	12	NMOD	-1
+8	oral	oral	I-NP	JJ	I-cell_type	12	NMOD	-1
+9	squamous	squamous	I-NP	JJ	I-cell_type	12	NMOD	-1
+10	cell	cell	I-NP	NN	I-cell_type	12	NMOD	-1
+11	carcinoma	carcinoma	I-NP	NN	I-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	-1
+13	.	.	O	.	O	2	P	-1
+
+1	Little	Little	B-NP	JJ	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	known	know	I-VP	VBN	O	2	VC	-1
+4	about	about	B-PP	IN	O	3	VMOD	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	specificity	specificity	I-NP	NN	O	17	NMOD	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	angiogenic	angiogenic	B-NP	JJ	O	9	NMOD	3	angiogenic
+9	properties	property	I-NP	NNS	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	oral	oral	B-NP	JJ	B-cell_type	13	NMOD	-1
+12	cancer	cancer	I-NP	NN	I-cell_type	13	NMOD	-1
+13	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	-1
+14	and	and	O	CC	O	17	NMOD	-1
+15	the	the	B-NP	DT	O	17	NMOD	-1
+16	possible	possible	I-NP	JJ	O	17	NMOD	-1
+17	mechanisms	mechanism	I-NP	NNS	O	4	PMOD	-1
+18	.	.	O	.	O	2	P	-1
+
+1	Stimulatory	Stimulatory	B-NP	JJ	O	2	NMOD	-1
+2	effects	effect	I-NP	NNS	O	16	SUB	0
+3	on	on	B-PP	IN	O	2	NMOD	-1
+4	proliferation	proliferation	B-NP	NN	O	6	NMOD	1	proliferation
+5	and	and	I-NP	CC	O	6	NMOD	-1
+6	migration	migration	I-NP	NN	O	3	PMOD	14	migration
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	human	human	B-NP	JJ	B-cell_type	12	NMOD	-1
+9	umbilical	umbilical	I-NP	JJ	I-cell_type	12	NMOD	-1
+10	vein	vein	I-NP	NN	I-cell_type	12	NMOD	-1
+11	endothelial	endothelial	I-NP	JJ	I-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	HUVEC	HUVEC	B-NP	NNS	B-cell_line	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	characterized	characterize	B-VP	VBD	O	0	ROOT	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	angiogenic	angiogenic	I-NP	JJ	O	19	NMOD	3	angiogenic
+19	properties	property	I-NP	NNS	O	16	OBJ	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	oral	oral	B-NP	JJ	B-cell_type	23	NMOD	-1
+22	cancer	cancer	I-NP	NN	I-cell_type	23	NMOD	-1
+23	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	-1
+24	but	but	O	CC	O	16	VMOD	-1
+25	not	not	O	RB	O	16	VMOD	-1
+26	normal	normal	B-NP	JJ	B-cell_type	28	NMOD	-1
+27	oral	oral	I-NP	JJ	I-cell_type	28	NMOD	-1
+28	keratinocytes	keratinocyte	I-NP	NNS	I-cell_type	16	VMOD	-1
+29	(	(	O	(	O	31	DEP	-1
+30	NOK	NOK	B-NP	NN	B-protein	31	DEP	-1
+31	)	)	O	)	O	28	NMOD	-1
+32	.	.	O	.	O	16	P	-1
+
+1	ELISA	ELISA	B-NP	NN	O	2	SUB	-1
+2	found	find	B-VP	VBD	O	0	ROOT	0
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	presence	presence	I-NP	NN	O	2	OBJ	0
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	vascular	vascular	B-NP	JJ	B-protein	9	NMOD	-1
+7	endothelial	endothelial	I-NP	JJ	I-protein	9	NMOD	-1
+8	growth	growth	I-NP	NN	I-protein	9	NMOD	0
+9	factors	factor	I-NP	NNS	I-protein	5	PMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	VEGF	VEGF	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	both	both	B-PP	CC	O	5	PMOD	-1
+14	in	in	B-PP	IN	O	5	PMOD	-1
+15	the	the	B-NP	DT	O	19	NMOD	-1
+16	tested	test	I-NP	VBN	O	19	NMOD	-1
+17	oral	oral	I-NP	JJ	B-cell_type	19	NMOD	-1
+18	cancer	cancer	I-NP	NN	I-cell_type	19	NMOD	-1
+19	cells	cell	I-NP	NNS	I-cell_type	21	NMOD	-1
+20	and	and	O	CC	O	21	NMOD	-1
+21	NOK	NOK	B-NP	NN	B-protein	14	PMOD	-1
+22	.	.	O	.	O	2	P	-1
+
+1	Attenuation	Attenuation	B-NP	NN	O	10	SUB	18	Attenuation
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	proangiogenic	proangiogenic	I-NP	JJ	O	5	NMOD	3	angiogenic
+5	effects	effect	I-NP	NNS	O	2	PMOD	0
+6	by	by	B-PP	IN	O	1	NMOD	-1
+7	neutralizing	neutralize	B-VP	VBG	O	9	NMOD	-1
+8	VEGF	VEGF	B-NP	NN	B-protein	9	NMOD	-1
+9	antibodies	antibody	I-NP	NNS	I-protein	6	PMOD	-1
+10	suggests	suggest	B-VP	VBZ	O	0	ROOT	-1
+11	VEGF	VEGF	B-NP	NN	B-protein	12	SUB	-1
+12	play	play	B-VP	VBP	O	10	VMOD	0
+13	a	a	B-NP	DT	O	15	NMOD	-1
+14	key	key	I-NP	JJ	O	15	NMOD	-1
+15	role	role	I-NP	NN	O	12	OBJ	0
+16	in	in	B-PP	IN	O	12	VMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	acquisition	acquisition	I-NP	NN	O	16	PMOD	-1
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	angiogenic	angiogenic	I-NP	JJ	O	22	NMOD	3	angiogenic
+22	phenotype	phenotype	I-NP	NN	O	19	PMOD	-1
+23	in	in	B-PP	IN	O	22	NMOD	-1
+24	oral	oral	B-NP	JJ	B-cell_type	26	NMOD	-1
+25	cancer	cancer	I-NP	NN	I-cell_type	26	NMOD	-1
+26	cells	cell	I-NP	NNS	I-cell_type	23	PMOD	-1
+27	.	.	O	.	O	10	P	-1
+
+1	Western	Western	B-NP	NN	O	2	NMOD	-1
+2	blotting	blotting	I-NP	NN	O	0	ROOT	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	p53	p53	B-NP	NN	B-protein	8	NMOD	-1
+5	and	and	O	CC	O	8	NMOD	-1
+6	murine	murine	B-NP	JJ	B-protein	8	NMOD	-1
+7	double	double	I-NP	JJ	I-protein	8	NMOD	-1
+8	mutant	mutant	I-NP	NN	I-protein	3	PMOD	-1
+9	2	2	I-NP	CD	I-protein	8	NMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	Mdm2	Mdm2	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	8	NMOD	-1
+13	together	together	B-ADVP	RB	O	14	PMOD	-1
+14	with	with	B-PP	IN	O	2	NMOD	-1
+15	p53	p53	B-NP	NN	B-protein	18	NMOD	-1
+16	DNA	DNA	I-NP	NN	O	18	NMOD	-1
+17	sequencing	sequencing	I-NP	NN	O	18	NMOD	-1
+18	analysis	analysis	I-NP	NN	O	14	PMOD	-1
+19	indicate	indicate	B-VP	VBP	O	14	PMOD	-1
+20	that	that	B-SBAR	IN	O	2	NMOD	-1
+21	p53	p53	B-NP	NN	B-protein	23	NMOD	-1
+22	function	function	I-NP	NN	O	23	NMOD	-1
+23	loss	loss	I-NP	NN	O	30	SUB	0
+24	by	by	B-PP	IN	O	23	NMOD	-1
+25	mutation	mutation	B-NP	NN	O	27	NMOD	-1
+26	or	or	I-NP	CC	O	27	NMOD	-1
+27	overexpression	overexpression	I-NP	NN	O	24	PMOD	9	overexpression
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	Mdm2	Mdm2	B-NP	NN	B-protein	28	PMOD	-1
+30	occurred	occur	B-VP	VBD	O	20	SBAR	-1
+31	in	in	B-PP	IN	O	30	VMOD	-1
+32	all	all	B-NP	DT	O	36	NMOD	-1
+33	tested	test	I-NP	VBN	O	36	NMOD	-1
+34	oral	oral	I-NP	JJ	B-cell_type	36	NMOD	-1
+35	cancer	cancer	I-NP	NN	I-cell_type	36	NMOD	-1
+36	cells	cell	I-NP	NNS	I-cell_type	31	PMOD	-1
+37	regardless	regardless	B-ADVP	RB	O	30	VMOD	-1
+38	of	of	B-PP	IN	O	37	AMOD	-1
+39	their	their	B-NP	PRP$	O	40	NMOD	-1
+40	etiology	etiology	I-NP	NN	O	38	PMOD	-1
+41	.	.	O	.	O	2	P	-1
+
+1	In	In	B-PP	IN	O	11	VMOD	-1
+2	summary	summary	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	11	P	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	angiogenic	angiogenic	I-NP	JJ	O	6	NMOD	3	angiogenic
+6	property	property	I-NP	NN	O	11	SUB	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	oral	oral	B-NP	JJ	B-cell_type	10	NMOD	-1
+9	cancer	cancer	I-NP	NN	I-cell_type	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+11	is	be	B-VP	VBZ	O	0	ROOT	-1
+12	mediated	mediate	I-VP	VBN	O	11	VC	16	mediated
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	many	many	B-NP	JJ	O	15	NMOD	-1
+15	factors	factor	I-NP	NNS	O	13	PMOD	-1
+16	in	in	B-PP	IN	O	15	NMOD	-1
+17	addition	addition	B-NP	NN	O	16	PMOD	0
+18	to	to	B-PP	TO	O	17	NMOD	-1
+19	VEGF	VEGF	B-NP	NN	B-protein	23	NMOD	-1
+20	and	and	O	CC	O	23	NMOD	-1
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	functional	functional	I-NP	JJ	O	23	NMOD	-1
+23	status	status	I-NP	NN	O	18	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	p53	p53	B-NP	NN	B-protein	24	PMOD	-1
+26	.	.	O	.	O	11	P	-1
+

@@ -1,0 +1,255 @@
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	antiangiogenic	antiangiogenic	I-NP	JJ	O	4	NMOD	3	angiogenic
+3	agent	agent	I-NP	NN	O	4	NMOD	0
+4	linomide	linomide	I-NP	NN	O	5	SUB	0
+5	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	growth	growth	I-NP	NN	O	8	NMOD	4	growth
+8	rate	rate	I-NP	NN	O	5	OBJ	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	von	von	B-NP	NN	O	13	NMOD	0
+11	Hippel-Lindau	Hippel-Lindau	I-NP	JJ	O	13	NMOD	0
+12	paraganglioma	paraganglioma	I-NP	NN	O	13	NMOD	0
+13	xenografts	xenograft	I-NP	NNS	O	9	PMOD	0
+14	to	to	B-PP	TO	O	8	NMOD	0
+15	mice	mouse	B-NP	NNS	O	14	PMOD	0
+16	.	.	O	.	O	5	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	aim	aim	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	this	this	B-NP	DT	O	5	NMOD	0
+5	study	study	I-NP	NN	O	3	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	to	to	B-VP	TO	O	8	VMOD	0
+8	ascertain	ascertain	I-VP	VB	O	6	PRD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	potential	potential	I-NP	JJ	O	11	NMOD	0
+11	usefulness	usefulness	I-NP	NN	O	8	OBJ	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	16	NMOD	0
+14	antiangiogenic	antiangiogenic	I-NP	JJ	O	16	NMOD	3	angiogenic
+15	compound	compound	I-NP	NN	O	16	NMOD	0
+16	linomide	linomide	I-NP	NN	O	12	PMOD	0
+17	for	for	B-PP	IN	O	11	NMOD	0
+18	treatment	treatment	B-NP	NN	O	17	PMOD	19	treatment
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	von	von	B-NP	NN	O	21	NMOD	0
+21	Hippel-Lindau	Hippel-Lindau	I-NP	NN	O	26	NMOD	0
+22	(	(	O	(	O	24	DEP	0
+23	VHL	VHL	B-NP	NN	O	24	DEP	0
+24	)	)	O	)	O	21	NMOD	0
+25	-related	-related	B-NP	JJ	O	26	NMOD	0
+26	tumors	tumor	I-NP	NNS	O	19	PMOD	0
+27	.	.	O	.	O	6	P	0
+
+1	Paraganglioma	Paraganglioma	B-NP	NN	O	3	NMOD	0
+2	tissue	tissue	I-NP	NN	O	3	NMOD	0
+3	fragments	fragment	I-NP	NNS	O	13	SUB	0
+4	obtained	obtain	B-VP	VBN	O	3	NMOD	19	obtained
+5	at	at	B-PP	IN	O	4	VMOD	0
+6	surgery	surgery	B-NP	NN	O	5	PMOD	0
+7	from	from	B-PP	IN	O	6	NMOD	0
+8	a	a	B-NP	DT	O	12	NMOD	0
+9	VHL	VHL	I-NP	NN	O	12	NMOD	0
+10	type	type	I-NP	NN	O	12	NMOD	0
+11	2a	2a	I-NP	NN	O	12	NMOD	0
+12	patient	patient	I-NP	NN	O	7	PMOD	0
+13	were	be	B-VP	VBD	O	0	ROOT	0
+14	transplanted	transplant	I-VP	VBN	O	15	NMOD	19	transplanted
+15	s.c	s.c	B-NP	NN	O	13	PRD	0
+16	.	.	O	.	O	13	P	0
+
+1	to	to	B-PP	TO	O	0	ROOT	0
+2	male	male	B-NP	JJ	O	4	NMOD	0
+3	BALB/c	BALB/c	I-NP	NN	O	4	NMOD	0
+4	nu/nu	nu/nu	I-NP	NN	O	8	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	nude	nude	O	JJ	O	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	mice	mouse	B-NP	NNS	O	1	PMOD	0
+9	:	:	O	:	O	1	P	0
+10	(	(	B-LST	(	O	11	DEP	0
+11	a	a	I-LST	LS	O	14	NMOD	0
+12	)	)	O	)	O	11	DEP	0
+13	2-3-mm	2-3-mm	B-NP	NN	O	14	NMOD	0
+14	fragments	fragment	I-NP	NNS	O	1	VMOD	0
+15	for	for	B-PP	IN	O	14	NMOD	0
+16	``	``	B-NP	``	O	19	NMOD	0
+17	prevention	prevention	I-NP	NN	O	19	NMOD	0
+18	''	''	I-NP	''	O	19	NMOD	0
+19	experiments	experiment	I-NP	NNS	O	15	PMOD	0
+20	;	;	O	:	O	1	P	0
+21	and	and	O	CC	O	1	VMOD	0
+22	(	(	B-LST	(	O	23	DEP	0
+23	b	b	I-LST	LS	O	26	NMOD	0
+24	)	)	O	)	O	23	DEP	0
+25	2-3-mm	2-3-mm	B-NP	NN	O	26	NMOD	0
+26	fragments	fragment	I-NP	NNS	O	1	VMOD	0
+27	allowed	allow	B-VP	VBN	O	26	NMOD	0
+28	to	to	I-VP	TO	O	29	VMOD	0
+29	grow	grow	I-VP	VB	O	27	VMOD	0
+30	to	to	B-PP	TO	O	29	VMOD	0
+31	1	1	B-NP	CD	O	32	NMOD	0
+32	cm	cm	I-NP	NN	O	30	PMOD	0
+33	for	for	B-PP	IN	O	32	NMOD	0
+34	``	``	B-NP	``	O	37	NMOD	0
+35	intervention	intervention	I-NP	NN	O	37	NMOD	0
+36	''	''	I-NP	''	O	37	NMOD	0
+37	studies	study	I-NP	NNS	O	33	PMOD	0
+38	.	.	O	.	O	1	P	0
+
+1	Both	Both	B-NP	DT	O	2	NMOD	0
+2	groups	group	I-NP	NNS	O	3	SUB	0
+3	received	receive	B-VP	VBD	O	0	ROOT	19	received
+4	either	either	O	CC	O	7	NMOD	0
+5	0.5	0.5	B-NP	CD	O	7	NMOD	0
+6	mg/ml	mg/ml	I-NP	NN	O	7	NMOD	0
+7	linomide	linomide	I-NP	NN	O	3	OBJ	0
+8	in	in	B-PP	IN	O	3	VMOD	0
+9	drinking	drinking	B-NP	NN	O	10	NMOD	0
+10	water	water	I-NP	NN	O	13	NMOD	0
+11	or	or	O	CC	O	13	NMOD	0
+12	acidified	acidified	B-NP	JJ	O	13	NMOD	0
+13	water	water	I-NP	NN	O	8	PMOD	0
+14	and	and	O	CC	O	3	VMOD	0
+15	were	be	B-VP	VBD	O	3	VMOD	0
+16	followed	follow	I-VP	VBN	O	15	VC	0
+17	until	until	B-PP	IN	O	16	VMOD	0
+18	tumor	tumor	B-NP	NN	O	19	NMOD	0
+19	diameter	diameter	I-NP	NN	O	17	PMOD	0
+20	reached	reach	B-VP	VBD	O	15	VMOD	0
+21	3	3	B-NP	CD	O	22	NMOD	0
+22	cm	cm	I-NP	NN	O	20	OBJ	0
+23	or	or	O	CC	O	20	VMOD	0
+24	for	for	B-PP	IN	O	20	VMOD	0
+25	4	4	B-NP	CD	O	26	NMOD	0
+26	weeks	week	I-NP	NNS	O	24	PMOD	0
+27	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	17	VMOD	0
+2	both	both	O	CC	O	7	NMOD	0
+3	the	the	B-NP	DT	O	7	NMOD	0
+4	prevention	prevention	I-NP	NN	O	7	NMOD	0
+5	and	and	I-NP	CC	O	7	NMOD	0
+6	intervention	intervention	I-NP	NN	O	7	NMOD	0
+7	experiments	experiment	I-NP	NNS	O	1	PMOD	0
+8	,	,	O	,	O	17	P	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	significant	significant	I-NP	JJ	O	11	NMOD	0
+11	diminution	diminution	I-NP	NN	O	17	SUB	18	diminution
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	tumor	tumor	B-NP	NN	O	14	NMOD	0
+14	size	size	I-NP	NN	O	16	NMOD	0
+15	and	and	I-NP	CC	O	16	NMOD	0
+16	weight	weight	I-NP	NN	O	12	PMOD	0
+17	was	be	B-VP	VBD	O	0	ROOT	0
+18	observed	observe	I-VP	VBN	O	17	VC	0
+19	in	in	B-PP	IN	O	18	VMOD	0
+20	the	the	B-NP	DT	O	22	NMOD	0
+21	drug-treated	drug-treated	I-NP	JJ	O	22	NMOD	0
+22	animals	animal	I-NP	NNS	O	19	PMOD	0
+23	.	.	O	.	O	17	P	0
+
+1	In	In	B-NP	FW	O	2	AMOD	0
+2	vivo	vivo	I-NP	FW	O	6	NMOD	0
+3	nuclear	nuclear	I-NP	JJ	O	6	NMOD	0
+4	magnetic	magnetic	I-NP	JJ	O	6	NMOD	0
+5	resonance	resonance	I-NP	NN	O	6	NMOD	0
+6	analysis	analysis	I-NP	NN	O	14	SUB	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	tumor	tumor	B-NP	NN	O	10	NMOD	0
+9	blood	blood	I-NP	NN	O	10	NMOD	0
+10	flow	flow	I-NP	NN	O	7	PMOD	0
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	linomide-treated	linomide-treated	B-NP	JJ	O	13	NMOD	19	treated
+13	animals	animal	I-NP	NNS	O	11	PMOD	0
+14	showed	show	B-VP	VBD	O	0	ROOT	0
+15	localization	localization	B-NP	NN	O	14	OBJ	14	localization
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	blood	blood	B-NP	NN	O	18	NMOD	0
+18	vessels	vessel	I-NP	NNS	O	16	PMOD	0
+19	almost	almost	B-ADVP	RB	O	14	VMOD	0
+20	exclusively	exclusively	I-ADVP	RB	O	19	AMOD	0
+21	to	to	B-PP	TO	O	19	AMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	periphery	periphery	I-NP	NN	O	21	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	the	the	B-NP	DT	O	28	NMOD	0
+26	poorly	poorly	I-NP	RB	O	27	AMOD	0
+27	vascularized	vascularize	I-NP	VBN	O	28	NMOD	0
+28	tumors	tumor	I-NP	NNS	O	24	PMOD	0
+29	with	with	B-PP	IN	O	28	NMOD	0
+30	a	a	B-NP	DT	O	32	NMOD	0
+31	significant	significant	I-NP	JJ	O	32	NMOD	0
+32	reduction	reduction	I-NP	NN	O	29	PMOD	0
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	both	both	B-NP	CC	O	38	NMOD	0
+35	vascular	vascular	I-NP	JJ	O	36	NMOD	0
+36	functionality	functionality	I-NP	NN	O	38	NMOD	0
+37	and	and	I-NP	CC	O	38	NMOD	0
+38	vasodilation	vasodilation	I-NP	NN	O	33	PMOD	0
+39	.	.	O	.	O	14	P	0
+
+1	Histological	Histological	B-NP	JJ	O	2	NMOD	0
+2	examination	examination	I-NP	NN	O	8	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	tumors	tumor	B-NP	NNS	O	3	PMOD	0
+5	from	from	B-PP	IN	O	4	NMOD	0
+6	linomide-treated	linomide-treated	B-NP	JJ	O	7	NMOD	19	treated
+7	animals	animal	I-NP	NNS	O	5	PMOD	0
+8	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+9	marked	marked	B-NP	JJ	O	10	NMOD	0
+10	avascularity	avascularity	I-NP	NN	O	8	OBJ	0
+11	.	.	O	.	O	8	P	0
+
+1	Treated	Treat	B-NP	VBN	O	2	NMOD	0
+2	animals	animal	I-NP	NNS	O	4	SUB	0
+3	also	also	B-ADVP	RB	O	4	VMOD	0
+4	displayed	display	B-VP	VBD	O	0	ROOT	0
+5	a	a	B-NP	DT	O	7	NMOD	0
+6	2.4-fold	2.4-fold	I-NP	JJ	O	7	NMOD	0
+7	reduction	reduction	I-NP	NN	O	4	OBJ	18	reduction
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	tumor	tumor	B-NP	NN	B-RNA	14	NMOD	0
+10	vascular	vascular	I-NP	JJ	I-RNA	14	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-RNA	14	NMOD	0
+12	growth	growth	I-NP	NN	I-RNA	14	NMOD	0
+13	factor	factor	I-NP	NN	I-RNA	14	NMOD	0
+14	mRNA	mRNA	I-NP	NN	I-RNA	15	NMOD	0
+15	levels	level	I-NP	NNS	O	8	PMOD	0
+16	.	.	O	.	O	4	P	0
+
+1	Taken	Take	B-VP	VBN	O	6	VMOD	0
+2	together	together	B-ADVP	RB	O	1	VMOD	0
+3	,	,	O	,	O	6	P	0
+4	our	our	B-NP	PRP$	O	5	NMOD	0
+5	data	datum	I-NP	NNS	O	6	SUB	0
+6	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+7	that	that	B-SBAR	IN	O	6	VMOD	0
+8	in	in	B-PP	IN	O	26	VMOD	0
+9	VHL	VHL	B-NP	NN	O	10	NMOD	0
+10	disease	disease	I-NP	NN	O	8	PMOD	0
+11	,	,	O	,	O	26	P	0
+12	therapy	therapy	B-NP	NN	O	26	SUB	0
+13	directed	direct	B-VP	VBN	O	12	NMOD	0
+14	at	at	B-PP	IN	O	13	VMOD	0
+15	inhibition	inhibition	B-NP	NN	O	14	PMOD	18	inhibition
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	constitutively	constitutively	B-NP	RB	O	18	AMOD	0
+18	expressed	express	I-NP	VBN	O	20	NMOD	9	expressed
+19	VEGF	VEGF	I-NP	NN	B-protein	20	NMOD	0
+20	induction	induction	I-NP	NN	O	16	PMOD	17	induction
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	angiogenesis	angiogenesis	B-NP	NN	O	21	PMOD	3	angiogenesis
+23	by	by	B-PP	IN	O	15	NMOD	0
+24	VHL	VHL	B-NP	NN	O	25	NMOD	0
+25	tumors	tumor	I-NP	NNS	O	23	PMOD	0
+26	may	may	B-VP	MD	O	7	SBAR	0
+27	constitute	constitute	I-VP	VB	O	26	VC	0
+28	an	an	B-NP	DT	O	31	NMOD	0
+29	effective	effective	I-NP	JJ	O	30	AMOD	0
+30	medical	medical	I-NP	JJ	O	31	NMOD	0
+31	treatment	treatment	I-NP	NN	O	27	OBJ	0
+32	.	.	O	.	O	6	P	0
+

@@ -1,0 +1,107 @@
+1	Retinal	Retinal	B-NP	JJ	O	2	NMOD	0
+2	revascularisation	revascularisation	I-NP	NN	O	0	ROOT	3	revascularisation
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	diabetic	diabetic	B-NP	JJ	O	5	NMOD	0
+5	retinopathy	retinopathy	I-NP	NN	O	3	PMOD	0
+6	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	case	case	I-NP	NN	O	3	NMOD	0
+3	history	history	I-NP	NN	O	16	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	a	a	B-NP	DT	O	8	NMOD	0
+6	33-year-old	33-year-old	I-NP	JJ	O	8	NMOD	0
+7	diabetic	diabetic	I-NP	JJ	O	8	NMOD	0
+8	patient	patient	I-NP	NN	O	4	PMOD	0
+9	who	who	B-NP	WP	O	3	NMOD	0
+10	has	have	B-VP	VBZ	O	9	SBAR	0
+11	had	have	I-VP	VBN	O	12	NMOD	0
+12	diabetes	diabete	B-NP	NNS	O	10	OBJ	0
+13	for	for	B-PP	IN	O	10	VMOD	0
+14	24	24	B-NP	CD	O	15	NMOD	0
+15	years	year	I-NP	NNS	O	13	PMOD	0
+16	is	be	B-VP	VBZ	O	0	ROOT	0
+17	presented	present	I-VP	VBN	O	16	VC	0
+18	.	.	O	.	O	16	P	0
+
+1	When	When	B-ADVP	WRB	O	0	ROOT	0
+2	first	first	B-VP	RB	O	3	VMOD	0
+3	seen	see	I-VP	VBN	O	1	SBAR	0
+4	in	in	B-PP	IN	O	3	VMOD	0
+5	1975	1975	B-NP	CD	O	7	VMOD	0
+6	he	he	B-NP	PRP	O	7	SUB	0
+7	had	have	B-VP	VBD	O	4	SBAR	0
+8	bilateral	bilateral	B-NP	JJ	O	10	NMOD	0
+9	proliferative	proliferative	I-NP	JJ	O	10	NMOD	0
+10	retinopathy	retinopathy	I-NP	NN	O	7	OBJ	0
+11	with	with	B-PP	IN	O	10	NMOD	0
+12	new	new	B-NP	JJ	O	13	NMOD	0
+13	vessels	vessel	I-NP	NNS	O	11	PMOD	0
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	retinal	retinal	I-NP	JJ	O	17	NMOD	0
+17	periphery	periphery	I-NP	NN	O	14	PMOD	0
+18	.	.	O	.	O	1	P	0
+
+1	He	He	B-NP	PRP	O	2	SUB	0
+2	had	have	B-VP	VBD	O	0	ROOT	0
+3	large	large	B-NP	JJ	O	4	NMOD	0
+4	areas	area	I-NP	NNS	O	2	OBJ	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	capillary	capillary	B-NP	JJ	O	8	NMOD	0
+7	non-perfusion	non-perfusion	I-NP	JJ	O	8	NMOD	0
+8	lateral	lateral	I-NP	JJ	O	5	PMOD	0
+9	to	to	B-PP	TO	O	8	NMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	macula	macula	I-NP	NN	O	9	PMOD	0
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	right	right	I-NP	JJ	O	15	NMOD	0
+15	eye	eye	I-NP	NN	O	12	PMOD	0
+16	associated	associate	B-VP	VBN	O	15	NMOD	0
+17	with	with	B-PP	IN	O	16	VMOD	0
+18	the	the	B-NP	DT	O	20	NMOD	0
+19	new	new	I-NP	JJ	O	20	NMOD	0
+20	vessels	vessel	I-NP	NNS	O	17	PMOD	0
+21	.	.	O	.	O	2	P	0
+
+1	Nine	Nine	B-NP	CD	O	2	NMOD	0
+2	years	year	I-NP	NNS	O	0	ROOT	0
+3	later	later	B-ADVP	RB	O	2	NMOD	0
+4	,	,	O	,	O	3	AMOD	0
+5	after	after	B-SBAR	IN	O	4	VMOD	0
+6	extensive	extensive	B-NP	JJ	O	8	NMOD	0
+7	repeated	repeat	I-NP	VBN	O	8	NMOD	0
+8	photocoagulation	photocoagulation	I-NP	NN	O	10	NMOD	0
+9	,	,	O	,	O	10	P	0
+10	revascularisation	revascularisation	B-NP	NN	O	17	SUB	3	revascularisation
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	large	large	B-NP	JJ	O	13	NMOD	0
+13	areas	area	I-NP	NNS	O	11	PMOD	0
+14	previously	previously	B-ADVP	RB	O	16	VMOD	0
+15	not	not	B-VP	RB	O	14	AMOD	0
+16	perfused	perfuse	I-VP	VBN	O	10	NMOD	0
+17	were	be	B-VP	VBD	O	5	SBAR	0
+18	seen	see	I-VP	VBN	O	17	VC	0
+19	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	vessels	vessel	I-NP	NNS	O	3	SUB	0
+3	are	be	B-VP	VBP	O	0	ROOT	0
+4	in	in	B-PP	IN	O	3	PRD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	plane	plane	I-NP	NN	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	retina	retina	I-NP	NN	O	7	PMOD	0
+10	and	and	O	CC	O	3	VMOD	0
+11	do	do	B-VP	VBP	O	3	VMOD	0
+12	not	not	I-VP	RB	O	11	VMOD	0
+13	have	have	I-VP	VB	O	11	VC	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	appearance	appearance	I-NP	NN	O	13	OBJ	2	appearance
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	new	new	B-NP	JJ	O	18	NMOD	0
+18	vessels	vessel	I-NP	NNS	O	16	PMOD	0
+19	.	.	O	.	O	3	P	0
+

@@ -1,0 +1,280 @@
+1	Endosialin/TEM	Endosialin/TEM	B-NP	NN	B-protein	2	NMOD	0
+2	1/CD248	1/CD248	I-NP	NN	I-protein	3	SUB	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	pericyte	pericyte	I-NP	NN	O	6	NMOD	0
+6	marker	marker	I-NP	NN	O	3	PRD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	embryonic	embryonic	B-NP	JJ	O	11	NMOD	0
+9	and	and	I-NP	CC	O	11	NMOD	0
+10	tumor	tumor	I-NP	NN	O	11	NMOD	0
+11	neovascularization	neovascularization	I-NP	NN	O	7	PMOD	3	neovascularization
+12	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	formation	formation	I-NP	NN	O	9	SUB	2	formation
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	functional	functional	B-NP	JJ	O	6	AMOD	0
+5	,	,	I-NP	,	O	6	P	0
+6	mature	mature	I-NP	JJ	O	8	NMOD	0
+7	blood	blood	I-NP	NN	O	8	NMOD	0
+8	vessels	vessel	I-NP	NNS	O	3	PMOD	0
+9	depends	depend	B-VP	VBZ	O	0	ROOT	17	depends
+10	on	on	B-PP	IN	O	9	VMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	interaction	interaction	I-NP	NN	O	10	PMOD	15	interaction
+13	between	between	B-PP	IN	O	12	NMOD	0
+14	endothelial	endothelial	B-NP	JJ	B-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	17	NMOD	0
+16	and	and	O	CC	O	17	NMOD	0
+17	pericytes	pericyte	B-NP	NNS	B-cell_type	13	PMOD	0
+18	.	.	O	.	O	9	P	0
+
+1	Commonality	Commonality	B-NP	NNP	O	2	SUB	0
+2	exists	exist	B-VP	VBZ	O	0	ROOT	0
+3	in	in	B-PP	IN	O	2	VMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	processes	process	I-NP	NNS	O	3	PMOD	0
+6	involved	involve	B-VP	VBN	O	5	NMOD	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	vasculature	vasculature	B-NP	JJ	O	9	NMOD	0
+9	development	development	I-NP	NN	O	7	PMOD	2	development
+10	between	between	B-PP	IN	O	9	NMOD	0
+11	tissues	tissue	B-NP	NNS	O	10	PMOD	0
+12	whether	whether	B-SBAR	IN	O	2	VMOD	0
+13	healthy	healthy	B-ADJP	JJ	O	15	AMOD	0
+14	or	or	I-ADJP	CC	O	15	AMOD	0
+15	diseased	diseased	I-ADJP	JJ	O	12	SBAR	0
+16	.	.	O	.	O	2	P	0
+
+1	Endosialin/TEM	Endosialin/TEM	B-NP	NN	O	3	SUB	0
+2	1	1	I-NP	CD	O	1	NMOD	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	a	a	B-NP	DT	O	7	NMOD	0
+5	cell	cell	I-NP	NN	B-protein	7	NMOD	0
+6	membrane	membrane	I-NP	NN	I-protein	7	NMOD	0
+7	protein	protein	I-NP	NN	I-protein	3	PRD	0
+8	that	that	B-NP	WDT	O	7	NMOD	0
+9	is	be	B-VP	VBZ	O	8	SBAR	0
+10	expressed	express	I-VP	VBN	O	9	VC	9	expressed
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	blood	blood	B-NP	NN	O	13	NMOD	0
+13	vessels	vessel	I-NP	NNS	O	11	PMOD	0
+14	during	during	B-PP	IN	O	10	VMOD	0
+15	embryogenesis	embryogenesis	B-NP	NN	O	17	NMOD	0
+16	and	and	I-NP	CC	O	17	NMOD	0
+17	tumorigenesis	tumorigenesis	I-NP	NN	O	14	PMOD	0
+18	but	but	B-PP	CC	O	14	PMOD	0
+19	not	not	B-PP	RB	O	20	PMOD	0
+20	in	in	I-PP	IN	O	14	PMOD	0
+21	normal	normal	B-NP	JJ	O	23	NMOD	0
+22	mature	mature	I-NP	JJ	O	23	NMOD	0
+23	vessels	vessel	I-NP	NNS	O	20	PMOD	0
+24	.	.	O	.	O	3	P	0
+
+1	Antibodies	Antibody	B-NP	NNS	B-protein	2	SUB	0
+2	developed	develop	B-VP	VBD	O	0	ROOT	0
+3	to	to	B-PP	TO	O	2	VMOD	0
+4	human	human	B-NP	JJ	B-protein	5	NMOD	0
+5	endosialin	endosialin	I-NP	NN	I-protein	3	PMOD	0
+6	were	be	B-VP	VBD	O	2	VMOD	0
+7	used	use	I-VP	VBN	O	6	VC	0
+8	to	to	B-VP	TO	O	9	VMOD	0
+9	investigate	investigate	I-VP	VB	O	6	VMOD	0
+10	endosialin	endosialin	B-NP	NN	B-protein	11	NMOD	0
+11	expression	expression	B-NP	NN	O	13	NMOD	9	expression
+12	and	and	O	CC	O	13	NMOD	0
+13	function	function	B-NP	NN	O	9	OBJ	0
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	human	human	B-NP	JJ	B-cell_type	18	NMOD	0
+16	prenatal	prenatal	I-NP	JJ	I-cell_type	18	NMOD	0
+17	brain	brain	I-NP	NN	I-cell_type	18	NMOD	0
+18	pericytes	pericyte	I-NP	NNS	I-cell_type	20	NMOD	0
+19	and	and	I-NP	CC	O	20	NMOD	0
+20	pericytes	pericyte	I-NP	NNS	O	14	PMOD	0
+21	residing	reside	B-VP	VBG	O	20	NMOD	0
+22	in	in	B-PP	IN	O	21	VMOD	0
+23	tumors	tumor	B-NP	NNS	O	22	PMOD	0
+24	.	.	O	.	O	2	P	0
+
+1	Anti-endosialin	Anti-endosialin	B-NP	NNP	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	capable	capable	B-ADJP	JJ	O	2	PRD	0
+4	of	of	B-PP	IN	O	3	AMOD	0
+5	preventing	prevent	B-VP	VBG	O	4	PMOD	18	preventing
+6	pericyte	pericyte	B-NP	NN	O	8	NMOD	0
+7	tube	tube	I-NP	NN	O	8	NMOD	0
+8	formation	formation	I-NP	NN	O	5	OBJ	2	formation
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	culture	culture	B-NP	NN	O	9	PMOD	0
+11	and	and	O	CC	O	2	VMOD	0
+12	inhibited	inhibit	B-VP	VBD	O	2	VMOD	0
+13	migration	migration	B-NP	NN	O	12	OBJ	0
+14	.	.	O	.	O	2	P	0
+
+1	Brain	Brain	B-NP	NN	O	2	NMOD	0
+2	pericytes	pericyte	I-NP	NNS	O	5	SUB	0
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	culture	culture	B-NP	NN	O	3	PMOD	0
+5	had	have	B-VP	VBD	O	0	ROOT	0
+6	higher	high	B-NP	JJR	O	7	NMOD	0
+7	levels	level	I-NP	NNS	O	5	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	endosialin/TEM	endosialin/TEM	B-NP	NN	B-protein	8	PMOD	0
+10	1	1	I-NP	CD	I-protein	9	NMOD	0
+11	than	than	B-PP	IN	O	7	NMOD	0
+12	TEMs-2	TEMs-2	B-NP	NN	O	23	NMOD	0
+13	,	,	O	,	O	23	P	0
+14	-3	-3	B-NP	CD	O	23	NMOD	0
+15	,	,	I-NP	,	O	23	P	0
+16	-4	-4	I-NP	CD	O	23	NMOD	0
+17	,	,	I-NP	,	O	23	P	0
+18	-5	-5	I-NP	CD	O	23	NMOD	0
+19	,	,	I-NP	,	O	23	P	0
+20	-7	-7	I-NP	CD	O	23	NMOD	0
+21	,	,	O	,	O	23	P	0
+22	and	and	O	CC	O	23	NMOD	0
+23	-8	-8	B-NP	CD	O	11	SBAR	0
+24	.	.	O	.	O	5	P	0
+
+1	Immunocytochemistry	Immunocytochemistry	B-NP	NN	O	2	SUB	0
+2	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	endosialin	endosialin	B-NP	NN	B-protein	5	SUB	0
+5	was	be	B-VP	VBD	O	3	SBAR	0
+6	present	present	B-ADJP	JJ	O	5	PRD	14	present
+7	in	in	B-PP	IN	O	6	AMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	cytoplasmic	cytoplasmic	I-NP	JJ	O	10	NMOD	0
+10	body	body	I-NP	NN	O	7	PMOD	0
+11	and	and	B-PP	CC	O	7	PMOD	0
+12	in	in	B-PP	IN	O	7	PMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	elongated	elongate	I-NP	VBN	O	15	NMOD	0
+15	extensions	extension	I-NP	NNS	O	12	PMOD	0
+16	essential	essential	B-ADJP	JJ	O	15	NMOD	0
+17	to	to	B-PP	TO	O	16	AMOD	0
+18	pericyte	pericyte	B-NP	NN	O	19	NMOD	0
+19	function	function	I-NP	NN	O	17	PMOD	0
+20	.	.	O	.	O	2	P	0
+
+1	Transgenic	Transgenic	B-NP	JJ	O	2	NMOD	19	Transgenic
+2	mice	mouse	I-NP	NNS	O	13	SUB	0
+3	engineered	engineer	B-VP	VBN	O	2	NMOD	0
+4	to	to	B-VP	TO	O	5	VMOD	0
+5	express	express	I-VP	VB	O	3	VMOD	9	express
+6	human	human	B-NP	JJ	B-protein	7	NMOD	0
+7	endosialin	endosialin	I-NP	NN	I-protein	5	OBJ	0
+8	bred	breed	B-VP	VBN	O	7	NMOD	0
+9	on	on	B-PP	IN	O	8	VMOD	0
+10	an	an	B-NP	DT	O	12	NMOD	0
+11	immunocompromised	immunocompromised	I-NP	JJ	O	12	NMOD	0
+12	background	background	I-NP	NN	O	9	PMOD	0
+13	allowed	allow	B-VP	VBD	O	0	ROOT	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	growth	growth	I-NP	NN	O	13	OBJ	4	growth
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	human	human	B-NP	JJ	O	19	NMOD	0
+18	tumor	tumor	I-NP	NN	O	19	NMOD	0
+19	xenografts	xenograft	I-NP	NNS	O	16	PMOD	0
+20	.	.	O	.	O	13	P	0
+
+1	In	In	B-PP	IN	O	17	VMOD	0
+2	human	human	B-NP	JJ	O	8	NMOD	0
+3	colon	colon	I-NP	NN	O	5	NMOD	0
+4	carcinoma	carcinoma	I-NP	NN	O	5	NMOD	0
+5	Colo205	Colo205	I-NP	NN	O	8	NMOD	0
+6	and	and	I-NP	CC	O	8	NMOD	0
+7	HT29	HT29	I-NP	NN	O	8	NMOD	0
+8	xenografts	xenograft	I-NP	NNS	O	1	PMOD	0
+9	grown	grow	B-VP	VBN	O	8	NMOD	4	grown
+10	in	in	B-PP	IN	O	9	VMOD	0
+11	human	human	B-NP	JJ	O	13	NMOD	0
+12	endosialin-transgenic	endosialin-transgenic	I-NP	JJ	O	13	NMOD	19	transgenic
+13	mice	mouse	I-NP	NNS	O	10	PMOD	0
+14	,	,	O	,	O	17	P	0
+15	endosialin	endosialin	B-NP	NN	O	16	NMOD	0
+16	expression	expression	I-NP	NN	O	17	SUB	9	expression
+17	was	be	B-VP	VBD	O	0	ROOT	0
+18	largely	largely	I-VP	RB	O	17	VMOD	0
+19	confined	confine	I-VP	VBN	O	17	VC	0
+20	to	to	B-PP	TO	O	19	VMOD	0
+21	NG2-expressing	NG2-expressing	B-NP	JJ	B-cell_type	23	NMOD	9	expressing
+22	perivascular	perivascular	I-NP	JJ	I-cell_type	23	NMOD	0
+23	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	0
+24	and	and	O	CC	O	19	VMOD	0
+25	not	not	B-NP	RB	O	19	VMOD	0
+26	CD31-positive	CD31-positive	I-NP	JJ	B-cell_type	28	NMOD	9	positive
+27	endothelial	endothelial	I-NP	JJ	I-cell_type	28	NMOD	0
+28	cells	cell	I-NP	NNS	I-cell_type	25	PMOD	0
+29	.	.	O	.	O	17	P	0
+
+1	Similar	Similar	B-NP	JJ	O	2	NMOD	0
+2	methods	method	I-NP	NNS	O	10	SUB	0
+3	applied	apply	B-VP	VBN	O	2	NMOD	0
+4	to	to	B-PP	TO	O	3	VMOD	0
+5	human	human	B-NP	JJ	O	9	NMOD	0
+6	ovarian	ovarian	I-NP	JJ	O	9	NMOD	0
+7	and	and	I-NP	CC	O	9	NMOD	0
+8	colon	colon	I-NP	NN	O	9	NMOD	0
+9	tumors	tumor	I-NP	NNS	O	4	PMOD	0
+10	confirmed	confirm	B-VP	VBD	O	0	ROOT	0
+11	endosialin	endosialin	B-NP	NN	O	12	NMOD	0
+12	expression	expression	I-NP	NN	O	10	OBJ	9	expression
+13	by	by	B-PP	IN	O	10	VMOD	0
+14	pericytes	pericyte	B-NP	NNS	B-cell_type	13	PMOD	0
+15	.	.	O	.	O	10	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	endosialin	endosialin	B-NP	NN	B-protein	6	SUB	0
+6	is	be	B-VP	VBZ	O	4	SBAR	0
+7	strongly	strongly	I-VP	RB	O	6	VMOD	0
+8	expressed	express	I-VP	VBN	O	6	VC	9	expressed
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	pericytes	pericyte	B-NP	NNS	B-cell_type	9	PMOD	0
+11	during	during	B-PP	IN	O	8	VMOD	0
+12	periods	period	B-NP	NNS	O	11	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	active	active	B-NP	JJ	O	15	NMOD	0
+15	angiogenesis	angiogenesis	I-NP	NN	O	13	PMOD	3	angiogenesis
+16	during	during	B-PP	IN	O	8	VMOD	0
+17	embryonic	embryonic	B-NP	JJ	O	20	NMOD	0
+18	and	and	I-NP	CC	O	20	NMOD	0
+19	tumor	tumor	I-NP	NN	O	20	NMOD	0
+20	development	development	I-NP	NN	O	16	PMOD	2	development
+21	.	.	O	.	O	3	P	0
+
+1	Anti-endosialin	Anti-endosialin	B-NP	JJ	B-protein	2	NMOD	0
+2	antibodies	antibody	I-NP	NNS	I-protein	3	SUB	0
+3	may	may	B-VP	MD	O	0	ROOT	0
+4	have	have	I-VP	VB	O	3	VC	0
+5	value	value	B-NP	NN	O	4	OBJ	0
+6	in	in	B-PP	IN	O	4	VMOD	0
+7	identifying	identify	B-VP	VBG	O	6	PMOD	0
+8	vasculature	vasculature	B-NP	NN	O	7	OBJ	0
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	malignant	malignant	B-NP	JJ	O	11	NMOD	0
+11	tissues	tissue	I-NP	NNS	O	9	PMOD	0
+12	.	.	O	.	O	3	P	0
+
+1	With	With	B-PP	IN	O	8	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	appropriate	appropriate	I-NP	JJ	O	4	NMOD	0
+4	agent	agent	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	8	P	0
+6	targeting	target	B-VP	VBG	O	8	SUB	19	targeting
+7	endosialin	endosialin	B-NP	NN	O	6	OBJ	0
+8	may	may	B-VP	MD	O	0	ROOT	0
+9	interfere	interfere	I-VP	VB	O	8	VC	18	interfere
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	blood	blood	B-NP	NN	O	13	NMOD	0
+12	vessel	vessel	I-NP	NN	O	13	NMOD	0
+13	growth	growth	I-NP	NN	O	10	PMOD	4	growth
+14	during	during	B-PP	IN	O	9	VMOD	0
+15	tumor	tumor	B-NP	NN	O	16	NMOD	0
+16	development	development	I-NP	NN	O	14	PMOD	2	development
+17	.	.	O	.	O	8	P	0
+

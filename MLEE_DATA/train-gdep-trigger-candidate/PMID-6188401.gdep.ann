@@ -1,0 +1,322 @@
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	5	NMOD	3	Angiogenesis
+2	:	:	O	:	O	1	P	-1
+3	initiation	initiation	B-NP	NN	O	1	NMOD	17	initiation
+4	and	and	I-NP	CC	O	1	NMOD	-1
+5	control	control	I-NP	NN	O	0	ROOT	16	control
+6	.	.	O	.	O	5	P	-1
+
+1	From	From	B-PP	IN	O	15	VMOD	-1
+2	in	in	B-NP	FW	O	3	AMOD	-1
+3	vivo	vivo	I-NP	FW	O	4	NMOD	-1
+4	experiments	experiment	I-NP	NNS	O	1	PMOD	-1
+5	using	use	B-VP	VBG	O	4	NMOD	-1
+6	new	new	B-NP	JJ	O	7	NMOD	-1
+7	methods	method	I-NP	NNS	O	5	OBJ	-1
+8	such	such	B-PP	JJ	O	9	PMOD	-1
+9	as	as	I-PP	IN	O	7	NMOD	-1
+10	the	the	B-NP	DT	O	12	NMOD	-1
+11	rabbit	rabbit	I-NP	NN	O	12	NMOD	-1
+12	cornea	cornea	I-NP	NN	O	9	PMOD	-1
+13	,	,	O	,	O	15	P	-1
+14	it	it	B-NP	PRP	O	15	SUB	-1
+15	is	be	B-VP	VBZ	O	0	ROOT	-1
+16	now	now	I-VP	RB	O	15	VMOD	-1
+17	becoming	become	I-VP	VBG	O	15	VC	-1
+18	clear	clear	B-ADJP	JJ	O	17	PRD	-1
+19	that	that	B-SBAR	IN	O	17	VMOD	-1
+20	the	the	B-NP	DT	O	21	NMOD	-1
+21	growth	growth	I-NP	NN	O	25	SUB	4	growth
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	a	a	B-NP	DT	O	24	NMOD	-1
+24	capillary	capillary	I-NP	NN	O	22	PMOD	-1
+25	involves	involve	B-VP	VBZ	O	19	SBAR	16	involves
+26	an	an	B-NP	DT	O	28	NMOD	-1
+27	ordered	order	I-NP	VBN	O	28	NMOD	-1
+28	sequence	sequence	I-NP	NN	O	25	OBJ	-1
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	events	event	B-NP	NNS	O	29	PMOD	-1
+31	that	that	B-NP	WDT	O	28	NMOD	-1
+32	includes	include	B-VP	VBZ	O	31	SBAR	-1
+33	lysis	lysis	B-NP	NN	O	44	NMOD	6	lysis
+34	of	of	B-PP	IN	O	33	NMOD	-1
+35	the	the	B-NP	DT	O	37	NMOD	-1
+36	basement	basement	I-NP	NN	O	37	NMOD	-1
+37	membrane	membrane	I-NP	NN	O	34	PMOD	-1
+38	of	of	B-PP	IN	O	37	NMOD	-1
+39	a	a	B-NP	DT	O	41	NMOD	-1
+40	parent	parent	I-NP	NN	O	41	NMOD	-1
+41	venule	venule	I-NP	NN	O	38	PMOD	-1
+42	,	,	O	,	O	44	P	-1
+43	directional	directional	B-NP	JJ	O	44	NMOD	-1
+44	migration	migration	I-NP	NN	O	62	NMOD	14	migration
+45	of	of	B-PP	IN	O	44	NMOD	-1
+46	capillary	capillary	B-NP	JJ	B-cell_type	48	NMOD	-1
+47	endothelial	endothelial	I-NP	JJ	I-cell_type	48	NMOD	-1
+48	cells	cell	I-NP	NNS	I-cell_type	45	PMOD	-1
+49	toward	toward	B-PP	IN	O	44	NMOD	-1
+50	the	the	B-NP	DT	O	52	NMOD	-1
+51	angiogenic	angiogenic	I-NP	JJ	O	52	NMOD	3	angiogenic
+52	stimulus	stimulus	I-NP	NN	O	49	PMOD	-1
+53	,	,	O	,	O	62	P	-1
+54	lumen	lumen	B-NP	NN	O	55	NMOD	-1
+55	formation	formation	I-NP	NN	O	62	NMOD	2	formation
+56	,	,	O	,	O	62	P	-1
+57	development	development	B-NP	NN	O	62	NMOD	2	development
+58	of	of	B-PP	IN	O	57	NMOD	-1
+59	branches	branch	B-NP	NNS	O	58	PMOD	-1
+60	,	,	O	,	O	62	P	-1
+61	and	and	O	CC	O	62	NMOD	-1
+62	anastomosis	anastomosis	B-NP	NN	O	32	OBJ	2	anastomosis
+63	of	of	B-PP	IN	O	62	NMOD	-1
+64	the	the	B-NP	DT	O	65	NMOD	-1
+65	tip	tip	I-NP	NN	O	63	PMOD	-1
+66	of	of	B-PP	IN	O	65	NMOD	-1
+67	one	one	B-NP	CD	O	68	NMOD	-1
+68	tube	tube	I-NP	NN	O	66	PMOD	-1
+69	with	with	B-PP	IN	O	62	NMOD	-1
+70	another	another	B-NP	DT	O	69	PMOD	-1
+71	to	to	B-VP	TO	O	72	VMOD	-1
+72	form	form	I-VP	VB	O	70	SBAR	0
+73	a	a	B-NP	DT	O	74	NMOD	-1
+74	loop	loop	I-NP	NN	O	72	OBJ	-1
+75	.	.	O	.	O	15	P	-1
+
+1	It	It	B-NP	PRP	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	also	also	B-ADVP	RB	O	2	VMOD	-1
+4	clear	clear	B-ADJP	JJ	O	2	PRD	-1
+5	that	that	B-SBAR	IN	O	2	VMOD	-1
+6	diffusible	diffusible	B-NP	JJ	O	8	NMOD	-1
+7	angiogenic	angiogenic	I-NP	JJ	O	8	NMOD	3	angiogenic
+8	stimuli	stimulus	I-NP	NNS	O	9	SUB	-1
+9	can	can	B-VP	MD	O	5	SBAR	-1
+10	be	be	I-VP	VB	O	9	VC	-1
+11	released	release	I-VP	VBN	O	10	VC	0
+12	not	not	B-CONJP	RB	O	11	VMOD	-1
+13	only	only	I-CONJP	RB	O	12	DEP	-1
+14	from	from	B-PP	IN	O	12	PMOD	-1
+15	most	most	B-NP	JJS	O	16	AMOD	-1
+16	solid	solid	I-NP	JJ	O	17	NMOD	-1
+17	tumors	tumor	I-NP	NNS	O	14	PMOD	-1
+18	,	,	O	,	O	12	P	-1
+19	but	but	B-CONJP	CC	O	12	PMOD	-1
+20	also	also	I-CONJP	RB	O	19	DEP	-1
+21	from	from	B-PP	IN	O	12	PMOD	-1
+22	at	at	B-NP	IN	O	26	NMOD	-1
+23	least	least	I-NP	JJS	O	22	AMOD	-1
+24	three	three	I-NP	CD	O	22	AMOD	-1
+25	non-neoplastic	non-neoplastic	I-NP	JJ	B-cell_type	26	NMOD	-1
+26	cells	cell	I-NP	NNS	I-cell_type	21	PMOD	-1
+27	.	.	O	.	O	2	P	-1
+
+1	These	These	B-NP	DT	O	2	SUB	-1
+2	include	include	B-VP	VBP	O	0	ROOT	-1
+3	activated	activate	B-NP	VBN	B-cell_type	4	NMOD	17	activated
+4	macrophages	macrophage	I-NP	NNS	I-cell_type	10	NMOD	-1
+5	,	,	O	,	O	10	P	-1
+6	sensitized	sensitize	B-NP	VBN	B-cell_type	7	NMOD	-1
+7	lymphocytes	lymphocyte	I-NP	NNS	I-cell_type	10	NMOD	-1
+8	,	,	O	,	O	10	P	-1
+9	and	and	O	CC	O	10	NMOD	-1
+10	adipocytes	adipocyte	B-NP	NNS	B-cell_type	2	OBJ	-1
+11	.	.	O	.	O	2	P	-1
+
+1	Other	Other	B-NP	JJ	O	3	NMOD	-1
+2	normal	normal	I-NP	JJ	O	3	NMOD	-1
+3	tissues	tissue	I-NP	NNS	O	4	SUB	-1
+4	can	can	B-VP	MD	O	20	VMOD	-1
+5	also	also	I-VP	RB	O	4	VMOD	-1
+6	stimulate	stimulate	I-VP	VB	O	4	VC	17	stimulate
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	OBJ	3	angiogenesis
+8	,	,	O	,	O	20	P	-1
+9	but	but	O	CC	O	20	VMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	type	type	I-NP	NN	O	20	SUB	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	cell	cell	B-NP	NN	O	12	PMOD	-1
+14	giving	give	B-VP	VBG	O	13	NMOD	-1
+15	rise	rise	B-NP	NN	O	14	OBJ	-1
+16	to	to	B-PP	TO	O	14	VMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	angiogenic	angiogenic	I-NP	JJ	O	19	NMOD	3	angiogenic
+19	stimulus	stimulus	I-NP	NN	O	16	PMOD	-1
+20	is	be	B-VP	VBZ	O	29	VMOD	-1
+21	unknown	unknown	B-ADJP	JJ	O	20	PRD	-1
+22	,	,	O	,	O	29	P	-1
+23	and	and	O	CC	O	25	NMOD	-1
+24	the	the	B-NP	DT	O	25	NMOD	-1
+25	period	period	I-NP	NN	O	29	SUB	-1
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	angiogenic	angiogenic	B-NP	JJ	O	28	NMOD	3	angiogenic
+28	stimulation	stimulation	I-NP	NN	O	26	PMOD	17	stimulation
+29	is	be	B-VP	VBZ	O	0	ROOT	-1
+30	brief	brief	B-ADJP	JJ	O	29	PRD	-1
+31	.	.	O	.	O	29	P	-1
+
+1	With	With	B-PP	IN	O	12	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	recent	recent	I-NP	JJ	O	4	NMOD	-1
+4	ability	ability	I-NP	NN	O	1	PMOD	0
+5	to	to	B-PP	TO	O	4	NMOD	-1
+6	clone	clone	B-NP	NN	O	9	NMOD	19	clone
+7	capillary	capillary	I-NP	JJ	O	9	NMOD	-1
+8	endothelial	endothelial	I-NP	JJ	B-cell_type	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_type	5	PMOD	-1
+10	and	and	O	CC	O	1	PMOD	-1
+11	to	to	B-VP	TO	O	12	VMOD	-1
+12	carry	carry	I-VP	VB	O	19	VMOD	-1
+13	them	them	B-NP	PRP	O	12	OBJ	-1
+14	in	in	B-PP	IN	O	12	VMOD	-1
+15	long-term	long-term	B-NP	JJ	B-cell_line	16	NMOD	-1
+16	culture	culture	I-NP	NN	I-cell_line	14	PMOD	19	culture
+17	,	,	O	,	O	19	P	-1
+18	it	it	B-NP	PRP	O	19	SUB	-1
+19	has	have	B-VP	VBZ	O	0	ROOT	-1
+20	been	be	I-VP	VBN	O	19	VC	-1
+21	possible	possible	B-ADJP	JJ	O	20	PRD	-1
+22	to	to	B-VP	TO	O	24	VMOD	-1
+23	further	further	I-VP	RB	O	24	VMOD	-1
+24	delineate	delineate	I-VP	VB	O	20	VMOD	-1
+25	the	the	B-NP	DT	O	26	NMOD	-1
+26	mechanism	mechanism	I-NP	NN	O	24	OBJ	0
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	capillary	capillary	B-NP	JJ	O	29	NMOD	-1
+29	growth	growth	I-NP	NN	O	27	PMOD	4	growth
+30	.	.	O	.	O	19	P	-1
+
+1	In	In	B-NP	FW	O	2	AMOD	-1
+2	vitro	vitro	I-NP	FW	O	3	NMOD	-1
+3	studies	study	I-NP	NNS	O	4	SUB	-1
+4	have	have	B-VP	VBP	O	0	ROOT	-1
+5	shown	show	I-VP	VBN	O	4	VC	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	mast	mast	I-NP	NN	O	9	NMOD	-1
+9	cell	cell	I-NP	NN	O	10	SUB	-1
+10	seems	seem	B-VP	VBZ	O	6	SBAR	-1
+11	to	to	I-VP	TO	O	12	VMOD	-1
+12	behave	behave	I-VP	VB	O	10	VMOD	-1
+13	as	as	B-PP	IN	O	12	VMOD	-1
+14	a	a	B-NP	DT	O	16	NMOD	-1
+15	helper	helper	I-NP	NN	O	16	NMOD	-1
+16	cell	cell	I-NP	NN	O	13	PMOD	-1
+17	for	for	B-PP	IN	O	16	NMOD	-1
+18	capillary	capillary	B-NP	JJ	B-cell_type	20	NMOD	-1
+19	endothelial	endothelial	I-NP	JJ	I-cell_type	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	-1
+21	,	,	O	,	O	12	P	-1
+22	in	in	B-PP	IN	O	12	VMOD	-1
+23	some	some	B-NP	DT	O	24	NMOD	-1
+24	way	way	I-NP	NN	O	22	PMOD	-1
+25	speeding	speed	B-VP	VBG	O	24	NMOD	-1
+26	up	up	B-PRT	RP	O	25	VMOD	-1
+27	their	their	B-NP	PRP$	O	28	NMOD	-1
+28	rate	rate	I-NP	NN	O	25	OBJ	-1
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	directional	directional	B-NP	JJ	O	31	NMOD	-1
+31	migration	migration	I-NP	NN	O	29	PMOD	14	migration
+32	.	.	O	.	O	4	P	-1
+
+1	At	At	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	writing	writing	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	heparin	heparin	B-NP	NN	O	6	SUB	-1
+6	appears	appear	B-VP	VBZ	O	0	ROOT	-1
+7	to	to	I-VP	TO	O	8	VMOD	-1
+8	be	be	I-VP	VB	O	6	VMOD	-1
+9	the	the	B-NP	DT	O	13	NMOD	-1
+10	principal	principal	I-NP	JJ	B-protein	13	NMOD	-1
+11	mast	mast	I-NP	NN	I-protein	13	NMOD	-1
+12	cell	cell	I-NP	NN	I-protein	13	NMOD	-1
+13	factor	factor	I-NP	NN	I-protein	8	PRD	-1
+14	responsible	responsible	B-ADJP	JJ	O	13	NMOD	0
+15	for	for	B-PP	IN	O	14	AMOD	-1
+16	this	this	B-NP	DT	O	17	NMOD	-1
+17	effect	effect	I-NP	NN	O	15	PMOD	16	effect
+18	on	on	B-PP	IN	O	17	NMOD	-1
+19	capillary	capillary	B-NP	JJ	B-cell_type	21	NMOD	-1
+20	endothelial	endothelial	I-NP	JJ	I-cell_type	21	NMOD	-1
+21	cells	cell	I-NP	NNS	I-cell_type	18	PMOD	-1
+22	.	.	O	.	O	6	P	-1
+
+1	One	One	B-NP	CD	O	3	NMOD	-1
+2	theoretical	theoretical	I-NP	JJ	O	3	NMOD	-1
+3	possibility	possibility	I-NP	NN	O	4	SUB	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	PRD	-1
+6	mast	mast	B-NP	NN	B-cell_type	7	NMOD	-1
+7	cells	cell	I-NP	NNS	I-cell_type	8	SUB	-1
+8	may	may	B-VP	MD	O	5	SBAR	-1
+9	prepare	prepare	I-VP	VB	O	8	VC	2	prepare
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	matrix	matrix	I-NP	NN	O	9	OBJ	-1
+12	,	,	O	,	O	9	P	-1
+13	perhaps	perhaps	B-ADVP	RB	O	9	VMOD	-1
+14	by	by	B-PP	IN	O	13	PMOD	-1
+15	slow	slow	B-NP	JJ	O	16	NMOD	0
+16	release	release	I-NP	NN	O	14	PMOD	14	release
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	heparin	heparin	B-NP	NN	O	17	PMOD	-1
+19	,	,	O	,	O	4	P	-1
+20	so	so	B-SBAR	IN	O	4	VMOD	-1
+21	that	that	I-SBAR	IN	O	20	DEP	-1
+22	capillary	capillary	B-NP	JJ	O	23	NMOD	-1
+23	sprouts	sprout	I-NP	NNS	O	24	SUB	-1
+24	can	can	B-VP	MD	O	21	SBAR	-1
+25	more	more	I-VP	RBR	O	26	AMOD	-1
+26	easily	easily	I-VP	RB	O	24	VMOD	-1
+27	move	move	I-VP	VB	O	24	VC	14	move
+28	through	through	B-PP	IN	O	27	VMOD	0
+29	it	it	B-NP	PRP	O	28	PMOD	-1
+30	toward	toward	B-PP	IN	O	27	VMOD	-1
+31	their	their	B-NP	PRP$	O	33	NMOD	-1
+32	angiogenic	angiogenic	I-NP	JJ	O	33	NMOD	3	angiogenic
+33	target	target	I-NP	NN	O	30	PMOD	0
+34	.	.	O	.	O	4	P	-1
+
+1	While	While	B-SBAR	IN	O	17	VMOD	-1
+2	the	the	B-NP	DT	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	9	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	PMOD	3	angiogenesis
+6	as	as	B-PP	IN	O	3	NMOD	-1
+7	a	a	B-NP	DT	O	8	NMOD	-1
+8	phenomenon	phenomenon	I-NP	NN	O	6	PMOD	-1
+9	is	be	B-VP	VBZ	O	1	SBAR	-1
+10	still	still	B-ADVP	RB	O	9	VMOD	-1
+11	in	in	B-PP	IN	O	9	VMOD	-1
+12	an	an	B-NP	DT	O	14	NMOD	-1
+13	early	early	I-NP	JJ	O	14	NMOD	-1
+14	phase	phase	I-NP	NN	O	11	PMOD	-1
+15	,	,	O	,	O	17	P	-1
+16	it	it	B-NP	PRP	O	17	SUB	-1
+17	has	have	B-VP	VBZ	O	0	ROOT	-1
+18	become	become	I-VP	VBN	O	17	VC	-1
+19	possible	possible	B-ADJP	JJ	O	18	PRD	-1
+20	,	,	O	,	O	18	P	-1
+21	by	by	B-PP	IN	O	18	VMOD	-1
+22	using	use	B-VP	VBG	O	21	PMOD	-1
+23	a	a	B-NP	DT	O	24	NMOD	-1
+24	combination	combination	I-NP	NN	O	22	OBJ	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	in	in	B-ADVP	FW	O	27	AMOD	-1
+27	vitro	vitro	I-ADVP	FW	O	31	NMOD	-1
+28	and	and	O	CC	O	31	NMOD	-1
+29	in	in	B-NP	FW	O	30	AMOD	-1
+30	vivo	vivo	I-NP	FW	O	31	NMOD	-1
+31	techniques	technique	I-NP	NNS	O	25	PMOD	-1
+32	,	,	O	,	O	18	P	-1
+33	to	to	B-VP	TO	O	36	VMOD	-1
+34	more	more	I-VP	RBR	O	35	AMOD	-1
+35	thoroughly	thoroughly	I-VP	RB	O	36	VMOD	-1
+36	understand	understand	I-VP	VB	O	18	VMOD	-1
+37	the	the	B-NP	DT	O	40	NMOD	-1
+38	initiation	initiation	I-NP	NN	O	40	NMOD	17	initiation
+39	and	and	O	CC	O	40	NMOD	-1
+40	control	control	B-NP	NN	O	36	OBJ	16	control
+41	of	of	B-PP	IN	O	40	NMOD	-1
+42	capillary	capillary	B-NP	JJ	O	43	NMOD	-1
+43	growth	growth	I-NP	NN	O	41	PMOD	4	growth
+44	.	.	O	.	O	17	P	-1
+

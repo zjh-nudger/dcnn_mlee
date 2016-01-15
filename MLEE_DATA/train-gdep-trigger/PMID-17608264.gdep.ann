@@ -1,0 +1,327 @@
+1	An	An	B-NP	DT	O	2	NMOD	0
+2	assay	assay	I-NP	NN	O	0	ROOT	0
+3	to	to	B-VP	TO	O	4	VMOD	0
+4	measure	measure	I-VP	VB	O	2	NMOD	0
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	OBJ	3	angiogenesis
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	human	human	B-NP	JJ	O	9	NMOD	0
+8	fat	fat	I-NP	JJ	O	9	NMOD	0
+9	tissue	tissue	I-NP	NN	O	6	PMOD	0
+10	.	.	O	.	O	2	P	0
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Inhibition	Inhibition	B-NP	NN	O	1	NMOD	18	Inhibition
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	PMOD	3	angiogenesis
+6	reverses	reverse	B-VP	VBZ	O	3	VMOD	0
+7	rodent	rodent	B-NP	NN	O	8	NMOD	0
+8	obesity	obesity	I-NP	NN	O	6	OBJ	0
+9	.	.	O	.	O	1	P	0
+
+1	A	A	B-NP	DT	O	3	NMOD	0
+2	validated	validate	I-NP	VBN	O	3	NMOD	0
+3	assay	assay	I-NP	NN	O	8	SUB	0
+4	in	in	B-PP	IN	O	3	NMOD	0
+5	human	human	B-NP	JJ	O	7	NMOD	0
+6	fat	fat	I-NP	JJ	O	7	NMOD	0
+7	tissue	tissue	I-NP	NN	O	4	PMOD	0
+8	is	be	B-VP	VBZ	O	0	ROOT	0
+9	needed	need	I-VP	VBN	O	8	VC	0
+10	to	to	B-VP	TO	O	11	VMOD	0
+11	study	study	I-VP	VB	O	8	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	role	role	I-NP	NN	O	11	OBJ	16	role
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	angiogenesis	angiogenesis	B-NP	NN	O	14	PMOD	3	angiogenesis
+16	in	in	B-PP	IN	O	13	NMOD	0
+17	human	human	B-NP	JJ	O	18	NMOD	0
+18	obesity	obesity	I-NP	NN	O	16	PMOD	0
+19	.	.	O	.	O	8	P	0
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Human	Human	B-NP	JJ	B-DNA	6	NMOD	0
+4	fat	fat	I-NP	JJ	I-DNA	6	NMOD	0
+5	tissue	tissue	I-NP	NN	I-DNA	6	NMOD	0
+6	fragments	fragment	I-NP	NNS	I-DNA	9	SUB	0
+7	from	from	B-PP	IN	O	6	NMOD	0
+8	surgery	surgery	B-NP	NN	O	7	PMOD	19	surgery
+9	were	be	B-VP	VBD	O	1	NMOD	0
+10	placed	place	I-VP	VBN	O	9	VC	19	placed
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	96-well	96-well	B-NP	JJ	O	13	NMOD	0
+13	plates	plate	I-NP	NNS	O	11	PMOD	0
+14	,	,	O	,	O	10	P	0
+15	embedded	embed	B-VP	VBN	O	10	VMOD	19	embedded
+16	in	in	B-PP	IN	O	15	AMOD	0
+17	fibrin	fibrin	B-NP	NN	O	19	NMOD	0
+18	thrombin	thrombin	I-NP	NN	O	19	NMOD	0
+19	clot	clot	I-NP	NN	O	16	PMOD	0
+20	and	and	O	CC	O	10	VMOD	0
+21	overlaid	overlay	B-VP	VBN	O	10	VMOD	19	overlaid
+22	with	with	B-PP	IN	O	21	VMOD	0
+23	cell	cell	B-NP	NN	O	25	NMOD	0
+24	culture	culture	I-NP	NN	O	25	NMOD	19	culture
+25	media	medium	I-NP	NNS	O	22	PMOD	0
+26	containing	contain	B-VP	VBG	O	25	NMOD	0
+27	20	20	B-NP	CD	O	28	AMOD	0
+28	%	%	I-NP	NN	O	31	NMOD	0
+29	fetal	fetal	I-NP	JJ	O	31	NMOD	0
+30	bovine	bovine	I-NP	JJ	O	31	NMOD	0
+31	serum	serum	I-NP	NN	O	26	OBJ	0
+32	.	.	O	.	O	1	P	0
+
+1	After	After	B-PP	IN	O	7	VMOD	0
+2	15	15	B-NP	CD	O	3	NMOD	0
+3	days	day	I-NP	NNS	O	1	PMOD	0
+4	,	,	O	,	O	7	P	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	clots	clot	I-NP	NNS	O	7	SUB	0
+7	were	be	B-VP	VBD	O	0	ROOT	0
+8	examined	examine	I-VP	VBN	O	7	VC	0
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	histology	histology	B-NP	NN	O	13	NMOD	0
+11	and	and	I-NP	CC	O	13	NMOD	0
+12	electron	electron	I-NP	NN	O	13	NMOD	0
+13	microscopy	microscopy	I-NP	NN	O	9	PMOD	0
+14	.	.	O	.	O	7	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	effect	effect	I-NP	NN	O	11	NMOD	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	taxol	taxol	B-NP	NN	O	3	PMOD	0
+5	,	,	O	,	O	11	P	0
+6	cobalt	cobalt	B-NP	NN	O	7	NMOD	0
+7	chloride	chloride	I-NP	NN	O	11	NMOD	0
+8	and	and	O	CC	O	11	NMOD	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	heparin-steroid	heparin-steroid	I-NP	JJ	O	11	NMOD	0
+11	combination	combination	I-NP	NN	O	12	SUB	0
+12	was	be	B-VP	VBD	O	0	ROOT	0
+13	tested	test	I-VP	VBN	O	12	VC	0
+14	in	in	B-PP	IN	O	13	VMOD	0
+15	the	the	B-NP	DT	O	18	NMOD	0
+16	fat	fat	I-NP	JJ	O	18	NMOD	0
+17	tissue	tissue	I-NP	NN	O	18	NMOD	0
+18	assay	assay	I-NP	NN	O	14	PMOD	0
+19	and	and	O	CC	O	13	VMOD	0
+20	compared	compare	B-VP	VBN	O	13	VMOD	0
+21	to	to	B-PP	TO	O	20	PMOD	0
+22	the	the	B-NP	DT	O	28	NMOD	0
+23	validated	validate	I-NP	VBN	O	28	NMOD	0
+24	human	human	I-NP	JJ	O	28	NMOD	0
+25	placental	placental	I-NP	JJ	O	28	NMOD	0
+26	vein	vein	I-NP	NN	O	28	NMOD	0
+27	angiogenesis	angiogenesis	I-NP	NN	O	28	NMOD	3	angiogenesis
+28	model	model	I-NP	NN	O	21	PMOD	0
+29	(	(	O	(	O	31	DEP	0
+30	HPVAM	HPVAM	B-NP	NN	B-protein	31	DEP	0
+31	)	)	O	)	O	28	NMOD	0
+32	.	.	O	.	O	12	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Blood	Blood	B-NP	NN	O	4	NMOD	0
+4	vessels	vessel	I-NP	NNS	O	5	SUB	0
+5	initiated	initiate	B-VP	VBD	O	1	NMOD	17	initiated
+6	growth	growth	B-NP	NN	O	5	OBJ	4	growth
+7	and	and	O	CC	O	5	VMOD	0
+8	elongated	elongate	B-VP	VBN	O	5	VMOD	4	elongated
+9	from	from	B-PP	IN	O	8	VMOD	0
+10	the	the	B-NP	DT	O	13	NMOD	0
+11	fat	fat	I-NP	JJ	O	13	NMOD	0
+12	tissue	tissue	I-NP	NN	O	13	NMOD	0
+13	fragments	fragment	I-NP	NNS	O	9	PMOD	0
+14	over	over	B-PP	IN	O	8	VMOD	0
+15	15	15	B-NP	CD	O	16	NMOD	0
+16	days	day	I-NP	NNS	O	14	PMOD	0
+17	.	.	O	.	O	1	P	0
+
+1	Presence	Presence	B-NP	NN	O	5	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	blood	blood	B-NP	NN	O	4	NMOD	0
+4	vessels	vessel	I-NP	NNS	O	2	PMOD	0
+5	was	be	B-VP	VBD	O	0	ROOT	0
+6	confirmed	confirm	I-VP	VBN	O	5	VC	0
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	histology	histology	B-NP	NN	O	11	NMOD	0
+9	and	and	I-NP	CC	O	11	NMOD	0
+10	electron	electron	I-NP	NN	O	11	NMOD	0
+11	microscopy	microscopy	I-NP	NN	O	7	PMOD	0
+12	.	.	O	.	O	5	P	0
+
+1	Taxol	Taxol	B-NP	NN	O	14	SUB	0
+2	at	at	B-PP	IN	O	1	NMOD	0
+3	10	10	B-NP	CD	O	8	NMOD	0
+4	(	(	O	(	O	6	DEP	0
+5	-6	-6	B-NP	CD	O	6	DEP	0
+6	)	)	O	)	O	3	NMOD	0
+7	and	and	O	CC	O	8	NMOD	0
+8	10	10	B-NP	CD	O	12	NMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	-7	-7	B-NP	CD	O	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	M	M	B-NP	NN	O	2	PMOD	0
+13	completely	completely	B-ADVP	RB	O	14	VMOD	0
+14	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+15	angiogenesis	angiogenesis	B-NP	NN	O	14	OBJ	3	angiogenesis
+16	,	,	O	,	O	14	P	0
+17	while	while	B-SBAR	IN	O	14	VMOD	0
+18	Taxol	Taxol	B-NP	NN	B-protein	24	NMOD	0
+19	10	10	I-NP	CD	I-protein	18	NMOD	0
+20	(	(	O	(	O	18	NMOD	0
+21	-8	-8	B-NP	CD	O	18	NMOD	0
+22	)	)	O	)	O	18	NMOD	0
+23	and	and	O	CC	O	24	NMOD	0
+24	10	10	B-NP	CD	O	28	NMOD	0
+25	(	(	O	(	O	27	DEP	0
+26	-9	-9	B-NP	CD	O	27	DEP	0
+27	)	)	O	)	O	24	NMOD	0
+28	M	M	B-NP	NN	O	31	NMOD	0
+29	and	and	O	CC	O	31	NMOD	0
+30	the	the	B-NP	DT	O	31	NMOD	0
+31	heparin-steroid	heparin-steroid	I-NP	NN	O	33	SUB	0
+32	partially	partially	B-ADVP	RB	O	33	VMOD	0
+33	inhibited	inhibit	B-VP	VBD	O	17	SBAR	18	inhibited
+34	angiogenesis	angiogenesis	B-NP	NN	O	33	OBJ	3	angiogenesis
+35	.	.	O	.	O	14	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	response	response	I-NP	NN	O	7	SUB	0
+3	to	to	B-PP	TO	O	2	NMOD	0
+4	taxol	taxol	B-NP	NN	O	6	NMOD	0
+5	and	and	I-NP	CC	O	6	NMOD	0
+6	heparin-steroid	heparin-steroid	I-NP	NN	O	3	PMOD	0
+7	was	be	B-VP	VBD	O	0	ROOT	0
+8	similar	similar	B-ADJP	JJ	O	7	PRD	0
+9	to	to	B-PP	TO	O	8	AMOD	0
+10	that	that	B-NP	DT	O	9	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	HPVAM	HPVAM	I-NP	NN	B-protein	18	NMOD	0
+14	,	,	O	,	O	18	P	0
+15	a	a	B-NP	DT	O	18	NMOD	0
+16	validated	validate	I-NP	VBN	O	18	NMOD	0
+17	angiogenesis	angiogenesis	I-NP	NN	O	18	NMOD	3	angiogenesis
+18	assay	assay	I-NP	NN	O	11	PMOD	0
+19	.	.	O	.	O	7	P	0
+
+1	Cobalt	Cobalt	B-NP	NN	O	2	NMOD	0
+2	chloride	chloride	I-NP	NN	O	5	NMOD	0
+3	,	,	O	,	O	5	P	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	stimulator	stimulator	I-NP	NN	O	14	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	vascular	vascular	B-NP	JJ	B-protein	10	NMOD	0
+8	endothelial	endothelial	I-NP	JJ	I-protein	10	NMOD	0
+9	growth	growth	I-NP	NN	I-protein	10	NMOD	0
+10	factor	factor	I-NP	NN	I-protein	6	PMOD	0
+11	(	(	O	(	O	13	DEP	0
+12	VEGF	VEGF	B-NP	NN	B-protein	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	stimulated	stimulate	B-VP	VBD	O	40	VMOD	17	stimulated
+15	angiogenesis	angiogenesis	B-NP	NN	O	16	NMOD	3	angiogenesis
+16	initiation	initiation	I-NP	NN	O	14	OBJ	17	initiation
+17	at	at	B-PP	IN	O	14	VMOD	0
+18	10	10	B-NP	CD	O	22	NMOD	0
+19	(	(	O	(	O	21	DEP	0
+20	-9	-9	B-NP	CD	O	21	DEP	0
+21	)	)	O	)	O	18	NMOD	0
+22	M	M	B-NP	NN	O	17	PMOD	0
+23	in	in	B-PP	IN	O	22	NMOD	0
+24	fat	fat	B-NP	JJ	O	25	NMOD	0
+25	tissue	tissue	I-NP	NN	O	23	PMOD	0
+26	and	and	O	CC	O	40	VMOD	0
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	HPVAM	HPVAM	I-NP	NN	B-protein	40	SUB	0
+29	,	,	O	,	O	40	P	0
+30	but	but	O	CC	O	40	VMOD	0
+31	at	at	B-PP	IN	O	40	VMOD	0
+32	10	10	B-NP	CD	O	36	AMOD	0
+33	(	(	O	(	O	35	DEP	0
+34	-10	-10	B-NP	CD	O	35	DEP	0
+35	)	)	O	)	O	32	NMOD	0
+36	M	M	B-NP	NN	O	39	NMOD	0
+37	blood	blood	I-NP	NN	O	39	NMOD	0
+38	vessel	vessel	I-NP	NN	O	39	NMOD	0
+39	growth	growth	I-NP	NN	O	31	PMOD	4	growth
+40	was	be	B-VP	VBD	O	0	ROOT	0
+41	stimulated	stimulate	I-VP	VBN	O	40	VC	17	stimulated
+42	only	only	B-ADVP	RB	O	43	PMOD	0
+43	in	in	B-PP	IN	O	41	VMOD	0
+44	the	the	B-NP	DT	O	46	NMOD	0
+45	fat	fat	I-NP	NN	O	46	NMOD	0
+46	assay	assay	I-NP	NN	O	43	PMOD	0
+47	.	.	O	.	O	40	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	5	NMOD	0
+2	:	:	O	:	O	5	P	0
+3	This	This	B-NP	DT	O	5	NMOD	0
+4	angiogenesis	angiogenesis	I-NP	NN	O	5	NMOD	3	angiogenesis
+5	assay	assay	I-NP	NN	O	11	SUB	0
+6	based	base	B-PP	VBN	O	5	NMOD	0
+7	on	on	B-PP	IN	O	6	PMOD	0
+8	human	human	B-NP	JJ	O	10	NMOD	0
+9	fat	fat	I-NP	JJ	O	10	NMOD	0
+10	tissue	tissue	I-NP	NN	O	7	PMOD	0
+11	uses	use	B-VP	VBZ	O	0	ROOT	0
+12	three-dimensionally	three-dimensionally	B-NP	RB	O	15	NMOD	0
+13	intact	intact	I-NP	JJ	O	15	NMOD	0
+14	human	human	I-NP	JJ	O	15	NMOD	0
+15	tissue	tissue	I-NP	NN	O	11	OBJ	0
+16	.	.	O	.	O	11	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	vessels	vessel	I-NP	NNS	O	3	SUB	0
+3	are	be	B-VP	VBP	O	0	ROOT	0
+4	derived	derive	I-VP	VBN	O	3	VC	0
+5	from	from	B-PP	IN	O	4	VMOD	0
+6	quiescient	quiescient	B-NP	JJ	O	7	NMOD	0
+7	vessels	vessel	I-NP	NNS	O	5	PMOD	0
+8	within	within	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	fat	fat	I-NP	NN	O	8	PMOD	0
+11	.	.	O	.	O	3	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	properties	property	I-NP	NNS	O	3	SUB	0
+3	allow	allow	B-VP	VBP	O	0	ROOT	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	angiogenic	angiogenic	I-NP	JJ	O	6	NMOD	3	angiogenic
+6	switch	switch	I-NP	NN	O	3	OBJ	0
+7	to	to	B-VP	TO	O	8	VMOD	0
+8	be	be	I-VP	VB	O	6	NMOD	0
+9	evaluated	evaluate	I-VP	VBN	O	8	VC	0
+10	in	in	B-PP	IN	O	9	VMOD	0
+11	an	an	B-NP	DT	O	14	NMOD	0
+12	in	in	I-NP	FW	O	13	AMOD	0
+13	vitro	vitro	I-NP	FW	O	14	NMOD	0
+14	setting	setting	I-NP	NN	O	10	PMOD	0
+15	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	angiogenic	angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	response	response	I-NP	NN	O	7	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	fat	fat	B-NP	JJ	O	6	NMOD	0
+6	tissue	tissue	I-NP	NN	O	4	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	not	not	O	RB	O	7	VMOD	0
+9	identical	identical	B-ADJP	JJ	O	7	PRD	0
+10	to	to	B-PP	TO	O	9	AMOD	0
+11	placental	placental	B-NP	JJ	O	12	NMOD	0
+12	tissue	tissue	I-NP	NN	O	10	PMOD	0
+13	.	.	O	.	O	7	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	assay	assay	I-NP	NN	O	3	SUB	0
+3	allows	allow	B-VP	VBZ	O	0	ROOT	0
+4	exploration	exploration	B-NP	NN	O	3	OBJ	17	exploration
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	angiogenesis	angiogenesis	B-NP	NN	O	5	PMOD	3	angiogenesis
+7	in	in	B-PP	IN	O	4	NMOD	0
+8	fat	fat	B-NP	JJ	O	9	NMOD	0
+9	tissue	tissue	I-NP	NN	O	7	PMOD	0
+10	.	.	O	.	O	3	P	0
+

@@ -1,0 +1,230 @@
+1	Regulation	Regulation	B-NP	NN	O	16	NMOD	16	Regulation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	composition	composition	I-NP	NN	O	2	PMOD	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	extracellular	extracellular	I-NP	JJ	O	8	NMOD	0
+8	matrix	matrix	I-NP	NN	O	5	PMOD	0
+9	by	by	B-PP	IN	O	1	NMOD	0
+10	low	low	B-NP	JJ	B-protein	14	NMOD	0
+11	density	density	I-NP	NN	I-protein	14	NMOD	0
+12	lipoprotein	lipoprotein	I-NP	NN	I-protein	14	NMOD	0
+13	receptor-related	receptor-related	I-NP	JJ	I-protein	14	NMOD	0
+14	protein-1	protein-1	I-NP	NN	I-protein	9	PMOD	0
+15	:	:	O	:	O	1	P	0
+16	activities	activity	B-NP	NNS	O	0	ROOT	0
+17	based	base	B-VP	VBN	O	16	NMOD	0
+18	on	on	B-PP	IN	O	17	PMOD	0
+19	regulation	regulation	B-NP	NN	O	18	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	mRNA	mRNA	B-NP	NN	B-RNA	22	NMOD	0
+22	expression	expression	I-NP	NN	O	20	PMOD	0
+23	.	.	O	.	O	16	P	0
+
+1	Low	Low	B-NP	JJ	B-protein	5	NMOD	0
+2	density	density	I-NP	NN	I-protein	5	NMOD	0
+3	lipoprotein	lipoprotein	I-NP	NN	I-protein	5	NMOD	0
+4	receptor-related	receptor-related	I-NP	JJ	I-protein	5	NMOD	0
+5	protein-1	protein-1	I-NP	NN	I-protein	9	SUB	0
+6	(	(	O	(	O	8	DEP	0
+7	LRP-1	LRP-1	B-NP	NN	B-protein	8	DEP	0
+8	)	)	O	)	O	5	NMOD	0
+9	is	be	B-VP	VBZ	O	0	ROOT	0
+10	a	a	B-NP	DT	O	12	NMOD	0
+11	catabolic	catabolic	I-NP	JJ	B-protein	12	NMOD	0
+12	receptor	receptor	I-NP	NN	I-protein	9	PRD	0
+13	for	for	B-PP	IN	O	12	NMOD	0
+14	extracellular	extracellular	B-NP	JJ	B-protein	20	NMOD	0
+15	matrix	matrix	I-NP	NN	I-protein	20	NMOD	0
+16	(	(	O	(	I-protein	20	NMOD	0
+17	ECM	ECM	B-NP	NN	I-protein	20	NMOD	0
+18	)	)	O	)	I-protein	20	NMOD	0
+19	structural	structural	B-NP	JJ	I-protein	20	NMOD	0
+20	proteins	protein	I-NP	NNS	I-protein	13	PMOD	0
+21	and	and	B-PP	CC	O	13	PMOD	0
+22	for	for	B-PP	IN	O	13	PMOD	0
+23	proteins	protein	B-NP	NNS	O	22	PMOD	0
+24	that	that	B-NP	WDT	O	23	NMOD	0
+25	bind	bind	B-VP	VBP	O	24	SBAR	15	bind
+26	to	to	B-PP	TO	O	25	VMOD	0
+27	ECM	ECM	B-NP	NN	B-protein	26	PMOD	0
+28	.	.	O	.	O	9	P	0
+
+1	LRP-1	LRP-1	B-NP	NN	B-protein	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	implicated	implicate	I-VP	VBN	O	3	VC	16	implicated
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	integrin	integrin	B-NP	NN	B-protein	7	NMOD	0
+7	maturation	maturation	I-NP	NN	O	5	PMOD	0
+8	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	we	we	B-NP	PRP	O	6	SUB	0
+6	applied	apply	B-VP	VBD	O	0	ROOT	0
+7	a	a	B-NP	DT	O	9	NMOD	0
+8	proteomics	proteomic	I-NP	NNS	O	9	NMOD	0
+9	strategy	strategy	I-NP	NN	O	6	OBJ	0
+10	to	to	B-VP	TO	O	11	VMOD	0
+11	identify	identify	I-VP	VB	O	9	NMOD	0
+12	novel	novel	B-NP	JJ	B-protein	13	NMOD	0
+13	proteins	protein	I-NP	NNS	I-protein	11	OBJ	0
+14	involved	involve	B-VP	VBN	O	13	NMOD	0
+15	in	in	B-PP	IN	O	14	VMOD	0
+16	ECM	ECM	B-NP	NN	O	17	NMOD	0
+17	modeling	modeling	I-NP	NN	O	15	PMOD	2	modeling
+18	that	that	B-NP	WDT	O	13	NMOD	0
+19	are	be	B-VP	VBP	O	18	SBAR	0
+20	regulated	regulate	I-VP	VBN	O	19	VC	16	regulated
+21	by	by	B-PP	IN	O	20	VMOD	0
+22	LRP-1	LRP-1	B-NP	NN	B-protein	21	PMOD	0
+23	.	.	O	.	O	6	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	show	show	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	LRP-1	LRP-1	B-NP	NN	B-protein	5	NMOD	0
+5	deficiency	deficiency	I-NP	NN	O	13	SUB	9	deficiency
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	murine	murine	B-NP	JJ	B-cell_type	9	NMOD	0
+8	embryonic	embryonic	I-NP	JJ	I-cell_type	9	NMOD	0
+9	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	6	PMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	MEFs	MEF	B-NP	NNS	B-protein	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	is	be	B-VP	VBZ	O	3	SBAR	0
+14	associated	associate	I-VP	VBN	O	13	VC	0
+15	with	with	B-PP	IN	O	14	VMOD	0
+16	increased	increase	B-NP	VBN	O	17	NMOD	17	increased
+17	levels	level	I-NP	NNS	O	15	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	type	type	B-NP	NN	B-protein	21	NMOD	0
+20	III	III	I-NP	CD	I-protein	21	NMOD	0
+21	collagen	collagen	I-NP	NN	I-protein	25	NMOD	0
+22	and	and	I-NP	CC	O	25	NMOD	0
+23	pigment	pigment	I-NP	NN	B-protein	25	NMOD	0
+24	epithelium-derived	epithelium-derived	I-NP	JJ	I-protein	25	NMOD	0
+25	factor	factor	I-NP	NN	I-protein	18	PMOD	0
+26	,	,	O	,	O	25	P	0
+27	which	which	B-NP	WDT	O	25	NMOD	0
+28	accumulate	accumulate	B-VP	VBP	O	27	SBAR	0
+29	in	in	B-PP	IN	O	28	VMOD	0
+30	the	the	B-NP	DT	O	33	NMOD	0
+31	substratum	substratum	I-NP	NN	B-cell_type	33	NMOD	0
+32	surrounding	surround	B-VP	VBG	I-cell_type	33	NMOD	0
+33	cells	cell	B-NP	NNS	I-cell_type	29	PMOD	0
+34	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	collagen	collagen	I-NP	NN	B-protein	3	NMOD	0
+3	receptor	receptor	I-NP	NN	I-protein	5	NMOD	0
+4	,	,	O	,	O	5	P	0
+5	uPAR-AP/Endo-180	uPAR-AP/Endo-180	B-NP	NN	O	7	SUB	0
+6	,	,	O	,	O	5	P	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	also	also	I-VP	RB	O	7	VMOD	0
+9	increased	increase	I-VP	VBN	O	7	VC	17	increased
+10	in	in	B-PP	IN	O	9	VMOD	0
+11	LRP-1-deficient	LRP-1-deficient	B-NP	JJ	B-protein	12	NMOD	9	deficient
+12	MEFs	MEF	I-NP	NNS	I-protein	10	PMOD	0
+13	.	.	O	.	O	7	P	0
+
+1	Human	Human	B-NP	JJ	O	2	NMOD	0
+2	LRP-1	LRP-1	I-NP	NN	O	3	SUB	0
+3	reversed	reverse	B-VP	VBD	O	21	VMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	changes	change	I-NP	NNS	O	3	OBJ	0
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	protein	protein	B-NP	NN	O	8	NMOD	0
+8	expression	expression	I-NP	NN	O	6	PMOD	0
+9	associated	associate	B-VP	VBN	O	8	NMOD	0
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	LRP-1	LRP-1	B-NP	NN	B-protein	12	NMOD	0
+12	deficiency	deficiency	I-NP	NN	O	10	PMOD	9	deficiency
+13	;	;	O	:	O	3	P	0
+14	however	however	B-ADVP	RB	O	3	VMOD	0
+15	,	,	O	,	O	3	P	0
+16	the	the	B-NP	DT	O	18	NMOD	0
+17	endocytic	endocytic	I-NP	JJ	O	18	NMOD	0
+18	activity	activity	I-NP	NN	O	21	SUB	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	LRP-1	LRP-1	B-NP	NN	B-protein	19	PMOD	0
+21	was	be	B-VP	VBD	O	0	ROOT	0
+22	not	not	I-VP	RB	O	21	VMOD	0
+23	involved	involve	I-VP	VBN	O	21	VC	0
+24	.	.	O	.	O	21	P	0
+
+1	Instead	Instead	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	regulation	regulation	B-NP	NN	O	4	SUB	0
+4	occurred	occur	B-VP	VBD	O	0	ROOT	0
+5	at	at	B-PP	IN	O	4	VMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	mRNA	mRNA	I-NP	NN	O	8	NMOD	0
+8	level	level	I-NP	NN	O	5	PMOD	0
+9	.	.	O	.	O	4	P	0
+
+1	Inhibition	Inhibition	B-NP	NN	O	9	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	c-Jun	c-Jun	B-NP	NN	B-protein	5	NMOD	0
+4	amino-terminal	amino-terminal	I-NP	JJ	I-protein	5	NMOD	0
+5	kinase	kinase	I-NP	NN	I-protein	2	PMOD	0
+6	(	(	O	(	O	8	DEP	0
+7	JNK	JNK	B-NP	NN	B-protein	8	DEP	0
+8	)	)	O	)	O	5	NMOD	0
+9	blocked	block	B-VP	VBD	O	0	ROOT	18	blocked
+10	type	type	B-NP	NN	B-protein	13	NMOD	0
+11	III	III	I-NP	CD	I-protein	13	NMOD	0
+12	collagen	collagen	I-NP	NN	I-protein	13	NMOD	0
+13	expression	expression	I-NP	NN	O	9	OBJ	9	expression
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	LRP-1-deficient	LRP-1-deficient	B-NP	JJ	B-protein	16	NMOD	9	deficient
+16	MEFs	MEF	I-NP	NNS	I-protein	14	PMOD	0
+17	,	,	O	,	O	9	P	0
+18	suggesting	suggest	B-VP	VBG	O	9	VMOD	0
+19	regulation	regulation	B-NP	NN	O	18	OBJ	16	regulation
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	JNK	JNK	B-NP	NN	B-protein	22	NMOD	0
+22	activity	activity	I-NP	NN	O	20	PMOD	0
+23	as	as	B-PP	IN	O	19	NMOD	0
+24	a	a	B-NP	DT	O	25	NMOD	0
+25	mechanism	mechanism	I-NP	NN	O	23	PMOD	0
+26	by	by	B-PP	IN	O	25	NMOD	0
+27	which	which	B-NP	WDT	O	26	PMOD	0
+28	LRP-1	LRP-1	B-NP	NN	B-protein	29	SUB	0
+29	controls	control	B-VP	VBZ	O	26	SBAR	0
+30	mRNA	mRNA	B-NP	NN	B-RNA	31	NMOD	0
+31	expression	expression	I-NP	NN	O	29	OBJ	0
+32	.	.	O	.	O	9	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	ability	ability	I-NP	NN	O	13	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	LRP-1	LRP-1	B-NP	NN	B-protein	3	PMOD	0
+5	to	to	B-VP	TO	O	6	VMOD	0
+6	regulate	regulate	I-VP	VB	O	2	NMOD	0
+7	expression	expression	B-NP	NN	O	6	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	factors	factor	I-NP	NNS	O	8	PMOD	0
+11	identified	identify	B-VP	VBN	O	7	NMOD	0
+12	here	here	B-ADVP	RB	O	11	VMOD	0
+13	suggests	suggest	B-VP	VBZ	O	0	ROOT	0
+14	a	a	B-NP	DT	O	15	NMOD	0
+15	role	role	I-NP	NN	O	13	OBJ	16	role
+16	for	for	B-PP	IN	O	15	NMOD	0
+17	LRP-1	LRP-1	B-NP	NN	B-protein	16	PMOD	0
+18	in	in	B-PP	IN	O	15	NMOD	0
+19	determining	determine	B-VP	VBG	O	18	PMOD	0
+20	blood	blood	B-NP	NN	O	22	NMOD	0
+21	vessel	vessel	I-NP	NN	O	22	NMOD	0
+22	structure	structure	I-NP	NN	O	19	OBJ	0
+23	and	and	B-PP	CC	O	18	PMOD	0
+24	in	in	B-PP	IN	O	18	PMOD	0
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	.	.	O	.	O	13	P	0
+

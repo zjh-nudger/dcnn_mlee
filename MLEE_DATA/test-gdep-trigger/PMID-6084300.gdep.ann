@@ -1,0 +1,125 @@
+1	Scanning	Scanning	B-NP	NN	O	3	NMOD	0
+2	electron	electron	I-NP	NN	O	3	NMOD	0
+3	microscopy	microscopy	I-NP	NN	O	0	ROOT	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	vascular	vascular	B-NP	JJ	B-cell_type	6	NMOD	0
+6	casts	cast	I-NP	NNS	I-cell_type	4	PMOD	0
+7	in	in	B-PP	IN	O	3	NMOD	0
+8	experimental	experimental	B-NP	JJ	O	10	NMOD	0
+9	ocular	ocular	I-NP	JJ	O	10	NMOD	0
+10	vasoproliferation	vasoproliferation	I-NP	NN	O	7	PMOD	3	vasoproliferation
+11	.	.	O	.	O	3	P	0
+
+1	Scanning	Scanning	B-NP	NN	O	3	NMOD	0
+2	electron	electron	I-NP	NN	O	3	NMOD	0
+3	microscopy	microscopy	I-NP	NN	O	7	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	vascular	vascular	B-NP	JJ	B-cell_type	6	NMOD	0
+6	casts	cast	I-NP	NNS	I-cell_type	4	PMOD	0
+7	was	be	B-VP	VBD	O	0	ROOT	0
+8	used	use	I-VP	VBN	O	7	VC	0
+9	to	to	B-VP	TO	O	10	VMOD	0
+10	investigate	investigate	I-VP	VB	O	7	VMOD	0
+11	three	three	B-NP	CD	O	13	NMOD	0
+12	experimental	experimental	I-NP	JJ	O	13	NMOD	0
+13	models	model	I-NP	NNS	O	10	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	neovascularization	neovascularization	B-NP	NN	O	14	PMOD	3	neovascularization
+16	.	.	O	.	O	7	P	0
+
+1	In	In	B-PP	IN	O	8	VMOD	0
+2	each	each	B-NP	DT	O	4	NMOD	0
+3	experimental	experimental	I-NP	JJ	O	4	NMOD	0
+4	situation	situation	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	8	P	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	casts	cast	I-NP	NNS	O	8	SUB	0
+8	provided	provide	B-VP	VBD	O	0	ROOT	0
+9	a	a	B-NP	DT	O	13	NMOD	0
+10	valuable	valuable	I-NP	JJ	O	13	NMOD	0
+11	three	three	I-NP	CD	O	13	NMOD	0
+12	dimensional	dimensional	I-NP	JJ	O	13	NMOD	0
+13	representation	representation	I-NP	NN	O	8	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	19	NMOD	0
+16	newly	newly	I-NP	RB	O	17	AMOD	0
+17	formed	form	I-NP	VBN	O	19	NMOD	2	formed
+18	blood	blood	I-NP	NN	O	19	NMOD	0
+19	vessels	vessel	I-NP	NNS	O	14	PMOD	0
+20	and	and	O	CC	O	8	VMOD	0
+21	permitted	permit	B-VP	VBD	O	8	VMOD	0
+22	subclassification	subclassification	B-NP	NN	O	21	OBJ	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	the	the	B-NP	DT	O	25	NMOD	0
+25	vessels	vessel	I-NP	NNS	O	23	PMOD	0
+26	within	within	B-PP	IN	O	22	NMOD	0
+27	normal	normal	B-ADJP	JJ	O	31	NMOD	0
+28	and	and	O	CC	O	31	NMOD	0
+29	proliferating	proliferate	B-VP	VBG	O	31	NMOD	4	proliferating
+30	vascular	vascular	B-NP	JJ	B-protein	31	NMOD	0
+31	networks	network	I-NP	NNS	I-protein	26	PMOD	0
+32	.	.	O	.	O	8	P	0
+
+1	They	They	B-NP	PRP	O	2	SUB	0
+2	defined	define	B-VP	VBD	O	0	ROOT	0
+3	also	also	B-ADVP	RB	O	2	VMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	predominant	predominant	I-NP	JJ	O	6	NMOD	0
+6	origin	origin	I-NP	NN	O	2	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	new	new	B-NP	JJ	O	9	NMOD	0
+9	vessels	vessel	I-NP	NNS	O	7	PMOD	0
+10	from	from	B-PP	IN	O	9	NMOD	0
+11	venules	venule	B-NP	NNS	O	13	NMOD	0
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	capillaries	capillary	I-NP	NNS	O	10	PMOD	0
+14	,	,	O	,	O	2	P	0
+15	and	and	O	CC	O	2	VMOD	0
+16	enabled	enable	B-VP	VBD	O	2	VMOD	0
+17	the	the	B-NP	DT	O	18	NMOD	0
+18	evolution	evolution	I-NP	NN	O	27	SUB	2	evolution
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	proliferating	proliferate	B-VP	VBG	O	21	NMOD	4	proliferating
+21	vessels	vessel	B-NP	NNS	O	19	PMOD	0
+22	into	into	B-PP	IN	O	18	NMOD	0
+23	arterioles	arteriole	B-NP	NNS	O	25	NMOD	0
+24	and	and	I-NP	CC	O	25	NMOD	0
+25	venules	venule	I-NP	NNS	O	22	PMOD	0
+26	to	to	B-VP	TO	O	27	VMOD	0
+27	be	be	I-VP	VB	O	16	VMOD	0
+28	documented	document	I-VP	VBN	O	27	VC	0
+29	.	.	O	.	O	2	P	0
+
+1	Although	Although	B-SBAR	IN	O	22	VMOD	0
+2	vascular	vascular	B-NP	JJ	O	3	NMOD	0
+3	casts	cast	I-NP	NNS	O	4	SUB	0
+4	must	must	B-VP	MD	O	1	SBAR	0
+5	be	be	I-VP	VB	O	4	VC	0
+6	interpreted	interpret	I-VP	VBN	O	5	VC	0
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	caution	caution	B-NP	NN	O	7	PMOD	0
+9	in	in	B-PP	IN	O	6	VMOD	0
+10	light	light	B-NP	NN	O	9	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	possibility	possibility	I-NP	NN	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	incomplete	incomplete	B-NP	JJ	O	16	NMOD	0
+16	filling	filling	I-NP	NN	O	19	NMOD	0
+17	and	and	O	CC	O	19	NMOD	0
+18	other	other	B-NP	JJ	O	19	NMOD	0
+19	artifacts	artifact	I-NP	NNS	O	14	PMOD	0
+20	,	,	O	,	O	22	P	0
+21	they	they	B-NP	PRP	O	22	SUB	0
+22	are	be	B-VP	VBP	O	0	ROOT	0
+23	a	a	B-NP	DT	O	25	NMOD	0
+24	valuable	valuable	I-NP	JJ	O	25	NMOD	0
+25	tool	tool	I-NP	NN	O	22	PRD	0
+26	in	in	B-PP	IN	O	25	NMOD	0
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	study	study	I-NP	NN	O	26	PMOD	0
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	ocular	ocular	B-NP	JJ	O	31	NMOD	0
+31	vasoproliferation	vasoproliferation	I-NP	NN	O	29	PMOD	3	vasoproliferation
+32	.	.	O	.	O	22	P	0
+

@@ -1,0 +1,271 @@
+1	Nicked	Nick	B-NP	VBN	O	5	NMOD	0
+2	{	{	I-NP	NN	B-protein	5	NMOD	0
+3	beta	beta	I-NP	SYM	I-protein	5	NMOD	0
+4	}	}	I-NP	NN	I-protein	5	NMOD	0
+5	2-glycoprotein	2-glycoprotein	I-NP	NN	I-protein	7	SUB	0
+6	I	I	I-NP	CD	I-protein	5	NMOD	0
+7	binds	bind	B-VP	VBZ	O	0	ROOT	15	binds
+8	angiostatin	angiostatin	B-NP	NN	O	7	OBJ	0
+9	4.5	4.5	I-NP	CD	O	8	NMOD	0
+10	(	(	O	(	O	14	DEP	0
+11	plasminogen	plasminogen	B-NP	NN	O	13	NMOD	0
+12	kringle	kringle	I-NP	NN	O	13	NMOD	0
+13	1-5	1-5	I-NP	NN	O	14	DEP	0
+14	)	)	O	)	O	8	NMOD	0
+15	and	and	O	CC	O	7	VMOD	0
+16	attenuates	attenuate	B-VP	VBZ	O	7	VMOD	18	attenuates
+17	its	its	B-NP	PRP$	O	19	NMOD	0
+18	antiangiogenic	antiangiogenic	I-NP	JJ	O	19	NMOD	3	angiogenic
+19	property	property	I-NP	NN	O	16	OBJ	18	property
+20	.	.	O	.	O	7	P	0
+
+1	Angiostatin	Angiostatin	B-NP	NN	B-protein	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	first	first	I-VP	RB	O	2	VMOD	0
+4	discovered	discover	I-VP	VBN	O	2	VC	0
+5	as	as	B-PP	IN	O	4	VMOD	0
+6	a	a	B-NP	DT	O	8	NMOD	0
+7	plasminogen	plasminogen	I-NP	NN	B-DNA	8	NMOD	0
+8	fragment	fragment	I-NP	NN	I-DNA	5	PMOD	0
+9	with	with	B-PP	IN	O	8	NMOD	0
+10	antitumor/antiangiogenic	antitumor/antiangiogenic	B-NP	JJ	O	11	NMOD	3	angiogenic
+11	property	property	I-NP	NN	O	9	PMOD	18	property
+12	.	.	O	.	O	2	P	0
+
+1	One	One	B-NP	CD	O	8	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	angiostatin	angiostatin	I-NP	NN	B-protein	5	NMOD	0
+5	isoforms	isoform	I-NP	NNS	I-protein	2	PMOD	0
+6	,	,	O	,	O	8	P	0
+7	that	that	B-NP	DT	O	8	SUB	0
+8	is	be	B-VP	VBZ	O	0	ROOT	0
+9	,	,	O	,	O	8	P	0
+10	angiostatin	angiostatin	B-NP	NN	O	31	SUB	0
+11	4.5	4.5	I-NP	CD	O	10	NMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	AS4.5	AS4.5	B-NP	NN	B-protein	14	DEP	0
+14	)	)	O	)	O	10	NMOD	0
+15	,	,	O	,	O	10	P	0
+16	consisting	consist	B-VP	VBG	O	10	NMOD	0
+17	of	of	B-PP	IN	O	16	VMOD	0
+18	plasminogen	plasminogen	B-NP	NN	B-protein	19	NMOD	0
+19	kringle	kringle	I-NP	NN	I-protein	17	PMOD	0
+20	1	1	I-NP	CD	I-protein	19	NMOD	0
+21	to	to	B-PP	TO	O	16	VMOD	0
+22	4	4	B-NP	CD	O	26	NMOD	0
+23	and	and	O	CC	O	26	NMOD	0
+24	a	a	B-NP	DT	O	26	NMOD	0
+25	most	most	I-NP	JJS	O	26	NMOD	0
+26	part	part	I-NP	NN	O	21	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	kringle	kringle	B-NP	NN	O	27	PMOD	0
+29	5	5	I-NP	CD	O	28	NMOD	0
+30	,	,	O	,	O	10	P	0
+31	is	be	B-VP	VBZ	O	8	VMOD	0
+32	produced	produce	I-VP	VBN	O	31	VC	0
+33	by	by	B-PP	IN	O	32	VMOD	0
+34	autoproteolysis	autoproteolysis	B-NP	NN	O	33	PMOD	0
+35	and	and	O	CC	O	32	DEP	0
+36	present	present	B-ADJP	JJ	O	32	VMOD	0
+37	in	in	B-PP	IN	O	36	AMOD	0
+38	human	human	B-NP	JJ	B-cell_type	39	NMOD	0
+39	plasma	plasma	I-NP	NN	I-cell_type	37	PMOD	0
+40	.	.	O	.	O	8	P	0
+
+1	beta2-glycoprotein	beta2-glycoprotein	B-NP	NN	O	6	SUB	0
+2	I	I	I-NP	CD	O	1	NMOD	0
+3	(	(	O	(	O	5	DEP	0
+4	beta2GPI	beta2GPI	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	1	NMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	proteolytically	proteolytically	I-VP	RB	O	6	VMOD	0
+8	cleaved	cleave	I-VP	VBN	O	6	VC	17	cleaved
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	plasmin	plasmin	B-NP	NN	O	9	PMOD	0
+11	in	in	B-PP	IN	O	8	VMOD	0
+12	its	its	B-NP	PRP$	O	14	NMOD	0
+13	domain	domain	I-NP	NN	O	14	NMOD	0
+14	V	V	I-NP	NN	O	11	PMOD	0
+15	(	(	O	(	O	18	DEP	0
+16	nicked	nicked	B-NP	JJ	B-protein	17	NMOD	0
+17	beta2GPI	beta2GPI	I-NP	NN	I-protein	18	DEP	0
+18	)	)	O	)	O	14	NMOD	0
+19	,	,	O	,	O	6	P	0
+20	resulting	result	B-VP	VBG	O	6	VMOD	17	resulting
+21	in	in	B-PP	IN	O	20	VMOD	0
+22	binding	bind	B-VP	VBG	O	21	PMOD	15	binding
+23	to	to	B-PP	TO	O	22	VMOD	0
+24	plasminogen	plasminogen	B-NP	NN	B-protein	23	PMOD	0
+25	.	.	O	.	O	6	P	0
+
+1	Antiangiogenic	Antiangiogenic	B-NP	JJ	O	2	NMOD	3	angiogenic
+2	properties	property	I-NP	NNS	O	3	SUB	18	properties
+3	have	have	B-VP	VBP	O	0	ROOT	0
+4	been	be	I-VP	VBN	O	3	VC	0
+5	recently	recently	I-VP	RB	O	6	VMOD	0
+6	reported	report	I-VP	VBN	O	4	VC	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	nicked	nicked	B-NP	JJ	B-cell_line	9	NMOD	0
+9	beta2GPI	beta2GPI	I-NP	NN	I-cell_line	7	PMOD	0
+10	as	as	B-CONJP	RB	O	7	PMOD	0
+11	well	well	I-CONJP	RB	O	10	DEP	0
+12	as	as	I-CONJP	IN	O	10	DEP	0
+13	in	in	B-PP	IN	O	7	PMOD	0
+14	intact	intact	B-NP	JJ	O	15	NMOD	0
+15	beta2GPI	beta2GPI	I-NP	NN	O	13	PMOD	0
+16	at	at	B-PP	IN	O	6	VMOD	0
+17	higher	high	B-NP	JJR	O	18	NMOD	0
+18	concentrations	concentration	I-NP	NNS	O	16	PMOD	0
+19	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	7	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	present	present	I-NP	JJ	O	4	NMOD	0
+4	study	study	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	found	find	B-VP	VBD	O	0	ROOT	0
+8	significant	significant	B-NP	JJ	O	9	NMOD	0
+9	binding	binding	I-NP	NN	O	7	OBJ	15	binding
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	nicked	nicked	B-NP	JJ	O	12	NMOD	0
+12	beta2GPI	beta2GPI	I-NP	NN	O	10	PMOD	0
+13	to	to	B-PP	TO	O	9	NMOD	0
+14	AS4.5	AS4.5	B-NP	NN	B-protein	27	NMOD	0
+15	(	(	O	(	O	26	DEP	0
+16	K	K	B-NP	NN	O	23	NMOD	0
+17	(	(	O	(	O	19	DEP	0
+18	D	D	B-NP	NN	O	19	DEP	0
+19	)	)	O	)	O	16	NMOD	0
+20	=	=	B-VP	SYM	O	23	VMOD	0
+21	3.27	3.27	B-NP	CD	O	23	AMOD	0
+22	x	x	O	SYM	O	23	AMOD	0
+23	10	10	B-NP	CD	O	26	DEP	0
+24	(	(	O	(	O	26	DEP	0
+25	6	6	B-NP	CD	O	26	DEP	0
+26	)	)	O	)	O	14	NMOD	0
+27	M	M	B-NP	NN	O	13	PMOD	0
+28	(	(	O	(	O	30	DEP	0
+29	-1	-1	B-NP	CD	O	30	DEP	0
+30	)	)	O	)	O	27	NMOD	0
+31	)	)	O	)	O	27	NMOD	0
+32	.	.	O	.	O	7	P	0
+
+1	Via	Via	B-NP	NNP	O	3	NMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	binding	binding	I-NP	NN	O	7	SUB	15	binding
+4	,	,	O	,	O	7	P	0
+5	nicked	nicked	B-NP	JJ	O	6	NMOD	0
+6	beta2GPI	beta2GPI	I-NP	NN	O	7	SUB	0
+7	attenuates	attenuate	B-VP	VBZ	O	0	ROOT	18	attenuates
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	antiangiogenic	antiangiogenic	I-NP	JJ	O	10	NMOD	3	angiogenic
+10	functions	function	I-NP	NNS	O	7	OBJ	18	functions
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	AS4.5	AS4.5	B-NP	NN	B-protein	11	PMOD	0
+13	in	in	B-PP	IN	O	7	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	proliferation	proliferation	I-NP	NN	O	13	PMOD	1	proliferation
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	arterial/venous	arterial/venous	B-NP	JJ	B-cell_type	19	NMOD	0
+18	endothelial	endothelial	I-NP	JJ	I-cell_type	19	NMOD	0
+19	cells	cell	I-NP	NNS	I-cell_type	16	PMOD	0
+20	,	,	O	,	O	7	P	0
+21	in	in	B-PP	IN	O	7	VMOD	0
+22	the	the	B-NP	DT	O	25	NMOD	0
+23	extracellular	extracellular	I-NP	JJ	O	25	NMOD	0
+24	matrix	matrix	I-NP	NN	O	25	NMOD	0
+25	invasion	invasion	I-NP	NN	O	29	NMOD	14	invasion
+26	and	and	O	CC	O	29	NMOD	0
+27	the	the	B-NP	DT	O	29	NMOD	0
+28	tube	tube	I-NP	NN	O	29	NMOD	0
+29	formation	formation	I-NP	NN	O	21	PMOD	2	formation
+30	of	of	B-PP	IN	O	29	NMOD	0
+31	venous	venous	B-NP	JJ	B-cell_type	33	NMOD	0
+32	endothelial	endothelial	I-NP	JJ	I-cell_type	33	NMOD	0
+33	cells	cell	I-NP	NNS	I-cell_type	30	PMOD	0
+34	,	,	O	,	O	38	P	0
+35	and	and	O	CC	O	38	NMOD	0
+36	in	in	B-NP	FW	O	37	AMOD	0
+37	vivo	vivo	I-NP	FW	O	38	NMOD	0
+38	angiogenesis	angiogenesis	I-NP	NN	O	7	VMOD	3	angiogenesis
+39	.	.	O	.	O	7	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	contrast	contrast	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	6	P	0
+4	intact	intact	B-NP	JJ	O	5	NMOD	0
+5	beta2GPI	beta2GPI	I-NP	NN	O	6	SUB	0
+6	does	do	B-VP	VBZ	O	0	ROOT	0
+7	not	not	I-VP	RB	O	6	VMOD	0
+8	bind	bind	I-VP	VB	O	6	VC	15	bind
+9	to	to	B-PP	TO	O	8	VMOD	0
+10	AS4.5	AS4.5	B-NP	NN	B-protein	9	PMOD	0
+11	or	or	O	CC	O	8	VMOD	0
+12	inhibit	inhibit	B-VP	VB	O	8	VMOD	18	inhibit
+13	its	its	B-NP	PRP$	O	15	NMOD	0
+14	antiangiogenic	antiangiogenic	I-NP	JJ	O	15	NMOD	3	angiogenic
+15	activity	activity	I-NP	NN	O	12	OBJ	18	activity
+16	.	.	O	.	O	6	P	0
+
+1	Thus	Thus	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	nicked	nicked	B-NP	JJ	B-protein	4	NMOD	0
+4	beta2GPI	beta2GPI	I-NP	NN	I-protein	5	SUB	0
+5	exerts	exert	B-VP	VBZ	O	24	VMOD	0
+6	dual	dual	B-NP	JJ	O	7	NMOD	0
+7	effects	effect	I-NP	NNS	O	5	OBJ	0
+8	on	on	B-PP	IN	O	5	VMOD	0
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	PMOD	3	angiogenesis
+10	,	,	O	,	O	5	P	0
+11	that	that	B-NP	DT	O	5	OBJ	0
+12	is	be	B-VP	VBZ	O	16	VMOD	0
+13	,	,	O	,	O	16	P	0
+14	nicked	nicked	B-NP	JJ	O	15	NMOD	0
+15	beta2GPI	beta2GPI	I-NP	NN	O	16	SUB	0
+16	promotes	promote	B-VP	VBZ	O	11	NMOD	17	promotes
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	OBJ	3	angiogenesis
+18	in	in	B-PP	IN	O	17	NMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	presence	presence	I-NP	NN	O	18	PMOD	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	AS4.5	AS4.5	B-NP	NN	B-protein	21	PMOD	0
+23	,	,	O	,	O	24	P	0
+24	whereas	whereas	O	IN	O	0	ROOT	0
+25	nicked	nicked	B-NP	JJ	B-protein	26	NMOD	0
+26	beta2GPI	beta2GPI	I-NP	NN	I-protein	27	SUB	0
+27	inhibits	inhibit	B-VP	VBZ	O	24	VMOD	18	inhibits
+28	angiogenesis	angiogenesis	B-NP	NN	O	27	OBJ	3	angiogenesis
+29	at	at	B-PP	IN	O	27	VMOD	0
+30	concentrations	concentration	B-NP	NNS	O	29	PMOD	0
+31	high	high	B-ADJP	JJ	O	30	NMOD	0
+32	enough	enough	I-ADJP	RB	O	31	AMOD	0
+33	to	to	B-VP	TO	O	34	VMOD	0
+34	neutralize	neutralize	I-VP	VB	O	31	AMOD	0
+35	AS4.5	AS4.5	B-NP	NN	B-protein	34	OBJ	0
+36	.	.	O	.	O	24	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	plasmin-nicked	plasmin-nicked	B-NP	JJ	O	6	NMOD	0
+6	beta2GPI	beta2GPI	I-NP	NN	O	7	SUB	0
+7	promotes	promote	B-VP	VBZ	O	4	SBAR	16	promotes
+8	angiogenesis	angiogenesis	B-NP	NN	O	7	OBJ	3	angiogenesis
+9	by	by	B-PP	IN	O	7	VMOD	0
+10	interacting	interact	B-VP	VBG	O	9	PMOD	15	interacting
+11	with	with	B-PP	IN	O	10	VMOD	0
+12	plasmin-generated	plasmin-generated	B-NP	JJ	O	13	NMOD	0
+13	AS4.5	AS4.5	I-NP	NN	O	11	PMOD	0
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	sites	site	B-NP	NNS	O	14	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	increased	increase	B-NP	VBN	O	18	NMOD	0
+18	fibrinolysis	fibrinolysis	I-NP	NN	O	16	PMOD	0
+19	such	such	B-PP	JJ	O	20	PMOD	0
+20	as	as	I-PP	IN	O	15	NMOD	0
+21	thrombus	thrombus	B-NP	NN	O	20	PMOD	0
+22	.	.	O	.	O	3	P	0
+

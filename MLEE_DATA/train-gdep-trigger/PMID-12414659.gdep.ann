@@ -1,0 +1,460 @@
+1	Roles	Role	B-NP	NNS	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	cell	cell	B-NP	NN	B-protein	5	NMOD	0
+4	adhesion	adhesion	I-NP	NN	I-protein	5	NMOD	0
+5	molecules	molecule	I-NP	NNS	I-protein	2	PMOD	0
+6	in	in	B-PP	IN	O	1	NMOD	0
+7	tumor	tumor	B-NP	NN	O	8	NMOD	0
+8	angiogenesis	angiogenesis	I-NP	NN	O	6	PMOD	3	angiogenesis
+9	induced	induce	B-VP	VBN	O	8	NMOD	17	induced
+10	by	by	B-PP	IN	O	9	VMOD	0
+11	cotransplantation	cotransplantation	B-NP	NN	O	10	PMOD	19	cotransplantation
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	cancer	cancer	B-NP	NN	O	16	NMOD	0
+14	and	and	O	CC	O	16	NMOD	0
+15	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	0
+17	to	to	B-PP	TO	O	11	NMOD	0
+18	nude	nude	B-NP	JJ	O	19	NMOD	0
+19	rats	rat	I-NP	NNS	O	17	PMOD	0
+20	.	.	O	.	O	1	P	0
+
+1	Roles	Role	B-NP	NNS	O	17	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	cell	cell	B-NP	NN	B-protein	5	NMOD	0
+4	adhesion	adhesion	I-NP	NN	I-protein	5	NMOD	0
+5	molecules	molecule	I-NP	NNS	I-protein	2	PMOD	0
+6	mediating	mediate	B-VP	VBG	O	5	NMOD	17	mediating
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	interaction	interaction	I-NP	NN	O	6	OBJ	15	interaction
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	cancer	cancer	B-NP	NN	O	13	NMOD	0
+11	and	and	O	CC	O	13	NMOD	0
+12	endothelial	endothelial	B-NP	JJ	B-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	0
+14	in	in	B-PP	IN	O	8	NMOD	0
+15	tumor	tumor	B-NP	NN	O	16	NMOD	0
+16	angiogenesis	angiogenesis	I-NP	NN	O	14	PMOD	3	angiogenesis
+17	were	be	B-VP	VBD	O	0	ROOT	0
+18	investigated	investigate	I-VP	VBN	O	17	VC	0
+19	using	use	B-VP	VBG	O	17	VMOD	0
+20	new	new	B-NP	JJ	O	21	AMOD	0
+21	in	in	I-NP	FW	O	22	AMOD	0
+22	vitro	vitro	I-NP	FW	O	27	NMOD	0
+23	and	and	O	CC	O	27	NMOD	0
+24	in	in	B-NP	FW	O	25	AMOD	0
+25	vivo	vivo	I-NP	FW	O	27	NMOD	0
+26	model	model	I-NP	NN	O	27	NMOD	0
+27	systems	system	I-NP	NNS	O	19	OBJ	0
+28	with	with	B-PP	IN	O	27	NMOD	0
+29	a	a	B-NP	DT	O	34	NMOD	0
+30	cultured	culture	I-NP	VBN	B-cell_line	34	NMOD	19	cultured
+31	murine	murine	I-NP	JJ	I-cell_line	34	NMOD	0
+32	endothelial	endothelial	I-NP	JJ	I-cell_line	34	NMOD	0
+33	cell	cell	I-NP	NN	I-cell_line	34	NMOD	0
+34	line	line	I-NP	NN	I-cell_line	43	NMOD	0
+35	(	(	O	(	O	37	DEP	0
+36	F-2	F-2	B-NP	NN	B-protein	37	DEP	0
+37	)	)	O	)	O	34	NMOD	0
+38	and	and	O	CC	O	43	NMOD	0
+39	human	human	B-NP	JJ	B-cell_type	43	NMOD	0
+40	cultured	culture	I-NP	VBN	I-cell_type	43	NMOD	19	cultured
+41	epidermoid	epidermoid	I-NP	JJ	I-cell_type	43	NMOD	0
+42	cancer	cancer	I-NP	NN	I-cell_type	43	NMOD	0
+43	cells	cell	I-NP	NNS	I-cell_type	28	PMOD	0
+44	(	(	O	(	O	46	DEP	0
+45	A431	A431	B-NP	NN	B-cell_line	46	DEP	0
+46	)	)	O	)	O	43	NMOD	0
+47	.	.	O	.	O	17	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	A431	A431	I-NP	NN	B-cell_line	3	NMOD	0
+3	cells	cell	I-NP	NNS	I-cell_line	4	SUB	0
+4	exhibited	exhibit	B-VP	VBD	O	0	ROOT	0
+5	typical	typical	B-NP	JJ	O	9	NMOD	0
+6	in	in	I-NP	FW	O	7	AMOD	0
+7	vitro	vitro	I-NP	FW	O	9	NMOD	0
+8	cell	cell	I-NP	NN	O	9	NMOD	0
+9	adhesion	adhesion	I-NP	NN	O	4	OBJ	15	adhesion
+10	to	to	B-PP	TO	O	9	NMOD	0
+11	the	the	B-NP	DT	O	14	NMOD	0
+12	endothelial	endothelial	I-NP	JJ	B-cell_line	14	NMOD	0
+13	F-2	F-2	I-NP	NN	I-cell_line	14	NMOD	0
+14	cells	cell	I-NP	NNS	I-cell_line	10	PMOD	0
+15	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	initial	initial	I-NP	JJ	O	3	NMOD	0
+3	step	step	I-NP	NN	O	6	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	adhesion	adhesion	B-NP	NN	O	4	PMOD	15	adhesion
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	mediated	mediate	I-VP	VBN	O	6	VC	17	mediated
+8	by	by	B-PP	IN	O	7	VMOD	0
+9	sialyl	sialyl	B-NP	NN	O	10	NMOD	0
+10	Lewis	Lewis	I-NP	NNP	O	8	PMOD	0
+11	(	(	O	(	O	13	DEP	0
+12	x	x	B-NP	NN	O	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	(	(	O	(	O	19	DEP	0
+15	Le	Le	B-NP	NN	O	19	DEP	0
+16	(	(	O	(	O	18	DEP	0
+17	x	x	B-NP	NN	O	18	DEP	0
+18	)	)	O	)	O	15	NMOD	0
+19	)	)	O	)	O	10	NMOD	0
+20	and	and	O	CC	O	22	NMOD	0
+21	sialyl	sialyl	B-NP	NN	O	22	NMOD	0
+22	Le	Le	I-NP	NNP	O	10	DEP	0
+23	(	(	O	(	O	25	DEP	0
+24	a	a	O	DT	O	25	DEP	0
+25	)	)	O	)	O	22	NMOD	0
+26	,	,	O	,	O	6	P	0
+27	the	the	B-NP	DT	O	29	NMOD	0
+28	carbohydrate	carbohydrate	I-NP	NN	B-protein	29	NMOD	0
+29	determinants	determinant	I-NP	NNS	I-protein	37	NMOD	0
+30	expressed	express	B-VP	VBN	O	29	NMOD	0
+31	on	on	B-PP	IN	O	30	VMOD	0
+32	the	the	B-NP	DT	O	34	NMOD	0
+33	cancer	cancer	I-NP	NN	B-cell_type	34	NMOD	0
+34	cells	cell	I-NP	NNS	I-cell_type	31	PMOD	0
+35	,	,	O	,	O	37	P	0
+36	and	and	O	CC	O	37	NMOD	0
+37	E-selectin	E-selectin	B-NP	NN	B-protein	6	VMOD	0
+38	expressed	express	B-VP	VBN	O	37	NMOD	9	expressed
+39	constitutively	constitutively	B-ADVP	RB	O	38	VMOD	0
+40	on	on	B-PP	IN	O	38	VMOD	0
+41	F-2	F-2	B-NP	NN	B-cell_line	42	NMOD	0
+42	cells	cell	I-NP	NNS	I-cell_line	40	PMOD	0
+43	.	.	O	.	O	6	P	0
+
+1	Prolonged	Prolong	B-NP	VBN	B-cell_line	2	NMOD	0
+2	culture	culture	I-NP	NN	I-cell_line	3	SUB	0
+3	led	lead	B-VP	VBD	O	0	ROOT	0
+4	to	to	B-PP	TO	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	implantation	implantation	I-NP	NN	O	4	PMOD	19	implantation
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	cancer	cancer	B-NP	NN	B-cell_type	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	0
+10	into	into	B-PP	IN	O	6	NMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	monolayer	monolayer	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	F-2	F-2	I-NP	NN	B-cell_line	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_line	13	PMOD	0
+17	,	,	O	,	O	6	P	0
+18	which	which	B-NP	WDT	O	6	NMOD	0
+19	was	be	B-VP	VBD	O	18	SBAR	0
+20	mediated	mediate	I-VP	VBN	O	19	VC	16	mediated
+21	mainly	mainly	B-ADVP	RB	O	20	VMOD	0
+22	by	by	B-PP	IN	O	20	VMOD	0
+23	alpha	alpha	B-NP	NN	B-protein	27	NMOD	0
+24	(	(	O	(	I-protein	23	NMOD	0
+25	3	3	B-NP	CD	I-protein	23	NMOD	0
+26	)	)	O	)	I-protein	23	NMOD	0
+27	beta	beta	B-NP	NN	I-protein	31	NMOD	0
+28	(	(	O	(	I-protein	31	NMOD	0
+29	1	1	B-NP	CD	I-protein	31	NMOD	0
+30	)	)	O	)	I-protein	31	NMOD	0
+31	-integrin	-integrin	B-NP	NN	I-protein	22	PMOD	0
+32	.	.	O	.	O	3	P	0
+
+1	F-2	F-2	B-NP	NN	B-cell_line	2	NMOD	0
+2	cells	cell	I-NP	NNS	I-cell_line	6	SUB	0
+3	cultured	culture	B-VP	VBN	O	2	NMOD	19	cultured
+4	on	on	B-PP	IN	O	3	VMOD	0
+5	Matrigel	Matrigel	B-NP	NNP	O	4	PMOD	0
+6	showed	show	B-VP	VBD	O	19	VMOD	0
+7	evident	evident	B-NP	JJ	O	9	NMOD	0
+8	tube	tube	I-NP	NN	O	9	NMOD	0
+9	formation	formation	I-NP	NN	O	6	OBJ	2	formation
+10	,	,	O	,	O	19	P	0
+11	and	and	O	CC	O	12	NMOD	0
+12	coculture	coculture	B-NP	NN	O	19	SUB	19	coculture
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	F-2	F-2	B-NP	NN	B-cell_line	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_line	13	PMOD	0
+16	with	with	B-PP	IN	O	12	NMOD	0
+17	A431	A431	B-NP	NN	B-cell_line	18	NMOD	0
+18	cells	cell	I-NP	NNS	I-cell_line	16	PMOD	0
+19	led	lead	B-VP	VBD	O	0	ROOT	0
+20	to	to	B-PP	TO	O	19	VMOD	0
+21	the	the	B-NP	DT	O	22	NMOD	0
+22	formation	formation	I-NP	NN	O	20	PMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	A431	A431	B-NP	NN	O	26	NMOD	0
+25	cell	cell	I-NP	NN	O	26	NMOD	0
+26	nests	nest	I-NP	NNS	O	23	PMOD	0
+27	constantly	constantly	B-VP	RB	O	28	VMOD	0
+28	surrounded	surround	I-VP	VBN	O	26	NMOD	0
+29	by	by	B-PP	IN	O	28	VMOD	0
+30	tube-like	tube-like	B-NP	JJ	B-protein	31	NMOD	0
+31	networks	network	I-NP	NNS	I-protein	29	PMOD	0
+32	consisting	consist	B-VP	VBG	O	31	NMOD	0
+33	of	of	B-PP	IN	O	32	VMOD	0
+34	F-2	F-2	B-NP	NN	B-cell_line	35	NMOD	0
+35	cells	cell	I-NP	NNS	I-cell_line	33	PMOD	0
+36	.	.	O	.	O	19	P	0
+
+1	This	This	B-NP	DT	O	4	NMOD	0
+2	in	in	I-NP	FW	O	3	AMOD	0
+3	vitro	vitro	I-NP	FW	O	4	NMOD	0
+4	morphogenesis	morphogenesis	I-NP	NN	O	5	SUB	0
+5	was	be	B-VP	VBD	O	0	ROOT	0
+6	inhibited	inhibit	I-VP	VBN	O	5	VC	0
+7	by	by	B-PP	IN	O	6	VMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	addition	addition	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	anti-sialyl	anti-sialyl	B-NP	JJ	O	12	NMOD	0
+12	Le	Le	I-NP	NN	O	26	NMOD	0
+13	(	(	O	(	O	15	DEP	0
+14	x	x	B-NP	NN	O	15	DEP	0
+15	)	)	O	)	O	12	NMOD	0
+16	/Le	/Le	B-NP	NN	O	26	NMOD	0
+17	(	(	O	(	O	19	DEP	0
+18	a	a	O	DT	O	19	DEP	0
+19	)	)	O	)	O	16	NMOD	0
+20	or	or	O	CC	O	26	NMOD	0
+21	anti-beta	anti-beta	B-ADJP	JJ	B-protein	23	NMOD	0
+22	(	(	O	(	I-protein	23	NMOD	0
+23	1	1	B-NP	CD	I-protein	26	NMOD	0
+24	)	)	O	)	I-protein	26	NMOD	0
+25	-integrin	-integrin	B-NP	JJ	I-protein	26	NMOD	0
+26	antibodies	antibody	I-NP	NNS	I-protein	10	PMOD	0
+27	,	,	O	,	O	5	P	0
+28	which	which	B-NP	WDT	O	5	VMOD	0
+29	led	lead	B-VP	VBD	O	28	SBAR	0
+30	to	to	B-PP	TO	O	29	VMOD	0
+31	the	the	B-NP	DT	O	32	NMOD	0
+32	formation	formation	I-NP	NN	O	30	PMOD	17	formation
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	cancer	cancer	B-NP	NN	O	36	NMOD	0
+35	cell	cell	I-NP	NN	O	36	NMOD	0
+36	aggregates	aggregate	I-NP	NNS	O	33	PMOD	15	aggregates
+37	that	that	B-NP	WDT	O	36	NMOD	0
+38	were	be	B-VP	VBD	O	37	SBAR	0
+39	independent	independent	B-ADJP	JJ	O	38	PRD	16	independent
+40	from	from	B-PP	IN	O	39	AMOD	0
+41	the	the	B-NP	DT	O	44	NMOD	0
+42	F-2	F-2	I-NP	NN	B-protein	44	NMOD	0
+43	cell	cell	I-NP	NN	I-protein	44	NMOD	0
+44	networks	network	I-NP	NNS	I-protein	40	PMOD	0
+45	.	.	O	.	O	5	P	0
+
+1	This	This	B-NP	DT	O	5	NMOD	0
+2	in	in	I-NP	FW	O	3	AMOD	0
+3	vitro	vitro	I-NP	FW	O	4	AMOD	0
+4	morphological	morphological	I-NP	JJ	O	5	NMOD	0
+5	appearance	appearance	I-NP	NN	O	6	SUB	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	exactly	exactly	I-VP	RB	O	6	VMOD	0
+8	reproduced	reproduce	I-VP	VBN	O	6	VC	0
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	the	the	B-NP	DT	O	13	NMOD	0
+11	in	in	I-NP	FW	O	12	AMOD	0
+12	vivo	vivo	I-NP	FW	O	13	NMOD	0
+13	tumors	tumor	I-NP	NNS	O	9	PMOD	0
+14	,	,	O	,	O	6	P	0
+15	which	which	B-NP	WDT	O	6	VMOD	0
+16	were	be	B-VP	VBD	O	15	SBAR	0
+17	formed	form	I-VP	VBN	O	16	VC	2	formed
+18	when	when	B-ADVP	WRB	O	16	VMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	mixture	mixture	I-NP	NN	O	18	SBAR	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	A431	A431	B-NP	NN	B-cell_line	25	NMOD	0
+23	and	and	I-NP	CC	I-cell_line	25	NMOD	0
+24	F-2	F-2	I-NP	NN	I-cell_line	25	NMOD	0
+25	cells	cell	I-NP	NNS	I-cell_line	21	PMOD	0
+26	at	at	B-PP	IN	O	20	NMOD	0
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	ratio	ratio	I-NP	NN	O	26	PMOD	0
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	10	10	B-NP	CD	O	33	VMOD	0
+31	:	:	O	:	O	33	P	0
+32	1	1	B-NP	CD	O	33	SUB	0
+33	were	be	B-VP	VBD	O	29	SBAR	0
+34	cotransplanted	cotransplante	I-VP	VBN	O	35	NMOD	19	cotransplanted
+35	s.c	s.c	B-NP	NN	O	33	PRD	0
+36	.	.	O	.	O	6	P	0
+
+1	into	into	B-PP	IN	O	0	ROOT	0
+2	the	the	B-NP	DT	O	3	NMOD	0
+3	back	back	I-NP	NN	O	1	PMOD	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	nude	nude	B-NP	JJ	O	6	NMOD	0
+6	rats	rat	I-NP	NNS	O	4	PMOD	0
+7	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	tumors	tumor	I-NP	NNS	O	9	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	A431	A431	B-NP	NN	B-protein	3	PMOD	0
+5	supplemented	supplement	B-VP	VBN	O	4	NMOD	19	supplemented
+6	with	with	B-PP	IN	O	5	VMOD	0
+7	F-2	F-2	B-NP	NN	B-cell_line	8	NMOD	0
+8	cells	cell	I-NP	NNS	I-cell_line	6	PMOD	0
+9	were	be	B-VP	VBD	O	0	ROOT	0
+10	profoundly	profoundly	I-VP	RB	O	9	VMOD	0
+11	vascularized	vascularize	I-VP	VBN	O	9	VC	0
+12	throughout	throughout	B-ADVP	IN	O	11	VMOD	0
+13	by	by	B-PP	IN	O	12	PMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	tubular	tubular	I-NP	JJ	O	16	NMOD	0
+16	structures	structure	I-NP	NNS	O	13	PMOD	0
+17	formed	form	B-VP	VBN	O	16	NMOD	2	formed
+18	by	by	B-PP	IN	O	17	VMOD	0
+19	F-2	F-2	B-NP	NN	B-cell_line	20	NMOD	0
+20	cells	cell	I-NP	NNS	I-cell_line	18	PMOD	0
+21	,	,	O	,	O	9	P	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	lumen	lumen	I-NP	NN	O	9	PRD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	which	which	B-NP	WDT	O	24	PMOD	0
+26	contained	contain	B-VP	VBD	O	31	NMOD	0
+27	the	the	B-NP	DT	O	31	NMOD	0
+28	host	host	I-NP	NN	B-cell_type	31	NMOD	0
+29	rat	rat	I-NP	NN	I-cell_type	31	NMOD	0
+30	blood	blood	I-NP	NN	I-cell_type	31	NMOD	0
+31	cells	cell	I-NP	NNS	I-cell_type	24	PMOD	0
+32	.	.	O	.	O	9	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	tumor	tumor	I-NP	NN	O	3	NMOD	0
+3	mass	mass	I-NP	NN	O	6	SUB	0
+4	thus	thus	B-VP	RB	O	5	VMOD	0
+5	formed	form	I-VP	VBN	O	3	NMOD	2	formed
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	an	an	B-NP	DT	O	11	NMOD	0
+8	average	average	I-NP	JJ	O	11	NMOD	0
+9	5.8-fold	5.8-fold	I-NP	JJ	O	11	AMOD	0
+10	as	as	B-PP	IN	O	11	AMOD	0
+11	large	large	B-ADJP	JJ	O	6	PRD	0
+12	as	as	B-PP	IN	O	11	AMOD	0
+13	control	control	B-NP	NN	O	15	NMOD	0
+14	A431	A431	I-NP	NN	O	15	NMOD	0
+15	tumors	tumor	I-NP	NNS	O	12	PMOD	0
+16	that	that	B-NP	WDT	O	15	NMOD	0
+17	were	be	B-VP	VBD	O	16	SBAR	0
+18	grown	grow	I-VP	VBN	O	17	VC	4	grown
+19	without	without	B-PP	IN	O	18	VMOD	0
+20	F-2	F-2	B-NP	NN	B-cell_line	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_line	19	PMOD	0
+22	.	.	O	.	O	6	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	co-injection	co-injection	I-NP	NN	O	18	NMOD	19	co-injection
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	anti-Le	anti-Le	B-NP	JJ	O	8	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	x	x	B-NP	NN	O	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	/Le	/Le	B-NP	NN	O	3	PMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	a	a	O	DT	O	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	or	or	O	CC	O	18	NMOD	0
+13	anti-beta	anti-beta	B-ADJP	JJ	B-protein	15	NMOD	0
+14	(	(	O	(	I-protein	15	NMOD	0
+15	1	1	B-NP	CD	I-protein	18	NMOD	0
+16	)	)	O	)	I-protein	18	NMOD	0
+17	-integrin	-integrin	B-NP	JJ	I-protein	18	NMOD	0
+18	antibodies	antibody	I-NP	NNS	I-protein	19	SUB	0
+19	produced	produce	B-VP	VBD	O	0	ROOT	17	produced
+20	a	a	B-NP	DT	O	22	NMOD	0
+21	marked	marked	I-NP	JJ	O	22	NMOD	0
+22	reduction	reduction	I-NP	NN	O	19	OBJ	18	reduction
+23	in	in	B-PP	IN	O	22	NMOD	0
+24	the	the	B-NP	DT	O	25	NMOD	0
+25	size	size	I-NP	NN	O	23	PMOD	0
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	A431	A431	B-NP	NN	O	28	NMOD	0
+28	tumors	tumor	I-NP	NNS	O	26	PMOD	0
+29	,	,	O	,	O	22	P	0
+30	which	which	B-NP	WDT	O	22	NMOD	0
+31	were	be	B-VP	VBD	O	30	SBAR	0
+32	not	not	I-VP	RB	O	31	VMOD	0
+33	vascularized	vascularize	I-VP	VBN	O	31	VC	0
+34	and	and	O	CC	O	33	VMOD	0
+35	accompanied	accompany	B-VP	VBN	O	33	VMOD	0
+36	an	an	B-NP	DT	O	40	NMOD	0
+37	independent	independent	I-NP	JJ	O	40	NMOD	0
+38	tiny	tiny	I-NP	JJ	O	40	NMOD	0
+39	remnant	remnant	I-NP	NN	O	40	NMOD	0
+40	clump	clump	I-NP	NN	O	35	OBJ	0
+41	of	of	B-PP	IN	O	40	NMOD	0
+42	F-2	F-2	B-NP	NN	B-cell_line	43	NMOD	0
+43	cells	cell	I-NP	NNS	I-cell_line	41	PMOD	0
+44	.	.	O	.	O	19	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	size	size	I-NP	NN	O	7	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	these	these	B-NP	DT	O	6	NMOD	0
+5	A431	A431	I-NP	NN	O	6	NMOD	0
+6	tumors	tumor	I-NP	NNS	O	3	PMOD	0
+7	did	do	B-VP	VBD	O	0	ROOT	0
+8	not	not	I-VP	RB	O	7	VMOD	0
+9	differ	differ	I-VP	VB	O	7	VC	0
+10	significantly	significantly	B-ADVP	RB	O	9	VMOD	0
+11	from	from	B-PP	IN	O	9	VMOD	0
+12	those	those	B-NP	DT	O	11	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	control	control	B-NP	NN	B-cell_line	13	PMOD	0
+15	A431	A431	I-NP	NN	I-cell_line	16	NMOD	0
+16	tumors	tumor	I-NP	NNS	I-cell_line	14	OBJ	0
+17	raised	raise	B-VP	VBN	I-cell_line	16	NMOD	4	raised
+18	without	without	B-PP	IN	I-cell_line	17	VMOD	0
+19	F-2	F-2	B-NP	NN	I-cell_line	20	NMOD	0
+20	cells	cell	I-NP	NNS	I-cell_line	18	PMOD	0
+21	.	.	O	.	O	7	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	interaction	interaction	I-NP	NN	O	17	SUB	15	interaction
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	tumor	tumor	B-NP	NN	B-cell_type	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_type	12	NMOD	0
+10	and	and	O	CC	O	12	NMOD	0
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	0
+13	in	in	B-PP	IN	O	6	NMOD	0
+14	orderly	orderly	B-NP	JJ	O	16	NMOD	0
+15	tumor	tumor	I-NP	NN	O	16	NMOD	0
+16	angiomorphogenesis	angiomorphogenesis	I-NP	NN	O	13	PMOD	3	angiomorphogenesis
+17	is	be	B-VP	VBZ	O	4	SBAR	0
+18	highly	highly	B-ADJP	RB	O	19	AMOD	0
+19	dependent	dependent	I-ADJP	JJ	O	17	PRD	17	dependent
+20	on	on	B-PP	IN	O	19	AMOD	0
+21	the	the	B-NP	DT	O	22	NMOD	0
+22	action	action	I-NP	NN	O	20	PMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	cell	cell	B-NP	NN	B-protein	26	NMOD	0
+25	adhesion	adhesion	I-NP	NN	I-protein	26	NMOD	0
+26	molecules	molecule	I-NP	NNS	I-protein	23	PMOD	0
+27	mediating	mediate	B-VP	VBG	O	26	NMOD	16	mediating
+28	the	the	B-NP	DT	O	29	NMOD	0
+29	adhesion	adhesion	I-NP	NN	O	27	OBJ	15	adhesion
+30	of	of	B-PP	IN	O	29	NMOD	0
+31	cancer	cancer	B-NP	NN	B-cell_type	32	NMOD	0
+32	cells	cell	I-NP	NNS	I-cell_type	30	PMOD	0
+33	to	to	B-PP	TO	O	29	NMOD	0
+34	endothelial	endothelial	B-NP	JJ	B-cell_type	35	NMOD	0
+35	cells	cell	I-NP	NNS	I-cell_type	33	PMOD	0
+36	,	,	O	,	O	4	P	0
+37	inhibition	inhibition	B-NP	NN	O	4	DEP	18	inhibition
+38	of	of	B-PP	IN	O	37	NMOD	0
+39	which	which	B-NP	WDT	O	38	PMOD	0
+40	remarkably	remarkably	B-VP	RB	O	41	VMOD	0
+41	retards	retard	I-VP	VBZ	O	38	SBAR	18	retards
+42	tumor	tumor	B-NP	NN	O	43	NMOD	0
+43	growth	growth	I-NP	NN	O	45	NMOD	4	growth
+44	and	and	I-NP	CC	O	45	NMOD	0
+45	angiogenesis	angiogenesis	I-NP	NN	O	41	OBJ	3	angiogenesis
+46	.	.	O	.	O	3	P	0
+

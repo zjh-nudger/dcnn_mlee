@@ -1,0 +1,250 @@
+1	Vasodilator-stimulated	Vasodilator-stimulated	B-NP	JJ	B-protein	2	NMOD	0
+2	phosphoprotein	phosphoprotein	I-NP	NN	I-protein	3	SUB	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	involved	involve	I-VP	VBN	O	3	VC	16	involved
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	stress-fiber	stress-fiber	B-NP	NN	O	10	NMOD	0
+7	and	and	I-NP	CC	O	10	NMOD	0
+8	membrane	membrane	I-NP	NN	O	10	NMOD	0
+9	ruffle	ruffle	I-NP	NN	O	10	NMOD	0
+10	formation	formation	I-NP	NN	O	5	PMOD	2	formation
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	endothelial	endothelial	B-NP	JJ	B-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+14	.	.	O	.	O	3	P	0
+
+1	Vasodilator-stimulated	Vasodilator-stimulated	B-NP	JJ	B-protein	2	NMOD	0
+2	phosphoprotein	phosphoprotein	I-NP	NN	I-protein	6	SUB	0
+3	(	(	O	(	O	5	DEP	0
+4	VASP	VASP	B-NP	NN	B-protein	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	highly	highly	I-VP	RB	O	6	VMOD	0
+8	expressed	express	I-VP	VBN	O	6	VC	9	expressed
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	vascular	vascular	B-NP	JJ	B-cell_type	12	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	0
+13	,	,	O	,	O	12	P	0
+14	where	where	B-ADVP	WRB	O	12	NMOD	0
+15	it	it	B-NP	PRP	O	16	SUB	0
+16	has	have	B-VP	VBZ	O	14	SBAR	0
+17	been	be	I-VP	VBN	O	16	VC	0
+18	implicated	implicate	I-VP	VBN	O	17	VC	0
+19	in	in	B-PP	IN	O	18	VMOD	0
+20	cellular	cellular	B-NP	JJ	O	21	NMOD	0
+21	reorganization	reorganization	I-NP	NN	O	19	PMOD	0
+22	during	during	B-PP	IN	O	18	VMOD	0
+23	angiogenesis	angiogenesis	B-NP	NN	O	22	PMOD	3	angiogenesis
+24	,	,	O	,	O	16	P	0
+25	as	as	B-CONJP	RB	O	16	VMOD	0
+26	well	well	I-CONJP	RB	O	25	DEP	0
+27	as	as	I-CONJP	IN	O	25	DEP	0
+28	in	in	B-PP	IN	O	25	PMOD	0
+29	endothelial	endothelial	B-NP	JJ	O	30	NMOD	0
+30	retraction	retraction	I-NP	NN	O	28	PMOD	0
+31	and	and	I-NP	CC	O	28	PMOD	0
+32	changes	change	I-NP	NNS	O	28	PMOD	16	changes
+33	in	in	B-PP	IN	O	32	NMOD	0
+34	vessel	vessel	B-NP	NN	O	35	NMOD	0
+35	permeability	permeability	I-NP	NN	O	33	PMOD	0
+36	.	.	O	.	O	6	P	0
+
+1	However	However	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	cellular	cellular	I-NP	JJ	O	5	NMOD	0
+5	functions	function	I-NP	NNS	O	8	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	VASP	VASP	B-NP	NN	B-protein	6	PMOD	0
+8	are	be	B-VP	VBP	O	0	ROOT	0
+9	not	not	I-VP	RB	O	8	VMOD	0
+10	known	know	I-VP	VBN	O	8	VC	0
+11	.	.	O	.	O	8	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	we	we	B-NP	PRP	O	6	SUB	0
+6	have	have	B-VP	VBP	O	0	ROOT	0
+7	expressed	express	I-VP	VBN	O	6	VC	19	expressed
+8	wild-type	wild-type	B-NP	JJ	O	11	NMOD	0
+9	and	and	I-NP	CC	O	11	NMOD	0
+10	mutant	mutant	I-NP	JJ	O	11	NMOD	0
+11	forms	form	I-NP	NNS	O	7	OBJ	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	VASP	VASP	B-NP	NN	B-protein	12	PMOD	0
+14	in	in	B-PP	IN	O	7	VMOD	0
+15	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+17	to	to	B-VP	TO	O	18	VMOD	0
+18	determine	determine	I-VP	VB	O	6	VMOD	0
+19	in	in	B-PP	IN	O	18	VMOD	0
+20	what	what	B-NP	WDT	O	19	PMOD	0
+21	aspects	aspect	I-NP	NNS	O	27	SUB	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	cytoskeletal	cytoskeletal	B-NP	JJ	B-protein	26	NMOD	0
+24	behavior	behavior	I-NP	NN	I-protein	26	NMOD	0
+25	this	this	B-NP	DT	I-protein	26	NMOD	0
+26	protein	protein	I-NP	NN	I-protein	22	PMOD	0
+27	participates	participate	B-VP	VBZ	O	20	SBAR	0
+28	.	.	O	.	O	6	P	0
+
+1	Expression	Expression	B-NP	NN	O	5	SUB	9	Expression
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	wild-type	wild-type	B-NP	JJ	B-protein	4	NMOD	0
+4	VASP	VASP	I-NP	NN	I-protein	2	PMOD	0
+5	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+6	marked	marked	B-NP	JJ	O	8	NMOD	0
+7	membrane	membrane	I-NP	NN	O	8	NMOD	0
+8	ruffling	ruffling	I-NP	NN	O	10	NMOD	16	ruffling
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	formation	formation	I-NP	NN	O	5	OBJ	2	formation
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	prominent	prominent	B-NP	JJ	O	14	NMOD	0
+13	stress	stress	I-NP	NN	O	14	NMOD	0
+14	fibers	fiber	I-NP	NNS	O	11	PMOD	0
+15	in	in	B-PP	IN	O	14	NMOD	0
+16	bovine	bovine	B-NP	JJ	B-cell_type	19	NMOD	0
+17	aortic	aortic	I-NP	JJ	I-cell_type	19	NMOD	0
+18	endothelial	endothelial	I-NP	JJ	I-cell_type	19	NMOD	0
+19	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	0
+20	.	.	O	.	O	5	P	0
+
+1	Deletion	Deletion	B-NP	NN	O	8	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	proline-rich	proline-rich	I-NP	JJ	B-protein	5	NMOD	0
+5	domain	domain	I-NP	NN	I-protein	2	PMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	VASP	VASP	B-NP	NN	B-protein	6	PMOD	0
+8	abolishes	abolish	B-VP	VBZ	O	0	ROOT	18	abolishes
+9	its	its	B-NP	PRP$	O	10	NMOD	0
+10	ability	ability	I-NP	NN	O	8	OBJ	0
+11	to	to	B-VP	TO	O	12	VMOD	0
+12	bind	bind	I-VP	VB	O	10	NMOD	15	bind
+13	profilin	profilin	B-NP	NN	B-protein	12	OBJ	0
+14	but	but	O	CC	O	8	VMOD	0
+15	does	do	B-VP	VBZ	O	8	VMOD	0
+16	not	not	I-VP	RB	O	15	VMOD	0
+17	affect	affect	I-VP	VB	O	15	VC	16	affect
+18	ruffling	ruffling	B-NP	NN	O	22	NMOD	0
+19	or	or	I-NP	CC	O	22	NMOD	0
+20	stress	stress	I-NP	NN	O	22	NMOD	0
+21	fiber	fiber	I-NP	NN	O	22	NMOD	0
+22	formation	formation	I-NP	NN	O	17	OBJ	2	formation
+23	.	.	O	.	O	8	P	0
+
+1	Further	Further	B-NP	JJ	O	2	NMOD	0
+2	deletions	deletion	I-NP	NNS	O	3	SUB	0
+3	reveal	reveal	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	sequence	sequence	I-NP	NN	O	3	OBJ	0
+6	within	within	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	carboxy-terminal	carboxy-terminal	I-NP	JJ	B-protein	9	NMOD	0
+9	domain	domain	I-NP	NN	I-protein	6	PMOD	0
+10	that	that	B-NP	WDT	O	9	NMOD	0
+11	is	be	B-VP	VBZ	O	10	SBAR	0
+12	responsible	responsible	B-ADJP	JJ	O	11	PRD	0
+13	for	for	B-PP	IN	O	12	AMOD	0
+14	in	in	B-NP	FW	O	15	AMOD	0
+15	vivo	vivo	I-NP	FW	O	17	NMOD	0
+16	bundle	bundle	I-NP	NN	O	17	NMOD	0
+17	formation	formation	I-NP	NN	O	13	PMOD	0
+18	.	.	O	.	O	3	P	0
+
+1	Ruffling	Ruffling	B-NP	NN	O	2	SUB	0
+2	occurs	occur	B-VP	VBZ	O	0	ROOT	0
+3	only	only	B-ADVP	RB	O	4	PMOD	0
+4	on	on	B-PP	IN	O	2	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	expression	expression	I-NP	NN	O	4	PMOD	9	expression
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	forms	form	B-NP	NNS	O	7	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	VASP	VASP	B-NP	NN	B-protein	9	PMOD	0
+11	that	that	B-NP	WDT	O	8	NMOD	0
+12	possess	possess	B-VP	VBP	O	11	SBAR	0
+13	bundling	bundling	B-NP	NN	O	14	NMOD	0
+14	activity	activity	I-NP	NN	O	17	NMOD	0
+15	and	and	O	CC	O	17	NMOD	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	capacity	capacity	I-NP	NN	O	12	OBJ	0
+18	to	to	B-VP	TO	O	19	VMOD	0
+19	bind	bind	I-VP	VB	O	17	NMOD	15	bind
+20	zyxin/vinculin-derived	zyxin/vinculin-derived	B-NP	JJ	O	21	NMOD	0
+21	peptide	peptide	I-NP	NN	O	19	OBJ	0
+22	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	ability	ability	I-NP	NN	O	18	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	distinct	distinct	B-NP	JJ	O	3	PMOD	0
+5	subdomains	subdomain	I-NP	NNS	B-protein	4	NMOD	0
+6	within	within	B-PP	IN	O	2	NMOD	0
+7	VASP	VASP	B-NP	NN	B-protein	6	PMOD	0
+8	to	to	B-VP	TO	O	9	VMOD	0
+9	bind	bind	I-VP	VB	O	2	NMOD	15	bind
+10	adhesion	adhesion	B-NP	NN	B-protein	11	NMOD	0
+11	proteins	protein	I-NP	NNS	I-protein	9	OBJ	0
+12	and	and	O	CC	O	9	VMOD	0
+13	induce	induce	B-VP	VB	O	9	VMOD	17	induce
+14	F-actin	F-actin	B-NP	NN	B-protein	15	NMOD	0
+15	bundling	bundling	I-NP	NN	O	13	OBJ	0
+16	in	in	B-ADVP	FW	O	13	VMOD	0
+17	vivo	vivo	I-ADVP	FW	O	16	AMOD	0
+18	suggests	suggest	B-VP	VBZ	O	0	ROOT	0
+19	that	that	B-SBAR	IN	O	18	VMOD	0
+20	this	this	B-NP	DT	O	21	NMOD	0
+21	protein	protein	I-NP	NN	O	22	SUB	0
+22	could	could	B-VP	MD	O	19	SBAR	0
+23	function	function	I-VP	VB	O	22	VC	0
+24	in	in	B-PP	IN	O	23	VMOD	0
+25	the	the	B-NP	DT	O	28	NMOD	0
+26	aggregation	aggregation	I-NP	NN	O	28	NMOD	0
+27	and	and	I-NP	CC	O	28	NMOD	0
+28	tethering	tethering	I-NP	NN	O	24	PMOD	0
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	actin	actin	B-NP	NN	B-protein	31	NMOD	0
+31	filaments	filament	I-NP	NNS	I-protein	29	PMOD	0
+32	during	during	B-PP	IN	O	23	VMOD	0
+33	the	the	B-NP	DT	O	34	NMOD	0
+34	formation	formation	I-NP	NN	O	32	PMOD	2	formation
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	endothelial	endothelial	B-NP	JJ	B-protein	37	NMOD	0
+37	cell-substrate	cell-substrate	I-NP	NN	I-protein	40	NMOD	0
+38	and	and	O	CC	O	40	NMOD	0
+39	cell-cell	cell-cell	B-NP	JJ	O	40	NMOD	0
+40	contacts	contact	I-NP	NNS	O	35	PMOD	0
+41	.	.	O	.	O	18	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	provide	provide	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	mechanism	mechanism	I-NP	NN	O	3	OBJ	0
+6	whereby	whereby	B-ADVP	WRB	O	5	NMOD	0
+7	VASP	VASP	B-NP	NN	B-protein	8	SUB	0
+8	can	can	B-VP	MD	O	6	SBAR	0
+9	influence	influence	I-VP	VB	O	8	VC	18	influence
+10	endothelial	endothelial	B-NP	JJ	O	11	NMOD	0
+11	migration	migration	I-NP	NN	O	13	NMOD	14	migration
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	organization	organization	I-NP	NN	O	9	OBJ	2	organization
+14	during	during	B-PP	IN	O	9	VMOD	0
+15	capillary	capillary	B-NP	NN	O	16	NMOD	0
+16	formation	formation	I-NP	NN	O	14	PMOD	2	formation
+17	and	and	O	CC	O	3	VMOD	0
+18	modulate	modulate	B-VP	VBP	O	3	VMOD	16	modulate
+19	vascular	vascular	B-NP	JJ	O	20	NMOD	0
+20	permeability	permeability	I-NP	NN	O	18	OBJ	0
+21	via	via	B-PP	IN	O	18	VMOD	0
+22	effects	effect	B-NP	NNS	O	21	PMOD	16	effects
+23	on	on	B-PP	IN	O	22	NMOD	0
+24	endothelial	endothelial	B-NP	JJ	O	26	NMOD	0
+25	cell	cell	I-NP	NN	O	26	NMOD	0
+26	contractility	contractility	I-NP	NN	O	23	PMOD	0
+27	.	.	O	.	O	3	P	0
+

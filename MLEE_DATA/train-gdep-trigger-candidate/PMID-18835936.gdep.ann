@@ -1,0 +1,317 @@
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	0	ROOT	3	Angiogenesis
+2	associated	associate	B-VP	VBN	O	1	NMOD	0
+3	with	with	B-PP	IN	O	2	VMOD	-1
+4	visceral	visceral	B-NP	JJ	O	8	NMOD	-1
+5	and	and	I-NP	CC	O	8	NMOD	-1
+6	subcutaneous	subcutaneous	I-NP	JJ	O	8	NMOD	-1
+7	adipose	adipose	I-NP	NN	O	8	NMOD	-1
+8	tissue	tissue	I-NP	NN	O	3	PMOD	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	severe	severe	B-NP	JJ	O	12	NMOD	-1
+11	human	human	I-NP	JJ	O	12	NMOD	-1
+12	obesity	obesity	I-NP	NN	O	9	PMOD	-1
+13	.	.	O	.	O	1	P	-1
+
+1	OBJECTIVE	OBJECTIVE	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	The	The	B-NP	DT	O	4	NMOD	-1
+4	expansion	expansion	I-NP	NN	O	8	SUB	2	expansion
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	adipose	adipose	B-NP	NN	O	7	NMOD	-1
+7	tissue	tissue	I-NP	NN	O	5	PMOD	-1
+8	is	be	B-VP	VBZ	O	1	NMOD	-1
+9	linked	link	I-VP	VBN	O	8	VC	16	linked
+10	to	to	B-PP	TO	O	9	VMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	development	development	I-NP	NN	O	10	PMOD	2	development
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	its	its	B-NP	PRP$	O	15	NMOD	-1
+15	vasculature	vasculature	I-NP	NN	O	13	PMOD	-1
+16	.	.	O	.	O	8	P	-1
+
+1	However	However	B-ADVP	RB	O	11	VMOD	-1
+2	,	,	O	,	O	11	P	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	regulation	regulation	I-NP	NN	O	11	SUB	16	regulation
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	adipose	adipose	B-NP	NN	O	8	NMOD	-1
+7	tissue	tissue	I-NP	NN	O	8	NMOD	-1
+8	angiogenesis	angiogenesis	I-NP	NN	O	5	PMOD	3	angiogenesis
+9	in	in	B-PP	IN	O	4	NMOD	-1
+10	humans	human	B-NP	NNS	O	9	PMOD	-1
+11	has	have	B-VP	VBZ	O	0	ROOT	-1
+12	not	not	I-VP	RB	O	11	VMOD	-1
+13	been	be	I-VP	VBN	O	11	VC	-1
+14	extensively	extensively	I-VP	RB	O	13	VMOD	-1
+15	studied	study	I-VP	VBN	O	13	VC	-1
+16	.	.	O	.	O	11	P	-1
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	-1
+2	aim	aim	I-NP	NN	O	3	SUB	-1
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	to	to	B-VP	TO	O	5	VMOD	-1
+5	compare	compare	I-VP	VB	O	3	PRD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	angiogenesis	angiogenesis	I-NP	NN	O	5	OBJ	3	angiogenesis
+8	associated	associate	B-VP	VBN	O	7	NMOD	0
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	subcutaneous	subcutaneous	B-NP	JJ	O	12	NMOD	-1
+11	adipose	adipose	I-NP	NN	O	12	NMOD	-1
+12	tissue	tissue	I-NP	NN	O	19	NMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	SAT	SAT	B-NP	NN	B-protein	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	and	and	O	CC	O	19	NMOD	-1
+17	visceral	visceral	B-NP	JJ	O	19	NMOD	-1
+18	adipose	adipose	I-NP	NN	O	19	NMOD	-1
+19	tissue	tissue	I-NP	NN	O	9	PMOD	-1
+20	(	(	O	(	O	22	DEP	-1
+21	VAT	VAT	B-NP	NN	B-protein	22	DEP	-1
+22	)	)	O	)	O	19	NMOD	-1
+23	from	from	B-PP	IN	O	19	NMOD	-1
+24	the	the	B-NP	DT	O	27	NMOD	-1
+25	same	same	I-NP	JJ	O	27	NMOD	-1
+26	obese	obese	I-NP	JJ	O	27	NMOD	-1
+27	patients	patient	I-NP	NNS	O	23	PMOD	-1
+28	in	in	B-PP	IN	O	27	NMOD	-1
+29	an	an	B-NP	DT	O	32	NMOD	-1
+30	in	in	I-NP	FW	O	31	AMOD	-1
+31	vivo	vivo	I-NP	FW	O	32	NMOD	-1
+32	model	model	I-NP	NN	O	28	PMOD	-1
+33	.	.	O	.	O	3	P	-1
+
+1	RESEARCH	RESEARCH	B-NP	NN	O	4	NMOD	-1
+2	DESIGN	DESIGN	I-NP	NN	O	4	NMOD	-1
+3	AND	AND	I-NP	CC	O	4	NMOD	-1
+4	METHODS	METHODS	I-NP	NNS	O	0	ROOT	-1
+5	:	:	O	:	O	4	P	-1
+6	Adipose	Adipose	B-NP	NN	O	8	NMOD	-1
+7	tissue	tissue	I-NP	NN	O	8	NMOD	-1
+8	samples	sample	I-NP	NNS	O	39	SUB	-1
+9	from	from	B-PP	IN	O	8	NMOD	-1
+10	visceral	visceral	B-NP	JJ	O	15	NMOD	-1
+11	(	(	O	(	O	13	DEP	-1
+12	VAT	VAT	B-NP	NN	B-protein	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	and	and	O	CC	O	15	NMOD	-1
+15	subcutaneous	subcutaneous	B-NP	JJ	O	9	PMOD	-1
+16	(	(	O	(	O	18	DEP	-1
+17	SAT	SAT	B-NP	NN	O	18	DEP	-1
+18	)	)	O	)	O	15	AMOD	-1
+19	sites	site	B-NP	NNS	O	15	NMOD	-1
+20	,	,	O	,	O	15	P	-1
+21	obtained	obtain	B-VP	VBN	O	15	NMOD	19	obtained
+22	from	from	B-PP	IN	O	21	VMOD	-1
+23	36	36	B-NP	CD	O	25	NMOD	-1
+24	obese	obese	I-NP	JJ	O	25	NMOD	-1
+25	patients	patient	I-NP	NNS	O	22	PMOD	-1
+26	(	(	O	(	O	34	DEP	-1
+27	mean	mean	B-NP	JJ	O	30	NMOD	-1
+28	BMI	BMI	I-NP	NN	O	30	NMOD	-1
+29	46.5	46.5	I-NP	CD	O	30	NMOD	-1
+30	kg/m	kg/m	I-NP	NN	O	34	DEP	-1
+31	(	(	O	(	O	33	DEP	-1
+32	2	2	B-NP	CD	O	33	DEP	-1
+33	)	)	O	)	O	30	NMOD	-1
+34	)	)	O	)	O	25	NMOD	-1
+35	during	during	B-PP	IN	O	25	NMOD	-1
+36	bariatric	bariatric	B-NP	JJ	O	37	NMOD	-1
+37	surgery	surgery	I-NP	NN	O	35	PMOD	0
+38	,	,	O	,	O	8	P	-1
+39	were	be	B-VP	VBD	O	4	NMOD	-1
+40	layered	layer	I-VP	VBN	O	39	VC	19	layered
+41	on	on	B-PP	IN	O	40	VMOD	-1
+42	chick	chick	B-NP	NN	O	44	NMOD	-1
+43	chorioallantoic	chorioallantoic	I-NP	JJ	O	44	NMOD	-1
+44	membrane	membrane	I-NP	NN	O	41	PMOD	-1
+45	(	(	O	(	O	47	DEP	-1
+46	CAM	CAM	B-NP	NN	B-protein	47	DEP	-1
+47	)	)	O	)	O	44	NMOD	-1
+48	.	.	O	.	O	4	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	Both	Both	O	CC	O	6	NMOD	-1
+4	SAT	SAT	B-NP	NN	B-protein	6	NMOD	-1
+5	and	and	I-NP	CC	O	6	NMOD	-1
+6	VAT	VAT	I-NP	NN	B-protein	7	SUB	-1
+7	expressed	express	B-VP	VBD	O	1	NMOD	0
+8	angiogenic	angiogenic	B-NP	JJ	B-protein	9	NMOD	3	angiogenic
+9	factors	factor	I-NP	NNS	I-protein	7	OBJ	-1
+10	without	without	B-PP	IN	O	7	VMOD	-1
+11	significant	significant	B-NP	JJ	O	12	NMOD	-1
+12	difference	difference	I-NP	NN	O	10	PMOD	-1
+13	for	for	B-PP	IN	O	12	NMOD	-1
+14	vascular	vascular	B-NP	JJ	B-protein	17	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	I-protein	17	NMOD	-1
+16	growth	growth	I-NP	NN	I-protein	17	NMOD	0
+17	factor	factor	I-NP	NN	I-protein	21	NMOD	-1
+18	(	(	O	(	O	20	DEP	-1
+19	VEGF	VEGF	B-NP	NN	B-protein	20	DEP	-1
+20	)	)	O	)	O	17	NMOD	-1
+21	expression	expression	B-NP	NN	O	13	PMOD	9	expression
+22	.	.	O	.	O	1	P	-1
+
+1	Adipose	Adipose	B-NP	NN	O	2	NMOD	-1
+2	tissue	tissue	I-NP	NN	O	3	SUB	-1
+3	layered	layer	B-VP	VBD	O	0	ROOT	19	layered
+4	on	on	B-PP	IN	O	3	VMOD	-1
+5	CAM	CAM	B-NP	NN	B-protein	6	SUB	-1
+6	stimulated	stimulate	B-VP	VBD	O	4	SBAR	17	stimulated
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	OBJ	3	angiogenesis
+8	.	.	O	.	O	3	P	-1
+
+1	Angiogenic	Angiogenic	B-NP	JJ	O	2	NMOD	3	Angiogenic
+2	stimulation	stimulation	I-NP	NN	O	3	SUB	17	stimulation
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	macroscopically	macroscopically	B-ADJP	RB	O	5	AMOD	-1
+5	detectable	detectable	I-ADJP	JJ	O	3	PRD	0
+6	,	,	O	,	O	3	P	-1
+7	with	with	B-PP	IN	O	3	VMOD	-1
+8	engulfment	engulfment	B-NP	NN	O	7	PMOD	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	samples	sample	I-NP	NNS	O	9	PMOD	-1
+12	,	,	O	,	O	3	P	-1
+13	in	in	B-PP	IN	O	3	VMOD	-1
+14	39	39	B-NP	CD	O	15	NMOD	-1
+15	%	%	I-NP	NN	O	13	PMOD	-1
+16	and	and	O	CC	O	3	VMOD	-1
+17	was	be	B-VP	VBD	O	3	VMOD	-1
+18	evidenced	evidence	I-VP	VBN	O	17	VC	-1
+19	by	by	B-PP	IN	O	18	VMOD	-1
+20	angiography	angiography	B-NP	NN	O	19	PMOD	0
+21	in	in	B-PP	IN	O	20	NMOD	-1
+22	59	59	B-NP	CD	O	23	NMOD	-1
+23	%	%	I-NP	NN	O	21	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	the	the	B-NP	DT	O	26	NMOD	-1
+26	samples	sample	I-NP	NNS	O	24	PMOD	-1
+27	.	.	O	.	O	3	P	-1
+
+1	A	A	B-NP	DT	O	2	NMOD	-1
+2	connection	connection	I-NP	NN	O	9	SUB	15	connection
+3	between	between	B-PP	IN	O	2	NMOD	-1
+4	CAM	CAM	B-NP	NN	B-protein	8	NMOD	-1
+5	and	and	I-NP	CC	O	8	NMOD	-1
+6	adipose	adipose	I-NP	NN	O	8	NMOD	-1
+7	tissue	tissue	I-NP	NN	O	8	NMOD	-1
+8	vessels	vessel	I-NP	NNS	O	3	PMOD	-1
+9	was	be	B-VP	VBD	O	0	ROOT	-1
+10	evidenced	evidence	I-VP	VBN	O	9	VC	-1
+11	by	by	B-PP	IN	O	10	VMOD	-1
+12	immunohistochemistry	immunohistochemistry	B-NP	NN	O	11	PMOD	-1
+13	,	,	O	,	O	10	P	-1
+14	with	with	B-PP	IN	O	10	VMOD	-1
+15	recruitment	recruitment	B-NP	NN	O	14	PMOD	14	recruitment
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	both	both	B-NP	CC	O	22	NMOD	-1
+18	avian	avian	I-NP	JJ	O	22	NMOD	-1
+19	and	and	I-NP	CC	O	22	NMOD	-1
+20	human	human	I-NP	JJ	B-cell_type	22	NMOD	-1
+21	endothelial	endothelial	I-NP	JJ	I-cell_type	22	NMOD	-1
+22	cells	cell	I-NP	NNS	I-cell_type	16	PMOD	-1
+23	.	.	O	.	O	9	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	angiogenic	angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	potency	potency	I-NP	NN	O	7	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	adipose	adipose	B-NP	NN	O	6	NMOD	-1
+6	tissue	tissue	I-NP	NN	O	4	PMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	not	not	O	RB	O	7	VMOD	-1
+9	related	related	B-ADJP	JJ	O	7	PRD	-1
+10	to	to	B-PP	TO	O	9	AMOD	-1
+11	its	its	B-NP	PRP$	O	12	NMOD	-1
+12	localization	localization	I-NP	NN	O	10	PMOD	14	localization
+13	(	(	O	(	O	30	DEP	-1
+14	with	with	B-PP	IN	O	30	DEP	-1
+15	an	an	B-NP	DT	O	17	NMOD	-1
+16	angiogenic	angiogenic	I-NP	JJ	O	17	NMOD	3	angiogenic
+17	stimulation	stimulation	I-NP	NN	O	26	NMOD	17	stimulation
+18	in	in	B-PP	IN	O	17	NMOD	-1
+19	60	60	B-NP	CD	O	20	NMOD	-1
+20	%	%	I-NP	NN	O	18	PMOD	-1
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	SAT	SAT	B-NP	NN	O	23	NMOD	-1
+23	samples	sample	I-NP	NNS	O	21	PMOD	-1
+24	and	and	O	CC	O	26	NMOD	-1
+25	61	61	B-NP	CD	O	26	NMOD	-1
+26	%	%	I-NP	NN	O	14	PMOD	-1
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	VAT	VAT	B-NP	NN	O	29	NMOD	-1
+29	samples	sample	I-NP	NNS	O	27	PMOD	-1
+30	)	)	O	)	O	12	NMOD	-1
+31	or	or	B-PP	CC	O	10	PMOD	-1
+32	to	to	B-PP	TO	O	10	PMOD	-1
+33	adipocyte	adipocyte	B-NP	NN	O	34	NMOD	-1
+34	size	size	I-NP	NN	O	37	NMOD	-1
+35	or	or	O	CC	O	37	NMOD	-1
+36	inflammatory	inflammatory	B-NP	JJ	O	37	NMOD	-1
+37	infiltrate	infiltrate	I-NP	NN	O	32	PMOD	-1
+38	assessed	assess	B-VP	VBN	O	37	NMOD	-1
+39	in	in	B-PP	IN	O	38	VMOD	-1
+40	adipose	adipose	B-NP	NN	O	41	NMOD	-1
+41	samples	sample	I-NP	NNS	O	39	PMOD	-1
+42	before	before	B-PP	IN	O	41	NMOD	-1
+43	the	the	B-NP	DT	O	44	NMOD	-1
+44	graft	graft	I-NP	NN	O	42	PMOD	-1
+45	on	on	B-PP	IN	O	44	NMOD	-1
+46	CAM	CAM	B-NP	NN	B-protein	45	PMOD	-1
+47	.	.	O	.	O	7	P	-1
+
+1	Stimulation	Stimulation	B-NP	NN	O	7	SUB	17	Stimulation
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	PMOD	3	angiogenesis
+4	by	by	B-PP	IN	O	1	NMOD	-1
+5	adipose	adipose	B-NP	NN	O	6	NMOD	-1
+6	tissue	tissue	I-NP	NN	O	4	PMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	nearly	nearly	I-VP	RB	O	7	VMOD	-1
+9	abolished	abolish	I-VP	VBN	O	7	VC	18	abolished
+10	by	by	B-PP	IN	O	9	VMOD	-1
+11	bevacizumab	bevacizumab	B-NP	NN	O	10	PMOD	-1
+12	,	,	O	,	O	11	P	-1
+13	which	which	B-NP	WDT	O	11	NMOD	-1
+14	specifically	specifically	B-VP	RB	O	15	VMOD	-1
+15	targets	target	I-VP	VBZ	O	13	SBAR	16	targets
+16	human	human	B-NP	JJ	B-protein	17	NMOD	-1
+17	VEGF	VEGF	I-NP	NN	I-protein	15	OBJ	-1
+18	.	.	O	.	O	7	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	We	We	B-NP	PRP	O	4	SUB	-1
+4	have	have	B-VP	VBP	O	1	NMOD	-1
+5	established	establish	I-VP	VBN	O	4	VC	0
+6	a	a	B-NP	DT	O	7	NMOD	-1
+7	model	model	I-NP	NN	O	5	OBJ	-1
+8	to	to	B-VP	TO	O	9	VMOD	-1
+9	study	study	I-VP	VB	O	7	NMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	regulation	regulation	I-NP	NN	O	9	OBJ	16	regulation
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	PMOD	3	angiogenesis
+14	by	by	B-PP	IN	O	11	NMOD	-1
+15	human	human	B-NP	JJ	O	17	NMOD	-1
+16	adipose	adipose	I-NP	NN	O	17	NMOD	-1
+17	tissue	tissue	I-NP	NN	O	14	PMOD	-1
+18	.	.	O	.	O	1	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	model	model	I-NP	NN	O	3	SUB	-1
+3	highlighted	highlight	B-VP	VBD	O	0	ROOT	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	role	role	I-NP	NN	O	3	OBJ	16	role
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	VEGF	VEGF	B-NP	NN	B-protein	6	PMOD	-1
+8	in	in	B-PP	IN	O	5	NMOD	-1
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	PMOD	3	angiogenesis
+10	in	in	B-PP	IN	O	5	NMOD	-1
+11	both	both	O	CC	O	14	NMOD	-1
+12	SAT	SAT	B-NP	NN	B-protein	14	NMOD	-1
+13	and	and	I-NP	CC	O	14	NMOD	-1
+14	VAT	VAT	I-NP	NN	B-protein	10	PMOD	-1
+15	.	.	O	.	O	3	P	-1
+

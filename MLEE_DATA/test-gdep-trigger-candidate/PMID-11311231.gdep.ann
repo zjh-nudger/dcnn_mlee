@@ -1,0 +1,139 @@
+1	A	A	B-NP	DT	O	3	NMOD	-1
+2	small	small	I-NP	JJ	O	3	NMOD	-1
+3	peptide	peptide	I-NP	NN	O	10	SUB	-1
+4	derived	derive	B-VP	VBN	O	3	NMOD	0
+5	from	from	B-PP	IN	O	4	VMOD	-1
+6	Flt-1	Flt-1	B-NP	NN	B-protein	5	PMOD	-1
+7	(	(	O	(	O	9	DEP	-1
+8	VEGFR-1	VEGFR-1	B-NP	NN	B-protein	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	functions	function	B-VP	VBZ	O	0	ROOT	0
+11	as	as	B-PP	IN	O	10	VMOD	-1
+12	an	an	B-NP	DT	O	14	NMOD	-1
+13	angiogenic	angiogenic	I-NP	JJ	O	14	NMOD	3	angiogenic
+14	inhibitor	inhibitor	I-NP	NN	O	11	PMOD	18	inhibitor
+15	.	.	O	.	O	10	P	-1
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	-1
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	8	SUB	-1
+5	(	(	O	(	O	7	DEP	-1
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	-1
+7	)	)	O	)	O	4	NMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	an	an	B-NP	DT	O	11	NMOD	-1
+10	angiogenic	angiogenic	I-NP	JJ	O	11	NMOD	3	angiogenic
+11	stimulator	stimulator	I-NP	NN	O	8	PRD	17	stimulator
+12	which	which	B-NP	WDT	O	11	NMOD	-1
+13	functions	function	B-VP	VBZ	O	12	SBAR	16	functions
+14	through	through	B-PP	IN	O	13	VMOD	0
+15	two	two	B-NP	CD	O	20	NMOD	-1
+16	endothelial	endothelial	I-NP	JJ	O	17	AMOD	-1
+17	specific	specific	I-NP	JJ	O	20	NMOD	-1
+18	tyrosine	tyrosine	I-NP	NN	B-protein	20	NMOD	-1
+19	kinase	kinase	I-NP	NN	I-protein	20	NMOD	-1
+20	receptors	receptor	I-NP	NNS	I-protein	24	NMOD	-1
+21	,	,	O	,	O	24	P	-1
+22	Flt-1	Flt-1	B-NP	NN	B-protein	24	NMOD	-1
+23	and	and	I-NP	CC	O	24	NMOD	-1
+24	Flk-1	Flk-1	I-NP	NN	B-protein	14	PMOD	-1
+25	.	.	O	.	O	8	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	work	work	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	show	show	B-VP	VBP	O	0	ROOT	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	an	an	B-NP	DT	O	11	NMOD	-1
+9	11-amino	11-amino	I-NP	JJ	O	11	NMOD	-1
+10	acid	acid	I-NP	NN	O	11	NMOD	-1
+11	peptide	peptide	I-NP	NN	O	20	SUB	-1
+12	derived	derive	B-VP	VBN	O	11	NMOD	0
+13	from	from	B-PP	IN	O	12	VMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	second	second	I-NP	JJ	O	13	PMOD	-1
+16	immunoglobulin-like	immunoglobulin-like	I-NP	JJ	B-protein	17	NMOD	-1
+17	domain	domain	I-NP	NN	I-protein	15	NMOD	-1
+18	of	of	B-PP	IN	O	15	NMOD	-1
+19	Flt-1	Flt-1	B-NP	NN	B-protein	18	PMOD	-1
+20	functions	function	B-VP	VBZ	O	7	SBAR	0
+21	as	as	B-PP	IN	O	20	VMOD	-1
+22	an	an	B-NP	DT	O	24	NMOD	-1
+23	angiogenic	angiogenic	I-NP	JJ	O	24	NMOD	3	angiogenic
+24	inhibitor	inhibitor	I-NP	NN	O	21	PMOD	18	inhibitor
+25	in	in	B-PP	IN	O	24	NMOD	-1
+26	chick	chick	B-NP	NN	O	28	NMOD	-1
+27	chorioallantoic	chorioallantoic	I-NP	JJ	O	28	NMOD	-1
+28	membrane	membrane	I-NP	NN	O	25	PMOD	-1
+29	and	and	O	CC	O	20	VMOD	-1
+30	inhibited	inhibit	B-VP	VBD	O	20	VMOD	0
+31	VEGF-induced	VEGF-induced	B-NP	JJ	O	33	NMOD	-1
+32	vascular	vascular	I-NP	JJ	O	33	NMOD	-1
+33	permeability	permeability	I-NP	NN	O	30	OBJ	-1
+34	in	in	B-PP	IN	O	30	VMOD	-1
+35	Miles	Miles	B-NP	NNP	O	37	NMOD	-1
+36	'	'	B-NP	POS	O	37	NMOD	-1
+37	assay	assay	I-NP	NN	O	34	PMOD	-1
+38	without	without	B-PP	IN	O	30	VMOD	-1
+39	binding	binding	B-NP	NN	O	38	PMOD	15	binding
+40	to	to	B-PP	TO	O	39	NMOD	-1
+41	VEGF	VEGF	B-NP	NN	B-protein	40	PMOD	-1
+42	directly	directly	B-ADVP	RB	O	30	VMOD	-1
+43	.	.	O	.	O	6	P	-1
+
+1	Circular	Circular	B-NP	JJ	O	2	NMOD	-1
+2	dichroism	dichroism	I-NP	NN	O	7	NMOD	-1
+3	and	and	O	CC	O	7	NMOD	-1
+4	nuclear	nuclear	B-NP	JJ	O	7	NMOD	-1
+5	magnetic	magnetic	I-NP	JJ	O	7	NMOD	-1
+6	resonance	resonance	I-NP	NN	O	7	NMOD	-1
+7	analyses	analysis	I-NP	NNS	O	8	SUB	-1
+8	indicate	indicate	B-VP	VBP	O	0	ROOT	-1
+9	that	that	B-SBAR	IN	O	8	VMOD	-1
+10	this	this	B-NP	DT	O	11	NMOD	-1
+11	peptide	peptide	I-NP	NN	O	12	SUB	-1
+12	forms	form	B-VP	VBZ	O	24	VMOD	-1
+13	a	a	B-NP	DT	O	16	NMOD	-1
+14	stable	stable	I-NP	JJ	O	16	NMOD	-1
+15	extended	extend	I-NP	VBN	O	16	NMOD	0
+16	structure	structure	I-NP	NN	O	12	OBJ	-1
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	solution	solution	B-NP	NN	O	17	PMOD	-1
+19	,	,	O	,	O	24	P	-1
+20	presumably	presumably	B-NP	RB	O	22	NMOD	-1
+21	beta-sheet	beta-sheet	I-NP	NN	O	22	NMOD	-1
+22	structure	structure	I-NP	NN	O	24	SUB	-1
+23	and	and	O	CC	O	24	VMOD	-1
+24	is	be	B-VP	VBZ	O	9	SBAR	-1
+25	most	most	B-ADVP	RBS	O	26	AMOD	-1
+26	likely	likely	I-ADVP	RB	O	27	VMOD	-1
+27	existing	exist	B-VP	VBG	O	24	VMOD	-1
+28	as	as	B-PP	IN	O	27	VMOD	-1
+29	a	a	B-NP	DT	O	30	NMOD	-1
+30	dimer	dimer	I-NP	NN	B-protein	28	PMOD	-1
+31	.	.	O	.	O	8	P	-1
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	this	this	B-NP	DT	O	7	NMOD	-1
+6	small	small	I-NP	JJ	O	7	NMOD	-1
+7	peptide	peptide	I-NP	NN	O	8	SUB	-1
+8	functions	function	B-VP	VBZ	O	4	SBAR	0
+9	as	as	B-PP	IN	O	8	VMOD	-1
+10	an	an	B-NP	DT	O	12	NMOD	-1
+11	angiogenic	angiogenic	I-NP	JJ	O	12	NMOD	3	angiogenic
+12	inhibitor	inhibitor	I-NP	NN	O	9	PMOD	0
+13	by	by	B-PP	IN	O	8	VMOD	-1
+14	inhibiting	inhibit	B-VP	VBG	O	13	PMOD	18	inhibiting
+15	VEGF	VEGF	B-NP	NN	B-protein	16	NMOD	-1
+16	function	function	I-NP	NN	O	14	OBJ	-1
+17	through	through	B-PP	IN	O	14	VMOD	0
+18	a	a	B-NP	DT	O	21	NMOD	-1
+19	non-VEGF	non-VEGF	I-NP	JJ	O	21	NMOD	-1
+20	binding	binding	I-NP	NN	O	21	NMOD	15	binding
+21	mechanism	mechanism	I-NP	NN	O	17	PMOD	0

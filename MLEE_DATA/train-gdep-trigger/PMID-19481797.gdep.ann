@@ -1,0 +1,286 @@
+1	Promoting	Promote	B-VP	VBG	O	0	ROOT	17	Promoting
+2	angiogenesis	angiogenesis	B-NP	NN	O	1	OBJ	3	angiogenesis
+3	via	via	B-PP	IN	O	1	VMOD	0
+4	manipulation	manipulation	B-NP	NN	O	3	PMOD	16	manipulation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	NMOD	0
+7	responsiveness	responsiveness	I-NP	NN	O	5	PMOD	0
+8	with	with	B-PP	IN	O	4	NMOD	0
+9	notch	notch	B-NP	NN	O	10	NMOD	0
+10	signaling	signaling	I-NP	NN	O	8	PMOD	0
+11	.	.	O	.	O	1	P	0
+
+1	Promoting	Promote	B-VP	VBG	O	17	SUB	17	Promoting
+2	angiogenesis	angiogenesis	B-NP	NN	O	1	OBJ	3	angiogenesis
+3	via	via	B-PP	IN	O	1	VMOD	0
+4	delivery	delivery	B-NP	NN	O	3	PMOD	14	delivery
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	vascular	vascular	B-NP	JJ	B-protein	9	NMOD	0
+7	endothelial	endothelial	I-NP	JJ	I-protein	9	NMOD	0
+8	growth	growth	I-NP	NN	I-protein	9	NMOD	0
+9	factor	factor	I-NP	NN	I-protein	5	PMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	VEGF	VEGF	B-NP	NN	B-protein	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	and	and	O	CC	O	16	NMOD	0
+14	other	other	B-NP	JJ	O	16	NMOD	0
+15	angiogenic	angiogenic	I-NP	JJ	B-protein	16	NMOD	3	angiogenic
+16	factors	factor	I-NP	NNS	I-protein	9	NMOD	0
+17	is	be	B-VP	VBZ	O	0	ROOT	0
+18	both	both	O	CC	O	17	PRD	0
+19	a	a	B-NP	DT	O	21	NMOD	0
+20	potential	potential	I-NP	JJ	O	21	NMOD	0
+21	therapy	therapy	I-NP	NN	O	28	NMOD	0
+22	for	for	B-PP	IN	O	21	NMOD	0
+23	cardiovascular	cardiovascular	B-NP	JJ	O	24	NMOD	0
+24	diseases	disease	I-NP	NNS	O	22	PMOD	0
+25	and	and	O	CC	O	28	NMOD	0
+26	a	a	B-NP	DT	O	28	NMOD	0
+27	critical	critical	I-NP	JJ	O	28	NMOD	0
+28	aspect	aspect	I-NP	NN	O	18	PRD	0
+29	for	for	B-PP	IN	O	28	NMOD	0
+30	tissue	tissue	B-NP	NN	O	31	NMOD	0
+31	regeneration	regeneration	I-NP	NN	O	29	PMOD	2	regeneration
+32	.	.	O	.	O	17	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	recent	recent	I-NP	JJ	O	3	NMOD	0
+3	demonstration	demonstration	I-NP	NN	O	17	SUB	0
+4	that	that	B-SBAR	IN	O	3	NMOD	0
+5	VEGF	VEGF	B-NP	NN	B-protein	6	NMOD	0
+6	signaling	signaling	I-NP	NN	O	7	SUB	0
+7	is	be	B-VP	VBZ	O	4	SBAR	0
+8	modulated	modulate	I-VP	VBN	O	7	VC	16	modulated
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	the	the	B-NP	DT	O	13	NMOD	0
+11	Notch	Notch	I-NP	NN	O	13	NMOD	0
+12	signaling	signaling	I-NP	NN	O	13	NMOD	0
+13	pathway	pathway	I-NP	NN	O	9	PMOD	0
+14	,	,	O	,	O	3	P	0
+15	however	however	B-ADVP	RB	O	17	VMOD	0
+16	,	,	O	,	O	17	P	0
+17	suggests	suggest	B-VP	VBZ	O	0	ROOT	0
+18	that	that	B-SBAR	IN	O	17	VMOD	0
+19	inhibiting	inhibit	B-VP	VBG	O	22	SUB	18	inhibiting
+20	Notch	Notch	B-NP	NN	O	21	NMOD	0
+21	signaling	signaling	I-NP	NN	O	19	OBJ	0
+22	may	may	B-VP	MD	O	18	SBAR	0
+23	enhance	enhance	I-VP	VB	O	22	VC	17	enhance
+24	regional	regional	B-NP	JJ	O	25	NMOD	0
+25	neovascularization	neovascularization	I-NP	NN	O	23	OBJ	3	neovascularization
+26	,	,	O	,	O	23	P	0
+27	by	by	B-PP	IN	O	23	VMOD	0
+28	altering	alter	B-VP	VBG	O	27	PMOD	0
+29	the	the	B-NP	DT	O	30	NMOD	0
+30	responsiveness	responsiveness	I-NP	NN	O	28	OBJ	16	responsiveness
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	local	local	B-NP	JJ	B-cell_type	34	NMOD	0
+33	endothelial	endothelial	I-NP	JJ	I-cell_type	34	NMOD	0
+34	cells	cell	I-NP	NNS	I-cell_type	31	PMOD	0
+35	to	to	B-PP	TO	O	30	NMOD	0
+36	angiogenic	angiogenic	B-NP	JJ	O	37	NMOD	3	angiogenic
+37	stimuli	stimulus	I-NP	NNS	O	35	PMOD	0
+38	.	.	O	.	O	17	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	tested	test	B-VP	VBD	O	0	ROOT	0
+3	this	this	B-NP	DT	O	4	NMOD	0
+4	possibility	possibility	I-NP	NN	O	2	OBJ	0
+5	with	with	B-PP	IN	O	4	NMOD	0
+6	in	in	B-NP	FW	O	7	AMOD	0
+7	vitro	vitro	I-NP	FW	O	8	NMOD	0
+8	assays	assay	I-NP	NNS	O	5	PMOD	0
+9	using	use	B-VP	VBG	O	8	NMOD	0
+10	human	human	B-NP	JJ	B-cell_type	12	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	9	OBJ	0
+13	,	,	O	,	O	14	P	0
+14	as	as	B-CONJP	RB	O	4	NMOD	0
+15	well	well	I-CONJP	RB	O	14	DEP	0
+16	as	as	I-CONJP	IN	O	14	DEP	0
+17	in	in	B-PP	IN	O	14	DEP	0
+18	a	a	B-NP	DT	O	22	NMOD	0
+19	rodent	rodent	I-NP	NN	O	22	NMOD	0
+20	hindlimb	hindlimb	I-NP	NN	O	22	NMOD	0
+21	ischemia	ischemia	I-NP	NN	O	22	NMOD	0
+22	model	model	I-NP	NN	O	17	PMOD	0
+23	.	.	O	.	O	14	P	0
+
+1	Treatment	Treatment	B-NP	NN	O	15	SUB	19	Treatment
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	cultured	culture	B-NP	VBN	B-cell_line	6	NMOD	19	cultured
+4	human	human	I-NP	JJ	I-cell_line	6	NMOD	0
+5	endothelial	endothelial	I-NP	JJ	I-cell_line	6	NMOD	0
+6	cells	cell	I-NP	NNS	I-cell_line	2	PMOD	0
+7	with	with	B-PP	IN	O	1	NMOD	0
+8	DAPT	DAPT	B-NP	NN	O	13	NMOD	0
+9	,	,	O	,	O	13	P	0
+10	a	a	B-NP	DT	O	13	NMOD	0
+11	gamma	gamma	I-NP	NN	O	13	NMOD	0
+12	secretase	secretase	I-NP	NN	O	13	NMOD	0
+13	inhibitor	inhibitor	I-NP	NN	O	7	PMOD	0
+14	,	,	O	,	O	13	P	0
+15	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+16	cell	cell	B-NP	NN	O	17	NMOD	0
+17	migration	migration	I-NP	NN	O	20	NMOD	14	migration
+18	and	and	O	CC	O	20	NMOD	0
+19	sprout	sprout	B-NP	NN	O	20	NMOD	0
+20	formation	formation	I-NP	NN	O	15	OBJ	2	formation
+21	in	in	B-PP	IN	O	15	VMOD	0
+22	response	response	I-PP	NN	O	21	PMOD	0
+23	to	to	I-PP	TO	O	21	PMOD	0
+24	VEGF	VEGF	B-NP	NN	B-protein	25	NMOD	0
+25	stimulation	stimulation	I-NP	NN	O	21	PMOD	17	stimulation
+26	with	with	B-PP	IN	O	25	NMOD	0
+27	a	a	B-NP	DT	O	29	NMOD	0
+28	biphasic	biphasic	I-NP	JJ	O	29	NMOD	0
+29	dependence	dependence	I-NP	NN	O	26	PMOD	0
+30	on	on	B-PP	IN	O	29	NMOD	0
+31	DAPT	DAPT	B-NP	NN	O	32	NMOD	0
+32	concentration	concentration	I-NP	NN	O	30	PMOD	0
+33	.	.	O	.	O	15	P	0
+
+1	Further	Further	B-ADVP	RB	O	21	VMOD	0
+2	,	,	O	,	O	21	P	0
+3	delivery	delivery	B-NP	NN	O	21	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	an	an	B-NP	DT	O	7	NMOD	0
+6	appropriate	appropriate	I-NP	JJ	O	7	NMOD	0
+7	combination	combination	I-NP	NN	O	4	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	DAPT	DAPT	B-NP	NN	O	11	NMOD	0
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	VEGF	VEGF	I-NP	NN	B-protein	8	PMOD	0
+12	from	from	B-PP	IN	O	11	NMOD	0
+13	an	an	B-NP	DT	O	17	NMOD	0
+14	injectable	injectable	I-NP	JJ	O	17	NMOD	0
+15	alginate	alginate	I-NP	NN	O	17	NMOD	0
+16	hydrogel	hydrogel	I-NP	NN	O	17	NMOD	0
+17	system	system	I-NP	NN	O	12	PMOD	0
+18	into	into	B-PP	IN	O	3	NMOD	0
+19	ischemic	ischemic	B-NP	JJ	O	20	NMOD	0
+20	hindlimbs	hindlimb	I-NP	NNS	O	18	PMOD	0
+21	led	lead	B-VP	VBD	O	0	ROOT	0
+22	to	to	B-PP	TO	O	21	VMOD	0
+23	a	a	B-NP	DT	O	25	NMOD	0
+24	faster	fast	I-NP	JJR	O	25	NMOD	0
+25	recovery	recovery	I-NP	NN	O	22	PMOD	0
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	blood	blood	B-NP	NN	O	28	NMOD	0
+28	flow	flow	I-NP	NN	O	26	PMOD	0
+29	than	than	B-PP	IN	O	25	NMOD	0
+30	VEGF	VEGF	B-NP	NN	B-protein	32	NMOD	0
+31	or	or	I-NP	CC	O	32	NMOD	0
+32	DAPT	DAPT	I-NP	NN	O	29	SBAR	0
+33	alone	alone	B-ADVP	RB	O	32	NMOD	0
+34	;	;	O	:	O	21	P	0
+35	perfusion	perfusion	B-NP	NN	O	36	NMOD	0
+36	levels	level	I-NP	NNS	O	21	VMOD	0
+37	reached	reach	B-VP	VBD	O	36	NMOD	0
+38	80	80	B-NP	CD	O	39	NMOD	0
+39	%	%	I-NP	NN	O	37	OBJ	0
+40	of	of	B-PP	IN	O	39	NMOD	0
+41	the	the	B-NP	DT	O	43	NMOD	0
+42	normal	normal	I-NP	JJ	O	43	NMOD	0
+43	level	level	I-NP	NN	O	40	PMOD	0
+44	by	by	B-PP	IN	O	37	VMOD	0
+45	week	week	B-NP	NN	O	44	PMOD	0
+46	4	4	I-NP	CD	O	45	NMOD	0
+47	with	with	B-PP	IN	O	37	VMOD	0
+48	combined	combine	B-NP	VBN	O	52	NMOD	0
+49	DAPT	DAPT	I-NP	NN	O	52	NMOD	0
+50	and	and	I-NP	CC	O	52	NMOD	0
+51	VEGF	VEGF	I-NP	NN	O	52	NMOD	0
+52	delivery	delivery	I-NP	NN	O	47	PMOD	14	delivery
+53	.	.	O	.	O	21	P	0
+
+1	Direct	Direct	B-NP	JJ	O	4	AMOD	0
+2	intramuscular	intramuscular	I-NP	JJ	O	4	AMOD	0
+3	or	or	I-NP	CC	O	4	AMOD	0
+4	intraperitoneal	intraperitoneal	I-NP	JJ	O	5	NMOD	0
+5	injection	injection	I-NP	NN	O	8	SUB	19	injection
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	DAPT	DAPT	B-NP	NN	O	6	PMOD	0
+8	did	do	B-VP	VBD	O	0	ROOT	0
+9	not	not	I-VP	RB	O	8	VMOD	0
+10	result	result	I-VP	VB	O	8	VC	0
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	the	the	B-NP	DT	O	14	NMOD	0
+13	same	same	I-NP	JJ	O	14	NMOD	0
+14	level	level	I-NP	NN	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	improvement	improvement	B-NP	NN	O	15	PMOD	0
+17	,	,	O	,	O	10	P	0
+18	suggesting	suggest	B-VP	VBG	O	10	VMOD	0
+19	that	that	B-SBAR	IN	O	18	VMOD	0
+20	appropriate	appropriate	B-NP	JJ	O	21	NMOD	0
+21	presentation	presentation	I-NP	NN	O	28	SUB	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	DAPT	DAPT	B-NP	NN	O	22	PMOD	0
+24	(	(	O	(	O	27	DEP	0
+25	gel	gel	B-NP	NN	O	26	NMOD	0
+26	delivery	delivery	I-NP	NN	O	27	DEP	0
+27	)	)	O	)	O	23	NMOD	0
+28	is	be	B-VP	VBZ	O	19	SBAR	0
+29	important	important	B-ADJP	JJ	O	28	PRD	0
+30	for	for	B-PP	IN	O	29	AMOD	0
+31	its	its	B-NP	PRP$	O	32	NMOD	0
+32	activity	activity	I-NP	NN	O	30	PMOD	0
+33	.	.	O	.	O	8	P	0
+
+1	DAPT	DAPT	B-NP	NN	O	2	NMOD	0
+2	delivery	delivery	I-NP	NN	O	7	SUB	14	delivery
+3	from	from	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	hydrogels	hydrogel	I-NP	NNS	O	3	PMOD	0
+6	also	also	B-ADVP	RB	O	7	VMOD	0
+7	did	do	B-VP	VBD	O	0	ROOT	0
+8	not	not	I-VP	RB	O	7	VMOD	0
+9	lead	lead	I-VP	VB	O	7	VC	0
+10	to	to	B-PP	TO	O	9	VMOD	0
+11	any	any	B-NP	DT	O	14	NMOD	0
+12	adverse	adverse	I-NP	JJ	O	14	NMOD	0
+13	side	side	I-NP	NN	O	14	NMOD	0
+14	effects	effect	I-NP	NNS	O	10	PMOD	0
+15	,	,	O	,	O	14	P	0
+16	in	in	B-PP	IN	O	14	NMOD	0
+17	contrast	contrast	B-NP	NN	O	16	PMOD	0
+18	to	to	B-PP	TO	O	17	NMOD	0
+19	systemic	systemic	B-NP	JJ	O	20	NMOD	0
+20	introduction	introduction	I-NP	NN	O	18	PMOD	17	introduction
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	DAPT	DAPT	B-NP	NN	B-protein	21	PMOD	0
+23	.	.	O	.	O	7	P	0
+
+1	Altogether	Altogether	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	these	these	B-NP	DT	O	4	NMOD	0
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+6	a	a	B-NP	DT	O	8	NMOD	0
+7	new	new	I-NP	JJ	O	8	NMOD	0
+8	approach	approach	I-NP	NN	O	5	OBJ	0
+9	to	to	B-VP	TO	O	10	VMOD	0
+10	promote	promote	I-VP	VB	O	8	NMOD	17	promote
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	OBJ	3	angiogenesis
+12	by	by	B-PP	IN	O	10	VMOD	0
+13	controlling	control	B-VP	VBG	O	12	PMOD	16	controlling
+14	Notch	Notch	B-NP	NN	O	15	NMOD	0
+15	signaling	signaling	I-NP	NN	O	13	OBJ	0
+16	,	,	O	,	O	5	P	0
+17	and	and	O	CC	O	5	VMOD	0
+18	may	may	B-VP	MD	O	5	VMOD	0
+19	provide	provide	I-VP	VB	O	18	VC	0
+20	new	new	B-NP	JJ	O	21	NMOD	0
+21	options	option	I-NP	NNS	O	19	OBJ	0
+22	to	to	B-VP	TO	O	23	VMOD	0
+23	treat	treat	I-VP	VB	O	21	NMOD	19	treat
+24	patients	patient	B-NP	NNS	O	23	OBJ	0
+25	with	with	B-PP	IN	O	24	NMOD	0
+26	diseases	disease	B-NP	NNS	O	25	PMOD	0
+27	that	that	B-NP	WDT	O	26	NMOD	0
+28	diminish	diminish	B-VP	VBP	O	27	SBAR	18	diminish
+29	angiogenic	angiogenic	B-NP	JJ	O	30	NMOD	3	angiogenic
+30	responsiveness	responsiveness	I-NP	NN	O	28	OBJ	0
+31	.	.	O	.	O	5	P	0
+

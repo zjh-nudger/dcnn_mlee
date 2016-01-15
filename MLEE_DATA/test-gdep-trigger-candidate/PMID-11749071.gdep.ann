@@ -1,0 +1,215 @@
+1	Troponin	Troponin	B-NP	NN	B-protein	3	SUB	-1
+2	I	I	I-NP	CD	I-protein	1	NMOD	-1
+3	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+4	capillary	capillary	B-NP	JJ	O	7	NMOD	-1
+5	endothelial	endothelial	I-NP	JJ	O	7	NMOD	-1
+6	cell	cell	I-NP	NN	O	7	NMOD	-1
+7	proliferation	proliferation	I-NP	NN	O	3	OBJ	1	proliferation
+8	by	by	B-PP	IN	O	3	VMOD	-1
+9	interaction	interaction	B-NP	NN	O	8	PMOD	15	interaction
+10	with	with	B-PP	IN	O	9	NMOD	-1
+11	the	the	B-NP	DT	O	15	NMOD	-1
+12	cell	cell	I-NP	NN	B-protein	15	NMOD	-1
+13	's	's	B-NP	POS	I-protein	15	NMOD	-1
+14	bFGF	bFGF	I-NP	NN	I-protein	15	NMOD	-1
+15	receptor	receptor	I-NP	NN	I-protein	10	PMOD	-1
+16	.	.	O	.	O	3	P	-1
+
+1	Troponin	Troponin	B-NP	NN	B-protein	6	SUB	-1
+2	I	I	I-NP	CD	I-protein	1	NMOD	-1
+3	(	(	O	(	O	5	DEP	-1
+4	TnI	TnI	B-NP	NN	B-protein	5	DEP	-1
+5	)	)	O	)	O	1	NMOD	-1
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	a	a	B-NP	DT	O	11	NMOD	-1
+8	novel	novel	I-NP	JJ	O	11	NMOD	-1
+9	cartilage-derived	cartilage-derived	I-NP	JJ	O	11	NMOD	-1
+10	angiogenesis	angiogenesis	I-NP	NN	O	11	NMOD	3	angiogenesis
+11	inhibitor	inhibitor	I-NP	NN	O	6	PRD	0
+12	,	,	O	,	O	11	P	-1
+13	first	first	B-VP	RB	O	14	VMOD	-1
+14	demonstrated	demonstrate	I-VP	VBN	O	11	NMOD	-1
+15	by	by	B-PP	IN	O	14	VMOD	-1
+16	Moses	Moses	B-NP	NNP	O	22	NMOD	-1
+17	et	et	I-NP	FW	O	16	NMOD	-1
+18	al.	al.	I-NP	FW	O	16	NMOD	-1
+19	(	(	O	(	O	16	NMOD	-1
+20	1999	1999	B-NP	CD	O	16	NMOD	-1
+21	,	,	O	,	O	22	P	-1
+22	Proc	Proc	B-NP	NNP	O	15	PMOD	-1
+23	.	.	O	.	O	6	P	-1
+
+1	Natl	Natl	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Acad	Acad	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Sci	Sci	B-NP	NNS	B-protein	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	USA	USA	B-NP	NNP	O	2	NMOD	-1
+2	2645-2650	2645-2650	I-NP	CD	O	0	ROOT	-1
+3	)	)	O	)	O	2	DEP	-1
+4	to	to	B-VP	TO	O	5	VMOD	-1
+5	inhibit	inhibit	I-VP	VB	O	2	NMOD	18	inhibit
+6	endothelial	endothelial	B-NP	JJ	B-cell_type	7	NMOD	-1
+7	cell	cell	I-NP	NN	I-cell_type	5	OBJ	-1
+8	proliferation	proliferation	I-NP	NN	O	7	NMOD	1	proliferation
+9	and	and	I-NP	CC	O	7	NMOD	-1
+10	angiogenesis	angiogenesis	I-NP	NN	O	7	NMOD	3	angiogenesis
+11	,	,	O	,	O	2	P	-1
+12	both	both	O	CC	O	13	AMOD	-1
+13	in	in	B-ADVP	FW	O	2	NMOD	-1
+14	vivo	vivo	I-ADVP	FW	O	13	AMOD	-1
+15	and	and	O	CC	O	13	AMOD	-1
+16	in	in	B-ADVP	FW	O	13	AMOD	-1
+17	vitro	vitro	I-ADVP	FW	O	16	AMOD	-1
+18	,	,	O	,	O	2	P	-1
+19	and	and	O	CC	O	2	VMOD	-1
+20	to	to	B-VP	TO	O	21	VMOD	-1
+21	inhibit	inhibit	I-VP	VB	O	2	VMOD	18	inhibit
+22	metastasis	metastasis	B-NP	NN	O	21	OBJ	14	metastasis
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	a	a	B-NP	DT	O	26	NMOD	-1
+25	wide	wide	I-NP	JJ	O	26	NMOD	-1
+26	variety	variety	I-NP	NN	O	23	PMOD	-1
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	tumors	tumor	B-NP	NNS	O	27	PMOD	-1
+29	in	in	B-ADVP	FW	O	28	NMOD	-1
+30	vivo	vivo	I-ADVP	FW	O	29	AMOD	-1
+31	.	.	O	.	O	2	P	-1
+
+1	Despite	Despite	B-PP	IN	O	9	VMOD	-1
+2	convincing	convince	B-VP	VBG	O	1	PMOD	-1
+3	evidence	evidence	B-NP	NN	O	2	OBJ	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	its	its	B-NP	PRP$	O	6	NMOD	-1
+6	efficacy	efficacy	I-NP	NN	O	4	PMOD	0
+7	,	,	O	,	O	9	P	-1
+8	little	little	B-NP	JJ	O	9	SUB	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	known	know	I-VP	VBN	O	9	VC	-1
+11	about	about	B-PP	IN	O	10	VMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	mechanism	mechanism	I-NP	NN	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	action	action	B-NP	NN	O	14	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	TnI	TnI	B-NP	NN	B-protein	16	PMOD	-1
+18	as	as	B-PP	IN	O	15	NMOD	-1
+19	an	an	B-NP	DT	O	23	NMOD	-1
+20	anti-proliferative	anti-proliferative	I-NP	JJ	O	22	AMOD	-1
+21	and	and	I-NP	CC	O	22	AMOD	-1
+22	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	23	NMOD	3	angiogenic
+23	agent	agent	I-NP	NN	O	18	PMOD	-1
+24	.	.	O	.	O	9	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	current	current	I-NP	JJ	O	4	NMOD	-1
+4	article	article	I-NP	NN	O	1	PMOD	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	demonstrate	demonstrate	B-VP	VBP	O	22	VMOD	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	TnI	TnI	B-NP	NN	B-protein	9	SUB	-1
+9	inhibits	inhibit	B-VP	VBZ	O	7	SBAR	18	inhibits
+10	both	both	O	CC	O	14	NMOD	-1
+11	bFGF-stimulated	bFGF-stimulated	B-NP	JJ	O	14	NMOD	17	stimulated
+12	and	and	I-NP	CC	O	14	NMOD	-1
+13	basal	basal	I-NP	JJ	O	14	NMOD	-1
+14	levels	level	I-NP	NNS	O	9	OBJ	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	endothelial	endothelial	B-NP	JJ	B-cell_type	18	NMOD	-1
+17	cell	cell	I-NP	NN	I-cell_type	18	NMOD	-1
+18	proliferation	proliferation	I-NP	NN	O	15	PMOD	1	proliferation
+19	,	,	O	,	O	22	P	-1
+20	and	and	O	CC	O	22	VMOD	-1
+21	we	we	B-NP	PRP	O	22	SUB	-1
+22	hypothesize	hypothesize	B-VP	VBP	O	0	ROOT	-1
+23	that	that	B-SBAR	IN	O	22	VMOD	-1
+24	this	this	B-NP	DT	O	25	NMOD	-1
+25	inhibition	inhibition	I-NP	NN	O	26	SUB	18	inhibition
+26	is	be	B-VP	VBZ	O	23	SBAR	-1
+27	occurring	occur	I-VP	VBG	O	26	PRD	-1
+28	,	,	O	,	O	26	P	-1
+29	at	at	B-ADVP	IN	O	31	PMOD	-1
+30	least	least	I-ADVP	JJS	O	29	AMOD	-1
+31	in	in	B-PP	IN	O	26	VMOD	-1
+32	part	part	B-NP	NN	O	31	PMOD	-1
+33	,	,	O	,	O	26	P	-1
+34	via	via	B-PP	IN	O	26	VMOD	0
+35	an	an	B-NP	DT	O	36	NMOD	-1
+36	interaction	interaction	I-NP	NN	O	34	PMOD	15	interaction
+37	of	of	B-PP	IN	O	36	NMOD	-1
+38	TnI	TnI	B-NP	NN	B-protein	37	PMOD	-1
+39	with	with	B-PP	IN	O	36	NMOD	-1
+40	the	the	B-NP	DT	O	43	NMOD	-1
+41	cell-surface	cell-surface	I-NP	JJ	B-protein	43	NMOD	-1
+42	bFGF	bFGF	I-NP	NN	I-protein	43	NMOD	-1
+43	receptor	receptor	I-NP	NN	I-protein	39	PMOD	-1
+44	on	on	B-PP	IN	O	36	NMOD	-1
+45	capillary	capillary	B-NP	JJ	B-cell_type	47	NMOD	-1
+46	endothelial	endothelial	I-NP	JJ	I-cell_type	47	NMOD	-1
+47	cells	cell	I-NP	NNS	I-cell_type	44	PMOD	-1
+48	.	.	O	.	O	22	P	-1
+
+1	We	We	B-NP	PRP	O	3	SUB	-1
+2	further	further	B-ADVP	RB	O	3	VMOD	-1
+3	support	support	B-VP	VBP	O	0	ROOT	0
+4	this	this	B-NP	DT	O	5	NMOD	-1
+5	hypothesis	hypothesis	I-NP	NN	O	3	OBJ	-1
+6	by	by	B-PP	IN	O	5	NMOD	-1
+7	providing	provide	B-VP	VBG	O	6	PMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	first	first	I-NP	JJ	O	10	NMOD	-1
+10	evidence	evidence	I-NP	NN	O	7	OBJ	-1
+11	that	that	B-SBAR	IN	O	10	NMOD	-1
+12	TnI	TnI	B-NP	NN	B-protein	13	SUB	-1
+13	can	can	B-VP	MD	O	11	SBAR	-1
+14	act	act	I-VP	VB	O	13	VC	16	act
+15	on	on	B-PP	IN	O	14	VMOD	-1
+16	nonendothelial	nonendothelial	O	JJ	O	21	NMOD	-1
+17	as	as	B-CONJP	RB	O	21	NMOD	-1
+18	well	well	I-CONJP	RB	O	17	DEP	-1
+19	as	as	I-CONJP	IN	O	17	DEP	-1
+20	endothelial	endothelial	B-NP	JJ	B-cell_type	21	NMOD	-1
+21	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	-1
+22	and	and	B-PP	CC	O	15	PMOD	-1
+23	by	by	B-PP	IN	O	15	PMOD	-1
+24	demonstrating	demonstrate	B-VP	VBG	O	23	PMOD	-1
+25	that	that	B-SBAR	IN	O	24	VMOD	-1
+26	this	this	B-NP	DT	O	28	NMOD	-1
+27	inhibitory	inhibitory	I-NP	JJ	O	28	NMOD	0
+28	action	action	I-NP	NN	O	29	SUB	0
+29	is	be	B-VP	VBZ	O	25	SBAR	-1
+30	specific	specific	B-ADJP	JJ	O	29	PRD	-1
+31	for	for	B-PP	IN	O	30	AMOD	-1
+32	the	the	B-NP	DT	O	34	NMOD	-1
+33	bFGF	bFGF	I-NP	NN	B-protein	34	NMOD	-1
+34	receptor	receptor	I-NP	NN	I-protein	31	PMOD	-1
+35	on	on	B-PP	IN	O	30	AMOD	-1
+36	the	the	B-NP	DT	O	38	NMOD	-1
+37	target	target	I-NP	NN	B-cell_type	38	NMOD	0
+38	cells	cell	I-NP	NNS	I-cell_type	35	PMOD	-1
+39	.	.	O	.	O	3	P	-1
+
+1	Preliminary	Preliminary	B-NP	JJ	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	TnI	TnI	B-NP	NN	B-protein	6	SUB	-1
+6	may	may	B-VP	MD	O	4	SBAR	-1
+7	be	be	I-VP	VB	O	6	VC	-1
+8	competing	compete	I-VP	VBG	O	7	VC	18	competing
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	bFGF	bFGF	B-NP	NN	B-protein	9	PMOD	-1
+11	for	for	B-PP	IN	O	8	VMOD	-1
+12	interaction	interaction	B-NP	NN	O	11	PMOD	15	interaction
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	bFGF	bFGF	I-NP	NN	B-protein	16	NMOD	-1
+16	receptor	receptor	I-NP	NN	I-protein	13	PMOD	-1
+17	on	on	B-PP	IN	O	12	NMOD	-1
+18	responsive	responsive	B-NP	JJ	B-cell_type	19	NMOD	-1
+19	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	-1

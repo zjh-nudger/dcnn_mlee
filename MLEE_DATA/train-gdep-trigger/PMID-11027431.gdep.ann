@@ -1,0 +1,266 @@
+1	Nitric	Nitric	B-NP	JJ	B-protein	3	NMOD	0
+2	oxide	oxide	I-NP	NN	I-protein	3	NMOD	0
+3	synthase	synthase	I-NP	NN	I-protein	4	NMOD	0
+4	inhibition	inhibition	I-NP	NN	O	5	SUB	18	inhibition
+5	results	result	B-VP	VBZ	O	0	ROOT	17	results
+6	in	in	B-PP	IN	O	5	VMOD	0
+7	synergistic	synergistic	B-NP	JJ	O	9	NMOD	0
+8	anti-tumour	anti-tumour	I-NP	JJ	O	9	NMOD	0
+9	activity	activity	I-NP	NN	O	6	PMOD	18	activity
+10	with	with	B-PP	IN	O	9	NMOD	0
+11	melphalan	melphalan	B-NP	NN	O	19	NMOD	0
+12	and	and	O	CC	O	19	NMOD	0
+13	tumour	tumour	B-NP	NN	B-protein	19	NMOD	0
+14	necrosis	necrosis	I-NP	NN	I-protein	19	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	19	NMOD	0
+16	alpha-based	alpha-based	I-NP	JJ	O	19	NMOD	0
+17	isolated	isolate	I-NP	VBN	O	19	NMOD	0
+18	limb	limb	I-NP	NN	O	19	NMOD	0
+19	perfusions	perfusion	I-NP	NNS	O	10	PMOD	0
+20	.	.	O	.	O	5	P	0
+
+1	Nitric	Nitric	B-NP	JJ	O	2	NMOD	0
+2	oxide	oxide	I-NP	NN	O	6	SUB	0
+3	(	(	O	(	O	5	DEP	0
+4	NO	NO	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	important	important	I-NP	JJ	O	9	NMOD	0
+9	molecule	molecule	I-NP	NN	O	6	PRD	0
+10	in	in	B-PP	IN	O	9	NMOD	0
+11	regulating	regulate	B-VP	VBG	O	10	PMOD	0
+12	tumour	tumour	B-NP	NN	O	14	NMOD	0
+13	blood	blood	I-NP	NN	O	14	NMOD	0
+14	flow	flow	I-NP	NN	O	11	OBJ	0
+15	and	and	O	CC	O	6	VMOD	0
+16	stimulating	stimulate	B-VP	VBG	O	6	VMOD	17	stimulating
+17	tumour	tumour	B-NP	NN	O	18	NMOD	0
+18	angiogenesis	angiogenesis	I-NP	NN	O	16	OBJ	3	angiogenesis
+19	.	.	O	.	O	6	P	0
+
+1	Inhibition	Inhibition	B-NP	NN	O	7	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	NO	NO	B-NP	NN	B-protein	4	NMOD	0
+4	synthase	synthase	I-NP	NN	I-protein	2	PMOD	0
+5	by	by	B-PP	IN	O	1	NMOD	0
+6	L-NAME	L-NAME	B-NP	NN	B-protein	5	PMOD	0
+7	might	might	B-VP	MD	O	0	ROOT	0
+8	induce	induce	I-VP	VB	O	7	VC	17	induce
+9	an	an	B-NP	DT	O	11	NMOD	0
+10	anti-tumour	anti-tumour	I-NP	JJ	O	11	NMOD	0
+11	effect	effect	I-NP	NN	O	8	OBJ	18	effect
+12	by	by	B-PP	IN	O	8	VMOD	0
+13	limiting	limit	B-VP	VBG	O	14	NMOD	18	limiting
+14	nutrients	nutrient	B-NP	NNS	O	12	PMOD	0
+15	and	and	O	CC	O	8	VMOD	0
+16	oxygen	oxygen	B-NP	NN	O	8	VMOD	0
+17	to	to	B-VP	TO	O	18	VMOD	0
+18	reach	reach	I-VP	VB	O	16	NMOD	14	reach
+19	tumour	tumour	B-NP	NN	O	20	NMOD	0
+20	tissue	tissue	I-NP	NN	O	18	OBJ	0
+21	or	or	O	CC	O	18	VMOD	0
+22	affecting	affect	B-VP	VBG	O	18	VMOD	16	affecting
+23	vascular	vascular	B-NP	JJ	O	24	NMOD	0
+24	growth	growth	I-NP	NN	O	22	OBJ	4	growth
+25	.	.	O	.	O	7	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	anti-tumour	anti-tumour	I-NP	JJ	O	3	NMOD	0
+3	effect	effect	I-NP	NN	O	9	SUB	18	effect
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	L-NAME	L-NAME	B-NP	NN	B-protein	4	PMOD	0
+6	after	after	B-SBAR	IN	O	3	NMOD	0
+7	systemic	systemic	B-NP	JJ	O	8	NMOD	0
+8	administration	administration	I-NP	NN	O	6	PMOD	19	administration
+9	was	be	B-VP	VBD	O	0	ROOT	0
+10	studied	study	I-VP	VBN	O	9	VC	0
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	a	a	B-NP	DT	O	17	NMOD	0
+13	renal	renal	I-NP	JJ	O	17	NMOD	0
+14	subcapsular	subcapsular	I-NP	JJ	O	17	NMOD	0
+15	CC531	CC531	I-NP	NN	O	17	NMOD	0
+16	adenocarcinoma	adenocarcinoma	I-NP	NN	O	17	NMOD	0
+17	model	model	I-NP	NN	O	11	PMOD	0
+18	in	in	B-PP	IN	O	17	NMOD	0
+19	rats	rat	B-NP	NNS	O	18	PMOD	0
+20	.	.	O	.	O	9	P	0
+
+1	Moreover	Moreover	B-ADVP	RB	O	15	VMOD	0
+2	,	,	O	,	O	15	P	0
+3	regional	regional	B-NP	JJ	O	4	NMOD	0
+4	administration	administration	I-NP	NN	O	15	SUB	19	administration
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	L-NAME	L-NAME	B-NP	NN	B-protein	5	PMOD	0
+7	,	,	O	,	O	4	P	0
+8	in	in	B-PP	IN	O	4	NMOD	0
+9	combination	combination	B-NP	NN	O	8	PMOD	0
+10	with	with	B-PP	IN	O	9	NMOD	0
+11	TNF	TNF	B-NP	NN	B-protein	13	NMOD	0
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	melphalan	melphalan	I-NP	NN	O	10	PMOD	0
+14	,	,	O	,	O	4	P	0
+15	was	be	B-VP	VBD	O	0	ROOT	0
+16	studied	study	I-VP	VBN	O	15	VC	0
+17	in	in	B-PP	IN	O	16	VMOD	0
+18	an	an	B-NP	DT	O	21	NMOD	0
+19	isolated	isolate	I-NP	VBN	O	21	NMOD	0
+20	limb	limb	I-NP	NN	O	21	NMOD	0
+21	perfusion	perfusion	I-NP	NN	O	25	NMOD	0
+22	(	(	O	(	O	24	DEP	0
+23	ILP	ILP	B-NP	NN	O	24	DEP	0
+24	)	)	O	)	O	21	NMOD	0
+25	model	model	B-NP	NN	O	17	PMOD	0
+26	using	use	B-VP	VBG	O	15	VMOD	0
+27	BN175	BN175	B-NP	NN	O	29	NMOD	0
+28	soft-tissue	soft-tissue	I-NP	JJ	O	29	NMOD	0
+29	sarcomas	sarcoma	I-NP	NNS	O	26	OBJ	0
+30	.	.	O	.	O	15	P	0
+
+1	Systemic	Systemic	B-NP	JJ	O	2	NMOD	0
+2	treatment	treatment	I-NP	NN	O	5	SUB	19	treatment
+3	with	with	B-PP	IN	O	2	NMOD	0
+4	L-NAME	L-NAME	B-NP	NN	B-protein	3	PMOD	0
+5	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+6	growth	growth	B-NP	NN	O	5	OBJ	4	growth
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	adenocarcinoma	adenocarcinoma	B-NP	NN	O	7	PMOD	0
+9	significantly	significantly	B-ADVP	RB	O	5	VMOD	0
+10	but	but	O	CC	O	5	VMOD	0
+11	was	be	B-VP	VBD	O	5	VMOD	0
+12	accompanied	accompany	I-VP	VBN	O	11	VC	0
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	impaired	impaired	B-NP	JJ	O	16	NMOD	18	impaired
+15	renal	renal	I-NP	JJ	O	16	NMOD	0
+16	function	function	I-NP	NN	O	13	PMOD	0
+17	.	.	O	.	O	5	P	0
+
+1	In	In	B-PP	IN	O	4	VMOD	0
+2	ILP	ILP	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	4	P	0
+4	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+5	tumour	tumour	B-NP	NN	O	6	NMOD	0
+6	growth	growth	I-NP	NN	O	7	SUB	4	growth
+7	was	be	B-VP	VBD	O	4	VMOD	0
+8	observed	observe	I-VP	VBN	O	7	VC	0
+9	when	when	B-ADVP	WRB	O	7	VMOD	0
+10	L-NAME	L-NAME	B-NP	NN	B-protein	11	SUB	0
+11	was	be	B-VP	VBD	O	9	SBAR	0
+12	used	use	I-VP	VBN	O	11	VC	0
+13	alone	alone	B-ADVP	RB	O	12	VMOD	0
+14	.	.	O	.	O	4	P	0
+
+1	In	In	B-PP	IN	O	9	VMOD	0
+2	combination	combination	B-NP	NN	O	1	PMOD	0
+3	with	with	B-PP	IN	O	2	NMOD	0
+4	TNF	TNF	B-NP	NN	B-protein	6	NMOD	0
+5	or	or	I-NP	CC	O	6	NMOD	0
+6	melphalan	melphalan	I-NP	NN	O	3	PMOD	0
+7	,	,	O	,	O	9	P	0
+8	L-NAME	L-NAME	B-NP	NN	B-protein	9	SUB	0
+9	increased	increase	B-VP	VBD	O	0	ROOT	0
+10	response	response	B-NP	NN	O	11	NMOD	0
+11	rates	rate	I-NP	NNS	O	9	OBJ	0
+12	significantly	significantly	B-VP	RB	O	13	VMOD	0
+13	compared	compare	I-VP	VBN	O	11	NMOD	0
+14	to	to	B-PP	TO	O	13	VMOD	0
+15	perfusions	perfusion	B-NP	NNS	O	14	PMOD	0
+16	without	without	B-PP	IN	O	15	NMOD	0
+17	L-NAME	L-NAME	B-NP	NN	B-protein	16	PMOD	0
+18	(	(	O	(	O	25	DEP	0
+19	0-64	0-64	B-NP	CD	O	20	NMOD	0
+20	%	%	I-NP	NN	O	23	NMOD	0
+21	and	and	O	CC	O	23	NMOD	0
+22	0-63	0-63	B-NP	CD	O	23	NMOD	0
+23	%	%	I-NP	NN	O	25	DEP	0
+24	respectively	respectively	B-ADVP	RB	O	23	VMOD	0
+25	)	)	O	)	O	17	NMOD	0
+26	.	.	O	.	O	9	P	0
+
+1	An	An	B-NP	DT	O	4	NMOD	0
+2	additional	additional	I-NP	JJ	O	4	NMOD	0
+3	anti-tumour	anti-tumour	I-NP	JJ	O	4	NMOD	0
+4	effect	effect	I-NP	NN	O	5	SUB	18	effect
+5	was	be	B-VP	VBD	O	0	ROOT	0
+6	demonstrated	demonstrate	I-VP	VBN	O	5	VC	0
+7	when	when	B-ADVP	WRB	O	6	VMOD	0
+8	L-NAME	L-NAME	B-NP	NN	B-protein	9	SUB	0
+9	was	be	B-VP	VBD	O	7	SBAR	0
+10	added	add	I-VP	VBN	O	9	VC	19	added
+11	to	to	B-PP	TO	O	10	VMOD	0
+12	the	the	B-NP	DT	O	14	NMOD	0
+13	synergistic	synergistic	I-NP	JJ	O	14	NMOD	0
+14	combination	combination	I-NP	NN	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	melphalan	melphalan	B-NP	NN	O	20	NMOD	0
+17	and	and	I-NP	CC	O	20	NMOD	0
+18	TNF	TNF	I-NP	NN	B-protein	20	NMOD	0
+19	(	(	O	(	O	20	NMOD	0
+20	responses	response	B-NP	NNS	O	15	PMOD	0
+21	increased	increase	B-VP	VBD	O	6	VMOD	0
+22	from	from	B-PP	IN	O	21	VMOD	0
+23	70	70	B-NP	CD	O	22	PMOD	0
+24	to	to	I-NP	TO	O	22	PMOD	0
+25	100	100	I-NP	CD	O	24	PMOD	0
+26	%	%	I-NP	NN	O	22	PMOD	0
+27	)	)	O	)	O	6	VMOD	0
+28	.	.	O	.	O	5	P	0
+
+1	Inhibition	Inhibition	B-NP	NN	O	5	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	NO	NO	B-NP	NN	B-protein	4	NMOD	0
+4	synthase	synthase	I-NP	NN	I-protein	2	PMOD	0
+5	reduces	reduce	B-VP	VBZ	O	0	ROOT	18	reduces
+6	tumour	tumour	B-NP	NN	O	7	NMOD	0
+7	growth	growth	I-NP	NN	O	5	OBJ	4	growth
+8	both	both	B-PP	CC	O	9	PMOD	0
+9	after	after	B-PP	IN	O	5	VMOD	0
+10	systemic	systemic	B-NP	JJ	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	regional	regional	I-NP	JJ	O	9	PMOD	0
+13	(	(	O	(	O	15	DEP	0
+14	ILP	ILP	B-NP	NN	O	15	DEP	0
+15	)	)	O	)	O	12	NMOD	0
+16	treatment	treatment	B-NP	NN	O	12	NMOD	0
+17	.	.	O	.	O	5	P	0
+
+1	A	A	B-NP	DT	O	4	NMOD	0
+2	synergistic	synergistic	I-NP	JJ	O	4	NMOD	0
+3	anti-tumour	anti-tumour	I-NP	JJ	O	4	NMOD	0
+4	effect	effect	I-NP	NN	O	7	SUB	18	effect
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	L-NAME	L-NAME	B-NP	NN	B-protein	5	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	observed	observe	I-VP	VBN	O	7	VC	0
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	combination	combination	B-NP	NN	O	9	PMOD	0
+11	with	with	B-PP	IN	O	10	NMOD	0
+12	melphalan	melphalan	B-NP	NN	O	14	NMOD	0
+13	and/or	and/or	O	CC	O	14	NMOD	0
+14	TNF	TNF	B-NP	NN	B-protein	11	PMOD	0
+15	using	use	B-VP	VBG	O	14	NMOD	0
+16	ILP	ILP	B-NP	NN	B-protein	15	OBJ	0
+17	.	.	O	.	O	7	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	possible	possible	I-NP	JJ	O	6	NMOD	0
+6	role	role	I-NP	NN	O	3	OBJ	16	role
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	L-NAME	L-NAME	B-NP	NN	B-protein	7	PMOD	0
+9	for	for	B-PP	IN	O	6	NMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	treatment	treatment	I-NP	NN	O	9	PMOD	19	treatment
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	solid	solid	B-NP	JJ	O	14	NMOD	0
+14	tumours	tumour	I-NP	NNS	O	12	PMOD	0
+15	in	in	B-PP	IN	O	11	NMOD	0
+16	a	a	B-NP	DT	O	20	NMOD	0
+17	systemic	systemic	I-NP	JJ	O	20	NMOD	0
+18	or	or	I-NP	CC	O	20	NMOD	0
+19	regional	regional	I-NP	JJ	O	20	NMOD	0
+20	setting	setting	I-NP	NN	O	15	PMOD	0
+21	.	.	O	.	O	3	P	0
+

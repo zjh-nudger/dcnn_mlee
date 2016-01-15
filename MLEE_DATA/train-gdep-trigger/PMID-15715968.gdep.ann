@@ -1,0 +1,218 @@
+1	Expression	Expression	B-NP	NN	O	3	NMOD	9	Expression
+2	and	and	I-NP	CC	O	3	NMOD	0
+3	purification	purification	I-NP	NN	O	0	ROOT	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	catalytic	catalytic	I-NP	JJ	B-protein	7	NMOD	0
+7	domain	domain	I-NP	NN	I-protein	4	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	human	human	B-NP	JJ	B-protein	14	NMOD	0
+10	vascular	vascular	I-NP	JJ	I-protein	14	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-protein	14	NMOD	0
+12	growth	growth	I-NP	NN	I-protein	14	NMOD	0
+13	factor	factor	I-NP	NN	I-protein	14	NMOD	0
+14	receptor	receptor	I-NP	NN	I-protein	8	PMOD	0
+15	2	2	B-NP	CD	I-protein	14	NMOD	0
+16	for	for	B-PP	IN	O	7	NMOD	0
+17	inhibitor	inhibitor	B-NP	NN	O	18	NMOD	0
+18	screening	screening	I-NP	NN	O	16	PMOD	0
+19	.	.	O	.	O	3	P	0
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	0
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	0
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	12	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	,	,	O	,	O	12	P	0
+9	an	an	B-NP	DT	O	12	NMOD	0
+10	endothelial	endothelial	I-NP	JJ	B-protein	12	NMOD	0
+11	cell-specific	cell-specific	I-NP	JJ	I-protein	12	NMOD	0
+12	mitogen	mitogen	I-NP	NN	I-protein	14	SUB	0
+13	,	,	O	,	O	12	P	0
+14	can	can	B-VP	MD	O	0	ROOT	0
+15	act	act	I-VP	VB	O	14	VC	16	act
+16	in	in	B-PP	IN	O	15	VMOD	0
+17	tumor-induced	tumor-induced	B-NP	JJ	O	18	NMOD	17	induced
+18	angiogenesis	angiogenesis	I-NP	NN	O	16	PMOD	3	angiogenesis
+19	by	by	B-PP	IN	O	15	VMOD	0
+20	binding	bind	B-VP	VBG	O	19	PMOD	15	binding
+21	to	to	B-PP	TO	O	20	VMOD	0
+22	specific	specific	B-NP	JJ	O	23	NMOD	0
+23	receptors	receptor	I-NP	NNS	O	21	PMOD	0
+24	on	on	B-PP	IN	O	23	NMOD	0
+25	the	the	B-NP	DT	O	26	NMOD	0
+26	surface	surface	I-NP	NN	O	24	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	endothelial	endothelial	B-NP	JJ	B-cell_type	29	NMOD	0
+29	cells	cell	I-NP	NNS	I-cell_type	27	PMOD	0
+30	.	.	O	.	O	14	P	0
+
+1	One	One	B-NP	CD	O	3	NMOD	0
+2	such	such	I-NP	JJ	O	3	NMOD	0
+3	receptor	receptor	I-NP	NN	O	5	NMOD	0
+4	,	,	O	,	O	5	P	0
+5	VEGFR-2/KDR	VEGFR-2/KDR	B-NP	NN	B-protein	7	SUB	0
+6	,	,	O	,	O	5	P	0
+7	plays	play	B-VP	VBZ	O	0	ROOT	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	key	key	I-NP	JJ	O	10	NMOD	0
+10	role	role	I-NP	NN	O	7	OBJ	0
+11	in	in	B-PP	IN	O	7	VMOD	0
+12	VEGF-induced	VEGF-induced	B-NP	JJ	O	13	NMOD	17	induced
+13	angiogenesis	angiogenesis	I-NP	NN	O	11	PMOD	3	angiogenesis
+14	.	.	O	.	O	7	P	0
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	expressed	express	B-VP	VBD	O	0	ROOT	9	expressed
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	catalytic	catalytic	I-NP	JJ	B-protein	7	NMOD	0
+7	domain	domain	I-NP	NN	I-protein	4	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	8	PMOD	0
+10	as	as	B-PP	IN	O	4	VMOD	0
+11	a	a	B-NP	DT	O	14	NMOD	0
+12	soluble	soluble	I-NP	JJ	B-protein	14	NMOD	0
+13	active	active	I-NP	JJ	I-protein	14	NMOD	0
+14	kinase	kinase	I-NP	NN	I-protein	10	PMOD	0
+15	using	use	B-VP	VBG	O	14	NMOD	0
+16	Bac-to-Bac	Bac-to-Bac	B-NP	NN	O	18	NMOD	0
+17	expression	expression	I-NP	NN	O	18	NMOD	0
+18	system	system	I-NP	NN	O	15	OBJ	0
+19	,	,	O	,	O	4	P	0
+20	and	and	O	CC	O	4	VMOD	0
+21	investigated	investigate	B-VP	VBN	O	4	VMOD	0
+22	correlations	correlation	B-NP	NNS	O	21	OBJ	0
+23	between	between	B-PP	IN	O	22	NMOD	0
+24	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	25	NMOD	0
+25	activity	activity	I-NP	NN	O	38	NMOD	0
+26	and	and	O	CC	O	38	NMOD	0
+27	enzyme	enzyme	B-NP	NN	O	28	NMOD	0
+28	concentration	concentration	I-NP	NN	O	38	NMOD	0
+29	,	,	O	,	O	38	P	0
+30	ATP	ATP	B-NP	NN	O	31	NMOD	0
+31	concentration	concentration	I-NP	NN	O	38	NMOD	0
+32	,	,	O	,	O	38	P	0
+33	substrate	substrate	B-NP	NN	O	34	NMOD	0
+34	concentration	concentration	I-NP	NN	O	38	NMOD	0
+35	and	and	O	CC	O	38	NMOD	0
+36	divalent	divalent	B-NP	JJ	O	38	NMOD	0
+37	cation	cation	I-NP	NN	O	38	NMOD	0
+38	type	type	I-NP	NN	O	23	PMOD	0
+39	.	.	O	.	O	4	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	used	use	B-VP	VBD	O	0	ROOT	0
+3	these	these	B-NP	DT	O	4	NMOD	0
+4	data	datum	I-NP	NNS	O	2	OBJ	0
+5	to	to	B-VP	TO	O	6	VMOD	0
+6	establish	establish	I-VP	VB	O	2	VMOD	0
+7	a	a	B-NP	DT	O	15	NMOD	0
+8	convenient	convenient	I-NP	JJ	O	12	AMOD	0
+9	,	,	I-NP	,	O	12	P	0
+10	effective	effective	I-NP	JJ	O	12	AMOD	0
+11	and	and	I-NP	CC	O	12	AMOD	0
+12	non-radioactive	non-radioactive	I-NP	JJ	O	15	NMOD	0
+13	ELISA	ELISA	I-NP	NN	O	15	NMOD	0
+14	screening	screening	I-NP	NN	O	15	NMOD	0
+15	technique	technique	I-NP	NN	O	6	OBJ	0
+16	for	for	B-PP	IN	O	15	NMOD	0
+17	the	the	B-NP	DT	O	20	NMOD	0
+18	identification	identification	I-NP	NN	O	20	NMOD	0
+19	and	and	I-NP	CC	O	20	NMOD	0
+20	evaluation	evaluation	I-NP	NN	O	16	PMOD	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	potential	potential	B-NP	JJ	O	23	NMOD	0
+23	inhibitors	inhibitor	I-NP	NNS	O	21	PMOD	0
+24	for	for	B-PP	IN	O	23	NMOD	0
+25	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	26	NMOD	0
+26	kinase	kinase	I-NP	NN	I-protein	24	PMOD	0
+27	.	.	O	.	O	2	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	screened	screen	B-VP	VBD	O	0	ROOT	0
+3	200	200	B-NP	CD	O	6	NMOD	0
+4	RTK	RTK	I-NP	NN	O	6	NMOD	0
+5	target-based	target-based	I-NP	JJ	O	6	NMOD	0
+6	compounds	compound	I-NP	NNS	O	2	OBJ	0
+7	and	and	O	CC	O	2	VMOD	0
+8	identified	identify	B-VP	VBD	O	2	VMOD	0
+9	one	one	B-NP	CD	O	8	OBJ	0
+10	(	(	O	(	O	12	DEP	0
+11	TKI-31	TKI-31	B-NP	NN	B-protein	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	that	that	B-NP	WDT	O	9	NMOD	0
+14	potently	potently	B-ADVP	RB	O	15	VMOD	0
+15	inhibited	inhibit	B-VP	VBD	O	13	SBAR	18	inhibited
+16	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	18	NMOD	0
+17	kinase	kinase	I-NP	NN	I-protein	18	NMOD	0
+18	activity	activity	I-NP	NN	O	15	OBJ	0
+19	(	(	O	(	O	22	DEP	0
+20	IC50=0.596	IC50=0.596	B-NP	NN	O	21	NMOD	0
+21	microM	microM	I-NP	NN	O	22	DEP	0
+22	)	)	O	)	O	18	NMOD	0
+23	.	.	O	.	O	2	P	0
+
+1	Treatment	Treatment	B-NP	NN	O	7	SUB	19	Treatment
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	NIH3T3/KDR	NIH3T3/KDR	B-NP	NN	B-cell_line	4	NMOD	0
+4	cells	cell	I-NP	NNS	I-cell_line	2	PMOD	0
+5	with	with	B-PP	IN	O	1	NMOD	0
+6	TKI-31	TKI-31	B-NP	NN	B-protein	5	PMOD	0
+7	blocked	block	B-VP	VBD	O	0	ROOT	18	blocked
+8	VEGF-induced	VEGF-induced	B-NP	JJ	O	9	NMOD	17	induced
+9	phosphorylation	phosphorylation	I-NP	NN	O	7	OBJ	12	phosphorylation
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	KDR	KDR	B-NP	NN	B-protein	10	PMOD	0
+12	in	in	B-PP	IN	O	7	VMOD	0
+13	a	a	B-NP	DT	O	15	NMOD	0
+14	dose-dependent	dose-dependent	I-NP	JJ	O	15	NMOD	0
+15	manner	manner	I-NP	NN	O	12	PMOD	0
+16	.	.	O	.	O	7	P	0
+
+1	Moreover	Moreover	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	TKI-31	TKI-31	B-NP	NN	B-protein	5	SUB	0
+4	dose-dependently	dose-dependently	B-ADVP	RB	O	5	VMOD	0
+5	suppressed	suppress	B-VP	VBD	O	0	ROOT	18	suppressed
+6	HUVEC	HUVEC	B-NP	NN	B-cell_type	8	NMOD	0
+7	tube	tube	I-NP	NN	O	8	NMOD	0
+8	formation	formation	I-NP	NN	O	5	OBJ	2	formation
+9	.	.	O	.	O	5	P	0
+
+1	Thus	Thus	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	we	we	B-NP	PRP	O	5	SUB	0
+4	herein	herein	B-ADVP	RB	O	5	VMOD	0
+5	report	report	B-VP	VBP	O	0	ROOT	0
+6	a	a	B-NP	DT	O	10	NMOD	0
+7	novel	novel	I-NP	JJ	O	9	AMOD	0
+8	,	,	I-NP	,	O	9	P	0
+9	efficient	efficient	I-NP	JJ	O	10	NMOD	0
+10	method	method	I-NP	NN	O	5	OBJ	0
+11	for	for	B-PP	IN	O	10	NMOD	0
+12	identifying	identify	B-VP	VBG	O	11	PMOD	0
+13	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	15	NMOD	0
+14	kinase	kinase	I-NP	NN	I-protein	15	NMOD	0
+15	inhibitors	inhibitor	I-NP	NNS	O	12	OBJ	0
+16	and	and	O	CC	O	5	VMOD	0
+17	introduce	introduce	B-VP	VB	O	5	VMOD	0
+18	one	one	B-NP	CD	O	20	NMOD	0
+19	,	,	O	,	O	20	P	0
+20	TKI-31	TKI-31	B-NP	NN	B-protein	17	OBJ	0
+21	,	,	O	,	O	5	P	0
+22	that	that	B-NP	WDT	O	5	VMOD	0
+23	may	may	B-VP	MD	O	22	SBAR	0
+24	prove	prove	I-VP	VB	O	23	VC	0
+25	to	to	I-VP	TO	O	26	VMOD	0
+26	be	be	I-VP	VB	O	24	VMOD	0
+27	a	a	B-NP	DT	O	31	NMOD	0
+28	useful	useful	I-NP	JJ	O	31	NMOD	0
+29	new	new	I-NP	JJ	O	31	NMOD	0
+30	angiogenesis	angiogenesis	I-NP	NN	O	31	NMOD	3	angiogenesis
+31	inhibitor	inhibitor	I-NP	NN	O	26	PRD	0
+32	.	.	O	.	O	5	P	0
+

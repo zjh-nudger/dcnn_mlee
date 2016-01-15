@@ -1,0 +1,138 @@
+1	Urokinase	Urokinase	B-NP	NN	B-protein	2	NMOD	0
+2	receptor	receptor	I-NP	NN	I-protein	6	NMOD	0
+3	:	:	O	:	O	2	P	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	molecular	molecular	I-NP	JJ	O	6	NMOD	0
+6	organizer	organizer	I-NP	NN	O	0	ROOT	0
+7	in	in	B-PP	IN	O	6	NMOD	0
+8	cellular	cellular	B-NP	JJ	O	9	NMOD	0
+9	communication	communication	I-NP	NN	O	7	PMOD	0
+10	.	.	O	.	O	6	P	0
+
+1	In	In	B-PP	IN	O	15	VMOD	0
+2	a	a	B-NP	DT	O	3	NMOD	0
+3	variety	variety	I-NP	NN	O	1	PMOD	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	cell	cell	B-NP	NN	O	6	NMOD	0
+6	types	type	I-NP	NNS	O	4	PMOD	0
+7	,	,	O	,	O	15	P	0
+8	the	the	B-NP	DT	O	11	NMOD	0
+9	glycolipid-anchored	glycolipid-anchored	I-NP	JJ	B-protein	11	NMOD	0
+10	urokinase	urokinase	I-NP	NN	I-protein	11	NMOD	0
+11	receptor	receptor	I-NP	NN	I-protein	15	SUB	0
+12	(	(	O	(	O	14	DEP	0
+13	uPAR	uPAR	B-NP	NN	B-protein	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	is	be	B-VP	VBZ	O	0	ROOT	0
+16	colocalized	colocalize	I-VP	VBN	O	15	VC	14	colocalized
+17	pericellularly	pericellularly	B-ADVP	RB	O	16	VMOD	0
+18	with	with	B-PP	IN	O	16	VMOD	0
+19	components	component	B-NP	NNS	O	18	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	24	NMOD	0
+22	plasminogen	plasminogen	I-NP	NN	O	24	NMOD	0
+23	activation	activation	I-NP	NN	O	24	NMOD	0
+24	system	system	I-NP	NN	O	27	NMOD	0
+25	and	and	I-NP	CC	O	27	NMOD	0
+26	endocytosis	endocytosis	I-NP	NN	B-protein	27	NMOD	0
+27	receptors	receptor	I-NP	NNS	I-protein	20	PMOD	0
+28	.	.	O	.	O	15	P	0
+
+1	uPAR	uPAR	B-NP	NN	B-protein	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	also	also	I-VP	RB	O	2	VMOD	0
+4	coexpressed	coexpresse	I-VP	VBN	O	2	VC	9	coexpressed
+5	with	with	B-PP	IN	O	4	VMOD	0
+6	caveolin	caveolin	B-NP	NN	B-protein	8	NMOD	0
+7	and	and	I-NP	CC	O	8	NMOD	0
+8	members	member	I-NP	NNS	O	5	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	the	the	B-NP	DT	O	14	NMOD	0
+11	integrin	integrin	I-NP	NN	B-protein	14	NMOD	0
+12	adhesion	adhesion	I-NP	NN	I-protein	14	NMOD	0
+13	receptor	receptor	I-NP	NN	I-protein	14	NMOD	0
+14	superfamily	superfamily	I-NP	NN	I-protein	9	PMOD	0
+15	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	formation	formation	I-NP	NN	O	10	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	functional	functional	B-NP	JJ	O	5	NMOD	0
+5	units	unit	I-NP	NNS	O	3	PMOD	0
+6	with	with	B-PP	IN	O	2	NMOD	0
+7	these	these	B-NP	DT	O	9	NMOD	0
+8	various	various	I-NP	JJ	O	9	NMOD	0
+9	proteins	protein	I-NP	NNS	O	6	PMOD	0
+10	allows	allow	B-VP	VBZ	O	0	ROOT	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	uPAR	uPAR	I-NP	NN	O	10	OBJ	0
+13	to	to	B-VP	TO	O	14	VMOD	0
+14	mediate	mediate	I-VP	VB	O	12	NMOD	0
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	focused	focus	I-NP	VBN	O	17	NMOD	0
+17	proteolysis	proteolysis	I-NP	NN	O	14	OBJ	0
+18	required	require	B-VP	VBN	O	17	NMOD	17	required
+19	for	for	B-PP	IN	O	18	VMOD	0
+20	cell	cell	B-NP	NN	O	21	NMOD	0
+21	migration	migration	I-NP	NN	O	23	NMOD	14	migration
+22	and	and	O	CC	O	23	NMOD	0
+23	invasion	invasion	B-NP	NN	O	19	PMOD	14	invasion
+24	and	and	O	CC	O	26	VMOD	0
+25	to	to	B-VP	TO	O	26	VMOD	0
+26	contribute	contribute	I-VP	VB	O	10	VMOD	16	contribute
+27	both	both	O	DT	O	26	OBJ	0
+28	directly	directly	B-ADVP	RB	O	26	VMOD	0
+29	and	and	O	CC	O	26	VMOD	0
+30	indirectly	indirectly	B-ADVP	RB	O	31	PMOD	0
+31	to	to	B-PP	TO	O	26	VMOD	0
+32	cell	cell	B-NP	NN	O	34	NMOD	0
+33	adhesive	adhesive	I-NP	JJ	O	34	NMOD	0
+34	processes	process	I-NP	NNS	O	31	PMOD	0
+35	in	in	B-PP	IN	O	34	NMOD	0
+36	a	a	B-NP	DT	O	38	NMOD	0
+37	non-proteolytic	non-proteolytic	I-NP	JJ	O	38	NMOD	0
+38	fashion	fashion	I-NP	NN	O	35	PMOD	0
+39	.	.	O	.	O	10	P	0
+
+1	This	This	B-NP	DT	O	3	NMOD	0
+2	dual	dual	I-NP	JJ	O	3	NMOD	0
+3	activity	activity	I-NP	NN	O	16	SUB	0
+4	,	,	O	,	O	3	P	0
+5	together	together	B-ADVP	RB	O	6	PMOD	0
+6	with	with	B-PP	IN	O	3	NMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	initiation	initiation	I-NP	NN	O	6	PMOD	17	initiation
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	signal	signal	B-NP	NN	O	12	NMOD	0
+11	transduction	transduction	I-NP	NN	O	12	NMOD	0
+12	pathways	pathway	I-NP	NNS	O	9	PMOD	0
+13	by	by	B-PP	IN	O	8	NMOD	0
+14	uPAR	uPAR	B-NP	NN	B-protein	13	PMOD	0
+15	,	,	O	,	O	3	P	0
+16	is	be	B-VP	VBZ	O	0	ROOT	0
+17	believed	believe	I-VP	VBN	O	16	VC	0
+18	to	to	I-VP	TO	O	19	VMOD	0
+19	influence	influence	I-VP	VB	O	17	VMOD	18	influence
+20	cellular	cellular	B-NP	JJ	O	21	NMOD	0
+21	behaviour	behaviour	I-NP	NN	O	19	OBJ	0
+22	in	in	B-PP	IN	O	19	VMOD	0
+23	angiogenesis	angiogenesis	B-NP	NN	O	31	NMOD	3	angiogenesis
+24	,	,	O	,	O	31	P	0
+25	inflammation	inflammation	B-NP	NN	O	31	NMOD	0
+26	,	,	O	,	O	31	P	0
+27	wound	wound	B-NP	NN	O	28	NMOD	0
+28	repair	repair	I-NP	NN	O	31	NMOD	0
+29	and	and	O	CC	O	31	NMOD	0
+30	tumor	tumor	B-NP	NN	O	31	NMOD	0
+31	progression/metastasis	progression/metastasis	I-NP	NN	O	22	PMOD	14	metastasis
+32	and	and	O	CC	O	16	VMOD	0
+33	open	open	B-VP	VB	O	16	VMOD	0
+34	up	up	B-PRT	RP	O	33	VMOD	0
+35	the	the	B-NP	DT	O	36	NMOD	0
+36	way	way	I-NP	NN	O	33	OBJ	0
+37	for	for	B-PP	IN	O	36	NMOD	0
+38	uPAR-based	uPAR-based	B-NP	JJ	O	39	AMOD	0
+39	therapeutic	therapeutic	I-NP	JJ	O	40	NMOD	0
+40	approaches	approach	I-NP	NNS	O	37	PMOD	0
+41	.	.	O	.	O	16	P	0
+

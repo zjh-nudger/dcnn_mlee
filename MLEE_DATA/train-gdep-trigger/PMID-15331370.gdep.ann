@@ -1,0 +1,314 @@
+1	Enhanced	Enhance	B-NP	VBN	O	3	NMOD	17	Enhanced
+2	IGF-1	IGF-1	I-NP	NN	B-protein	3	NMOD	0
+3	expression	expression	I-NP	NN	O	4	SUB	9	expression
+4	improves	improve	B-VP	VBZ	O	0	ROOT	17	improves
+5	smooth	smooth	B-NP	JJ	O	8	NMOD	0
+6	muscle	muscle	I-NP	NN	O	8	NMOD	0
+7	cell	cell	I-NP	NN	O	8	NMOD	0
+8	engraftment	engraftment	I-NP	NN	O	4	OBJ	2	engraftment
+9	after	after	B-PP	IN	O	4	VMOD	0
+10	cell	cell	B-NP	NN	O	11	NMOD	0
+11	transplantation	transplantation	I-NP	NN	O	9	PMOD	19	transplantation
+12	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	functional	functional	I-NP	JJ	O	3	NMOD	0
+3	benefit	benefit	I-NP	NN	O	11	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	cell	cell	B-NP	NN	O	6	NMOD	0
+6	transplantation	transplantation	I-NP	NN	O	4	PMOD	19	transplantation
+7	after	after	B-PP	IN	O	3	NMOD	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	myocardial	myocardial	I-NP	JJ	O	10	NMOD	0
+10	infarction	infarction	I-NP	NN	O	7	PMOD	0
+11	is	be	B-VP	VBZ	O	0	ROOT	0
+12	diminished	diminish	I-VP	VBN	O	11	VC	0
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	early	early	B-NP	JJ	O	16	NMOD	0
+15	cell	cell	I-NP	NN	O	16	NMOD	0
+16	losses	loss	I-NP	NNS	O	13	PMOD	5	losses
+17	.	.	O	.	O	11	P	0
+
+1	IGF-1	IGF-1	B-NP	NN	B-protein	2	SUB	0
+2	enhances	enhance	B-VP	VBZ	O	0	ROOT	17	enhances
+3	cell	cell	B-NP	NN	O	2	OBJ	0
+4	proliferation	proliferation	I-NP	NN	O	3	NMOD	1	proliferation
+5	and	and	I-NP	CC	O	3	NMOD	0
+6	survival	survival	I-NP	NN	O	3	NMOD	5	survival
+7	.	.	O	.	O	2	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	hypothesized	hypothesize	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	IGF-1-transfected	IGF-1-transfected	B-NP	JJ	B-cell_type	7	NMOD	19	transfected
+5	smooth	smooth	I-NP	JJ	I-cell_type	7	NMOD	0
+6	muscle	muscle	I-NP	NN	I-cell_type	7	NMOD	0
+7	cells	cell	I-NP	NNS	I-cell_type	11	SUB	0
+8	(	(	O	(	O	10	DEP	0
+9	SMCs	SMC	B-NP	NNS	B-cell_type	10	DEP	0
+10	)	)	O	)	O	7	NMOD	0
+11	would	would	B-VP	MD	O	3	SBAR	0
+12	enhance	enhance	I-VP	VB	O	11	VC	17	enhance
+13	cell	cell	B-NP	NN	O	14	NMOD	0
+14	survival	survival	I-NP	NN	O	12	OBJ	5	survival
+15	and	and	O	CC	O	12	VMOD	0
+16	improve	improve	B-VP	VB	O	12	VMOD	17	improve
+17	engraftment	engraftment	B-NP	NN	O	16	OBJ	2	engraftment
+18	after	after	B-PP	IN	O	16	VMOD	0
+19	cell	cell	B-NP	NN	O	20	NMOD	0
+20	transplantation	transplantation	I-NP	NN	O	18	PMOD	19	transplantation
+21	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	IGF-1	IGF-1	I-NP	NN	B-DNA	3	NMOD	0
+3	gene	gene	I-NP	NN	I-DNA	4	SUB	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	transfected	transfecte	I-VP	VBN	O	4	VC	19	transfected
+6	into	into	B-PP	IN	O	5	VMOD	0
+7	male	male	B-NP	JJ	B-cell_type	8	NMOD	0
+8	SMCs	SMC	I-NP	NNS	I-cell_type	6	PMOD	0
+9	and	and	O	CC	O	5	VMOD	0
+10	compared	compare	B-PP	VBN	O	5	VMOD	0
+11	with	with	B-PP	IN	O	10	PMOD	0
+12	SMCs	SMC	B-NP	NNS	B-cell_type	11	PMOD	0
+13	transfected	transfecte	B-VP	VBN	O	12	NMOD	19	transfected
+14	with	with	B-PP	IN	O	13	VMOD	0
+15	a	a	B-NP	DT	O	17	NMOD	0
+16	plasmid	plasmid	I-NP	NN	O	17	NMOD	0
+17	vector	vector	I-NP	NN	O	24	NMOD	0
+18	(	(	O	(	O	21	DEP	0
+19	vector	vector	B-NP	NN	O	20	NMOD	0
+20	control	control	I-NP	NN	O	21	DEP	0
+21	)	)	O	)	O	17	NMOD	0
+22	and	and	O	CC	O	24	NMOD	0
+23	nontransfected	nontransfected	B-NP	JJ	B-cell_type	24	NMOD	19	nontransfected
+24	SMCs	SMC	I-NP	NNS	I-cell_type	14	PMOD	0
+25	(	(	O	(	O	28	DEP	0
+26	cell	cell	B-NP	NN	O	27	NMOD	0
+27	control	control	I-NP	NN	O	28	DEP	0
+28	)	)	O	)	O	24	NMOD	0
+29	.	.	O	.	O	4	P	0
+
+1	IGF-1	IGF-1	B-NP	NN	B-RNA	2	NMOD	0
+2	mRNA	mRNA	I-NP	NN	I-RNA	8	NMOD	0
+3	(	(	O	(	O	5	DEP	0
+4	n=10/group	n=10/group	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	and	and	O	CC	O	8	NMOD	0
+7	protein	protein	B-NP	NN	O	8	NMOD	0
+8	levels	level	I-NP	NNS	O	12	SUB	0
+9	(	(	O	(	O	11	DEP	0
+10	n=6/group	n=6/group	B-NP	NN	O	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	were	be	B-VP	VBD	O	0	ROOT	0
+13	higher	high	B-ADJP	JJR	O	12	PRD	0
+14	(	(	O	(	O	22	DEP	0
+15	P	P	B-NP	NN	O	22	DEP	0
+16	less	less	B-ADJP	JJR	O	15	NMOD	0
+17	than	than	B-PP	IN	O	16	AMOD	0
+18	0.05	0.05	B-NP	CD	O	17	PMOD	0
+19	for	for	B-PP	IN	O	18	NMOD	0
+20	all	all	B-NP	DT	O	21	NMOD	0
+21	groups	group	I-NP	NNS	O	19	PMOD	0
+22	)	)	O	)	O	13	AMOD	0
+23	at	at	B-PP	IN	O	13	AMOD	0
+24	3	3	B-NP	CD	O	30	NMOD	0
+25	,	,	I-NP	,	O	30	P	0
+26	7	7	I-NP	CD	O	30	NMOD	0
+27	,	,	O	,	O	30	P	0
+28	and	and	O	CC	O	30	NMOD	0
+29	14	14	B-NP	CD	O	30	NMOD	0
+30	days	day	I-NP	NNS	O	23	PMOD	0
+31	compared	compare	B-PP	VBN	O	23	PMOD	0
+32	with	with	B-PP	IN	O	31	PMOD	0
+33	controls	control	B-NP	NNS	O	32	PMOD	0
+34	.	.	O	.	O	12	P	0
+
+1	VEGF	VEGF	B-NP	NN	B-protein	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	also	also	I-VP	RB	O	2	VMOD	0
+4	increased	increase	I-VP	VBN	O	2	VC	17	increased
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	parallel	parallel	B-NP	NN	O	5	PMOD	0
+7	to	to	B-PP	TO	O	6	NMOD	0
+8	enhanced	enhance	B-NP	VBN	O	10	NMOD	17	enhanced
+9	IGF-1	IGF-1	I-NP	NN	B-protein	10	NMOD	0
+10	expression	expression	I-NP	NN	O	7	PMOD	9	expression
+11	.	.	O	.	O	2	P	0
+
+1	IGF-1-transfected	IGF-1-transfected	B-NP	JJ	B-cell_line	2	NMOD	19	transfected
+2	cells	cell	I-NP	NNS	I-cell_line	3	SUB	0
+3	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	0
+4	greater	great	B-NP	JJR	O	6	NMOD	0
+5	cell	cell	I-NP	NN	O	6	NMOD	0
+6	proliferation	proliferation	I-NP	NN	O	3	OBJ	1	proliferation
+7	,	,	O	,	O	6	P	0
+8	stimulated	stimulate	B-VP	VBN	O	6	NMOD	17	stimulated
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	VMOD	3	angiogenesis
+10	,	,	O	,	O	3	P	0
+11	and	and	O	CC	O	3	VMOD	0
+12	decreased	decrease	B-VP	VBD	O	3	VMOD	18	decreased
+13	caspase-3	caspase-3	B-NP	NN	B-protein	14	NMOD	0
+14	activity	activity	I-NP	NN	O	12	OBJ	0
+15	after	after	B-PP	IN	O	12	VMOD	0
+16	simulated	simulated	B-NP	JJ	O	17	NMOD	0
+17	ischemia	ischemia	I-NP	NN	O	19	NMOD	0
+18	and	and	O	CC	O	19	NMOD	0
+19	reperfusion	reperfusion	B-NP	NN	O	15	PMOD	0
+20	(	(	O	(	O	34	DEP	0
+21	P	P	B-NP	NN	O	34	DEP	0
+22	less	less	B-ADJP	JJR	O	21	NMOD	0
+23	than	than	B-PP	IN	O	22	AMOD	0
+24	0.05	0.05	B-NP	CD	O	23	PMOD	0
+25	for	for	B-PP	IN	O	24	NMOD	0
+26	all	all	B-NP	DT	O	27	NMOD	0
+27	groups	group	I-NP	NNS	O	25	PMOD	0
+28	compared	compare	B-PP	VBN	O	21	NMOD	0
+29	with	with	B-PP	IN	O	28	PMOD	0
+30	vector	vector	B-NP	NN	O	33	NMOD	0
+31	or	or	I-NP	CC	O	33	NMOD	0
+32	cell	cell	I-NP	NN	O	33	NMOD	0
+33	controls	control	I-NP	NNS	O	29	PMOD	0
+34	)	)	O	)	O	19	NMOD	0
+35	.	.	O	.	O	3	P	0
+
+1	A	A	B-NP	DT	O	5	NMOD	0
+2	uniform	uniform	I-NP	JJ	O	5	NMOD	0
+3	left	left	I-NP	JJ	O	5	NMOD	0
+4	ventricular	ventricular	I-NP	JJ	O	5	NMOD	0
+5	injury	injury	I-NP	NN	O	6	SUB	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	produced	produce	I-VP	VBN	O	6	VC	0
+8	in	in	B-PP	IN	O	7	VMOD	0
+9	female	female	B-NP	JJ	O	10	NMOD	0
+10	rats	rat	I-NP	NNS	O	8	PMOD	0
+11	using	use	B-VP	VBG	O	6	VMOD	0
+12	a	a	B-NP	DT	O	13	NMOD	0
+13	cryoprobe	cryoprobe	I-NP	NN	O	11	OBJ	0
+14	.	.	O	.	O	6	P	0
+
+1	Three	Three	B-NP	CD	O	2	NMOD	0
+2	weeks	week	I-NP	NNS	O	0	ROOT	0
+3	later	later	B-ADVP	RB	O	2	VMOD	0
+4	,	,	O	,	O	3	AMOD	0
+5	2	2	B-NP	CD	O	7	NMOD	0
+6	x	x	I-NP	CC	O	7	NMOD	0
+7	10	10	I-NP	CD	O	4	OBJ	0
+8	(	(	O	(	O	7	NMOD	0
+9	6	6	B-NP	CD	O	11	NMOD	0
+10	)	)	O	)	O	11	NMOD	0
+11	cells	cell	B-NP	NNS	O	15	SUB	0
+12	from	from	B-PP	IN	O	11	NMOD	0
+13	three	three	B-NP	CD	O	14	NMOD	0
+14	groups	group	I-NP	NNS	O	12	PMOD	0
+15	were	be	B-VP	VBD	O	8	SBAR	0
+16	implanted	implant	I-VP	VBN	O	15	VC	19	implanted
+17	into	into	B-PP	IN	O	16	VMOD	0
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	scar	scar	I-NP	NN	O	17	PMOD	0
+20	.	.	O	.	O	2	P	0
+
+1	One	One	B-NP	CD	O	2	NMOD	0
+2	week	week	I-NP	NN	O	7	SUB	0
+3	later	later	B-ADVP	RB	O	7	VMOD	0
+4	,	,	O	,	O	7	P	0
+5	IGF-1-transfected	IGF-1-transfected	B-NP	JJ	B-protein	6	NMOD	19	transfected
+6	SMCs	SMC	I-NP	NNS	I-protein	7	SUB	0
+7	had	have	B-VP	VBD	O	0	ROOT	0
+8	increased	increase	I-VP	VBN	O	13	NMOD	17	increased
+9	myocardial	myocardial	B-NP	JJ	O	13	NMOD	0
+10	IGF-1	IGF-1	I-NP	NN	B-protein	13	NMOD	0
+11	and	and	I-NP	CC	O	13	NMOD	0
+12	VEGF	VEGF	I-NP	NN	B-protein	13	NMOD	0
+13	levels	level	I-NP	NNS	O	26	NMOD	0
+14	,	,	O	,	O	26	P	0
+15	increased	increase	B-NP	VBN	O	17	NMOD	17	increased
+16	Bcl2	Bcl2	I-NP	NN	B-protein	17	NMOD	0
+17	expression	expression	I-NP	NN	O	26	NMOD	9	expression
+18	,	,	O	,	O	26	P	0
+19	limited	limited	B-NP	JJ	O	21	NMOD	18	limited
+20	cell	cell	I-NP	NN	O	21	NMOD	0
+21	apoptosis	apoptosis	I-NP	NN	O	26	NMOD	5	apoptosis
+22	,	,	O	,	O	26	P	0
+23	and	and	O	CC	O	26	NMOD	0
+24	enhanced	enhance	B-NP	VBN	O	26	NMOD	17	enhanced
+25	vessel	vessel	I-NP	NN	O	26	NMOD	0
+26	formation	formation	I-NP	NN	O	7	OBJ	2	formation
+27	in	in	B-PP	IN	O	26	NMOD	0
+28	the	the	B-NP	DT	O	30	NMOD	0
+29	myocardial	myocardial	I-NP	JJ	O	30	NMOD	0
+30	scar	scar	I-NP	NN	O	27	PMOD	0
+31	compared	compare	B-PP	VBN	O	7	VMOD	0
+32	with	with	B-PP	IN	O	31	PMOD	0
+33	the	the	B-NP	DT	O	36	NMOD	0
+34	two	two	I-NP	CD	O	36	NMOD	0
+35	control	control	I-NP	NN	O	36	NMOD	0
+36	groups	group	I-NP	NNS	O	32	PMOD	0
+37	(	(	O	(	O	45	DEP	0
+38	P	P	B-NP	NN	O	45	DEP	0
+39	less	less	B-ADJP	JJR	O	38	NMOD	0
+40	than	than	B-PP	IN	O	39	AMOD	0
+41	0.05	0.05	B-NP	CD	O	40	PMOD	0
+42	for	for	B-PP	IN	O	41	NMOD	0
+43	all	all	B-NP	DT	O	44	NMOD	0
+44	groups	group	I-NP	NNS	O	42	PMOD	0
+45	)	)	O	)	O	36	NMOD	0
+46	.	.	O	.	O	7	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	proportion	proportion	I-NP	NN	O	10	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	SMCs	SMC	B-NP	NNS	B-cell_type	3	PMOD	0
+5	surviving	survive	B-VP	VBG	O	2	NMOD	5	surviving
+6	in	in	B-PP	IN	O	5	VMOD	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	implanted	implant	I-NP	VBN	O	9	NMOD	19	implanted
+9	region	region	I-NP	NN	O	6	PMOD	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	greater	great	B-ADJP	JJR	O	10	PRD	0
+12	(	(	O	(	O	17	DEP	0
+13	P	P	B-NP	NN	O	15	SUB	0
+14	less	less	B-ADJP	JJR	O	15	AMOD	0
+15	than	than	B-PP	IN	O	17	DEP	0
+16	0.05	0.05	B-NP	CD	O	15	AMOD	0
+17	)	)	O	)	O	11	AMOD	0
+18	in	in	B-PP	IN	O	10	VMOD	0
+19	the	the	B-NP	DT	O	21	NMOD	0
+20	IGF-1-transfected	IGF-1-transfected	I-NP	JJ	O	21	NMOD	19	transfected
+21	group	group	I-NP	NN	O	18	PMOD	0
+22	than	than	B-PP	IN	O	10	VMOD	0
+23	in	in	B-PP	IN	O	22	PMOD	0
+24	the	the	B-NP	DT	O	28	NMOD	0
+25	vector	vector	I-NP	NN	O	28	NMOD	0
+26	or	or	I-NP	CC	O	28	NMOD	0
+27	cell	cell	I-NP	NN	O	28	NMOD	0
+28	controls	control	I-NP	NNS	O	23	PMOD	0
+29	.	.	O	.	O	10	P	0
+
+1	Gene	Gene	B-NP	NN	O	2	NMOD	0
+2	enhancement	enhancement	I-NP	NN	O	5	SUB	17	enhancement
+3	with	with	B-PP	IN	O	2	NMOD	0
+4	IGF-1	IGF-1	B-NP	NN	B-protein	3	PMOD	0
+5	improved	improve	B-VP	VBD	O	0	ROOT	17	improved
+6	donor	donor	B-NP	NN	O	8	NMOD	0
+7	cell	cell	I-NP	NN	O	8	NMOD	0
+8	proliferation	proliferation	I-NP	NN	O	13	NMOD	1	proliferation
+9	,	,	O	,	O	13	P	0
+10	survival	survival	B-NP	NN	O	13	NMOD	5	survival
+11	,	,	O	,	O	13	P	0
+12	and	and	O	CC	O	13	NMOD	0
+13	engraftment	engraftment	B-NP	NN	O	5	OBJ	2	engraftment
+14	after	after	B-PP	IN	O	13	NMOD	0
+15	cell	cell	B-NP	NN	O	16	NMOD	0
+16	transplantation	transplantation	I-NP	NN	O	14	PMOD	19	transplantation
+17	,	,	O	,	O	5	P	0
+18	perhaps	perhaps	B-VP	RB	O	19	VMOD	0
+19	mediated	mediate	I-VP	VBN	O	5	VMOD	0
+20	by	by	B-PP	IN	O	19	VMOD	0
+21	enhanced	enhance	B-NP	VBN	O	22	NMOD	17	enhanced
+22	angiogenesis	angiogenesis	I-NP	NN	O	25	NMOD	3	angiogenesis
+23	and	and	O	CC	O	25	NMOD	0
+24	reduced	reduce	B-NP	VBN	O	25	NMOD	0
+25	apoptosis	apoptosis	I-NP	NN	O	20	PMOD	0
+26	.	.	O	.	O	5	P	0
+

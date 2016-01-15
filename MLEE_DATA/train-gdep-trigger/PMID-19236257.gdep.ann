@@ -1,0 +1,186 @@
+1	Aflibercept	Aflibercept	B-NP	NN	O	8	NMOD	0
+2	(	(	O	(	O	4	DEP	0
+3	AVE0005	AVE0005	B-NP	NN	O	4	DEP	0
+4	)	)	O	)	O	1	NMOD	0
+5	:	:	O	:	O	1	P	0
+6	an	an	B-NP	DT	O	8	NMOD	0
+7	alternative	alternative	I-NP	JJ	O	8	NMOD	0
+8	strategy	strategy	I-NP	NN	O	0	ROOT	0
+9	for	for	B-PP	IN	O	8	NMOD	0
+10	inhibiting	inhibit	B-VP	VBG	O	9	PMOD	18	inhibiting
+11	tumour	tumour	B-NP	NN	O	12	NMOD	0
+12	angiogenesis	angiogenesis	I-NP	NN	O	10	OBJ	3	angiogenesis
+13	by	by	B-PP	IN	O	12	NMOD	0
+14	vascular	vascular	B-NP	JJ	B-protein	17	NMOD	0
+15	endothelial	endothelial	I-NP	JJ	I-protein	17	NMOD	0
+16	growth	growth	I-NP	NN	I-protein	17	NMOD	0
+17	factors	factor	I-NP	NNS	I-protein	13	PMOD	0
+18	.	.	O	.	O	8	P	0
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Aberrant	Aberrant	B-NP	JJ	O	4	NMOD	16	Aberrant
+4	angiogenesis	angiogenesis	I-NP	NN	O	5	SUB	3	angiogenesis
+5	is	be	B-VP	VBZ	O	1	NMOD	0
+6	a	a	B-NP	DT	O	8	NMOD	0
+7	landmark	landmark	I-NP	NN	O	8	NMOD	0
+8	feature	feature	I-NP	NN	O	5	PRD	0
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	cancer	cancer	B-NP	NN	O	9	PMOD	0
+11	,	,	O	,	O	8	P	0
+12	which	which	B-NP	WDT	O	8	NMOD	0
+13	is	be	B-VP	VBZ	O	12	SBAR	0
+14	important	important	B-ADJP	JJ	O	13	PRD	0
+15	for	for	B-PP	IN	O	14	AMOD	0
+16	proliferation	proliferation	B-NP	NN	O	20	NMOD	0
+17	,	,	I-NP	,	O	20	P	0
+18	growth	growth	I-NP	NN	O	20	NMOD	0
+19	and	and	I-NP	CC	O	20	NMOD	0
+20	metastasis	metastasis	I-NP	NN	O	15	PMOD	0
+21	,	,	O	,	O	5	P	0
+22	and	and	O	CC	O	5	VMOD	0
+23	is	be	B-VP	VBZ	O	5	VMOD	0
+24	mediated	mediate	I-VP	VBN	O	23	VC	16	mediated
+25	by	by	B-PP	IN	O	24	VMOD	0
+26	various	various	B-NP	JJ	O	25	PMOD	0
+27	pro-angiogenic	pro-angiogenic	I-NP	JJ	B-protein	28	NMOD	3	angiogenic
+28	factors	factor	I-NP	NNS	I-protein	26	NMOD	0
+29	.	.	O	.	O	5	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	VEGF	VEGF	I-NP	NN	B-protein	3	NMOD	0
+3	pathway	pathway	I-NP	NN	O	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	one	one	B-NP	CD	O	4	PRD	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	13	NMOD	0
+8	most	most	I-NP	RBS	O	9	AMOD	0
+9	important	important	I-NP	JJ	O	11	AMOD	0
+10	and	and	I-NP	CC	O	11	AMOD	0
+11	best-studied	best-studied	I-NP	JJ	O	13	NMOD	0
+12	angiogenic	angiogenic	I-NP	JJ	O	13	NMOD	3	angiogenic
+13	pathways	pathway	I-NP	NNS	O	6	PMOD	0
+14	.	.	O	.	O	4	P	0
+
+1	Inhibition	Inhibition	B-NP	NN	O	5	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	this	this	B-NP	DT	O	4	NMOD	0
+4	pathway	pathway	I-NP	NN	O	2	PMOD	0
+5	may	may	B-VP	MD	O	0	ROOT	0
+6	provide	provide	I-VP	VB	O	5	VC	0
+7	clinical	clinical	B-NP	JJ	O	8	NMOD	0
+8	benefits	benefit	I-NP	NNS	O	6	OBJ	0
+9	to	to	B-PP	TO	O	8	NMOD	0
+10	cancer	cancer	B-NP	NN	O	11	NMOD	0
+11	patients	patient	I-NP	NNS	O	9	PMOD	0
+12	.	.	O	.	O	5	P	0
+
+1	OBJECTIVES	OBJECTIVES	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Strategies	Strategy	B-NP	NNS	O	36	SUB	0
+4	to	to	B-VP	TO	O	5	VMOD	0
+5	inhibit	inhibit	I-VP	VB	O	36	VMOD	18	inhibit
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	VEGF	VEGF	I-NP	NN	B-protein	8	NMOD	0
+8	pathway	pathway	I-NP	NN	O	5	OBJ	0
+9	,	,	O	,	O	8	P	0
+10	including	include	B-PP	VBG	O	8	NMOD	0
+11	antibodies	antibody	B-NP	NNS	B-protein	10	PMOD	0
+12	to	to	B-PP	TO	O	11	NMOD	0
+13	VEGF	VEGF	B-NP	NN	B-protein	12	PMOD	0
+14	,	,	O	,	O	36	P	0
+15	antibodies	antibody	B-NP	NNS	B-protein	26	NMOD	0
+16	to	to	B-PP	TO	O	15	NMOD	0
+17	the	the	B-NP	DT	O	19	NMOD	0
+18	extracellular	extracellular	I-NP	JJ	B-protein	19	NMOD	0
+19	domain	domain	I-NP	NN	I-protein	16	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	VEGFR-1	VEGFR-1	B-NP	NN	B-protein	23	NMOD	0
+22	or	or	I-NP	CC	O	23	NMOD	0
+23	VEGFR-2	VEGFR-2	I-NP	NN	B-protein	20	PMOD	0
+24	,	,	O	,	O	26	P	0
+25	decoy	decoy	B-NP	NN	O	26	NMOD	0
+26	receptors	receptor	I-NP	NNS	O	36	SUB	0
+27	for	for	B-PP	IN	O	26	NMOD	0
+28	VEGF	VEGF	B-NP	NN	B-protein	32	NMOD	0
+29	and	and	I-NP	CC	O	32	NMOD	0
+30	tyrosine	tyrosine	I-NP	NN	O	32	NMOD	0
+31	kinase	kinase	I-NP	NN	O	32	NMOD	0
+32	inhibitors	inhibitor	I-NP	NNS	O	27	PMOD	0
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	VEGFRs	VEGFR	B-NP	NNS	B-protein	33	PMOD	0
+35	,	,	O	,	O	26	P	0
+36	are	be	B-VP	VBP	O	1	NMOD	0
+37	summarized	summarize	I-VP	VBN	O	36	VC	0
+38	.	.	O	.	O	1	P	0
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	This	This	B-NP	DT	O	4	NMOD	0
+4	review	review	I-NP	NN	O	5	SUB	0
+5	outlines	outline	B-VP	VBZ	O	1	NMOD	0
+6	and	and	I-VP	CC	O	5	VMOD	0
+7	compares	compare	I-VP	VBZ	O	5	VMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	latest	late	I-NP	JJS	O	10	NMOD	0
+10	development	development	I-NP	NN	O	5	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	these	these	B-NP	DT	O	13	NMOD	0
+13	strategies	strategy	I-NP	NNS	O	11	PMOD	0
+14	,	,	O	,	O	5	P	0
+15	with	with	B-PP	IN	O	5	VMOD	0
+16	emphasis	emphasis	B-NP	NN	O	15	PMOD	0
+17	on	on	B-PP	IN	O	16	NMOD	0
+18	aflibercept	aflibercept	B-NP	NN	O	24	NMOD	0
+19	,	,	O	,	O	24	P	0
+20	a	a	B-NP	DT	O	24	NMOD	0
+21	novel	novel	I-NP	JJ	O	24	NMOD	0
+22	decoy	decoy	I-NP	NN	B-protein	24	NMOD	0
+23	fusion	fusion	I-NP	NN	I-protein	24	NMOD	0
+24	protein	protein	I-NP	NN	I-protein	17	PMOD	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	domain	domain	B-NP	NN	B-protein	25	PMOD	0
+27	2	2	I-NP	CD	I-protein	26	NMOD	0
+28	of	of	B-PP	IN	O	26	NMOD	0
+29	VEGFR-1	VEGFR-1	B-NP	NN	B-protein	31	NMOD	0
+30	and	and	O	CC	O	31	NMOD	0
+31	domain	domain	B-NP	NN	B-protein	28	PMOD	0
+32	3	3	I-NP	CD	I-protein	31	NMOD	0
+33	of	of	B-PP	IN	O	31	NMOD	0
+34	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	33	PMOD	0
+35	with	with	B-PP	IN	O	24	NMOD	0
+36	the	the	B-NP	DT	O	38	NMOD	0
+37	Fc	Fc	I-NP	NN	B-DNA	38	NMOD	0
+38	fragment	fragment	I-NP	NN	I-DNA	35	PMOD	0
+39	of	of	B-PP	IN	O	38	NMOD	0
+40	IgG1	IgG1	B-NP	NN	B-protein	39	PMOD	0
+41	.	.	O	.	O	1	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Aflibercept	Aflibercept	B-NP	NN	O	4	SUB	0
+4	was	be	B-VP	VBD	O	1	NMOD	0
+5	shown	show	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	0
+7	have	have	I-VP	VB	O	5	VMOD	0
+8	early	early	B-NP	JJ	O	9	AMOD	0
+9	clinical	clinical	I-NP	JJ	O	10	NMOD	0
+10	activity	activity	I-NP	NN	O	7	OBJ	0
+11	.	.	O	.	O	1	P	0
+
+1	Multiple	Multiple	B-NP	JJ	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	are	be	B-VP	VBP	O	0	ROOT	0
+4	ongoing	ongoe	I-VP	VBG	O	3	VC	0
+5	to	to	I-VP	TO	O	6	VMOD	0
+6	determine	determine	I-VP	VB	O	4	VMOD	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	clinical	clinical	I-NP	JJ	O	9	NMOD	0
+9	benefits	benefit	I-NP	NNS	O	6	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	aflibercept	aflibercept	B-NP	NN	O	10	PMOD	0
+12	in	in	B-PP	IN	O	9	NMOD	0
+13	cancer	cancer	B-NP	NN	O	14	NMOD	0
+14	patients	patient	I-NP	NNS	O	12	PMOD	0
+15	.	.	O	.	O	3	P	0
+

@@ -1,0 +1,271 @@
+1	Heparin	Heparin	B-NP	NN	O	2	SUB	0
+2	immobilized	immobilize	B-VP	VBD	O	0	ROOT	0
+3	porous	porous	B-NP	JJ	O	5	NMOD	0
+4	PLGA	PLGA	I-NP	NN	O	5	NMOD	0
+5	microspheres	microsphere	I-NP	NNS	O	2	OBJ	0
+6	for	for	B-PP	IN	O	5	NMOD	0
+7	angiogenic	angiogenic	B-NP	JJ	O	10	NMOD	3	angiogenic
+8	growth	growth	I-NP	NN	O	10	NMOD	0
+9	factor	factor	I-NP	NN	O	10	NMOD	0
+10	delivery	delivery	I-NP	NN	O	6	PMOD	0
+11	.	.	O	.	O	2	P	0
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	3	NMOD	0
+2	:	:	O	:	O	1	P	0
+3	Heparin	Heparin	B-NP	NN	O	4	SUB	0
+4	immobilized	immobilize	B-VP	VBD	O	0	ROOT	0
+5	porous	porous	B-NP	JJ	O	6	NMOD	0
+6	poly	poly	I-NP	NN	O	4	OBJ	0
+7	(	(	O	(	O	12	DEP	0
+8	D	D	B-NP	NN	O	11	NMOD	0
+9	,	,	O	,	O	11	P	0
+10	L-lactic-co-glycolic	L-lactic-co-glycolic	B-NP	JJ	O	11	NMOD	0
+11	acid	acid	I-NP	NN	O	12	DEP	0
+12	)	)	O	)	O	6	NMOD	0
+13	(	(	O	(	O	15	DEP	0
+14	PLGA	PLGA	B-NP	NN	O	15	DEP	0
+15	)	)	O	)	O	6	NMOD	0
+16	microspheres	microsphere	B-NP	NNS	O	17	SUB	0
+17	were	be	B-VP	VBD	O	6	NMOD	0
+18	prepared	prepare	I-VP	VBN	O	17	VC	0
+19	for	for	B-PP	IN	O	18	VMOD	0
+20	sustained	sustained	B-NP	JJ	O	21	NMOD	0
+21	release	release	I-NP	NN	O	19	PMOD	14	release
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	basic	basic	B-NP	JJ	B-protein	26	NMOD	0
+24	fibroblast	fibroblast	I-NP	NN	I-protein	26	NMOD	0
+25	growth	growth	I-NP	NN	I-protein	26	NMOD	0
+26	factor	factor	I-NP	NN	I-protein	22	PMOD	0
+27	(	(	O	(	O	29	DEP	0
+28	bFGF	bFGF	B-NP	NN	B-protein	29	DEP	0
+29	)	)	O	)	O	26	NMOD	0
+30	to	to	B-VP	TO	O	31	VMOD	0
+31	induce	induce	I-VP	VB	O	21	NMOD	17	induce
+32	angiogenesis	angiogenesis	B-NP	NN	O	31	OBJ	3	angiogenesis
+33	.	.	O	.	O	4	P	0
+
+1	MATERIALS	MATERIALS	B-NP	NNS	O	3	NMOD	0
+2	AND	AND	I-NP	CC	O	3	NMOD	0
+3	METHODS	METHODS	I-NP	NNS	O	0	ROOT	0
+4	:	:	O	:	O	3	P	0
+5	Porous	Porous	B-NP	JJ	O	7	NMOD	0
+6	PLGA	PLGA	I-NP	NN	O	7	NMOD	0
+7	microspheres	microsphere	I-NP	NNS	O	15	SUB	0
+8	having	have	B-VP	VBG	O	7	NMOD	0
+9	primary	primary	B-NP	JJ	O	11	NMOD	0
+10	amine	amine	I-NP	NN	O	11	NMOD	0
+11	groups	group	I-NP	NNS	O	8	OBJ	0
+12	on	on	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	surface	surface	I-NP	NN	O	12	PMOD	0
+15	were	be	B-VP	VBD	O	3	NMOD	0
+16	prepared	prepare	I-VP	VBN	O	15	VC	0
+17	using	use	B-VP	VBG	O	15	VMOD	0
+18	an	an	B-NP	DT	O	19	NMOD	0
+19	oil-in-water	oil-in-water	I-NP	NN	O	25	NMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	O/W	O/W	B-NP	NN	O	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	single	single	B-NP	JJ	O	25	NMOD	0
+24	emulsion	emulsion	I-NP	NN	O	25	NMOD	0
+25	method	method	I-NP	NN	O	17	OBJ	0
+26	using	use	B-VP	VBG	O	25	NMOD	0
+27	Pluronic	Pluronic	B-NP	JJ	B-protein	28	NMOD	0
+28	F-127	F-127	I-NP	NN	I-protein	26	OBJ	0
+29	as	as	B-PP	IN	O	26	VMOD	0
+30	an	an	B-NP	DT	O	32	NMOD	0
+31	extractable	extractable	I-NP	JJ	O	32	NMOD	0
+32	porogen	porogen	I-NP	NN	O	29	PMOD	0
+33	.	.	O	.	O	3	P	0
+
+1	Heparin	Heparin	B-NP	NN	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	surface	surface	B-NP	NN	O	2	PRD	0
+4	immobilized	immobilize	B-VP	VBN	O	3	NMOD	0
+5	via	via	B-PP	IN	O	4	VMOD	0
+6	covalent	covalent	B-NP	JJ	O	7	NMOD	0
+7	conjugation	conjugation	I-NP	NN	O	5	PMOD	0
+8	.	.	O	.	O	2	P	0
+
+1	bFGF	bFGF	B-NP	NN	B-protein	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	loaded	load	I-VP	VBN	O	2	VC	19	loaded
+4	into	into	B-PP	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	heparin	heparin	I-NP	NN	O	4	PMOD	0
+7	functionalized	functionalize	B-VP	VBD	O	2	VMOD	0
+8	(	(	O	(	O	10	DEP	0
+9	PLGA-heparin	PLGA-heparin	B-NP	NN	O	10	DEP	0
+10	)	)	O	)	O	7	VMOD	0
+11	microspheres	microsphere	B-NP	NNS	O	7	VMOD	0
+12	by	by	B-PP	IN	O	7	VMOD	0
+13	a	a	B-NP	DT	O	16	NMOD	0
+14	simple	simple	I-NP	JJ	O	16	NMOD	0
+15	dipping	dipping	I-NP	NN	O	16	NMOD	0
+16	method	method	I-NP	NN	O	12	PMOD	0
+17	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	bFGF	bFGF	I-NP	NN	B-protein	3	SUB	0
+3	loaded	load	B-VP	VBD	O	0	ROOT	19	loaded
+4	PLGA-heparin	PLGA-heparin	B-NP	NN	O	5	NMOD	0
+5	microspheres	microsphere	I-NP	NNS	O	6	SUB	0
+6	were	be	B-VP	VBD	O	3	VMOD	0
+7	tested	test	I-VP	VBN	O	6	VC	0
+8	for	for	B-PP	IN	O	7	VMOD	0
+9	in	in	B-NP	FW	O	10	AMOD	0
+10	vitro	vitro	I-NP	FW	O	11	NMOD	0
+11	release	release	I-NP	NN	O	16	NMOD	14	release
+12	and	and	O	CC	O	16	NMOD	0
+13	in	in	B-NP	FW	O	14	AMOD	0
+14	vivo	vivo	I-NP	FW	O	16	NMOD	0
+15	angiogenic	angiogenic	I-NP	JJ	O	16	NMOD	3	angiogenic
+16	activity	activity	I-NP	NN	O	8	PMOD	0
+17	.	.	O	.	O	3	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	PLGA	PLGA	B-NP	NN	O	4	NMOD	0
+4	microspheres	microsphere	I-NP	NNS	O	9	SUB	0
+5	with	with	B-PP	IN	O	4	NMOD	0
+6	an	an	B-NP	DT	O	8	NMOD	0
+7	open-porous	open-porous	I-NP	JJ	O	8	NMOD	0
+8	structure	structure	I-NP	NN	O	5	PMOD	0
+9	were	be	B-VP	VBD	O	1	NMOD	0
+10	formed	form	I-VP	VBN	O	9	VC	0
+11	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	amount	amount	I-NP	NN	O	10	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	conjugated	conjugate	B-NP	VBN	O	6	NMOD	0
+5	amine	amine	I-NP	NN	O	6	NMOD	0
+6	group	group	I-NP	NN	O	3	PMOD	0
+7	onto	onto	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	microspheres	microsphere	I-NP	NNS	O	7	PMOD	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	1.93+/-0.01	1.93+/-0.01	B-NP	CD	O	12	NMOD	0
+12	nmol/mg-microspheres	nmol/mg-microsphere	I-NP	NNS	O	10	PRD	0
+13	,	,	O	,	O	10	P	0
+14	while	while	B-SBAR	IN	O	10	VMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	amount	amount	I-NP	NN	O	19	SUB	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	heparin	heparin	B-NP	NN	O	17	PMOD	0
+19	was	be	B-VP	VBD	O	14	SBAR	0
+20	95.8	95.8	B-NP	CD	O	21	NMOD	0
+21	pmol/mg-microspheres	pmol/mg-microsphere	I-NP	NNS	O	19	PRD	0
+22	.	.	O	.	O	10	P	0
+
+1	PLGA-heparin	PLGA-heparin	B-NP	NN	O	2	NMOD	0
+2	microspheres	microsphere	I-NP	NNS	O	0	ROOT	0
+3	released	release	B-VP	VBN	O	2	NMOD	14	released
+4	out	out	B-PRT	RP	O	3	VMOD	0
+5	bFGF	bFGF	B-NP	NN	B-protein	3	OBJ	0
+6	in	in	B-PP	IN	O	3	VMOD	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	more	more	I-NP	RBR	O	9	AMOD	0
+9	sustained	sustained	I-NP	JJ	O	10	NMOD	0
+10	manner	manner	I-NP	NN	O	6	PMOD	0
+11	with	with	B-PP	IN	O	10	NMOD	0
+12	a	a	B-NP	DT	O	14	NMOD	0
+13	smaller	small	I-NP	JJR	O	14	NMOD	0
+14	extent	extent	I-NP	NN	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	initial	initial	B-NP	JJ	O	17	NMOD	0
+17	burst	burst	I-NP	NN	O	15	PMOD	0
+18	than	than	B-PP	IN	O	2	NMOD	0
+19	PLGA	PLGA	B-NP	NN	O	20	NMOD	0
+20	microspheres	microsphere	I-NP	NNS	O	18	PMOD	0
+21	,	,	O	,	O	2	P	0
+22	indicating	indicate	B-VP	VBG	O	2	NMOD	0
+23	that	that	B-SBAR	IN	O	22	VMOD	0
+24	surface	surface	B-NP	NN	B-protein	26	NMOD	0
+25	immobilized	immobilize	I-NP	VBN	I-protein	24	NMOD	0
+26	heparin	heparin	I-NP	NN	I-protein	27	SUB	0
+27	controlled	control	B-VP	VBD	O	23	SBAR	16	controlled
+28	the	the	B-NP	DT	O	30	NMOD	0
+29	release	release	I-NP	NN	O	30	NMOD	14	release
+30	rate	rate	I-NP	NN	O	27	OBJ	0
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	bFGF	bFGF	B-NP	NN	B-protein	31	PMOD	0
+33	.	.	O	.	O	2	P	0
+
+1	Subcutaneous	Subcutaneous	B-NP	JJ	O	2	NMOD	0
+2	implantation	implantation	I-NP	NN	O	5	SUB	19	implantation
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	bFGF	bFGF	B-NP	NN	B-protein	3	PMOD	0
+5	loaded	load	B-VP	VBD	O	11	VMOD	19	loaded
+6	PLGA-heparin	PLGA-heparin	B-NP	NN	O	7	NMOD	0
+7	microspheres	microsphere	I-NP	NNS	O	5	OBJ	0
+8	in	in	B-PP	IN	O	5	VMOD	0
+9	mice	mouse	B-NP	NNS	O	8	PMOD	0
+10	significantly	significantly	B-ADVP	RB	O	11	VMOD	0
+11	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	formation	formation	I-NP	NN	O	11	OBJ	2	formation
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	new	new	B-NP	JJ	O	17	NMOD	0
+16	vascular	vascular	I-NP	JJ	O	17	NMOD	0
+17	microvessels	microvessel	I-NP	NNS	O	14	PMOD	0
+18	.	.	O	.	O	11	P	0
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	PLGA	PLGA	B-NP	NN	O	4	NMOD	0
+4	microspheres	microsphere	I-NP	NNS	O	10	SUB	0
+5	with	with	B-PP	IN	O	4	NMOD	0
+6	an	an	B-NP	DT	O	9	NMOD	0
+7	open	open	I-NP	JJ	O	8	AMOD	0
+8	porous	porous	I-NP	JJ	O	9	NMOD	0
+9	structure	structure	I-NP	NN	O	5	PMOD	0
+10	allowed	allow	B-VP	VBD	O	1	NMOD	0
+11	significant	significant	B-NP	JJ	O	12	NMOD	0
+12	amount	amount	I-NP	NN	O	10	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	heparin	heparin	B-NP	NN	O	15	NMOD	0
+15	immobilization	immobilization	I-NP	NN	O	18	NMOD	19	immobilization
+16	and	and	O	CC	O	18	NMOD	0
+17	bFGF	bFGF	B-NP	NN	O	18	NMOD	0
+18	loading	loading	I-NP	NN	O	13	PMOD	19	loading
+19	.	.	O	.	O	1	P	0
+
+1	bFGF	bFGF	B-NP	NN	B-protein	2	SUB	0
+2	loaded	load	B-VP	VBD	O	0	ROOT	19	loaded
+3	PLGA-HP	PLGA-HP	B-NP	NN	O	4	NMOD	0
+4	microspheres	microsphere	I-NP	NNS	O	5	SUB	0
+5	showed	show	B-VP	VBD	O	2	VMOD	0
+6	sustained	sustained	B-NP	JJ	O	8	NMOD	0
+7	release	release	I-NP	NN	O	8	NMOD	14	release
+8	profiles	profile	I-NP	NNS	O	5	OBJ	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	bFGF	bFGF	B-NP	NN	B-protein	9	PMOD	0
+11	in	in	B-ADVP	FW	O	5	VMOD	0
+12	vitro	vitro	I-ADVP	FW	O	11	AMOD	0
+13	,	,	O	,	O	5	P	0
+14	demonstrating	demonstrate	B-VP	VBG	O	5	VMOD	0
+15	reversible	reversible	B-NP	JJ	O	17	AMOD	0
+16	and	and	I-NP	CC	O	17	AMOD	0
+17	specific	specific	I-NP	JJ	O	18	NMOD	0
+18	binding	binding	I-NP	NN	O	14	OBJ	15	binding
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	bFGF	bFGF	B-NP	NN	B-protein	19	PMOD	0
+21	to	to	B-PP	TO	O	18	NMOD	0
+22	immobilized	immobilize	B-NP	VBN	O	23	NMOD	0
+23	heparin	heparin	I-NP	NN	O	21	PMOD	0
+24	.	.	O	.	O	2	P	0
+
+1	They	They	B-NP	PRP	O	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+4	local	local	B-NP	JJ	O	5	NMOD	0
+5	angiogenesis	angiogenesis	I-NP	NN	O	3	OBJ	3	angiogenesis
+6	in	in	B-ADVP	FW	O	3	VMOD	0
+7	vivo	vivo	I-ADVP	FW	O	6	AMOD	0
+8	in	in	B-PP	IN	O	3	VMOD	0
+9	an	an	B-NP	DT	O	11	NMOD	0
+10	animal	animal	I-NP	NN	O	11	NMOD	0
+11	model	model	I-NP	NN	O	8	PMOD	0
+12	.	.	O	.	O	3	P	0
+

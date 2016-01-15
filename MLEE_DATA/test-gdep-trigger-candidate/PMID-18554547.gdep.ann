@@ -1,0 +1,199 @@
+1	Microscopic	Microscopic	B-NP	JJ	O	2	NMOD	-1
+2	technique	technique	I-NP	NN	O	0	ROOT	-1
+3	for	for	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	detection	detection	I-NP	NN	O	3	PMOD	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	nitric	nitric	B-NP	JJ	O	9	NMOD	-1
+8	oxide-dependent	oxide-dependent	I-NP	JJ	O	9	NMOD	17	dependent
+9	angiogenesis	angiogenesis	I-NP	NN	O	6	PMOD	3	angiogenesis
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	an	an	B-NP	DT	O	13	NMOD	-1
+12	animal	animal	I-NP	NN	O	13	NMOD	-1
+13	model	model	I-NP	NN	O	10	PMOD	-1
+14	.	.	O	.	O	2	P	-1
+
+1	Nitric	Nitric	B-NP	JJ	O	2	NMOD	-1
+2	oxide	oxide	I-NP	NN	O	6	SUB	-1
+3	(	(	O	(	O	5	DEP	-1
+4	NO	NO	B-NP	NN	O	5	DEP	-1
+5	)	)	O	)	O	2	NMOD	-1
+6	plays	play	B-VP	VBZ	O	0	ROOT	-1
+7	an	an	B-NP	DT	O	9	NMOD	-1
+8	important	important	I-NP	JJ	O	9	NMOD	0
+9	role	role	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	-1
+11	maintaining	maintain	B-VP	VBG	O	10	PMOD	0
+12	vascular	vascular	B-NP	JJ	O	13	NMOD	-1
+13	homeostasis	homeostasis	I-NP	NN	O	11	OBJ	-1
+14	.	.	O	.	O	6	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	importance	importance	I-NP	NN	O	8	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	NO	NO	B-NP	NN	O	3	PMOD	-1
+5	in	in	B-PP	IN	O	2	NMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	vasculature	vasculature	I-NP	NN	O	5	PMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	demonstrated	demonstrate	I-VP	VBN	O	8	VC	-1
+10	by	by	B-PP	IN	O	9	VMOD	-1
+11	several	several	B-NP	JJ	O	13	NMOD	-1
+12	experimental	experimental	I-NP	JJ	O	13	NMOD	-1
+13	conditions	condition	I-NP	NNS	O	10	PMOD	-1
+14	,	,	O	,	O	13	P	-1
+15	such	such	B-PP	JJ	O	16	PMOD	-1
+16	as	as	I-PP	IN	O	13	NMOD	-1
+17	vascular	vascular	B-NP	JJ	B-protein	20	NMOD	-1
+18	endothelial	endothelial	I-NP	JJ	I-protein	20	NMOD	-1
+19	growth	growth	I-NP	NN	I-protein	20	NMOD	0
+20	factor	factor	I-NP	NN	I-protein	25	NMOD	-1
+21	(	(	O	(	O	25	NMOD	-1
+22	VEGF	VEGF	B-NP	NN	B-protein	25	NMOD	-1
+23	)	)	O	)	O	25	NMOD	-1
+24	-induced	-induced	B-NP	JJ	O	25	NMOD	17	induced
+25	angiogenesis	angiogenesis	I-NP	NN	O	16	PMOD	3	angiogenesis
+26	.	.	O	.	O	8	P	-1
+
+1	Thus	Thus	B-ADVP	RB	O	10	VMOD	-1
+2	,	,	O	,	O	10	P	-1
+3	the	the	B-NP	DT	O	6	NMOD	-1
+4	NO	NO	I-NP	NN	O	6	NMOD	-1
+5	metabolic	metabolic	I-NP	JJ	O	6	NMOD	-1
+6	pathway	pathway	I-NP	NN	O	10	SUB	0
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+10	could	could	B-VP	MD	O	0	ROOT	-1
+11	be	be	I-VP	VB	O	10	VC	-1
+12	one	one	B-NP	CD	O	11	PRD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	17	NMOD	-1
+15	main	main	I-NP	JJ	B-protein	17	NMOD	-1
+16	contributing	contribute	I-NP	VBG	I-protein	17	NMOD	0
+17	factors	factor	I-NP	NNS	I-protein	13	PMOD	-1
+18	for	for	B-PP	IN	O	17	NMOD	-1
+19	angiogenesis	angiogenesis	B-NP	NN	O	18	PMOD	3	angiogenesis
+20	.	.	O	.	O	10	P	-1
+
+1	Although	Although	B-SBAR	IN	O	16	SUB	-1
+2	several	several	B-NP	JJ	O	3	NMOD	-1
+3	methods	method	I-NP	NNS	O	4	SUB	-1
+4	have	have	B-VP	VBP	O	1	SBAR	-1
+5	been	be	I-VP	VBN	O	4	VC	-1
+6	used	use	I-VP	VBN	O	5	VC	0
+7	for	for	B-PP	IN	O	6	VMOD	-1
+8	measuring	measure	B-VP	VBG	O	7	PMOD	-1
+9	in	in	B-NP	FW	O	10	AMOD	-1
+10	vitro	vitro	I-NP	FW	O	11	NMOD	-1
+11	angiogenesis	angiogenesis	I-NP	NN	O	15	NMOD	3	angiogenesis
+12	,	,	O	,	O	15	P	-1
+13	a	a	B-NP	DT	O	15	NMOD	-1
+14	proper	proper	I-NP	JJ	O	15	NMOD	-1
+15	technique	technique	I-NP	NN	O	8	OBJ	-1
+16	has	have	B-VP	VBZ	O	0	ROOT	-1
+17	not	not	I-VP	RB	O	16	VMOD	-1
+18	been	be	I-VP	VBN	O	16	VC	-1
+19	developed	develop	I-VP	VBN	O	18	VC	0
+20	for	for	B-PP	IN	O	19	VMOD	-1
+21	identifying	identify	B-VP	VBG	O	20	PMOD	-1
+22	in	in	B-NP	FW	O	23	AMOD	-1
+23	vivo	vivo	I-NP	FW	O	25	NMOD	-1
+24	NO-dependent	NO-dependent	I-NP	JJ	O	25	NMOD	17	dependent
+25	angiogenesis	angiogenesis	I-NP	NN	O	21	OBJ	3	angiogenesis
+26	.	.	O	.	O	16	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	chapter	chapter	I-NP	NN	O	3	SUB	-1
+3	provides	provide	B-VP	VBZ	O	0	ROOT	-1
+4	a	a	B-NP	DT	O	8	NMOD	-1
+5	new	new	I-NP	JJ	O	8	NMOD	-1
+6	intravital	intravital	I-NP	JJ	O	8	NMOD	-1
+7	microscopic	microscopic	I-NP	JJ	O	8	NMOD	-1
+8	method	method	I-NP	NN	O	3	OBJ	-1
+9	for	for	B-PP	IN	O	8	NMOD	-1
+10	detecting	detect	B-VP	VBG	O	9	PMOD	-1
+11	and	and	I-VP	CC	O	10	VMOD	-1
+12	measuring	measure	I-VP	VBG	O	10	VMOD	-1
+13	NO-dependent	NO-dependent	B-NP	JJ	O	14	NMOD	17	dependent
+14	angiogenesis	angiogenesis	I-NP	NN	O	12	OBJ	3	angiogenesis
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	a	a	B-NP	DT	O	18	NMOD	-1
+17	mouse	mouse	I-NP	NN	O	18	NMOD	-1
+18	model	model	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	3	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	technique	technique	I-NP	NN	O	3	SUB	-1
+3	showed	show	B-VP	VBD	O	0	ROOT	-1
+4	strong	strong	B-NP	JJ	O	6	NMOD	-1
+5	abdominal	abdominal	I-NP	JJ	O	6	NMOD	-1
+6	neovascularization	neovascularization	I-NP	NN	O	15	NMOD	3	neovascularization
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	wild-type	wild-type	B-NP	JJ	O	9	NMOD	-1
+9	mice	mouse	I-NP	NNS	O	7	PMOD	-1
+10	,	,	O	,	O	15	P	-1
+11	but	but	O	CC	O	15	NMOD	-1
+12	not	not	O	RB	O	11	DEP	-1
+13	eNOS	eNOS	B-VP	NN	O	15	NMOD	-1
+14	knockout	knockout	B-NP	JJ	O	15	NMOD	19	knockout
+15	mice	mouse	I-NP	NNS	O	3	OBJ	-1
+16	,	,	O	,	O	3	P	-1
+17	locally	locally	B-VP	RB	O	18	VMOD	-1
+18	injected	inject	I-VP	VBN	O	3	VC	19	injected
+19	with	with	B-PP	IN	O	18	VMOD	-1
+20	VEGF	VEGF	B-NP	NN	B-protein	19	PMOD	-1
+21	,	,	O	,	O	19	P	-1
+22	as	as	B-CONJP	RB	O	19	DEP	-1
+23	well	well	I-CONJP	RB	O	22	DEP	-1
+24	as	as	I-CONJP	IN	O	22	DEP	-1
+25	stimulation	stimulation	B-NP	NN	O	19	PMOD	17	stimulation
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	angiogenesis	angiogenesis	B-NP	NN	O	26	PMOD	3	angiogenesis
+28	in	in	B-PP	IN	O	25	NMOD	-1
+29	NO	NO	B-NP	NN	O	31	NMOD	-1
+30	donor-injected	donor-injected	I-NP	JJ	O	31	NMOD	19	injected
+31	mice	mouse	I-NP	NNS	O	28	PMOD	-1
+32	.	.	O	.	O	3	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	technique	technique	I-NP	NN	O	4	SUB	-1
+3	also	also	B-ADVP	RB	O	4	VMOD	-1
+4	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	inhibitory	inhibitory	I-NP	JJ	O	7	NMOD	0
+7	effect	effect	I-NP	NN	O	4	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	12	NMOD	-1
+10	NOS	NOS	I-NP	NN	O	12	NMOD	-1
+11	inhibitor	inhibitor	I-NP	NN	O	12	NMOD	0
+12	N	N	I-NP	NN	O	16	NMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	G	G	B-NP	NN	O	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	-iminoethyl-L-ornithine	-iminoethyl-L-ornithine	B-NP	NN	O	8	PMOD	-1
+17	in	in	B-PP	IN	O	4	VMOD	-1
+18	VEGF-mediated	VEGF-mediated	B-NP	JJ	O	21	NMOD	17	mediated
+19	in	in	I-NP	FW	O	20	AMOD	-1
+20	vivo	vivo	I-NP	FW	O	21	NMOD	-1
+21	angiogenesis	angiogenesis	I-NP	NN	O	17	PMOD	3	angiogenesis
+22	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	chapter	chapter	I-NP	NN	O	3	SUB	-1
+3	describes	describe	B-VP	VBZ	O	0	ROOT	-1
+4	intravital	intravital	B-NP	JJ	O	5	NMOD	-1
+5	microscopy	microscopy	I-NP	NN	O	3	OBJ	-1
+6	as	as	B-PP	IN	O	5	NMOD	-1
+7	a	a	B-NP	DT	O	10	NMOD	-1
+8	new	new	I-NP	JJ	O	10	NMOD	-1
+9	imaging	imaging	I-NP	NN	O	10	NMOD	-1
+10	technique	technique	I-NP	NN	O	6	PMOD	-1
+11	for	for	B-PP	IN	O	5	NMOD	-1
+12	detecting	detect	B-VP	VBG	O	11	PMOD	-1
+13	NO-dependent	NO-dependent	B-NP	JJ	O	14	NMOD	17	dependent
+14	angiogenesis	angiogenesis	I-NP	NN	O	12	OBJ	3	angiogenesis
+15	in	in	B-PP	IN	O	12	VMOD	-1
+16	an	an	B-NP	DT	O	18	NMOD	-1
+17	animal	animal	I-NP	NN	O	18	NMOD	-1
+18	model	model	I-NP	NN	O	15	PMOD	-1

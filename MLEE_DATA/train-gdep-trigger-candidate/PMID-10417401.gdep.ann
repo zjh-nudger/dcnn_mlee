@@ -1,0 +1,315 @@
+1	Bradycardia-induced	Bradycardia-induced	B-NP	JJ	O	3	NMOD	17	induced
+2	coronary	coronary	I-NP	JJ	O	3	NMOD	-1
+3	angiogenesis	angiogenesis	I-NP	NN	O	4	SUB	3	angiogenesis
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	dependent	dependent	B-ADJP	JJ	O	4	PRD	17	dependent
+6	on	on	B-PP	IN	O	5	AMOD	-1
+7	vascular	vascular	B-NP	JJ	B-protein	10	NMOD	-1
+8	endothelial	endothelial	I-NP	JJ	I-protein	10	NMOD	-1
+9	growth	growth	I-NP	NN	I-protein	10	NMOD	0
+10	factor	factor	I-NP	NN	I-protein	6	PMOD	-1
+11	.	.	O	.	O	4	P	-1
+
+1	A	A	B-NP	DT	O	4	NMOD	-1
+2	marked	marked	I-NP	JJ	O	4	NMOD	-1
+3	coronary	coronary	I-NP	JJ	O	4	NMOD	-1
+4	angiogenesis	angiogenesis	I-NP	NN	O	5	SUB	3	angiogenesis
+5	is	be	B-VP	VBZ	O	0	ROOT	-1
+6	known	know	I-VP	VBN	O	5	VC	-1
+7	to	to	I-VP	TO	O	8	VMOD	-1
+8	occur	occur	I-VP	VB	O	6	VMOD	-1
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	chronic	chronic	B-NP	JJ	O	11	NMOD	-1
+11	bradycardia	bradycardia	I-NP	NN	O	9	PMOD	-1
+12	.	.	O	.	O	5	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	tested	test	B-VP	VBD	O	0	ROOT	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	hypothesis	hypothesis	I-NP	NN	O	2	OBJ	-1
+5	that	that	B-SBAR	IN	O	4	NMOD	-1
+6	vascular	vascular	B-NP	JJ	B-protein	9	NMOD	-1
+7	endothelial	endothelial	I-NP	JJ	I-protein	9	NMOD	-1
+8	growth	growth	I-NP	NN	I-protein	9	NMOD	0
+9	factor	factor	I-NP	NN	I-protein	17	NMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	VEGF	VEGF	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	,	,	O	,	O	17	P	-1
+14	an	an	B-NP	DT	O	17	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	B-protein	17	NMOD	-1
+16	cell	cell	I-NP	NN	I-protein	17	NMOD	-1
+17	mitogen	mitogen	I-NP	NN	I-protein	21	NMOD	-1
+18	and	and	O	CC	O	21	NMOD	-1
+19	a	a	B-NP	DT	O	21	NMOD	-1
+20	major	major	I-NP	JJ	O	21	NMOD	-1
+21	regulator	regulator	I-NP	NN	O	25	SUB	0
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	angiogenesis	angiogenesis	B-NP	NN	O	22	PMOD	3	angiogenesis
+24	,	,	O	,	O	21	P	-1
+25	is	be	B-VP	VBZ	O	5	SBAR	-1
+26	upregulated	upregulate	I-VP	VBN	O	25	VC	17	upregulated
+27	in	in	B-PP	IN	O	26	VMOD	-1
+28	response	response	B-NP	NN	O	27	PMOD	0
+29	to	to	B-PP	TO	O	28	NMOD	-1
+30	low	low	B-NP	JJ	O	32	NMOD	-1
+31	heart	heart	I-NP	NN	O	32	NMOD	-1
+32	rate	rate	I-NP	NN	O	37	NMOD	-1
+33	and	and	O	CC	O	37	NMOD	-1
+34	consequential	consequential	B-NP	JJ	O	37	NMOD	-1
+35	increased	increase	I-NP	VBN	O	37	NMOD	0
+36	stroke	stroke	I-NP	NN	O	37	NMOD	-1
+37	volume	volume	I-NP	NN	O	29	PMOD	-1
+38	.	.	O	.	O	2	P	-1
+
+1	Bradycardia	Bradycardia	B-NP	NNP	O	2	SUB	-1
+2	was	be	B-VP	VBD	O	0	ROOT	-1
+3	induced	induce	I-VP	VBN	O	2	VC	0
+4	in	in	B-PP	IN	O	3	VMOD	-1
+5	rats	rat	B-NP	NNS	O	4	PMOD	-1
+6	by	by	B-PP	IN	O	3	VMOD	-1
+7	administering	administer	B-VP	VBG	O	6	PMOD	19	administering
+8	the	the	B-NP	DT	O	11	NMOD	-1
+9	bradycardic	bradycardic	I-NP	JJ	O	11	NMOD	-1
+10	drug	drug	I-NP	NN	O	11	NMOD	-1
+11	alinidine	alinidine	I-NP	NN	O	7	OBJ	-1
+12	(	(	O	(	O	17	DEP	-1
+13	3	3	B-NP	CD	O	16	NMOD	-1
+14	mg/kg	mg/kg	I-NP	NN	O	16	NMOD	-1
+15	body	body	I-NP	NN	O	16	NMOD	-1
+16	weight	weight	I-NP	NN	O	17	DEP	-1
+17	)	)	O	)	O	11	NMOD	-1
+18	twice	twice	B-ADVP	RB	O	3	VMOD	-1
+19	daily	daily	I-ADVP	RB	O	18	AMOD	-1
+20	.	.	O	.	O	2	P	-1
+
+1	Heart	Heart	B-NP	NN	O	2	NMOD	-1
+2	rate	rate	I-NP	NN	O	3	SUB	-1
+3	decreased	decrease	B-VP	VBD	O	0	ROOT	0
+4	by	by	B-PP	IN	O	3	VMOD	-1
+5	32	32	B-NP	CD	O	6	NMOD	-1
+6	%	%	I-NP	NN	O	4	PMOD	-1
+7	for	for	B-PP	IN	O	3	VMOD	-1
+8	20	20	B-NP	CD	O	10	AMOD	-1
+9	to	to	I-NP	TO	O	10	AMOD	-1
+10	40	40	I-NP	CD	O	11	NMOD	-1
+11	minutes	minute	I-NP	NNS	O	7	PMOD	-1
+12	after	after	B-PP	IN	O	3	VMOD	-1
+13	injection	injection	B-NP	NN	O	12	PMOD	0
+14	and	and	O	CC	O	3	VMOD	-1
+15	was	be	B-VP	VBD	O	3	VMOD	-1
+16	chronically	chronically	I-VP	RB	O	15	VMOD	-1
+17	reduced	reduce	I-VP	VBN	O	15	VC	0
+18	by	by	B-PP	IN	O	17	VMOD	-1
+19	10	10	B-NP	CD	O	20	NMOD	-1
+20	%	%	I-NP	NN	O	18	PMOD	-1
+21	,	,	O	,	O	3	P	-1
+22	14	14	B-NP	CD	O	23	NMOD	-1
+23	%	%	I-NP	NN	O	27	NMOD	-1
+24	,	,	O	,	O	27	P	-1
+25	and	and	O	CC	O	27	NMOD	-1
+26	18.5	18.5	B-NP	CD	O	27	NMOD	-1
+27	%	%	I-NP	NN	O	3	OBJ	-1
+28	after	after	B-PP	IN	O	27	NMOD	-1
+29	1	1	B-NP	CD	O	35	NMOD	-1
+30	,	,	I-NP	,	O	35	P	-1
+31	2	2	I-NP	CD	O	35	NMOD	-1
+32	,	,	O	,	O	35	P	-1
+33	and	and	O	CC	O	35	NMOD	-1
+34	3	3	B-NP	CD	O	35	NMOD	-1
+35	weeks	week	I-NP	NNS	O	28	PMOD	-1
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	treatment	treatment	B-NP	NN	O	36	PMOD	0
+38	,	,	O	,	O	27	P	-1
+39	respectively	respectively	B-ADVP	RB	O	27	NMOD	-1
+40	.	.	O	.	O	3	P	-1
+
+1	Arterial	Arterial	B-NP	JJ	O	2	NMOD	-1
+2	pressure	pressure	I-NP	NN	O	5	NMOD	-1
+3	and	and	O	CC	O	5	NMOD	-1
+4	cardiac	cardiac	B-NP	JJ	O	5	NMOD	-1
+5	output	output	I-NP	NN	O	6	SUB	-1
+6	were	be	B-VP	VBD	O	0	ROOT	-1
+7	unchanged	unchanged	B-ADJP	JJ	O	6	PRD	-1
+8	.	.	O	.	O	6	P	-1
+
+1	Left	Leave	B-NP	VBN	O	5	NMOD	-1
+2	ventricular	ventricular	I-NP	JJ	O	5	NMOD	-1
+3	capillary	capillary	I-NP	JJ	O	5	NMOD	-1
+4	length	length	I-NP	NN	O	5	NMOD	-1
+5	density	density	I-NP	NN	O	12	SUB	-1
+6	(	(	O	(	O	11	DEP	-1
+7	mm/mm	mm/mm	B-NP	NN	O	11	DEP	-1
+8	(	(	O	(	O	10	DEP	-1
+9	3	3	B-NP	CD	O	10	DEP	-1
+10	)	)	O	)	O	7	NMOD	-1
+11	)	)	O	)	O	5	NMOD	-1
+12	increased	increase	B-VP	VBD	O	36	VMOD	17	increased
+13	gradually	gradually	B-ADVP	RB	O	12	VMOD	-1
+14	with	with	B-PP	IN	O	12	VMOD	-1
+15	alinidine	alinidine	B-NP	NN	O	16	NMOD	-1
+16	administration	administration	I-NP	NN	O	14	PMOD	19	administration
+17	;	;	O	:	O	36	P	-1
+18	a	a	B-NP	DT	O	21	NMOD	-1
+19	15	15	I-NP	CD	O	20	AMOD	-1
+20	%	%	I-NP	NN	O	21	NMOD	-1
+21	increase	increase	I-NP	NN	O	29	NMOD	17	increase
+22	after	after	B-PP	IN	O	21	NMOD	-1
+23	2	2	B-NP	CD	O	24	NMOD	-1
+24	weeks	week	I-NP	NNS	O	22	PMOD	-1
+25	and	and	O	CC	O	29	NMOD	-1
+26	a	a	B-NP	DT	O	29	NMOD	-1
+27	40	40	I-NP	CD	O	28	AMOD	-1
+28	%	%	I-NP	NN	O	29	NMOD	-1
+29	increase	increase	I-NP	NN	O	36	SUB	17	increase
+30	after	after	B-PP	IN	O	29	NMOD	-1
+31	3	3	B-NP	CD	O	32	NMOD	-1
+32	weeks	week	I-NP	NNS	O	30	PMOD	-1
+33	of	of	B-PP	IN	O	32	NMOD	-1
+34	alinidine	alinidine	B-NP	NN	O	35	NMOD	-1
+35	treatment	treatment	I-NP	NN	O	33	PMOD	19	treatment
+36	were	be	B-VP	VBD	O	0	ROOT	-1
+37	documented	document	I-VP	VBN	O	36	VC	-1
+38	.	.	O	.	O	36	P	-1
+
+1	Left	Leave	B-NP	VBN	O	3	NMOD	-1
+2	ventricular	ventricular	I-NP	JJ	O	3	NMOD	-1
+3	weight	weight	I-NP	NN	O	10	NMOD	-1
+4	,	,	O	,	O	10	P	-1
+5	body	body	B-NP	NN	O	6	NMOD	-1
+6	weight	weight	I-NP	NN	O	10	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	and	and	O	CC	O	10	NMOD	-1
+9	their	their	B-NP	PRP$	O	10	NMOD	-1
+10	ratio	ratio	I-NP	NN	O	11	SUB	-1
+11	were	be	B-VP	VBD	O	0	ROOT	-1
+12	not	not	I-VP	RB	O	11	VMOD	-1
+13	significantly	significantly	I-VP	RB	O	11	VMOD	-1
+14	altered	alter	I-VP	VBN	O	11	VC	0
+15	by	by	B-PP	IN	O	14	VMOD	-1
+16	alinidine	alinidine	B-NP	NN	O	17	NMOD	-1
+17	treatment	treatment	I-NP	NN	O	15	PMOD	19	treatment
+18	.	.	O	.	O	11	P	-1
+
+1	After	After	B-PP	IN	O	17	VMOD	-1
+2	1	1	B-NP	CD	O	3	NMOD	-1
+3	week	week	I-NP	NN	O	1	PMOD	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	treatment	treatment	B-NP	NN	O	4	PMOD	0
+6	,	,	O	,	O	17	P	-1
+7	before	before	B-PP	IN	O	17	VMOD	-1
+8	an	an	B-NP	DT	O	9	NMOD	-1
+9	increase	increase	I-NP	NN	O	7	PMOD	17	increase
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	capillary	capillary	B-NP	JJ	O	13	NMOD	-1
+12	length	length	I-NP	NN	O	13	NMOD	-1
+13	density	density	I-NP	NN	O	10	PMOD	-1
+14	,	,	O	,	O	17	P	-1
+15	VEGF	VEGF	B-NP	NN	B-RNA	16	NMOD	-1
+16	mRNA	mRNA	I-NP	NN	I-RNA	17	SUB	0
+17	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+18	greater	great	B-ADJP	JJR	O	23	VMOD	-1
+19	than	than	B-PP	IN	O	18	AMOD	-1
+20	2-fold	2-fold	B-ADVP	RB	O	19	PMOD	-1
+21	and	and	O	CC	O	18	DEP	-1
+22	then	then	O	RB	O	23	VMOD	-1
+23	declined	decline	B-VP	VBD	O	17	VMOD	18	declined
+24	to	to	B-PP	TO	O	23	VMOD	-1
+25	control	control	B-NP	NN	O	26	NMOD	0
+26	levels	level	I-NP	NNS	O	24	PMOD	-1
+27	after	after	B-PP	IN	O	23	VMOD	-1
+28	3	3	B-NP	CD	O	29	NMOD	-1
+29	weeks	week	I-NP	NNS	O	27	PMOD	-1
+30	of	of	B-PP	IN	O	29	NMOD	-1
+31	treatment	treatment	B-NP	NN	O	30	PMOD	0
+32	.	.	O	.	O	17	P	-1
+
+1	VEGF	VEGF	B-NP	NN	B-protein	2	NMOD	-1
+2	protein	protein	I-NP	NN	I-protein	3	SUB	-1
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	higher	high	B-ADJP	JJR	O	3	PRD	-1
+5	in	in	B-PP	IN	O	4	AMOD	-1
+6	alinidine-treated	alinidine-treated	B-NP	JJ	O	7	NMOD	19	treated
+7	rats	rat	I-NP	NNS	O	5	PMOD	-1
+8	than	than	B-PP	IN	O	4	AMOD	-1
+9	in	in	B-PP	IN	O	8	PMOD	-1
+10	controls	control	B-NP	NNS	O	9	PMOD	0
+11	after	after	B-PP	IN	O	10	NMOD	-1
+12	2	2	B-NP	CD	O	13	NMOD	-1
+13	weeks	week	I-NP	NNS	O	11	PMOD	-1
+14	and	and	O	CC	O	4	DEP	-1
+15	increased	increase	B-VP	VBN	O	4	AMOD	17	increased
+16	further	further	B-ADVP	RB	O	15	VMOD	-1
+17	after	after	B-PP	IN	O	15	VMOD	-1
+18	3	3	B-NP	CD	O	19	NMOD	-1
+19	weeks	week	I-NP	NNS	O	17	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	treatment	treatment	B-NP	NN	O	20	PMOD	0
+22	.	.	O	.	O	3	P	-1
+
+1	Injection	Injection	B-NP	NN	O	10	SUB	19	Injection
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	VEGF-neutralizing	VEGF-neutralizing	B-NP	JJ	B-protein	4	NMOD	-1
+4	antibodies	antibody	I-NP	NNS	I-protein	2	PMOD	-1
+5	over	over	B-PP	IN	O	1	NMOD	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	2-week	2-week	I-NP	JJ	O	8	NMOD	-1
+8	period	period	I-NP	NN	O	5	PMOD	-1
+9	completely	completely	B-ADVP	RB	O	10	VMOD	-1
+10	blocked	block	B-VP	VBD	O	0	ROOT	18	blocked
+11	alinidine-stimulated	alinidine-stimulated	B-NP	JJ	O	12	NMOD	17	stimulated
+12	angiogenesis	angiogenesis	I-NP	NN	O	10	OBJ	3	angiogenesis
+13	.	.	O	.	O	10	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	6	P	-1
+4	bFGF	bFGF	B-NP	NN	B-RNA	5	NMOD	-1
+5	mRNA	mRNA	I-NP	NN	I-RNA	6	SUB	0
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	not	not	I-VP	RB	O	6	VMOD	-1
+8	altered	alter	I-VP	VBN	O	6	VC	16	altered
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	alinidine	alinidine	B-NP	NN	O	11	NMOD	-1
+11	treatment	treatment	I-NP	NN	O	9	PMOD	19	treatment
+12	.	.	O	.	O	6	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	VEGF	VEGF	B-NP	NN	B-protein	6	SUB	-1
+6	plays	play	B-VP	VBZ	O	4	SBAR	-1
+7	a	a	B-NP	DT	O	9	NMOD	-1
+8	key	key	I-NP	JJ	O	9	NMOD	-1
+9	role	role	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	-1
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	angiogenic	angiogenic	I-NP	JJ	O	13	NMOD	3	angiogenic
+13	response	response	I-NP	NN	O	10	PMOD	0
+14	that	that	B-NP	WDT	O	13	NMOD	-1
+15	occurs	occur	B-VP	VBZ	O	14	SBAR	-1
+16	with	with	B-PP	IN	O	15	VMOD	-1
+17	chronic	chronic	B-NP	JJ	O	18	NMOD	-1
+18	bradycardia	bradycardia	I-NP	NN	O	16	PMOD	-1
+19	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	mechanism	mechanism	I-NP	NN	O	7	SUB	0
+3	underlying	underlie	B-VP	VBG	O	2	NMOD	-1
+4	this	this	B-NP	DT	O	6	NMOD	-1
+5	VEGF-associated	VEGF-associated	I-NP	JJ	O	6	NMOD	16	associated
+6	angiogenesis	angiogenesis	I-NP	NN	O	3	OBJ	3	angiogenesis
+7	may	may	B-VP	MD	O	0	ROOT	-1
+8	be	be	I-VP	VB	O	7	VC	-1
+9	an	an	B-NP	DT	O	10	NMOD	-1
+10	increase	increase	I-NP	NN	O	8	PRD	0
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	stretch	stretch	B-NP	NN	O	11	PMOD	-1
+13	due	due	B-PP	JJ	O	14	PMOD	0
+14	to	to	B-PP	TO	O	10	NMOD	-1
+15	enhanced	enhance	B-NP	VBN	O	17	NMOD	0
+16	diastolic	diastolic	I-NP	JJ	O	17	NMOD	-1
+17	filling	filling	I-NP	NN	O	14	PMOD	-1
+18	.	.	O	.	O	7	P	-1
+

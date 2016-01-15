@@ -1,0 +1,273 @@
+1	Efficient	Efficient	B-NP	JJ	O	2	NMOD	0
+2	inhibition	inhibition	I-NP	NN	O	0	ROOT	18	inhibition
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	ovarian	ovarian	B-NP	JJ	O	6	NMOD	0
+5	cancer	cancer	I-NP	NN	O	6	NMOD	0
+6	growth	growth	I-NP	NN	O	9	NMOD	4	growth
+7	and	and	O	CC	O	9	NMOD	0
+8	prolonged	prolonged	B-NP	JJ	O	9	NMOD	0
+9	survival	survival	I-NP	NN	O	3	PMOD	5	survival
+10	by	by	B-PP	IN	O	2	NMOD	0
+11	transfection	transfection	B-NP	NN	O	10	PMOD	19	transfection
+12	with	with	B-PP	IN	O	11	NMOD	0
+13	a	a	B-NP	DT	O	16	NMOD	0
+14	novel	novel	I-NP	JJ	B-DNA	16	NMOD	0
+15	pro-apoptotic	pro-apoptotic	I-NP	JJ	I-DNA	16	NMOD	0
+16	gene	gene	I-NP	NN	I-DNA	18	NMOD	0
+17	,	,	O	,	O	18	P	0
+18	hPNAS-4	hPNAS-4	B-NP	NN	B-DNA	12	PMOD	0
+19	,	,	O	,	O	2	P	0
+20	in	in	B-PP	IN	O	2	NMOD	0
+21	a	a	B-NP	DT	O	23	NMOD	0
+22	mouse	mouse	I-NP	NN	O	23	NMOD	0
+23	model	model	I-NP	NN	O	20	PMOD	0
+24	.	.	O	.	O	2	P	0
+
+1	In	In	B-ADVP	FW	O	2	AMOD	0
+2	vivo	vivo	I-ADVP	FW	O	6	NMOD	0
+3	and	and	O	CC	O	6	NMOD	0
+4	in	in	B-NP	FW	O	5	AMOD	0
+5	vitro	vitro	I-NP	FW	O	6	NMOD	0
+6	results	result	I-NP	NNS	O	0	ROOT	0
+7	.	.	O	.	O	6	P	0
+
+1	OBJECTIVE	OBJECTIVE	B-NP	NN	O	4	VMOD	0
+2	:	:	O	:	O	4	P	0
+3	We	We	B-NP	PRP	O	4	SUB	0
+4	transfected	transfecte	B-VP	VBD	O	0	ROOT	19	transfected
+5	ovarian	ovarian	B-NP	JJ	B-cell_type	7	NMOD	0
+6	cancer	cancer	I-NP	NN	I-cell_type	7	NMOD	0
+7	cells	cell	I-NP	NNS	I-cell_type	4	OBJ	0
+8	and	and	O	CC	O	4	VMOD	0
+9	administered	administer	B-VP	VBN	O	4	VMOD	19	administered
+10	recombinant	recombinant	B-NP	JJ	B-DNA	11	NMOD	0
+11	plasmid	plasmid	I-NP	NN	I-DNA	9	OBJ	0
+12	encoding	encode	B-VP	VBG	O	11	NMOD	0
+13	hPNAS-4	hPNAS-4	B-NP	NN	B-protein	12	OBJ	0
+14	to	to	B-PP	TO	O	9	VMOD	0
+15	nude	nude	B-NP	JJ	O	16	NMOD	0
+16	mice	mouse	I-NP	NNS	O	14	PMOD	0
+17	bearing	bear	B-VP	VBG	O	16	NMOD	0
+18	ovarian	ovarian	B-NP	JJ	O	19	NMOD	0
+19	cancer	cancer	I-NP	NN	O	17	OBJ	0
+20	,	,	O	,	O	4	P	0
+21	aiming	aim	B-VP	VBG	O	4	VMOD	0
+22	to	to	I-VP	TO	O	23	VMOD	0
+23	evaluate	evaluate	I-VP	VB	O	21	VMOD	0
+24	the	the	B-NP	DT	O	25	NMOD	0
+25	effect	effect	I-NP	NN	O	23	OBJ	16	effect
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	hPNAS-4	hPNAS-4	B-NP	NN	O	26	PMOD	0
+28	against	against	B-PP	IN	O	25	NMOD	0
+29	ovarian	ovarian	B-NP	JJ	O	30	NMOD	0
+30	cancer	cancer	I-NP	NN	O	28	PMOD	0
+31	in	in	B-ADVP	FW	O	23	VMOD	0
+32	vitro	vitro	I-ADVP	FW	O	31	AMOD	0
+33	and	and	O	CC	O	31	AMOD	0
+34	in	in	B-ADVP	FW	O	31	AMOD	0
+35	vivo	vivo	I-ADVP	FW	O	34	AMOD	0
+36	.	.	O	.	O	4	P	0
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Ovarian	Ovarian	B-NP	JJ	B-cell_type	6	NMOD	0
+4	cancer	cancer	I-NP	NN	I-cell_type	6	NMOD	0
+5	SKOV3	SKOV3	I-NP	NN	I-cell_type	6	NMOD	0
+6	cells	cell	I-NP	NNS	I-cell_type	7	SUB	0
+7	were	be	B-VP	VBD	O	15	VMOD	0
+8	transfected	transfecte	I-VP	VBN	O	7	VC	19	transfected
+9	with	with	B-PP	IN	O	8	VMOD	0
+10	hPNAS-4-plasmid	hPNAS-4-plasmid	B-NP	NN	B-DNA	9	PMOD	0
+11	,	,	O	,	O	15	P	0
+12	and	and	O	CC	O	14	NMOD	0
+13	cell	cell	B-NP	NN	O	14	NMOD	0
+14	proliferation	proliferation	I-NP	NN	O	15	SUB	1	proliferation
+15	was	be	B-VP	VBD	O	22	VMOD	0
+16	evaluated	evaluate	I-VP	VBN	O	15	VC	0
+17	by	by	B-PP	IN	O	16	VMOD	0
+18	MTT	MTT	B-NP	NN	O	19	NMOD	0
+19	assay	assay	I-NP	NN	O	17	PMOD	0
+20	;	;	O	:	O	22	P	0
+21	apoptosis	apoptosis	B-NP	NN	O	22	SUB	5	apoptosis
+22	was	be	B-VP	VBD	O	1	NMOD	0
+23	examined	examine	I-VP	VBN	O	22	VC	0
+24	by	by	B-PP	IN	O	23	VMOD	0
+25	DNA	DNA	B-NP	NN	O	26	NMOD	0
+26	ladder	ladder	I-NP	NN	O	32	NMOD	0
+27	,	,	O	,	O	32	P	0
+28	Hoechst33258	Hoechst33258	B-NP	NN	O	29	NMOD	0
+29	staining	staining	I-NP	NN	O	32	NMOD	0
+30	and	and	O	CC	O	32	NMOD	0
+31	flow-cytometric	flow-cytometric	B-NP	JJ	O	32	NMOD	0
+32	assays	assay	I-NP	NNS	O	24	PMOD	0
+33	.	.	O	.	O	1	P	0
+
+1	Nude	Nude	B-NP	NN	O	2	NMOD	0
+2	mice	mouse	I-NP	NNS	O	6	SUB	0
+3	bearing	bear	B-VP	VBG	O	2	NMOD	0
+4	ovarian	ovarian	B-NP	JJ	O	5	NMOD	0
+5	cancers	cancer	I-NP	NNS	O	3	OBJ	0
+6	were	be	B-VP	VBD	O	0	ROOT	0
+7	treated	treat	I-VP	VBN	O	6	VC	19	treated
+8	with	with	B-PP	IN	O	7	VMOD	0
+9	hPNAS-4-p/liposome	hPNAS-4-p/liposome	B-NP	NN	O	8	PMOD	0
+10	.	.	O	.	O	6	P	0
+
+1	Tumor	Tumor	B-NP	NN	O	2	NMOD	0
+2	growth	growth	I-NP	NN	O	3	SUB	4	growth
+3	was	be	B-VP	VBD	O	7	VMOD	0
+4	determined	determine	I-VP	VBN	O	3	VC	0
+5	and	and	O	CC	O	7	VMOD	0
+6	survival	survival	B-NP	NN	O	7	SUB	0
+7	was	be	B-VP	VBD	O	0	ROOT	0
+8	recorded	record	I-VP	VBN	O	7	VC	0
+9	.	.	O	.	O	7	P	0
+
+1	TUNEL	TUNEL	B-NP	NN	O	2	NMOD	0
+2	assay	assay	I-NP	NN	O	5	NMOD	0
+3	and	and	O	CC	O	5	NMOD	0
+4	microvessel	microvessel	B-NP	NN	O	5	NMOD	0
+5	density	density	I-NP	NN	O	6	SUB	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	assessed	assess	I-VP	VBN	O	6	VC	0
+8	to	to	I-VP	TO	O	9	VMOD	0
+9	evaluate	evaluate	I-VP	VB	O	7	VMOD	0
+10	apoptosis	apoptosis	B-NP	NN	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	angiogenesis	angiogenesis	I-NP	NN	O	9	OBJ	3	angiogenesis
+13	.	.	O	.	O	6	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Both	Both	O	CC	O	4	NMOD	0
+4	inhibition	inhibition	B-NP	NN	O	13	NMOD	18	inhibition
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	proliferation	proliferation	B-NP	NN	O	5	PMOD	1	proliferation
+7	(	(	O	(	O	11	DEP	0
+8	p	p	B-NP	NN	O	10	SUB	0
+9	<	<	O	SYM	O	10	VMOD	0
+10	0.05	0.05	B-NP	CD	O	11	DEP	0
+11	)	)	O	)	O	4	NMOD	0
+12	and	and	O	CC	O	13	NMOD	0
+13	induction	induction	B-NP	NN	O	21	SUB	17	induction
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	apoptosis	apoptosis	B-NP	NN	O	14	PMOD	5	apoptosis
+16	(	(	O	(	O	20	DEP	0
+17	p	p	B-NP	NN	O	20	DEP	0
+18	<	<	B-NP	SYM	O	17	NMOD	0
+19	0.05	0.05	I-NP	CD	O	18	AMOD	0
+20	)	)	O	)	O	13	NMOD	0
+21	were	be	B-VP	VBD	O	1	NMOD	0
+22	observed	observe	I-VP	VBN	O	21	VC	0
+23	in	in	B-PP	IN	O	22	VMOD	0
+24	SKOV3	SKOV3	B-NP	NN	B-cell_line	25	NMOD	0
+25	cells	cell	I-NP	NNS	I-cell_line	23	PMOD	0
+26	transfected	transfecte	B-VP	VBN	O	25	NMOD	19	transfected
+27	with	with	B-PP	IN	O	26	VMOD	0
+28	hPNAS-4-p	hPNAS-4-p	B-NP	NN	O	27	PMOD	0
+29	in	in	B-ADVP	FW	O	26	VMOD	0
+30	vitro	vitro	I-ADVP	FW	O	29	AMOD	0
+31	.	.	O	.	O	1	P	0
+
+1	In	In	B-PP	IN	O	11	VMOD	0
+2	hPNAS-4-p-treated	hPNAS-4-p-treated	B-NP	JJ	B-cell_line	4	NMOD	19	treated
+3	tumor	tumor	I-NP	NN	I-cell_line	4	NMOD	0
+4	cells	cell	I-NP	NNS	I-cell_line	1	PMOD	0
+5	in	in	B-ADVP	FW	O	6	AMOD	0
+6	vivo	vivo	I-ADVP	FW	O	4	NMOD	0
+7	,	,	O	,	O	11	P	0
+8	tumor	tumor	B-NP	NN	O	9	NMOD	0
+9	growth	growth	I-NP	NN	O	11	SUB	4	growth
+10	significantly	significantly	B-ADVP	RB	O	11	VMOD	0
+11	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+12	,	,	O	,	O	11	P	0
+13	while	while	B-SBAR	IN	O	11	VMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	survival	survival	I-NP	NN	O	16	NMOD	5	survival
+16	time	time	I-NP	NN	O	20	SUB	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	tumor-bearing	tumor-bearing	B-NP	JJ	O	19	NMOD	0
+19	mice	mouse	I-NP	NNS	O	17	PMOD	0
+20	was	be	B-VP	VBD	O	13	SBAR	0
+21	prolonged	prolong	I-VP	VBN	O	20	VC	17	prolonged
+22	compared	compare	B-PP	VBN	O	21	VMOD	0
+23	with	with	B-PP	IN	O	22	PMOD	0
+24	control	control	B-NP	JJ	O	25	NMOD	0
+25	groups	group	I-NP	NNS	O	23	PMOD	0
+26	(	(	O	(	O	30	DEP	0
+27	p	p	B-NP	NN	O	30	DEP	0
+28	<	<	O	SYM	O	27	NMOD	0
+29	0.05	0.05	B-NP	CD	O	28	AMOD	0
+30	)	)	O	)	O	21	VMOD	0
+31	.	.	O	.	O	11	P	0
+
+1	Increased	Increase	B-NP	VBN	O	2	NMOD	17	Increased
+2	apoptosis	apoptosis	I-NP	NN	O	8	NMOD	5	apoptosis
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	tumor	tumor	B-NP	NN	B-cell_type	5	NMOD	0
+5	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	0
+6	and	and	O	CC	O	8	NMOD	0
+7	decreased	decrease	B-VP	VBD	O	8	NMOD	18	decreased
+8	angiogenesis	angiogenesis	B-NP	NN	O	12	SUB	3	angiogenesis
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	tumor	tumor	B-NP	NN	O	11	NMOD	0
+11	tissue	tissue	I-NP	NN	O	9	PMOD	0
+12	were	be	B-VP	VBD	O	0	ROOT	0
+13	also	also	I-VP	RB	O	12	VMOD	0
+14	observed	observe	I-VP	VBN	O	12	VC	0
+15	.	.	O	.	O	12	P	0
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Our	Our	B-NP	PRP$	O	5	NMOD	0
+4	promising	promising	I-NP	JJ	O	5	NMOD	0
+5	results	result	I-NP	NNS	O	1	OBJ	0
+6	on	on	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	10	NMOD	0
+8	potential	potential	I-NP	JJ	O	9	AMOD	0
+9	antitumor	antitumor	I-NP	JJ	O	10	NMOD	0
+10	effects	effect	I-NP	NNS	O	21	SUB	18	effects
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	hPNAS-4	hPNAS-4	B-NP	NN	O	11	PMOD	0
+13	on	on	B-PP	IN	O	10	NMOD	0
+14	ovarian	ovarian	B-NP	JJ	O	15	NMOD	0
+15	cancer	cancer	I-NP	NN	O	13	PMOD	0
+16	in	in	B-ADVP	FW	O	15	NMOD	0
+17	vitro	vitro	I-ADVP	FW	O	16	AMOD	0
+18	and	and	O	CC	O	21	VMOD	0
+19	in	in	B-ADVP	FW	O	21	VMOD	0
+20	vivo	vivo	I-ADVP	FW	O	19	AMOD	0
+21	may	may	B-VP	MD	O	6	SBAR	0
+22	be	be	I-VP	VB	O	21	VC	0
+23	explained	explain	I-VP	VBN	O	22	VC	0
+24	,	,	O	,	O	23	P	0
+25	in	in	B-PP	IN	O	23	VMOD	0
+26	part	part	B-NP	NN	O	25	PMOD	0
+27	,	,	O	,	O	23	P	0
+28	by	by	B-PP	IN	O	23	VMOD	0
+29	the	the	B-NP	DT	O	30	NMOD	0
+30	induction	induction	I-NP	NN	O	34	NMOD	17	induction
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	apoptosis	apoptosis	B-NP	NN	O	31	PMOD	5	apoptosis
+33	and	and	I-NP	CC	O	34	NMOD	0
+34	inhibition	inhibition	I-NP	NN	O	28	PMOD	18	inhibition
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	angiogenesis	angiogenesis	B-NP	NN	O	35	PMOD	3	angiogenesis
+37	.	.	O	.	O	1	P	0
+
+1	Consequently	Consequently	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	hPNAS-4	hPNAS-4	B-NP	NN	B-protein	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	potential	potential	B-NP	NN	O	4	OBJ	0
+6	as	as	B-PP	IN	O	4	VMOD	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	new	new	I-NP	JJ	O	10	NMOD	0
+9	gene	gene	I-NP	NN	O	10	NMOD	0
+10	therapy	therapy	I-NP	NN	O	6	PMOD	0
+11	for	for	B-PP	IN	O	10	NMOD	0
+12	human	human	B-NP	JJ	O	14	NMOD	0
+13	ovarian	ovarian	I-NP	JJ	O	14	NMOD	0
+14	cancer	cancer	I-NP	NN	O	11	PMOD	0
+15	.	.	O	.	O	4	P	0
+

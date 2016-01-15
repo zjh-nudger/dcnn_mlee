@@ -1,0 +1,418 @@
+1	Heparin-steroid	Heparin-steroid	B-NP	JJ	O	2	NMOD	-1
+2	conjugates	conjugate	I-NP	NNS	O	6	NMOD	-1
+3	:	:	O	:	O	2	P	-1
+4	new	new	B-NP	JJ	O	6	NMOD	-1
+5	angiogenesis	angiogenesis	I-NP	NN	O	6	NMOD	3	angiogenesis
+6	inhibitors	inhibitor	I-NP	NNS	O	0	ROOT	-1
+7	with	with	B-PP	IN	O	6	NMOD	-1
+8	antitumor	antitumor	B-NP	JJ	O	9	NMOD	-1
+9	activity	activity	I-NP	NN	O	7	PMOD	18	activity
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	mice	mouse	B-NP	NNS	O	10	PMOD	-1
+12	.	.	O	.	O	6	P	-1
+
+1	Inhibitors	Inhibitor	B-NP	NNS	O	4	SUB	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	PMOD	3	angiogenesis
+4	hold	hold	B-VP	VBP	O	0	ROOT	-1
+5	potential	potential	B-NP	NN	O	4	OBJ	0
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	treatment	treatment	I-NP	NN	O	6	PMOD	19	treatment
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	cancer	cancer	B-NP	NN	O	13	NMOD	-1
+11	and	and	O	CC	O	13	NMOD	-1
+12	other	other	B-NP	JJ	O	13	NMOD	-1
+13	diseases	disease	I-NP	NNS	O	9	PMOD	-1
+14	where	where	B-ADVP	WRB	O	13	NMOD	-1
+15	the	the	B-NP	DT	O	16	NMOD	-1
+16	disease	disease	I-NP	NN	O	17	SUB	-1
+17	is	be	B-VP	VBZ	O	14	SBAR	-1
+18	caused	cause	I-VP	VBN	O	17	VC	0
+19	or	or	I-VP	CC	O	18	VMOD	-1
+20	maintained	maintain	I-VP	VBN	O	18	VMOD	0
+21	by	by	B-PP	IN	O	20	VMOD	-1
+22	the	the	B-NP	DT	O	24	NMOD	-1
+23	inappropriate	inappropriate	I-NP	JJ	O	24	NMOD	-1
+24	growth	growth	I-NP	NN	O	21	PMOD	4	growth
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	blood	blood	B-NP	NN	O	27	NMOD	-1
+27	vessels	vessel	I-NP	NNS	O	25	PMOD	-1
+28	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	11	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	present	present	I-NP	JJ	O	4	NMOD	0
+4	study	study	I-NP	NN	O	1	PMOD	-1
+5	,	,	O	,	O	11	P	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	novel	novel	I-NP	JJ	O	8	NMOD	-1
+8	inhibitor	inhibitor	I-NP	NN	O	11	SUB	0
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	PMOD	3	angiogenesis
+11	was	be	B-VP	VBD	O	0	ROOT	-1
+12	synthesized	synthesize	I-VP	VBN	O	11	VC	0
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	covalently	covalently	B-VP	RB	O	15	VMOD	-1
+15	linking	link	I-VP	VBG	O	13	PMOD	-1
+16	a	a	B-NP	DT	O	18	NMOD	-1
+17	nonanticoagulating	nonanticoagulating	I-NP	JJ	O	18	NMOD	-1
+18	derivative	derivative	I-NP	NN	O	15	OBJ	-1
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	heparin	heparin	B-NP	NN	O	19	PMOD	-1
+21	,	,	O	,	O	11	VMOD	-1
+22	heparin	heparin	B-NP	NN	O	24	NMOD	-1
+23	adipic	adipic	I-NP	JJ	O	24	NMOD	-1
+24	hydrazide	hydrazide	I-NP	NN	O	21	OBJ	-1
+25	(	(	O	(	O	27	DEP	-1
+26	HAH	HAH	B-NP	NN	B-protein	27	DEP	-1
+27	)	)	O	)	O	24	NMOD	-1
+28	,	,	O	,	O	24	P	-1
+29	by	by	B-PP	IN	O	24	NMOD	-1
+30	an	an	B-NP	DT	O	32	NMOD	-1
+31	acid-labile	acid-labile	I-NP	JJ	O	32	NMOD	-1
+32	bond	bond	I-NP	NN	O	29	PMOD	-1
+33	to	to	B-PP	TO	O	32	NMOD	-1
+34	the	the	B-NP	DT	O	36	NMOD	-1
+35	antiangiogenic	antiangiogenic	I-NP	JJ	O	36	NMOD	3	angiogenic
+36	steroid	steroid	I-NP	NN	O	38	NMOD	-1
+37	,	,	O	,	O	38	P	-1
+38	cortisol	cortisol	B-NP	NN	O	33	PMOD	-1
+39	.	.	O	.	O	11	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	rationale	rationale	I-NP	NN	O	3	SUB	-1
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	PRD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	heparin	heparin	I-NP	NN	O	7	NMOD	-1
+7	derivative	derivative	I-NP	NN	O	19	SUB	-1
+8	,	,	O	,	O	7	P	-1
+9	which	which	B-NP	WDT	O	7	NMOD	-1
+10	binds	bind	B-VP	VBZ	O	9	SBAR	15	binds
+11	to	to	B-PP	TO	O	10	VMOD	-1
+12	sulfated	sulfate	B-NP	VBN	O	14	NMOD	-1
+13	polyanion	polyanion	I-NP	NN	B-protein	14	NMOD	-1
+14	receptors	receptor	I-NP	NNS	I-protein	11	PMOD	-1
+15	on	on	B-PP	IN	O	14	NMOD	-1
+16	endothelial	endothelial	B-NP	JJ	B-cell_type	17	NMOD	-1
+17	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	-1
+18	,	,	O	,	O	7	P	-1
+19	should	should	B-VP	MD	O	4	SBAR	-1
+20	concentrate	concentrate	I-VP	VB	O	19	VC	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	steroid	steroid	I-NP	NN	O	20	OBJ	-1
+23	on	on	B-PP	IN	O	22	NMOD	-1
+24	the	the	B-NP	DT	O	25	NMOD	-1
+25	surface	surface	I-NP	NN	O	23	PMOD	-1
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	vascular	vascular	B-NP	JJ	B-cell_type	29	NMOD	-1
+28	endothelial	endothelial	I-NP	JJ	I-cell_type	29	NMOD	-1
+29	cells	cell	I-NP	NNS	I-cell_type	26	PMOD	-1
+30	.	.	O	.	O	3	P	-1
+
+1	Endocytosis	Endocytosis	B-NP	NN	O	18	SUB	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	6	NMOD	-1
+4	conjugate	conjugate	I-NP	NN	O	6	NMOD	-1
+5	and	and	I-NP	CC	O	6	NMOD	-1
+6	decomposition	decomposition	I-NP	NN	O	2	PMOD	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	acid-labile	acid-labile	I-NP	JJ	O	10	NMOD	-1
+10	linkage	linkage	I-NP	NN	O	7	PMOD	-1
+11	inside	inside	B-PP	IN	O	1	NMOD	-1
+12	lysosomes	lysosome	B-NP	NNS	O	17	NMOD	-1
+13	and	and	O	CC	O	17	NMOD	-1
+14	other	other	B-NP	JJ	O	17	NMOD	-1
+15	acidic	acidic	I-NP	JJ	O	17	NMOD	-1
+16	intracellular	intracellular	I-NP	JJ	O	17	NMOD	-1
+17	compartments	compartment	I-NP	NNS	O	11	PMOD	-1
+18	should	should	B-VP	MD	O	0	ROOT	-1
+19	then	then	I-VP	RB	O	18	VMOD	-1
+20	lead	lead	I-VP	VB	O	18	VC	0
+21	to	to	B-PP	TO	O	20	VMOD	-1
+22	release	release	B-NP	NN	O	21	PMOD	14	release
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	the	the	B-NP	DT	O	27	NMOD	-1
+25	cortisol	cortisol	I-NP	NN	O	27	NMOD	-1
+26	and	and	I-NP	CC	O	27	NMOD	-1
+27	expression	expression	I-NP	NN	O	23	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	its	its	B-NP	PRP$	O	31	NMOD	-1
+30	antiproliferative	antiproliferative	I-NP	JJ	O	31	NMOD	-1
+31	activity	activity	I-NP	NN	O	28	PMOD	0
+32	.	.	O	.	O	18	P	-1
+
+1	Analysis	Analysis	B-NP	NN	O	7	SUB	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	stability	stability	I-NP	NN	O	2	PMOD	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	HAH-cortisol	HAH-cortisol	B-NP	NN	O	5	PMOD	-1
+7	showed	show	B-VP	VBD	O	0	ROOT	-1
+8	that	that	B-SBAR	IN	O	7	VMOD	-1
+9	it	it	B-NP	PRP	O	10	SUB	-1
+10	was	be	B-VP	VBD	O	8	SBAR	-1
+11	stable	stable	B-ADJP	JJ	O	10	PRD	-1
+12	at	at	B-PP	IN	O	11	AMOD	-1
+13	pH	pH	B-NP	NN	O	12	PMOD	-1
+14	7.4	7.4	I-NP	CD	O	13	NMOD	-1
+15	and	and	O	CC	O	10	VMOD	-1
+16	broke	break	B-VP	VBD	O	10	VMOD	-1
+17	down	down	B-PRT	RP	O	16	VMOD	-1
+18	rapidly	rapidly	B-ADVP	RB	O	16	VMOD	-1
+19	(	(	O	(	O	23	DEP	-1
+20	t1/2	t1/2	B-NP	NN	O	22	NMOD	-1
+21	15	15	I-NP	CD	O	22	NMOD	-1
+22	min	min	I-NP	NN	O	23	DEP	-1
+23	)	)	O	)	O	18	AMOD	-1
+24	at	at	B-PP	IN	O	16	VMOD	-1
+25	pH	pH	B-NP	NN	O	24	PMOD	-1
+26	4.8	4.8	I-NP	CD	O	25	NMOD	-1
+27	at	at	B-PP	IN	O	16	VMOD	-1
+28	37	37	B-NP	CD	O	30	NMOD	-1
+29	degrees	degree	I-NP	NNS	O	30	NMOD	-1
+30	C	C	B-ADJP	JJ	O	27	PMOD	-1
+31	.	.	O	.	O	7	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	22	SUB	19	Treatment
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	murine	murine	B-NP	JJ	B-cell_line	7	NMOD	-1
+4	pulmonary	pulmonary	I-NP	JJ	I-cell_line	7	NMOD	-1
+5	capillary	capillary	I-NP	JJ	I-cell_line	7	NMOD	-1
+6	endothelial	endothelial	I-NP	JJ	I-cell_line	7	NMOD	-1
+7	cells	cell	I-NP	NNS	I-cell_line	2	PMOD	-1
+8	with	with	B-PP	IN	O	1	NMOD	-1
+9	HAH-cortisol	HAH-cortisol	B-NP	NN	O	8	PMOD	-1
+10	at	at	B-PP	IN	O	1	NMOD	-1
+11	10	10	B-NP	CD	O	15	NMOD	-1
+12	(	(	O	(	O	14	DEP	-1
+13	-5	-5	B-NP	CD	O	14	DEP	-1
+14	)	)	O	)	O	11	NMOD	-1
+15	M	M	B-NP	NN	O	10	PMOD	-1
+16	(	(	O	(	O	21	DEP	-1
+17	with	with	B-PP	IN	O	21	DEP	-1
+18	respect	respect	B-NP	NN	O	17	PMOD	-1
+19	to	to	B-PP	TO	O	18	NMOD	-1
+20	cortisol	cortisol	B-NP	NN	O	19	PMOD	-1
+21	)	)	O	)	O	15	NMOD	-1
+22	suppressed	suppress	B-VP	VBD	O	0	ROOT	0
+23	their	their	B-NP	PRP$	O	25	NMOD	-1
+24	DNA	DNA	I-NP	NN	O	25	NMOD	-1
+25	synthesis	synthesis	I-NP	NN	O	22	OBJ	0
+26	by	by	B-PP	IN	O	22	VMOD	-1
+27	50	50	B-NP	CD	O	28	NMOD	-1
+28	%	%	I-NP	NN	O	26	PMOD	-1
+29	and	and	O	CC	O	22	VMOD	-1
+30	inhibited	inhibit	B-VP	VBD	O	22	VMOD	18	inhibited
+31	their	their	B-NP	PRP$	O	32	NMOD	-1
+32	migration	migration	I-NP	NN	O	30	OBJ	14	migration
+33	into	into	B-PP	IN	O	32	NMOD	-1
+34	wounded	wounded	B-NP	JJ	O	35	NMOD	-1
+35	areas	area	I-NP	NNS	O	33	PMOD	-1
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	confluent	confluent	B-NP	JJ	O	38	NMOD	-1
+38	monolayers	monolayer	I-NP	NNS	O	36	PMOD	-1
+39	.	.	O	.	O	22	P	-1
+
+1	HAH-cortisol	HAH-cortisol	B-NP	NN	O	14	SUB	-1
+2	at	at	B-PP	IN	O	1	NMOD	-1
+3	10	10	B-NP	CD	O	7	NMOD	-1
+4	(	(	O	(	O	6	DEP	-1
+5	-4	-4	B-NP	CD	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	M	M	B-NP	NN	O	2	PMOD	-1
+8	(	(	O	(	O	7	NMOD	-1
+9	with	with	B-PP	IN	O	7	NMOD	-1
+10	respect	respect	B-NP	NN	O	9	PMOD	-1
+11	to	to	B-PP	TO	O	10	NMOD	-1
+12	cortisol	cortisol	B-NP	NN	O	11	PMOD	-1
+13	)	)	O	)	O	7	NMOD	-1
+14	did	do	B-VP	VBD	O	0	ROOT	-1
+15	not	not	I-VP	RB	O	14	VMOD	-1
+16	suppress	suppress	I-VP	VB	O	14	VC	0
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	DNA	DNA	I-NP	NN	O	19	NMOD	-1
+19	synthesis	synthesis	I-NP	NN	O	16	OBJ	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	Lewis	Lewis	B-NP	NNP	O	24	NMOD	-1
+22	lung	lung	I-NP	NN	B-cell_type	24	NMOD	-1
+23	carcinoma	carcinoma	I-NP	NN	I-cell_type	24	NMOD	-1
+24	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	-1
+25	.	.	O	.	O	14	P	-1
+
+1	Daily	Daily	B-NP	JJ	O	2	NMOD	-1
+2	i.p	i.p	I-NP	NN	O	0	ROOT	-1
+3	.	.	O	.	O	2	P	-1
+
+1	injections	injection	B-NP	NNS	O	0	ROOT	19	injections
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	HAH-cortisol	HAH-cortisol	B-NP	NN	O	2	PMOD	-1
+4	into	into	B-PP	IN	O	1	NMOD	-1
+5	mice	mouse	B-NP	NNS	O	4	PMOD	-1
+6	bearing	bear	B-VP	VBG	O	5	NMOD	-1
+7	s.c	s.c	B-NP	NN	O	6	OBJ	-1
+8	.	.	O	.	O	1	P	-1
+
+1	sponge	sponge	B-NP	NN	O	2	NMOD	-1
+2	implants	implant	I-NP	NNS	O	3	SUB	-1
+3	retarded	retard	B-VP	VBD	O	0	ROOT	18	retarded
+4	vascularization	vascularization	B-NP	NN	O	3	OBJ	3	vascularization
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	sponge	sponge	I-NP	NN	O	5	PMOD	-1
+8	,	,	O	,	O	15	P	-1
+9	and	and	O	CC	O	15	VMOD	-1
+10	injections	injection	B-NP	NNS	O	15	SUB	-1
+11	directly	directly	B-ADVP	RB	O	12	PMOD	-1
+12	into	into	B-PP	IN	O	10	NMOD	-1
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	sponge	sponge	I-NP	NN	O	12	PMOD	-1
+15	abolished	abolish	B-VP	VBD	O	3	VMOD	18	abolished
+16	vascularization	vascularization	B-NP	NN	O	15	OBJ	3	vascularization
+17	for	for	B-PP	IN	O	16	NMOD	-1
+18	as	as	B-ADVP	RB	O	17	PMOD	-1
+19	long	long	I-ADVP	RB	O	18	AMOD	-1
+20	as	as	B-SBAR	IN	O	18	AMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	injections	injection	I-NP	NNS	O	23	SUB	-1
+23	were	be	B-VP	VBD	O	20	SBAR	-1
+24	continued	continue	I-VP	VBN	O	23	VC	-1
+25	.	.	O	.	O	3	P	-1
+
+1	Daily	Daily	B-NP	JJ	O	2	NMOD	-1
+2	i.v	i.v	I-NP	NN	O	0	ROOT	-1
+3	.	.	O	.	O	2	P	-1
+
+1	injections	injection	B-NP	NNS	O	10	SUB	19	injections
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	HAH-cortisol	HAH-cortisol	B-NP	NN	O	2	PMOD	-1
+4	at	at	B-PP	IN	O	1	NMOD	-1
+5	doses	dose	B-NP	NNS	O	4	PMOD	-1
+6	causing	cause	B-VP	VBG	O	5	NMOD	-1
+7	no	no	B-NP	DT	O	9	NMOD	-1
+8	apparent	apparent	I-NP	JJ	O	9	NMOD	-1
+9	toxicity	toxicity	I-NP	NN	O	6	OBJ	-1
+10	retarded	retard	B-VP	VBD	O	0	ROOT	18	retarded
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	growth	growth	I-NP	NN	O	10	OBJ	4	growth
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	solid	solid	B-NP	JJ	O	15	NMOD	-1
+15	s.c	s.c	I-NP	NN	O	13	PMOD	-1
+16	.	.	O	.	O	10	P	-1
+
+1	Lewis	Lewis	B-NP	NNP	O	3	NMOD	-1
+2	lung	lung	I-NP	NN	O	3	NMOD	-1
+3	carcinomas	carcinoma	I-NP	NNS	O	0	ROOT	-1
+4	in	in	B-PP	IN	O	3	NMOD	-1
+5	mice	mouse	B-NP	NNS	O	4	PMOD	-1
+6	by	by	B-PP	IN	O	3	NMOD	-1
+7	up	up	B-NP	RB	O	10	NMOD	-1
+8	to	to	I-NP	TO	O	7	AMOD	-1
+9	65	65	I-NP	CD	O	7	AMOD	-1
+10	%	%	I-NP	NN	O	6	PMOD	-1
+11	.	.	O	.	O	3	P	-1
+
+1	In	In	B-PP	IN	O	17	VMOD	-1
+2	all	all	B-NP	DT	O	1	PMOD	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	these	these	B-NP	DT	O	5	NMOD	-1
+5	assays	assay	I-NP	NNS	O	3	PMOD	-1
+6	,	,	O	,	O	17	P	-1
+7	equivalent	equivalent	B-NP	JJ	O	8	NMOD	-1
+8	treatments	treatment	I-NP	NNS	O	17	SUB	19	treatments
+9	with	with	B-PP	IN	O	8	NMOD	-1
+10	a	a	B-NP	DT	O	11	NMOD	-1
+11	mixture	mixture	I-NP	NN	O	9	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	the	the	B-NP	DT	O	16	NMOD	-1
+14	HAH	HAH	I-NP	NN	B-protein	16	NMOD	-1
+15	plus	plus	I-NP	CC	O	16	NMOD	-1
+16	cortisol	cortisol	I-NP	NN	O	12	PMOD	-1
+17	was	be	B-VP	VBD	O	0	ROOT	-1
+18	significantly	significantly	B-ADJP	RB	O	17	PRD	-1
+19	less	less	I-ADJP	RBR	O	18	AMOD	-1
+20	effective	effective	I-ADJP	JJ	O	18	AMOD	0
+21	.	.	O	.	O	17	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	antiproliferative	antiproliferative	I-NP	JJ	O	3	NMOD	1	proliferative
+3	effect	effect	I-NP	NN	O	9	SUB	18	effect
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	HAH-cortisol	HAH-cortisol	B-NP	NN	O	4	PMOD	-1
+6	on	on	B-PP	IN	O	3	NMOD	-1
+7	endothelial	endothelial	B-NP	JJ	B-cell_type	8	NMOD	-1
+8	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	-1
+9	appeared	appear	B-VP	VBD	O	0	ROOT	-1
+10	independent	independent	B-ADJP	JJ	O	9	PRD	0
+11	of	of	B-PP	IN	O	10	AMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	glucocorticoid	glucocorticoid	I-NP	NN	O	14	NMOD	-1
+14	activity	activity	I-NP	NN	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	steroid	steroid	I-NP	NN	O	15	PMOD	-1
+18	since	since	B-SBAR	IN	O	9	VMOD	-1
+19	HAH	HAH	B-NP	NN	O	20	SUB	-1
+20	conjugated	conjugate	B-VP	VBD	O	18	SBAR	19	conjugated
+21	to	to	B-PP	TO	O	20	VMOD	-1
+22	5	5	B-NP	CD	O	32	NMOD	-1
+23	beta-pregnane-3	beta-pregnane-3	I-NP	NN	O	32	NMOD	-1
+24	alpha	alpha	B-NP	SYM	O	32	NMOD	-1
+25	,	,	O	,	O	32	P	-1
+26	17	17	B-NP	CD	O	32	NMOD	-1
+27	alpha	alpha	B-NP	SYM	O	32	NMOD	-1
+28	,	,	O	,	O	32	P	-1
+29	21-triol-20-one	21-triol-20-one	B-NP	NN	O	32	NMOD	-1
+30	,	,	O	,	O	32	P	-1
+31	a	a	B-NP	DT	O	32	NMOD	-1
+32	steroid	steroid	I-NP	NN	O	21	PMOD	-1
+33	lacking	lack	B-VP	VBG	O	32	NMOD	-1
+34	glucocorticoid	glucocorticoid	B-NP	NN	O	37	NMOD	-1
+35	or	or	I-NP	CC	O	37	NMOD	-1
+36	mineralocorticoid	mineralocorticoid	I-NP	NN	O	37	NMOD	-1
+37	activity	activity	I-NP	NN	O	33	OBJ	0
+38	,	,	O	,	O	20	P	-1
+39	was	be	B-VP	VBD	O	20	VMOD	-1
+40	even	even	B-ADJP	RB	O	39	PRD	-1
+41	more	more	I-ADJP	RBR	O	40	AMOD	-1
+42	effective	effective	I-ADJP	JJ	O	40	AMOD	0
+43	at	at	B-PP	IN	O	40	AMOD	-1
+44	inhibiting	inhibit	B-VP	VBG	O	43	PMOD	0
+45	DNA	DNA	B-NP	NN	O	46	NMOD	-1
+46	synthesis	synthesis	I-NP	NN	O	44	OBJ	0
+47	by	by	B-PP	IN	O	46	NMOD	-1
+48	murine	murine	B-NP	JJ	B-cell_type	52	NMOD	-1
+49	pulmonary	pulmonary	I-NP	JJ	I-cell_type	52	NMOD	-1
+50	capillary	capillary	I-NP	JJ	I-cell_type	52	NMOD	-1
+51	endothelial	endothelial	I-NP	JJ	I-cell_type	52	NMOD	-1
+52	cells	cell	I-NP	NNS	I-cell_type	47	PMOD	-1
+53	than	than	B-SBAR	IN	O	44	VMOD	-1
+54	was	be	B-VP	VBD	O	53	SBAR	-1
+55	HAH-cortisol	HAH-cortisol	B-NP	NN	O	54	PRD	-1
+56	.	.	O	.	O	9	P	-1
+
+1	In	In	B-PP	IN	O	5	VMOD	-1
+2	conclusion	conclusion	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	5	P	-1
+4	HAH-cortisol	HAH-cortisol	B-NP	NN	O	5	SUB	-1
+5	represents	represent	B-VP	VBZ	O	0	ROOT	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	prototype	prototype	I-NP	NN	O	5	OBJ	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	a	a	B-NP	DT	O	11	NMOD	-1
+10	new	new	I-NP	JJ	O	11	NMOD	-1
+11	class	class	I-NP	NN	O	8	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	angiogenesis	angiogenesis	B-NP	NN	O	14	NMOD	3	angiogenesis
+14	inhibitors	inhibitor	I-NP	NNS	O	12	PMOD	-1
+15	for	for	B-PP	IN	O	7	NMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	treatment	treatment	I-NP	NN	O	15	PMOD	19	treatment
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	cancer	cancer	B-NP	NN	O	23	NMOD	-1
+20	and	and	O	CC	O	23	NMOD	-1
+21	other	other	B-NP	JJ	O	23	NMOD	-1
+22	angiogenic	angiogenic	I-NP	JJ	O	23	NMOD	3	angiogenic
+23	diseases	disease	I-NP	NNS	O	18	PMOD	-1

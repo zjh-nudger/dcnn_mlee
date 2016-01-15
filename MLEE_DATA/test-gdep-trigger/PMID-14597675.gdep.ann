@@ -1,0 +1,241 @@
+1	Differential	Differential	B-NP	JJ	O	2	NMOD	0
+2	regulation	regulation	I-NP	NN	O	0	ROOT	16	regulation
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	in	in	B-NP	FW	O	5	AMOD	0
+5	vivo	vivo	I-NP	FW	O	6	NMOD	0
+6	angiogenesis	angiogenesis	I-NP	NN	O	3	PMOD	3	angiogenesis
+7	by	by	B-PP	IN	O	2	NMOD	0
+8	angiotensin	angiotensin	B-NP	NN	B-protein	10	NMOD	0
+9	II	II	I-NP	CD	I-protein	10	NMOD	0
+10	receptors	receptor	I-NP	NNS	I-protein	7	PMOD	0
+11	.	.	O	.	O	2	P	0
+
+1	Angiotensin	Angiotensin	B-NP	NN	B-protein	10	NMOD	0
+2	II	II	I-NP	CD	I-protein	1	NMOD	0
+3	(	(	O	(	O	6	DEP	0
+4	ANG	ANG	B-NP	NN	B-protein	6	DEP	0
+5	II	II	I-NP	CD	I-protein	4	NMOD	0
+6	)	)	O	)	O	1	NMOD	0
+7	,	,	O	,	O	10	P	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	key	key	I-NP	JJ	O	10	NMOD	0
+10	regulator	regulator	I-NP	NN	O	17	NMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	blood	blood	B-NP	NN	O	13	NMOD	0
+13	pressure	pressure	I-NP	NN	O	11	PMOD	0
+14	and	and	O	CC	O	17	NMOD	0
+15	body	body	B-NP	NN	O	17	NMOD	0
+16	fluid	fluid	I-NP	NN	O	17	NMOD	0
+17	homeostasis	homeostasis	I-NP	NN	O	19	SUB	0
+18	,	,	O	,	O	17	P	0
+19	exerts	exert	B-VP	VBZ	O	0	ROOT	0
+20	mitogenic	mitogenic	B-NP	JJ	O	21	NMOD	0
+21	effects	effect	I-NP	NNS	O	19	OBJ	0
+22	on	on	B-PP	IN	O	19	VMOD	0
+23	endothelial	endothelial	B-NP	JJ	B-cell_type	24	NMOD	0
+24	cells	cell	I-NP	NNS	I-cell_type	22	PMOD	0
+25	.	.	O	.	O	19	P	0
+
+1	We	We	B-NP	PRP	O	3	SUB	0
+2	therefore	therefore	B-ADVP	RB	O	3	VMOD	0
+3	hypothesized	hypothesize	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	ANG	ANG	B-NP	NN	B-protein	7	SUB	0
+6	II	II	I-NP	CD	I-protein	5	NMOD	0
+7	could	could	B-VP	MD	O	4	SBAR	0
+8	be	be	I-VP	VB	O	7	VC	0
+9	a	a	B-NP	DT	O	10	NMOD	0
+10	mediator	mediator	I-NP	NN	O	8	PRD	16	mediator
+11	between	between	B-PP	IN	O	10	NMOD	0
+12	homeostatic	homeostatic	B-NP	JJ	O	13	NMOD	0
+13	changes	change	I-NP	NNS	O	11	PMOD	16	changes
+14	within	within	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	18	NMOD	0
+16	vascular	vascular	I-NP	JJ	O	18	NMOD	0
+17	perfusion	perfusion	I-NP	NN	O	18	NMOD	0
+18	bed	bed	I-NP	NN	O	22	NMOD	0
+19	and	and	O	CC	O	22	NMOD	0
+20	growth	growth	B-NP	NN	O	22	NMOD	0
+21	factor-driven	factor-driven	I-NP	JJ	O	22	NMOD	0
+22	angiogenesis	angiogenesis	I-NP	NN	O	14	PMOD	3	angiogenesis
+23	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	7	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	present	present	I-NP	JJ	O	4	NMOD	0
+4	study	study	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	applied	apply	B-VP	VBD	O	0	ROOT	0
+8	the	the	B-NP	DT	O	12	NMOD	0
+9	alginate	alginate	I-NP	JJ	O	12	NMOD	0
+10	implant	implant	I-NP	NN	O	12	NMOD	19	implant
+11	angiogenesis	angiogenesis	I-NP	NN	O	12	NMOD	3	angiogenesis
+12	model	model	I-NP	NN	O	7	OBJ	0
+13	in	in	B-PP	IN	O	12	NMOD	0
+14	mice	mouse	B-NP	NNS	O	13	PMOD	0
+15	with	with	B-PP	IN	O	14	NMOD	0
+16	normal	normal	B-NP	JJ	O	19	NMOD	0
+17	ANG	ANG	I-NP	NN	B-protein	19	NMOD	0
+18	II	II	B-NP	CD	I-protein	19	NMOD	0
+19	levels	level	I-NP	NNS	O	15	PMOD	0
+20	,	,	O	,	O	7	P	0
+21	elevated	elevated	B-NP	JJ	O	24	NMOD	17	elevated
+22	ANG	ANG	I-NP	NN	B-protein	24	NMOD	0
+23	II	II	B-NP	CD	I-protein	24	NMOD	0
+24	levels	level	I-NP	NNS	O	7	VMOD	0
+25	by	by	B-PP	IN	O	24	NMOD	0
+26	transgenic	transgenic	B-NP	JJ	O	27	NMOD	0
+27	overexpression	overexpression	I-NP	NN	O	25	PMOD	9	overexpression
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	angiotensinogen	angiotensinogen	B-NP	NN	O	28	PMOD	0
+30	(	(	O	(	O	32	DEP	0
+31	AOGEN	AOGEN	B-NP	NN	B-protein	32	DEP	0
+32	)	)	O	)	O	29	NMOD	0
+33	,	,	O	,	O	39	P	0
+34	or	or	O	CC	O	39	NMOD	0
+35	in	in	B-PP	IN	O	34	PRD	0
+36	AT2	AT2	B-NP	NN	O	38	NMOD	0
+37	receptor-deficient	receptor-deficient	I-NP	JJ	O	38	NMOD	9	deficient
+38	mice	mouse	I-NP	NNS	O	35	PMOD	0
+39	.	.	O	.	O	24	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	decrease	decrease	I-NP	NN	O	28	SUB	18	decrease
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	amount	amount	I-NP	NN	O	6	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	circulating	circulate	B-VP	VBG	O	9	PMOD	0
+11	ANG	ANG	B-NP	NN	B-protein	10	OBJ	0
+12	II	II	I-NP	CD	I-protein	11	NMOD	0
+13	by	by	B-PP	IN	O	5	NMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	angiotensin-converting	angiotensin-converting	I-NP	JJ	B-protein	16	NMOD	0
+16	enzyme	enzyme	I-NP	NN	I-protein	21	NMOD	0
+17	(	(	O	(	O	19	DEP	0
+18	ACE	ACE	B-NP	NN	O	19	DEP	0
+19	)	)	O	)	O	16	NMOD	0
+20	inhibitor	inhibitor	B-NP	NN	O	21	NMOD	0
+21	enalapril	enalapril	I-NP	NN	O	27	NMOD	0
+22	or	or	O	CC	O	27	NMOD	0
+23	the	the	B-NP	DT	O	27	NMOD	0
+24	AT1	AT1	I-NP	NN	O	27	NMOD	0
+25	receptor	receptor	I-NP	NN	O	27	NMOD	0
+26	antagonist	antagonist	I-NP	NN	O	27	NMOD	0
+27	losartan	losartan	I-NP	NN	O	13	PMOD	0
+28	induced	induce	B-VP	VBD	O	3	SBAR	17	induced
+29	a	a	B-NP	DT	O	30	NMOD	0
+30	stimulation	stimulation	I-NP	NN	O	28	OBJ	17	stimulation
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	in	in	B-NP	FW	O	33	AMOD	0
+33	vivo	vivo	I-NP	FW	O	34	NMOD	0
+34	angiogenesis	angiogenesis	I-NP	NN	O	31	PMOD	3	angiogenesis
+35	implying	imply	B-VP	VBG	O	34	NMOD	0
+36	an	an	B-NP	DT	O	38	NMOD	0
+37	inhibitory	inhibitory	I-NP	JJ	O	38	NMOD	0
+38	function	function	I-NP	NN	O	35	OBJ	0
+39	of	of	B-PP	IN	O	38	NMOD	0
+40	ANG	ANG	B-NP	NN	B-protein	39	PMOD	0
+41	II	II	I-NP	CD	I-protein	40	NMOD	0
+42	through	through	B-PP	IN	O	35	VMOD	0
+43	the	the	B-NP	DT	O	45	NMOD	0
+44	AT1	AT1	I-NP	NN	B-protein	45	NMOD	0
+45	receptor	receptor	I-NP	NN	I-protein	42	PMOD	0
+46	.	.	O	.	O	2	P	0
+
+1	However	However	B-ADVP	RB	O	19	VMOD	0
+2	,	,	O	,	O	19	P	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	strong	strong	I-NP	JJ	O	5	NMOD	0
+5	increase	increase	I-NP	NN	O	19	SUB	17	increase
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	PMOD	3	angiogenesis
+8	in	in	B-PP	IN	O	5	NMOD	0
+9	AOGEN-transgenic	AOGEN-transgenic	B-NP	JJ	O	10	NMOD	0
+10	mice	mouse	I-NP	NNS	O	8	PMOD	0
+11	compared	compare	B-PP	VBN	O	5	NMOD	0
+12	with	with	B-PP	IN	O	11	PMOD	0
+13	mice	mouse	B-NP	NNS	O	12	PMOD	0
+14	with	with	B-PP	IN	O	13	NMOD	0
+15	normal	normal	B-NP	JJ	O	18	NMOD	0
+16	ANG	ANG	I-NP	NN	B-protein	18	NMOD	0
+17	II	II	B-NP	CD	I-protein	18	NMOD	0
+18	levels	level	I-NP	NNS	O	14	PMOD	0
+19	suggests	suggest	B-VP	VBZ	O	0	ROOT	0
+20	additional	additional	B-NP	JJ	O	22	NMOD	0
+21	stimulatory	stimulatory	I-NP	JJ	O	22	NMOD	0
+22	activity	activity	I-NP	NN	O	19	OBJ	0
+23	.	.	O	.	O	19	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	showed	show	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	the	the	B-NP	DT	O	7	NMOD	0
+5	ANG	ANG	I-NP	NN	O	7	NMOD	0
+6	II-induced	II-induced	I-NP	JJ	O	7	NMOD	17	induced
+7	stimulation	stimulation	I-NP	NN	O	10	SUB	17	stimulation
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	PMOD	3	angiogenesis
+10	is	be	B-VP	VBZ	O	3	SBAR	0
+11	linked	link	I-VP	VBN	O	10	VC	0
+12	to	to	B-PP	TO	O	11	VMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	AT2	AT2	I-NP	NN	B-protein	15	NMOD	0
+15	receptor	receptor	I-NP	NN	I-protein	12	PMOD	0
+16	as	as	B-PP	IN	O	11	VMOD	0
+17	an	an	B-NP	DT	O	19	NMOD	0
+18	impaired	impaired	I-NP	JJ	O	19	NMOD	18	impaired
+19	induction	induction	I-NP	NN	O	16	PMOD	17	induction
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	angiogenesis	angiogenesis	B-NP	NN	O	20	PMOD	3	angiogenesis
+22	was	be	B-VP	VBD	O	10	VMOD	0
+23	obtained	obtain	I-VP	VBN	O	22	VC	0
+24	in	in	B-PP	IN	O	23	VMOD	0
+25	AT2	AT2	B-NP	NN	O	28	NMOD	0
+26	receptor	receptor	I-NP	NN	O	28	NMOD	0
+27	knockout	knockout	I-NP	NN	O	28	NMOD	9	knockout
+28	mice	mouse	I-NP	NNS	O	24	PMOD	0
+29	.	.	O	.	O	2	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	findings	finding	I-NP	NNS	O	3	SUB	0
+3	provide	provide	B-VP	VBP	O	0	ROOT	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	first	first	I-NP	JJ	O	6	NMOD	0
+6	evidence	evidence	I-NP	NN	O	3	OBJ	0
+7	that	that	B-SBAR	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	AT2	AT2	I-NP	NN	B-protein	10	NMOD	0
+10	receptor	receptor	I-NP	NN	I-protein	11	SUB	0
+11	mediates	mediate	B-VP	VBZ	O	7	SBAR	16	mediates
+12	a	a	B-NP	DT	O	13	NMOD	0
+13	stimulation	stimulation	I-NP	NN	O	11	OBJ	17	stimulation
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	in	in	B-NP	FW	O	16	AMOD	0
+16	vivo	vivo	I-NP	FW	O	17	NMOD	0
+17	angiogenesis	angiogenesis	I-NP	NN	O	14	PMOD	3	angiogenesis
+18	and	and	O	CC	O	3	VMOD	0
+19	indicate	indicate	B-VP	VBP	O	3	VMOD	0
+20	that	that	B-SBAR	IN	O	19	VMOD	0
+21	ANG	ANG	B-NP	NN	B-protein	23	SUB	0
+22	II	II	I-NP	CD	I-protein	21	NMOD	0
+23	is	be	B-VP	VBZ	O	20	SBAR	0
+24	a	a	B-NP	DT	O	26	NMOD	0
+25	humoral	humoral	I-NP	JJ	O	26	NMOD	0
+26	regulator	regulator	I-NP	NN	O	23	PRD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	peripheral	peripheral	B-NP	JJ	O	29	NMOD	0
+29	angiogenesis	angiogenesis	I-NP	NN	O	27	PMOD	3	angiogenesis
+30	involving	involve	B-VP	VBG	O	29	NMOD	0
+31	two	two	B-NP	CD	O	33	NMOD	0
+32	receptor	receptor	I-NP	NN	O	33	NMOD	0
+33	subtypes	subtype	I-NP	NNS	O	30	OBJ	0
+34	with	with	B-PP	IN	O	33	NMOD	0
+35	opposing	oppose	B-NP	VBG	O	36	NMOD	0
+36	actions	action	I-NP	NNS	O	34	PMOD	0
+37	.	.	O	.	O	3	P	0
+

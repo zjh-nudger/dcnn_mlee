@@ -1,0 +1,242 @@
+1	Ectopic	Ectopic	B-NP	JJ	O	2	NMOD	-1
+2	localization	localization	I-NP	NN	O	9	NMOD	14	localization
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	mitochondrial	mitochondrial	B-NP	JJ	B-protein	6	NMOD	-1
+5	ATP	ATP	I-NP	NN	I-protein	6	NMOD	-1
+6	synthase	synthase	I-NP	NN	I-protein	3	PMOD	-1
+7	:	:	O	:	O	2	P	-1
+8	a	a	B-NP	DT	O	9	NMOD	-1
+9	target	target	I-NP	NN	O	0	ROOT	16	target
+10	for	for	B-PP	IN	O	9	NMOD	-1
+11	anti-angiogenesis	anti-angiogenesis	B-NP	JJ	O	12	NMOD	3	angiogenesis
+12	intervention	intervention	I-NP	NN	O	10	PMOD	18	intervention
+13	?	?	O	.	O	9	P	-1
+
+1	A	A	B-NP	DT	O	2	NMOD	-1
+2	receptor	receptor	I-NP	NN	O	5	SUB	-1
+3	for	for	B-PP	IN	O	2	NMOD	-1
+4	angiostatin	angiostatin	B-NP	NN	O	3	PMOD	-1
+5	was	be	B-VP	VBD	O	0	ROOT	-1
+6	identified	identify	I-VP	VBN	O	5	VC	14	identified
+7	on	on	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	surface	surface	I-NP	NN	O	7	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	-1
+13	as	as	B-PP	IN	O	6	VMOD	-1
+14	F	F	B-NP	NN	B-protein	23	NMOD	-1
+15	(	(	O	(	I-protein	23	NMOD	-1
+16	1	1	B-NP	CD	I-protein	23	NMOD	-1
+17	)	)	O	)	I-protein	23	NMOD	-1
+18	-F	-F	B-NP	NN	I-protein	23	NMOD	-1
+19	(	(	O	(	I-protein	23	NMOD	-1
+20	0	0	B-NP	CD	I-protein	23	NMOD	-1
+21	)	)	O	)	I-protein	23	NMOD	-1
+22	ATP	ATP	B-NP	NN	I-protein	23	NMOD	-1
+23	synthase	synthase	I-NP	NN	I-protein	13	PMOD	-1
+24	(	(	O	(	O	30	DEP	-1
+25	Moser	Moser	B-NP	NNP	O	29	NMOD	-1
+26	et	et	I-NP	FW	O	25	NMOD	-1
+27	al.	al.	I-NP	FW	O	25	NMOD	-1
+28	,	,	O	,	O	29	P	-1
+29	1999	1999	B-NP	CD	O	30	DEP	-1
+30	)	)	O	)	O	23	NMOD	-1
+31	.	.	O	.	O	5	P	-1
+
+1	Proc	Proc	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Natl	Natl	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Acad	Acad	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Sci	Sci	B-NP	NNS	B-protein	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	U.S.A	U.S.A	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	96	96	B-NP	CD	O	3	NMOD	-1
+2	,	,	I-NP	,	O	3	P	-1
+3	2811-2816	2811-2816	I-NP	CD	O	0	ROOT	-1
+4	.	.	O	.	O	3	P	-1
+
+1	This	This	B-NP	DT	O	4	NMOD	-1
+2	ectopic	ectopic	I-NP	JJ	B-protein	4	NMOD	-1
+3	ATP	ATP	I-NP	NN	I-protein	4	NMOD	-1
+4	synthase	synthase	I-NP	NN	I-protein	5	SUB	-1
+5	catalyzes	catalyze	B-VP	VBZ	O	0	ROOT	17	catalyzes
+6	ATP	ATP	B-NP	NN	O	7	NMOD	-1
+7	synthesis	synthesis	I-NP	NN	O	5	OBJ	8	synthesis
+8	and	and	O	CC	O	5	VMOD	-1
+9	is	be	B-VP	VBZ	O	5	VMOD	-1
+10	inhibited	inhibit	I-VP	VBN	O	9	VC	18	inhibited
+11	by	by	B-PP	IN	O	10	VMOD	-1
+12	angiostatin	angiostatin	B-NP	NN	O	11	PMOD	-1
+13	over	over	B-PP	IN	O	10	VMOD	-1
+14	a	a	B-NP	DT	O	17	NMOD	-1
+15	wide	wide	I-NP	JJ	O	17	NMOD	-1
+16	pH	pH	I-NP	NN	O	17	NMOD	-1
+17	range	range	I-NP	NN	O	13	PMOD	-1
+18	.	.	O	.	O	5	P	-1
+
+1	Endothelial	Endothelial	B-NP	JJ	B-cell_type	2	NMOD	-1
+2	cells	cell	I-NP	NNS	I-cell_type	7	SUB	-1
+3	grown	grow	B-VP	VBN	O	2	NMOD	1	grown
+4	at	at	B-PP	IN	O	3	VMOD	-1
+5	normal	normal	B-NP	JJ	O	6	NMOD	-1
+6	pH	pH	I-NP	NN	O	4	PMOD	-1
+7	suffer	suffer	B-VP	VBP	O	0	ROOT	-1
+8	no	no	B-NP	DT	O	10	NMOD	-1
+9	ill	ill	I-NP	JJ	O	10	NMOD	-1
+10	effects	effect	I-NP	NNS	O	7	OBJ	0
+11	from	from	B-PP	IN	O	10	NMOD	-1
+12	this	this	B-NP	DT	O	14	NMOD	-1
+13	angiostatin-mediated	angiostatin-mediated	I-NP	JJ	O	14	NMOD	-1
+14	inhibition	inhibition	I-NP	NN	O	11	PMOD	18	inhibition
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	ATP	ATP	B-NP	NN	B-protein	17	NMOD	-1
+17	synthase	synthase	I-NP	NN	I-protein	15	PMOD	-1
+18	,	,	O	,	O	7	P	-1
+19	whereas	whereas	O	IN	O	7	VMOD	-1
+20	endothelial	endothelial	B-NP	JJ	B-cell_type	21	NMOD	-1
+21	cells	cell	I-NP	NNS	I-cell_type	29	SUB	-1
+22	grown	grow	B-VP	VBN	O	21	NMOD	1	grown
+23	at	at	B-PP	IN	O	22	VMOD	-1
+24	low	low	B-NP	JJ	O	26	AMOD	-1
+25	,	,	I-NP	,	O	26	P	-1
+26	tumor-like	tumor-like	I-NP	JJ	O	28	NMOD	-1
+27	extracellular	extracellular	I-NP	JJ	O	28	NMOD	-1
+28	pH	pH	I-NP	NN	O	23	PMOD	-1
+29	can	can	B-VP	MD	O	19	SBAR	-1
+30	not	not	I-VP	RB	O	29	VMOD	-1
+31	maintain	maintain	I-VP	VB	O	29	VC	-1
+32	a	a	B-NP	DT	O	37	NMOD	-1
+33	normal	normal	I-NP	JJ	O	35	NMOD	-1
+34	intracellular	intracellular	I-NP	JJ	O	35	NMOD	-1
+35	pH	pH	I-NP	NN	O	37	NMOD	-1
+36	and	and	I-NP	CC	O	37	NMOD	-1
+37	die	die	I-NP	NN	O	31	OBJ	-1
+38	.	.	O	.	O	7	P	-1
+
+1	Angiostatin	Angiostatin	B-NP	NN	B-protein	2	SUB	-1
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	both	both	O	CC	O	8	NMOD	-1
+4	ATP	ATP	B-NP	NN	O	5	NMOD	-1
+5	synthesis	synthesis	I-NP	NN	O	8	NMOD	8	synthesis
+6	and	and	O	CC	O	8	NMOD	-1
+7	ATP	ATP	B-NP	NN	O	8	NMOD	-1
+8	hydrolysis	hydrolysis	I-NP	NN	O	2	OBJ	11	hydrolysis
+9	(	(	O	(	O	15	DEP	-1
+10	Moser	Moser	B-NP	NNP	O	14	NMOD	-1
+11	et	et	I-NP	FW	O	10	NMOD	-1
+12	al.	al.	I-NP	FW	O	10	NMOD	-1
+13	,	,	O	,	O	14	P	-1
+14	2001	2001	B-NP	CD	O	15	DEP	-1
+15	)	)	O	)	O	2	VMOD	-1
+16	and	and	O	CC	O	2	VMOD	-1
+17	interferes	interfere	B-VP	VBZ	O	2	VMOD	-1
+18	with	with	B-PP	IN	O	17	VMOD	-1
+19	intracellular	intracellular	B-NP	JJ	O	21	NMOD	-1
+20	pH	pH	I-NP	NN	O	21	NMOD	-1
+21	regulation	regulation	I-NP	NN	O	18	PMOD	0
+22	(	(	O	(	O	34	DEP	-1
+23	Wahl	Wahl	B-NP	NNP	O	25	NMOD	-1
+24	and	and	I-NP	CC	O	25	NMOD	-1
+25	Grant	Grant	I-NP	NNP	O	27	NMOD	-1
+26	,	,	O	,	O	27	P	-1
+27	2002	2002	B-NP	CD	O	33	NMOD	-1
+28	;	;	O	:	O	29	P	-1
+29	Wahl	Wahl	B-NP	NNP	O	33	NMOD	-1
+30	et	et	I-NP	FW	O	29	NMOD	-1
+31	al.	al.	I-NP	FW	O	29	NMOD	-1
+32	,	,	O	,	O	33	P	-1
+33	2002	2002	B-NP	CD	O	34	DEP	-1
+34	)	)	O	)	O	21	NMOD	-1
+35	.	.	O	.	O	2	P	-1
+
+1	Although	Although	B-SBAR	IN	O	0	ROOT	-1
+2	angiostatin	angiostatin	B-NP	NN	O	5	SUB	-1
+3	administered	administer	B-VP	VBN	O	2	NMOD	19	administered
+4	intravenously	intravenously	B-ADVP	RB	O	5	VMOD	-1
+5	is	be	B-VP	VBZ	O	1	SBAR	-1
+6	cleared	clear	I-VP	VBN	O	5	VC	-1
+7	from	from	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	circulation	circulation	I-NP	NN	O	7	PMOD	-1
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	a	a	B-NP	DT	O	12	NMOD	-1
+12	matter	matter	I-NP	NN	O	10	PMOD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	minutes	minute	B-NP	NNS	O	16	NMOD	-1
+15	,	,	O	,	O	16	P	-1
+16	angiostatin-mimetics	angiostatin-mimetic	B-NP	NNS	O	13	PMOD	-1
+17	that	that	B-NP	WDT	O	16	NMOD	-1
+18	are	be	B-VP	VBP	O	17	SBAR	-1
+19	more	more	B-ADJP	RBR	O	20	AMOD	-1
+20	stable	stable	I-ADJP	JJ	O	18	PRD	-1
+21	have	have	B-VP	VBP	O	1	DEP	-1
+22	potential	potential	B-NP	NN	O	21	OBJ	0
+23	for	for	B-PP	IN	O	22	NMOD	-1
+24	clinical	clinical	B-NP	JJ	O	25	NMOD	-1
+25	application	application	I-NP	NN	O	23	PMOD	0
+26	.	.	O	.	O	1	P	-1
+
+1	An	An	B-NP	DT	O	3	NMOD	-1
+2	angiostatin-mimetic	angiostatin-mimetic	I-NP	JJ	O	3	NMOD	-1
+3	activity	activity	I-NP	NN	O	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	-1
+5	recently	recently	I-VP	RB	O	4	VMOD	-1
+6	been	be	I-VP	VBN	O	4	VC	-1
+7	observed	observe	I-VP	VBN	O	6	VC	0
+8	using	use	B-VP	VBG	O	4	VMOD	-1
+9	a	a	B-NP	DT	O	11	NMOD	-1
+10	polyclonal	polyclonal	I-NP	JJ	O	11	NMOD	-1
+11	antibody	antibody	I-NP	NN	O	8	OBJ	-1
+12	against	against	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	16	NMOD	-1
+14	beta	beta	I-NP	NN	B-protein	16	NMOD	-1
+15	catalytic	catalytic	I-NP	JJ	I-protein	16	NMOD	-1
+16	subunit	subunit	I-NP	NN	I-protein	12	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	ATP	ATP	B-NP	NN	B-protein	19	NMOD	-1
+19	synthase	synthase	I-NP	NN	I-protein	17	PMOD	-1
+20	.	.	O	.	O	4	P	-1
+
+1	In	In	B-SBAR	IN	O	17	VMOD	-1
+2	order	order	O	NN	O	1	DEP	-1
+3	to	to	B-VP	TO	O	4	VMOD	-1
+4	explore	explore	I-VP	VB	O	1	SBAR	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	mechanism	mechanism	I-NP	NN	O	4	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	action	action	B-NP	NN	O	7	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	angiostatin	angiostatin	B-NP	NN	B-protein	9	PMOD	-1
+11	and	and	O	CC	O	4	VMOD	-1
+12	its	its	B-NP	PRP$	O	13	NMOD	-1
+13	mimetics	mimetic	I-NP	NNS	O	4	OBJ	-1
+14	,	,	O	,	O	17	P	-1
+15	further	further	B-NP	JJ	O	16	NMOD	-1
+16	work	work	I-NP	NN	O	17	SUB	-1
+17	needs	need	B-VP	VBZ	O	0	ROOT	-1
+18	to	to	I-VP	TO	O	19	VMOD	-1
+19	be	be	I-VP	VB	O	17	VMOD	-1
+20	done	do	I-VP	VBN	O	19	VC	-1
+21	to	to	B-VP	TO	O	22	VMOD	-1
+22	evaluate	evaluate	I-VP	VB	O	20	VMOD	-1
+23	clinical	clinical	B-NP	JJ	O	24	NMOD	-1
+24	applicability	applicability	I-NP	NN	O	29	NMOD	-1
+25	,	,	O	,	O	29	P	-1
+26	specificity	specificity	B-NP	NN	O	29	NMOD	-1
+27	,	,	O	,	O	29	P	-1
+28	and	and	O	CC	O	29	NMOD	-1
+29	contraindications	contraindication	B-NP	NNS	O	22	OBJ	-1
+30	for	for	B-PP	IN	O	29	NMOD	-1
+31	this	this	B-NP	DT	O	32	NMOD	-1
+32	class	class	I-NP	NN	O	30	PMOD	-1
+33	of	of	B-PP	IN	O	32	NMOD	-1
+34	therapeutics	therapeutic	B-NP	NNS	O	33	PMOD	-1

@@ -1,0 +1,371 @@
+1	Tumor	Tumor	B-NP	NN	O	2	NMOD	-1
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	modulates	modulate	B-VP	VBZ	O	0	ROOT	16	modulates
+4	leukocyte-vessel	leukocyte-vessel	B-NP	JJ	O	6	NMOD	-1
+5	wall	wall	I-NP	NN	O	6	NMOD	-1
+6	interactions	interaction	I-NP	NNS	O	3	OBJ	15	interactions
+7	in	in	B-ADVP	FW	O	3	VMOD	-1
+8	vivo	vivo	I-ADVP	FW	O	7	AMOD	-1
+9	by	by	B-PP	IN	O	3	VMOD	-1
+10	reducing	reduce	B-VP	VBG	O	9	PMOD	18	reducing
+11	endothelial	endothelial	B-NP	JJ	B-protein	14	NMOD	-1
+12	adhesion	adhesion	I-NP	NN	I-protein	14	NMOD	0
+13	molecule	molecule	I-NP	NN	I-protein	14	NMOD	-1
+14	expression	expression	I-NP	NN	O	10	OBJ	9	expression
+15	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	expression	expression	I-NP	NN	O	16	SUB	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	endothelial	endothelial	B-NP	JJ	B-protein	10	NMOD	-1
+5	cell	cell	I-NP	NN	I-protein	10	NMOD	-1
+6	(	(	O	(	I-protein	10	NMOD	-1
+7	EC	EC	B-NP	NN	I-protein	10	NMOD	-1
+8	)	)	O	)	I-protein	10	NMOD	-1
+9	adhesion	adhesion	B-NP	NN	I-protein	10	NMOD	0
+10	molecules	molecule	I-NP	NNS	I-protein	3	PMOD	-1
+11	involved	involve	B-VP	VBN	O	10	NMOD	16	involved
+12	in	in	B-PP	IN	O	11	VMOD	-1
+13	leukocyte-vessel	leukocyte-vessel	B-NP	JJ	O	15	NMOD	-1
+14	wall	wall	I-NP	NN	O	15	NMOD	-1
+15	interactions	interaction	I-NP	NNS	O	12	PMOD	15	interactions
+16	is	be	B-VP	VBZ	O	0	ROOT	-1
+17	suppressed	suppress	I-VP	VBN	O	16	VC	0
+18	in	in	B-PP	IN	O	17	VMOD	-1
+19	malignancies	malignancy	B-NP	NNS	O	18	PMOD	-1
+20	.	.	O	.	O	16	P	-1
+
+1	In	In	B-PP	IN	O	7	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	present	present	I-NP	JJ	O	4	NMOD	0
+4	study	study	I-NP	NN	O	1	PMOD	-1
+5	,	,	O	,	O	7	P	-1
+6	we	we	B-NP	PRP	O	7	SUB	-1
+7	investigated	investigate	B-VP	VBD	O	0	ROOT	-1
+8	in	in	B-ADVP	FW	O	7	VMOD	-1
+9	vivo	vivo	I-ADVP	FW	O	8	AMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	regulation	regulation	I-NP	NN	O	7	OBJ	16	regulation
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	leukocyte-vessel	leukocyte-vessel	B-NP	JJ	O	15	NMOD	-1
+14	wall	wall	I-NP	NN	O	15	NMOD	-1
+15	interactions	interaction	I-NP	NNS	O	12	PMOD	15	interactions
+16	by	by	B-PP	IN	O	11	NMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	presence	presence	I-NP	NN	O	16	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	a	a	B-NP	DT	O	21	NMOD	-1
+21	tumor	tumor	I-NP	NN	O	19	PMOD	-1
+22	.	.	O	.	O	7	P	-1
+
+1	By	By	B-PP	IN	O	14	VMOD	-1
+2	means	mean	B-NP	NNS	O	1	PMOD	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	intravital	intravital	B-NP	JJ	O	5	NMOD	-1
+5	microscopy	microscopy	I-NP	NN	O	13	NMOD	-1
+6	,	,	O	,	O	13	P	-1
+7	tumor	tumor	B-NP	NN	B-protein	9	AMOD	-1
+8	necrosis	necrosis	I-NP	NN	I-protein	9	AMOD	0
+9	factor	factor	I-NP	NN	I-protein	13	NMOD	-1
+10	alpha-stimulated	alpha-stimulated	I-NP	JJ	O	13	NMOD	17	stimulated
+11	leukocyte-vessel	leukocyte-vessel	I-NP	JJ	O	13	NMOD	-1
+12	wall	wall	I-NP	NN	O	13	NMOD	-1
+13	interactions	interaction	I-NP	NNS	O	3	PMOD	15	interactions
+14	were	be	B-VP	VBD	O	0	ROOT	-1
+15	studied	study	I-VP	VBN	O	14	VC	-1
+16	in	in	B-PP	IN	O	15	VMOD	-1
+17	ear	ear	B-NP	JJ	O	19	NMOD	-1
+18	skin	skin	I-NP	NN	O	19	NMOD	-1
+19	microvessels	microvessel	I-NP	NNS	O	16	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	nude	nude	B-NP	JJ	O	22	NMOD	-1
+22	mice	mouse	I-NP	NNS	O	20	PMOD	-1
+23	bearing	bear	B-VP	VBG	O	22	NMOD	-1
+24	small	small	B-NP	JJ	O	28	NMOD	-1
+25	human	human	I-NP	JJ	O	28	NMOD	-1
+26	LS174T	LS174T	I-NP	NN	O	28	NMOD	-1
+27	colon	colon	I-NP	NN	O	28	NMOD	-1
+28	carcinomas	carcinoma	I-NP	NNS	O	23	OBJ	-1
+29	and	and	B-PP	CC	O	16	PMOD	-1
+30	in	in	B-PP	IN	O	16	PMOD	-1
+31	C57Bl/6	C57Bl/6	B-NP	NN	O	32	NMOD	-1
+32	mice	mouse	I-NP	NNS	O	30	PMOD	-1
+33	bearing	bear	B-VP	VBG	O	32	NMOD	-1
+34	murine	murine	B-NP	JJ	O	36	NMOD	-1
+35	B16F10	B16F10	I-NP	NN	O	36	NMOD	-1
+36	melanomas	melanoma	I-NP	NNS	O	33	OBJ	-1
+37	.	.	O	.	O	14	P	-1
+
+1	Leukocyte-vessel	Leukocyte-vessel	B-NP	JJ	O	3	NMOD	-1
+2	wall	wall	I-NP	NN	O	3	NMOD	-1
+3	interactions	interaction	I-NP	NNS	O	4	SUB	15	interactions
+4	were	be	B-VP	VBD	O	0	ROOT	-1
+5	studied	study	I-VP	VBN	O	4	VC	-1
+6	both	both	O	CC	O	5	VMOD	-1
+7	within	within	B-PP	IN	O	6	PMOD	-1
+8	and	and	I-PP	CC	O	6	PMOD	-1
+9	outside	outside	I-PP	IN	O	6	DEP	-1
+10	small	small	B-NP	JJ	O	11	NMOD	-1
+11	tumors	tumor	I-NP	NNS	O	9	PMOD	-1
+12	growing	grow	B-VP	VBG	O	11	NMOD	4	growing
+13	in	in	B-PP	IN	O	12	VMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	ear	ear	I-NP	NN	O	13	PMOD	-1
+16	,	,	O	,	O	4	P	-1
+17	and	and	O	CC	O	16	VMOD	-1
+18	in	in	B-PP	IN	O	17	PRD	-1
+19	ear	ear	B-NP	JJ	O	20	NMOD	-1
+20	microvessels	microvessel	I-NP	NNS	O	18	PMOD	-1
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	mice	mouse	B-NP	NNS	O	21	PMOD	-1
+23	with	with	B-PP	IN	O	18	PMOD	-1
+24	a	a	B-NP	DT	O	26	NMOD	-1
+25	large	large	I-NP	JJ	O	26	NMOD	-1
+26	tumor	tumor	I-NP	NN	O	23	PMOD	-1
+27	growing	grow	B-VP	VBG	O	26	NMOD	4	growing
+28	on	on	B-PP	IN	O	27	VMOD	-1
+29	their	their	B-NP	PRP$	O	30	NMOD	-1
+30	flank	flank	I-NP	NN	O	28	PMOD	-1
+31	.	.	O	.	O	4	P	-1
+
+1	Tumor-free	Tumor-free	B-NP	JJ	O	2	NMOD	-1
+2	mice	mouse	I-NP	NNS	O	3	SUB	-1
+3	were	be	B-VP	VBD	O	0	ROOT	-1
+4	used	use	I-VP	VBN	O	3	VC	0
+5	as	as	B-PP	IN	O	4	VMOD	-1
+6	controls	control	B-NP	NNS	O	5	PMOD	0
+7	.	.	O	.	O	3	P	-1
+
+1	Compared	Compare	B-PP	VBN	O	19	VMOD	-1
+2	with	with	B-PP	IN	O	1	VMOD	-1
+3	values	value	B-NP	NNS	O	2	PMOD	-1
+4	measured	measure	B-VP	VBN	O	3	NMOD	-1
+5	at	at	B-PP	IN	O	4	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	edge	edge	I-NP	NN	O	5	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	ear	ear	I-NP	NN	O	8	PMOD	-1
+11	and	and	B-PP	CC	O	5	PMOD	-1
+12	in	in	B-PP	IN	O	5	PMOD	-1
+13	the	the	B-NP	DT	O	15	NMOD	-1
+14	contralateral	contralateral	I-NP	JJ	O	15	NMOD	-1
+15	ear	ear	I-NP	NN	O	12	PMOD	-1
+16	,	,	O	,	O	19	P	-1
+17	leukocyte	leukocyte	B-NP	NN	O	18	NMOD	-1
+18	adhesion	adhesion	I-NP	NN	O	19	SUB	15	adhesion
+19	was	be	B-VP	VBD	O	0	ROOT	-1
+20	found	find	I-VP	VBN	O	19	VC	0
+21	to	to	I-VP	TO	O	22	VMOD	-1
+22	be	be	I-VP	VB	O	20	VMOD	-1
+23	diminished	diminish	I-VP	VBN	O	22	VC	18	diminished
+24	significantly	significantly	B-ADVP	RB	O	23	VMOD	-1
+25	in	in	B-PP	IN	O	23	VMOD	-1
+26	vessels	vessel	B-NP	NNS	O	25	PMOD	-1
+27	inside	inside	B-PP	IN	O	23	VMOD	-1
+28	the	the	B-NP	DT	O	30	NMOD	-1
+29	ear	ear	I-NP	JJ	O	30	NMOD	-1
+30	tumor	tumor	I-NP	NN	O	27	PMOD	-1
+31	in	in	B-PP	IN	O	30	NMOD	-1
+32	both	both	B-NP	DT	O	34	NMOD	-1
+33	mouse	mouse	I-NP	NN	O	34	NMOD	-1
+34	models	model	I-NP	NNS	O	31	PMOD	-1
+35	.	.	O	.	O	19	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	reduction	reduction	I-NP	NN	O	3	SUB	18	reduction
+3	disappeared	disappear	B-VP	VBD	O	0	ROOT	-1
+4	with	with	B-PP	IN	O	3	VMOD	-1
+5	increasing	increase	B-NP	VBG	O	6	NMOD	0
+6	distance	distance	I-NP	NN	O	4	PMOD	-1
+7	from	from	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	tumor	tumor	I-NP	NN	O	7	PMOD	-1
+10	.	.	O	.	O	3	P	-1
+
+1	Surprisingly	Surprisingly	B-ADVP	RB	O	18	VMOD	-1
+2	,	,	O	,	O	18	P	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	level	level	I-NP	NN	O	18	SUB	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	leukocyte	leukocyte	B-NP	NN	O	7	NMOD	-1
+7	adhesion	adhesion	I-NP	NN	O	5	PMOD	15	adhesion
+8	in	in	B-PP	IN	O	4	NMOD	-1
+9	ear	ear	B-NP	JJ	O	10	NMOD	-1
+10	venules	venule	I-NP	NNS	O	8	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	mice	mouse	B-NP	NNS	O	11	PMOD	-1
+13	with	with	B-PP	IN	O	4	NMOD	-1
+14	a	a	B-NP	DT	O	17	NMOD	-1
+15	large	large	I-NP	JJ	O	17	NMOD	-1
+16	flank	flank	I-NP	JJ	O	17	NMOD	-1
+17	tumor	tumor	I-NP	NN	O	13	PMOD	-1
+18	was	be	B-VP	VBD	O	0	ROOT	-1
+19	also	also	I-VP	RB	O	18	VMOD	-1
+20	reduced	reduce	I-VP	VBN	O	18	VC	18	reduced
+21	significantly	significantly	B-ADVP	RB	O	20	VMOD	-1
+22	.	.	O	.	O	18	P	-1
+
+1	Leukocyte	Leukocyte	B-NP	NN	O	2	NMOD	-1
+2	rolling	rolling	I-NP	NN	O	11	SUB	-1
+3	,	,	O	,	O	11	P	-1
+4	i.e.	i.e.	B-NP	FW	O	11	VMOD	-1
+5	,	,	O	,	O	11	P	-1
+6	the	the	B-NP	DT	O	11	SUB	-1
+7	step	step	I-NP	NN	O	11	VMOD	-1
+8	preceding	precede	B-VP	VBG	O	7	NMOD	-1
+9	adhesion	adhesion	B-NP	NN	O	8	OBJ	0
+10	,	,	O	,	O	11	P	-1
+11	was	be	B-VP	VBD	O	0	ROOT	-1
+12	not	not	I-VP	RB	O	11	VMOD	-1
+13	influenced	influence	I-VP	VBN	O	11	VC	-1
+14	by	by	B-PP	IN	O	13	VMOD	-1
+15	the	the	B-NP	DT	O	16	NMOD	-1
+16	presence	presence	I-NP	NN	O	14	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	a	a	B-NP	DT	O	19	NMOD	-1
+19	tumor	tumor	I-NP	NN	O	17	PMOD	-1
+20	in	in	B-PP	IN	O	16	NMOD	-1
+21	nude	nude	B-NP	JJ	O	22	NMOD	-1
+22	mice	mouse	I-NP	NNS	O	20	PMOD	-1
+23	,	,	O	,	O	11	P	-1
+24	but	but	O	CC	O	11	VMOD	-1
+25	was	be	B-VP	VBD	O	11	VMOD	-1
+26	down-regulated	down-regulate	I-VP	VBN	O	25	VC	0
+27	in	in	B-PP	IN	O	26	VMOD	-1
+28	immune-competent	immune-competent	B-NP	JJ	O	30	NMOD	-1
+29	C57Bl/6	C57Bl/6	I-NP	NN	O	30	NMOD	-1
+30	mice	mouse	I-NP	NNS	O	27	PMOD	-1
+31	.	.	O	.	O	11	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	17	SUB	19	Treatment
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	mice	mouse	B-NP	NNS	O	2	PMOD	-1
+4	bearing	bear	B-VP	VBG	O	3	NMOD	-1
+5	a	a	B-NP	DT	O	8	NMOD	-1
+6	small	small	I-NP	JJ	O	8	NMOD	-1
+7	ear	ear	I-NP	JJ	O	8	NMOD	-1
+8	tumor	tumor	I-NP	NN	O	4	OBJ	-1
+9	with	with	B-PP	IN	O	4	VMOD	-1
+10	a	a	B-NP	DT	O	16	NMOD	-1
+11	humanized	humanized	I-NP	JJ	B-protein	16	NMOD	-1
+12	antivascular	antivascular	I-NP	JJ	I-protein	16	NMOD	-1
+13	endothelial	endothelial	I-NP	JJ	I-protein	16	NMOD	-1
+14	growth	growth	I-NP	NN	I-protein	16	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	16	NMOD	-1
+16	antibody	antibody	I-NP	NN	I-protein	9	PMOD	-1
+17	prevented	prevent	B-VP	VBD	O	0	ROOT	18	prevented
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	down-regulation	down-regulation	I-NP	NN	O	17	OBJ	18	down-regulation
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	leukocyte-vessel	leukocyte-vessel	B-NP	JJ	O	23	NMOD	-1
+22	wall	wall	I-NP	NN	O	23	NMOD	-1
+23	interactions	interaction	I-NP	NNS	O	20	PMOD	15	interactions
+24	inside	inside	B-PP	IN	O	19	NMOD	-1
+25	the	the	B-NP	DT	O	27	NMOD	-1
+26	tumor	tumor	I-NP	NN	O	27	NMOD	-1
+27	vessels	vessel	I-NP	NNS	O	24	PMOD	-1
+28	compared	compare	B-PP	VBN	O	17	VMOD	-1
+29	with	with	B-PP	IN	O	28	PMOD	-1
+30	the	the	B-NP	DT	O	32	NMOD	-1
+31	nontreated	nontreated	I-NP	JJ	O	32	NMOD	19	nontreated
+32	group	group	I-NP	NN	O	29	PMOD	-1
+33	.	.	O	.	O	17	P	-1
+
+1	Fluorescence-activated	Fluorescence-activated	B-NP	JJ	O	4	NMOD	17	activated
+2	cell	cell	I-NP	NN	O	4	NMOD	-1
+3	sorter	sorter	I-NP	NN	O	4	NMOD	-1
+4	analysis	analysis	I-NP	NN	O	5	SUB	-1
+5	showed	show	B-VP	VBD	O	0	ROOT	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	isolated	isolate	B-NP	VBN	O	9	NMOD	0
+8	tumor	tumor	I-NP	NN	O	9	NMOD	-1
+9	ECs	EC	I-NP	NNS	B-cell_type	10	SUB	-1
+10	have	have	B-VP	VBP	O	6	SBAR	-1
+11	suppressed	suppress	I-VP	VBN	O	10	VC	18	suppressed
+12	levels	level	B-NP	NNS	O	11	OBJ	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	intercellular	intercellular	B-NP	JJ	B-protein	16	NMOD	-1
+15	adhesion	adhesion	I-NP	NN	I-protein	16	NMOD	0
+16	molecule	molecule	I-NP	NN	I-protein	13	PMOD	-1
+17	1	1	I-NP	CD	I-protein	16	NMOD	-1
+18	as	as	B-SBAR	IN	O	11	VMOD	-1
+19	compared	compare	B-PP	VBN	O	18	SBAR	-1
+20	with	with	B-PP	IN	O	19	VMOD	-1
+21	ECs	EC	B-NP	NNS	B-cell_type	20	PMOD	-1
+22	from	from	B-PP	IN	O	21	NMOD	-1
+23	normal	normal	B-NP	JJ	O	25	NMOD	-1
+24	mouse	mouse	I-NP	NN	O	25	NMOD	-1
+25	tissues	tissue	I-NP	NNS	O	22	PMOD	-1
+26	.	.	O	.	O	5	P	-1
+
+1	In	In	B-PP	IN	O	22	VMOD	-1
+2	cultured	culture	B-NP	VBN	B-cell_line	4	NMOD	0
+3	b.END5	b.END5	I-NP	NN	I-cell_line	4	NMOD	-1
+4	cells	cell	I-NP	NNS	I-cell_line	1	PMOD	-1
+5	the	the	B-NP	DT	O	10	NMOD	-1
+6	tumor	tumor	I-NP	NN	B-protein	10	NMOD	-1
+7	necrosis	necrosis	I-NP	NN	I-protein	10	NMOD	0
+8	factor	factor	I-NP	NN	I-protein	10	NMOD	-1
+9	alpha-induced	alpha-induced	I-NP	JJ	O	10	NMOD	17	induced
+10	up-regulation	up-regulation	I-NP	NN	O	22	SUB	17	up-regulation
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	intercellular	intercellular	B-NP	JJ	B-protein	14	NMOD	-1
+13	adhesion	adhesion	I-NP	NN	I-protein	14	NMOD	0
+14	molecule	molecule	I-NP	NN	I-protein	20	NMOD	-1
+15	1	1	I-NP	CD	I-protein	14	NMOD	-1
+16	and	and	O	CC	O	20	NMOD	-1
+17	vascular	vascular	B-NP	JJ	B-protein	20	NMOD	-1
+18	cell	cell	I-NP	NN	I-protein	20	NMOD	-1
+19	adhesion	adhesion	I-NP	NN	I-protein	20	NMOD	0
+20	molecule	molecule	I-NP	NN	I-protein	11	PMOD	-1
+21	1	1	I-NP	CD	I-protein	20	NMOD	-1
+22	was	be	B-VP	VBD	O	0	ROOT	-1
+23	reduced	reduce	I-VP	VBN	O	22	VC	18	reduced
+24	in	in	B-PP	IN	O	23	VMOD	-1
+25	ECs	EC	B-NP	NNS	B-cell_type	24	PMOD	-1
+26	that	that	B-NP	WDT	O	25	NMOD	-1
+27	were	be	B-VP	VBD	O	26	SBAR	-1
+28	preincubated	preincubate	I-VP	VBN	O	27	VC	19	preincubated
+29	with	with	B-PP	IN	O	28	VMOD	-1
+30	basic	basic	B-NP	JJ	B-protein	33	NMOD	-1
+31	fibroblast	fibroblast	I-NP	NN	I-protein	33	NMOD	-1
+32	growth	growth	I-NP	NN	I-protein	33	NMOD	0
+33	factor	factor	I-NP	NN	I-protein	38	NMOD	-1
+34	or	or	O	CC	O	38	NMOD	-1
+35	vascular	vascular	B-NP	JJ	B-protein	38	NMOD	-1
+36	endothelial	endothelial	I-NP	JJ	I-protein	38	NMOD	-1
+37	growth	growth	I-NP	NN	I-protein	38	NMOD	0
+38	factor	factor	I-NP	NN	I-protein	29	PMOD	-1
+39	.	.	O	.	O	22	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	current	current	I-NP	JJ	O	3	NMOD	-1
+3	results	result	I-NP	NNS	O	4	SUB	0
+4	may	may	B-VP	MD	O	0	ROOT	-1
+5	have	have	I-VP	VB	O	4	VC	-1
+6	an	an	B-NP	DT	O	7	NMOD	-1
+7	impact	impact	I-NP	NN	O	5	OBJ	0
+8	on	on	B-PP	IN	O	5	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	effectiveness	effectiveness	I-NP	NN	O	8	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	clinical	clinical	B-NP	JJ	O	13	AMOD	-1
+13	immunotherapeutic	immunotherapeutic	I-NP	JJ	O	15	NMOD	-1
+14	treatment	treatment	I-NP	NN	O	15	NMOD	0
+15	protocols	protocol	I-NP	NNS	O	11	PMOD	-1
+16	,	,	O	,	O	4	P	-1
+17	because	because	B-SBAR	IN	O	4	VMOD	-1
+18	immune	immune	B-NP	JJ	B-cell_type	20	NMOD	-1
+19	effector	effector	I-NP	NN	I-cell_type	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_type	21	SUB	-1
+21	may	may	B-VP	MD	O	17	SBAR	-1
+22	not	not	I-VP	RB	O	21	VMOD	-1
+23	be	be	I-VP	VB	O	21	VC	-1
+24	able	able	B-ADJP	JJ	O	23	PRD	-1
+25	to	to	B-VP	TO	O	26	VMOD	-1
+26	enter	enter	I-VP	VB	O	24	AMOD	14	enter
+27	tumor	tumor	B-NP	NN	O	28	NMOD	-1
+28	tissue	tissue	I-NP	NN	O	26	OBJ	-1
+29	.	.	O	.	O	4	P	-1
+

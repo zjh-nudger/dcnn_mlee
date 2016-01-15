@@ -1,0 +1,316 @@
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	role	role	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	organ	organ	B-NP	NN	O	5	NMOD	0
+5	vascularization	vascularization	I-NP	NN	O	9	NMOD	3	vascularization
+6	and	and	O	CC	O	9	NMOD	0
+7	lipoplex-serum	lipoplex-serum	B-NP	NN	O	9	NMOD	0
+8	initial	initial	I-NP	JJ	O	9	NMOD	0
+9	contact	contact	I-NP	NN	O	3	PMOD	0
+10	in	in	B-PP	IN	O	2	NMOD	0
+11	intravenous	intravenous	B-NP	JJ	O	13	NMOD	0
+12	murine	murine	I-NP	JJ	O	13	NMOD	0
+13	lipofection	lipofection	I-NP	NN	O	10	PMOD	19	lipofection
+14	.	.	O	.	O	2	P	0
+
+1	Following	Follow	B-VP	VBG	O	18	VMOD	0
+2	intravenous	intravenous	B-NP	JJ	O	3	NMOD	0
+3	administration	administration	I-NP	NN	O	1	OBJ	19	administration
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	cationic	cationic	B-NP	JJ	B-protein	7	NMOD	0
+6	lipid-DNA	lipid-DNA	I-NP	NN	I-protein	7	NMOD	0
+7	complexes	complex	I-NP	NNS	I-protein	4	PMOD	0
+8	(	(	O	(	O	10	DEP	0
+9	lipoplexes	lipoplex	B-NP	NNS	O	10	DEP	0
+10	)	)	O	)	O	7	NMOD	0
+11	into	into	B-PP	IN	O	1	VMOD	0
+12	mice	mouse	B-NP	NNS	O	11	PMOD	0
+13	,	,	O	,	O	18	P	0
+14	transfection	transfection	B-NP	NN	O	18	SUB	0
+15	(	(	O	(	O	17	DEP	0
+16	lipofection	lipofection	B-NP	NN	O	17	DEP	0
+17	)	)	O	)	O	14	NMOD	0
+18	occurs	occur	B-VP	VBZ	O	0	ROOT	0
+19	predominantly	predominantly	B-ADVP	RB	O	18	VMOD	0
+20	in	in	B-PP	IN	O	18	VMOD	0
+21	the	the	B-NP	DT	O	22	NMOD	0
+22	lungs	lung	I-NP	NNS	O	20	PMOD	0
+23	.	.	O	.	O	18	P	0
+
+1	This	This	B-NP	DT	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	attributed	attribute	I-VP	VBN	O	2	VC	0
+4	to	to	B-PP	TO	O	3	VMOD	0
+5	high	high	B-NP	JJ	O	6	NMOD	0
+6	entrapment	entrapment	I-NP	NN	O	4	PMOD	14	entrapment
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	lipoplexes	lipoplex	B-NP	NNS	O	7	PMOD	0
+9	in	in	B-PP	IN	O	6	NMOD	0
+10	the	the	B-NP	DT	O	14	NMOD	0
+11	extended	extend	I-NP	VBN	O	14	NMOD	0
+12	lung	lung	I-NP	NN	O	14	NMOD	0
+13	vascular	vascular	I-NP	JJ	O	14	NMOD	0
+14	tree	tree	I-NP	NN	O	9	PMOD	0
+15	.	.	O	.	O	2	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	determine	determine	I-VP	VB	O	19	VMOD	0
+3	whether	whether	B-SBAR	IN	O	2	VMOD	0
+4	lipofection	lipofection	B-NP	NN	O	8	SUB	19	lipofection
+5	in	in	B-PP	IN	O	4	NMOD	0
+6	other	other	B-NP	JJ	O	7	NMOD	0
+7	organs	organ	I-NP	NNS	O	5	PMOD	0
+8	could	could	B-VP	MD	O	3	SBAR	0
+9	be	be	I-VP	VB	O	8	VC	0
+10	enhanced	enhance	I-VP	VBN	O	9	VC	17	enhanced
+11	by	by	B-PP	IN	O	10	VMOD	0
+12	increasing	increase	B-VP	VBG	O	11	PMOD	17	increasing
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	degree	degree	I-NP	NN	O	12	OBJ	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	vascularization	vascularization	B-NP	NN	O	15	PMOD	3	vascularization
+17	,	,	O	,	O	19	P	0
+18	we	we	B-NP	PRP	O	19	SUB	0
+19	used	use	B-VP	VBD	O	0	ROOT	0
+20	a	a	B-NP	DT	O	23	NMOD	0
+21	transgenic	transgenic	I-NP	JJ	O	23	NMOD	0
+22	mouse	mouse	I-NP	NN	O	23	NMOD	0
+23	model	model	I-NP	NN	O	19	OBJ	0
+24	with	with	B-PP	IN	O	23	NMOD	0
+25	tissue-specific	tissue-specific	B-NP	JJ	O	26	NMOD	0
+26	angiogenesis	angiogenesis	I-NP	NN	O	24	PMOD	3	angiogenesis
+27	in	in	B-PP	IN	O	26	NMOD	0
+28	liver	liver	B-NP	NN	O	27	PMOD	0
+29	.	.	O	.	O	19	P	0
+
+1	Tail	Tail	B-NP	NN	O	3	NMOD	0
+2	vein	vein	I-NP	NN	O	3	NMOD	0
+3	injection	injection	I-NP	NN	O	26	SUB	19	injection
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	N-	N-	B-NP	NN	O	15	NMOD	0
+6	(	(	O	(	O	14	DEP	0
+7	1-	1-	B-NP	CD	O	14	DEP	0
+8	(	(	O	(	O	14	DEP	0
+9	2	2	B-NP	CD	O	13	NMOD	0
+10	,	,	O	,	O	13	P	0
+11	3-dioleoyloxy	3-dioleoyloxy	B-ADJP	JJ	O	13	NMOD	0
+12	)	)	O	)	O	13	NMOD	0
+13	propyl	propyl	B-NP	NN	O	14	DEP	0
+14	)	)	O	)	O	5	NMOD	0
+15	-N	-N	B-NP	NN	O	25	NMOD	0
+16	,	,	O	,	O	25	P	0
+17	N	N	B-NP	NN	O	25	NMOD	0
+18	,	,	O	,	O	25	P	0
+19	N-trimethylammonium	N-trimethylammonium	B-NP	NN	B-protein	25	NMOD	0
+20	chloride	chloride	I-NP	NN	I-protein	25	NMOD	0
+21	(	(	O	(	I-protein	25	NMOD	0
+22	DOTAP	DOTAP	B-NP	NN	I-protein	25	NMOD	0
+23	)	)	O	)	I-protein	25	NMOD	0
+24	/cholesterol	/cholesterol	B-NP	NN	I-protein	25	NMOD	0
+25	lipoplexes	lipoplex	I-NP	NNS	I-protein	4	PMOD	0
+26	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+27	in	in	B-PP	IN	O	26	VMOD	0
+28	increased	increase	B-NP	VBN	O	30	NMOD	17	increased
+29	lipoplex	lipoplex	I-NP	NN	O	30	NMOD	0
+30	entrapment	entrapment	I-NP	NN	O	27	PMOD	14	entrapment
+31	in	in	B-PP	IN	O	30	NMOD	0
+32	hypervascularized	hypervascularize	B-NP	VBN	O	33	NMOD	0
+33	liver	liver	I-NP	NN	O	31	PMOD	0
+34	but	but	O	CC	O	26	VMOD	0
+35	did	do	B-VP	VBD	O	26	VMOD	0
+36	not	not	I-VP	RB	O	35	VMOD	0
+37	boost	boost	I-VP	VB	O	35	VC	17	boost
+38	luciferase	luciferase	B-NP	NN	B-protein	39	NMOD	0
+39	expression	expression	I-NP	NN	O	37	OBJ	9	expression
+40	,	,	O	,	O	26	P	0
+41	suggesting	suggest	B-VP	VBG	O	26	VMOD	0
+42	that	that	B-SBAR	IN	O	41	VMOD	0
+43	lipoplex	lipoplex	B-NP	NN	O	44	NMOD	0
+44	delivery	delivery	I-NP	NN	O	45	SUB	14	delivery
+45	is	be	B-VP	VBZ	O	42	SBAR	0
+46	not	not	O	RB	O	45	VMOD	0
+47	a	a	B-NP	DT	O	49	NMOD	0
+48	sufficient	sufficient	I-NP	JJ	O	49	NMOD	17	sufficient
+49	condition	condition	I-NP	NN	O	45	PRD	0
+50	for	for	B-PP	IN	O	49	NMOD	0
+51	efficient	efficient	B-NP	JJ	O	53	NMOD	0
+52	organ	organ	I-NP	NN	O	53	NMOD	0
+53	lipofection	lipofection	I-NP	NN	O	50	PMOD	19	lipofection
+54	.	.	O	.	O	26	P	0
+
+1	Because	Because	B-SBAR	IN	O	13	VMOD	0
+2	the	the	B-NP	DT	O	5	NMOD	0
+3	intravenously	intravenously	I-NP	RB	O	4	AMOD	0
+4	injected	inject	I-NP	VBN	O	5	NMOD	19	injected
+5	lipoplexes	lipoplex	I-NP	NNS	O	6	SUB	0
+6	migrated	migrate	B-VP	VBD	O	1	SBAR	14	migrated
+7	within	within	B-PP	IN	O	6	VMOD	0
+8	seconds	second	B-NP	NNS	O	7	PMOD	0
+9	to	to	B-PP	TO	O	8	NMOD	0
+10	lungs	lung	B-NP	NNS	O	9	PMOD	0
+11	,	,	O	,	O	13	P	0
+12	we	we	B-NP	PRP	O	13	SUB	0
+13	checked	check	B-VP	VBD	O	0	ROOT	0
+14	whether	whether	B-SBAR	IN	O	13	VMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	effects	effect	I-NP	NNS	O	22	SUB	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	immediate	immediate	B-NP	JJ	O	19	NMOD	0
+19	contact	contact	I-NP	NN	O	17	PMOD	0
+20	with	with	B-PP	IN	O	16	NMOD	0
+21	serum	serum	B-NP	NN	O	20	PMOD	0
+22	correlate	correlate	B-VP	VBP	O	14	SBAR	0
+23	with	with	B-PP	IN	O	22	VMOD	0
+24	lung	lung	B-NP	NN	O	26	NMOD	0
+25	lipofection	lipofection	I-NP	NN	O	26	NMOD	19	lipofection
+26	efficiency	efficiency	I-NP	NN	O	23	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	different	different	B-NP	JJ	O	29	AMOD	0
+29	DOTAP-based	DOTAP-based	I-NP	JJ	O	30	NMOD	0
+30	formulations	formulation	I-NP	NNS	O	27	PMOD	0
+31	.	.	O	.	O	13	P	0
+
+1	Under	Under	B-PP	IN	O	11	VMOD	0
+2	conditions	condition	B-NP	NNS	O	1	PMOD	0
+3	mimicking	mimic	B-VP	VBG	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	injection	injection	I-NP	NN	O	6	NMOD	0
+6	environment	environment	I-NP	NN	O	3	OBJ	0
+7	,	,	O	,	O	11	P	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	lipoplex-serum	lipoplex-serum	I-NP	NN	O	10	NMOD	0
+10	interaction	interaction	I-NP	NN	O	11	SUB	0
+11	was	be	B-VP	VBD	O	0	ROOT	0
+12	strongly	strongly	B-ADJP	RB	O	13	AMOD	0
+13	dependent	dependent	I-ADJP	JJ	O	11	PRD	0
+14	on	on	B-PP	IN	O	13	AMOD	0
+15	helper	helper	B-NP	NN	O	16	NMOD	0
+16	lipid	lipid	I-NP	NN	O	19	NMOD	0
+17	and	and	O	CC	O	19	NMOD	0
+18	ionic	ionic	B-NP	JJ	O	19	NMOD	0
+19	strength	strength	I-NP	NN	O	14	PMOD	0
+20	:	:	O	:	O	11	P	0
+21	lipoplexes	lipoplex	B-NP	NNS	O	11	VMOD	0
+22	prepared	prepare	B-VP	VBN	O	21	NMOD	0
+23	in	in	B-PP	IN	O	22	VMOD	0
+24	150	150	B-NP	CD	O	26	NMOD	0
+25	mM	mM	I-NP	NN	O	26	NMOD	0
+26	NaCl	NaCl	I-NP	NN	O	28	NMOD	0
+27	or	or	O	CC	O	28	NMOD	0
+28	lipoplexes	lipoplex	B-NP	NNS	O	23	PMOD	0
+29	with	with	B-PP	IN	O	28	NMOD	0
+30	high	high	B-NP	JJ	O	29	PMOD	0
+31	(	(	O	(	O	30	NMOD	0
+32	greater	great	B-ADJP	JJR	O	39	SUB	0
+33	than	than	B-PP	IN	O	32	AMOD	0
+34	33	33	B-NP	CD	O	35	AMOD	0
+35	mol	mol	I-NP	NN	O	38	NMOD	0
+36	%	%	I-NP	NN	O	38	NMOD	0
+37	)	)	O	)	O	38	NMOD	0
+38	cholesterol	cholesterol	B-NP	NN	O	33	PMOD	0
+39	were	be	B-VP	VBD	O	31	SBAR	0
+40	found	find	I-VP	VBN	O	39	VC	0
+41	to	to	I-VP	TO	O	42	VMOD	0
+42	aggregate	aggregate	I-VP	VB	O	40	VMOD	15	aggregate
+43	immediately	immediately	B-ADVP	RB	O	42	VMOD	0
+44	.	.	O	.	O	11	P	0
+
+1	This	This	B-NP	DT	O	3	NMOD	0
+2	aggregation	aggregation	I-NP	NN	O	3	NMOD	15	aggregation
+3	process	process	I-NP	NN	O	4	SUB	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	irreversible	irreversible	B-ADJP	JJ	O	4	PRD	0
+6	and	and	O	CC	O	4	VMOD	0
+7	was	be	B-VP	VBD	O	4	VMOD	0
+8	inversely	inversely	I-VP	RB	O	7	VMOD	0
+9	correlated	correlate	I-VP	VBN	O	7	VC	0
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	percentage	percentage	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	lung	lung	B-NP	NN	B-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	0
+16	that	that	B-NP	WDT	O	15	NMOD	0
+17	took	take	B-VP	VBD	O	16	SBAR	0
+18	up	up	B-PRT	RP	O	17	VMOD	0
+19	lipoplexes	lipoplex	B-NP	NNS	O	17	VMOD	0
+20	and	and	B-PP	CC	O	19	NMOD	0
+21	with	with	B-PP	IN	O	20	PMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	efficiency	efficiency	I-NP	NN	O	21	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	lipofection	lipofection	B-NP	NN	O	24	PMOD	19	lipofection
+26	.	.	O	.	O	4	P	0
+
+1	No	No	B-NP	DT	O	4	NMOD	0
+2	other	other	I-NP	JJ	O	4	NMOD	0
+3	structural	structural	I-NP	JJ	O	4	NMOD	0
+4	changes	change	I-NP	NNS	O	7	SUB	0
+5	in	in	B-PP	IN	O	4	NMOD	0
+6	serum	serum	B-NP	NN	O	5	PMOD	0
+7	were	be	B-VP	VBD	O	0	ROOT	0
+8	observed	observe	I-VP	VBN	O	7	VC	0
+9	for	for	B-PP	IN	O	8	VMOD	0
+10	cholesterol-based	cholesterol-based	B-NP	JJ	O	11	NMOD	0
+11	lipoplexes	lipoplex	I-NP	NNS	O	9	PMOD	0
+12	.	.	O	.	O	7	P	0
+
+1	Dioleoyl	Dioleoyl	B-NP	NN	O	3	NMOD	0
+2	phosphatidylethanolamine-based	phosphatidylethanolamine-based	I-NP	JJ	O	3	NMOD	0
+3	lipoplexes	lipoplex	I-NP	NNS	O	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	0
+5	found	find	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	0
+7	give	give	I-VP	VB	O	5	VMOD	0
+8	low	low	B-NP	JJ	O	9	NMOD	0
+9	expression	expression	I-NP	NN	O	7	OBJ	0
+10	,	,	O	,	O	7	P	0
+11	apparently	apparently	B-ADVP	RB	O	12	PMOD	0
+12	because	because	B-PP	IN	O	7	VMOD	0
+13	of	of	I-PP	IN	O	12	PMOD	0
+14	an	an	B-NP	DT	O	16	NMOD	0
+15	immediate	immediate	I-NP	JJ	O	16	NMOD	0
+16	loss	loss	I-NP	NN	O	12	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	integrity	integrity	B-NP	NN	O	17	PMOD	0
+19	in	in	B-PP	IN	O	16	NMOD	0
+20	serum	serum	B-NP	NN	O	19	PMOD	0
+21	,	,	O	,	O	16	P	0
+22	without	without	B-PP	IN	O	16	NMOD	0
+23	lipid-DNA	lipid-DNA	B-NP	NN	O	24	NMOD	0
+24	dissociation	dissociation	I-NP	NN	O	22	PMOD	0
+25	.	.	O	.	O	4	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	study	study	I-NP	NN	O	3	SUB	0
+3	suggests	suggest	B-VP	VBZ	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	efficient	efficient	B-NP	JJ	O	8	NMOD	0
+6	in	in	I-NP	FW	O	7	AMOD	0
+7	vivo	vivo	I-NP	FW	O	8	NMOD	0
+8	lipofection	lipofection	I-NP	NN	O	9	SUB	0
+9	is	be	B-VP	VBZ	O	4	SBAR	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	result	result	I-NP	NN	O	9	PRD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	cross-talk	cross-talk	B-NP	NN	O	28	NMOD	0
+14	between	between	B-PP	IN	O	13	NMOD	0
+15	lipoplex	lipoplex	B-NP	NN	O	16	NMOD	0
+16	composition	composition	I-NP	NN	O	14	PMOD	0
+17	,	,	O	,	O	28	P	0
+18	interaction	interaction	B-NP	NN	O	28	NMOD	0
+19	with	with	B-PP	IN	O	18	NMOD	0
+20	serum	serum	B-NP	NN	O	19	PMOD	0
+21	,	,	O	,	O	28	P	0
+22	hemodynamics	hemodynamic	B-NP	NNS	O	28	NMOD	0
+23	,	,	O	,	O	28	P	0
+24	and	and	O	CC	O	28	NMOD	0
+25	target	target	B-NP	NN	O	28	NMOD	0
+26	tissue	tissue	I-NP	NN	O	28	NMOD	0
+27	``	``	B-NP	``	O	28	NMOD	0
+28	susceptibility	susceptibility	I-NP	NN	O	12	PMOD	0
+29	''	''	O	''	O	28	NMOD	0
+30	to	to	B-PP	TO	O	28	NMOD	0
+31	transfection	transfection	B-NP	NN	O	30	PMOD	0
+32	.	.	O	.	O	3	P	0
+

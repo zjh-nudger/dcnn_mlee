@@ -1,0 +1,328 @@
+1	Hypothesis	Hypothesis	B-NP	NN	O	4	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Induced	Induce	B-NP	VBN	O	4	NMOD	17	Induced
+4	angiogenesis	angiogenesis	I-NP	NN	O	13	SUB	3	angiogenesis
+5	after	after	B-PP	IN	O	4	NMOD	-1
+6	surgery	surgery	B-NP	NN	O	5	PMOD	19	surgery
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	premenopausal	premenopausal	B-NP	JJ	O	12	NMOD	-1
+9	node-positive	node-positive	I-NP	JJ	O	12	NMOD	-1
+10	breast	breast	I-NP	NN	O	12	NMOD	-1
+11	cancer	cancer	I-NP	NN	O	12	NMOD	-1
+12	patients	patient	I-NP	NNS	O	7	PMOD	-1
+13	is	be	B-VP	VBZ	O	0	ROOT	-1
+14	a	a	B-NP	DT	O	17	NMOD	-1
+15	major	major	I-NP	JJ	O	17	NMOD	-1
+16	underlying	underlying	I-NP	JJ	O	17	NMOD	-1
+17	reason	reason	I-NP	NN	O	13	PRD	-1
+18	why	why	B-ADVP	WRB	O	17	NMOD	-1
+19	adjuvant	adjuvant	B-NP	JJ	O	20	NMOD	-1
+20	chemotherapy	chemotherapy	I-NP	NN	O	21	SUB	19	chemotherapy
+21	works	work	B-VP	VBZ	O	18	SBAR	-1
+22	particularly	particularly	B-ADVP	RB	O	21	VMOD	-1
+23	well	well	I-ADVP	RB	O	22	AMOD	-1
+24	for	for	B-PP	IN	O	22	AMOD	-1
+25	those	those	B-NP	DT	O	26	NMOD	-1
+26	patients	patient	I-NP	NNS	O	24	PMOD	-1
+27	.	.	O	.	O	13	P	-1
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	4	VMOD	-1
+2	:	:	O	:	O	4	P	-1
+3	We	We	B-NP	PRP	O	4	SUB	-1
+4	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	surgical	surgical	B-NP	JJ	O	7	NMOD	-1
+7	extirpation	extirpation	I-NP	NN	O	15	SUB	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	primary	primary	B-NP	JJ	O	11	NMOD	-1
+10	breast	breast	I-NP	NN	O	11	NMOD	-1
+11	cancer	cancer	I-NP	NN	O	8	PMOD	-1
+12	among	among	B-PP	IN	O	7	NMOD	-1
+13	other	other	B-NP	JJ	O	14	NMOD	-1
+14	effects	effect	I-NP	NNS	O	12	PMOD	0
+15	accelerates	accelerate	B-VP	VBZ	O	5	SBAR	-1
+16	relapse	relapse	B-NP	NN	O	15	OBJ	-1
+17	for	for	B-PP	IN	O	16	NMOD	-1
+18	some	some	B-NP	DT	O	21	NMOD	-1
+19	premenopausal	premenopausal	I-NP	JJ	O	21	NMOD	-1
+20	node-positive	node-positive	I-NP	JJ	O	21	NMOD	-1
+21	patients	patient	I-NP	NNS	O	17	PMOD	-1
+22	.	.	O	.	O	4	P	-1
+
+1	These	These	B-NP	DT	O	3	NMOD	-1
+2	accelerated	accelerated	I-NP	JJ	O	3	NMOD	0
+3	relapses	relapse	I-NP	NNS	O	4	SUB	-1
+4	occur	occur	B-VP	VBP	O	0	ROOT	-1
+5	within	within	B-PP	IN	O	4	VMOD	-1
+6	10	10	B-NP	CD	O	7	NMOD	-1
+7	months	month	I-NP	NNS	O	5	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	surgery	surgery	B-NP	NN	O	8	PMOD	19	surgery
+10	for	for	B-PP	IN	O	7	NMOD	-1
+11	untreated	untreated	B-NP	JJ	O	12	NMOD	19	untreated
+12	patients	patient	I-NP	NNS	O	10	PMOD	-1
+13	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	mechanism	mechanism	I-NP	NN	O	4	SUB	0
+3	proposed	propose	B-VP	VBN	O	2	NMOD	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	a	a	B-NP	DT	O	6	NMOD	-1
+6	stimulation	stimulation	I-NP	NN	O	4	PRD	17	stimulation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	angiogenesis	angiogenesis	B-NP	NN	O	7	PMOD	3	angiogenesis
+9	for	for	B-PP	IN	O	6	NMOD	-1
+10	distant	distant	B-NP	JJ	B-protein	12	NMOD	-1
+11	dormant	dormant	I-NP	JJ	I-protein	12	NMOD	-1
+12	micrometastases	micrometastas	I-NP	NNS	I-protein	9	PMOD	-1
+13	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	2	SUB	-1
+2	has	have	B-VP	VBZ	O	0	ROOT	-1
+3	been	be	I-VP	VBN	O	2	VC	-1
+4	suggested	suggest	I-VP	VBN	O	3	VC	-1
+5	as	as	B-PP	IN	O	4	VMOD	-1
+6	one	one	B-NP	CD	O	11	SUB	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	mechanisms	mechanism	I-NP	NNS	O	7	PMOD	-1
+10	to	to	B-VP	TO	O	11	VMOD	-1
+11	explain	explain	I-VP	VB	O	5	SBAR	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	mammography	mammography	I-NP	NN	O	14	NMOD	-1
+14	paradox	paradox	I-NP	NN	O	11	OBJ	-1
+15	for	for	B-PP	IN	O	14	NMOD	-1
+16	women	woman	B-NP	NNS	O	15	PMOD	-1
+17	aged	age	B-VP	VBN	O	16	NMOD	-1
+18	40-49	40-49	B-NP	CD	O	19	NMOD	-1
+19	years	year	I-NP	NNS	O	17	AMOD	-1
+20	.	.	O	.	O	2	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	could	could	B-VP	MD	O	21	VMOD	-1
+3	imagine	imagine	I-VP	VB	O	2	VC	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	it	it	B-NP	PRP	O	7	SUB	-1
+6	also	also	B-ADVP	RB	O	7	VMOD	-1
+7	plays	play	B-VP	VBZ	O	4	SBAR	-1
+8	a	a	B-NP	DT	O	9	NMOD	-1
+9	role	role	I-NP	NN	O	7	OBJ	0
+10	in	in	B-PP	IN	O	7	VMOD	-1
+11	adjuvant	adjuvant	B-NP	JJ	O	13	NMOD	-1
+12	chemotherapy	chemotherapy	I-NP	NN	O	13	NMOD	19	chemotherapy
+13	effectiveness	effectiveness	I-NP	NN	O	10	PMOD	0
+14	since	since	B-PP	IN	O	7	VMOD	-1
+15	,	,	O	,	O	14	P	-1
+16	perhaps	perhaps	B-ADVP	RB	O	14	DEP	-1
+17	not	not	B-ADVP	RB	O	16	AMOD	-1
+18	coincidentally	coincidentally	I-ADVP	RB	O	17	AMOD	-1
+19	,	,	O	,	O	7	P	-1
+20	this	this	B-NP	DT	O	7	OBJ	-1
+21	is	be	B-VP	VBZ	O	0	ROOT	-1
+22	most	most	B-ADJP	RBS	O	23	AMOD	-1
+23	beneficial	beneficial	I-ADJP	JJ	O	21	PRD	-1
+24	for	for	B-PP	IN	O	23	AMOD	-1
+25	premenopausal	premenopausal	B-NP	JJ	O	27	NMOD	-1
+26	node-positive	node-positive	I-NP	JJ	O	27	NMOD	-1
+27	patients	patient	I-NP	NNS	O	24	PMOD	-1
+28	.	.	O	.	O	21	P	-1
+
+1	HYPOTHESIS	HYPOTHESIS	B-NP	NN	O	4	VMOD	-1
+2	:	:	O	:	O	4	P	-1
+3	We	We	B-NP	PRP	O	4	SUB	-1
+4	speculate	speculate	B-VP	VBP	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	there	there	B-NP	EX	O	7	SUB	-1
+7	is	be	B-VP	VBZ	O	5	SBAR	-1
+8	a	a	B-NP	DT	O	9	NMOD	-1
+9	burst	burst	I-NP	NN	O	7	PRD	17	burst
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	PMOD	3	angiogenesis
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	distant	distant	B-NP	JJ	B-protein	15	NMOD	-1
+14	dormant	dormant	I-NP	JJ	I-protein	15	NMOD	-1
+15	micrometastases	micrometastas	I-NP	NNS	I-protein	12	PMOD	-1
+16	after	after	B-PP	IN	O	11	NMOD	-1
+17	surgery	surgery	B-NP	NN	O	16	PMOD	19	surgery
+18	in	in	B-PP	IN	O	17	NMOD	-1
+19	approximately	approximately	B-NP	RB	O	21	NMOD	-1
+20	20	20	I-NP	CD	O	19	AMOD	-1
+21	%	%	I-NP	NN	O	18	PMOD	-1
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	premenopausal	premenopausal	B-NP	JJ	O	25	NMOD	-1
+24	node-positive	node-positive	I-NP	JJ	O	25	NMOD	-1
+25	patients	patient	I-NP	NNS	O	22	PMOD	-1
+26	.	.	O	.	O	4	P	-1
+
+1	We	We	B-NP	PRP	O	3	SUB	-1
+2	also	also	B-ADVP	RB	O	3	VMOD	-1
+3	speculate	speculate	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	this	this	B-NP	DT	O	6	SUB	-1
+6	synchronizes	synchronize	B-VP	VBZ	O	4	SBAR	-1
+7	them	them	B-NP	PRP	O	6	OBJ	-1
+8	into	into	B-PP	IN	O	6	VMOD	-1
+9	a	a	B-NP	DT	O	13	NMOD	-1
+10	temporal	temporal	I-NP	JJ	O	12	AMOD	-1
+11	highly	highly	I-NP	RB	O	12	AMOD	-1
+12	chemosensitive	chemosensitive	I-NP	JJ	O	13	NMOD	-1
+13	state	state	I-NP	NN	O	8	PMOD	-1
+14	and	and	O	CC	O	6	VMOD	-1
+15	is	be	B-VP	VBZ	O	6	VMOD	-1
+16	the	the	B-NP	DT	O	18	NMOD	-1
+17	underlying	underlie	I-NP	VBG	O	18	NMOD	-1
+18	reason	reason	I-NP	NN	O	15	PRD	-1
+19	why	why	B-ADVP	WRB	O	18	NMOD	-1
+20	adjuvant	adjuvant	B-NP	JJ	O	21	NMOD	-1
+21	chemotherapy	chemotherapy	I-NP	NN	O	22	SUB	19	chemotherapy
+22	works	work	B-VP	VBZ	O	19	SBAR	-1
+23	particularly	particularly	B-ADVP	RB	O	22	VMOD	-1
+24	well	well	I-ADVP	RB	O	23	AMOD	-1
+25	for	for	B-PP	IN	O	23	AMOD	-1
+26	that	that	B-NP	DT	O	28	NMOD	-1
+27	patient	patient	I-NP	NN	O	28	NMOD	-1
+28	category	category	I-NP	NN	O	25	PMOD	-1
+29	.	.	O	.	O	3	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	this	this	B-NP	DT	O	4	SUB	-1
+4	may	may	B-VP	MD	O	0	ROOT	-1
+5	explain	explain	I-VP	VB	O	4	VC	-1
+6	why	why	B-ADVP	WRB	O	5	VMOD	-1
+7	cancer	cancer	B-NP	NN	O	11	SUB	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	younger	young	B-NP	JJR	O	10	NMOD	-1
+10	patients	patient	I-NP	NNS	O	8	PMOD	-1
+11	is	be	B-VP	VBZ	O	6	SBAR	-1
+12	more	more	B-ADVP	RBR	O	13	AMOD	-1
+13	often	often	I-ADVP	RB	O	11	PRD	-1
+14	'aggressive	'aggressive	B-ADVP	JJ	O	13	AMOD	-1
+15	'	'	O	''	O	13	AMOD	-1
+16	.	.	O	.	O	4	P	-1
+
+1	TESTING	TESTING	B-VP	VBG	O	13	VMOD	-1
+2	THE	THE	B-NP	DT	O	3	NMOD	-1
+3	HYPOTHESIS	HYPOTHESIS	I-NP	NN	O	1	OBJ	-1
+4	:	:	O	:	O	1	P	-1
+5	Stimulation	Stimulation	B-NP	NN	O	13	SUB	17	Stimulation
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	dormant	dormant	B-NP	JJ	B-protein	8	NMOD	-1
+8	micrometastases	micrometastas	I-NP	NNS	I-protein	6	PMOD	-1
+9	by	by	B-PP	IN	O	5	NMOD	-1
+10	primary	primary	B-NP	JJ	O	12	NMOD	-1
+11	tumor	tumor	I-NP	NN	O	12	NMOD	-1
+12	removal	removal	I-NP	NN	O	9	PMOD	19	removal
+13	is	be	B-VP	VBZ	O	0	ROOT	-1
+14	known	know	I-VP	VBN	O	13	VC	-1
+15	to	to	I-VP	TO	O	16	VMOD	-1
+16	occur	occur	I-VP	VB	O	14	VMOD	-1
+17	in	in	B-PP	IN	O	16	VMOD	-1
+18	animal	animal	B-NP	NN	O	19	NMOD	-1
+19	models	model	I-NP	NNS	O	17	PMOD	-1
+20	.	.	O	.	O	13	P	-1
+
+1	However	However	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	need	need	B-VP	VBP	O	0	ROOT	-1
+5	to	to	I-VP	TO	O	6	VMOD	-1
+6	determine	determine	I-VP	VB	O	4	VMOD	-1
+7	whether	whether	B-SBAR	IN	O	6	VMOD	-1
+8	it	it	B-NP	PRP	O	9	SUB	-1
+9	happens	happen	B-VP	VBZ	O	7	SBAR	-1
+10	in	in	B-PP	IN	O	9	VMOD	-1
+11	breast	breast	B-NP	NN	O	12	NMOD	-1
+12	cancer	cancer	I-NP	NN	O	10	PMOD	-1
+13	.	.	O	.	O	4	P	-1
+
+1	Transient	Transient	B-NP	JJ	O	3	NMOD	-1
+2	circulating	circulate	I-NP	VBG	O	3	NMOD	0
+3	levels	level	I-NP	NNS	O	15	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	angioactive	angioactive	B-NP	JJ	B-protein	6	NMOD	3	angioactive
+6	molecules	molecule	I-NP	NNS	I-protein	11	NMOD	-1
+7	and	and	O	CC	O	11	NMOD	-1
+8	serial	serial	B-NP	JJ	O	11	NMOD	-1
+9	high-resolution	high-resolution	I-NP	JJ	O	11	NMOD	-1
+10	imaging	imaging	I-NP	NN	O	11	NMOD	-1
+11	studies	study	I-NP	NNS	O	4	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	focal	focal	B-NP	JJ	O	14	NMOD	-1
+14	angiogenesis	angiogenesis	I-NP	NN	O	12	PMOD	3	angiogenesis
+15	might	might	B-VP	MD	O	0	ROOT	-1
+16	help	help	I-VP	VB	O	15	VC	-1
+17	.	.	O	.	O	15	P	-1
+
+1	IMPLICATIONS	IMPLICATIONS	B-NP	NNS	O	20	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Short-course	Short-course	B-NP	JJ	O	5	NMOD	-1
+4	cytotoxic	cytotoxic	I-NP	JJ	O	5	NMOD	-1
+5	chemotherapy	chemotherapy	I-NP	NN	O	8	SUB	0
+6	after	after	B-SBAR	IN	O	5	NMOD	-1
+7	surgery	surgery	B-NP	NN	O	6	PMOD	0
+8	has	have	B-VP	VBZ	O	20	VMOD	-1
+9	probably	probably	I-VP	RB	O	8	VMOD	-1
+10	reached	reach	I-VP	VBN	O	8	VMOD	-1
+11	its	its	B-NP	PRP$	O	12	NMOD	-1
+12	zenith	zenith	I-NP	NN	O	10	OBJ	-1
+13	,	,	O	,	O	20	P	-1
+14	and	and	O	CC	O	16	NMOD	-1
+15	other	other	B-NP	JJ	O	16	NMOD	-1
+16	strategies	strategy	I-NP	NNS	O	20	NMOD	-1
+17	,	,	O	,	O	20	P	-1
+18	perhaps	perhaps	B-NP	RB	O	20	NMOD	-1
+19	antiangiogenic	antiangiogenic	I-NP	JJ	O	20	NMOD	3	angiogenic
+20	methods	method	I-NP	NNS	O	22	SUB	-1
+21	,	,	O	,	O	20	P	-1
+22	are	be	B-VP	VBP	O	0	ROOT	-1
+23	needed	need	I-VP	VBN	O	22	VC	-1
+24	to	to	B-VP	TO	O	26	VMOD	-1
+25	successfully	successfully	I-VP	RB	O	26	VMOD	-1
+26	treat	treat	I-VP	VB	O	23	VMOD	19	treat
+27	more	more	B-NP	JJR	O	28	NMOD	-1
+28	patients	patient	I-NP	NNS	O	26	OBJ	-1
+29	.	.	O	.	O	22	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	6	P	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	hypothesis	hypothesis	I-NP	NN	O	6	SUB	-1
+6	predicts	predict	B-VP	VBZ	O	0	ROOT	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	early	early	B-NP	JJ	O	9	NMOD	-1
+9	detection	detection	I-NP	NN	O	23	SUB	-1
+10	,	,	O	,	O	9	P	-1
+11	which	which	B-NP	WDT	O	9	NMOD	-1
+12	is	be	B-VP	VBZ	O	11	SBAR	-1
+13	designed	design	I-VP	VBN	O	12	VC	-1
+14	to	to	I-VP	TO	O	15	VMOD	-1
+15	find	find	I-VP	VB	O	13	VMOD	-1
+16	more	more	B-NP	JJR	O	17	NMOD	-1
+17	patients	patient	I-NP	NNS	O	15	OBJ	-1
+18	without	without	B-PP	IN	O	17	NMOD	-1
+19	involved	involve	B-NP	VBN	O	21	NMOD	0
+20	lymph	lymph	I-NP	NN	O	21	NMOD	-1
+21	nodes	node	I-NP	NNS	O	18	PMOD	-1
+22	,	,	O	,	O	9	P	-1
+23	may	may	B-VP	MD	O	7	SBAR	-1
+24	not	not	I-VP	RB	O	23	VMOD	-1
+25	be	be	I-VP	VB	O	23	VC	-1
+26	a	a	B-NP	DT	O	28	NMOD	-1
+27	synergistic	synergistic	I-NP	JJ	O	28	NMOD	-1
+28	strategy	strategy	I-NP	NN	O	25	PRD	-1
+29	with	with	B-PP	IN	O	28	NMOD	-1
+30	adjuvant	adjuvant	B-NP	JJ	O	31	NMOD	-1
+31	chemotherapy	chemotherapy	I-NP	NN	O	29	PMOD	19	chemotherapy
+32	,	,	O	,	O	31	P	-1
+33	which	which	B-NP	WDT	O	31	NMOD	-1
+34	works	work	B-VP	VBZ	O	33	SBAR	-1
+35	best	well	B-ADVP	RBS	O	34	VMOD	-1
+36	with	with	B-PP	IN	O	35	AMOD	-1
+37	positive	positive	B-NP	JJ	O	40	NMOD	0
+38	lymph	lymph	I-NP	NN	O	40	NMOD	-1
+39	node	node	I-NP	NN	O	40	NMOD	-1
+40	patients	patient	I-NP	NNS	O	36	PMOD	-1
+41	.	.	O	.	O	6	P	-1
+

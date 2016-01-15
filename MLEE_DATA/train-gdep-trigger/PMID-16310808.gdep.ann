@@ -1,0 +1,274 @@
+1	Effect	Effect	B-NP	NN	O	15	NMOD	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	thalidomide	thalidomide	B-NP	NN	O	2	PMOD	0
+4	affecting	affect	B-VP	VBG	O	3	NMOD	16	affecting
+5	VEGF	VEGF	B-NP	NN	B-protein	6	NMOD	0
+6	secretion	secretion	I-NP	NN	O	4	OBJ	14	secretion
+7	,	,	O	,	O	15	P	0
+8	cell	cell	B-NP	NN	O	9	NMOD	0
+9	migration	migration	I-NP	NN	O	15	NMOD	0
+10	,	,	O	,	O	15	P	0
+11	adhesion	adhesion	B-NP	NN	O	15	NMOD	15	adhesion
+12	and	and	O	CC	O	15	NMOD	0
+13	capillary	capillary	B-NP	JJ	O	15	NMOD	0
+14	tube	tube	I-NP	NN	O	15	NMOD	0
+15	formation	formation	I-NP	NN	O	0	ROOT	2	formation
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	human	human	B-NP	JJ	B-cell_line	21	NMOD	0
+18	endothelial	endothelial	I-NP	JJ	I-cell_line	21	NMOD	0
+19	EA.hy	EA.hy	I-NP	NNP	I-cell_line	21	NMOD	0
+20	926	926	I-NP	CD	I-cell_line	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_line	16	PMOD	0
+22	.	.	O	.	O	15	P	0
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	6	NMOD	3	Angiogenesis
+2	,	,	O	,	O	6	P	0
+3	new	new	B-NP	JJ	O	6	NMOD	0
+4	blood	blood	I-NP	NN	O	6	NMOD	0
+5	vessel	vessel	I-NP	NN	O	6	NMOD	0
+6	formation	formation	I-NP	NN	O	8	SUB	2	formation
+7	,	,	O	,	O	6	P	0
+8	is	be	B-VP	VBZ	O	0	ROOT	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	multistep	multistep	I-NP	JJ	O	11	NMOD	0
+11	process	process	I-NP	NN	O	8	PRD	0
+12	,	,	O	,	O	11	P	0
+13	precisely	precisely	B-VP	RB	O	14	VMOD	0
+14	regulated	regulate	I-VP	VBN	O	11	NMOD	16	regulated
+15	by	by	B-PP	IN	O	14	VMOD	0
+16	pro-angiogenic	pro-angiogenic	B-NP	JJ	B-protein	17	NMOD	3	angiogenic
+17	cytokines	cytokine	I-NP	NNS	I-protein	15	PMOD	0
+18	,	,	O	,	O	17	P	0
+19	which	which	B-NP	WDT	O	17	NMOD	0
+20	stimulate	stimulate	B-VP	VBP	O	19	SBAR	17	stimulate
+21	endothelial	endothelial	B-NP	JJ	B-cell_type	22	NMOD	0
+22	cells	cell	I-NP	NNS	I-cell_type	20	OBJ	0
+23	to	to	B-VP	TO	O	24	VMOD	0
+24	migrate	migrate	I-VP	VB	O	20	VMOD	14	migrate
+25	,	,	I-VP	,	O	20	P	0
+26	proliferate	proliferate	I-VP	VB	O	20	VMOD	1	proliferate
+27	and	and	O	CC	O	20	VMOD	0
+28	differentiate	differentiate	B-VP	VB	O	20	VMOD	2	differentiate
+29	to	to	I-VP	TO	O	30	VMOD	0
+30	form	form	I-VP	VB	O	28	VMOD	2	form
+31	new	new	B-NP	JJ	O	33	NMOD	0
+32	capillary	capillary	I-NP	JJ	O	33	NMOD	0
+33	microvessels	microvessel	I-NP	NNS	O	30	OBJ	0
+34	.	.	O	.	O	8	P	0
+
+1	Excessive	Excessive	B-NP	JJ	O	3	NMOD	0
+2	vascular	vascular	I-NP	JJ	O	3	NMOD	0
+3	development	development	I-NP	NN	O	7	NMOD	2	development
+4	and	and	O	CC	O	7	NMOD	0
+5	blood	blood	B-NP	NN	O	7	NMOD	0
+6	vessel	vessel	I-NP	NN	O	7	NMOD	0
+7	remodeling	remodeling	I-NP	NN	O	8	SUB	7	remodeling
+8	appears	appear	B-VP	VBZ	O	0	ROOT	0
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	psoriasis	psoriasis	B-NP	NN	O	20	NMOD	0
+11	,	,	O	,	O	20	P	0
+12	rheumatoid	rheumatoid	B-NP	JJ	O	13	NMOD	0
+13	arthritis	arthritis	I-NP	NN	O	20	NMOD	0
+14	,	,	O	,	O	20	P	0
+15	diabetic	diabetic	B-NP	JJ	O	16	NMOD	0
+16	retinopathy	retinopathy	I-NP	NN	O	20	NMOD	0
+17	and	and	O	CC	O	20	NMOD	0
+18	solid	solid	B-NP	JJ	O	20	NMOD	0
+19	tumors	tumor	I-NP	NNS	O	20	NMOD	0
+20	formation	formation	I-NP	NN	O	9	PMOD	2	formation
+21	.	.	O	.	O	8	P	0
+
+1	Thalidomide	Thalidomide	B-NP	NN	O	9	SUB	0
+2	[	[	O	(	O	8	DEP	0
+3	alpha-	alpha-	B-NP	NN	O	7	NMOD	0
+4	(	(	O	(	O	6	DEP	0
+5	N-phthalimido	N-phthalimido	B-NP	NN	O	6	DEP	0
+6	)	)	O	)	O	7	NMOD	0
+7	-glutarimide	-glutarimide	B-NP	NN	O	8	DEP	0
+8	]	]	O	)	O	1	NMOD	0
+9	is	be	B-VP	VBZ	O	26	VMOD	0
+10	known	know	I-VP	VBN	O	9	VC	0
+11	to	to	I-VP	TO	O	12	VMOD	0
+12	be	be	I-VP	VB	O	10	VMOD	0
+13	a	a	B-NP	DT	O	15	NMOD	0
+14	potent	potent	I-NP	JJ	O	15	NMOD	0
+15	inhibitor	inhibitor	I-NP	NN	O	12	PRD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis
+18	,	,	O	,	O	26	P	0
+19	but	but	O	CC	O	26	VMOD	0
+20	the	the	B-NP	DT	O	21	NMOD	0
+21	mechanism	mechanism	I-NP	NN	O	26	SUB	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	its	its	B-NP	PRP$	O	25	NMOD	0
+24	inhibitory	inhibitory	I-NP	JJ	O	25	NMOD	0
+25	action	action	I-NP	NN	O	22	PMOD	0
+26	remains	remain	B-VP	VBZ	O	0	ROOT	0
+27	unclear	unclear	B-ADJP	JJ	O	26	PRD	0
+28	.	.	O	.	O	26	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	aim	aim	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	study	study	I-NP	NN	O	3	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	to	to	B-VP	TO	O	8	VMOD	0
+8	investigate	investigate	I-VP	VB	O	6	PRD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	potential	potential	I-NP	JJ	O	11	NMOD	0
+11	influence	influence	I-NP	NN	O	8	OBJ	16	influence
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	thalidomide	thalidomide	B-NP	NN	O	12	PMOD	0
+14	on	on	B-PP	IN	O	11	NMOD	0
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	several	several	I-NP	JJ	O	17	NMOD	0
+17	steps	step	I-NP	NNS	O	14	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	angiogenesis	angiogenesis	B-NP	NN	O	18	PMOD	3	angiogenesis
+20	,	,	O	,	O	8	P	0
+21	using	use	B-VP	VBG	O	8	VMOD	0
+22	in	in	B-NP	FW	O	23	AMOD	0
+23	vitro	vitro	I-NP	FW	O	24	NMOD	0
+24	models	model	I-NP	NNS	O	21	OBJ	0
+25	.	.	O	.	O	6	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	have	have	B-VP	VBP	O	0	ROOT	0
+3	evaluated	evaluate	I-VP	VBN	O	2	VC	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	effect	effect	I-NP	NN	O	15	NMOD	16	effect
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	thalidomide	thalidomide	B-NP	NN	O	6	PMOD	0
+8	on	on	B-PP	IN	O	5	NMOD	0
+9	VEGF	VEGF	B-NP	NN	B-protein	10	NMOD	0
+10	secretion	secretion	I-NP	NN	O	8	PMOD	14	secretion
+11	,	,	O	,	O	15	P	0
+12	cell	cell	B-NP	NN	O	13	NMOD	0
+13	migration	migration	I-NP	NN	O	15	NMOD	0
+14	,	,	O	,	O	15	P	0
+15	adhesion	adhesion	B-NP	NN	O	3	OBJ	15	adhesion
+16	as	as	B-CONJP	RB	O	15	NMOD	0
+17	well	well	I-CONJP	RB	O	16	DEP	0
+18	as	as	I-CONJP	IN	O	16	DEP	0
+19	in	in	B-PP	IN	O	16	PMOD	0
+20	capillary	capillary	B-NP	JJ	O	21	NMOD	0
+21	formation	formation	I-NP	NN	O	19	PMOD	2	formation
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	human	human	B-NP	JJ	B-cell_line	26	NMOD	0
+24	endothelial	endothelial	I-NP	JJ	I-cell_line	26	NMOD	0
+25	cell	cell	I-NP	NN	I-cell_line	26	NMOD	0
+26	line	line	I-NP	NN	I-cell_line	28	NMOD	0
+27	EA.hy	EA.hy	B-NP	NNP	O	28	NMOD	0
+28	926	926	I-NP	CD	O	22	PMOD	0
+29	.	.	O	.	O	2	P	0
+
+1	Thalidomide	Thalidomide	B-NP	NN	O	11	SUB	0
+2	at	at	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	concentrations	concentration	I-NP	NNS	O	2	PMOD	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	0.01	0.01	B-NP	CD	O	7	NMOD	0
+7	microM	microM	I-NP	NN	O	10	NMOD	0
+8	and	and	O	CC	O	10	NMOD	0
+9	10	10	B-NP	CD	O	10	NMOD	0
+10	microM	microM	I-NP	NN	O	5	PMOD	0
+11	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+12	VEGF	VEGF	B-NP	NN	B-protein	13	NMOD	0
+13	secretion	secretion	I-NP	NN	O	11	OBJ	14	secretion
+14	into	into	B-PP	IN	O	13	NMOD	0
+15	supernatants	supernatant	B-NP	NNS	O	14	PMOD	0
+16	,	,	O	,	O	11	P	0
+17	decreased	decrease	B-VP	VBD	O	11	VMOD	18	decreased
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	number	number	I-NP	NN	O	17	OBJ	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	formed	form	B-NP	VBN	O	23	NMOD	2	formed
+22	capillary	capillary	I-NP	JJ	O	23	NMOD	0
+23	tubes	tube	I-NP	NNS	O	20	PMOD	0
+24	and	and	O	CC	O	17	VMOD	0
+25	increased	increase	B-NP	VBN	O	17	VMOD	17	increased
+26	cell	cell	I-NP	NN	O	27	NMOD	0
+27	adhesion	adhesion	I-NP	NN	O	25	OBJ	15	adhesion
+28	to	to	B-PP	TO	O	27	NMOD	0
+29	collagen	collagen	B-NP	NN	B-protein	28	PMOD	0
+30	.	.	O	.	O	11	P	0
+
+1	Administration	Administration	B-NP	NN	O	10	SUB	19	Administration
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	thalidomide	thalidomide	B-NP	NN	O	2	PMOD	0
+4	at	at	B-PP	IN	O	1	NMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	concentration	concentration	I-NP	NN	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	0.01	0.01	B-NP	CD	O	9	NMOD	0
+9	microM	microM	I-NP	NN	O	7	PMOD	0
+10	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+11	cell	cell	B-NP	NN	O	12	NMOD	0
+12	migration	migration	I-NP	NN	O	10	OBJ	14	migration
+13	,	,	O	,	O	10	P	0
+14	while	while	B-SBAR	IN	O	10	VMOD	0
+15	at	at	B-PP	IN	O	14	DEP	0
+16	10	10	B-NP	CD	O	17	NMOD	0
+17	microM	microM	I-NP	NN	O	15	PMOD	0
+18	,	,	O	,	O	10	P	0
+19	it	it	B-NP	PRP	O	20	SUB	0
+20	decreased	decrease	B-VP	VBD	O	10	VMOD	18	decreased
+21	cell	cell	B-NP	NN	O	22	NMOD	0
+22	migration	migration	I-NP	NN	O	20	OBJ	14	migration
+23	.	.	O	.	O	10	P	0
+
+1	Thalidomide	Thalidomide	B-NP	NN	O	10	SUB	0
+2	in	in	B-PP	IN	O	1	NMOD	0
+3	concentrations	concentration	B-NP	NNS	O	2	PMOD	0
+4	from	from	B-PP	IN	O	3	NMOD	0
+5	0.1	0.1	B-NP	CD	O	6	NMOD	0
+6	microM	microM	I-NP	NN	O	4	PMOD	0
+7	to	to	B-PP	TO	O	3	NMOD	0
+8	10	10	B-NP	CD	O	9	NMOD	0
+9	microM	microM	I-NP	NN	O	7	PMOD	0
+10	did	do	B-VP	VBD	O	0	ROOT	0
+11	not	not	I-VP	RB	O	10	VMOD	0
+12	change	change	I-VP	VB	O	10	VC	16	change
+13	cell	cell	B-NP	NN	O	14	NMOD	0
+14	proliferation	proliferation	I-NP	NN	O	12	OBJ	1	proliferation
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	72-h	72-h	B-NP	JJ	B-cell_line	18	NMOD	0
+17	cell	cell	I-NP	NN	I-cell_line	18	NMOD	0
+18	cultures	culture	I-NP	NNS	I-cell_line	15	PMOD	0
+19	.	.	O	.	O	10	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	conclude	conclude	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	anti-angiogenic	anti-angiogenic	B-NP	JJ	O	5	NMOD	3	angiogenic
+5	action	action	I-NP	NN	O	8	SUB	18	action
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	thalidomide	thalidomide	B-NP	NN	O	6	PMOD	0
+8	is	be	B-VP	VBZ	O	3	SBAR	0
+9	due	due	B-ADJP	JJ	O	8	PRD	17	due
+10	to	to	B-VP	TO	O	11	VMOD	0
+11	direct	direct	I-VP	VB	O	9	AMOD	0
+12	inhibitory	inhibitory	B-NP	JJ	O	13	NMOD	0
+13	action	action	I-NP	NN	O	11	OBJ	0
+14	on	on	B-PP	IN	O	13	NMOD	0
+15	VEGF	VEGF	B-NP	NN	B-protein	16	NMOD	0
+16	secretion	secretion	I-NP	NN	O	20	NMOD	14	secretion
+17	and	and	O	CC	O	20	NMOD	0
+18	capillary	capillary	B-NP	JJ	O	20	NMOD	0
+19	microvessel	microvessel	I-NP	NN	O	20	NMOD	0
+20	formation	formation	I-NP	NN	O	14	PMOD	2	formation
+21	as	as	B-CONJP	RB	O	25	NMOD	0
+22	well	well	I-CONJP	RB	O	21	DEP	0
+23	as	as	I-CONJP	IN	O	21	DEP	0
+24	immunomodulatory	immunomodulatory	B-NP	JJ	O	25	NMOD	0
+25	influence	influence	I-NP	NN	O	11	OBJ	16	influence
+26	on	on	B-PP	IN	O	25	NMOD	0
+27	EA.hy	EA.hy	B-NP	NNP	O	29	NMOD	0
+28	926	926	I-NP	CD	O	29	NMOD	0
+29	cells	cell	I-NP	NNS	O	32	NMOD	0
+30	migration	migration	B-NP	NN	O	32	NMOD	14	migration
+31	and	and	I-NP	CC	O	32	NMOD	0
+32	adhesion	adhesion	I-NP	NN	O	26	PMOD	15	adhesion
+33	.	.	O	.	O	2	P	0
+

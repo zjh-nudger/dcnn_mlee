@@ -1,0 +1,194 @@
+1	Fibroblast	Fibroblast	B-NP	NN	B-protein	3	NMOD	0
+2	growth	growth	I-NP	NN	I-protein	3	NMOD	0
+3	factor	factor	I-NP	NN	I-protein	5	SUB	0
+4	2	2	I-NP	CD	I-protein	3	NMOD	0
+5	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+6	microvessel	microvessel	B-NP	NN	O	7	NMOD	0
+7	formation	formation	I-NP	NN	O	5	OBJ	2	formation
+8	from	from	B-PP	IN	O	7	NMOD	0
+9	mouse	mouse	B-NP	NN	O	11	NMOD	0
+10	embryonic	embryonic	I-NP	JJ	O	11	NMOD	0
+11	aorta	aorta	I-NP	NN	O	8	PMOD	0
+12	.	.	O	.	O	5	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	delineate	delineate	I-VP	VB	O	26	VMOD	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	roles	role	I-NP	NNS	O	2	OBJ	0
+5	that	that	B-NP	IN	O	4	NMOD	0
+6	oxygen	oxygen	B-NP	NN	O	10	NMOD	0
+7	and	and	I-NP	CC	O	10	NMOD	0
+8	fibroblast	fibroblast	I-NP	NN	B-protein	10	NMOD	0
+9	growth	growth	I-NP	NN	I-protein	10	NMOD	0
+10	factors	factor	I-NP	NNS	I-protein	14	SUB	0
+11	(	(	O	(	O	13	DEP	0
+12	FGFs	FGF	B-NP	NNS	B-protein	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	play	play	B-VP	VBP	O	5	SBAR	16	play
+15	in	in	B-PP	IN	O	14	VMOD	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	process	process	I-NP	NN	O	15	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	angiogenesis	angiogenesis	B-NP	NN	O	18	PMOD	3	angiogenesis
+20	from	from	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	embryonic	embryonic	I-NP	JJ	O	23	NMOD	0
+23	aorta	aorta	I-NP	NN	O	20	PMOD	0
+24	,	,	O	,	O	26	P	0
+25	we	we	B-NP	PRP	O	26	SUB	0
+26	cultured	culture	B-VP	VBD	O	0	ROOT	19	cultured
+27	mouse	mouse	B-NP	NN	O	30	NMOD	0
+28	embryonic	embryonic	I-NP	JJ	O	30	NMOD	0
+29	aorta	aorta	I-NP	NN	O	30	NMOD	0
+30	explants	explant	I-NP	NNS	O	26	OBJ	0
+31	(	(	O	(	O	30	NMOD	0
+32	thoracic	thoracic	B-NP	JJ	O	33	NMOD	0
+33	level	level	I-NP	NN	O	31	ROOT	0
+34	to	to	B-PP	TO	O	33	NMOD	0
+35	lateral	lateral	B-NP	JJ	O	36	NMOD	0
+36	vessels	vessel	I-NP	NNS	O	34	PMOD	0
+37	supplying	supply	B-VP	VBG	O	36	NMOD	0
+38	the	the	B-NP	DT	O	41	NMOD	0
+39	mesonephros	mesonephro	I-NP	NNS	O	41	NMOD	0
+40	and	and	I-NP	CC	O	41	NMOD	0
+41	metanephros	metanephro	I-NP	NNS	O	37	OBJ	0
+42	)	)	O	)	O	41	NMOD	0
+43	in	in	B-PP	IN	O	37	VMOD	0
+44	a	a	B-NP	DT	O	50	NMOD	0
+45	three-dimensional	three-dimensional	I-NP	JJ	O	50	NMOD	0
+46	type	type	I-NP	NN	O	50	NMOD	0
+47	I	I	I-NP	CD	O	50	NMOD	0
+48	collagen	collagen	I-NP	NN	O	50	NMOD	0
+49	gel	gel	I-NP	NN	O	50	NMOD	0
+50	matrix	matrix	I-NP	NN	O	43	PMOD	0
+51	.	.	O	.	O	33	P	0
+
+1	During	During	B-PP	IN	O	25	VMOD	0
+2	8	8	B-NP	CD	O	3	NMOD	0
+3	days	day	I-NP	NNS	O	1	PMOD	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	culture	culture	B-NP	NN	O	4	PMOD	0
+6	under	under	B-PP	IN	O	3	NMOD	0
+7	5	5	B-NP	CD	O	8	AMOD	0
+8	%	%	I-NP	NN	O	9	NMOD	0
+9	O	O	I-NP	NN	O	6	PMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	2	2	B-NP	CD	O	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	,	,	O	,	O	25	P	0
+14	but	but	O	CC	O	25	VMOD	0
+15	not	not	O	RB	O	14	DEP	0
+16	room	room	B-NP	NN	O	17	NMOD	0
+17	air	air	I-NP	NN	O	20	NMOD	0
+18	,	,	O	,	O	20	P	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	addition	addition	I-NP	NN	O	25	SUB	19	addition
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	FGF2	FGF2	B-NP	NN	B-protein	21	PMOD	0
+23	to	to	B-PP	TO	O	20	NMOD	0
+24	explants	explant	B-NP	NNS	O	23	PMOD	0
+25	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+26	the	the	B-NP	DT	O	27	NMOD	0
+27	formation	formation	I-NP	NN	O	25	OBJ	2	formation
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	Gs-IB	Gs-IB	B-NP	NN	B-protein	39	NMOD	0
+30	(	(	O	(	O	39	NMOD	0
+31	4-	4-	B-NP	NN	O	39	NMOD	0
+32	)	)	O	)	O	39	NMOD	0
+33	positive	positive	B-ADJP	JJ	O	39	NMOD	0
+34	,	,	O	,	O	39	P	0
+35	CD31-positive	CD31-positive	B-ADJP	JJ	O	39	NMOD	0
+36	,	,	O	,	O	39	P	0
+37	and	and	O	CC	O	39	NMOD	0
+38	Flk-1-positive	Flk-1-positive	B-NP	JJ	O	39	NMOD	0
+39	microvessels	microvessel	I-NP	NNS	O	28	PMOD	0
+40	in	in	B-PP	IN	O	25	VMOD	0
+41	a	a	B-NP	DT	O	43	NMOD	0
+42	concentration-dependent	concentration-dependent	I-NP	JJ	O	43	NMOD	0
+43	manner	manner	I-NP	NN	O	40	PMOD	0
+44	.	.	O	.	O	25	P	0
+
+1	FGF2-stimulated	FGF2-stimulated	B-NP	JJ	O	3	NMOD	17	stimulated
+2	microvessel	microvessel	I-NP	NN	O	3	NMOD	0
+3	formation	formation	I-NP	NN	O	4	SUB	2	formation
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	inhibited	inhibit	I-VP	VBN	O	4	VC	18	inhibited
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	sequestration	sequestration	B-NP	NN	O	6	PMOD	18	sequestration
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	FGF2	FGF2	B-NP	NN	B-protein	8	PMOD	0
+10	via	via	B-PP	IN	O	5	VMOD	0
+11	addition	addition	B-NP	NN	O	10	PMOD	19	addition
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	soluble	soluble	B-NP	JJ	O	20	NMOD	0
+14	FGF	FGF	I-NP	NN	B-protein	15	NMOD	0
+15	receptor	receptor	I-NP	NN	I-protein	20	NMOD	0
+16	(	(	O	(	O	18	DEP	0
+17	FGFR	FGFR	B-NP	NN	B-protein	18	DEP	0
+18	)	)	O	)	O	15	NMOD	0
+19	chimera	chimera	B-NP	NN	O	20	NMOD	0
+20	protein	protein	I-NP	NN	O	23	NMOD	0
+21	or	or	O	CC	O	23	NMOD	0
+22	anti-FGF2	anti-FGF2	B-NP	JJ	B-protein	23	NMOD	0
+23	antibodies	antibody	I-NP	NNS	I-protein	12	PMOD	0
+24	.	.	O	.	O	4	P	0
+
+1	FGFR1	FGFR1	B-NP	NN	B-protein	3	NMOD	0
+2	and	and	I-NP	CC	O	3	NMOD	0
+3	FGFR2	FGFR2	I-NP	NN	B-protein	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	0
+5	present	present	B-ADJP	JJ	O	4	PRD	0
+6	on	on	B-PP	IN	O	5	AMOD	0
+7	explants	explant	B-NP	NNS	O	6	PMOD	0
+8	.	.	O	.	O	4	P	0
+
+1	Levels	Level	B-NP	NNS	O	9	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	FGFR1	FGFR1	B-NP	NN	B-protein	7	NMOD	0
+4	,	,	B-NP	,	O	7	P	0
+5	but	but	I-NP	CC	O	7	NMOD	0
+6	not	not	I-NP	RB	O	5	DEP	0
+7	FGFR2	FGFR2	B-NP	NN	B-protein	2	PMOD	0
+8	,	,	O	,	O	1	P	0
+9	were	be	B-VP	VBD	O	0	ROOT	0
+10	increased	increase	I-VP	VBN	O	9	VC	17	increased
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	embryonic	embryonic	B-NP	JJ	O	13	NMOD	0
+13	aorta	aorta	I-NP	NN	O	11	PMOD	0
+14	cultured	culture	B-VP	VBN	O	13	NMOD	19	cultured
+15	under	under	B-PP	IN	O	14	VMOD	0
+16	5	5	B-NP	CD	O	17	AMOD	0
+17	%	%	I-NP	NN	O	18	NMOD	0
+18	O	O	I-NP	NN	O	15	PMOD	0
+19	(	(	O	(	O	21	DEP	0
+20	2	2	B-NP	CD	O	21	DEP	0
+21	)	)	O	)	O	18	NMOD	0
+22	relative	relative	B-ADJP	JJ	O	18	NMOD	0
+23	to	to	B-PP	TO	O	22	AMOD	0
+24	room	room	B-NP	NN	O	25	NMOD	0
+25	air	air	I-NP	NN	O	23	PMOD	0
+26	.	.	O	.	O	9	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	low	low	B-NP	JJ	O	6	NMOD	0
+6	oxygen	oxygen	I-NP	NN	O	7	SUB	0
+7	upregulates	upregulate	B-VP	VBZ	O	4	SBAR	17	upregulates
+8	FGFR1	FGFR1	B-NP	NN	B-protein	9	NMOD	0
+9	expression	expression	I-NP	NN	O	7	OBJ	9	expression
+10	in	in	B-PP	IN	O	7	VMOD	0
+11	embryonic	embryonic	B-NP	JJ	O	12	NMOD	0
+12	aorta	aorta	I-NP	NN	O	10	PMOD	0
+13	in	in	B-ADVP	FW	O	7	VMOD	0
+14	vitro	vitro	I-ADVP	FW	O	13	AMOD	0
+15	and	and	O	CC	O	7	VMOD	0
+16	renders	render	B-VP	VBZ	O	7	VMOD	0
+17	it	it	B-NP	PRP	O	19	SUB	0
+18	more	more	B-ADJP	RBR	O	19	AMOD	0
+19	responsive	responsive	I-ADJP	JJ	O	16	VMOD	16	responsive
+20	to	to	B-PP	TO	O	19	AMOD	0
+21	FGF2	FGF2	B-NP	NN	B-protein	20	PMOD	0
+22	.	.	O	.	O	3	P	0
+

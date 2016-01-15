@@ -1,0 +1,261 @@
+1	Clinical	Clinical	B-NP	JJ	O	2	NMOD	0
+2	significance	significance	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	chicken	chicken	B-NP	NN	B-protein	8	NMOD	0
+5	ovalbumin	ovalbumin	I-NP	NN	I-protein	8	NMOD	0
+6	upstream	upstream	I-NP	JJ	I-protein	8	NMOD	0
+7	promoter-transcription	promoter-transcription	I-NP	NN	I-protein	8	NMOD	0
+8	factor	factor	I-NP	NN	I-protein	10	NMOD	0
+9	II	II	I-NP	CD	I-protein	8	NMOD	0
+10	expression	expression	I-NP	NN	O	3	PMOD	9	expression
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	human	human	B-NP	JJ	O	14	NMOD	0
+13	colorectal	colorectal	I-NP	JJ	O	14	NMOD	0
+14	cancer	cancer	I-NP	NN	O	11	PMOD	0
+15	.	.	O	.	O	2	P	0
+
+1	Chicken	Chicken	B-NP	NN	B-protein	5	NMOD	0
+2	ovalbumin	ovalbumin	I-NP	NN	I-protein	5	NMOD	0
+3	upstream	upstream	I-NP	JJ	I-protein	5	NMOD	0
+4	promoter-transcription	promoter-transcription	I-NP	NN	I-protein	5	NMOD	0
+5	factor	factor	I-NP	NN	I-protein	10	SUB	0
+6	II	II	I-NP	CD	I-protein	5	NMOD	0
+7	(	(	O	(	O	9	DEP	0
+8	COUP-TFII	COUP-TFII	B-NP	NN	O	9	DEP	0
+9	)	)	O	)	O	5	NMOD	0
+10	plays	play	B-VP	VBZ	O	0	ROOT	0
+11	an	an	B-NP	DT	O	13	NMOD	0
+12	essential	essential	I-NP	JJ	O	13	NMOD	0
+13	role	role	I-NP	NN	O	10	OBJ	0
+14	in	in	B-PP	IN	O	10	VMOD	0
+15	angiogenesis	angiogenesis	B-NP	NN	O	17	NMOD	3	angiogenesis
+16	and	and	I-NP	CC	O	17	NMOD	0
+17	development	development	I-NP	NN	O	14	PMOD	0
+18	.	.	O	.	O	10	P	0
+
+1	A	A	B-NP	DT	O	3	NMOD	0
+2	previous	previous	I-NP	JJ	O	3	NMOD	0
+3	study	study	I-NP	NN	O	4	SUB	0
+4	showed	show	B-VP	VBD	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	expression	expression	I-NP	NN	O	10	SUB	9	expression
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	8	PMOD	0
+10	enhanced	enhance	B-VP	VBD	O	5	SBAR	17	enhanced
+11	invasiveness	invasiveness	B-NP	NN	O	10	OBJ	14	invasiveness
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	human	human	B-NP	JJ	B-cell_type	16	NMOD	0
+14	lung	lung	I-NP	NN	I-cell_type	16	NMOD	0
+15	carcinoma	carcinoma	I-NP	NN	I-cell_type	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	0
+17	.	.	O	.	O	4	P	0
+
+1	However	However	B-ADVP	RB	O	6	VMOD	0
+2	,	,	O	,	O	6	P	0
+3	no	no	B-NP	DT	O	5	NMOD	0
+4	published	publish	I-NP	VBN	O	5	NMOD	0
+5	data	datum	I-NP	NNS	O	6	SUB	0
+6	are	be	B-VP	VBP	O	0	ROOT	0
+7	available	available	B-ADJP	JJ	O	6	PRD	0
+8	concerning	concern	B-VP	VBG	O	7	AMOD	0
+9	the	the	B-NP	DT	O	13	NMOD	0
+10	biological	biological	I-NP	JJ	O	12	AMOD	0
+11	and	and	I-NP	CC	O	12	AMOD	0
+12	clinical	clinical	I-NP	JJ	O	13	NMOD	0
+13	significance	significance	I-NP	NN	O	8	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	16	NMOD	0
+16	expression	expression	I-NP	NN	O	14	PMOD	9	expression
+17	in	in	B-PP	IN	O	13	NMOD	0
+18	colorectal	colorectal	B-NP	JJ	O	19	NMOD	0
+19	cancer	cancer	I-NP	NN	O	17	PMOD	0
+20	.	.	O	.	O	6	P	0
+
+1	Thus	Thus	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	our	our	B-NP	PRP$	O	4	NMOD	0
+4	objective	objective	I-NP	NN	O	5	SUB	0
+5	was	be	B-VP	VBD	O	0	ROOT	0
+6	to	to	B-VP	TO	O	7	VMOD	0
+7	explore	explore	I-VP	VB	O	5	PRD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	expression	expression	I-NP	NN	O	7	OBJ	9	expression
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	10	PMOD	0
+12	in	in	B-PP	IN	O	9	NMOD	0
+13	colorectal	colorectal	B-NP	JJ	O	14	NMOD	0
+14	cancer	cancer	I-NP	NN	O	12	PMOD	0
+15	as	as	B-CONJP	RB	O	12	PMOD	0
+16	well	well	I-CONJP	RB	O	15	DEP	0
+17	as	as	I-CONJP	IN	O	15	DEP	0
+18	its	its	B-NP	PRP$	O	19	NMOD	0
+19	association	association	I-NP	NN	O	12	PMOD	0
+20	with	with	B-PP	IN	O	19	NMOD	0
+21	clinicopathological	clinicopathological	B-NP	JJ	O	22	NMOD	0
+22	features	feature	I-NP	NNS	O	20	PMOD	0
+23	,	,	O	,	O	7	P	0
+24	and	and	O	CC	O	7	VMOD	0
+25	to	to	B-VP	TO	O	26	VMOD	0
+26	evaluate	evaluate	I-VP	VB	O	7	VMOD	0
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	role	role	I-NP	NN	O	26	OBJ	16	role
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	29	PMOD	0
+31	as	as	B-PP	IN	O	28	NMOD	0
+32	a	a	B-NP	DT	O	34	NMOD	0
+33	prognostic	prognostic	I-NP	JJ	O	34	NMOD	0
+34	indicator	indicator	I-NP	NN	O	31	PMOD	0
+35	in	in	B-PP	IN	O	34	NMOD	0
+36	colorectal	colorectal	B-NP	JJ	O	37	NMOD	0
+37	cancer	cancer	I-NP	NN	O	35	PMOD	0
+38	.	.	O	.	O	5	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	investigated	investigate	B-VP	VBD	O	0	ROOT	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	presence	presence	I-NP	NN	O	15	NMOD	14	presence
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	5	PMOD	0
+7	in	in	B-PP	IN	O	4	NMOD	0
+8	human	human	B-NP	JJ	O	11	NMOD	0
+9	colorectal	colorectal	I-NP	JJ	O	11	NMOD	0
+10	cancer	cancer	I-NP	NN	O	11	NMOD	0
+11	tissues	tissue	I-NP	NNS	O	7	PMOD	0
+12	and	and	O	CC	O	15	NMOD	0
+13	adjacent	adjacent	B-NP	JJ	O	15	NMOD	0
+14	normal	normal	I-NP	JJ	O	15	NMOD	0
+15	tissues	tissue	I-NP	NNS	O	2	OBJ	0
+16	from	from	B-PP	IN	O	15	NMOD	0
+17	95	95	B-NP	CD	O	21	NMOD	0
+18	primary	primary	I-NP	JJ	O	21	NMOD	0
+19	colorectal	colorectal	I-NP	JJ	O	21	NMOD	0
+20	cancer	cancer	I-NP	NN	O	21	NMOD	0
+21	patients	patient	I-NP	NNS	O	16	PMOD	0
+22	by	by	B-PP	IN	O	2	VMOD	0
+23	immunohistochemistry	immunohistochemistry	B-NP	NN	O	22	PMOD	0
+24	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	correlation	correlation	I-NP	NN	O	11	SUB	0
+3	between	between	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	expression	expression	I-NP	NN	O	3	PMOD	9	expression
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	10	NMOD	0
+8	and	and	O	CC	O	10	NMOD	0
+9	clinicopathologic	clinicopathologic	B-NP	JJ	O	10	NMOD	0
+10	features	feature	I-NP	NNS	O	6	PMOD	0
+11	was	be	B-VP	VBD	O	0	ROOT	0
+12	investigated	investigate	I-VP	VBN	O	11	VC	0
+13	.	.	O	.	O	11	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	3-year	3-year	I-NP	JJ	O	4	NMOD	0
+3	disease-free	disease-free	I-NP	JJ	O	4	NMOD	0
+4	survival	survival	I-NP	NN	O	10	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	DFS	DFS	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	and	and	O	CC	O	10	NMOD	0
+9	overall	overall	B-NP	JJ	O	10	NMOD	0
+10	survival	survival	I-NP	NN	O	23	SUB	0
+11	(	(	O	(	O	13	DEP	0
+12	OS	OS	B-NP	NN	O	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	of	of	B-PP	IN	O	10	NMOD	0
+15	patients	patient	B-NP	NNS	O	14	PMOD	0
+16	with	with	B-PP	IN	O	15	NMOD	0
+17	tumors	tumor	B-NP	NNS	O	16	PMOD	0
+18	expressing	express	B-VP	VBG	O	17	NMOD	9	expressing
+19	different	different	B-NP	JJ	O	20	NMOD	0
+20	levels	level	I-NP	NNS	O	18	OBJ	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	21	PMOD	0
+23	were	be	B-VP	VBD	O	0	ROOT	0
+24	evaluated	evaluate	I-VP	VBN	O	23	VC	0
+25	by	by	B-PP	IN	O	24	VMOD	0
+26	the	the	B-NP	DT	O	28	NMOD	0
+27	Kaplan-Meier	Kaplan-Meier	I-NP	NNP	O	28	NMOD	0
+28	method	method	I-NP	NN	O	25	PMOD	0
+29	.	.	O	.	O	23	P	0
+
+1	No	No	B-NP	DT	O	3	NMOD	0
+2	significant	significant	I-NP	JJ	O	3	NMOD	0
+3	correlation	correlation	I-NP	NN	O	4	SUB	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	found	find	I-VP	VBN	O	4	VC	0
+6	between	between	B-PP	IN	O	30	NMOD	0
+7	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	8	NMOD	0
+8	expression	expression	I-NP	NN	O	10	NMOD	9	expression
+9	and	and	O	CC	O	10	NMOD	0
+10	age	age	B-NP	NN	O	6	PMOD	0
+11	at	at	B-PP	IN	O	10	NMOD	0
+12	surgery	surgery	B-NP	NN	O	23	NMOD	0
+13	,	,	O	,	O	23	P	0
+14	gender	gender	B-NP	NN	O	23	NMOD	0
+15	,	,	O	,	O	23	P	0
+16	histopathologic	histopathologic	B-NP	JJ	O	17	NMOD	0
+17	differentiation	differentiation	I-NP	NN	O	23	NMOD	0
+18	,	,	O	,	O	23	P	0
+19	vessel	vessel	B-NP	NN	O	20	NMOD	0
+20	invasion	invasion	I-NP	NN	O	23	NMOD	14	invasion
+21	,	,	O	,	O	23	P	0
+22	carcinoembryonic	carcinoembryonic	B-NP	JJ	B-protein	23	NMOD	0
+23	antigen	antigen	I-NP	NN	I-protein	11	PMOD	0
+24	(	(	O	(	O	26	DEP	0
+25	CEA	CEA	B-NP	NN	B-protein	26	DEP	0
+26	)	)	O	)	O	23	NMOD	0
+27	,	,	O	,	O	30	P	0
+28	or	or	O	CC	O	30	NMOD	0
+29	nodal	nodal	B-NP	JJ	O	30	NMOD	0
+30	involvement	involvement	I-NP	NN	O	5	VMOD	0
+31	.	.	O	.	O	4	P	0
+
+1	However	However	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	survival	survival	B-NP	NN	O	4	NMOD	0
+4	analysis	analysis	I-NP	NN	O	5	SUB	0
+5	showed	show	B-VP	VBD	O	0	ROOT	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	COUP-TFII-positive	COUP-TFII-positive	I-NP	JJ	O	9	NMOD	9	positive
+9	group	group	I-NP	NN	O	10	SUB	0
+10	had	have	B-VP	VBD	O	6	SBAR	0
+11	a	a	B-NP	DT	O	14	NMOD	0
+12	significantly	significantly	I-NP	RB	O	13	AMOD	0
+13	better	good	I-NP	JJR	O	14	NMOD	0
+14	OS	OS	I-NP	NN	O	10	OBJ	0
+15	compared	compare	B-VP	VBN	O	10	VMOD	0
+16	to	to	B-PP	TO	O	15	PMOD	0
+17	COUP-TFII-negative	COUP-TFII-negative	B-NP	JJ	O	18	NMOD	9	negative
+18	group	group	I-NP	NN	O	16	PMOD	0
+19	(	(	O	(	O	18	NMOD	0
+20	80.4	80.4	B-NP	CD	O	21	NMOD	0
+21	%	%	I-NP	NN	O	19	ROOT	0
+22	vs.	vs.	B-PP	IN	O	21	NMOD	0
+23	57.7	57.7	B-NP	CD	O	24	NMOD	0
+24	%	%	I-NP	NN	O	26	NMOD	0
+25	,	,	O	,	O	26	P	0
+26	P=0.0491	P=0.0491	B-NP	NN	O	22	PMOD	0
+27	)	)	O	)	O	26	NMOD	0
+28	.	.	O	.	O	21	P	0
+
+1	Based	Base	B-PP	VBN	O	7	VMOD	0
+2	on	on	B-PP	IN	O	1	PMOD	0
+3	our	our	B-NP	PRP$	O	4	NMOD	0
+4	results	result	I-NP	NNS	O	2	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	COUP-TFII	COUP-TFII	B-NP	NN	B-protein	7	SUB	0
+7	may	may	B-VP	MD	O	0	ROOT	0
+8	represent	represent	I-VP	VB	O	7	VC	0
+9	a	a	B-NP	DT	O	10	NMOD	0
+10	biomarker	biomarker	I-NP	NN	O	8	OBJ	0
+11	for	for	B-PP	IN	O	10	NMOD	0
+12	good	good	B-NP	JJ	O	13	NMOD	0
+13	prognosis	prognosis	I-NP	NN	O	11	PMOD	0
+14	in	in	B-PP	IN	O	10	NMOD	0
+15	colorectal	colorectal	B-NP	JJ	O	16	NMOD	0
+16	cancer	cancer	I-NP	NN	O	14	PMOD	0
+17	.	.	O	.	O	7	P	0
+

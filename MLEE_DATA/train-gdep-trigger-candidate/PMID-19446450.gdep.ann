@@ -1,0 +1,144 @@
+1	AngiomiRs	AngiomiR	B-NP	NNS	O	4	NMOD	-1
+2	--	--	O	:	O	1	P	-1
+3	key	key	B-NP	JJ	O	4	NMOD	-1
+4	regulators	regulator	I-NP	NNS	O	0	ROOT	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	angiogenesis	angiogenesis	B-NP	NN	O	5	PMOD	3	angiogenesis
+7	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	formation	formation	I-NP	NN	O	12	SUB	2	formation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	new	new	B-NP	JJ	O	6	NMOD	-1
+5	blood	blood	I-NP	NN	O	6	NMOD	-1
+6	vessels	vessel	I-NP	NNS	O	3	PMOD	-1
+7	through	through	B-PP	IN	O	2	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	process	process	I-NP	NN	O	7	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	PMOD	3	angiogenesis
+12	is	be	B-VP	VBZ	O	0	ROOT	-1
+13	critical	critical	B-ADJP	JJ	O	12	PRD	17	critical
+14	in	in	B-PP	IN	O	13	AMOD	-1
+15	vascular	vascular	B-NP	JJ	O	16	NMOD	-1
+16	development	development	I-NP	NN	O	18	NMOD	2	development
+17	and	and	I-NP	CC	O	18	NMOD	-1
+18	homeostasis	homeostasis	I-NP	NN	O	14	PMOD	-1
+19	.	.	O	.	O	12	P	-1
+
+1	Aberrant	Aberrant	B-NP	JJ	O	2	NMOD	16	Aberrant
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	leads	lead	B-VP	VBZ	O	0	ROOT	17	leads
+4	to	to	B-PP	TO	O	3	VMOD	-1
+5	a	a	B-NP	DT	O	6	NMOD	-1
+6	variety	variety	I-NP	NN	O	4	PMOD	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	diseases	disease	B-NP	NNS	O	7	PMOD	-1
+9	,	,	O	,	O	8	P	-1
+10	such	such	B-PP	JJ	O	11	PMOD	-1
+11	as	as	I-PP	IN	O	8	NMOD	-1
+12	ischemia	ischemia	B-NP	NN	O	14	NMOD	-1
+13	and	and	I-NP	CC	O	14	NMOD	-1
+14	cancer	cancer	I-NP	NN	O	11	PMOD	-1
+15	.	.	O	.	O	3	P	-1
+
+1	Recent	Recent	B-NP	JJ	O	2	NMOD	-1
+2	studies	study	I-NP	NNS	O	3	SUB	-1
+3	have	have	B-VP	VBP	O	0	ROOT	-1
+4	revealed	reveal	I-VP	VBN	O	3	VC	-1
+5	important	important	B-NP	JJ	O	6	NMOD	0
+6	roles	role	I-NP	NNS	O	4	OBJ	0
+7	for	for	B-PP	IN	O	6	NMOD	-1
+8	miRNAs	miRNA	B-NP	NNS	B-RNA	7	PMOD	-1
+9	in	in	B-PP	IN	O	6	NMOD	-1
+10	regulating	regulate	B-VP	VBG	O	9	PMOD	16	regulating
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	-1
+12	cell	cell	I-NP	NN	I-cell_type	19	NMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	EC	EC	B-NP	NN	B-cell_type	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	function	function	B-NP	NN	O	12	NMOD	-1
+17	,	,	O	,	O	12	P	-1
+18	especially	especially	B-NP	RB	O	19	NMOD	-1
+19	angiogenesis	angiogenesis	I-NP	NN	O	10	OBJ	3	angiogenesis
+20	.	.	O	.	O	3	P	-1
+
+1	Mice	Mouse	B-NP	NNS	O	15	SUB	-1
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	EC-specific	EC-specific	B-NP	JJ	O	4	NMOD	-1
+4	deletion	deletion	I-NP	NN	O	2	PMOD	18	deletion
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	Dicer	Dicer	B-NP	NNP	O	10	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	a	a	B-NP	DT	O	10	NMOD	-1
+9	key	key	I-NP	JJ	O	10	NMOD	-1
+10	enzyme	enzyme	I-NP	NN	O	5	PMOD	-1
+11	for	for	B-PP	IN	O	10	NMOD	-1
+12	generating	generate	B-VP	VBG	O	13	NMOD	0
+13	miRNAs	miRNA	B-NP	NNS	B-RNA	11	PMOD	-1
+14	,	,	O	,	O	1	P	-1
+15	display	display	B-VP	VBP	O	0	ROOT	-1
+16	defective	defective	B-NP	JJ	O	18	NMOD	0
+17	postnatal	postnatal	I-NP	JJ	O	18	NMOD	-1
+18	angiogenesis	angiogenesis	I-NP	NN	O	15	OBJ	3	angiogenesis
+19	.	.	O	.	O	15	P	-1
+
+1	Specific	Specific	B-NP	JJ	O	2	NMOD	-1
+2	miRNAs	miRNA	I-NP	NNS	O	6	SUB	-1
+3	(	(	O	(	O	5	DEP	-1
+4	angiomiRs	angiomiR	B-NP	NNS	O	5	DEP	-1
+5	)	)	O	)	O	2	NMOD	-1
+6	have	have	B-VP	VBP	O	0	ROOT	-1
+7	recently	recently	I-VP	RB	O	6	VMOD	-1
+8	been	be	I-VP	VBN	O	6	VC	-1
+9	shown	show	I-VP	VBN	O	8	VC	-1
+10	to	to	I-VP	TO	O	11	VMOD	-1
+11	regulate	regulate	I-VP	VB	O	9	VMOD	16	regulate
+12	angiogenesis	angiogenesis	B-NP	NN	O	11	OBJ	3	angiogenesis
+13	in	in	B-ADVP	FW	O	11	VMOD	-1
+14	vivo	vivo	I-ADVP	FW	O	13	AMOD	-1
+15	.	.	O	.	O	6	P	-1
+
+1	miRNA-126	miRNA-126	B-NP	NN	O	5	NMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	an	an	B-NP	DT	O	5	NMOD	-1
+4	EC-restricted	EC-restricted	I-NP	JJ	B-RNA	5	NMOD	-1
+5	miRNA	miRNA	I-NP	NN	I-RNA	7	SUB	-1
+6	,	,	O	,	O	5	P	-1
+7	regulates	regulate	B-VP	VBZ	O	0	ROOT	16	regulates
+8	vascular	vascular	B-NP	JJ	O	9	NMOD	-1
+9	integrity	integrity	I-NP	NN	O	12	NMOD	-1
+10	and	and	O	CC	O	12	NMOD	-1
+11	developmental	developmental	B-NP	JJ	O	12	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	7	OBJ	3	angiogenesis
+13	.	.	O	.	O	7	P	-1
+
+1	miR-378	miR-378	B-NP	NN	O	8	NMOD	-1
+2	,	,	O	,	O	8	P	-1
+3	miR-296	miR-296	B-NP	NN	O	8	NMOD	-1
+4	,	,	O	,	O	8	P	-1
+5	and	and	O	CC	O	8	NMOD	-1
+6	the	the	B-NP	DT	O	8	NMOD	-1
+7	miR-17-92	miR-17-92	I-NP	NN	B-DNA	8	NMOD	-1
+8	cluster	cluster	I-NP	NN	I-DNA	9	SUB	-1
+9	contribute	contribute	B-VP	VBP	O	0	ROOT	16	contribute
+10	to	to	B-PP	TO	O	9	VMOD	-1
+11	tumor	tumor	B-NP	NN	O	12	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	10	PMOD	3	angiogenesis
+13	.	.	O	.	O	9	P	-1
+
+1	Manipulating	Manipulate	B-VP	VBG	O	2	NMOD	-1
+2	angiomiRs	angiomiR	B-NP	NNS	O	9	SUB	-1
+3	in	in	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	settings	setting	I-NP	NNS	O	3	PMOD	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	pathological	pathological	B-NP	JJ	O	8	NMOD	-1
+8	vascularization	vascularization	I-NP	NN	O	6	PMOD	3	vascularization
+9	represents	represent	B-VP	VBZ	O	0	ROOT	-1
+10	a	a	B-NP	DT	O	13	NMOD	-1
+11	new	new	I-NP	JJ	O	13	NMOD	-1
+12	therapeutic	therapeutic	I-NP	JJ	O	13	NMOD	-1
+13	approach	approach	I-NP	NN	O	9	OBJ	-1
+14	.	.	O	.	O	9	P	-1
+

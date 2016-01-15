@@ -1,0 +1,257 @@
+1	Effects	Effect	B-NP	NNS	O	0	ROOT	16	Effects
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	spironolactone	spironolactone	B-NP	NN	O	2	PMOD	-1
+4	on	on	B-PP	IN	O	1	NMOD	-1
+5	corneal	corneal	B-NP	JJ	O	7	NMOD	-1
+6	allograft	allograft	I-NP	NN	O	7	NMOD	-1
+7	survival	survival	I-NP	NN	O	4	PMOD	5	survival
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	rat	rat	I-NP	NN	O	8	PMOD	-1
+11	.	.	O	.	O	1	P	-1
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	3	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Spironolactone	Spironolactone	B-NP	NN	O	4	SUB	-1
+4	has	have	B-VP	VBZ	O	0	ROOT	-1
+5	recently	recently	I-VP	RB	O	4	VMOD	-1
+6	been	be	I-VP	VBN	O	4	VC	-1
+7	shown	show	I-VP	VBN	O	6	VC	-1
+8	to	to	I-VP	TO	O	9	VMOD	-1
+9	have	have	I-VP	VB	O	7	VMOD	-1
+10	suppressive	suppressive	B-NP	JJ	O	11	NMOD	-1
+11	effects	effect	I-NP	NNS	O	9	OBJ	0
+12	on	on	B-PP	IN	O	9	VMOD	-1
+13	several	several	B-NP	JJ	O	12	PMOD	-1
+14	immunoactive	immunoactive	I-NP	JJ	O	13	NMOD	-1
+15	and	and	I-NP	CC	O	13	NMOD	-1
+16	proinflammatory	proinflammatory	I-NP	JJ	B-protein	13	NMOD	-1
+17	cytokines	cytokine	I-NP	NNS	I-protein	13	NMOD	-1
+18	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	investigated	investigate	B-VP	VBD	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	effects	effect	I-NP	NNS	O	6	OBJ	16	effects
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	spironolactone	spironolactone	B-NP	NN	O	9	PMOD	-1
+11	on	on	B-PP	IN	O	8	NMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	prevention	prevention	I-NP	NN	O	11	PMOD	18	prevention
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	corneal	corneal	B-NP	JJ	O	17	NMOD	-1
+16	allograft	allograft	I-NP	NN	O	17	NMOD	-1
+17	rejection	rejection	I-NP	NN	O	14	PMOD	5	rejection
+18	in	in	B-PP	IN	O	17	NMOD	-1
+19	a	a	B-NP	DT	O	27	NMOD	-1
+20	MHC	MHC	I-NP	NN	B-cell_line	27	NMOD	-1
+21	class	class	I-NP	NN	I-cell_line	27	NMOD	-1
+22	I/II	I/II	I-NP	NN	I-cell_line	27	NMOD	-1
+23	mismatch	mismatch	I-NP	NN	I-cell_line	27	NMOD	-1
+24	rat	rat	I-NP	NN	I-cell_line	27	NMOD	-1
+25	corneal	corneal	I-NP	NN	I-cell_line	27	NMOD	-1
+26	transplant	transplant	I-NP	NN	I-cell_line	27	NMOD	19	transplant
+27	model	model	I-NP	NN	I-cell_line	18	PMOD	-1
+28	.	.	O	.	O	6	P	-1
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Grafted	Graft	B-NP	VBN	O	4	NMOD	0
+4	animals	animal	I-NP	NNS	O	9	SUB	-1
+5	for	for	B-PP	IN	O	4	NMOD	-1
+6	corneal	corneal	B-NP	JJ	O	8	NMOD	-1
+7	survival	survival	I-NP	NN	O	8	NMOD	5	survival
+8	analysis	analysis	I-NP	NN	O	5	PMOD	-1
+9	were	be	B-VP	VBD	O	1	NMOD	-1
+10	assigned	assign	I-VP	VBN	O	9	VC	-1
+11	to	to	I-VP	TO	O	12	VMOD	-1
+12	receive	receive	I-VP	VB	O	10	VMOD	-1
+13	either	either	O	CC	O	15	NMOD	-1
+14	spironolactone	spironolactone	B-NP	NN	O	15	NMOD	-1
+15	suspension	suspension	I-NP	NN	O	12	OBJ	-1
+16	(	(	O	(	O	12	VMOD	-1
+17	orally	orally	B-ADVP	RB	O	12	VMOD	-1
+18	,	,	O	,	O	12	P	-1
+19	100	100	B-NP	CD	O	20	NMOD	-1
+20	mg/kg/day	mg/kg/day	I-NP	NN	O	24	NMOD	-1
+21	,	,	O	,	O	24	P	-1
+22	n	n	B-NP	NN	O	24	SUB	-1
+23	=	=	B-VP	SYM	O	24	VMOD	-1
+24	7	7	B-NP	CD	O	12	VMOD	-1
+25	)	)	O	)	O	24	NMOD	-1
+26	,	,	O	,	O	12	P	-1
+27	phosphate-buffered	phosphate-buffered	B-NP	JJ	O	28	NMOD	-1
+28	saline	saline	I-NP	NN	O	12	OBJ	-1
+29	(	(	O	(	O	28	NMOD	-1
+30	PBS	PBS	B-NP	NNS	O	29	ROOT	-1
+31	,	,	O	,	O	30	P	-1
+32	orally	orally	B-ADVP	RB	O	30	NMOD	-1
+33	,	,	O	,	O	32	P	-1
+34	same	same	B-NP	JJ	O	35	NMOD	-1
+35	volume	volume	I-NP	NN	O	39	NMOD	-1
+36	as	as	B-PP	IN	O	35	NMOD	-1
+37	spironolactone	spironolactone	B-NP	NN	O	36	PMOD	-1
+38	,	,	O	,	O	39	P	-1
+39	n	n	B-NP	NN	O	33	NMOD	-1
+40	=	=	B-VP	SYM	O	39	NMOD	-1
+41	9	9	B-NP	CD	O	40	AMOD	-1
+42	)	)	O	)	O	39	NMOD	-1
+43	or	or	O	CC	O	39	NMOD	-1
+44	remained	remain	B-VP	VBD	O	43	DEP	-1
+45	untreated	untreated	B-ADJP	JJ	O	44	PRD	0
+46	(	(	O	(	O	50	DEP	-1
+47	n	n	B-NP	NN	O	50	DEP	-1
+48	=	=	B-VP	SYM	O	47	NMOD	-1
+49	16	16	B-NP	CD	O	48	AMOD	-1
+50	)	)	O	)	O	45	AMOD	-1
+51	.	.	O	.	O	39	P	-1
+
+1	Additional	Additional	B-NP	JJ	O	3	NMOD	-1
+2	grafted	grafted	I-NP	JJ	O	3	NMOD	19	grafted
+3	rats	rat	I-NP	NNS	O	19	SUB	-1
+4	treated	treat	B-VP	VBN	O	3	NMOD	19	treated
+5	with	with	B-PP	IN	O	4	VMOD	-1
+6	spironolactone	spironolactone	B-NP	NN	O	13	NMOD	-1
+7	(	(	O	(	O	11	DEP	-1
+8	n	n	B-NP	NN	O	10	SUB	-1
+9	=	=	B-VP	SYM	O	10	VMOD	-1
+10	6	6	B-NP	CD	O	11	DEP	-1
+11	)	)	O	)	O	6	NMOD	-1
+12	or	or	O	CC	O	13	NMOD	-1
+13	PBS	PBS	B-NP	NNS	B-protein	5	PMOD	-1
+14	(	(	O	(	O	18	DEP	-1
+15	n	n	B-NP	NN	O	17	SUB	-1
+16	=	=	B-VP	SYM	O	17	VMOD	-1
+17	8	8	B-NP	CD	O	18	DEP	-1
+18	)	)	O	)	O	13	NMOD	-1
+19	were	be	B-VP	VBD	O	0	ROOT	-1
+20	sacrificed	sacrifice	I-VP	VBN	O	19	VC	19	sacrificed
+21	on	on	B-PP	IN	O	20	VMOD	-1
+22	day	day	B-NP	NN	O	21	PMOD	-1
+23	12	12	I-NP	CD	O	22	NMOD	-1
+24	for	for	B-PP	IN	O	20	VMOD	-1
+25	quantitative	quantitative	B-NP	JJ	O	27	NMOD	-1
+26	RT-PCR	RT-PCR	I-NP	NN	O	27	NMOD	-1
+27	analysis	analysis	I-NP	NN	O	24	PMOD	-1
+28	for	for	B-PP	IN	O	27	NMOD	-1
+29	mechanistic	mechanistic	B-NP	JJ	O	30	NMOD	-1
+30	studies	study	I-NP	NNS	O	28	PMOD	-1
+31	.	.	O	.	O	19	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	Mean	Mean	B-NP	NN	O	8	NMOD	-1
+4	(	(	O	(	O	6	DEP	-1
+5	+/-SEM	+/-SEM	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	graft	graft	B-NP	NN	O	8	NMOD	-1
+8	survival	survival	I-NP	NN	O	9	SUB	5	survival
+9	was	be	B-VP	VBD	O	1	NMOD	-1
+10	significantly	significantly	I-VP	RB	O	9	VMOD	-1
+11	prolonged	prolong	I-VP	VBN	O	9	VC	17	prolonged
+12	in	in	B-PP	IN	O	11	VMOD	-1
+13	animals	animal	B-NP	NNS	O	12	PMOD	-1
+14	receiving	receive	B-VP	VBG	O	13	NMOD	19	receiving
+15	spironolactone	spironolactone	B-NP	NN	O	14	OBJ	-1
+16	(	(	O	(	O	21	DEP	-1
+17	14.9	14.9	B-NP	CD	O	19	AMOD	-1
+18	+/-	+/-	I-NP	CC	O	19	AMOD	-1
+19	2.0	2.0	I-NP	CD	O	20	NMOD	-1
+20	days	day	I-NP	NNS	O	21	DEP	-1
+21	)	)	O	)	O	15	NMOD	-1
+22	compared	compare	B-PP	VBN	O	11	VMOD	-1
+23	with	with	B-PP	IN	O	22	PMOD	-1
+24	both	both	O	CC	O	38	NMOD	-1
+25	PBS-treated	PBS-treated	O	JJ	O	38	NMOD	19	treated
+26	(	(	O	(	O	35	DEP	-1
+27	12.3	12.3	B-NP	CD	O	29	AMOD	-1
+28	+/-	+/-	I-NP	CC	O	29	AMOD	-1
+29	1.2	1.2	I-NP	CD	O	30	NMOD	-1
+30	days	day	I-NP	NNS	O	34	NMOD	-1
+31	,	,	O	,	O	34	P	-1
+32	p	p	B-NP	NN	O	34	SUB	-1
+33	=	=	B-VP	SYM	O	34	VMOD	-1
+34	0.007	0.007	B-NP	CD	O	35	DEP	-1
+35	)	)	O	)	O	25	AMOD	-1
+36	and	and	O	CC	O	38	NMOD	-1
+37	untreated	untreated	B-NP	JJ	O	38	NMOD	19	untreated
+38	controls	control	I-NP	NNS	O	23	PMOD	0
+39	(	(	O	(	O	48	DEP	-1
+40	13.0	13.0	B-NP	CD	O	42	AMOD	-1
+41	+/-	+/-	I-NP	CC	O	42	AMOD	-1
+42	1.0	1.0	I-NP	CD	O	43	NMOD	-1
+43	days	day	I-NP	NNS	O	48	DEP	-1
+44	,	,	O	,	O	48	P	-1
+45	p	p	B-NP	NN	O	48	DEP	-1
+46	=	=	B-VP	SYM	O	45	NMOD	-1
+47	0.01	0.01	B-NP	CD	O	46	AMOD	-1
+48	)	)	O	)	O	38	NMOD	-1
+49	.	.	O	.	O	1	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	found	find	B-VP	VBD	O	0	ROOT	0
+3	a	a	B-NP	DT	O	4	NMOD	-1
+4	decrease	decrease	I-NP	NN	O	2	OBJ	18	decrease
+5	in	in	B-PP	IN	O	4	NMOD	-1
+6	corneal	corneal	B-NP	JJ	O	7	NMOD	-1
+7	neovascularization	neovascularization	I-NP	NN	O	5	PMOD	3	neovascularization
+8	in	in	B-PP	IN	O	4	NMOD	-1
+9	spironolactone-treated	spironolactone-treated	B-NP	JJ	O	10	NMOD	19	treated
+10	rats	rat	I-NP	NNS	O	8	PMOD	-1
+11	compared	compare	B-PP	VBN	O	4	NMOD	-1
+12	with	with	B-PP	IN	O	11	VMOD	-1
+13	the	the	B-NP	DT	O	15	NMOD	-1
+14	PBS-treated	PBS-treated	I-NP	JJ	O	15	NMOD	19	treated
+15	group	group	I-NP	NN	O	12	PMOD	-1
+16	,	,	O	,	O	2	P	-1
+17	although	although	B-SBAR	IN	O	2	VMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	difference	difference	I-NP	NN	O	20	SUB	-1
+20	was	be	B-VP	VBD	O	17	SBAR	-1
+21	not	not	O	RB	O	20	VMOD	-1
+22	statistically	statistically	B-ADJP	RB	O	20	VMOD	-1
+23	significant	significant	I-ADJP	JJ	O	20	PRD	-1
+24	.	.	O	.	O	2	P	-1
+
+1	Spironolactone	Spironolactone	B-NP	NN	O	2	SUB	-1
+2	affected	affect	B-VP	VBD	O	0	ROOT	16	affected
+3	both	both	O	CC	O	16	NMOD	-1
+4	systemic	systemic	O	JJ	O	16	NMOD	-1
+5	(	(	O	(	O	12	DEP	-1
+6	down-regulation	down-regulation	B-NP	NN	O	12	DEP	18	down-regulation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	CD25+	CD25+	B-NP	JJ	B-cell_type	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+10	in	in	B-PP	IN	O	6	NMOD	-1
+11	spleen	spleen	B-NP	NN	O	10	PMOD	-1
+12	)	)	O	)	O	4	NMOD	-1
+13	and	and	O	CC	O	16	NMOD	-1
+14	local	local	B-NP	JJ	O	16	NMOD	-1
+15	immune	immune	I-NP	JJ	O	16	NMOD	-1
+16	response	response	I-NP	NN	O	2	OBJ	0
+17	(	(	O	(	O	23	DEP	-1
+18	up-regulation	up-regulation	B-NP	NN	O	23	DEP	17	up-regulation
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	IL-10	IL-10	B-NP	NN	B-protein	19	PMOD	-1
+21	in	in	B-PP	IN	O	18	NMOD	-1
+22	cornea	cornea	B-NP	NN	O	21	PMOD	-1
+23	)	)	O	)	O	16	NMOD	-1
+24	.	.	O	.	O	2	P	-1
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	4	VMOD	-1
+2	:	:	O	:	O	4	P	-1
+3	We	We	B-NP	PRP	O	4	SUB	-1
+4	present	present	B-VP	VBP	O	0	ROOT	0
+5	initial	initial	B-NP	JJ	O	6	NMOD	-1
+6	results	result	I-NP	NNS	O	4	OBJ	0
+7	demonstrating	demonstrate	B-VP	VBG	O	6	NMOD	-1
+8	anti-inflammatory	anti-inflammatory	B-NP	JJ	O	9	NMOD	-1
+9	effects	effect	I-NP	NNS	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	spironolactone	spironolactone	B-NP	NN	O	10	PMOD	-1
+12	.	.	O	.	O	4	P	-1
+

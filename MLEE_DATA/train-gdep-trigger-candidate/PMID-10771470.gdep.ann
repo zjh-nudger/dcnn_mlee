@@ -1,0 +1,258 @@
+1	Active	Active	B-NP	JJ	O	3	NMOD	-1
+2	hair	hair	I-NP	NN	O	3	NMOD	-1
+3	growth	growth	I-NP	NN	O	7	SUB	4	growth
+4	(	(	O	(	O	6	DEP	-1
+5	anagen	anagen	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	associated	associate	I-VP	VBN	O	7	VC	16	associated
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	PMOD	3	angiogenesis
+11	.	.	O	.	O	7	P	-1
+
+1	After	After	B-PP	IN	O	0	ROOT	-1
+2	the	the	B-NP	DT	O	3	NMOD	-1
+3	completion	completion	I-NP	NN	O	1	PMOD	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	skin	skin	B-NP	NN	O	6	NMOD	-1
+6	development	development	I-NP	NN	O	22	SUB	2	development
+7	,	,	O	,	O	22	P	-1
+8	angiogenesis	angiogenesis	B-NP	NN	O	22	SUB	3	angiogenesis
+9	,	,	O	,	O	22	P	-1
+10	i.e.	i.e.	B-NP	FW	O	22	VMOD	-1
+11	,	,	O	,	O	22	P	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	growth	growth	I-NP	NN	O	22	SUB	4	growth
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	new	new	B-NP	JJ	O	16	NMOD	-1
+16	capillaries	capillary	I-NP	NNS	O	14	PMOD	-1
+17	from	from	B-PP	IN	O	16	NMOD	-1
+18	pre-existing	pre-existing	B-NP	JJ	O	20	NMOD	-1
+19	blood	blood	I-NP	NN	O	20	NMOD	-1
+20	vessels	vessel	I-NP	NNS	O	17	PMOD	-1
+21	,	,	O	,	O	13	P	-1
+22	is	be	B-VP	VBZ	O	4	SBAR	-1
+23	held	hold	I-VP	VBN	O	22	VC	-1
+24	to	to	I-VP	TO	O	25	VMOD	-1
+25	occur	occur	I-VP	VB	O	23	VMOD	-1
+26	in	in	B-PP	IN	O	25	VMOD	-1
+27	the	the	B-NP	DT	O	28	NMOD	-1
+28	skin	skin	I-NP	NN	O	26	PMOD	-1
+29	only	only	B-ADVP	RB	O	30	PMOD	-1
+30	under	under	B-PP	IN	O	25	VMOD	-1
+31	pathologic	pathologic	B-NP	JJ	O	32	NMOD	-1
+32	conditions	condition	I-NP	NNS	O	30	PMOD	-1
+33	.	.	O	.	O	1	P	-1
+
+1	It	It	B-NP	PRP	O	2	SUB	-1
+2	has	have	B-VP	VBZ	O	0	ROOT	-1
+3	long	long	I-VP	RB	O	2	VMOD	-1
+4	been	be	I-VP	VBN	O	2	VC	-1
+5	noted	note	I-VP	VBN	O	4	VC	-1
+6	,	,	O	,	O	2	P	-1
+7	however	however	B-ADVP	RB	O	2	VMOD	-1
+8	,	,	O	,	O	2	P	-1
+9	that	that	B-SBAR	IN	O	2	VMOD	-1
+10	hair	hair	B-NP	NN	O	12	NMOD	-1
+11	follicle	follicle	I-NP	NN	O	12	NMOD	-1
+12	cycling	cycling	I-NP	NN	O	13	SUB	2	cycling
+13	is	be	B-VP	VBZ	O	9	SBAR	-1
+14	associated	associate	I-VP	VBN	O	13	VC	16	associated
+15	with	with	B-PP	IN	O	14	VMOD	-1
+16	prominent	prominent	B-NP	JJ	O	17	NMOD	-1
+17	changes	change	I-NP	NNS	O	15	PMOD	0
+18	in	in	B-PP	IN	O	17	NMOD	-1
+19	skin	skin	B-NP	NN	O	20	NMOD	-1
+20	perfusion	perfusion	I-NP	NN	O	18	PMOD	0
+21	,	,	O	,	O	2	P	-1
+22	that	that	B-SBAR	IN	O	35	DEP	-1
+23	the	the	B-NP	DT	O	26	NMOD	-1
+24	epithelial	epithelial	I-NP	JJ	B-protein	26	NMOD	-1
+25	hair	hair	I-NP	NN	I-protein	26	NMOD	-1
+26	bulbs	bulb	I-NP	NNS	I-protein	30	SUB	-1
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	anagen	anagen	B-NP	NN	O	29	NMOD	-1
+29	follicles	follicle	I-NP	NNS	O	27	PMOD	-1
+30	display	display	B-VP	VBP	O	22	SBAR	-1
+31	angiogenic	angiogenic	B-NP	JJ	O	32	NMOD	3	angiogenic
+32	properties	property	I-NP	NNS	O	30	OBJ	0
+33	,	,	O	,	O	35	P	-1
+34	and	and	O	CC	O	35	DEP	-1
+35	that	that	B-SBAR	IN	O	2	VMOD	-1
+36	the	the	B-NP	DT	O	39	NMOD	-1
+37	follicular	follicular	I-NP	JJ	O	38	AMOD	-1
+38	dermal	dermal	I-NP	JJ	O	39	NMOD	-1
+39	papilla	papilla	I-NP	NN	O	40	SUB	-1
+40	can	can	B-VP	MD	O	35	SBAR	-1
+41	produce	produce	I-VP	VB	O	40	VC	0
+42	angiogenic	angiogenic	B-NP	JJ	B-protein	43	NMOD	3	angiogenic
+43	factors	factor	I-NP	NNS	I-protein	41	OBJ	-1
+44	.	.	O	.	O	2	P	-1
+
+1	Despite	Despite	B-PP	IN	O	9	VMOD	-1
+2	these	these	B-NP	DT	O	4	NMOD	-1
+3	suggestive	suggestive	I-NP	JJ	O	4	NMOD	-1
+4	observations	observation	I-NP	NNS	O	1	PMOD	-1
+5	,	,	O	,	O	9	P	-1
+6	no	no	B-NP	DT	O	8	NMOD	-1
+7	formal	formal	I-NP	JJ	O	8	NMOD	-1
+8	proof	proof	I-NP	NN	O	9	SUB	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	as	as	B-PP	RB	O	9	PRD	-1
+11	yet	yet	B-ADJP	RB	O	10	AMOD	-1
+12	available	available	I-ADJP	JJ	O	10	AMOD	-1
+13	for	for	B-PP	IN	O	10	AMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	concept	concept	I-NP	NN	O	13	PMOD	-1
+16	that	that	B-SBAR	IN	O	15	NMOD	-1
+17	angiogenesis	angiogenesis	B-NP	NN	O	18	SUB	3	angiogenesis
+18	is	be	B-VP	VBZ	O	16	SBAR	-1
+19	a	a	B-NP	DT	O	21	NMOD	-1
+20	physiologic	physiologic	I-NP	JJ	O	21	NMOD	-1
+21	event	event	I-NP	NN	O	18	PRD	-1
+22	that	that	B-NP	WDT	O	21	NMOD	-1
+23	occurs	occur	B-VP	VBZ	O	22	SBAR	-1
+24	all	all	B-PP	DT	O	23	VMOD	-1
+25	over	over	I-PP	IN	O	24	PMOD	-1
+26	the	the	B-NP	DT	O	29	NMOD	-1
+27	mature	mature	I-NP	JJ	O	29	NMOD	-1
+28	mammalian	mammalian	I-NP	JJ	O	29	NMOD	-1
+29	integument	integument	I-NP	NN	O	25	PMOD	-1
+30	whenever	whenever	B-ADVP	WRB	O	29	NMOD	-1
+31	hair	hair	B-NP	NN	O	32	NMOD	-1
+32	follicles	follicle	I-NP	NNS	O	33	SUB	-1
+33	switch	switch	B-VP	VBP	O	30	SBAR	-1
+34	from	from	B-PP	IN	O	33	VMOD	-1
+35	resting	rest	B-VP	VBG	O	34	PMOD	4	resting
+36	(	(	O	(	O	38	DEP	-1
+37	telogen	telogen	B-NP	NN	O	38	DEP	-1
+38	)	)	O	)	O	35	VMOD	-1
+39	to	to	B-PP	TO	O	33	VMOD	-1
+40	active	active	B-NP	JJ	O	41	NMOD	-1
+41	growth	growth	I-NP	NN	O	39	PMOD	4	growth
+42	(	(	O	(	O	44	DEP	-1
+43	anagen	anagen	B-NP	NN	O	44	DEP	-1
+44	)	)	O	)	O	41	NMOD	-1
+45	.	.	O	.	O	9	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	study	study	I-NP	NN	O	3	SUB	-1
+3	uses	use	B-VP	VBZ	O	0	ROOT	-1
+4	quantitative	quantitative	B-NP	JJ	O	5	NMOD	-1
+5	histomorphometry	histomorphometry	I-NP	NN	O	9	NMOD	-1
+6	and	and	O	CC	O	9	NMOD	-1
+7	double-immunohistologic	double-immunohistologic	B-NP	JJ	O	9	NMOD	-1
+8	detection	detection	I-NP	NN	O	9	NMOD	-1
+9	techniques	technique	I-NP	NNS	O	3	OBJ	-1
+10	for	for	B-PP	IN	O	9	NMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	demarcation	demarcation	I-NP	NN	O	10	PMOD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	proliferating	proliferate	B-VP	VBG	B-cell_type	16	NMOD	1	proliferating
+15	endothelial	endothelial	B-NP	JJ	I-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	-1
+17	,	,	O	,	O	3	P	-1
+18	to	to	B-VP	TO	O	19	VMOD	-1
+19	show	show	I-VP	VB	O	3	VMOD	-1
+20	that	that	B-SBAR	IN	O	19	VMOD	-1
+21	synchronized	synchronize	B-NP	VBN	O	24	NMOD	-1
+22	hair	hair	I-NP	NN	O	24	NMOD	-1
+23	follicle	follicle	I-NP	NN	O	24	NMOD	-1
+24	cycling	cycling	I-NP	NN	O	29	SUB	2	cycling
+25	in	in	B-PP	IN	O	24	NMOD	-1
+26	adolescent	adolescent	B-NP	JJ	O	28	NMOD	-1
+27	C57BL/6	C57BL/6	I-NP	NN	O	28	NMOD	-1
+28	mice	mouse	I-NP	NNS	O	25	PMOD	-1
+29	is	be	B-VP	VBZ	O	20	SBAR	-1
+30	associated	associate	I-VP	VBN	O	29	VC	16	associated
+31	with	with	B-PP	IN	O	30	VMOD	-1
+32	substantial	substantial	B-NP	JJ	O	33	NMOD	-1
+33	angiogenesis	angiogenesis	I-NP	NN	O	31	PMOD	3	angiogenesis
+34	,	,	O	,	O	36	P	-1
+35	and	and	O	CC	O	36	DEP	-1
+36	that	that	B-SBAR	IN	O	3	VMOD	-1
+37	inhibiting	inhibit	B-VP	VBG	O	51	SUB	18	inhibiting
+38	angiogenesis	angiogenesis	B-NP	NN	O	37	OBJ	3	angiogenesis
+39	in	in	B-ADVP	FW	O	37	VMOD	-1
+40	vivo	vivo	I-ADVP	FW	O	39	AMOD	-1
+41	by	by	B-PP	IN	O	37	VMOD	-1
+42	the	the	B-NP	DT	O	44	NMOD	-1
+43	intraperitoneal	intraperitoneal	I-NP	JJ	O	44	NMOD	-1
+44	application	application	I-NP	NN	O	41	PMOD	0
+45	of	of	B-PP	IN	O	44	NMOD	-1
+46	a	a	B-NP	DT	O	49	NMOD	-1
+47	fumagillin	fumagillin	I-NP	NN	O	49	NMOD	-1
+48	derivative	derivative	I-NP	JJ	O	49	NMOD	-1
+49	retards	retard	I-NP	NNS	O	45	PMOD	0
+50	experimentally	experimentally	B-ADVP	RB	O	51	VMOD	-1
+51	induced	induce	B-VP	VBD	O	36	SBAR	0
+52	anagen	anagen	B-NP	NN	O	53	NMOD	-1
+53	development	development	I-NP	NN	O	51	OBJ	0
+54	in	in	B-PP	IN	O	51	VMOD	-1
+55	these	these	B-NP	DT	O	56	NMOD	-1
+56	mice	mouse	I-NP	NNS	O	54	PMOD	-1
+57	.	.	O	.	O	3	P	-1
+
+1	Thus	Thus	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	angiogenesis	angiogenesis	B-NP	NN	O	4	SUB	3	angiogenesis
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	a	a	B-NP	DT	O	7	NMOD	-1
+6	physiologic	physiologic	I-NP	JJ	O	7	NMOD	-1
+7	event	event	I-NP	NN	O	4	PRD	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	normal	normal	B-NP	JJ	O	12	NMOD	-1
+10	postnatal	postnatal	I-NP	JJ	O	12	NMOD	-1
+11	murine	murine	I-NP	JJ	O	12	NMOD	-1
+12	skin	skin	I-NP	NN	O	8	PMOD	-1
+13	,	,	O	,	O	4	P	-1
+14	apparently	apparently	B-ADVP	RB	O	4	VMOD	-1
+15	is	be	B-VP	VBZ	O	4	VMOD	-1
+16	dictated	dictate	I-VP	VBN	O	15	VC	-1
+17	by	by	B-PP	IN	O	16	VMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	hair	hair	I-NP	NN	O	20	NMOD	-1
+20	follicle	follicle	I-NP	NN	O	17	PMOD	-1
+21	,	,	O	,	O	4	P	-1
+22	and	and	O	CC	O	4	VMOD	-1
+23	appears	appear	B-VP	VBZ	O	4	VMOD	-1
+24	to	to	I-VP	TO	O	25	VMOD	-1
+25	be	be	I-VP	VB	O	23	VMOD	-1
+26	required	require	I-VP	VBN	O	25	VC	0
+27	for	for	B-PP	IN	O	26	VMOD	-1
+28	normal	normal	B-NP	JJ	O	30	NMOD	-1
+29	anagen	anagen	I-NP	NN	O	30	NMOD	-1
+30	development	development	I-NP	NN	O	27	PMOD	0
+31	.	.	O	.	O	4	P	-1
+
+1	Anagen-associated	Anagen-associated	B-NP	JJ	O	2	NMOD	16	associated
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	offers	offer	B-VP	VBZ	O	19	VMOD	-1
+4	an	an	B-NP	DT	O	6	NMOD	-1
+5	attractive	attractive	I-NP	JJ	O	6	NMOD	-1
+6	model	model	I-NP	NN	O	3	OBJ	-1
+7	for	for	B-PP	IN	O	6	NMOD	-1
+8	identifying	identify	B-VP	VBG	O	7	PMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	physiologic	physiologic	I-NP	JJ	O	11	NMOD	-1
+11	controls	control	I-NP	NNS	O	8	OBJ	0
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	cutaneous	cutaneous	B-NP	JJ	O	14	NMOD	-1
+14	angiogenesis	angiogenesis	I-NP	NN	O	12	PMOD	3	angiogenesis
+15	,	,	O	,	O	19	P	-1
+16	and	and	O	CC	O	19	NMOD	-1
+17	an	an	B-NP	DT	O	19	NMOD	-1
+18	interesting	interesting	I-NP	JJ	O	19	NMOD	-1
+19	system	system	I-NP	NN	O	0	ROOT	0
+20	for	for	B-PP	IN	O	19	NMOD	-1
+21	screening	screen	B-VP	VBG	O	20	PMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	effects	effect	I-NP	NNS	O	21	OBJ	0
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	potential	potential	B-NP	JJ	O	27	NMOD	0
+26	antiangiogenic	antiangiogenic	I-NP	JJ	O	27	NMOD	3	angiogenic
+27	drugs	drug	I-NP	NNS	O	24	PMOD	-1
+28	in	in	B-ADVP	FW	O	27	NMOD	-1
+29	vivo	vivo	I-ADVP	FW	O	28	AMOD	-1
+30	.	.	O	.	O	19	P	-1
+

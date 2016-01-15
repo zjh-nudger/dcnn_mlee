@@ -1,0 +1,293 @@
+1	Stimulation	Stimulation	B-NP	NN	O	0	ROOT	17	Stimulation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	endothelial	endothelial	B-NP	JJ	B-cell_type	5	NMOD	0
+4	cell	cell	I-NP	NN	I-cell_type	5	NMOD	0
+5	migration	migration	I-NP	NN	O	2	PMOD	14	migration
+6	by	by	B-PP	IN	O	1	NMOD	0
+7	vascular	vascular	B-NP	JJ	B-protein	12	NMOD	0
+8	permeability	permeability	I-NP	NN	I-protein	12	NMOD	0
+9	factor/vascular	factor/vascular	I-NP	JJ	I-protein	12	NMOD	0
+10	endothelial	endothelial	I-NP	JJ	I-protein	12	NMOD	0
+11	growth	growth	I-NP	NN	I-protein	12	NMOD	0
+12	factor	factor	I-NP	NN	I-protein	6	PMOD	0
+13	through	through	B-PP	IN	O	1	NMOD	0
+14	cooperative	cooperative	B-NP	JJ	O	15	NMOD	0
+15	mechanisms	mechanism	I-NP	NNS	O	13	PMOD	0
+16	involving	involve	B-VP	VBG	O	15	NMOD	0
+17	the	the	B-NP	DT	O	19	NMOD	0
+18	alphavbeta3	alphavbeta3	I-NP	NN	B-protein	19	NMOD	0
+19	integrin	integrin	I-NP	NN	I-protein	24	NMOD	0
+20	,	,	O	,	O	24	P	0
+21	osteopontin	osteopontin	B-NP	NN	B-protein	24	NMOD	0
+22	,	,	O	,	O	24	P	0
+23	and	and	O	CC	O	24	NMOD	0
+24	thrombin	thrombin	B-NP	NN	B-protein	16	OBJ	0
+25	.	.	O	.	O	1	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	have	have	B-VP	VBP	O	0	ROOT	0
+3	identified	identify	I-VP	VBN	O	2	VC	0
+4	several	several	B-NP	JJ	O	5	NMOD	0
+5	mechanisms	mechanism	I-NP	NNS	O	3	OBJ	0
+6	by	by	B-PP	IN	O	5	NMOD	0
+7	which	which	B-NP	WDT	O	6	PMOD	0
+8	the	the	B-NP	DT	O	16	NMOD	0
+9	angiogenic	angiogenic	I-NP	JJ	B-protein	16	NMOD	3	angiogenic
+10	cytokine	cytokine	I-NP	NN	I-protein	16	NMOD	0
+11	vascular	vascular	I-NP	JJ	O	16	NMOD	0
+12	permeability	permeability	I-NP	NN	O	16	NMOD	0
+13	factor/vascular	factor/vascular	I-NP	JJ	O	16	NMOD	0
+14	endothelial	endothelial	I-NP	JJ	O	16	NMOD	0
+15	growth	growth	I-NP	NN	O	16	NMOD	0
+16	factor	factor	I-NP	NN	O	21	SUB	0
+17	(	(	O	(	O	19	DEP	0
+18	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	19	DEP	0
+19	)	)	O	)	O	16	NMOD	0
+20	likely	likely	B-VP	RB	O	21	VMOD	0
+21	regulates	regulate	I-VP	VBZ	O	6	SBAR	16	regulates
+22	endothelial	endothelial	B-NP	JJ	B-cell_type	23	NMOD	0
+23	cells	cell	I-NP	NNS	I-cell_type	27	NMOD	0
+24	(	(	O	(	O	26	DEP	0
+25	EC	EC	B-NP	NNS	B-cell_type	26	DEP	0
+26	)	)	O	)	O	23	NMOD	0
+27	migration	migration	B-NP	NN	O	21	OBJ	14	migration
+28	.	.	O	.	O	2	P	0
+
+1	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	2	SUB	0
+2	induced	induce	B-VP	VBD	O	32	VMOD	17	induced
+3	dermal	dermal	B-NP	JJ	O	6	NMOD	0
+4	microvascular	microvascular	I-NP	JJ	O	6	NMOD	0
+5	EC	EC	I-NP	NN	O	6	NMOD	0
+6	expression	expression	I-NP	NN	O	2	OBJ	10	expression
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	mRNAs	mRNA	B-NP	NNS	B-RNA	7	PMOD	0
+9	encoding	encode	B-VP	VBG	O	8	NMOD	0
+10	the	the	B-NP	DT	O	15	NMOD	0
+11	alphav	alphav	I-NP	NN	B-protein	15	NMOD	0
+12	and	and	I-NP	CC	I-protein	15	NMOD	0
+13	beta3	beta3	I-NP	NN	I-protein	15	NMOD	0
+14	integrin	integrin	I-NP	NN	I-protein	15	NMOD	0
+15	subunits	subunit	I-NP	NNS	I-protein	9	OBJ	0
+16	resulting	result	B-VP	VBG	O	2	VMOD	0
+17	in	in	B-PP	IN	O	16	VMOD	0
+18	increased	increase	B-NP	VBN	O	19	NMOD	17	increased
+19	levels	level	I-NP	NNS	O	17	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	alphavbeta3	alphavbeta3	I-NP	NN	B-protein	23	NMOD	0
+23	heterodimer	heterodimer	I-NP	NN	I-protein	20	PMOD	0
+24	at	at	B-PP	IN	O	16	VMOD	0
+25	the	the	B-NP	DT	O	27	NMOD	0
+26	cell	cell	I-NP	NN	O	27	NMOD	0
+27	surface	surface	I-NP	NN	O	24	PMOD	0
+28	,	,	O	,	O	32	P	0
+29	and	and	O	CC	O	30	NMOD	0
+30	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	32	SUB	0
+31	also	also	B-ADVP	RB	O	32	VMOD	0
+32	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+33	mRNA	mRNA	B-NP	NN	B-RNA	32	OBJ	0
+34	encoding	encode	B-VP	VBG	O	33	NMOD	0
+35	osteopontin	osteopontin	B-NP	NN	B-protein	42	NMOD	0
+36	(	(	O	(	O	38	DEP	0
+37	OPN	OPN	B-NP	NN	B-protein	38	DEP	0
+38	)	)	O	)	O	35	NMOD	0
+39	,	,	O	,	O	42	P	0
+40	an	an	B-NP	DT	O	42	NMOD	0
+41	alphavbeta3	alphavbeta3	I-NP	NN	O	42	NMOD	0
+42	ligand	ligand	I-NP	NN	O	34	OBJ	0
+43	.	.	O	.	O	32	P	0
+
+1	OPN	OPN	B-NP	NN	O	2	SUB	0
+2	promoted	promote	B-VP	VBD	O	13	VMOD	17	promoted
+3	EC	EC	B-NP	NN	B-cell_type	4	NMOD	0
+4	migration	migration	I-NP	NN	O	13	VMOD	14	migration
+5	in	in	B-ADVP	FW	O	4	NMOD	0
+6	vitro	vitro	I-ADVP	FW	O	5	AMOD	0
+7	;	;	O	:	O	13	P	0
+8	and	and	O	CC	O	13	VMOD	0
+9	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	10	NMOD	0
+10	induction	induction	I-NP	NN	O	13	SUB	17	induction
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	alphavbeta3	alphavbeta3	B-NP	NN	B-protein	11	PMOD	0
+13	was	be	B-VP	VBD	O	0	ROOT	0
+14	accompanied	accompany	I-VP	VBN	O	13	VC	0
+15	by	by	B-PP	IN	O	14	VMOD	0
+16	increased	increase	B-NP	VBN	O	18	NMOD	17	increased
+17	EC	EC	I-NP	NN	O	18	NMOD	0
+18	migration	migration	I-NP	NN	O	15	PMOD	14	migration
+19	toward	toward	B-PP	IN	O	18	NMOD	0
+20	OPN	OPN	B-NP	NN	B-protein	19	PMOD	0
+21	.	.	O	.	O	13	P	0
+
+1	Because	Because	B-SBAR	IN	O	34	VMOD	0
+2	thrombin	thrombin	B-NP	NN	B-protein	3	NMOD	0
+3	cleavage	cleavage	I-NP	NN	O	6	SUB	17	cleavage
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	OPN	OPN	B-NP	NN	B-protein	4	PMOD	0
+6	results	result	B-VP	VBZ	O	1	SBAR	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	substantial	substantial	B-NP	JJ	O	9	NMOD	0
+9	enhancement	enhancement	I-NP	NN	O	7	PMOD	17	enhancement
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	OPN	OPN	B-NP	NN	O	14	NMOD	0
+12	's	's	B-NP	POS	O	14	NMOD	0
+13	adhesive	adhesive	I-NP	JJ	O	14	NMOD	0
+14	properties	property	I-NP	NNS	O	10	PMOD	0
+15	,	,	O	,	O	34	P	0
+16	and	and	O	CC	O	34	VMOD	0
+17	because	because	B-SBAR	IN	O	34	VMOD	0
+18	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	19	SUB	0
+19	promotes	promote	B-VP	VBZ	O	17	SBAR	17	promotes
+20	increased	increase	I-VP	VBN	O	22	NMOD	17	increased
+21	microvascular	microvascular	B-NP	JJ	O	22	NMOD	0
+22	permeability	permeability	I-NP	NN	O	19	OBJ	0
+23	leading	lead	B-VP	VBG	O	22	NMOD	0
+24	to	to	B-PP	TO	O	23	VMOD	0
+25	activation	activation	B-NP	NN	O	24	PMOD	17	activation
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	the	the	B-NP	DT	O	30	NMOD	0
+28	extrinsic	extrinsic	I-NP	JJ	O	30	NMOD	0
+29	coagulation	coagulation	I-NP	NN	O	30	NMOD	0
+30	pathway	pathway	I-NP	NN	O	26	PMOD	0
+31	,	,	O	,	O	34	P	0
+32	we	we	B-NP	PRP	O	34	SUB	0
+33	also	also	B-ADVP	RB	O	34	VMOD	0
+34	investigated	investigate	B-VP	VBD	O	0	ROOT	0
+35	whether	whether	B-SBAR	IN	O	34	VMOD	0
+36	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	37	SUB	0
+37	facilitates	facilitate	B-VP	VBZ	O	35	SBAR	16	facilitates
+38	thrombin	thrombin	B-NP	NN	B-protein	39	NMOD	0
+39	cleavage	cleavage	I-NP	NN	O	37	OBJ	17	cleavage
+40	of	of	B-PP	IN	O	39	NMOD	0
+41	OPN	OPN	B-NP	NN	B-protein	40	PMOD	0
+42	in	in	B-ADVP	FW	O	37	VMOD	0
+43	vivo	vivo	I-ADVP	FW	O	42	AMOD	0
+44	.	.	O	.	O	34	P	0
+
+1	Consistent	Consistent	B-ADJP	JJ	O	12	VMOD	0
+2	with	with	B-PP	IN	O	1	AMOD	0
+3	this	this	B-NP	DT	O	4	NMOD	0
+4	hypothesis	hypothesis	I-NP	NN	O	2	PMOD	0
+5	,	,	O	,	O	12	P	0
+6	co-injection	co-injection	B-NP	NN	O	12	SUB	19	co-injection
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	7	PMOD	0
+9	together	together	B-ADVP	RB	O	10	PMOD	0
+10	with	with	B-PP	IN	O	6	NMOD	0
+11	OPN	OPN	B-NP	NN	B-protein	10	PMOD	0
+12	resulted	result	B-VP	VBD	O	0	ROOT	0
+13	in	in	B-PP	IN	O	12	VMOD	0
+14	rapid	rapid	B-NP	JJ	O	15	NMOD	0
+15	cleavage	cleavage	I-NP	NN	O	13	PMOD	17	cleavage
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	OPN	OPN	B-NP	NN	B-protein	16	PMOD	0
+18	by	by	B-PP	IN	O	15	NMOD	0
+19	endogenous	endogenous	B-NP	JJ	O	18	PMOD	0
+20	thrombin	thrombin	I-NP	NN	B-protein	19	NMOD	0
+21	.	.	O	.	O	12	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	11	VMOD	0
+2	,	,	O	,	O	11	P	0
+3	in	in	B-PP	IN	O	11	VMOD	0
+4	comparison	comparison	B-NP	NN	O	3	PMOD	0
+5	with	with	B-PP	IN	O	4	NMOD	0
+6	native	native	B-NP	JJ	O	7	NMOD	0
+7	OPN	OPN	I-NP	NN	O	5	PMOD	0
+8	,	,	O	,	O	11	P	0
+9	thrombin-cleaved	thrombin-cleaved	B-NP	JJ	B-protein	10	NMOD	17	cleaved
+10	OPN	OPN	I-NP	NN	I-protein	11	SUB	0
+11	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+12	a	a	B-NP	DT	O	14	NMOD	0
+13	greater	great	I-NP	JJR	O	14	NMOD	0
+14	rate	rate	I-NP	NN	O	11	OBJ	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	EC	EC	B-NP	NN	B-cell_type	17	NMOD	0
+17	migration	migration	I-NP	NN	O	15	PMOD	14	migration
+18	in	in	B-ADVP	FW	O	19	AMOD	0
+19	vitro	vitro	I-ADVP	FW	O	17	NMOD	0
+20	,	,	O	,	O	17	P	0
+21	which	which	B-NP	WDT	O	17	NMOD	0
+22	was	be	B-VP	VBD	O	21	SBAR	0
+23	additive	additive	B-ADJP	JJ	O	22	PRD	0
+24	to	to	B-PP	TO	O	23	AMOD	0
+25	the	the	B-NP	DT	O	27	NMOD	0
+26	increased	increase	I-NP	VBN	O	27	NMOD	0
+27	migration	migration	I-NP	NN	O	24	PMOD	0
+28	associated	associate	B-VP	VBN	O	27	NMOD	0
+29	with	with	B-PP	IN	O	28	VMOD	0
+30	induction	induction	B-NP	NN	O	29	PMOD	17	induction
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	alpha	alpha	B-NP	SYM	B-protein	34	NMOD	0
+33	v	v	I-NP	NN	I-protein	34	NMOD	0
+34	beta	beta	B-NP	SYM	I-protein	31	PMOD	0
+35	3	3	I-NP	CD	I-protein	34	NMOD	0
+36	.	.	O	.	O	11	P	0
+
+1	Thus	Thus	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	these	these	B-NP	DT	O	4	NMOD	0
+4	data	datum	I-NP	NNS	O	5	SUB	0
+5	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+6	cooperative	cooperative	B-NP	JJ	O	7	NMOD	0
+7	mechanisms	mechanism	I-NP	NNS	O	22	NMOD	0
+8	for	for	B-PP	IN	O	7	NMOD	0
+9	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	10	NMOD	0
+10	regulation	regulation	I-NP	NN	O	8	PMOD	16	regulation
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	EC	EC	B-NP	NN	B-cell_type	13	NMOD	0
+13	migration	migration	I-NP	NN	O	11	PMOD	14	migration
+14	involving	involve	B-VP	VBG	O	13	NMOD	0
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	alphavbeta3	alphavbeta3	I-NP	NN	B-protein	17	NMOD	0
+17	integrin	integrin	I-NP	NN	I-protein	14	OBJ	0
+18	,	,	O	,	O	7	P	0
+19	the	the	B-NP	DT	O	22	NMOD	0
+20	alphavbeta3	alphavbeta3	I-NP	NN	O	22	NMOD	0
+21	ligand	ligand	I-NP	NN	O	22	NMOD	0
+22	OPN	OPN	I-NP	NN	O	26	NMOD	0
+23	,	,	O	,	O	26	P	0
+24	and	and	O	CC	O	26	NMOD	0
+25	thrombin	thrombin	B-NP	NN	B-protein	26	NMOD	0
+26	cleavage	cleavage	I-NP	NN	O	5	OBJ	17	cleavage
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	OPN	OPN	B-NP	NN	B-protein	27	PMOD	0
+29	.	.	O	.	O	5	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	findings	finding	I-NP	NNS	O	4	SUB	0
+3	also	also	B-ADVP	RB	O	4	VMOD	0
+4	illustrate	illustrate	B-VP	VBP	O	0	ROOT	0
+5	an	an	B-NP	DT	O	7	NMOD	0
+6	operational	operational	I-NP	JJ	O	7	NMOD	0
+7	link	link	I-NP	NN	O	4	OBJ	0
+8	between	between	B-PP	IN	O	7	NMOD	0
+9	VPF/VEGF	VPF/VEGF	B-NP	NN	B-protein	10	NMOD	0
+10	induction	induction	I-NP	NN	O	17	NMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	EC	EC	B-NP	NN	B-DNA	14	NMOD	0
+13	gene	gene	I-NP	NN	I-DNA	14	NMOD	0
+14	expression	expression	I-NP	NN	O	11	PMOD	0
+15	and	and	O	CC	O	17	NMOD	0
+16	VPF/VEGF	VPF/VEGF	B-NP	NN	O	17	NMOD	0
+17	enhancement	enhancement	I-NP	NN	O	8	PMOD	17	enhancement
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	microvascular	microvascular	B-NP	JJ	O	20	NMOD	0
+20	permeability	permeability	I-NP	NN	O	18	PMOD	0
+21	,	,	O	,	O	4	P	0
+22	suggesting	suggest	B-VP	VBG	O	4	VMOD	0
+23	that	that	B-SBAR	IN	O	22	VMOD	0
+24	these	these	B-NP	DT	O	27	NMOD	0
+25	distinct	distinct	I-NP	JJ	O	27	NMOD	0
+26	biological	biological	I-NP	JJ	O	27	NMOD	0
+27	activities	activity	I-NP	NNS	O	28	SUB	0
+28	may	may	B-VP	MD	O	23	SBAR	0
+29	act	act	I-VP	VB	O	28	VC	0
+30	accordingly	accordingly	B-ADVP	RB	O	29	VMOD	0
+31	to	to	B-VP	TO	O	32	VMOD	0
+32	stimulate	stimulate	I-VP	VB	O	29	VMOD	17	stimulate
+33	EC	EC	B-NP	NN	B-cell_type	34	NMOD	0
+34	migration	migration	I-NP	NN	O	32	OBJ	14	migration
+35	during	during	B-PP	IN	O	34	NMOD	0
+36	angiogenesis	angiogenesis	B-NP	NN	O	35	PMOD	3	angiogenesis
+37	.	.	O	.	O	4	P	0
+

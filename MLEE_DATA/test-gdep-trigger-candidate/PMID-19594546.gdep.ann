@@ -1,0 +1,242 @@
+1	c-Ski	c-Ski	B-NP	NN	B-protein	2	NMOD	-1
+2	overexpression	overexpression	I-NP	NN	O	3	SUB	9	overexpression
+3	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+4	tumor	tumor	B-NP	NN	O	5	NMOD	-1
+5	growth	growth	I-NP	NN	O	7	NMOD	4	growth
+6	and	and	I-NP	CC	O	7	NMOD	-1
+7	angiogenesis	angiogenesis	I-NP	NN	O	3	OBJ	3	angiogenesis
+8	through	through	B-PP	IN	O	3	VMOD	0
+9	inhibition	inhibition	B-NP	NN	O	8	PMOD	18	inhibition
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	transforming	transform	B-NP	VBG	B-protein	13	NMOD	-1
+12	growth	growth	I-NP	NN	I-protein	13	NMOD	0
+13	factor-beta	factor-beta	I-NP	NN	I-protein	14	NMOD	-1
+14	signaling	signaling	I-NP	NN	O	10	PMOD	0
+15	in	in	B-PP	IN	O	9	NMOD	-1
+16	diffuse-type	diffuse-type	B-NP	JJ	O	18	NMOD	-1
+17	gastric	gastric	I-NP	JJ	O	18	NMOD	-1
+18	carcinoma	carcinoma	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	3	P	-1
+
+1	c-Ski	c-Ski	B-NP	NN	B-protein	10	SUB	-1
+2	,	,	O	,	O	1	P	-1
+3	originally	originally	B-VP	RB	O	4	VMOD	-1
+4	identified	identify	I-VP	VBN	O	1	NMOD	-1
+5	as	as	B-PP	IN	O	4	VMOD	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	proto-oncogene	proto-oncogene	I-NP	NN	B-protein	8	NMOD	-1
+8	product	product	I-NP	NN	I-protein	5	PMOD	-1
+9	,	,	O	,	O	1	P	-1
+10	is	be	B-VP	VBZ	O	0	ROOT	-1
+11	an	an	B-NP	DT	O	14	NMOD	-1
+12	important	important	I-NP	JJ	O	14	NMOD	0
+13	negative	negative	I-NP	JJ	O	14	NMOD	0
+14	regulator	regulator	I-NP	NN	O	10	PRD	0
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	transforming	transform	B-VP	VBG	B-protein	24	NMOD	-1
+17	growth	growth	B-NP	NN	I-protein	24	NMOD	0
+18	factor	factor	I-NP	NN	I-protein	24	NMOD	-1
+19	(	(	O	(	I-protein	24	NMOD	-1
+20	TGF	TGF	B-NP	NN	I-protein	24	NMOD	-1
+21	)	)	O	)	I-protein	24	NMOD	-1
+22	-beta	-beta	B-NP	NN	I-protein	24	NMOD	-1
+23	family	family	I-NP	NN	I-protein	24	NMOD	-1
+24	signaling	signaling	I-NP	NN	O	15	PMOD	0
+25	through	through	B-PP	IN	O	10	VMOD	0
+26	interaction	interaction	B-NP	NN	O	25	PMOD	15	interaction
+27	with	with	B-PP	IN	O	26	NMOD	-1
+28	Smad2	Smad2	B-NP	NN	B-protein	33	NMOD	-1
+29	,	,	O	,	O	33	P	-1
+30	Smad3	Smad3	B-NP	NN	B-protein	33	NMOD	-1
+31	,	,	O	,	O	33	P	-1
+32	and	and	O	CC	O	33	NMOD	-1
+33	Smad4	Smad4	B-NP	NN	B-protein	27	PMOD	-1
+34	.	.	O	.	O	10	P	-1
+
+1	High	High	B-NP	JJ	O	2	NMOD	-1
+2	expression	expression	I-NP	NN	O	5	SUB	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	c-Ski	c-Ski	B-NP	NN	B-protein	3	PMOD	-1
+5	has	have	B-VP	VBZ	O	0	ROOT	-1
+6	been	be	I-VP	VBN	O	5	VC	-1
+7	found	find	I-VP	VBN	O	6	VC	0
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	some	some	B-NP	DT	O	10	NMOD	-1
+10	cancers	cancer	I-NP	NNS	O	8	PMOD	-1
+11	,	,	O	,	O	10	P	-1
+12	including	include	B-PP	VBG	O	10	NMOD	-1
+13	gastric	gastric	B-NP	JJ	O	14	NMOD	-1
+14	cancer	cancer	I-NP	NN	O	12	PMOD	-1
+15	.	.	O	.	O	5	P	-1
+
+1	We	We	B-NP	PRP	O	3	SUB	-1
+2	previously	previously	B-ADVP	RB	O	3	VMOD	-1
+3	showed	show	B-VP	VBD	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	disruption	disruption	B-NP	NN	O	21	SUB	18	disruption
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	TGF-beta	TGF-beta	B-NP	NN	B-protein	8	NMOD	-1
+8	signaling	signaling	I-NP	NN	O	6	PMOD	0
+9	by	by	B-PP	IN	O	5	NMOD	-1
+10	dominant-negative	dominant-negative	B-NP	JJ	B-protein	14	NMOD	-1
+11	TGF-beta	TGF-beta	I-NP	NN	I-protein	14	NMOD	-1
+12	type	type	I-NP	NN	I-protein	14	NMOD	-1
+13	II	II	I-NP	CD	I-protein	14	NMOD	-1
+14	receptor	receptor	I-NP	NN	I-protein	9	PMOD	-1
+15	in	in	B-PP	IN	O	5	NMOD	-1
+16	a	a	B-NP	DT	O	20	NMOD	-1
+17	diffuse-type	diffuse-type	I-NP	JJ	O	20	NMOD	-1
+18	gastric	gastric	I-NP	JJ	O	20	NMOD	-1
+19	carcinoma	carcinoma	I-NP	NN	O	20	NMOD	-1
+20	model	model	I-NP	NN	O	15	PMOD	-1
+21	accelerated	accelerate	B-VP	VBD	O	4	SBAR	17	accelerated
+22	tumor	tumor	B-NP	NN	O	23	NMOD	-1
+23	growth	growth	I-NP	NN	O	21	OBJ	4	growth
+24	through	through	B-PP	IN	O	21	VMOD	0
+25	induction	induction	B-NP	NN	O	24	PMOD	17	induction
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	tumor	tumor	B-NP	NN	O	28	NMOD	-1
+28	angiogenesis	angiogenesis	I-NP	NN	O	26	PMOD	3	angiogenesis
+29	by	by	B-PP	IN	O	25	NMOD	-1
+30	decreased	decrease	B-NP	VBN	O	31	NMOD	18	decreased
+31	expression	expression	I-NP	NN	O	29	PMOD	9	expression
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	the	the	B-NP	DT	O	38	NMOD	-1
+34	anti-angiogenic	anti-angiogenic	I-NP	JJ	B-protein	38	NMOD	3	angiogenic
+35	factor	factor	I-NP	NN	I-protein	38	NMOD	-1
+36	thrombospondin	thrombospondin	I-NP	NN	I-protein	38	NMOD	-1
+37	(	(	O	(	I-protein	38	NMOD	-1
+38	TSP	TSP	B-NP	NN	I-protein	32	PMOD	-1
+39	)	)	O	)	I-protein	38	NMOD	-1
+40	-1	-1	B-NP	CD	I-protein	38	NMOD	-1
+41	.	.	O	.	O	3	P	-1
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	examined	examine	B-VP	VBD	O	0	ROOT	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	function	function	I-NP	NN	O	4	OBJ	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	c-Ski	c-Ski	B-NP	NN	B-protein	7	PMOD	-1
+9	in	in	B-PP	IN	O	6	NMOD	-1
+10	human	human	B-NP	JJ	B-cell_type	15	NMOD	-1
+11	diffuse-type	diffuse-type	I-NP	JJ	I-cell_type	15	NMOD	-1
+12	gastric	gastric	I-NP	JJ	I-cell_type	15	NMOD	-1
+13	carcinoma	carcinoma	I-NP	NN	I-cell_type	15	NMOD	-1
+14	OCUM-2MLN	OCUM-2MLN	I-NP	NN	I-cell_type	15	NMOD	-1
+15	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	-1
+16	.	.	O	.	O	4	P	-1
+
+1	Overexpression	Overexpression	B-NP	NN	O	4	SUB	9	Overexpression
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	c-Ski	c-Ski	B-NP	NN	B-protein	2	PMOD	-1
+4	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+5	TGF-beta	TGF-beta	B-NP	NN	B-protein	6	NMOD	-1
+6	signaling	signaling	I-NP	NN	O	4	OBJ	0
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	OCUM-2MLN	OCUM-2MLN	B-NP	NN	B-cell_line	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_line	7	PMOD	-1
+10	.	.	O	.	O	4	P	-1
+
+1	Interestingly	Interestingly	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	c-Ski	c-Ski	B-NP	NN	B-protein	4	NMOD	-1
+4	overexpression	overexpression	I-NP	NN	O	5	SUB	9	overexpression
+5	resulted	result	B-VP	VBD	O	0	ROOT	0
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	extensive	extensive	B-NP	JJ	O	8	NMOD	-1
+8	acceleration	acceleration	I-NP	NN	O	6	PMOD	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	growth	growth	I-NP	NN	O	9	PMOD	4	growth
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	subcutaneous	subcutaneous	B-NP	JJ	O	14	NMOD	-1
+14	xenografts	xenograft	I-NP	NNS	O	12	PMOD	-1
+15	in	in	B-PP	IN	O	8	NMOD	-1
+16	BALB/c	BALB/c	B-NP	NN	O	19	NMOD	-1
+17	nu/nu	nu/nu	I-NP	NN	O	19	NMOD	-1
+18	female	female	I-NP	JJ	O	19	NMOD	-1
+19	mice	mouse	I-NP	NNS	O	15	PMOD	-1
+20	(	(	O	(	O	25	DEP	-1
+21	6	6	B-NP	CD	O	22	NMOD	-1
+22	weeks	week	I-NP	NNS	O	25	DEP	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	age	age	B-NP	NN	O	23	PMOD	-1
+25	)	)	O	)	O	19	NMOD	-1
+26	.	.	O	.	O	5	P	-1
+
+1	Similar	Similar	B-ADJP	JJ	O	13	VMOD	-1
+2	to	to	B-PP	TO	O	1	AMOD	-1
+3	tumors	tumor	B-NP	NNS	O	2	PMOD	-1
+4	expressing	express	B-VP	VBG	O	3	NMOD	9	expressing
+5	dominant-negative	dominant-negative	B-NP	JJ	B-protein	9	NMOD	-1
+6	TGF-beta	TGF-beta	I-NP	NN	I-protein	9	NMOD	-1
+7	type	type	I-NP	NN	I-protein	9	NMOD	-1
+8	II	II	I-NP	CD	I-protein	9	NMOD	-1
+9	receptor	receptor	I-NP	NN	I-protein	4	OBJ	-1
+10	,	,	O	,	O	13	P	-1
+11	histochemical	histochemical	B-NP	JJ	O	12	NMOD	-1
+12	studies	study	I-NP	NNS	O	13	SUB	-1
+13	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+14	less	less	B-NP	JJR	O	15	NMOD	-1
+15	fibrosis	fibrosis	I-NP	NN	O	18	NMOD	-1
+16	and	and	O	CC	O	18	NMOD	-1
+17	increased	increase	B-NP	VBN	O	18	NMOD	17	increased
+18	angiogenesis	angiogenesis	I-NP	NN	O	13	OBJ	3	angiogenesis
+19	in	in	B-PP	IN	O	18	NMOD	-1
+20	xenografted	xenografte	B-NP	VBN	O	21	NMOD	-1
+21	tumors	tumor	I-NP	NNS	O	19	PMOD	-1
+22	expressing	express	B-VP	VBG	O	21	NMOD	9	expressing
+23	c-Ski	c-Ski	B-NP	NN	B-protein	22	OBJ	-1
+24	compared	compare	B-VP	VBN	O	21	NMOD	-1
+25	to	to	I-VP	TO	O	26	VMOD	-1
+26	control	control	I-VP	VB	O	24	VMOD	0
+27	tumors	tumor	B-NP	NNS	O	26	OBJ	-1
+28	.	.	O	.	O	13	P	-1
+
+1	Induction	Induction	B-NP	NN	O	7	SUB	17	Induction
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	TSP-1	TSP-1	B-NP	NN	B-RNA	4	NMOD	-1
+4	mRNA	mRNA	I-NP	NN	I-RNA	2	PMOD	0
+5	by	by	B-PP	IN	O	1	NMOD	-1
+6	TGF-beta	TGF-beta	B-NP	NN	B-protein	5	PMOD	-1
+7	was	be	B-VP	VBD	O	19	VMOD	-1
+8	attenuated	attenuate	I-VP	VBN	O	7	VC	18	attenuated
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	c-Ski	c-Ski	B-NP	NN	B-protein	9	PMOD	-1
+11	in	in	B-ADVP	FW	O	8	VMOD	-1
+12	vitro	vitro	I-ADVP	FW	O	11	AMOD	-1
+13	,	,	O	,	O	19	P	-1
+14	and	and	O	CC	O	15	NMOD	-1
+15	expression	expression	B-NP	NN	O	19	SUB	10	expression
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	TSP-1	TSP-1	B-NP	NN	B-RNA	18	NMOD	-1
+18	mRNA	mRNA	I-NP	NN	I-RNA	16	PMOD	0
+19	was	be	B-VP	VBD	O	0	ROOT	-1
+20	decreased	decrease	I-VP	VBN	O	19	VC	18	decreased
+21	in	in	B-PP	IN	O	20	VMOD	-1
+22	tumors	tumor	B-NP	NNS	O	21	PMOD	-1
+23	expressing	express	B-VP	VBG	O	22	NMOD	9	expressing
+24	c-Ski	c-Ski	B-NP	NN	B-protein	23	OBJ	-1
+25	in	in	B-ADVP	FW	O	23	VMOD	-1
+26	vivo	vivo	I-ADVP	FW	O	25	AMOD	-1
+27	.	.	O	.	O	19	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	findings	finding	I-NP	NNS	O	3	SUB	-1
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	c-Ski	c-Ski	B-NP	NN	B-protein	6	NMOD	-1
+6	overexpression	overexpression	I-NP	NN	O	7	SUB	9	overexpression
+7	promotes	promote	B-VP	VBZ	O	4	SBAR	17	promotes
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	growth	growth	I-NP	NN	O	7	OBJ	4	growth
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	diffuse-type	diffuse-type	B-NP	JJ	O	13	NMOD	-1
+12	gastric	gastric	I-NP	JJ	O	13	NMOD	-1
+13	carcinoma	carcinoma	I-NP	NN	O	10	PMOD	-1
+14	through	through	B-PP	IN	O	7	VMOD	0
+15	induction	induction	B-NP	NN	O	14	PMOD	17	induction
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis

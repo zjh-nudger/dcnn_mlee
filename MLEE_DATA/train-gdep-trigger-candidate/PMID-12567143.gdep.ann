@@ -1,0 +1,185 @@
+1	Postoperative	Postoperative	B-NP	JJ	O	2	NMOD	-1
+2	progression	progression	I-NP	NN	O	0	ROOT	17	progression
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	pulmonary	pulmonary	B-NP	JJ	O	5	NMOD	-1
+5	metastasis	metastasis	I-NP	NN	O	3	PMOD	14	metastasis
+6	in	in	B-PP	IN	O	2	NMOD	-1
+7	osteosarcoma	osteosarcoma	B-NP	NN	O	6	PMOD	-1
+8	.	.	O	.	O	2	P	-1
+
+1	Early	Early	B-NP	RB	O	2	NMOD	-1
+2	relapse	relapse	I-NP	NN	O	7	SUB	-1
+3	with	with	B-PP	IN	O	2	NMOD	-1
+4	distant	distant	B-NP	JJ	O	5	NMOD	-1
+5	metastasis	metastasis	I-NP	NN	O	3	PMOD	14	metastasis
+6	often	often	B-ADVP	RB	O	7	VMOD	-1
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	observed	observe	I-VP	VBN	O	7	VC	0
+9	in	in	B-PP	IN	O	8	VMOD	-1
+10	patients	patient	B-NP	NNS	O	9	PMOD	-1
+11	with	with	B-PP	IN	O	10	NMOD	-1
+12	cancer	cancer	B-NP	NN	O	11	PMOD	-1
+13	after	after	B-PP	IN	O	10	NMOD	-1
+14	resection	resection	B-NP	NN	O	13	PMOD	19	resection
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	the	the	B-NP	DT	O	18	NMOD	-1
+17	primary	primary	I-NP	JJ	O	18	NMOD	-1
+18	tumor	tumor	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	7	P	-1
+
+1	It	It	B-NP	PRP	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	considered	consider	I-VP	VBN	O	2	VC	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	resection	resection	B-NP	NN	O	10	SUB	19	resection
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	primary	primary	I-NP	JJ	O	9	NMOD	-1
+9	tumor	tumor	I-NP	NN	O	6	PMOD	-1
+10	induces	induce	B-VP	VBZ	O	4	SBAR	17	induces
+11	activation	activation	B-NP	NN	O	10	OBJ	17	activation
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	systemic	systemic	B-NP	JJ	O	14	NMOD	-1
+14	angiogenesis	angiogenesis	I-NP	NN	O	12	PMOD	3	angiogenesis
+15	and	and	O	CC	O	10	VMOD	-1
+16	enhances	enhance	B-VP	VBZ	O	10	VMOD	17	enhances
+17	progression	progression	B-NP	NN	O	16	OBJ	17	progression
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	remote	remote	B-NP	JJ	O	20	NMOD	-1
+20	metastasis	metastasis	I-NP	NN	O	18	PMOD	14	metastasis
+21	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	authors	author	I-NP	NNS	O	3	SUB	-1
+3	show	show	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	resection	resection	B-NP	NN	O	11	SUB	19	resection
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	10	NMOD	-1
+8	primary	primary	I-NP	JJ	O	10	NMOD	-1
+9	osteosarcoma	osteosarcoma	I-NP	NN	O	10	NMOD	-1
+10	tumor	tumor	I-NP	NN	O	6	PMOD	-1
+11	enhances	enhance	B-VP	VBZ	O	4	SBAR	17	enhances
+12	progression	progression	B-NP	NN	O	11	OBJ	17	progression
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	pulmonary	pulmonary	B-NP	JJ	O	15	NMOD	-1
+15	metastasis	metastasis	I-NP	NN	O	13	PMOD	14	metastasis
+16	in	in	B-PP	IN	O	12	NMOD	-1
+17	animal	animal	B-NP	NN	O	19	NMOD	-1
+18	osteosarcoma	osteosarcoma	I-NP	NN	O	19	NMOD	-1
+19	models	model	I-NP	NNS	O	16	PMOD	-1
+20	.	.	O	.	O	3	P	-1
+
+1	Matrigel	Matrigel	B-NP	NNP	O	4	NMOD	-1
+2	plug	plug	I-NP	NN	O	4	NMOD	-1
+3	neovascularization	neovascularization	I-NP	NN	O	4	NMOD	3	neovascularization
+4	assay	assay	I-NP	NN	O	5	SUB	-1
+5	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	systemic	systemic	B-NP	JJ	O	9	NMOD	-1
+8	angiogenic	angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	activity	activity	I-NP	NN	O	10	SUB	0
+10	was	be	B-VP	VBD	O	6	SBAR	-1
+11	elevated	elevate	I-VP	VBN	O	10	VC	17	elevated
+12	after	after	B-PP	IN	O	11	VMOD	-1
+13	primary	primary	B-NP	JJ	O	15	NMOD	-1
+14	tumor	tumor	I-NP	NN	O	15	NMOD	-1
+15	removal	removal	I-NP	NN	O	12	PMOD	19	removal
+16	(	(	O	(	O	34	DEP	-1
+17	tumor	tumor	B-NP	NN	O	19	NMOD	-1
+18	intact	intact	I-NP	JJ	O	19	NMOD	-1
+19	group	group	I-NP	NN	O	24	NMOD	-1
+20	,	,	O	,	O	24	P	-1
+21	1.61	1.61	B-NP	CD	O	23	AMOD	-1
+22	+/-	+/-	I-NP	SYM	O	23	AMOD	-1
+23	0.21	0.21	I-NP	CD	O	24	NMOD	-1
+24	g/dL	g/dL	I-NP	NN	O	27	SUB	-1
+25	;	;	O	:	O	27	P	-1
+26	tumor	tumor	B-NP	NN	O	27	SUB	-1
+27	removed	remove	B-VP	VBD	O	34	DEP	0
+28	group	group	B-NP	NN	O	33	NMOD	-1
+29	,	,	O	,	O	33	P	-1
+30	4.92	4.92	B-NP	CD	O	32	AMOD	-1
+31	+/-	+/-	I-NP	SYM	O	32	AMOD	-1
+32	0.35	0.35	I-NP	CD	O	33	NMOD	-1
+33	g/dL	g/dL	I-NP	NN	O	27	OBJ	-1
+34	)	)	O	)	O	15	NMOD	-1
+35	.	.	O	.	O	5	P	-1
+
+1	In	In	B-PP	IN	O	13	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	13	P	-1
+4	serum	serum	B-NP	NN	O	5	NMOD	-1
+5	concentration	concentration	I-NP	NN	O	13	SUB	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	angiogenesis	angiogenesis	I-NP	NN	O	9	NMOD	3	angiogenesis
+9	inhibitor	inhibitor	I-NP	NN	O	11	NMOD	0
+10	,	,	O	,	O	11	P	-1
+11	endostatin	endostatin	B-NP	NN	O	6	PMOD	-1
+12	,	,	O	,	O	5	P	-1
+13	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+14	significantly	significantly	B-ADVP	RB	O	13	VMOD	-1
+15	after	after	B-PP	IN	O	13	VMOD	-1
+16	primary	primary	B-NP	JJ	O	18	NMOD	-1
+17	tumor	tumor	I-NP	NN	O	18	NMOD	-1
+18	removal	removal	I-NP	NN	O	15	PMOD	19	removal
+19	.	.	O	.	O	13	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	7	SUB	19	Treatment
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	6	NMOD	-1
+4	antiangiogenic	antiangiogenic	I-NP	JJ	O	6	NMOD	3	angiogenic
+5	reagent	reagent	I-NP	NN	O	6	NMOD	-1
+6	TNP-470	TNP-470	I-NP	NN	O	2	PMOD	-1
+7	suppressed	suppress	B-VP	VBD	O	0	ROOT	18	suppressed
+8	postoperative	postoperative	B-NP	JJ	O	9	NMOD	-1
+9	progression	progression	I-NP	NN	O	7	OBJ	17	progression
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	pulmonary	pulmonary	B-NP	JJ	O	12	NMOD	-1
+12	metastasis	metastasis	I-NP	NN	O	10	PMOD	14	metastasis
+13	.	.	O	.	O	7	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	possibility	possibility	I-NP	NN	O	3	OBJ	-1
+6	that	that	B-SBAR	IN	O	5	NMOD	-1
+7	activation	activation	B-NP	NN	O	16	SUB	17	activation
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	angiogenic	angiogenic	B-NP	JJ	O	10	NMOD	3	angiogenic
+10	activity	activity	I-NP	NN	O	8	PMOD	0
+11	after	after	B-PP	IN	O	7	NMOD	-1
+12	resection	resection	B-NP	NN	O	11	PMOD	19	resection
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	osteosarcoma	osteosarcoma	B-NP	NN	O	15	NMOD	-1
+15	tumors	tumor	I-NP	NNS	O	13	PMOD	-1
+16	enhances	enhance	B-VP	VBZ	O	6	SBAR	17	enhances
+17	progression	progression	B-NP	NN	O	16	OBJ	17	progression
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	pulmonary	pulmonary	B-NP	JJ	O	20	NMOD	-1
+20	metastasis	metastasis	I-NP	NN	O	18	PMOD	14	metastasis
+21	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	current	current	I-NP	JJ	O	3	NMOD	-1
+3	data	datum	I-NP	NNS	O	5	SUB	-1
+4	also	also	B-ADVP	RB	O	5	VMOD	-1
+5	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	administration	administration	B-NP	NN	O	11	SUB	19	administration
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	antiangiogenic	antiangiogenic	B-NP	JJ	O	10	NMOD	3	angiogenic
+10	reagents	reagent	I-NP	NNS	O	8	PMOD	-1
+11	can	can	B-VP	MD	O	6	SBAR	-1
+12	prevent	prevent	I-VP	VB	O	11	VC	18	prevent
+13	progression	progression	B-NP	NN	O	12	OBJ	17	progression
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	pulmonary	pulmonary	B-NP	JJ	O	16	NMOD	-1
+16	metastasis	metastasis	I-NP	NN	O	14	PMOD	14	metastasis
+17	in	in	B-PP	IN	O	13	NMOD	-1
+18	osteosarcoma	osteosarcoma	B-NP	NN	O	17	PMOD	-1
+19	postoperatively	postoperatively	B-ADVP	RB	O	12	VMOD	-1
+20	.	.	O	.	O	5	P	-1
+

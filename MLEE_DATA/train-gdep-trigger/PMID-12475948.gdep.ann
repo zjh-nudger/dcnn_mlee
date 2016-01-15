@@ -1,0 +1,269 @@
+1	Adaptor	Adaptor	B-NP	NN	B-protein	3	NMOD	0
+2	protein	protein	I-NP	NN	I-protein	3	NMOD	0
+3	Crk	Crk	I-NP	NN	B-protein	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	required	require	I-VP	VBN	O	4	VC	17	required
+6	for	for	B-PP	IN	O	5	VMOD	0
+7	ephrin-B1-induced	ephrin-B1-induced	B-NP	JJ	O	9	NMOD	17	induced
+8	membrane	membrane	I-NP	NN	O	9	NMOD	0
+9	ruffling	ruffling	I-NP	NN	O	13	NMOD	14	ruffling
+10	and	and	O	CC	O	13	NMOD	0
+11	focal	focal	B-NP	JJ	O	13	NMOD	0
+12	complex	complex	I-NP	JJ	O	13	NMOD	0
+13	assembly	assembly	I-NP	NN	O	6	PMOD	15	assembly
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	human	human	B-NP	JJ	B-cell_type	18	NMOD	0
+16	aortic	aortic	I-NP	JJ	I-cell_type	18	NMOD	0
+17	endothelial	endothelial	I-NP	JJ	I-cell_type	18	NMOD	0
+18	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+19	.	.	O	.	O	4	P	0
+
+1	Endothelial	Endothelial	B-NP	JJ	O	3	NMOD	0
+2	cell	cell	I-NP	NN	O	3	NMOD	0
+3	migration	migration	I-NP	NN	O	4	SUB	14	migration
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	an	an	B-NP	DT	O	7	NMOD	0
+6	essential	essential	I-NP	JJ	O	7	NMOD	17	essential
+7	step	step	I-NP	NN	O	4	PRD	0
+8	in	in	B-PP	IN	O	7	NMOD	0
+9	vasculogenesis	vasculogenesis	B-NP	NN	O	11	NMOD	3	vasculogenesis
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	angiogenesis	angiogenesis	I-NP	NN	O	8	PMOD	3	angiogenesis
+12	,	,	O	,	O	7	P	0
+13	in	in	B-PP	IN	O	7	NMOD	0
+14	which	which	B-NP	WDT	O	13	PMOD	0
+15	receptor	receptor	B-NP	NN	B-protein	17	NMOD	0
+16	tyrosine	tyrosine	I-NP	NN	I-protein	17	NMOD	0
+17	kinases	kinase	I-NP	NNS	I-protein	18	SUB	0
+18	play	play	B-VP	VBP	O	13	SBAR	0
+19	a	a	B-NP	DT	O	21	NMOD	0
+20	pivotal	pivotal	I-NP	JJ	O	21	NMOD	0
+21	role	role	I-NP	NN	O	18	OBJ	0
+22	.	.	O	.	O	4	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	investigated	investigate	B-VP	VBD	O	0	ROOT	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	mechanism	mechanism	I-NP	NN	O	2	OBJ	0
+5	by	by	B-PP	IN	O	4	NMOD	0
+6	which	which	B-NP	WDT	O	5	PMOD	0
+7	ephrin-B1	ephrin-B1	B-NP	NN	B-protein	8	SUB	0
+8	promotes	promote	B-VP	VBZ	O	5	SBAR	17	promotes
+9	membrane	membrane	B-NP	NN	O	10	NMOD	0
+10	ruffling	ruffling	I-NP	NN	O	8	OBJ	14	ruffling
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	human	human	B-NP	JJ	B-cell_type	15	NMOD	0
+13	aortic	aortic	I-NP	JJ	I-cell_type	15	NMOD	0
+14	endothelial	endothelial	I-NP	JJ	I-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+16	,	,	O	,	O	2	P	0
+17	because	because	B-SBAR	IN	O	2	VMOD	0
+18	membrane	membrane	B-NP	NN	O	19	NMOD	0
+19	ruffling	ruffling	I-NP	NN	O	20	SUB	14	ruffling
+20	heralds	herald	B-VP	VBZ	O	17	SBAR	0
+21	cell	cell	B-NP	NN	O	23	NMOD	0
+22	body	body	I-NP	NN	O	23	NMOD	0
+23	migration	migration	I-NP	NN	O	20	OBJ	14	migration
+24	.	.	O	.	O	2	P	0
+
+1	We	We	B-NP	PRP	O	3	SUB	0
+2	especially	especially	B-ADVP	RB	O	3	VMOD	0
+3	focused	focus	B-VP	VBD	O	0	ROOT	0
+4	on	on	B-PP	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	role	role	I-NP	NN	O	4	PMOD	16	role
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	Crk	Crk	B-NP	NN	B-protein	10	NMOD	0
+9	adaptor	adaptor	I-NP	NN	I-protein	10	NMOD	0
+10	protein	protein	I-NP	NN	I-protein	7	PMOD	0
+11	in	in	B-PP	IN	O	6	NMOD	0
+12	EphB-mediated	EphB-mediated	B-NP	JJ	O	13	NMOD	17	mediated
+13	signaling	signaling	I-NP	NN	O	11	PMOD	0
+14	.	.	O	.	O	3	P	0
+
+1	Using	Use	B-VP	VBG	O	11	VMOD	0
+2	DsRed-tagged	DsRed-tagged	B-NP	JJ	O	8	NMOD	19	tagged
+3	Crk	Crk	I-NP	NN	B-protein	2	NMOD	0
+4	and	and	O	CC	O	8	NMOD	0
+5	a	a	B-NP	DT	O	8	NMOD	0
+6	fluorescent	fluorescent	I-NP	JJ	O	8	NMOD	0
+7	time-lapse	time-lapse	I-NP	NN	O	8	NMOD	0
+8	microscope	microscope	I-NP	NN	O	1	OBJ	0
+9	,	,	O	,	O	11	P	0
+10	we	we	B-NP	PRP	O	11	SUB	0
+11	showed	show	B-VP	VBD	O	0	ROOT	0
+12	that	that	B-SBAR	IN	O	11	VMOD	0
+13	Crk	Crk	B-NP	NN	B-protein	14	SUB	0
+14	was	be	B-VP	VBD	O	12	SBAR	0
+15	recruited	recruit	I-VP	VBN	O	14	VC	14	recruited
+16	to	to	B-PP	TO	O	15	VMOD	0
+17	the	the	B-NP	DT	O	20	NMOD	0
+18	nascent	nascent	I-NP	JJ	B-protein	20	NMOD	0
+19	focal	focal	I-NP	JJ	I-protein	20	NMOD	0
+20	complex	complex	I-NP	NN	I-protein	16	PMOD	0
+21	after	after	B-PP	IN	O	20	NMOD	0
+22	ephrin-B1	ephrin-B1	B-NP	NN	B-protein	23	NMOD	0
+23	stimulation	stimulation	I-NP	NN	O	21	PMOD	17	stimulation
+24	.	.	O	.	O	11	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	found	find	B-VP	VBD	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	p130	p130	B-NP	NN	B-protein	13	NMOD	0
+7	(	(	O	(	O	9	DEP	0
+8	Cas	Ca	B-NP	NNS	B-protein	9	DEP	0
+9	)	)	O	)	O	6	NMOD	0
+10	,	,	O	,	O	13	P	0
+11	but	but	O	CC	O	13	NMOD	0
+12	not	not	O	RB	O	11	DEP	0
+13	paxillin	paxillin	B-NP	NN	B-protein	5	SBAR	0
+14	,	,	O	,	O	13	P	0
+15	recruited	recruit	B-VP	VBN	O	13	NMOD	17	recruited
+16	Crk	Crk	B-NP	NNP	O	15	OBJ	0
+17	to	to	B-PP	TO	O	16	NMOD	0
+18	the	the	B-NP	DT	O	21	NMOD	0
+19	nascent	nascent	I-NP	JJ	B-protein	21	NMOD	0
+20	focal	focal	I-NP	JJ	I-protein	21	NMOD	0
+21	complex	complex	I-NP	NN	I-protein	17	PMOD	0
+22	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	necessity	necessity	I-NP	NN	O	9	SUB	17	necessity
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	Crk	Crk	B-NP	NN	B-protein	3	PMOD	0
+5	in	in	B-PP	IN	O	2	NMOD	0
+6	ephrin-B1-induced	ephrin-B1-induced	B-NP	JJ	O	8	NMOD	17	induced
+7	membrane	membrane	I-NP	NN	O	8	NMOD	0
+8	ruffling	ruffling	I-NP	NN	O	5	PMOD	14	ruffling
+9	was	be	B-VP	VBD	O	0	ROOT	0
+10	shown	show	I-VP	VBN	O	9	VC	0
+11	both	both	B-PP	CC	O	10	VMOD	0
+12	by	by	B-PP	IN	O	10	VMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	overexpression	overexpression	I-NP	NN	O	12	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	dominant	dominant	B-NP	JJ	B-protein	19	NMOD	0
+17	negative	negative	I-NP	JJ	I-protein	19	NMOD	0
+18	Crk	Crk	I-NP	NN	I-protein	19	NMOD	0
+19	mutants	mutant	I-NP	NNS	I-protein	15	PMOD	0
+20	and	and	B-PP	CC	O	12	PMOD	0
+21	by	by	B-PP	IN	O	12	PMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	depletion	depletion	I-NP	NN	O	21	PMOD	18	depletion
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	Crk	Crk	B-NP	NN	B-protein	24	PMOD	0
+26	by	by	B-PP	IN	O	10	VMOD	0
+27	using	use	B-VP	VBG	O	26	PMOD	0
+28	RNA	RNA	B-NP	NN	O	29	NMOD	0
+29	interference	interference	I-NP	NN	O	27	OBJ	0
+30	.	.	O	.	O	9	P	0
+
+1	Then	Then	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	examined	examine	B-VP	VBD	O	0	ROOT	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	role	role	I-NP	NN	O	4	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	two	two	B-NP	CD	O	11	NMOD	0
+9	major	major	I-NP	JJ	O	11	NMOD	0
+10	downstream	downstream	I-NP	JJ	O	11	NMOD	0
+11	molecules	molecule	I-NP	NNS	O	7	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	Crk	Crk	B-NP	NN	B-protein	17	NMOD	0
+14	,	,	I-NP	,	O	17	P	0
+15	Rac1	Rac1	I-NP	NN	B-protein	17	NMOD	0
+16	and	and	I-NP	CC	O	17	NMOD	0
+17	Rap1	Rap1	I-NP	NN	B-protein	12	PMOD	0
+18	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	dominant	dominant	I-NP	JJ	B-protein	4	NMOD	0
+3	negative	negative	I-NP	JJ	I-protein	4	NMOD	0
+4	mutant	mutant	I-NP	NN	I-protein	8	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	Rac1	Rac1	B-NP	NN	B-protein	5	PMOD	0
+7	completely	completely	B-ADVP	RB	O	8	VMOD	0
+8	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+9	ephrin-B1-induced	ephrin-B1-induced	B-NP	JJ	O	11	NMOD	17	induced
+10	membrane	membrane	I-NP	NN	O	11	NMOD	0
+11	ruffling	ruffling	I-NP	NN	O	15	NMOD	14	ruffling
+12	and	and	O	CC	O	15	NMOD	0
+13	focal	focal	B-NP	JJ	O	15	NMOD	0
+14	complex	complex	I-NP	JJ	O	15	NMOD	0
+15	assembly	assembly	I-NP	NN	O	8	OBJ	15	assembly
+16	.	.	O	.	O	8	P	0
+
+1	In	In	B-PP	IN	O	12	VMOD	0
+2	contrast	contrast	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	12	P	0
+4	rap1GAPII	rap1GAPII	B-NP	NN	B-protein	8	NMOD	0
+5	,	,	O	,	O	8	P	0
+6	a	a	B-NP	DT	O	8	NMOD	0
+7	negative	negative	I-NP	JJ	O	8	NMOD	0
+8	regulator	regulator	I-NP	NN	O	12	SUB	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	Rap1	Rap1	B-NP	NN	B-protein	9	PMOD	0
+11	,	,	O	,	O	8	P	0
+12	did	do	B-VP	VBD	O	0	ROOT	0
+13	not	not	I-VP	RB	O	12	VMOD	0
+14	inhibit	inhibit	I-VP	VB	O	12	VC	18	inhibit
+15	ephrin-B1-induced	ephrin-B1-induced	B-NP	JJ	O	17	NMOD	17	induced
+16	membrane	membrane	I-NP	NN	O	17	NMOD	0
+17	ruffling	ruffling	I-NP	NN	O	14	OBJ	14	ruffling
+18	.	.	O	.	O	12	P	0
+
+1	However	However	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	in	in	B-PP	IN	O	8	VMOD	0
+4	rap1GAPII-expressing	rap1GAPII-expressing	B-NP	JJ	B-cell_line	5	NMOD	9	expressing
+5	cells	cell	I-NP	NNS	I-cell_line	3	PMOD	0
+6	,	,	O	,	O	8	P	0
+7	ephrin-B1	ephrin-B1	B-NP	NN	B-protein	8	SUB	0
+8	did	do	B-VP	VBD	O	0	ROOT	0
+9	not	not	I-VP	RB	O	8	VMOD	0
+10	induce	induce	I-VP	VB	O	8	VC	17	induce
+11	membrane	membrane	B-NP	NN	O	12	NMOD	0
+12	spreading	spreading	I-NP	NN	O	10	OBJ	14	spreading
+13	,	,	O	,	O	10	P	0
+14	probably	probably	B-ADVP	RB	O	10	VMOD	0
+15	due	due	B-PP	IN	O	10	VMOD	0
+16	to	to	B-PP	TO	O	15	PMOD	0
+17	instability	instability	B-NP	NN	O	15	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	the	the	B-NP	DT	O	21	NMOD	0
+20	focal	focal	I-NP	JJ	B-protein	21	NMOD	0
+21	complex	complex	I-NP	NN	I-protein	18	PMOD	0
+22	.	.	O	.	O	8	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicated	indicate	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	Crk	Crk	B-NP	NN	B-protein	6	SUB	0
+6	plays	play	B-VP	VBZ	O	4	SBAR	0
+7	a	a	B-NP	DT	O	9	NMOD	0
+8	critical	critical	I-NP	JJ	O	9	NMOD	0
+9	role	role	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	0
+11	Rac1-induced	Rac1-induced	B-NP	JJ	O	13	NMOD	17	induced
+12	membrane	membrane	I-NP	NN	O	13	NMOD	0
+13	ruffling	ruffling	I-NP	NN	O	19	NMOD	14	ruffling
+14	and	and	O	CC	O	19	NMOD	0
+15	Rap1-mediated	Rap1-mediated	B-NP	JJ	B-protein	19	NMOD	16	mediated
+16	nascent	nascent	I-NP	JJ	I-protein	19	NMOD	0
+17	focal	focal	I-NP	JJ	I-protein	19	NMOD	0
+18	complex	complex	I-NP	NN	I-protein	19	NMOD	0
+19	stabilization	stabilization	I-NP	NN	O	10	PMOD	19	stabilization
+20	contributing	contribute	B-VP	VBG	O	19	NMOD	16	contributing
+21	to	to	B-PP	TO	O	20	VMOD	0
+22	ephrin-B1-induced	ephrin-B1-induced	B-NP	JJ	O	26	NMOD	17	induced
+23	human	human	I-NP	JJ	O	26	NMOD	0
+24	aortic	aortic	I-NP	JJ	O	26	NMOD	0
+25	endothelial	endothelial	I-NP	JJ	O	26	NMOD	0
+26	cells	cell	I-NP	NNS	O	27	NMOD	0
+27	migration	migration	I-NP	NN	O	21	PMOD	14	migration
+28	.	.	O	.	O	3	P	0
+

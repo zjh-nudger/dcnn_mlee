@@ -1,0 +1,199 @@
+1	Thrombospondin-2	Thrombospondin-2	B-NP	NN	B-protein	2	SUB	0
+2	plays	play	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	protective	protective	I-NP	JJ	O	5	NMOD	0
+5	role	role	I-NP	NN	O	2	OBJ	0
+6	in	in	B-PP	IN	O	2	VMOD	0
+7	multistep	multistep	B-NP	JJ	O	8	NMOD	0
+8	carcinogenesis	carcinogenesis	I-NP	NN	O	6	PMOD	0
+9	:	:	O	:	O	2	P	0
+10	a	a	B-NP	DT	O	15	NMOD	0
+11	novel	novel	I-NP	JJ	O	15	NMOD	0
+12	host	host	I-NP	NN	O	15	NMOD	0
+13	anti-tumor	anti-tumor	I-NP	JJ	O	15	NMOD	0
+14	defense	defense	I-NP	NN	O	15	NMOD	18	defense
+15	mechanism	mechanism	I-NP	NN	O	2	OBJ	0
+16	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	angiogenic	angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	switch	switch	I-NP	NN	O	6	SUB	0
+4	during	during	B-PP	IN	O	3	NMOD	0
+5	tumorigenesis	tumorigenesis	B-NP	NN	O	4	PMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	thought	think	I-VP	VBN	O	6	VC	0
+8	to	to	I-VP	TO	O	9	VMOD	0
+9	be	be	I-VP	VB	O	7	VMOD	0
+10	induced	induce	I-VP	VBN	O	9	VC	17	induced
+11	by	by	B-PP	IN	O	10	VMOD	0
+12	a	a	B-NP	DT	O	13	NMOD	0
+13	change	change	I-NP	NN	O	11	PMOD	0
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	balance	balance	I-NP	NN	O	14	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	pro-	pro-	B-NP	JJ	O	22	NMOD	0
+19	angiogenic	angiogenic	I-NP	JJ	O	22	NMOD	3	angiogenic
+20	and	and	I-NP	CC	O	22	NMOD	0
+21	anti-angiogenic	anti-angiogenic	I-NP	JJ	B-protein	22	NMOD	3	angiogenic
+22	factors	factor	I-NP	NNS	I-protein	17	PMOD	0
+23	.	.	O	.	O	6	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	elucidate	elucidate	I-VP	VB	O	20	VMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	biological	biological	I-NP	JJ	O	5	NMOD	0
+5	role	role	I-NP	NN	O	2	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	11	NMOD	0
+8	endogenous	endogenous	I-NP	JJ	O	11	NMOD	0
+9	angiogenesis	angiogenesis	I-NP	NN	O	11	NMOD	3	angiogenesis
+10	inhibitor	inhibitor	I-NP	NN	O	11	NMOD	18	inhibitor
+11	thrombospondin-2	thrombospondin-2	I-NP	NN	B-protein	6	PMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	TSP-2	TSP-2	B-NP	NN	B-protein	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	during	during	B-PP	IN	O	5	NMOD	0
+16	multistep	multistep	B-NP	JJ	O	17	NMOD	0
+17	carcinogenesis	carcinogenesis	I-NP	NN	O	15	PMOD	0
+18	,	,	O	,	O	20	P	0
+19	we	we	B-NP	PRP	O	20	SUB	0
+20	subjected	subject	B-VP	VBD	O	0	ROOT	19	subjected
+21	TSP-2-deficient	TSP-2-deficient	B-NP	JJ	O	24	NMOD	9	deficient
+22	and	and	I-NP	CC	O	24	NMOD	0
+23	wild-type	wild-type	I-NP	JJ	O	24	NMOD	0
+24	mice	mouse	I-NP	NNS	O	20	OBJ	0
+25	to	to	B-PP	TO	O	20	VMOD	0
+26	a	a	B-NP	DT	O	30	NMOD	0
+27	chemical	chemical	I-NP	JJ	O	30	NMOD	0
+28	skin	skin	I-NP	NN	O	30	NMOD	0
+29	carcinogenesis	carcinogenesis	I-NP	NN	O	30	NMOD	0
+30	regimen	regimen	I-NP	NN	O	25	PMOD	0
+31	.	.	O	.	O	20	P	0
+
+1	Surprisingly	Surprisingly	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	TSP-2	TSP-2	B-NP	NN	B-protein	4	NMOD	0
+4	expression	expression	I-NP	NN	O	5	SUB	9	expression
+5	was	be	B-VP	VBD	O	0	ROOT	0
+6	strongly	strongly	I-VP	RB	O	5	VMOD	0
+7	upregulated	upregulate	I-VP	VBN	O	5	VC	17	upregulated
+8	in	in	B-PP	IN	O	7	VMOD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	mesenchymal	mesenchymal	I-NP	JJ	O	11	NMOD	0
+11	stroma	stroma	I-NP	NN	O	8	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	wild-type	wild-type	B-NP	JJ	O	14	NMOD	0
+14	mice	mouse	I-NP	NNS	O	12	PMOD	0
+15	throughout	throughout	B-PP	IN	O	7	VMOD	0
+16	the	the	B-NP	DT	O	18	NMOD	0
+17	consecutive	consecutive	I-NP	JJ	O	18	NMOD	0
+18	stages	stage	I-NP	NNS	O	15	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	tumorigenesis	tumorigenesis	B-NP	NN	O	19	PMOD	0
+21	whereas	whereas	B-PP	IN	O	5	VMOD	0
+22	the	the	B-NP	DT	O	24	NMOD	0
+23	angiogenesis	angiogenesis	I-NP	NN	B-protein	24	NMOD	3	angiogenesis
+24	factor	factor	I-NP	NN	I-protein	29	NMOD	0
+25	,	,	O	,	O	29	P	0
+26	vascular	vascular	B-NP	JJ	B-protein	29	NMOD	0
+27	endothelial	endothelial	I-NP	JJ	I-protein	29	NMOD	0
+28	growth	growth	I-NP	NN	I-protein	29	NMOD	0
+29	factor	factor	I-NP	NN	I-protein	31	SUB	0
+30	,	,	O	,	O	29	P	0
+31	was	be	B-VP	VBD	O	21	SBAR	0
+32	induced	induce	I-VP	VBN	O	31	VC	17	induced
+33	predominantly	predominantly	B-ADVP	RB	O	34	PMOD	0
+34	in	in	B-PP	IN	O	32	VMOD	0
+35	tumor	tumor	B-NP	NN	B-cell_type	36	NMOD	0
+36	cells	cell	I-NP	NNS	I-cell_type	34	PMOD	0
+37	.	.	O	.	O	5	P	0
+
+1	TSP-2	TSP-2	B-NP	NN	B-protein	2	NMOD	0
+2	deficiency	deficiency	I-NP	NN	O	4	SUB	9	deficiency
+3	dramatically	dramatically	B-ADVP	RB	O	4	VMOD	0
+4	enhanced	enhance	B-VP	VBD	O	0	ROOT	0
+5	susceptibility	susceptibility	B-NP	NN	O	4	OBJ	0
+6	to	to	B-PP	TO	O	5	NMOD	0
+7	skin	skin	B-NP	NN	O	8	NMOD	0
+8	carcinogenesis	carcinogenesis	I-NP	NN	O	6	PMOD	0
+9	and	and	O	CC	O	4	VMOD	0
+10	resulted	result	B-VP	VBD	O	4	VMOD	0
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	accelerated	accelerate	B-NP	VBN	O	14	AMOD	0
+13	and	and	I-NP	CC	O	14	AMOD	0
+14	increased	increase	I-NP	VBN	O	16	NMOD	17	increased
+15	tumor	tumor	I-NP	NN	O	16	NMOD	0
+16	formation	formation	I-NP	NN	O	11	PMOD	2	formation
+17	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	angiogenic	angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	switch	switch	I-NP	NN	O	4	SUB	0
+4	occurred	occur	B-VP	VBD	O	16	VMOD	0
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	early	early	B-NP	JJ	O	7	NMOD	0
+7	stages	stage	I-NP	NNS	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	pre-malignant	pre-malignant	B-NP	JJ	O	11	NMOD	0
+10	tumor	tumor	I-NP	NN	O	11	NMOD	0
+11	formation	formation	I-NP	NN	O	8	PMOD	2	formation
+12	,	,	O	,	O	16	P	0
+13	and	and	O	CC	O	16	VMOD	0
+14	tumor	tumor	B-NP	NN	O	15	NMOD	0
+15	angiogenesis	angiogenesis	I-NP	NN	O	16	SUB	3	angiogenesis
+16	was	be	B-VP	VBD	O	0	ROOT	0
+17	significantly	significantly	I-VP	RB	O	16	VMOD	0
+18	enhanced	enhance	I-VP	VBN	O	16	VC	17	enhanced
+19	in	in	B-PP	IN	O	18	VMOD	0
+20	TSP-2-deficient	TSP-2-deficient	B-NP	JJ	O	21	NMOD	9	deficient
+21	mice	mouse	I-NP	NNS	O	19	PMOD	0
+22	.	.	O	.	O	16	P	0
+
+1	While	While	B-SBAR	IN	O	0	ROOT	0
+2	TSP-2	TSP-2	B-NP	NN	B-protein	3	NMOD	0
+3	deficiency	deficiency	I-NP	NN	O	4	SUB	9	deficiency
+4	did	do	B-VP	VBD	O	1	SBAR	0
+5	not	not	I-VP	RB	O	4	VMOD	0
+6	affect	affect	I-VP	VB	O	4	VC	16	affect
+7	tumor	tumor	B-NP	NN	O	14	NMOD	0
+8	differentiation	differentiation	I-NP	NN	O	7	NMOD	2	differentiation
+9	or	or	I-NP	CC	O	7	NMOD	0
+10	proliferation	proliferation	I-NP	NN	O	7	NMOD	4	proliferation
+11	,	,	O	,	O	14	P	0
+12	tumor	tumor	B-NP	NN	O	14	NMOD	0
+13	cell	cell	I-NP	NN	O	14	NMOD	0
+14	apoptosis	apoptosis	I-NP	NN	O	15	SUB	5	apoptosis
+15	was	be	B-VP	VBD	O	6	VMOD	0
+16	significantly	significantly	I-VP	RB	O	15	VMOD	0
+17	reduced	reduce	I-VP	VBN	O	15	VC	18	reduced
+18	.	.	O	.	O	1	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	reveal	reveal	B-VP	VBP	O	0	ROOT	0
+4	upregulation	upregulation	B-NP	NN	O	16	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	an	an	B-NP	DT	O	9	NMOD	0
+7	endogenous	endogenous	I-NP	JJ	O	9	NMOD	0
+8	angiogenesis	angiogenesis	I-NP	NN	O	9	NMOD	3	angiogenesis
+9	inhibitor	inhibitor	I-NP	NN	O	5	PMOD	0
+10	during	during	B-PP	IN	O	4	NMOD	0
+11	multi	multi	B-NP	JJ	O	13	NMOD	0
+12	step	step	I-NP	NN	O	13	NMOD	0
+13	tumorigenesis	tumorigenesis	I-NP	NN	O	15	NMOD	0
+14	and	and	I-NP	CC	O	15	NMOD	0
+15	identify	identify	I-NP	NN	O	10	PMOD	0
+16	enhanced	enhance	B-VP	VBD	O	3	VMOD	17	enhanced
+17	stromal	stromal	B-NP	JJ	O	19	NMOD	0
+18	TSP-2	TSP-2	I-NP	NN	B-protein	19	NMOD	0
+19	expression	expression	I-NP	NN	O	16	OBJ	9	expression
+20	as	as	B-PP	IN	O	16	VMOD	0
+21	a	a	B-NP	DT	O	26	NMOD	0
+22	novel	novel	I-NP	JJ	O	26	NMOD	0
+23	host	host	I-NP	NN	O	26	NMOD	0
+24	anti-tumor	anti-tumor	I-NP	JJ	O	26	NMOD	0
+25	defense	defense	I-NP	NN	O	26	NMOD	18	defense
+26	mechanism	mechanism	I-NP	NN	O	20	PMOD	0
+27	.	.	O	.	O	3	P	0
+

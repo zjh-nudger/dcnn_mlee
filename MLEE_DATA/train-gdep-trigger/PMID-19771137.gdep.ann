@@ -1,0 +1,279 @@
+1	Inducible	Inducible	B-NP	JJ	O	5	SUB	0
+2	nitric	nitric	I-NP	JJ	B-protein	4	NMOD	0
+3	oxide	oxide	I-NP	NN	I-protein	4	NMOD	0
+4	synthase	synthase	I-NP	NN	I-protein	1	NMOD	0
+5	modulates	modulate	B-VP	VBZ	O	0	ROOT	16	modulates
+6	angiogenesis	angiogenesis	B-NP	NN	O	5	OBJ	3	angiogenesis
+7	in	in	B-PP	IN	O	6	NMOD	0
+8	ischemic	ischemic	B-NP	JJ	O	9	NMOD	0
+9	hindlimb	hindlimb	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	rat	rat	B-NP	NN	O	10	PMOD	0
+12	.	.	O	.	O	5	P	0
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	20	SUB	0
+2	:	:	O	:	O	1	P	0
+3	Angiogenesis	Angiogenesis	B-NP	NN	O	4	SUB	3	Angiogenesis
+4	plays	play	B-VP	VBZ	O	20	VMOD	0
+5	an	an	B-NP	DT	O	7	NMOD	0
+6	important	important	I-NP	JJ	O	7	NMOD	0
+7	role	role	I-NP	NN	O	4	OBJ	0
+8	in	in	B-PP	IN	O	4	VMOD	0
+9	maintaining	maintain	B-VP	VBG	O	8	PMOD	16	maintaining
+10	adequate	adequate	B-NP	JJ	O	12	NMOD	0
+11	oxygen	oxygen	I-NP	NN	O	12	NMOD	0
+12	delivery	delivery	I-NP	NN	O	9	OBJ	14	delivery
+13	,	,	O	,	O	20	P	0
+14	and	and	O	CC	O	16	NMOD	0
+15	nitric	nitric	B-NP	JJ	O	16	NMOD	0
+16	oxide	oxide	I-NP	NN	O	20	SUB	0
+17	(	(	O	(	O	19	DEP	0
+18	NO	NO	B-NP	NN	O	19	DEP	0
+19	)	)	O	)	O	16	NMOD	0
+20	is	be	B-VP	VBZ	O	0	ROOT	0
+21	a	a	B-NP	DT	O	23	NMOD	0
+22	potential	potential	I-NP	JJ	O	23	NMOD	0
+23	regulator	regulator	I-NP	NN	O	20	PRD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	.	.	O	.	O	20	P	0
+
+1	NO	NO	B-NP	NN	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	synthesized	synthesize	I-VP	VBN	O	2	VC	8	synthesized
+4	through	through	B-PP	IN	O	3	VMOD	0
+5	three	three	B-NP	CD	O	6	NMOD	0
+6	isoforms	isoform	I-NP	NNS	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	NO	NO	B-NP	NN	B-protein	9	NMOD	0
+9	synthase	synthase	I-NP	NN	I-protein	7	PMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	NOS	NOS	B-NP	NN	B-protein	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	.	.	O	.	O	2	P	0
+
+1	It	It	B-NP	PRP	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	hypothesized	hypothesize	I-VP	VBN	O	2	VC	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	NO	NO	I-NP	NN	O	14	SUB	0
+7	derived	derive	B-VP	VBN	O	6	NMOD	0
+8	from	from	B-PP	IN	O	7	VMOD	0
+9	inducible	inducible	B-NP	JJ	O	10	NMOD	0
+10	NOS	NOS	I-NP	NN	O	8	PMOD	0
+11	(	(	O	(	O	13	DEP	0
+12	iNOS	iNOS	B-NP	NN	B-protein	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	may	may	B-VP	MD	O	4	SBAR	0
+15	promote	promote	I-VP	VB	O	14	VC	16	promote
+16	survival	survival	B-NP	NN	O	15	OBJ	5	survival
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	ischemic	ischemic	B-NP	JJ	O	19	NMOD	0
+19	tissue	tissue	I-NP	NN	O	17	PMOD	0
+20	through	through	B-PP	IN	O	16	NMOD	0
+21	angiogenesis	angiogenesis	B-NP	NN	O	20	PMOD	3	angiogenesis
+22	.	.	O	.	O	2	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	test	test	I-VP	VB	O	7	VMOD	0
+3	this	this	B-NP	DT	O	4	NMOD	0
+4	hypothesis	hypothesis	I-NP	NN	O	2	OBJ	0
+5	,	,	O	,	O	7	P	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	investigated	investigate	B-VP	VBD	O	0	ROOT	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	effect	effect	I-NP	NN	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	iNOS	iNOS	B-NP	NN	O	12	NMOD	0
+12	deficiency	deficiency	I-NP	NN	O	10	PMOD	0
+13	(	(	O	(	O	16	DEP	0
+14	by	by	B-PP	IN	O	16	DEP	0
+15	L-NIL	L-NIL	B-NP	NN	B-protein	14	PMOD	0
+16	)	)	O	)	O	12	NMOD	0
+17	on	on	B-PP	IN	O	9	NMOD	0
+18	angiogenesis	angiogenesis	B-NP	NN	O	17	PMOD	3	angiogenesis
+19	in	in	B-PP	IN	O	7	VMOD	0
+20	a	a	B-NP	DT	O	23	NMOD	0
+21	hindlimb	hindlimb	I-NP	NN	O	23	NMOD	0
+22	ischemia	ischemia	I-NP	NN	O	23	NMOD	0
+23	model	model	I-NP	NN	O	19	PMOD	0
+24	.	.	O	.	O	7	P	0
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Thirty-two	Thirty-two	B-NP	CD	O	6	NMOD	0
+4	male	male	I-NP	JJ	O	6	NMOD	0
+5	wistar	wistar	I-NP	JJ	O	6	NMOD	0
+6	rats	rat	I-NP	NNS	O	1	OBJ	0
+7	randomly	randomly	B-VP	RB	O	8	VMOD	0
+8	divided	divide	I-VP	VBN	O	6	NMOD	0
+9	into	into	B-PP	IN	O	8	VMOD	0
+10	four	four	B-NP	CD	O	11	NMOD	0
+11	groups	group	I-NP	NNS	O	9	PMOD	0
+12	.	.	O	.	O	1	P	0
+
+1	In	In	B-PP	IN	O	9	VMOD	0
+2	groups	group	B-NP	NNS	O	1	PMOD	0
+3	1	1	B-NP	CD	O	5	NMOD	0
+4	&	&	I-NP	CC	O	5	NMOD	0
+5	2	2	I-NP	CD	O	2	NMOD	0
+6	,	,	O	,	O	9	P	0
+7	hindlimb	hindlimb	B-NP	NN	O	8	NMOD	0
+8	ischemia	ischemia	I-NP	NN	O	9	SUB	0
+9	was	be	B-VP	VBD	O	18	VMOD	0
+10	induced	induce	I-VP	VBN	O	9	VC	0
+11	by	by	B-PP	IN	O	10	VMOD	0
+12	ligation	ligation	B-NP	NN	O	11	PMOD	19	ligation
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	femoral	femoral	B-NP	JJ	O	15	NMOD	0
+15	artery	artery	I-NP	NN	O	13	PMOD	0
+16	and	and	O	CC	O	18	VMOD	0
+17	they	they	B-NP	PRP	O	18	SUB	0
+18	received	receive	B-VP	VBD	O	0	ROOT	19	received
+19	L-NIL	L-NIL	B-NP	NN	B-protein	21	NMOD	0
+20	and	and	I-NP	CC	O	21	NMOD	0
+21	saline	saline	I-NP	NN	O	18	OBJ	0
+22	respectively	respectively	B-ADVP	RB	O	18	VMOD	0
+23	.	.	O	.	O	18	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	animals	animal	I-NP	NNS	O	9	SUB	0
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	groups	group	B-NP	NNS	O	3	PMOD	0
+5	3	3	B-NP	CD	O	4	NMOD	0
+6	and	and	I-NP	CC	O	4	NMOD	0
+7	4	4	I-NP	CD	O	4	NMOD	0
+8	also	also	B-ADVP	RB	O	9	VMOD	0
+9	received	receive	B-VP	VBD	O	0	ROOT	19	received
+10	L-NIL	L-NIL	B-NP	NN	B-protein	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	saline	saline	I-NP	NN	O	9	OBJ	0
+13	respectively	respectively	B-ADVP	RB	O	9	VMOD	0
+14	without	without	B-PP	IN	O	9	VMOD	0
+15	surgical	surgical	B-NP	JJ	O	16	NMOD	0
+16	procedure	procedure	I-NP	NN	O	14	PMOD	0
+17	.	.	O	.	O	9	P	0
+
+1	After	After	B-PP	IN	O	17	VMOD	0
+2	21	21	B-NP	CD	O	3	NMOD	0
+3	days	day	I-NP	NNS	O	1	PMOD	0
+4	,	,	O	,	O	17	P	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	serum	serum	I-NP	NN	O	7	NMOD	0
+7	concentration	concentration	I-NP	NN	O	14	NMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	nitrite	nitrite	B-NP	NN	O	8	PMOD	0
+10	,	,	O	,	O	14	P	0
+11	capillary	capillary	B-NP	JJ	O	12	NMOD	0
+12	density	density	I-NP	NN	O	14	NMOD	0
+13	and	and	O	CC	O	14	NMOD	0
+14	expression	expression	B-NP	NN	O	17	SUB	9	expression
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	15	PMOD	0
+17	were	be	B-VP	VBD	O	0	ROOT	0
+18	determined	determine	I-VP	VBN	O	17	VC	0
+19	.	.	O	.	O	17	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Serum	Serum	B-NP	NN	O	5	NMOD	0
+4	nitrite	nitrite	I-NP	NN	O	5	NMOD	0
+5	levels	level	I-NP	NNS	O	6	SUB	0
+6	were	be	B-VP	VBD	O	1	NMOD	0
+7	significantly	significantly	B-ADJP	RB	O	8	AMOD	0
+8	lower	low	I-ADJP	JJR	O	6	PRD	0
+9	in	in	B-PP	IN	O	6	VMOD	0
+10	L-NIL	L-NIL	B-NP	NN	O	11	NMOD	0
+11	groups	group	I-NP	NNS	O	9	PMOD	0
+12	(	(	O	(	O	16	DEP	0
+13	p	p	B-NP	NN	O	16	DEP	0
+14	<	<	O	SYM	O	13	NMOD	0
+15	0.05	0.05	B-NP	CD	O	14	AMOD	0
+16	)	)	O	)	O	6	VMOD	0
+17	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	capillary	capillary	I-NP	JJ	O	3	NMOD	0
+3	density	density	I-NP	NN	O	10	SUB	0
+4	in	in	B-PP	IN	O	3	NMOD	0
+5	group	group	B-NP	NN	O	4	PMOD	0
+6	1	1	I-NP	CD	O	5	NMOD	0
+7	(	(	O	(	O	9	DEP	0
+8	ischemia+L-NIL	ischemia+L-NIL	B-NP	NN	O	9	DEP	0
+9	)	)	O	)	O	5	NMOD	0
+10	was	be	B-VP	VBD	O	41	VMOD	0
+11	significantly	significantly	B-ADJP	RB	O	12	AMOD	0
+12	different	different	I-ADJP	JJ	O	10	PRD	0
+13	from	from	B-PP	IN	O	12	AMOD	0
+14	group	group	B-NP	NN	O	13	PMOD	0
+15	2	2	I-NP	CD	O	14	NMOD	0
+16	(	(	O	(	O	18	DEP	0
+17	ischemia+saline	ischemia+saline	B-NP	NN	O	18	DEP	0
+18	)	)	O	)	O	14	NMOD	0
+19	;	;	O	:	O	10	P	0
+20	group	group	B-NP	NN	O	31	NMOD	0
+21	1	1	I-NP	CD	O	20	NMOD	0
+22	:	:	O	:	O	20	P	0
+23	360.33+/-77.02	360.33+/-77.02	B-NP	CD	O	20	NMOD	0
+24	,	,	O	,	O	31	P	0
+25	group	group	B-NP	NN	O	29	NMOD	0
+26	2	2	I-NP	CD	O	25	NMOD	0
+27	:	:	O	:	O	25	P	0
+28	549+/-81.85	549+/-81.85	B-NP	CD	O	29	NMOD	0
+29	/mm2	/mm2	I-NP	NN	B-protein	31	NMOD	0
+30	,	,	O	,	O	31	P	0
+31	p	p	B-NP	NN	O	38	NMOD	0
+32	<	<	B-NP	SYM	O	31	NMOD	0
+33	0.05	0.05	I-NP	CD	O	32	AMOD	0
+34	)	)	O	)	O	31	NMOD	0
+35	.In	.In	B-PP	IN	O	31	NMOD	0
+36	addition	addition	B-NP	NN	O	35	PMOD	0
+37	,	,	O	,	O	38	P	0
+38	expression	expression	B-NP	NN	O	41	SUB	9	expression
+39	of	of	B-PP	IN	O	38	NMOD	0
+40	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	39	PMOD	0
+41	was	be	B-VP	VBD	O	0	ROOT	0
+42	significantly	significantly	I-VP	RB	O	41	VMOD	0
+43	increased	increase	I-VP	VBN	O	41	VC	17	increased
+44	in	in	B-PP	IN	O	43	VMOD	0
+45	ischemic	ischemic	B-NP	JJ	O	46	NMOD	0
+46	groups	group	I-NP	NNS	O	44	PMOD	0
+47	(	(	O	(	O	51	DEP	0
+48	p	p	B-NP	NN	O	51	DEP	0
+49	<	<	O	SYM	O	48	NMOD	0
+50	0.05	0.05	B-NP	CD	O	49	AMOD	0
+51	)	)	O	)	O	43	VMOD	0
+52	.	.	O	.	O	41	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Selective	Selective	B-NP	JJ	O	4	NMOD	0
+4	inhibition	inhibition	I-NP	NN	O	9	SUB	18	inhibition
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	iNOS	iNOS	B-NP	NN	B-protein	5	PMOD	0
+7	by	by	B-PP	IN	O	4	NMOD	0
+8	L-NIL	L-NIL	B-NP	NN	B-protein	7	PMOD	0
+9	inhibits	inhibit	B-VP	VBZ	O	1	NMOD	18	inhibits
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	OBJ	3	angiogenesis
+11	in	in	B-PP	IN	O	9	VMOD	0
+12	a	a	B-NP	DT	O	16	NMOD	0
+13	hindlimb	hindlimb	I-NP	NN	O	16	NMOD	0
+14	ischemic	ischemic	I-NP	JJ	O	16	NMOD	0
+15	rat	rat	I-NP	NN	O	16	NMOD	0
+16	model	model	I-NP	NN	O	11	PMOD	0
+17	.	.	O	.	O	1	P	0
+
+1	In	In	B-PP	IN	O	5	VMOD	0
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	5	P	0
+4	ischemia	ischemia	B-NP	NN	O	5	SUB	0
+5	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+6	expression	expression	B-NP	NN	O	5	OBJ	9	expression
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	7	PMOD	0
+9	in	in	B-PP	IN	O	5	VMOD	0
+10	hypoxic	hypoxic	B-NP	JJ	O	11	NMOD	0
+11	tissue	tissue	I-NP	NN	O	9	PMOD	0
+12	.	.	O	.	O	5	P	0
+

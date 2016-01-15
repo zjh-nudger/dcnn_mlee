@@ -1,0 +1,280 @@
+1	UFT	UFT	B-NP	NN	O	4	NMOD	0
+2	and	and	O	CC	O	4	NMOD	0
+3	its	its	B-NP	PRP$	O	4	NMOD	0
+4	metabolites	metabolite	I-NP	NNS	O	5	SUB	0
+5	inhibit	inhibit	B-VP	VBP	O	0	ROOT	18	inhibit
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	angiogenesis	angiogenesis	I-NP	NN	O	5	OBJ	3	angiogenesis
+8	induced	induce	B-VP	VBN	O	7	NMOD	17	induced
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	murine	murine	B-NP	JJ	O	13	NMOD	0
+11	renal	renal	I-NP	JJ	O	13	NMOD	0
+12	cell	cell	I-NP	NN	O	13	NMOD	0
+13	carcinoma	carcinoma	I-NP	NN	O	9	PMOD	0
+14	,	,	O	,	O	5	P	0
+15	as	as	B-SBAR	IN	O	5	VMOD	0
+16	determined	determine	B-VP	VBN	O	15	SBAR	0
+17	by	by	B-PP	IN	O	16	VMOD	0
+18	a	a	B-NP	DT	O	22	NMOD	0
+19	dorsal	dorsal	I-NP	JJ	O	22	NMOD	0
+20	air	air	I-NP	NN	O	22	NMOD	0
+21	sac	sac	I-NP	NN	O	22	NMOD	0
+22	assay	assay	I-NP	NN	O	17	PMOD	0
+23	in	in	B-PP	IN	O	22	NMOD	0
+24	mice	mouse	B-NP	NNS	O	23	PMOD	0
+25	.	.	O	.	O	5	P	0
+
+1	UFT	UFT	B-NP	NN	O	5	NMOD	0
+2	,	,	O	,	O	5	P	0
+3	an	an	B-NP	DT	O	5	NMOD	0
+4	anticancer	anticancer	I-NP	JJ	O	5	NMOD	0
+5	agent	agent	I-NP	NN	O	25	SUB	0
+6	that	that	B-NP	WDT	O	5	NMOD	0
+7	is	be	B-VP	VBZ	O	6	SBAR	0
+8	composed	compose	I-VP	VBN	O	7	VC	0
+9	of	of	B-PP	IN	O	8	VMOD	0
+10	tegafur	tegafur	B-NP	NN	O	15	NMOD	0
+11	(	(	O	(	O	13	DEP	0
+12	FT	FT	B-NP	NN	O	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	and	and	O	CC	O	15	NMOD	0
+15	uracil	uracil	B-NP	NN	O	9	PMOD	0
+16	at	at	B-PP	IN	O	8	VMOD	0
+17	a	a	B-NP	DT	O	19	NMOD	0
+18	molar	molar	I-NP	JJ	O	19	NMOD	0
+19	ratio	ratio	I-NP	NN	O	16	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	1	1	B-NP	CD	O	23	NMOD	0
+22	:	:	I-NP	SYM	O	23	P	0
+23	4	4	I-NP	CD	O	20	PMOD	0
+24	,	,	O	,	O	5	P	0
+25	is	be	B-VP	VBZ	O	44	VMOD	0
+26	widely	widely	I-VP	RB	O	25	VMOD	0
+27	used	use	I-VP	VBN	O	25	VC	0
+28	in	in	B-PP	IN	O	27	VMOD	0
+29	clinical	clinical	B-NP	JJ	O	30	NMOD	0
+30	practice	practice	I-NP	NN	O	28	PMOD	0
+31	in	in	B-PP	IN	O	27	VMOD	0
+32	Japan	Japan	B-NP	NNP	O	31	PMOD	0
+33	to	to	B-VP	TO	O	34	VMOD	0
+34	treat	treat	I-VP	VB	O	25	VMOD	19	treat
+35	cancer	cancer	B-NP	NN	O	36	NMOD	0
+36	patients	patient	I-NP	NNS	O	34	OBJ	0
+37	requiring	require	B-VP	VBG	O	36	NMOD	0
+38	a	a	B-NP	DT	O	40	NMOD	0
+39	long-term	long-term	I-NP	JJ	O	40	NMOD	0
+40	chemotherapy	chemotherapy	I-NP	NN	O	37	OBJ	19	chemotherapy
+41	,	,	O	,	O	44	P	0
+42	and	and	O	CC	O	44	VMOD	0
+43	it	it	B-NP	PRP	O	44	SUB	0
+44	is	be	B-VP	VBZ	O	0	ROOT	0
+45	associated	associate	I-VP	VBN	O	44	VC	0
+46	with	with	B-PP	IN	O	45	VMOD	0
+47	few	few	B-NP	JJ	O	49	NMOD	0
+48	side	side	I-NP	NN	O	49	NMOD	0
+49	effects	effect	I-NP	NNS	O	46	PMOD	0
+50	,	,	O	,	O	45	P	0
+51	if	if	B-SBAR	IN	O	45	VMOD	0
+52	any	any	B-NP	DT	O	51	DEP	0
+53	.	.	O	.	O	44	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	we	we	B-NP	PRP	O	6	SUB	0
+6	have	have	B-VP	VBP	O	0	ROOT	0
+7	evaluated	evaluate	I-VP	VBN	O	6	VC	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	inhibitory	inhibitory	I-NP	JJ	O	10	NMOD	0
+10	effect	effect	I-NP	NN	O	7	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	UFT	UFT	B-NP	NN	O	11	PMOD	0
+13	against	against	B-PP	IN	O	12	NMOD	0
+14	RENCA	RENCA	B-NP	NN	B-protein	16	NMOD	0
+15	cell-induced	cell-induced	I-NP	JJ	O	16	NMOD	17	induced
+16	angiogenesis	angiogenesis	I-NP	NN	O	13	PMOD	3	angiogenesis
+17	by	by	B-PP	IN	O	7	VMOD	0
+18	a	a	B-NP	DT	O	22	NMOD	0
+19	dorsal	dorsal	I-NP	JJ	O	22	NMOD	0
+20	air	air	I-NP	NN	O	22	NMOD	0
+21	sac	sac	I-NP	NN	O	22	NMOD	0
+22	assay	assay	I-NP	NN	O	17	PMOD	0
+23	.	.	O	.	O	6	P	0
+
+1	Marked	Mark	B-NP	VBN	O	2	NMOD	0
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	induced	induce	I-VP	VBN	O	3	VC	17	induced
+5	by	by	B-PP	IN	O	4	VMOD	0
+6	implantation	implantation	B-NP	NN	O	5	PMOD	19	implantation
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	a	a	B-NP	DT	O	9	NMOD	0
+9	chamber	chamber	I-NP	NN	O	7	PMOD	0
+10	containing	contain	B-VP	VBG	O	9	NMOD	0
+11	RENCA	RENCA	B-NP	NN	B-cell_line	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_line	10	OBJ	0
+13	into	into	B-PP	IN	O	4	VMOD	0
+14	mice	mouse	B-NP	NNS	O	13	PMOD	0
+15	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	model	model	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	UFT	UFT	B-NP	NN	O	6	SUB	0
+6	showed	show	B-VP	VBD	O	0	ROOT	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	strong	strong	I-NP	JJ	O	10	NMOD	0
+9	angiogenesis-inhibitory	angiogenesis-inhibitory	I-NP	JJ	O	10	NMOD	3	angiogenesis
+10	effect	effect	I-NP	NN	O	6	OBJ	0
+11	,	,	O	,	O	6	P	0
+12	whereas	whereas	O	IN	O	6	VMOD	0
+13	5-fluorouracil	5-fluorouracil	B-NP	NN	O	18	NMOD	0
+14	(	(	O	(	O	16	DEP	0
+15	5-FU	5-FU	B-NP	NN	O	16	DEP	0
+16	)	)	O	)	O	13	NMOD	0
+17	and	and	O	CC	O	18	NMOD	0
+18	doxifluridine	doxifluridine	B-NP	NN	O	19	SUB	0
+19	were	be	B-VP	VBD	O	12	SBAR	0
+20	less	less	B-ADJP	RBR	O	21	AMOD	0
+21	effective	effective	I-ADJP	JJ	O	19	PRD	18	effective
+22	.	.	O	.	O	6	P	0
+
+1	Additional	Additional	B-NP	JJ	O	2	NMOD	0
+2	experiments	experiment	I-NP	NNS	O	3	SUB	0
+3	revealed	reveal	B-VP	VBD	O	13	VMOD	0
+4	FT	FT	B-NP	NN	O	3	OBJ	0
+5	to	to	B-VP	TO	O	6	VMOD	0
+6	be	be	I-VP	VB	O	4	NMOD	0
+7	effective	effective	B-NP	JJ	O	8	NMOD	0
+8	component	component	I-NP	NN	O	6	PRD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	UFT	UFT	B-NP	NN	O	9	PMOD	0
+11	;	;	O	:	O	13	P	0
+12	uracil	uracil	B-NP	NN	O	13	SUB	0
+13	remained	remain	B-VP	VBD	O	0	ROOT	0
+14	ineffective	ineffective	B-ADJP	JJ	O	13	PRD	16	ineffective
+15	in	in	B-PP	IN	O	14	AMOD	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	inhibition	inhibition	I-NP	NN	O	15	PMOD	18	inhibition
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	angiogenesis	angiogenesis	B-NP	NN	O	18	PMOD	3	angiogenesis
+20	.	.	O	.	O	13	P	0
+
+1	Moreover	Moreover	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	have	have	B-VP	VBP	O	0	ROOT	0
+5	found	find	I-VP	VBN	O	4	VC	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	gamma-hydroxybutyric	gamma-hydroxybutyric	B-NP	JJ	O	8	NMOD	0
+8	acid	acid	I-NP	NN	O	10	NMOD	0
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	gamma-butyrolactone	gamma-butyrolactone	I-NP	NN	O	17	SUB	0
+11	,	,	O	,	O	17	P	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	metabolites	metabolite	I-NP	NNS	O	17	SUB	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	FT	FT	B-NP	NN	O	14	PMOD	0
+16	,	,	O	,	O	17	P	0
+17	possess	possess	B-VP	VBP	O	6	SBAR	0
+18	a	a	B-NP	DT	O	22	NMOD	0
+19	potent	potent	I-NP	JJ	O	22	NMOD	0
+20	angiogenesis	angiogenesis	I-NP	NN	O	22	NMOD	3	angiogenesis
+21	inhibitory	inhibitory	I-NP	JJ	O	22	NMOD	0
+22	effect	effect	I-NP	NN	O	17	OBJ	0
+23	that	that	B-NP	WDT	O	22	NMOD	0
+24	is	be	B-VP	VBZ	O	23	SBAR	0
+25	amplified	amplify	I-VP	VBN	O	24	VC	17	amplified
+26	when	when	B-ADVP	WRB	O	24	VMOD	0
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	compounds	compound	I-NP	NNS	O	29	SUB	0
+29	are	be	B-VP	VBP	O	26	SBAR	0
+30	administered	administer	I-VP	VBN	O	29	VC	19	administered
+31	by	by	B-PP	IN	O	30	VMOD	0
+32	a	a	B-NP	DT	O	34	NMOD	0
+33	continuous	continuous	I-NP	JJ	O	34	NMOD	0
+34	infusion	infusion	I-NP	NN	O	31	PMOD	0
+35	.	.	O	.	O	4	P	0
+
+1	This	This	B-NP	DT	O	2	SUB	0
+2	may	may	B-VP	MD	O	0	ROOT	0
+3	reflect	reflect	I-VP	VB	O	2	VC	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	transition	transition	I-NP	NN	O	3	OBJ	0
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	blood	blood	B-NP	NN	O	8	NMOD	0
+8	concentration	concentration	I-NP	NN	O	6	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	each	each	B-NP	DT	O	11	NMOD	0
+11	metabolite	metabolite	I-NP	NN	O	9	PMOD	0
+12	resulting	result	B-VP	VBG	O	5	NMOD	0
+13	from	from	B-PP	IN	O	12	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	administration	administration	I-NP	NN	O	13	PMOD	19	administration
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	UFT	UFT	B-NP	NN	B-protein	16	PMOD	0
+18	.	.	O	.	O	2	P	0
+
+1	Similar	Similar	B-NP	JJ	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	0	ROOT	0
+4	also	also	I-VP	RB	O	3	VMOD	0
+5	obtained	obtain	I-VP	VBN	O	3	VC	0
+6	with	with	B-PP	IN	O	5	VMOD	0
+7	respect	respect	B-NP	NN	O	6	PMOD	0
+8	to	to	B-PP	TO	O	7	NMOD	0
+9	5-FU	5-FU	B-NP	NN	O	8	PMOD	0
+10	.	.	O	.	O	3	P	0
+
+1	It	It	B-NP	PRP	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	suggested	suggest	I-VP	VBN	O	2	VC	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	UFT	UFT	B-NP	NN	O	6	SUB	0
+6	has	have	B-VP	VBZ	O	4	SBAR	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	stronger	strong	I-NP	JJR	O	10	NMOD	0
+9	angiogenesis-inhibitory	angiogenesis-inhibitory	I-NP	JJ	O	10	NMOD	3	angiogenesis
+10	effect	effect	I-NP	NN	O	6	OBJ	0
+11	than	than	B-SBAR	IN	O	6	VMOD	0
+12	did	do	O	VBD	O	11	DEP	0
+13	other	other	B-NP	JJ	O	15	NMOD	0
+14	fluorinated	fluorinate	I-NP	VBN	O	15	NMOD	0
+15	pyrimidines	pyrimidine	I-NP	NNS	O	12	SUB	0
+16	,	,	O	,	O	17	P	0
+17	partly	partly	B-ADJP	RB	O	15	NMOD	0
+18	due	due	I-ADJP	JJ	O	19	PMOD	0
+19	to	to	B-PP	TO	O	17	AMOD	0
+20	its	its	B-NP	PRP$	O	22	NMOD	0
+21	pharmacokinetic	pharmacokinetic	I-NP	JJ	O	22	NMOD	0
+22	properties	property	I-NP	NNS	O	19	PMOD	0
+23	characterized	characterize	B-VP	VBN	O	22	NMOD	0
+24	by	by	B-PP	IN	O	23	VMOD	0
+25	maintaining	maintain	B-VP	VBG	O	24	PMOD	0
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	higher	high	B-NP	JJR	O	29	AMOD	0
+28	and	and	I-NP	CC	O	29	AMOD	0
+29	long-lasting	long-lasting	I-NP	JJ	O	31	NMOD	0
+30	blood	blood	I-NP	NN	O	31	NMOD	0
+31	levels	level	I-NP	NNS	O	26	PMOD	0
+32	of	of	B-PP	IN	O	31	NMOD	0
+33	5-FU	5-FU	B-NP	NN	O	32	PMOD	0
+34	and	and	O	CC	O	19	PMOD	0
+35	partly	partly	B-ADVP	RB	O	19	PMOD	0
+36	due	due	B-PP	IN	O	17	DEP	0
+37	the	the	B-NP	DT	O	39	NMOD	0
+38	inhibitory	inhibitory	I-NP	JJ	O	39	NMOD	0
+39	effects	effect	I-NP	NNS	O	48	NMOD	0
+40	derived	derive	B-VP	VBN	O	39	NMOD	0
+41	from	from	B-PP	IN	O	40	VMOD	0
+42	gamma-hydroxybutyric	gamma-hydroxybutyric	B-NP	JJ	O	43	NMOD	0
+43	acid	acid	I-NP	NN	O	45	NMOD	0
+44	and	and	I-NP	CC	O	45	NMOD	0
+45	gamma-butyrolactone	gamma-butyrolactone	I-NP	NN	O	41	PMOD	0
+46	,	,	O	,	O	48	P	0
+47	UFT-specific	UFT-specific	B-NP	JJ	O	48	NMOD	0
+48	metabolites	metabolite	I-NP	NNS	O	36	PMOD	0
+49	.	.	O	.	O	2	P	0
+

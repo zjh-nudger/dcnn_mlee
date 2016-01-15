@@ -1,0 +1,186 @@
+1	Circulating	Circulate	B-VP	VBG	B-cell_type	3	NMOD	0
+2	endothelial	endothelial	B-NP	JJ	I-cell_type	3	NMOD	-1
+3	cells	cell	I-NP	NNS	I-cell_type	0	ROOT	-1
+4	in	in	B-PP	IN	O	3	NMOD	-1
+5	malignant	malignant	B-NP	JJ	O	6	NMOD	-1
+6	disease	disease	I-NP	NN	O	4	PMOD	-1
+7	.	.	O	.	O	3	P	-1
+
+1	Cancer	Cancer	B-NP	NN	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	a	a	B-NP	DT	O	4	NMOD	-1
+4	disease	disease	I-NP	NN	O	6	AMOD	-1
+5	largely	largely	B-ADJP	RB	O	6	AMOD	-1
+6	dependent	dependent	I-ADJP	JJ	O	2	PRD	17	dependent
+7	on	on	B-PP	IN	O	6	AMOD	-1
+8	neoangiogenesis	neoangiogenesis	B-NP	NN	O	7	PMOD	3	neoangiogenesis
+9	.	.	O	.	O	2	P	-1
+
+1	Cancer	Cancer	B-NP	NN	O	2	NMOD	-1
+2	neoangiogenesis	neoangiogenesis	I-NP	NN	O	3	SUB	3	neoangiogenesis
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	often	often	I-VP	RB	O	3	VMOD	-1
+5	disordered	disorder	I-VP	VBN	O	7	AMOD	-1
+6	and	and	O	CC	O	7	AMOD	-1
+7	abnormal	abnormal	B-ADJP	JJ	O	3	PRD	-1
+8	,	,	O	,	O	3	P	-1
+9	with	with	B-PP	IN	O	3	VMOD	-1
+10	evidence	evidence	B-NP	NN	O	9	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	coexisting	coexist	B-VP	VBG	O	11	PMOD	-1
+13	vascular	vascular	B-NP	JJ	O	15	NMOD	-1
+14	endothelial	endothelial	I-NP	JJ	O	15	NMOD	-1
+15	dysfunction	dysfunction	I-NP	NN	O	12	OBJ	6	dysfunction
+16	.	.	O	.	O	3	P	-1
+
+1	A	A	B-NP	DT	O	3	NMOD	-1
+2	novel	novel	I-NP	JJ	O	3	NMOD	-1
+3	method	method	I-NP	NN	O	11	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	assessing	assess	B-VP	VBG	O	4	PMOD	-1
+6	vascular	vascular	B-NP	JJ	O	8	NMOD	-1
+7	endothelial	endothelial	I-NP	JJ	O	8	NMOD	-1
+8	function	function	I-NP	NN	O	5	OBJ	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	cancer	cancer	B-NP	NN	O	9	PMOD	-1
+11	is	be	B-VP	VBZ	O	0	ROOT	-1
+12	via	via	B-PP	IN	O	11	PRD	0
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	quantification	quantification	I-NP	NN	O	12	PMOD	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	circulating	circulate	B-VP	VBG	B-cell_type	18	NMOD	0
+17	endothelial	endothelial	B-NP	JJ	I-cell_type	18	NMOD	-1
+18	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	-1
+19	(	(	O	(	O	21	DEP	-1
+20	CEC	CEC	B-NP	NNS	B-cell_type	21	DEP	-1
+21	)	)	O	)	O	18	NMOD	-1
+22	.	.	O	.	O	11	P	-1
+
+1	Unusual	Unusual	B-ADJP	JJ	O	12	VMOD	-1
+2	in	in	B-PP	IN	O	1	AMOD	-1
+3	healthy	healthy	B-NP	JJ	O	4	NMOD	-1
+4	individuals	individual	I-NP	NNS	O	2	PMOD	-1
+5	,	,	O	,	O	12	P	-1
+6	their	their	B-NP	PRP$	O	7	NMOD	-1
+7	presence	presence	I-NP	NN	O	12	SUB	0
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	elevated	elevate	B-NP	VBN	O	10	NMOD	0
+10	numbers	number	I-NP	NNS	O	8	PMOD	-1
+11	often	often	B-ADVP	RB	O	12	VMOD	-1
+12	indicates	indicate	B-VP	VBZ	O	0	ROOT	-1
+13	substantial	substantial	B-NP	JJ	O	16	NMOD	-1
+14	vascular	vascular	I-NP	JJ	O	16	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	O	16	NMOD	-1
+16	perturbation	perturbation	I-NP	NN	O	12	OBJ	-1
+17	.	.	O	.	O	12	P	-1
+
+1	Another	Another	B-NP	DT	O	4	NMOD	-1
+2	interesting	interesting	I-NP	JJ	O	4	NMOD	-1
+3	cell	cell	I-NP	NN	O	4	NMOD	-1
+4	type	type	I-NP	NN	O	5	SUB	-1
+5	is	be	B-VP	VBZ	O	0	ROOT	-1
+6	the	the	B-NP	DT	O	9	NMOD	-1
+7	endothelial	endothelial	I-NP	JJ	B-cell_type	9	NMOD	-1
+8	progenitor	progenitor	I-NP	NN	I-cell_type	9	NMOD	-1
+9	cell	cell	I-NP	NN	I-cell_type	5	PRD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	EPC	EPC	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	,	,	O	,	O	9	P	-1
+14	whose	whose	B-NP	WP$	O	15	NMOD	-1
+15	numbers	number	I-NP	NNS	O	9	NMOD	-1
+16	increase	increase	B-VP	VBP	O	15	SBAR	17	increase
+17	in	in	B-PP	IN	O	16	VMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	presence	presence	I-NP	NN	O	17	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	vascular	vascular	B-NP	JJ	O	22	NMOD	-1
+22	damage	damage	I-NP	NN	O	20	PMOD	6	damage
+23	.	.	O	.	O	5	P	-1
+
+1	Recent	Recent	B-NP	JJ	O	2	NMOD	-1
+2	research	research	I-NP	NN	O	3	SUB	-1
+3	suggests	suggest	B-VP	VBZ	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	EPCs	EPC	B-NP	NNS	B-cell_type	6	SUB	-1
+6	have	have	B-VP	VBP	O	4	SBAR	-1
+7	an	an	B-NP	DT	O	9	NMOD	-1
+8	important	important	I-NP	JJ	O	9	NMOD	0
+9	role	role	I-NP	NN	O	6	OBJ	0
+10	in	in	B-PP	IN	O	6	VMOD	-1
+11	tumor	tumor	B-NP	NN	O	12	NMOD	-1
+12	vasculogenesis	vasculogenesis	I-NP	NN	O	10	PMOD	3	vasculogenesis
+13	.	.	O	.	O	3	P	-1
+
+1	Another	Another	B-NP	DT	O	2	NMOD	-1
+2	marker	marker	I-NP	NN	O	3	SUB	-1
+3	being	be	B-VP	VBG	O	13	SUB	-1
+4	investigated	investigate	I-VP	VBN	O	3	VC	-1
+5	in	in	B-PP	IN	O	4	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	context	context	I-NP	NN	O	5	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	vascular	vascular	B-NP	JJ	O	10	NMOD	-1
+10	dysfunction	dysfunction	I-NP	NN	O	12	NMOD	6	dysfunction
+11	and	and	I-NP	CC	O	12	NMOD	-1
+12	coagulopathy	coagulopathy	I-NP	NN	O	8	PMOD	-1
+13	is	be	B-VP	VBZ	O	0	ROOT	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	O	16	NMOD	-1
+16	microparticle	microparticle	I-NP	NN	O	13	PRD	-1
+17	(	(	O	(	O	19	DEP	-1
+18	EMP	EMP	B-NP	NN	B-protein	19	DEP	-1
+19	)	)	O	)	O	16	NMOD	-1
+20	.	.	O	.	O	13	P	-1
+
+1	Thus	Thus	B-ADVP	RB	O	8	VMOD	-1
+2	,	,	O	,	O	8	P	-1
+3	CECs	CEC	B-NP	NNS	B-cell_line	7	NMOD	-1
+4	,	,	I-NP	,	O	7	P	-1
+5	EPCs	EPC	I-NP	NNS	B-cell_type	7	NMOD	-1
+6	and	and	I-NP	CC	O	7	NMOD	-1
+7	EMPs	EMP	I-NP	NNS	B-protein	8	SUB	-1
+8	may	may	B-VP	MD	O	0	ROOT	-1
+9	represent	represent	I-VP	VB	O	8	VC	-1
+10	potentially	potentially	B-NP	RB	O	12	NMOD	-1
+11	novel	novel	I-NP	JJ	O	12	NMOD	-1
+12	methods	method	I-NP	NNS	O	9	OBJ	-1
+13	for	for	B-PP	IN	O	12	NMOD	-1
+14	evaluating	evaluate	B-VP	VBG	O	13	PMOD	-1
+15	the	the	B-NP	DT	O	17	NMOD	-1
+16	vascular	vascular	I-NP	JJ	O	17	NMOD	-1
+17	status	status	I-NP	NN	O	14	OBJ	-1
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	cancer	cancer	B-NP	NN	O	20	NMOD	-1
+20	patients	patient	I-NP	NNS	O	18	PMOD	-1
+21	.	.	O	.	O	8	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	review	review	I-NP	NN	O	3	SUB	-1
+3	will	will	B-VP	MD	O	0	ROOT	-1
+4	summarize	summarize	I-VP	VB	O	3	VC	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	current	current	I-NP	JJ	O	7	NMOD	-1
+7	position	position	I-NP	NN	O	4	OBJ	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	CECs	CEC	B-NP	NNS	B-cell_type	13	NMOD	-1
+10	,	,	O	,	O	13	P	-1
+11	EPCs	EPC	B-NP	NNS	B-cell_type	13	NMOD	-1
+12	and	and	I-NP	CC	O	13	NMOD	-1
+13	EMPs	EMP	I-NP	NNS	B-protein	8	PMOD	-1
+14	in	in	B-PP	IN	O	4	VMOD	-1
+15	cell	cell	B-NP	NN	O	17	NMOD	-1
+16	biology	biology	I-NP	NN	O	17	NMOD	-1
+17	terms	term	I-NP	NNS	O	14	PMOD	-1
+18	,	,	O	,	O	4	P	-1
+19	with	with	B-PP	IN	O	4	VMOD	-1
+20	particular	particular	B-NP	JJ	O	21	NMOD	-1
+21	emphasis	emphasis	I-NP	NN	O	19	PMOD	-1
+22	on	on	B-PP	IN	O	21	NMOD	-1
+23	their	their	B-NP	PRP$	O	24	NMOD	-1
+24	relationship	relationship	I-NP	NN	O	22	PMOD	-1
+25	to	to	B-PP	TO	O	24	NMOD	-1
+26	malignant	malignant	B-NP	JJ	O	27	NMOD	-1
+27	disease	disease	I-NP	NN	O	25	PMOD	-1
+28	.	.	O	.	O	3	P	-1
+

@@ -1,0 +1,319 @@
+1	Short	Short	B-NP	JJ	O	5	NMOD	-1
+2	pigment	pigment	I-NP	NN	O	5	NMOD	-1
+3	epithelial-derived	epithelial-derived	I-NP	JJ	O	5	NMOD	-1
+4	factor-derived	factor-derived	I-NP	JJ	O	5	NMOD	-1
+5	peptide	peptide	I-NP	NN	O	6	SUB	-1
+6	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+7	angiogenesis	angiogenesis	B-NP	NN	O	10	NMOD	3	angiogenesis
+8	and	and	I-NP	CC	O	10	NMOD	-1
+9	tumor	tumor	I-NP	NN	O	10	NMOD	-1
+10	growth	growth	I-NP	NN	O	6	OBJ	4	growth
+11	.	.	O	.	O	6	P	-1
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	5	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Pigment	Pigment	B-NP	NN	B-protein	5	NMOD	-1
+4	epithelial-derived	epithelial-derived	I-NP	JJ	I-protein	5	NMOD	-1
+5	factor	factor	I-NP	NN	I-protein	9	SUB	-1
+6	(	(	O	(	O	8	DEP	-1
+7	PEDF	PEDF	B-NP	NN	B-protein	8	DEP	-1
+8	)	)	O	)	O	5	NMOD	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	a	a	B-NP	DT	O	13	NMOD	-1
+11	potent	potent	I-NP	JJ	O	13	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	13	NMOD	3	angiogenesis
+13	inhibitor	inhibitor	I-NP	NN	O	9	PRD	0
+14	with	with	B-PP	IN	O	13	NMOD	-1
+15	multiple	multiple	B-NP	JJ	O	17	NMOD	-1
+16	other	other	I-NP	JJ	O	17	NMOD	-1
+17	functions	function	I-NP	NNS	O	14	PMOD	0
+18	,	,	O	,	O	9	P	-1
+19	some	some	B-NP	DT	O	20	NMOD	-1
+20	of	of	B-PP	IN	O	9	VMOD	-1
+21	which	which	B-NP	WDT	O	20	PMOD	-1
+22	enhance	enhance	B-VP	VBP	O	21	SBAR	17	enhance
+23	tumor	tumor	B-NP	NN	O	24	NMOD	-1
+24	growth	growth	I-NP	NN	O	22	OBJ	4	growth
+25	.	.	O	.	O	9	P	-1
+
+1	Our	Our	B-NP	PRP$	O	3	NMOD	-1
+2	previous	previous	I-NP	JJ	O	3	NMOD	-1
+3	studies	study	I-NP	NNS	O	4	SUB	-1
+4	mapped	map	B-VP	VBD	O	0	ROOT	-1
+5	PEDF	PEDF	B-NP	NN	B-protein	9	NMOD	-1
+6	antiangiogenic	antiangiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+7	and	and	I-NP	CC	O	9	NMOD	-1
+8	prosurvival	prosurvival	I-NP	NN	O	9	NMOD	-1
+9	activities	activity	I-NP	NNS	O	4	OBJ	18	activities
+10	to	to	B-PP	TO	O	4	VMOD	-1
+11	distinct	distinct	B-NP	JJ	O	12	NMOD	-1
+12	epitopes	epitope	I-NP	NNS	B-protein	10	PMOD	-1
+13	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	study	study	I-NP	NN	O	3	SUB	-1
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	aimed	aim	I-VP	VBN	O	3	VC	-1
+5	to	to	B-VP	TO	O	6	VMOD	-1
+6	determine	determine	I-VP	VB	O	4	VMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	minimal	minimal	I-NP	JJ	O	9	NMOD	-1
+9	fragment	fragment	I-NP	NN	O	6	OBJ	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	PEDF	PEDF	B-NP	NN	B-protein	10	PMOD	-1
+12	,	,	O	,	O	11	P	-1
+13	which	which	B-NP	WDT	O	11	NMOD	-1
+14	maintains	maintain	B-VP	VBZ	O	13	SBAR	-1
+15	antiangiogenic	antiangiogenic	B-NP	JJ	O	17	AMOD	3	angiogenic
+16	and	and	I-NP	CC	O	17	AMOD	-1
+17	antitumor	antitumor	I-NP	JJ	O	18	NMOD	-1
+18	efficacy	efficacy	I-NP	NN	O	14	OBJ	18	efficacy
+19	.	.	O	.	O	3	P	-1
+
+1	EXPERIMENTAL	EXPERIMENTAL	B-NP	JJ	O	2	NMOD	-1
+2	DESIGN	DESIGN	I-NP	NN	O	0	ROOT	-1
+3	:	:	O	:	O	2	P	-1
+4	We	We	B-NP	PRP	O	5	SUB	-1
+5	analyzed	analyze	B-VP	VBD	O	2	NMOD	-1
+6	antigenicity	antigenicity	B-NP	NN	O	12	NMOD	-1
+7	,	,	O	,	O	12	P	-1
+8	hydrophilicity	hydrophilicity	B-NP	NN	O	12	NMOD	-1
+9	,	,	O	,	O	12	P	-1
+10	and	and	O	CC	O	12	NMOD	-1
+11	charge	charge	B-NP	NN	O	12	NMOD	-1
+12	distribution	distribution	I-NP	NN	O	5	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	angioinhibitory	angioinhibitory	I-NP	JJ	O	16	NMOD	3	angioinhibitory
+16	epitope	epitope	I-NP	NN	O	13	PMOD	-1
+17	(	(	O	(	O	20	DEP	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	34-mer	34-mer	I-NP	NN	O	20	DEP	-1
+20	)	)	O	)	O	16	NMOD	-1
+21	and	and	O	CC	O	5	VMOD	-1
+22	designed	design	B-VP	VBN	O	5	VMOD	-1
+23	three	three	B-NP	CD	O	24	NMOD	-1
+24	peptides	peptide	I-NP	NNS	O	22	OBJ	-1
+25	covering	cover	B-VP	VBG	O	24	NMOD	-1
+26	its	its	B-NP	PRP$	O	28	NMOD	-1
+27	COOH	COOH	I-NP	NN	B-protein	28	NMOD	-1
+28	terminus	terminus	I-NP	NN	I-protein	35	NMOD	-1
+29	,	,	O	,	O	35	P	-1
+30	P14	P14	B-NP	NN	B-protein	35	NMOD	-1
+31	,	,	O	,	O	35	P	-1
+32	P18	P18	B-NP	NN	B-protein	35	NMOD	-1
+33	,	,	O	,	O	35	P	-1
+34	and	and	O	CC	O	35	NMOD	-1
+35	P23	P23	B-NP	NN	B-protein	25	OBJ	-1
+36	.	.	O	.	O	2	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	analyzed	analyze	B-VP	VBD	O	0	ROOT	-1
+3	their	their	B-NP	PRP$	O	4	NMOD	-1
+4	ability	ability	I-NP	NN	O	2	OBJ	0
+5	to	to	B-VP	TO	O	6	VMOD	-1
+6	block	block	I-VP	VB	O	4	NMOD	18	block
+7	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	-1
+8	cell	cell	I-NP	NN	I-cell_type	9	NMOD	-1
+9	chemotaxis	chemotaxis	I-NP	NN	O	6	OBJ	14	chemotaxis
+10	and	and	O	CC	O	2	VMOD	-1
+11	induce	induce	B-VP	VB	O	2	VMOD	17	induce
+12	apoptosis	apoptosis	B-NP	NN	O	11	OBJ	5	apoptosis
+13	in	in	B-ADVP	FW	O	11	VMOD	-1
+14	vitro	vitro	I-ADVP	FW	O	13	AMOD	-1
+15	and	and	O	CC	O	11	VMOD	-1
+16	their	their	B-NP	PRP$	O	18	NMOD	-1
+17	antiangiogenic	antiangiogenic	I-NP	JJ	O	18	NMOD	3	angiogenic
+18	activity	activity	I-NP	NN	O	11	OBJ	18	activity
+19	in	in	B-ADVP	FW	O	18	NMOD	-1
+20	vivo	vivo	I-ADVP	FW	O	19	AMOD	-1
+21	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	selected	select	I-NP	VBN	O	3	NMOD	-1
+3	peptide	peptide	I-NP	NN	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	tested	test	I-VP	VBN	O	4	VC	-1
+6	for	for	B-PP	IN	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	antitumor	antitumor	I-NP	JJ	O	9	NMOD	-1
+9	activity	activity	I-NP	NN	O	21	NMOD	18	activity
+10	against	against	B-PP	IN	O	9	NMOD	0
+11	mildly	mildly	B-NP	RB	O	12	AMOD	-1
+12	aggressive	aggressive	I-NP	JJ	O	15	NMOD	-1
+13	xenografted	xenografte	I-NP	VBN	O	15	NMOD	19	xenografted
+14	prostate	prostate	I-NP	NN	O	15	NMOD	-1
+15	carcinoma	carcinoma	I-NP	NN	O	10	PMOD	-1
+16	and	and	O	CC	O	21	NMOD	-1
+17	highly	highly	B-NP	RB	O	18	AMOD	-1
+18	aggressive	aggressive	I-NP	JJ	O	21	NMOD	-1
+19	renal	renal	I-NP	JJ	O	21	NMOD	-1
+20	cell	cell	I-NP	NN	O	21	NMOD	-1
+21	carcinoma	carcinoma	I-NP	NN	O	6	PMOD	-1
+22	.	.	O	.	O	4	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	verify	verify	I-VP	VB	O	14	VMOD	-1
+3	that	that	B-SBAR	IN	O	2	VMOD	-1
+4	P18	P18	B-NP	NN	B-protein	5	SUB	-1
+5	acts	act	B-VP	VBZ	O	3	SBAR	-1
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	same	same	I-NP	JJ	O	9	NMOD	-1
+9	manner	manner	I-NP	NN	O	6	PMOD	-1
+10	as	as	B-PP	IN	O	5	VMOD	-1
+11	PEDF	PEDF	B-NP	NN	B-protein	10	PMOD	-1
+12	,	,	O	,	O	14	P	-1
+13	we	we	B-NP	PRP	O	14	SUB	-1
+14	used	use	B-VP	VBD	O	0	ROOT	0
+15	immunohistochemistry	immunohistochemistry	B-NP	NN	O	14	OBJ	-1
+16	to	to	B-VP	TO	O	17	VMOD	-1
+17	measure	measure	I-VP	VB	O	14	VMOD	-1
+18	PEDF	PEDF	B-NP	NN	B-protein	19	NMOD	-1
+19	targets	target	I-NP	NNS	I-protein	31	NMOD	0
+20	,	,	O	,	O	31	P	-1
+21	vascular	vascular	B-NP	JJ	B-protein	25	NMOD	-1
+22	endothelial	endothelial	I-NP	JJ	I-protein	25	NMOD	-1
+23	growth	growth	I-NP	NN	I-protein	25	NMOD	0
+24	factor	factor	I-NP	NN	I-protein	25	NMOD	-1
+25	receptor	receptor	I-NP	NN	I-protein	31	NMOD	-1
+26	2	2	B-NP	CD	I-protein	25	NMOD	-1
+27	,	,	O	,	O	31	P	-1
+28	and	and	O	CC	O	31	NMOD	-1
+29	CD95	CD95	B-NP	NN	B-protein	30	NMOD	-1
+30	ligand	ligand	I-NP	NN	I-protein	31	NMOD	-1
+31	expression	expression	I-NP	NN	O	17	OBJ	9	expression
+32	in	in	B-PP	IN	O	31	NMOD	-1
+33	P18-treated	P18-treated	B-NP	JJ	O	34	NMOD	19	treated
+34	vasculature	vasculature	I-NP	NN	O	32	PMOD	-1
+35	.	.	O	.	O	14	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	14	SUB	0
+2	:	:	O	:	O	1	P	-1
+3	P14	P14	B-NP	NN	B-protein	5	NMOD	-1
+4	and	and	I-NP	CC	O	5	NMOD	-1
+5	P18	P18	I-NP	NN	B-protein	6	SUB	-1
+6	blocked	block	B-VP	VBD	O	14	VMOD	18	blocked
+7	endothelial	endothelial	B-NP	JJ	O	9	NMOD	-1
+8	cell	cell	I-NP	NN	O	9	NMOD	-1
+9	chemotaxis	chemotaxis	I-NP	NN	O	6	OBJ	14	chemotaxis
+10	;	;	O	:	O	6	P	-1
+11	P18	P18	B-NP	NN	B-protein	13	NMOD	-1
+12	and	and	I-NP	CC	O	13	NMOD	-1
+13	P23	P23	I-NP	NN	B-protein	14	SUB	-1
+14	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+15	apoptosis	apoptosis	B-NP	NN	O	14	OBJ	5	apoptosis
+16	.	.	O	.	O	14	P	-1
+
+1	P18	P18	B-NP	NN	B-protein	2	SUB	-1
+2	showed	show	B-VP	VBD	O	13	VMOD	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	highest	high	I-NP	JJS	O	5	NMOD	-1
+5	IC50	IC50	I-NP	NN	O	2	OBJ	-1
+6	and	and	O	CC	O	2	VMOD	-1
+7	blocked	block	B-VP	VBD	O	2	VMOD	18	blocked
+8	angiogenesis	angiogenesis	B-NP	NN	O	7	OBJ	3	angiogenesis
+9	in	in	B-ADVP	FW	O	7	VMOD	-1
+10	vivo	vivo	I-ADVP	FW	O	9	AMOD	-1
+11	:	:	O	:	O	13	P	-1
+12	P23	P23	B-NP	NN	B-protein	13	SUB	-1
+13	was	be	B-VP	VBD	O	17	VMOD	-1
+14	inactive	inactive	B-ADJP	JJ	O	13	PRD	18	inactive
+15	and	and	O	CC	O	17	VMOD	-1
+16	P14	P14	B-NP	NN	B-protein	17	SUB	-1
+17	was	be	B-VP	VBD	O	0	ROOT	-1
+18	proangiogenic	proangiogenic	B-ADJP	JJ	O	17	PRD	3	angiogenic
+19	.	.	O	.	O	17	P	-1
+
+1	P18	P18	B-NP	NN	B-protein	2	SUB	-1
+2	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	production	production	I-NP	NN	O	2	OBJ	9	production
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	CD95	CD95	B-NP	NN	B-protein	7	NMOD	-1
+7	ligand	ligand	I-NP	NN	I-protein	5	PMOD	-1
+8	and	and	O	CC	O	2	VMOD	-1
+9	reduced	reduce	B-VP	VBD	O	2	VMOD	18	reduced
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	expression	expression	I-NP	NN	O	9	OBJ	9	expression
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	vascular	vascular	B-NP	JJ	B-protein	17	NMOD	-1
+14	endothelial	endothelial	I-NP	JJ	I-protein	17	NMOD	-1
+15	growth	growth	I-NP	NN	I-protein	17	NMOD	0
+16	factor	factor	I-NP	NN	I-protein	17	NMOD	-1
+17	receptor	receptor	I-NP	NN	I-protein	12	PMOD	-1
+18	2	2	B-NP	CD	I-protein	17	NMOD	-1
+19	by	by	B-PP	IN	O	9	VMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	endothelial	endothelial	I-NP	JJ	B-cell_type	22	NMOD	-1
+22	cells	cell	I-NP	NNS	I-cell_type	19	PMOD	-1
+23	in	in	B-ADVP	FW	O	9	VMOD	-1
+24	vivo	vivo	I-ADVP	FW	O	23	AMOD	-1
+25	.	.	O	.	O	2	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	tumor	tumor	B-NP	NN	O	3	NMOD	-1
+3	studies	study	I-NP	NNS	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	P18	P18	B-NP	NN	B-protein	6	SUB	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	more	more	B-ADJP	RBR	O	8	AMOD	-1
+8	effective	effective	I-ADJP	JJ	O	6	PRD	0
+9	in	in	B-PP	IN	O	8	AMOD	-1
+10	blocking	block	B-VP	VBG	O	9	PMOD	18	blocking
+11	the	the	B-NP	DT	O	14	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	14	NMOD	3	angiogenesis
+13	and	and	I-NP	CC	O	14	NMOD	-1
+14	growth	growth	I-NP	NN	O	10	OBJ	4	growth
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	the	the	B-NP	DT	O	18	NMOD	-1
+17	prostate	prostate	I-NP	NN	O	18	NMOD	-1
+18	cancer	cancer	I-NP	NN	O	15	PMOD	-1
+19	than	than	B-PP	IN	O	10	VMOD	-1
+20	parental	parental	B-NP	JJ	O	21	NMOD	-1
+21	34-mer	34-mer	I-NP	NN	O	19	PMOD	-1
+22	;	;	O	:	O	6	P	-1
+23	in	in	B-PP	IN	O	6	VMOD	-1
+24	the	the	B-NP	DT	O	27	NMOD	-1
+25	renal	renal	I-NP	JJ	O	27	NMOD	-1
+26	cell	cell	I-NP	NN	O	27	NMOD	-1
+27	carcinoma	carcinoma	I-NP	NN	O	29	NMOD	-1
+28	,	,	O	,	O	29	P	-1
+29	P18	P18	B-NP	NN	B-protein	23	PMOD	-1
+30	strongly	strongly	B-ADVP	RB	O	6	VMOD	-1
+31	decreased	decrease	B-VP	VBD	O	6	VMOD	18	decreased
+32	angiogenesis	angiogenesis	B-NP	NN	O	31	OBJ	3	angiogenesis
+33	and	and	O	CC	O	6	VMOD	-1
+34	halted	halt	B-VP	VBD	O	6	VMOD	18	halted
+35	the	the	B-NP	DT	O	36	NMOD	-1
+36	progression	progression	I-NP	NN	O	34	OBJ	17	progression
+37	of	of	B-PP	IN	O	36	NMOD	-1
+38	established	establish	B-NP	VBN	O	39	NMOD	0
+39	tumors	tumor	I-NP	NNS	O	37	PMOD	-1
+40	.	.	O	.	O	6	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	P18	P18	B-NP	NN	B-protein	4	SUB	-1
+4	is	be	B-VP	VBZ	O	1	NMOD	-1
+5	a	a	B-NP	DT	O	11	NMOD	-1
+6	novel	novel	I-NP	JJ	O	10	AMOD	-1
+7	and	and	I-NP	CC	O	10	AMOD	-1
+8	potent	potent	I-NP	JJ	O	10	AMOD	-1
+9	antiangiogenic	antiangiogenic	I-NP	JJ	O	10	AMOD	3	angiogenic
+10	biotherapeutic	biotherapeutic	I-NP	JJ	O	11	NMOD	-1
+11	agent	agent	I-NP	NN	O	4	PRD	-1
+12	that	that	B-NP	WDT	O	11	NMOD	-1
+13	has	have	B-VP	VBZ	O	12	SBAR	-1
+14	potential	potential	B-ADJP	JJ	O	13	VMOD	0
+15	to	to	B-VP	TO	O	16	VMOD	-1
+16	be	be	I-VP	VB	O	14	AMOD	-1
+17	developed	develop	I-VP	VBN	O	16	VC	0
+18	for	for	B-PP	IN	O	17	VMOD	-1
+19	the	the	B-NP	DT	O	20	NMOD	-1
+20	treatment	treatment	I-NP	NN	O	18	PMOD	19	treatment
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	prostate	prostate	B-NP	NN	O	25	NMOD	-1
+23	and	and	O	CC	O	25	NMOD	-1
+24	renal	renal	B-NP	JJ	O	25	NMOD	-1
+25	cancer	cancer	I-NP	NN	O	21	PMOD	-1

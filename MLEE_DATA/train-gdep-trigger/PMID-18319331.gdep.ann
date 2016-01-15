@@ -1,0 +1,293 @@
+1	Mitogen-activated	Mitogen-activated	B-NP	JJ	B-protein	4	NMOD	0
+2	protein	protein	I-NP	NN	I-protein	4	NMOD	0
+3	kinase	kinase	I-NP	NN	I-protein	4	NMOD	0
+4	kinase	kinase	I-NP	NN	I-protein	5	NMOD	0
+5	signaling	signaling	I-NP	NN	O	6	SUB	0
+6	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+7	growth	growth	B-NP	NN	O	9	NMOD	4	growth
+8	and	and	I-NP	CC	O	9	NMOD	0
+9	vascularization	vascularization	I-NP	NN	O	6	OBJ	3	vascularization
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	fibrosarcoma	fibrosarcoma	B-NP	NN	O	10	PMOD	0
+12	.	.	O	.	O	6	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	hypothesized	hypothesize	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	signaling	signaling	B-NP	NN	O	18	SUB	0
+5	through	through	B-PP	IN	O	4	NMOD	0
+6	multiple	multiple	B-NP	JJ	O	17	NMOD	0
+7	mitogen-activated	mitogen-activated	I-NP	JJ	B-protein	9	NMOD	0
+8	protein	protein	I-NP	NN	I-protein	9	NMOD	0
+9	kinase	kinase	I-NP	NN	I-protein	17	NMOD	0
+10	(	(	O	(	O	16	DEP	0
+11	MAPK	MAPK	B-NP	NN	B-protein	13	NMOD	0
+12	)	)	O	)	O	13	NMOD	0
+13	kinase	kinase	B-NP	NN	O	16	DEP	0
+14	(	(	O	(	O	16	DEP	0
+15	MKK	MKK	B-NP	NN	B-protein	16	DEP	0
+16	)	)	O	)	O	9	NMOD	0
+17	pathways	pathway	B-NP	NNS	O	5	PMOD	0
+18	is	be	B-VP	VBZ	O	3	SBAR	0
+19	essential	essential	B-ADJP	JJ	O	18	PRD	17	essential
+20	for	for	B-PP	IN	O	19	AMOD	0
+21	the	the	B-NP	DT	O	24	NMOD	0
+22	growth	growth	I-NP	NN	O	24	NMOD	4	growth
+23	and	and	I-NP	CC	O	24	NMOD	0
+24	vascularization	vascularization	I-NP	NN	O	20	PMOD	3	vascularization
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	soft-tissue	soft-tissue	B-NP	JJ	O	27	NMOD	0
+27	sarcomas	sarcoma	I-NP	NNS	O	25	PMOD	0
+28	,	,	O	,	O	27	P	0
+29	which	which	B-NP	WDT	O	27	NMOD	0
+30	are	be	B-VP	VBP	O	29	SBAR	0
+31	malignant	malignant	B-NP	JJ	O	32	NMOD	0
+32	tumors	tumor	I-NP	NNS	O	30	PRD	0
+33	derived	derive	B-VP	VBN	O	32	NMOD	0
+34	from	from	B-PP	IN	O	33	VMOD	0
+35	mesenchymal	mesenchymal	B-NP	JJ	O	36	NMOD	0
+36	tissues	tissue	I-NP	NNS	O	34	PMOD	0
+37	.	.	O	.	O	2	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	tested	test	B-VP	VBD	O	0	ROOT	0
+3	this	this	B-NP	DT	O	2	OBJ	0
+4	using	use	I-NP	VBG	O	3	NMOD	0
+5	HT-1080	HT-1080	I-NP	NN	O	17	NMOD	0
+6	,	,	O	,	O	17	P	0
+7	NCI	NCI	B-NP	NN	B-protein	17	NMOD	0
+8	,	,	O	,	O	17	P	0
+9	and	and	O	CC	O	17	NMOD	0
+10	Shac	Shac	B-NP	NNP	O	13	NMOD	0
+11	fibrosarcoma-derived	fibrosarcoma-derived	I-NP	JJ	B-cell_line	13	NMOD	0
+12	cell	cell	I-NP	NN	I-cell_line	13	NMOD	0
+13	lines	line	I-NP	NNS	I-cell_line	17	NMOD	0
+14	and	and	O	CC	O	17	NMOD	0
+15	anthrax	anthrax	B-NP	NN	B-protein	17	NMOD	0
+16	lethal	lethal	I-NP	JJ	I-protein	17	NMOD	0
+17	toxin	toxin	I-NP	NN	I-protein	24	NMOD	0
+18	(	(	O	(	O	20	DEP	0
+19	LeTx	LeTx	B-NP	NN	O	20	DEP	0
+20	)	)	O	)	O	17	NMOD	0
+21	,	,	O	,	O	24	P	0
+22	a	a	B-NP	DT	O	24	NMOD	0
+23	bacterial	bacterial	I-NP	JJ	B-protein	24	NMOD	0
+24	toxin	toxin	I-NP	NN	I-protein	4	OBJ	0
+25	that	that	B-NP	WDT	O	24	NMOD	0
+26	inactivates	inactivate	B-VP	VBZ	O	25	SBAR	18	inactivates
+27	MKKs	MKK	B-NP	NNS	B-protein	26	OBJ	0
+28	.	.	O	.	O	2	P	0
+
+1	Western	Western	B-NP	JJ	O	2	NMOD	0
+2	blots	blot	I-NP	NNS	O	3	SUB	0
+3	confirmed	confirm	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	LeTx	LeTx	B-NP	NN	O	6	NMOD	0
+6	treatment	treatment	I-NP	NN	O	7	SUB	19	treatment
+7	reduced	reduce	B-VP	VBD	O	4	SBAR	18	reduced
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	levels	level	I-NP	NNS	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	phosphorylated	phosphorylate	B-NP	VBN	B-protein	14	NMOD	12	phosphorylated
+12	extracellular	extracellular	I-NP	JJ	I-protein	14	NMOD	0
+13	signal-regulated	signal-regulated	I-NP	JJ	I-protein	14	NMOD	0
+14	kinase	kinase	I-NP	NN	I-protein	17	NMOD	0
+15	and	and	I-NP	CC	O	17	NMOD	0
+16	p38	p38	I-NP	NN	B-protein	17	NMOD	0
+17	MAPK	MAPK	I-NP	NN	I-protein	10	PMOD	0
+18	in	in	B-ADVP	FW	O	7	VMOD	0
+19	vitro	vitro	I-ADVP	FW	O	18	AMOD	0
+20	.	.	O	.	O	3	P	0
+
+1	Although	Although	B-SBAR	IN	O	12	VMOD	0
+2	short	short	B-NP	JJ	O	3	NMOD	0
+3	treatments	treatment	I-NP	NNS	O	1	SBAR	19	treatments
+4	with	with	B-PP	IN	O	3	NMOD	0
+5	LeTx	LeTx	B-NP	NN	O	4	PMOD	0
+6	only	only	B-ADVP	RB	O	3	NMOD	0
+7	modestly	modestly	B-VP	RB	O	6	AMOD	0
+8	affected	affect	I-VP	VBD	O	6	AMOD	16	affected
+9	cell	cell	B-NP	NN	O	10	NMOD	0
+10	proliferation	proliferation	I-NP	NN	O	8	OBJ	1	proliferation
+11	,	,	O	,	O	12	P	0
+12	sustained	sustain	B-VP	VBD	O	15	VMOD	0
+13	treatment	treatment	B-NP	NN	O	12	OBJ	0
+14	markedly	markedly	B-ADVP	RB	O	15	VMOD	0
+15	reduced	reduce	B-VP	VBD	O	0	ROOT	0
+16	cell	cell	B-NP	NN	O	17	NMOD	0
+17	numbers	number	I-NP	NNS	O	15	OBJ	0
+18	.	.	O	.	O	15	P	0
+
+1	LeTx	LeTx	B-NP	NN	O	4	SUB	0
+2	also	also	B-ADVP	RB	O	4	VMOD	0
+3	substantially	substantially	B-VP	RB	O	2	AMOD	0
+4	inhibited	inhibit	I-VP	VBD	O	0	ROOT	18	inhibited
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	extracellular	extracellular	I-NP	JJ	O	7	NMOD	0
+7	release	release	I-NP	NN	O	4	OBJ	14	release
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	angioproliferative	angioproliferative	B-NP	JJ	B-protein	10	NMOD	3	angioproliferative
+10	factors	factor	I-NP	NNS	I-protein	8	PMOD	0
+11	including	include	B-PP	VBG	O	10	NMOD	0
+12	vascular	vascular	B-NP	JJ	B-protein	15	NMOD	0
+13	endothelial	endothelial	I-NP	JJ	I-protein	15	NMOD	0
+14	growth	growth	I-NP	NN	I-protein	15	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	23	NMOD	0
+16	,	,	O	,	O	23	P	0
+17	interleukin-8	interleukin-8	B-NP	NN	B-protein	23	NMOD	0
+18	,	,	O	,	O	23	P	0
+19	and	and	O	CC	O	23	NMOD	0
+20	basic	basic	B-NP	JJ	B-protein	23	NMOD	0
+21	fibroblast	fibroblast	I-NP	NN	I-protein	23	NMOD	0
+22	growth	growth	I-NP	NN	I-protein	23	NMOD	0
+23	factor	factor	I-NP	NN	I-protein	11	PMOD	0
+24	.	.	O	.	O	4	P	0
+
+1	Similar	Similar	B-NP	JJ	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	0	ROOT	0
+4	obtained	obtain	I-VP	VBN	O	3	VC	0
+5	with	with	B-PP	IN	O	4	VMOD	0
+6	cell	cell	B-NP	NN	B-cell_line	7	NMOD	0
+7	lines	line	I-NP	NNS	I-cell_line	5	PMOD	0
+8	derived	derive	B-VP	VBN	O	7	NMOD	0
+9	from	from	B-PP	IN	O	8	VMOD	0
+10	malignant	malignant	B-NP	JJ	B-cell_type	12	NMOD	0
+11	fibrous	fibrous	I-NP	JJ	I-cell_type	12	NMOD	0
+12	histiocytomas	histiocytoma	I-NP	NNS	I-cell_type	17	NMOD	0
+13	,	,	O	,	O	17	P	0
+14	leiomyosarcomas	leiomyosarcoma	B-NP	NNS	O	17	NMOD	0
+15	,	,	O	,	O	17	P	0
+16	and	and	O	CC	O	17	NMOD	0
+17	liposarcomas	liposarcoma	B-NP	NNS	O	9	PMOD	0
+18	.	.	O	.	O	3	P	0
+
+1	In	In	B-ADVP	FW	O	5	VMOD	0
+2	vivo	vivo	I-ADVP	FW	O	1	AMOD	0
+3	,	,	O	,	O	5	P	0
+4	LeTx	LeTx	B-NP	NNP	O	5	SUB	0
+5	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+6	MAPK	MAPK	B-NP	NN	B-protein	7	NMOD	0
+7	activity	activity	I-NP	NN	O	5	OBJ	0
+8	and	and	O	CC	O	5	VMOD	0
+9	blocked	block	B-VP	VBD	O	5	VMOD	18	blocked
+10	fibrosarcoma	fibrosarcoma	B-NP	NN	O	11	NMOD	0
+11	growth	growth	I-NP	NN	O	9	OBJ	4	growth
+12	.	.	O	.	O	5	P	0
+
+1	Growth	Growth	B-NP	NN	O	2	NMOD	4	Growth
+2	inhibition	inhibition	I-NP	NN	O	3	SUB	18	inhibition
+3	correlated	correlate	B-VP	VBD	O	14	VMOD	0
+4	with	with	B-PP	IN	O	3	VMOD	0
+5	decreased	decrease	B-NP	VBN	O	7	NMOD	0
+6	cellular	cellular	I-NP	JJ	O	7	NMOD	0
+7	proliferation	proliferation	I-NP	NN	O	10	NMOD	1	proliferation
+8	and	and	O	CC	O	10	NMOD	0
+9	extensive	extensive	B-NP	JJ	O	10	NMOD	0
+10	necrosis	necrosis	I-NP	NN	O	4	PMOD	0
+11	,	,	O	,	O	14	P	0
+12	and	and	O	CC	O	14	VMOD	0
+13	it	it	B-NP	PRP	O	14	SUB	0
+14	was	be	B-VP	VBD	O	0	ROOT	0
+15	accompanied	accompany	I-VP	VBN	O	14	VC	0
+16	by	by	B-PP	IN	O	15	VMOD	0
+17	a	a	B-NP	DT	O	18	NMOD	0
+18	decrease	decrease	I-NP	NN	O	16	PMOD	18	decrease
+19	in	in	B-PP	IN	O	18	NMOD	0
+20	tumor	tumor	B-NP	NN	O	23	NMOD	0
+21	mean	mean	I-NP	JJ	O	23	NMOD	0
+22	vessel	vessel	I-NP	NN	O	23	NMOD	0
+23	density	density	I-NP	NN	O	19	PMOD	0
+24	as	as	B-CONJP	RB	O	19	PMOD	0
+25	well	well	I-CONJP	RB	O	24	DEP	0
+26	as	as	I-CONJP	IN	O	24	DEP	0
+27	a	a	B-NP	DT	O	28	NMOD	0
+28	reduction	reduction	I-NP	NN	O	19	PMOD	18	reduction
+29	in	in	B-PP	IN	O	28	NMOD	0
+30	serum	serum	B-NP	NN	O	31	NMOD	0
+31	expression	expression	I-NP	NN	O	29	PMOD	0
+32	of	of	B-PP	IN	O	31	NMOD	0
+33	angioproliferative	angioproliferative	B-NP	JJ	B-protein	34	NMOD	3	angioproliferative
+34	cytokines	cytokine	I-NP	NNS	I-protein	32	PMOD	0
+35	.	.	O	.	O	14	P	0
+
+1	Vital	Vital	B-NP	JJ	O	2	NMOD	0
+2	imaging	imaging	I-NP	NN	O	6	SUB	0
+3	using	use	B-VP	VBG	O	2	NMOD	0
+4	high-resolution	high-resolution	B-NP	JJ	O	5	NMOD	0
+5	ultrasound	ultrasound	I-NP	NN	O	3	OBJ	0
+6	enhanced	enhance	B-VP	VBD	O	0	ROOT	0
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	contrast	contrast	B-NP	NN	O	9	NMOD	0
+9	microbubbles	microbubble	I-NP	NNS	O	7	PMOD	0
+10	revealed	reveal	B-VP	VBD	O	6	VMOD	0
+11	that	that	B-SBAR	IN	O	10	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	effects	effect	I-NP	NNS	O	19	SUB	16	effects
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	LeTx	LeTx	B-NP	NN	O	14	PMOD	0
+16	on	on	B-PP	IN	O	13	NMOD	0
+17	tumor	tumor	B-NP	NN	O	18	NMOD	0
+18	perfusion	perfusion	I-NP	NN	O	16	PMOD	2	perfusion
+19	were	be	B-VP	VBD	O	11	SBAR	0
+20	remarkably	remarkably	B-ADJP	RB	O	21	AMOD	0
+21	rapid	rapid	I-ADJP	JJ	O	19	PRD	0
+22	(	(	O	(	O	27	DEP	0
+23	less	less	B-NP	JJR	O	24	AMOD	0
+24	than	than	I-NP	IN	O	26	NMOD	0
+25	24	24	I-NP	CD	O	24	AMOD	0
+26	h	h	I-NP	NN	O	27	DEP	0
+27	)	)	O	)	O	21	AMOD	0
+28	and	and	O	CC	O	19	VMOD	0
+29	resulted	result	B-VP	VBD	O	19	VMOD	17	resulted
+30	in	in	B-PP	IN	O	29	VMOD	0
+31	a	a	B-NP	DT	O	33	NMOD	0
+32	marked	marked	I-NP	JJ	O	33	NMOD	0
+33	reduction	reduction	I-NP	NN	O	30	PMOD	18	reduction
+34	of	of	B-PP	IN	O	33	NMOD	0
+35	perfusion	perfusion	B-NP	NN	O	34	PMOD	2	perfusion
+36	within	within	B-PP	IN	O	33	NMOD	0
+37	the	the	B-NP	DT	O	38	NMOD	0
+38	tumor	tumor	I-NP	NN	O	36	PMOD	0
+39	but	but	B-PP	CC	O	36	PMOD	0
+40	not	not	B-PP	RB	O	41	PMOD	0
+41	in	in	I-PP	IN	O	36	PMOD	0
+42	nontumor	nontumor	B-NP	JJ	O	43	NMOD	0
+43	tissues	tissue	I-NP	NNS	O	41	PMOD	0
+44	.	.	O	.	O	6	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	are	be	B-VP	VBP	O	0	ROOT	0
+4	consistent	consistent	B-ADJP	JJ	O	3	PRD	0
+5	with	with	B-PP	IN	O	4	AMOD	0
+6	our	our	B-NP	PRP$	O	8	NMOD	0
+7	initial	initial	I-NP	JJ	O	8	NMOD	0
+8	hypothesis	hypothesis	I-NP	NN	O	5	PMOD	0
+9	and	and	O	CC	O	3	VMOD	0
+10	lead	lead	B-VP	VBP	O	3	VMOD	0
+11	us	us	B-NP	PRP	O	13	SUB	0
+12	to	to	B-VP	TO	O	13	VMOD	0
+13	propose	propose	I-VP	VB	O	10	VMOD	0
+14	that	that	B-SBAR	IN	O	13	VMOD	0
+15	MKK	MKK	B-NP	NN	B-protein	16	NMOD	0
+16	inhibition	inhibition	I-NP	NN	O	19	SUB	18	inhibition
+17	by	by	B-PP	IN	O	16	NMOD	0
+18	LeTx	LeTx	B-NP	NN	B-protein	17	PMOD	0
+19	is	be	B-VP	VBZ	O	14	SBAR	0
+20	a	a	B-NP	DT	O	23	NMOD	0
+21	broadly	broadly	I-NP	RB	O	22	AMOD	0
+22	effective	effective	I-NP	JJ	O	23	NMOD	0
+23	strategy	strategy	I-NP	NN	O	19	PRD	0
+24	for	for	B-PP	IN	O	23	NMOD	0
+25	targeting	target	B-VP	VBG	O	24	PMOD	16	targeting
+26	neovascularization	neovascularization	B-NP	NN	O	25	OBJ	3	neovascularization
+27	in	in	B-PP	IN	O	25	VMOD	0
+28	fibrosarcomas	fibrosarcoma	B-NP	NNS	O	33	NMOD	0
+29	and	and	O	CC	O	33	NMOD	0
+30	other	other	B-NP	JJ	O	33	NMOD	0
+31	similar	similar	I-NP	JJ	O	33	NMOD	0
+32	proliferative	proliferative	I-NP	JJ	O	33	NMOD	0
+33	lesions	lesion	I-NP	NNS	O	27	PMOD	0
+34	.	.	O	.	O	3	P	0
+

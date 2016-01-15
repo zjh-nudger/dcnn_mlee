@@ -1,0 +1,227 @@
+1	Functional	Functional	B-NP	JJ	O	2	NMOD	0
+2	significance	significance	I-NP	NN	O	10	NMOD	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	VEGF-a	VEGF-a	B-NP	NN	B-protein	3	PMOD	0
+5	in	in	B-PP	IN	O	2	NMOD	0
+6	human	human	B-NP	JJ	O	8	NMOD	0
+7	ovarian	ovarian	I-NP	JJ	O	8	NMOD	0
+8	carcinoma	carcinoma	I-NP	NN	O	5	PMOD	0
+9	:	:	O	:	O	2	P	0
+10	role	role	B-NP	NN	O	0	ROOT	16	role
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	vasculogenic	vasculogenic	B-NP	JJ	O	13	NMOD	0
+13	mimicry	mimicry	I-NP	NN	O	11	PMOD	0
+14	.	.	O	.	O	10	P	0
+
+1	Ovarian	Ovarian	B-NP	JJ	O	2	NMOD	0
+2	cancer	cancer	I-NP	NN	O	3	SUB	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	silent	silent	I-NP	JJ	O	6	NMOD	0
+6	killer	killer	I-NP	NN	O	3	PRD	0
+7	,	,	O	,	O	3	P	0
+8	and	and	O	CC	O	3	VMOD	0
+9	shows	show	B-VP	VBZ	O	3	VMOD	0
+10	early	early	B-NP	JJ	O	13	NMOD	0
+11	extensive	extensive	I-NP	JJ	O	13	NMOD	0
+12	tumor	tumor	I-NP	NN	O	13	NMOD	0
+13	invasion	invasion	I-NP	NN	O	16	NMOD	14	invasion
+14	and	and	O	CC	O	16	NMOD	0
+15	peritoneal	peritoneal	B-NP	JJ	O	16	NMOD	0
+16	metastasis	metastasis	I-NP	NN	O	9	OBJ	14	metastasis
+17	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	microcirculation	microcirculation	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	most	most	B-NP	JJS	O	5	NMOD	0
+5	tumors	tumor	I-NP	NNS	O	3	PMOD	0
+6	includes	include	B-VP	VBZ	O	0	ROOT	0
+7	cooperation	cooperation	B-NP	NN	O	23	NMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	pre-existing	pre-existing	B-NP	JJ	O	10	NMOD	0
+10	vessels	vessel	I-NP	NNS	O	8	PMOD	0
+11	,	,	O	,	O	23	P	0
+12	intussusceptive	intussusceptive	B-NP	JJ	O	14	NMOD	0
+13	microvascular	microvascular	I-NP	JJ	O	14	NMOD	0
+14	growth	growth	I-NP	NN	O	23	NMOD	4	growth
+15	,	,	O	,	O	23	P	0
+16	postnatal	postnatal	B-NP	JJ	O	17	NMOD	0
+17	vasculogenesis	vasculogenesis	I-NP	NN	O	23	NMOD	3	vasculogenesis
+18	,	,	O	,	O	23	P	0
+19	glomeruloid	glomeruloid	B-NP	JJ	O	20	NMOD	0
+20	angiogenesis	angiogenesis	I-NP	NN	O	23	NMOD	3	angiogenesis
+21	and	and	O	CC	O	23	NMOD	0
+22	vasculogenic	vasculogenic	B-NP	JJ	O	23	NMOD	0
+23	mimicry	mimicry	I-NP	NN	O	6	OBJ	0
+24	(	(	O	(	O	26	DEP	0
+25	VM	VM	B-NP	NN	O	26	DEP	3	VM
+26	)	)	O	)	O	23	NMOD	0
+27	.	.	O	.	O	6	P	0
+
+1	VM	VM	B-NP	NN	O	2	SUB	3	VM
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	critical	critical	B-ADJP	JJ	O	2	PRD	0
+4	for	for	B-PP	IN	O	3	AMOD	0
+5	a	a	B-NP	DT	O	8	NMOD	0
+6	tumor	tumor	I-NP	NN	O	8	NMOD	0
+7	blood	blood	I-NP	NN	O	8	NMOD	0
+8	supply	supply	I-NP	NN	O	4	PMOD	0
+9	and	and	O	CC	O	2	VMOD	0
+10	is	be	B-VP	VBZ	O	2	VMOD	0
+11	asscociated	asscociate	I-VP	VBN	O	10	VC	0
+12	with	with	B-PP	IN	O	11	VMOD	0
+13	aggressive	aggressive	B-NP	JJ	O	14	NMOD	0
+14	features	feature	I-NP	NNS	O	16	NMOD	0
+15	and	and	I-NP	CC	O	16	NMOD	0
+16	metastasis	metastasis	I-NP	NN	O	12	PMOD	0
+17	.	.	O	.	O	2	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	highlight	highlight	B-VP	VBP	O	0	ROOT	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	plasticity	plasticity	I-NP	NN	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	aggressive	aggressive	B-NP	JJ	B-cell_type	11	NMOD	0
+8	human	human	I-NP	JJ	I-cell_type	11	NMOD	0
+9	ovarian	ovarian	I-NP	JJ	I-cell_type	11	NMOD	0
+10	carcinoma	carcinoma	I-NP	NN	I-cell_type	11	NMOD	0
+11	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	0
+12	and	and	O	CC	O	3	VMOD	0
+13	call	call	B-VP	VB	O	3	VMOD	0
+14	into	into	B-PP	IN	O	13	VMOD	0
+15	question	question	B-NP	NN	O	14	PMOD	0
+16	the	the	B-NP	DT	O	18	NMOD	0
+17	underlying	underlie	I-NP	VBG	O	18	NMOD	0
+18	significance	significance	I-NP	NN	O	13	OBJ	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	their	their	B-NP	PRP$	O	21	NMOD	0
+21	ability	ability	I-NP	NN	O	19	PMOD	0
+22	to	to	B-VP	TO	O	23	VMOD	0
+23	form	form	I-VP	VB	O	21	NMOD	0
+24	VM	VM	B-NP	NN	O	23	OBJ	3	VM
+25	in	in	B-ADVP	FW	O	23	VMOD	0
+26	vitro	vitro	I-ADVP	FW	O	25	AMOD	0
+27	induced	induce	B-VP	VBN	O	25	AMOD	17	induced
+28	by	by	B-PP	IN	O	23	VMOD	0
+29	VEGF-a	VEGF-a	B-NP	NN	B-protein	28	PMOD	0
+30	.	.	O	.	O	3	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	4	SUB	0
+3	also	also	B-ADVP	RB	O	4	VMOD	0
+4	show	show	B-VP	VBP	O	0	ROOT	0
+5	their	their	B-NP	PRP$	O	7	NMOD	0
+6	clinicalpathological	clinicalpathological	I-NP	JJ	O	7	NMOD	0
+7	features	feature	I-NP	NNS	O	4	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	cancers	cancer	I-NP	NNS	O	8	PMOD	0
+11	with	with	B-PP	IN	O	7	NMOD	0
+12	human	human	B-NP	JJ	O	16	NMOD	0
+13	Paraffin-embedded	Paraffin-embedded	I-NP	JJ	O	16	NMOD	0
+14	tumor	tumor	I-NP	NN	O	16	NMOD	0
+15	tissue	tissue	I-NP	NN	O	16	NMOD	0
+16	samples	sample	I-NP	NNS	O	11	PMOD	0
+17	.	.	O	.	O	4	P	0
+
+1	Results	Result	B-NP	NNS	O	2	SUB	0
+2	show	show	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	process	process	I-NP	NN	O	29	SUB	0
+6	:	:	O	:	O	5	P	0
+7	VEGF-a	VEGF-a	B-NP	NN	O	9	AMOD	0
+8	--	--	O	:	O	9	P	0
+9	greater	great	B-ADJP	JJR	O	13	AMOD	0
+10	than	than	B-PP	IN	O	9	AMOD	0
+11	EphA2	EphA2	B-NP	NN	B-protein	10	PMOD	0
+12	--	--	O	:	O	13	P	0
+13	greater	great	B-ADJP	JJR	O	17	AMOD	0
+14	than	than	B-PP	IN	O	13	AMOD	0
+15	MMPs	MMP	B-NP	NNS	B-protein	14	PMOD	0
+16	--	--	O	:	O	17	P	0
+17	greater	great	B-ADJP	JJR	O	5	NMOD	0
+18	than	than	B-SBAR	IN	O	17	AMOD	0
+19	VM	VM	B-NP	NN	O	20	SUB	3	VM
+20	is	be	B-VP	VBZ	O	18	SBAR	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	main	main	I-NP	JJ	O	23	NMOD	0
+23	pathway	pathway	I-NP	NN	O	20	PRD	0
+24	for	for	B-PP	IN	O	23	NMOD	0
+25	VM	VM	B-NP	NN	O	26	NMOD	0
+26	formation	formation	I-NP	NN	O	28	NMOD	0
+27	and	and	I-NP	CC	O	28	NMOD	0
+28	VEGF-a	VEGF-a	I-NP	NN	O	24	PMOD	0
+29	appears	appear	B-VP	VBZ	O	3	SBAR	0
+30	to	to	I-VP	TO	O	31	VMOD	0
+31	play	play	I-VP	VB	O	29	VMOD	0
+32	an	an	B-NP	DT	O	34	NMOD	0
+33	important	important	I-NP	JJ	O	34	NMOD	0
+34	role	role	I-NP	NN	O	31	OBJ	0
+35	in	in	B-PP	IN	O	31	VMOD	0
+36	the	the	B-NP	DT	O	37	NMOD	0
+37	formation	formation	I-NP	NN	O	35	PMOD	0
+38	of	of	B-PP	IN	O	37	NMOD	0
+39	VM	VM	B-NP	NN	O	38	PMOD	3	VM
+40	based	base	B-VP	VBN	O	37	NMOD	0
+41	on	on	B-PP	IN	O	40	VMOD	0
+42	our	our	B-NP	PRP$	O	45	NMOD	0
+43	in	in	I-NP	FW	O	44	AMOD	0
+44	vitro	vitro	I-NP	FW	O	45	NMOD	0
+45	assays	assay	I-NP	NNS	O	49	NMOD	0
+46	and	and	O	CC	O	49	NMOD	0
+47	clinical	clinical	B-NP	JJ	O	48	AMOD	0
+48	immunohistochemical	immunohistochemical	I-NP	JJ	O	49	NMOD	0
+49	analyses	analysis	I-NP	NNS	O	41	PMOD	0
+50	.	.	O	.	O	2	P	0
+
+1	VM-targeting	VM-targeting	B-NP	JJ	O	2	NMOD	16	targeting
+2	strategies	strategy	I-NP	NNS	O	6	SUB	0
+3	for	for	B-PP	IN	O	2	NMOD	0
+4	ovarian	ovarian	B-NP	JJ	O	5	NMOD	0
+5	cancer	cancer	I-NP	NN	O	3	PMOD	0
+6	include	include	B-VP	VBP	O	0	ROOT	0
+7	anti-VEGF-a	anti-VEGF-a	B-NP	JJ	O	8	NMOD	0
+8	treatment	treatment	I-NP	NN	O	6	OBJ	19	treatment
+9	,	,	O	,	O	6	P	0
+10	knocking	knock	B-VP	VBG	O	6	VMOD	0
+11	down	down	B-PP	IN	O	10	VMOD	0
+12	the	the	B-NP	DT	O	14	NMOD	0
+13	EphA2	EphA2	I-NP	NN	B-DNA	14	NMOD	0
+14	gene	gene	I-NP	NN	I-DNA	11	PMOD	0
+15	and	and	O	CC	O	10	VMOD	0
+16	using	use	B-VP	VBG	O	10	VMOD	19	using
+17	antibodies	antibody	B-NP	NNS	B-protein	16	OBJ	0
+18	against	against	B-PP	IN	O	17	NMOD	0
+19	human	human	B-NP	JJ	O	20	NMOD	0
+20	MMPs	MMP	I-NP	NNS	O	18	PMOD	0
+21	if	if	B-SBAR	IN	O	16	VMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	tumor	tumor	I-NP	NN	O	24	SUB	0
+24	is	be	B-VP	VBZ	O	21	SBAR	0
+25	VM	VM	B-NP	NN	O	24	PRD	3	VM
+26	positive	positive	B-ADJP	JJ	O	25	AMOD	0
+27	.	.	O	.	O	6	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	strategy	strategy	I-NP	NN	O	3	SUB	0
+3	may	may	B-VP	MD	O	0	ROOT	0
+4	be	be	I-VP	VB	O	3	VC	0
+5	of	of	B-PP	IN	O	4	PRD	0
+6	significant	significant	B-NP	JJ	O	7	NMOD	0
+7	value	value	I-NP	NN	O	5	PMOD	0
+8	in	in	B-PP	IN	O	4	VMOD	0
+9	laying	lay	B-VP	VBG	O	8	PMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	foundation	foundation	I-NP	NN	O	9	OBJ	0
+12	for	for	B-PP	IN	O	11	NMOD	0
+13	a	a	B-NP	DT	O	18	NMOD	0
+14	more	more	I-NP	RBR	O	15	AMOD	0
+15	explicit	explicit	I-NP	JJ	O	18	NMOD	0
+16	anti-tumor	anti-tumor	I-NP	JJ	O	18	NMOD	0
+17	angiogenesis	angiogenesis	I-NP	NN	O	18	NMOD	3	angiogenesis
+18	therapy	therapy	I-NP	NN	O	12	PMOD	18	therapy
+19	.	.	O	.	O	3	P	0
+

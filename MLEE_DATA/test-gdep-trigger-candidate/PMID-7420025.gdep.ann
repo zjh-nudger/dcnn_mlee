@@ -1,0 +1,244 @@
+1	Mast	Mast	B-NP	NN	O	3	NMOD	-1
+2	cell	cell	I-NP	NN	O	3	NMOD	-1
+3	heparin	heparin	I-NP	NN	O	4	SUB	-1
+4	stimulates	stimulate	B-VP	VBZ	O	0	ROOT	17	stimulates
+5	migration	migration	B-NP	NN	O	4	OBJ	14	migration
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	capillary	capillary	B-NP	JJ	B-cell_type	9	NMOD	-1
+8	endothelial	endothelial	I-NP	JJ	I-cell_type	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	-1
+10	in	in	B-ADVP	FW	O	5	NMOD	-1
+11	vitro	vitro	I-ADVP	FW	O	10	AMOD	-1
+12	.	.	O	.	O	4	P	-1
+
+1	Migration	Migration	B-NP	NN	O	6	SUB	14	Migration
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	capillary	capillary	B-NP	JJ	B-cell_type	5	NMOD	-1
+4	endothelial	endothelial	I-NP	JJ	I-cell_type	5	NMOD	-1
+5	cells	cell	I-NP	NNS	I-cell_type	2	PMOD	-1
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	an	an	B-NP	DT	O	9	NMOD	-1
+8	important	important	I-NP	JJ	O	9	NMOD	0
+9	component	component	I-NP	NN	O	6	PRD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	PMOD	3	angiogenesis
+12	in	in	B-ADVP	FW	O	6	VMOD	-1
+13	vivo	vivo	I-ADVP	FW	O	12	AMOD	-1
+14	.	.	O	.	O	6	P	-1
+
+1	Increased	Increase	B-NP	VBN	O	2	NMOD	17	Increased
+2	numbers	number	I-NP	NNS	O	6	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	mast	mast	B-NP	NN	B-cell_type	5	NMOD	-1
+5	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	-1
+6	have	have	B-VP	VBP	O	0	ROOT	-1
+7	been	be	I-VP	VBN	O	6	VC	-1
+8	associated	associate	I-VP	VBN	O	7	VC	16	associated
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	several	several	B-NP	JJ	O	11	NMOD	-1
+11	types	type	I-NP	NNS	O	9	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	PMOD	3	angiogenesis
+14	.	.	O	.	O	6	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	have	have	B-VP	VBP	O	0	ROOT	-1
+3	used	use	I-VP	VBN	O	2	VC	0
+4	a	a	B-NP	DT	O	6	NMOD	-1
+5	quantitative	quantitative	I-NP	JJ	O	6	NMOD	-1
+6	assay	assay	I-NP	NN	O	3	OBJ	-1
+7	in	in	B-ADVP	FW	O	6	NMOD	-1
+8	vitro	vitro	I-ADVP	FW	O	7	AMOD	-1
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	demonstrate	demonstrate	I-VP	VB	O	2	VMOD	-1
+11	that	that	B-SBAR	IN	O	10	VMOD	-1
+12	mast	mast	B-NP	NN	B-cell_type	13	NMOD	-1
+13	cells	cell	I-NP	NNS	I-cell_type	14	SUB	-1
+14	release	release	B-VP	VBP	O	11	SBAR	0
+15	a	a	B-NP	DT	O	16	NMOD	-1
+16	factor	factor	I-NP	NN	O	14	OBJ	-1
+17	that	that	B-NP	WDT	O	16	NMOD	-1
+18	significantly	significantly	B-VP	RB	O	19	VMOD	-1
+19	increases	increase	I-VP	VBZ	O	17	SBAR	17	increases
+20	bovine	bovine	B-NP	JJ	O	24	NMOD	-1
+21	capillary	capillary	I-NP	JJ	O	24	NMOD	-1
+22	endothelial	endothelial	I-NP	JJ	O	24	NMOD	-1
+23	cell	cell	I-NP	NN	O	24	NMOD	-1
+24	migration	migration	I-NP	NN	O	19	OBJ	14	migration
+25	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	factor	factor	I-NP	NN	O	3	SUB	-1
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	present	present	B-ADJP	JJ	O	3	PRD	0
+5	in	in	B-PP	IN	O	4	AMOD	-1
+6	medium	medium	B-NP	NN	O	5	PMOD	-1
+7	conditioned	condition	B-VP	VBN	O	6	NMOD	-1
+8	by	by	B-PP	IN	O	7	VMOD	-1
+9	mast	mast	B-NP	NN	B-cell_type	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	-1
+11	as	as	B-CONJP	RB	O	14	NMOD	-1
+12	well	well	I-CONJP	RB	O	11	DEP	-1
+13	as	as	I-CONJP	IN	O	11	DEP	-1
+14	lysates	lysate	B-NP	NNS	O	4	AMOD	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	mast	mast	B-NP	NN	B-cell_type	17	NMOD	-1
+17	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	-1
+18	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	stimulatory	stimulatory	I-NP	JJ	O	3	NMOD	-1
+3	effect	effect	I-NP	NN	O	9	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	mast	mast	B-NP	NN	B-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	4	PMOD	-1
+7	on	on	B-PP	IN	O	3	NMOD	-1
+8	migration	migration	B-NP	NN	O	7	PMOD	14	migration
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	specific	specific	B-ADJP	JJ	O	9	PRD	-1
+11	for	for	B-PP	IN	O	10	AMOD	-1
+12	capillary	capillary	B-NP	JJ	B-cell_type	14	NMOD	-1
+13	endothelial	endothelial	I-NP	JJ	I-cell_type	14	NMOD	-1
+14	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	-1
+15	.	.	O	.	O	9	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	mast	mast	B-NP	NN	B-cell_type	4	NMOD	-1
+4	cells	cell	I-NP	NNS	I-cell_type	5	SUB	-1
+5	have	have	B-VP	VBP	O	0	ROOT	-1
+6	no	no	B-NP	DT	O	8	NMOD	-1
+7	mitogenic	mitogenic	I-NP	JJ	O	8	NMOD	-1
+8	activity	activity	I-NP	NN	O	5	OBJ	0
+9	for	for	B-PP	IN	O	8	NMOD	-1
+10	capillary	capillary	B-NP	JJ	B-cell_type	12	NMOD	-1
+11	endothelial	endothelial	I-NP	JJ	I-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	-1
+13	.	.	O	.	O	5	P	-1
+
+1	Of	Of	B-PP	IN	O	13	VMOD	-1
+2	all	all	B-NP	PDT	O	5	NMOD	-1
+3	the	the	I-NP	DT	O	5	NMOD	-1
+4	secretory	secretory	I-NP	JJ	B-protein	5	NMOD	-1
+5	products	product	I-NP	NNS	I-protein	1	PMOD	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	mast	mast	B-NP	NN	B-cell_type	8	NMOD	-1
+8	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	-1
+9	tested	test	B-VP	VBN	O	8	NMOD	-1
+10	,	,	O	,	O	13	P	-1
+11	only	only	B-NP	RB	O	12	NMOD	-1
+12	heparin	heparin	I-NP	NN	O	13	SUB	-1
+13	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+14	capillary	capillary	B-NP	JJ	O	17	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	O	17	NMOD	-1
+16	cell	cell	I-NP	NN	O	17	NMOD	-1
+17	migration	migration	I-NP	NN	O	13	OBJ	14	migration
+18	in	in	B-ADVP	FW	O	13	VMOD	-1
+19	vitro	vitro	I-ADVP	FW	O	18	AMOD	-1
+20	.	.	O	.	O	13	P	-1
+
+1	Heparin	Heparin	B-NP	NN	O	2	NMOD	-1
+2	preparations	preparation	I-NP	NNS	O	8	SUB	-1
+3	from	from	B-PP	IN	O	2	NMOD	-1
+4	a	a	B-NP	DT	O	5	NMOD	-1
+5	variety	variety	I-NP	NN	O	3	PMOD	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	sources	source	B-NP	NNS	O	6	PMOD	-1
+8	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+9	capillary	capillary	B-NP	JJ	O	12	NMOD	-1
+10	endothelial	endothelial	I-NP	JJ	O	12	NMOD	-1
+11	cell	cell	I-NP	NN	O	12	NMOD	-1
+12	migration	migration	I-NP	NN	O	8	OBJ	14	migration
+13	to	to	B-PP	TO	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	same	same	I-NP	JJ	O	16	NMOD	-1
+16	degree	degree	I-NP	NN	O	13	PMOD	-1
+17	but	but	O	CC	O	8	VMOD	-1
+18	did	do	B-VP	VBD	O	8	VMOD	-1
+19	not	not	I-VP	RB	O	18	VMOD	-1
+20	stimulate	stimulate	I-VP	VB	O	18	VC	17	stimulate
+21	migration	migration	B-NP	NN	O	20	OBJ	14	migration
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	several	several	B-NP	JJ	O	24	AMOD	-1
+24	other	other	I-NP	JJ	O	26	NMOD	-1
+25	cell	cell	I-NP	NN	O	26	NMOD	-1
+26	types	type	I-NP	NNS	O	22	PMOD	-1
+27	.	.	O	.	O	8	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	migration	migration	I-NP	NN	O	3	NMOD	0
+3	activity	activity	I-NP	NN	O	11	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	heparin	heparin	B-NP	NN	O	10	NMOD	-1
+6	and	and	I-NP	CC	O	10	NMOD	-1
+7	mast	mast	I-NP	NN	O	10	NMOD	-1
+8	cell	cell	I-NP	NN	O	10	NMOD	-1
+9	conditioned	conditioned	I-NP	JJ	O	10	NMOD	-1
+10	medium	medium	I-NP	NN	O	4	PMOD	-1
+11	was	be	B-VP	VBD	O	0	ROOT	-1
+12	blocked	block	I-VP	VBN	O	11	VC	18	blocked
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	specific	specific	B-NP	JJ	O	15	NMOD	-1
+15	antagonists	antagonist	I-NP	NNS	O	13	PMOD	-1
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	heparin	heparin	B-NP	NN	O	16	PMOD	-1
+18	(	(	O	(	O	22	DEP	-1
+19	protamine	protamine	B-NP	NN	O	21	NMOD	-1
+20	and	and	O	CC	O	21	NMOD	-1
+21	heparinase	heparinase	B-NP	NN	B-protein	22	DEP	-1
+22	)	)	O	)	O	17	NMOD	-1
+23	,	,	O	,	O	13	P	-1
+24	but	but	B-PP	CC	O	13	PMOD	-1
+25	not	not	I-PP	RB	O	26	PMOD	-1
+26	by	by	B-PP	IN	O	13	PMOD	-1
+27	chondroitinase	chondroitinase	B-NP	NN	B-protein	28	NMOD	-1
+28	ABC	ABC	I-NP	NNP	O	26	PMOD	-1
+29	.	.	O	.	O	11	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	migration	migration	I-NP	NN	O	3	NMOD	0
+3	activity	activity	I-NP	NN	O	9	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	mast	mast	B-NP	NN	O	8	NMOD	-1
+6	cell	cell	I-NP	NN	O	8	NMOD	-1
+7	conditioned	conditioned	I-NP	JJ	O	8	NMOD	-1
+8	medium	medium	I-NP	NN	O	4	PMOD	-1
+9	was	be	B-VP	VBD	O	0	ROOT	-1
+10	resistant	resistant	B-ADJP	JJ	O	9	PRD	-1
+11	to	to	B-PP	TO	O	10	AMOD	-1
+12	heat	heat	B-NP	NN	O	19	NMOD	-1
+13	(	(	O	(	O	17	DEP	-1
+14	100	100	B-NP	CD	O	16	NMOD	-1
+15	degrees	degree	I-NP	NNS	O	16	NMOD	-1
+16	C	C	I-NP	NN	O	17	DEP	-1
+17	)	)	O	)	O	12	NMOD	-1
+18	and	and	O	CC	O	19	NMOD	-1
+19	incubation	incubation	B-NP	NN	O	11	PMOD	-1
+20	with	with	B-PP	IN	O	19	NMOD	-1
+21	proteolytic	proteolytic	B-NP	JJ	B-protein	22	NMOD	-1
+22	enzymes	enzyme	I-NP	NNS	I-protein	20	PMOD	-1
+23	.	.	O	.	O	9	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	role	role	I-NP	NN	O	12	SUB	16	role
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	mast	mast	B-NP	NN	B-cell_type	9	NMOD	-1
+9	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+10	in	in	B-PP	IN	O	6	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	PMOD	3	angiogenesis
+12	may	may	B-VP	MD	O	4	SBAR	-1
+13	be	be	I-VP	VB	O	12	VC	-1
+14	to	to	B-VP	TO	O	15	VMOD	-1
+15	enhance	enhance	I-VP	VB	O	13	PRD	17	enhance
+16	migration	migration	B-NP	NN	O	15	OBJ	14	migration
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	endothelial	endothelial	I-NP	JJ	B-cell_type	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	-1
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	growing	grow	B-NP	VBG	O	23	NMOD	4	growing
+23	capillaries	capillary	I-NP	NNS	O	21	PMOD	-1

@@ -1,0 +1,330 @@
+1	Insulin-induced	Insulin-induced	B-NP	JJ	B-protein	6	NMOD	17	induced
+2	vascular	vascular	I-NP	JJ	I-protein	6	NMOD	-1
+3	endothelial	endothelial	I-NP	JJ	I-protein	6	NMOD	-1
+4	growth	growth	I-NP	NN	I-protein	6	NMOD	0
+5	factor	factor	I-NP	NN	I-protein	6	NMOD	-1
+6	expression	expression	I-NP	NN	O	0	ROOT	9	expression
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	retina	retina	B-NP	NN	O	7	PMOD	-1
+9	.	.	O	.	O	6	P	-1
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Clinical	Clinical	B-NP	JJ	O	4	NMOD	-1
+4	studies	study	I-NP	NNS	O	5	SUB	-1
+5	have	have	B-VP	VBP	O	1	NMOD	-1
+6	demonstrated	demonstrate	I-VP	VBN	O	5	VC	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	intensive	intensive	B-NP	JJ	O	10	NMOD	-1
+9	insulin	insulin	I-NP	NN	O	10	NMOD	-1
+10	therapy	therapy	I-NP	NN	O	11	SUB	19	therapy
+11	causes	cause	B-VP	VBZ	O	7	SBAR	-1
+12	a	a	B-NP	DT	O	14	NMOD	-1
+13	transient	transient	I-NP	JJ	O	14	NMOD	-1
+14	worsening	worsening	I-NP	NN	O	11	OBJ	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	retinopathy	retinopathy	B-NP	NN	O	15	PMOD	-1
+17	.	.	O	.	O	5	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	mechanisms	mechanism	I-NP	NNS	O	15	SUB	-1
+3	underlying	underlie	B-VP	VBG	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	7	NMOD	-1
+5	initial	initial	I-NP	JJ	O	7	NMOD	-1
+6	insulin-induced	insulin-induced	I-NP	JJ	O	7	NMOD	-1
+7	deterioration	deterioration	I-NP	NN	O	3	OBJ	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	retinal	retinal	B-NP	JJ	O	10	NMOD	-1
+10	status	status	I-NP	NN	O	8	PMOD	-1
+11	in	in	B-PP	IN	O	7	NMOD	-1
+12	patients	patient	B-NP	NNS	O	11	PMOD	-1
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	diabetes	diabete	B-NP	NNS	O	13	PMOD	-1
+15	remain	remain	B-VP	VBP	O	0	ROOT	-1
+16	unknown	unknown	B-ADJP	JJ	O	15	PRD	-1
+17	.	.	O	.	O	15	P	-1
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	-1
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	8	SUB	-1
+5	(	(	O	(	O	7	DEP	-1
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	-1
+7	)	)	O	)	O	4	NMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	known	know	I-VP	VBN	O	8	VC	-1
+10	to	to	I-VP	TO	O	11	VMOD	-1
+11	be	be	I-VP	VB	O	9	VMOD	-1
+12	operative	operative	B-ADJP	JJ	O	11	PRD	-1
+13	in	in	B-PP	IN	O	12	AMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	pathogenesis	pathogenesis	I-NP	NN	O	13	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	diabetic	diabetic	B-NP	JJ	O	18	NMOD	-1
+18	retinopathy	retinopathy	I-NP	NN	O	16	PMOD	-1
+19	.	.	O	.	O	8	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	current	current	I-NP	JJ	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	conducted	conduct	I-VP	VBN	O	4	VC	-1
+6	to	to	I-VP	TO	O	7	VMOD	-1
+7	characterize	characterize	I-VP	VB	O	5	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	effect	effect	I-NP	NN	O	7	OBJ	16	effect
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	insulin	insulin	B-NP	NN	B-protein	10	PMOD	-1
+12	on	on	B-PP	IN	O	9	NMOD	-1
+13	retinal	retinal	B-NP	JJ	B-DNA	16	NMOD	-1
+14	VEGF	VEGF	I-NP	NN	I-DNA	16	NMOD	-1
+15	gene	gene	I-NP	NN	I-DNA	16	NMOD	-1
+16	expression	expression	I-NP	NN	O	12	PMOD	9	expression
+17	in	in	B-ADVP	FW	O	16	NMOD	-1
+18	vitro	vitro	I-ADVP	FW	O	17	AMOD	-1
+19	and	and	O	CC	O	7	VMOD	-1
+20	in	in	B-ADVP	FW	O	7	VMOD	-1
+21	vivo	vivo	I-ADVP	FW	O	20	AMOD	-1
+22	.	.	O	.	O	4	P	-1
+
+1	METHODS	METHODS	B-NP	NNS	O	12	VMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	The	The	B-NP	DT	O	4	NMOD	-1
+4	effect	effect	I-NP	NN	O	12	SUB	16	effect
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	insulin	insulin	B-NP	NN	B-protein	5	PMOD	-1
+7	on	on	B-PP	IN	O	4	NMOD	-1
+8	VEGF	VEGF	B-NP	NN	B-protein	9	NMOD	-1
+9	expression	expression	I-NP	NN	O	7	PMOD	9	expression
+10	in	in	B-ADVP	FW	O	4	NMOD	-1
+11	vivo	vivo	I-ADVP	FW	O	10	AMOD	-1
+12	was	be	B-VP	VBD	O	0	ROOT	-1
+13	examined	examine	I-VP	VBN	O	12	VC	-1
+14	by	by	B-PP	IN	O	13	VMOD	-1
+15	in	in	B-NP	FW	O	16	AMOD	-1
+16	situ	situ	I-NP	FW	O	18	NMOD	-1
+17	hybridization	hybridization	I-NP	NN	O	18	NMOD	-1
+18	studies	study	I-NP	NNS	O	14	PMOD	-1
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	rat	rat	B-NP	NN	B-RNA	23	NMOD	-1
+21	retinal	retinal	I-NP	JJ	I-RNA	23	NMOD	-1
+22	VEGF	VEGF	I-NP	NN	I-RNA	23	NMOD	-1
+23	transcripts	transcript	I-NP	NNS	I-RNA	19	PMOD	-1
+24	.	.	O	.	O	12	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	examine	examine	I-VP	VB	O	29	VMOD	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	mechanisms	mechanism	I-NP	NNS	O	2	OBJ	-1
+5	by	by	B-PP	IN	O	4	NMOD	-1
+6	which	which	B-NP	WDT	O	5	PMOD	-1
+7	insulin	insulin	B-NP	NN	B-protein	8	SUB	-1
+8	regulates	regulate	B-VP	VBZ	O	5	SBAR	16	regulates
+9	VEGF	VEGF	B-NP	NN	B-protein	10	NMOD	-1
+10	expression	expression	I-NP	NN	O	19	NMOD	9	expression
+11	,	,	O	,	O	19	P	-1
+12	human	human	B-NP	JJ	B-cell_type	19	NMOD	-1
+13	retinal	retinal	I-NP	JJ	I-cell_type	19	NMOD	-1
+14	pigment	pigment	I-NP	NN	I-cell_type	19	NMOD	-1
+15	epithelial	epithelial	B-ADJP	JJ	I-cell_type	19	NMOD	-1
+16	(	(	O	(	I-cell_type	19	NMOD	-1
+17	RPE	RPE	B-NP	NN	I-cell_type	19	NMOD	-1
+18	)	)	I-NP	)	I-cell_type	19	NMOD	-1
+19	cells	cell	I-NP	NNS	I-cell_type	8	OBJ	-1
+20	were	be	B-VP	VBD	O	8	VMOD	-1
+21	exposed	expose	I-VP	VBN	O	20	VC	19	exposed
+22	to	to	B-PP	TO	O	21	VMOD	-1
+23	insulin	insulin	B-NP	NN	B-protein	22	PMOD	-1
+24	,	,	O	,	O	29	P	-1
+25	and	and	O	CC	O	29	VMOD	-1
+26	VEGF	VEGF	B-NP	NN	B-RNA	27	NMOD	-1
+27	mRNA	mRNA	I-NP	NN	I-RNA	28	NMOD	0
+28	levels	level	I-NP	NNS	O	29	SUB	-1
+29	were	be	B-VP	VBD	O	0	ROOT	-1
+30	quantified	quantify	I-VP	VBN	O	29	VC	-1
+31	with	with	B-PP	IN	O	30	VMOD	-1
+32	RNase	RNase	B-NP	NN	B-protein	34	NMOD	-1
+33	protection	protection	I-NP	NN	O	34	NMOD	0
+34	assays	assay	I-NP	NNS	O	31	PMOD	-1
+35	(	(	O	(	O	37	DEP	-1
+36	RPAs	RPA	B-NP	NNS	B-protein	37	DEP	-1
+37	)	)	O	)	O	34	NMOD	-1
+38	.	.	O	.	O	29	P	-1
+
+1	Conditioned	Condition	B-NP	VBN	O	2	NMOD	-1
+2	media	medium	I-NP	NNS	O	7	SUB	-1
+3	from	from	B-PP	IN	O	2	NMOD	-1
+4	insulin-treated	insulin-treated	B-NP	JJ	B-cell_type	6	NMOD	19	treated
+5	RPE	RPE	I-NP	NN	I-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	-1
+7	were	be	B-VP	VBD	O	0	ROOT	-1
+8	assayed	assay	I-VP	VBN	O	7	VC	19	assayed
+9	for	for	B-PP	IN	O	8	VMOD	-1
+10	VEGF	VEGF	B-NP	NN	B-protein	11	NMOD	-1
+11	protein	protein	I-NP	NN	I-protein	16	NMOD	-1
+12	and	and	O	CC	O	16	NMOD	-1
+13	capillary	capillary	B-NP	JJ	O	16	NMOD	-1
+14	endothelial	endothelial	I-NP	JJ	O	16	NMOD	-1
+15	cell	cell	I-NP	NN	O	16	NMOD	-1
+16	proliferation	proliferation	I-NP	NN	O	9	PMOD	1	proliferation
+17	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	capacity	capacity	I-NP	NN	O	16	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	insulin	insulin	B-NP	NN	B-protein	3	PMOD	-1
+5	to	to	B-VP	TO	O	6	VMOD	-1
+6	stimulate	stimulate	I-VP	VB	O	2	NMOD	17	stimulate
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	VEGF	VEGF	I-NP	NN	B-DNA	9	NMOD	-1
+9	promoter	promoter	I-NP	NN	I-DNA	6	OBJ	-1
+10	linked	link	B-VP	VBN	O	9	NMOD	19	linked
+11	to	to	B-PP	TO	O	10	VMOD	-1
+12	a	a	B-NP	DT	O	15	NMOD	-1
+13	luciferase	luciferase	I-NP	NN	B-DNA	15	NMOD	-1
+14	reporter	reporter	I-NP	NN	I-DNA	15	NMOD	-1
+15	gene	gene	I-NP	NN	I-DNA	11	PMOD	-1
+16	was	be	B-VP	VBD	O	0	ROOT	-1
+17	characterized	characterize	I-VP	VBN	O	16	VC	-1
+18	in	in	B-PP	IN	O	17	VMOD	-1
+19	transient	transient	B-NP	JJ	O	21	NMOD	-1
+20	transfection	transfection	I-NP	NN	O	21	NMOD	0
+21	assays	assay	I-NP	NNS	O	18	PMOD	-1
+22	.	.	O	.	O	16	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	18	NMOD	0
+2	:	:	O	:	O	1	P	-1
+3	Insulin	Insulin	B-NP	NN	B-protein	4	SUB	-1
+4	increased	increase	B-VP	VBD	O	18	NMOD	17	increased
+5	VEGF	VEGF	B-NP	NN	B-RNA	7	NMOD	-1
+6	mRNA	mRNA	I-NP	NN	I-RNA	7	NMOD	0
+7	levels	level	I-NP	NNS	O	4	OBJ	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	ganglion	ganglion	I-NP	NN	O	8	PMOD	-1
+11	,	,	O	,	O	18	P	-1
+12	inner	inner	B-NP	JJ	O	13	NMOD	-1
+13	nuclear	nuclear	I-NP	JJ	O	18	NMOD	-1
+14	,	,	O	,	O	18	P	-1
+15	and	and	O	CC	O	18	NMOD	-1
+16	RPE	RPE	B-NP	NN	O	18	NMOD	-1
+17	cell	cell	I-NP	NN	O	18	NMOD	-1
+18	layers	layer	I-NP	NNS	O	0	ROOT	-1
+19	.	.	O	.	O	18	P	-1
+
+1	In	In	B-ADVP	FW	O	5	VMOD	-1
+2	vitro	vitro	I-ADVP	FW	O	1	AMOD	-1
+3	,	,	O	,	O	5	P	-1
+4	insulin	insulin	B-NP	NN	B-protein	5	SUB	-1
+5	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+6	VEGF	VEGF	B-NP	NN	B-RNA	8	NMOD	-1
+7	mRNA	mRNA	I-NP	NN	I-RNA	8	NMOD	0
+8	levels	level	I-NP	NNS	O	17	NMOD	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	human	human	B-NP	JJ	B-cell_type	12	NMOD	-1
+11	RPE	RPE	I-NP	NN	I-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	-1
+13	and	and	O	CC	O	17	NMOD	-1
+14	enhanced	enhance	B-NP	VBN	O	17	NMOD	17	enhanced
+15	VEGF	VEGF	I-NP	NN	B-DNA	17	NMOD	-1
+16	promoter	promoter	I-NP	NN	I-DNA	17	NMOD	-1
+17	activity	activity	I-NP	NN	O	5	OBJ	0
+18	without	without	B-PP	IN	O	5	VMOD	-1
+19	affecting	affect	B-VP	VBG	O	18	PMOD	0
+20	transcript	transcript	B-NP	NN	O	21	NMOD	-1
+21	stability	stability	I-NP	NN	O	19	OBJ	-1
+22	.	.	O	.	O	5	P	-1
+
+1	Insulin	Insulin	B-NP	NN	B-protein	2	NMOD	-1
+2	treatment	treatment	I-NP	NN	O	4	SUB	19	treatment
+3	also	also	B-ADVP	RB	O	4	VMOD	-1
+4	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+5	VEGF	VEGF	B-NP	NN	B-protein	7	NMOD	-1
+6	protein	protein	I-NP	NN	O	7	NMOD	-1
+7	levels	level	I-NP	NNS	O	4	OBJ	-1
+8	in	in	B-PP	IN	O	4	VMOD	-1
+9	conditioned	condition	B-NP	VBN	O	12	NMOD	-1
+10	RPE	RPE	I-NP	NN	O	12	NMOD	-1
+11	cell	cell	I-NP	NN	O	12	NMOD	-1
+12	media	medium	I-NP	NNS	O	8	PMOD	-1
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	a	a	B-NP	DT	O	16	NMOD	-1
+15	dose-dependent	dose-dependent	I-NP	JJ	O	16	NMOD	-1
+16	manner	manner	I-NP	NN	O	13	PMOD	-1
+17	with	with	B-PP	IN	O	4	VMOD	-1
+18	a	a	B-NP	DT	O	21	NMOD	-1
+19	median	median	I-NP	JJ	O	21	NMOD	-1
+20	effective	effective	I-NP	JJ	O	21	NMOD	0
+21	concentration	concentration	I-NP	NN	O	17	PMOD	-1
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	5	5	B-NP	CD	O	24	NMOD	-1
+24	nM	nM	I-NP	NN	O	22	PMOD	-1
+25	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	5	NMOD	-1
+2	insulin-conditioned	insulin-conditioned	I-NP	JJ	O	5	NMOD	-1
+3	RPE	RPE	I-NP	NN	O	5	NMOD	-1
+4	cell	cell	I-NP	NN	O	5	NMOD	-1
+5	media	medium	I-NP	NNS	O	6	SUB	-1
+6	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+7	capillary	capillary	B-NP	JJ	O	10	NMOD	-1
+8	endothelial	endothelial	I-NP	JJ	O	10	NMOD	-1
+9	cell	cell	I-NP	NN	O	10	NMOD	-1
+10	proliferation	proliferation	I-NP	NN	O	13	NMOD	1	proliferation
+11	,	,	O	,	O	13	P	-1
+12	an	an	B-NP	DT	O	13	NMOD	-1
+13	effect	effect	I-NP	NN	O	6	OBJ	0
+14	that	that	B-NP	WDT	O	13	NMOD	-1
+15	was	be	B-VP	VBD	O	14	SBAR	-1
+16	completely	completely	I-VP	RB	O	15	VMOD	-1
+17	blocked	block	I-VP	VBN	O	15	VC	18	blocked
+18	by	by	B-PP	IN	O	17	VMOD	-1
+19	anti-VEGF	anti-VEGF	B-NP	JJ	B-protein	21	NMOD	-1
+20	neutralizing	neutralize	I-NP	VBG	I-protein	21	NMOD	-1
+21	antibody	antibody	I-NP	NN	I-protein	18	PMOD	-1
+22	.	.	O	.	O	6	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Insulin	Insulin	B-NP	NN	B-protein	4	SUB	-1
+4	increases	increase	B-VP	VBZ	O	1	NMOD	17	increases
+5	VEGF	VEGF	B-NP	NN	B-RNA	6	NMOD	-1
+6	mRNA	mRNA	I-NP	NN	I-RNA	10	NMOD	0
+7	and	and	O	CC	O	10	NMOD	-1
+8	secreted	secrete	B-NP	VBN	O	10	NMOD	0
+9	protein	protein	I-NP	NN	O	10	NMOD	-1
+10	levels	level	I-NP	NNS	O	4	OBJ	-1
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	RPE	RPE	B-NP	NN	B-cell_line	13	NMOD	-1
+13	cells	cell	I-NP	NNS	I-cell_line	11	PMOD	-1
+14	through	through	B-PP	IN	O	4	VMOD	0
+15	enhanced	enhance	B-NP	VBN	O	16	NMOD	17	enhanced
+16	transcription	transcription	I-NP	NN	O	14	PMOD	10	transcription
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	VEGF	VEGF	I-NP	NN	B-DNA	20	NMOD	-1
+20	gene	gene	I-NP	NN	I-DNA	17	PMOD	-1
+21	.	.	O	.	O	1	P	-1
+
+1	Intensive	Intensive	B-NP	JJ	O	3	NMOD	-1
+2	insulin	insulin	I-NP	NN	O	3	NMOD	-1
+3	therapy	therapy	I-NP	NN	O	4	SUB	19	therapy
+4	may	may	B-VP	MD	O	0	ROOT	-1
+5	cause	cause	I-VP	VB	O	4	VC	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	transient	transient	I-NP	JJ	O	8	NMOD	-1
+8	worsening	worsening	I-NP	NN	O	5	OBJ	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	retinopathy	retinopathy	B-NP	NN	O	9	PMOD	-1
+11	in	in	B-PP	IN	O	5	VMOD	-1
+12	patients	patient	B-NP	NNS	O	11	PMOD	-1
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	diabetes	diabetes	B-NP	NN	O	13	PMOD	-1
+15	through	through	B-PP	IN	O	5	VMOD	0
+16	increased	increase	B-NP	VBN	O	20	NMOD	17	increased
+17	retinal	retinal	I-NP	JJ	O	20	NMOD	-1
+18	VEGF	VEGF	I-NP	NN	O	20	NMOD	-1
+19	gene	gene	I-NP	NN	O	20	NMOD	-1
+20	expression	expression	I-NP	NN	O	15	PMOD	9	expression
+21	.	.	O	.	O	4	P	-1
+

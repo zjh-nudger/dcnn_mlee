@@ -1,0 +1,164 @@
+1	Interleukin-1	Interleukin-1	B-NP	NN	B-protein	2	NMOD	-1
+2	receptor	receptor	I-NP	NN	I-protein	3	NMOD	-1
+3	antagonist	antagonist	I-NP	NN	O	4	SUB	-1
+4	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+5	ischaemic	ischaemic	B-NP	JJ	O	7	AMOD	-1
+6	and	and	I-NP	CC	O	7	AMOD	-1
+7	excitotoxic	excitotoxic	I-NP	JJ	O	9	NMOD	-1
+8	neuronal	neuronal	I-NP	JJ	O	9	NMOD	-1
+9	damage	damage	I-NP	NN	O	4	OBJ	6	damage
+10	in	in	B-PP	IN	O	4	VMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	rat	rat	I-NP	NN	O	10	PMOD	-1
+13	.	.	O	.	O	4	P	-1
+
+1	Interleukin-1	Interleukin-1	B-NP	NN	B-protein	5	NMOD	-1
+2	(	(	O	(	O	4	DEP	-1
+3	IL-1	IL-1	B-NP	NN	B-protein	4	DEP	-1
+4	)	)	O	)	O	1	NMOD	-1
+5	synthesis	synthesis	B-NP	NN	O	9	SUB	9	synthesis
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	brain	brain	I-NP	NN	O	6	PMOD	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	stimulated	stimulate	I-VP	VBN	O	9	VC	17	stimulated
+11	by	by	B-PP	IN	O	10	VMOD	-1
+12	mechanical	mechanical	B-NP	JJ	O	13	NMOD	-1
+13	injury	injury	I-NP	NN	O	16	NMOD	-1
+14	and	and	I-NP	CC	O	16	NMOD	-1
+15	IL-1	IL-1	I-NP	NN	B-protein	16	NMOD	-1
+16	mimics	mimic	I-NP	NNS	O	18	NMOD	-1
+17	some	some	B-NP	DT	O	18	NMOD	-1
+18	effects	effect	I-NP	NNS	O	11	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	injury	injury	B-NP	NN	O	19	PMOD	-1
+21	,	,	O	,	O	18	P	-1
+22	such	such	B-PP	JJ	O	23	PMOD	-1
+23	as	as	I-PP	IN	O	18	NMOD	-1
+24	gliosis	gliosis	B-NP	NN	O	26	NMOD	-1
+25	and	and	I-NP	CC	O	26	NMOD	-1
+26	neovascularization	neovascularization	I-NP	NN	O	23	PMOD	3	neovascularization
+27	.	.	O	.	O	9	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	report	report	B-VP	VBP	O	0	ROOT	-1
+3	that	that	B-SBAR	IN	O	2	VMOD	-1
+4	neuronal	neuronal	B-NP	JJ	O	5	NMOD	-1
+5	death	death	I-NP	NN	O	20	SUB	5	death
+6	resulting	result	B-VP	VBG	O	5	NMOD	0
+7	from	from	B-PP	IN	O	6	VMOD	-1
+8	focal	focal	B-NP	JJ	O	10	NMOD	-1
+9	cerebral	cerebral	I-NP	JJ	O	10	NMOD	-1
+10	ischaemia	ischaemia	I-NP	NN	O	7	PMOD	-1
+11	(	(	O	(	O	19	DEP	-1
+12	middle	middle	B-NP	JJ	O	15	NMOD	-1
+13	cerebral	cerebral	I-NP	JJ	O	15	NMOD	-1
+14	artery	artery	I-NP	NN	O	15	NMOD	-1
+15	occlusion	occlusion	I-NP	NN	O	18	NMOD	-1
+16	,	,	O	,	O	18	P	-1
+17	24	24	B-NP	CD	O	18	NMOD	-1
+18	h	h	I-NP	NN	O	19	DEP	-1
+19	)	)	O	)	O	10	NMOD	-1
+20	is	be	B-VP	VBZ	O	3	SBAR	-1
+21	significantly	significantly	I-VP	RB	O	20	VMOD	-1
+22	inhibited	inhibit	I-VP	VBN	O	20	VC	18	inhibited
+23	(	(	O	(	O	22	VMOD	-1
+24	by	by	B-PP	IN	O	22	VMOD	-1
+25	50	50	B-NP	CD	O	26	NMOD	-1
+26	%	%	I-NP	NN	O	24	PMOD	-1
+27	)	)	O	)	O	22	VMOD	-1
+28	in	in	B-PP	IN	O	22	VMOD	-1
+29	rats	rat	B-NP	NNS	O	28	PMOD	-1
+30	injected	inject	B-VP	VBN	O	29	NMOD	19	injected
+31	with	with	B-PP	IN	O	30	VMOD	-1
+32	a	a	B-NP	DT	O	36	NMOD	-1
+33	recombinant	recombinant	I-NP	JJ	O	36	NMOD	-1
+34	IL-1	IL-1	I-NP	NN	O	36	NMOD	-1
+35	receptor	receptor	I-NP	NN	O	36	NMOD	-1
+36	antagonist	antagonist	I-NP	NN	O	31	PMOD	-1
+37	(	(	O	(	O	36	NMOD	-1
+38	IL-1ra	IL-1ra	B-NP	NN	B-protein	45	NMOD	-1
+39	,	,	O	,	O	45	P	-1
+40	10	10	B-NP	CD	O	41	NMOD	-1
+41	micrograms	microgram	I-NP	NNS	O	45	NMOD	-1
+42	,	,	O	,	O	45	P	-1
+43	icv	icv	B-NP	NN	O	45	NMOD	-1
+44	30	30	I-NP	CD	O	45	NMOD	-1
+45	min	min	I-NP	NN	O	37	PMOD	-1
+46	before	before	B-PP	IN	O	45	NMOD	-1
+47	and	and	O	CC	O	46	PMOD	-1
+48	10	10	B-NP	CD	O	49	NMOD	-1
+49	min	min	I-NP	NN	O	46	PMOD	-1
+50	after	after	B-PP	IN	O	49	NMOD	-1
+51	ischaemia	ischaemia	B-NP	NN	O	50	PMOD	-1
+52	)	)	O	)	O	49	NMOD	-1
+53	.	.	O	.	O	2	P	-1
+
+1	Excitotoxic	Excitotoxic	B-NP	JJ	O	2	NMOD	-1
+2	damage	damage	I-NP	NN	O	16	SUB	0
+3	due	due	B-PP	JJ	O	2	NMOD	0
+4	to	to	B-PP	TO	O	3	AMOD	-1
+5	striatal	striatal	B-NP	JJ	O	6	NMOD	-1
+6	infusion	infusion	I-NP	NN	O	4	PMOD	19	infusion
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	an	an	B-NP	DT	O	10	NMOD	-1
+9	NMDA-receptor	NMDA-receptor	I-NP	NN	O	10	NMOD	-1
+10	agonist	agonist	I-NP	NN	O	7	PMOD	-1
+11	(	(	O	(	O	15	DEP	-1
+12	cis-2	cis-2	B-NP	NN	B-DNA	14	NMOD	-1
+13	,	,	O	,	O	14	P	-1
+14	4-methanoglutamate	4-methanoglutamate	B-NP	NN	O	15	DEP	-1
+15	)	)	O	)	O	10	NMOD	-1
+16	was	be	B-VP	VBD	O	0	ROOT	-1
+17	also	also	I-VP	RB	O	16	VMOD	-1
+18	markedly	markedly	I-VP	RB	O	16	VMOD	-1
+19	inhibited	inhibit	I-VP	VBD	O	16	VC	0
+20	(	(	O	(	O	23	DEP	-1
+21	71	71	B-NP	CD	O	22	NMOD	-1
+22	%	%	I-NP	NN	O	23	DEP	-1
+23	)	)	O	)	O	19	VMOD	-1
+24	by	by	B-PP	IN	O	19	VMOD	-1
+25	injection	injection	B-NP	NN	O	24	PMOD	19	injection
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	the	the	B-NP	DT	O	28	NMOD	-1
+28	IL-1ra	IL-1ra	I-NP	NN	B-protein	26	PMOD	-1
+29	.	.	O	.	O	16	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	18	DEP	-1
+5	endogenous	endogenous	B-NP	JJ	O	6	NMOD	-1
+6	IL-1	IL-1	I-NP	NN	B-protein	7	SUB	-1
+7	is	be	B-VP	VBZ	O	4	SBAR	-1
+8	a	a	B-NP	DT	O	9	NMOD	-1
+9	mediator	mediator	I-NP	NN	O	7	PRD	17	mediator
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	ischaemic	ischaemic	B-NP	JJ	O	13	AMOD	-1
+12	and	and	I-NP	CC	O	13	AMOD	-1
+13	excitotoxic	excitotoxic	I-NP	JJ	O	15	NMOD	-1
+14	brain	brain	I-NP	NN	O	15	NMOD	-1
+15	damage	damage	I-NP	NN	O	10	PMOD	6	damage
+16	,	,	O	,	O	18	P	-1
+17	and	and	O	CC	O	18	DEP	-1
+18	that	that	B-SBAR	IN	O	3	VMOD	-1
+19	inhibitors	inhibitor	B-NP	NNS	O	23	SUB	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	IL-1	IL-1	B-NP	NN	B-protein	22	NMOD	-1
+22	action	action	I-NP	NN	O	20	PMOD	0
+23	may	may	B-VP	MD	O	18	SBAR	-1
+24	be	be	I-VP	VB	O	23	VC	-1
+25	of	of	B-PP	IN	O	24	PRD	-1
+26	therapeutic	therapeutic	B-NP	JJ	O	27	NMOD	-1
+27	value	value	I-NP	NN	O	25	PMOD	-1
+28	in	in	B-PP	IN	O	24	VMOD	-1
+29	the	the	B-NP	DT	O	30	NMOD	-1
+30	treatment	treatment	I-NP	NN	O	28	PMOD	0
+31	of	of	B-PP	IN	O	30	NMOD	-1
+32	acute	acute	B-NP	JJ	O	36	NMOD	-1
+33	or	or	I-NP	CC	O	36	NMOD	-1
+34	chronic	chronic	I-NP	JJ	O	36	NMOD	-1
+35	neuronal	neuronal	I-NP	JJ	O	36	NMOD	-1
+36	death	death	I-NP	NN	O	31	PMOD	5	death
+37	.	.	O	.	O	3	P	-1
+

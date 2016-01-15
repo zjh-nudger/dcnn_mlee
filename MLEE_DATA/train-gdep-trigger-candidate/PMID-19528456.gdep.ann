@@ -1,0 +1,268 @@
+1	Impact	Impact	B-NP	NN	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	tumor	tumor	B-NP	NN	O	6	NMOD	-1
+4	cell	cell	I-NP	NN	O	6	NMOD	-1
+5	VEGF	VEGF	I-NP	NN	O	6	NMOD	-1
+6	expression	expression	I-NP	NN	O	2	PMOD	9	expression
+7	on	on	B-PP	IN	O	1	NMOD	-1
+8	the	the	B-NP	DT	O	11	NMOD	-1
+9	in	in	I-NP	FW	O	10	AMOD	-1
+10	vivo	vivo	I-NP	FW	O	11	NMOD	-1
+11	efficacy	efficacy	I-NP	NN	O	7	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	vandetanib	vandetanib	B-NP	NN	O	12	PMOD	-1
+14	(	(	O	(	O	18	DEP	-1
+15	ZACTIMA	ZACTIMA	B-NP	NN	O	17	NMOD	-1
+16	;	;	O	:	O	17	P	-1
+17	ZD6474	ZD6474	B-NP	NN	O	18	DEP	-1
+18	)	)	O	)	O	13	NMOD	-1
+19	.	.	O	.	O	1	P	-1
+
+1	VEGF	VEGF	B-NP	NN	B-protein	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	key	key	I-NP	JJ	O	5	NMOD	-1
+5	player	player	I-NP	NN	O	2	PRD	-1
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	tumor	tumor	B-NP	NN	O	8	NMOD	-1
+8	angiogenesis	angiogenesis	I-NP	NN	O	6	PMOD	3	angiogenesis
+9	.	.	O	.	O	2	P	-1
+
+1	In	In	B-PP	IN	O	24	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	current	current	I-NP	JJ	O	4	NMOD	-1
+4	study	study	I-NP	NN	O	1	PMOD	-1
+5	,	,	O	,	O	24	P	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	impact	impact	I-NP	NN	O	24	SUB	0
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	VEGF	VEGF	B-NP	NN	B-protein	10	NMOD	-1
+10	expression	expression	I-NP	NN	O	8	PMOD	9	expression
+11	on	on	B-PP	IN	O	7	NMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	response	response	I-NP	NN	O	11	PMOD	16	response
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	tumors	tumor	B-NP	NNS	O	14	PMOD	-1
+16	to	to	B-PP	TO	O	13	NMOD	-1
+17	the	the	B-NP	DT	O	23	NMOD	-1
+18	VEGFR2	VEGFR2	I-NP	NN	B-protein	23	NMOD	-1
+19	associated	associated	I-NP	JJ	I-protein	23	NMOD	15	associated
+20	tyrosine	tyrosine	I-NP	NN	I-protein	23	NMOD	-1
+21	kinase	kinase	I-NP	NN	I-protein	23	NMOD	-1
+22	inhibitor	inhibitor	I-NP	NN	O	23	NMOD	0
+23	vandetanib	vandetanib	I-NP	NN	O	16	PMOD	-1
+24	was	be	B-VP	VBD	O	0	ROOT	-1
+25	evaluated	evaluate	I-VP	VBN	O	24	VC	-1
+26	.	.	O	.	O	24	P	-1
+
+1	MATERIALS	MATERIALS	B-NP	NNS	O	3	NMOD	-1
+2	AND	AND	I-NP	CC	O	3	NMOD	-1
+3	METHODS	METHODS	I-NP	NNS	O	0	ROOT	-1
+4	:	:	O	:	O	3	P	-1
+5	Human	Human	B-NP	JJ	O	7	NMOD	-1
+6	colon	colon	I-NP	NN	O	7	NMOD	-1
+7	carcinoma	carcinoma	I-NP	NN	O	20	NMOD	-1
+8	(	(	O	(	O	10	DEP	-1
+9	HT29	HT29	B-NP	NN	B-protein	10	DEP	-1
+10	)	)	O	)	O	7	NMOD	-1
+11	and	and	O	CC	O	20	NMOD	-1
+12	murine	murine	B-NP	JJ	B-cell_line	20	NMOD	-1
+13	squamous	squamous	I-NP	JJ	I-cell_line	20	NMOD	-1
+14	carcinoma	carcinoma	I-NP	NN	I-cell_line	20	NMOD	-1
+15	(	(	O	(	I-cell_line	20	NMOD	-1
+16	SCCVII	SCCVII	B-NP	NN	I-cell_line	20	NMOD	-1
+17	)	)	O	)	I-cell_line	20	NMOD	-1
+18	clonal	clonal	B-NP	JJ	I-cell_line	20	NMOD	-1
+19	cell	cell	I-NP	NN	I-cell_line	20	NMOD	-1
+20	lines	line	I-NP	NNS	I-cell_line	26	SUB	-1
+21	expressing	express	B-VP	VBG	O	20	NMOD	9	expressing
+22	varying	vary	B-NP	VBG	O	23	NMOD	-1
+23	levels	level	I-NP	NNS	O	21	OBJ	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	VEGF	VEGF	B-NP	NN	B-protein	24	PMOD	-1
+26	were	be	B-VP	VBD	O	33	VMOD	-1
+27	established	establish	I-VP	VBN	O	26	VC	0
+28	and	and	O	CC	O	33	VMOD	-1
+29	their	their	B-NP	PRP$	O	30	NMOD	-1
+30	response	response	I-NP	NN	O	33	SUB	16	response
+31	to	to	B-PP	TO	O	30	NMOD	-1
+32	vandetanib	vandetanib	B-NP	NN	O	31	PMOD	-1
+33	was	be	B-VP	VBD	O	3	NMOD	-1
+34	assessed	assess	I-VP	VBN	O	33	VC	-1
+35	in	in	B-PP	IN	O	34	VMOD	-1
+36	tissue	tissue	B-NP	NN	B-cell_line	37	NMOD	-1
+37	culture	culture	I-NP	NN	I-cell_line	35	PMOD	0
+38	and	and	B-PP	CC	O	35	PMOD	-1
+39	as	as	B-PP	IN	O	35	PMOD	-1
+40	solid	solid	B-NP	JJ	O	41	NMOD	-1
+41	tumors	tumor	I-NP	NNS	O	39	PMOD	-1
+42	.	.	O	.	O	3	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	Vandetanib	Vandetanib	B-NP	NN	O	4	NMOD	-1
+4	treatment	treatment	I-NP	NN	O	5	SUB	19	treatment
+5	had	have	B-VP	VBD	O	17	VMOD	-1
+6	no	no	B-NP	DT	O	7	NMOD	-1
+7	effect	effect	I-NP	NN	O	5	OBJ	16	effect
+8	on	on	B-PP	IN	O	5	VMOD	-1
+9	tumor	tumor	B-NP	NN	B-cell_type	10	AMOD	-1
+10	cell	cell	I-NP	NN	I-cell_type	13	NMOD	-1
+11	clonogenic	clonogenic	I-NP	JJ	O	13	NMOD	-1
+12	cell	cell	I-NP	NN	O	13	NMOD	-1
+13	survival	survival	I-NP	NN	O	8	PMOD	5	survival
+14	in	in	B-ADVP	FW	O	13	NMOD	-1
+15	vitro	vitro	I-ADVP	FW	O	14	AMOD	-1
+16	but	but	O	CC	O	5	VMOD	-1
+17	doses	dose	B-VP	VBZ	O	22	VMOD	-1
+18	>	>	B-NP	JJR	O	20	NMOD	-1
+19	or=10	or=10	I-NP	NN	O	20	NMOD	-1
+20	nM	nM	I-NP	NN	O	17	OBJ	-1
+21	significantly	significantly	B-ADVP	RB	O	22	VMOD	-1
+22	reduced	reduce	B-VP	VBD	O	1	NMOD	18	reduced
+23	endothelial	endothelial	B-NP	JJ	O	25	NMOD	-1
+24	cell	cell	I-NP	NN	O	25	NMOD	-1
+25	migration	migration	I-NP	NN	O	22	OBJ	14	migration
+26	.	.	O	.	O	1	P	-1
+
+1	In	In	B-ADVP	FW	O	14	VMOD	-1
+2	vivo	vivo	I-ADVP	FW	O	1	AMOD	-1
+3	,	,	O	,	O	14	P	-1
+4	tumors	tumor	B-NP	NNS	O	14	SUB	-1
+5	derived	derive	B-VP	VBN	O	4	NMOD	0
+6	from	from	B-PP	IN	O	5	VMOD	-1
+7	cell	cell	B-NP	NN	B-cell_line	8	NMOD	-1
+8	clones	clone	I-NP	NNS	I-cell_line	6	PMOD	-1
+9	expressing	express	B-VP	VBG	O	8	NMOD	9	expressing
+10	high	high	B-NP	JJ	O	11	NMOD	-1
+11	levels	level	I-NP	NNS	O	9	OBJ	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	VEGF	VEGF	B-NP	NN	B-protein	12	PMOD	-1
+14	displayed	display	B-VP	VBD	O	0	ROOT	-1
+15	significantly	significantly	B-NP	RB	O	16	AMOD	-1
+16	enhanced	enhance	I-NP	VBN	O	21	NMOD	17	enhanced
+17	angiogenesis	angiogenesis	I-NP	NN	O	21	NMOD	3	angiogenesis
+18	and	and	O	CC	O	21	NMOD	-1
+19	more	more	B-NP	RBR	O	20	AMOD	-1
+20	aggressive	aggressive	I-NP	JJ	O	21	NMOD	-1
+21	growth	growth	I-NP	NN	O	14	OBJ	4	growth
+22	.	.	O	.	O	14	P	-1
+
+1	An	An	B-NP	DT	O	4	NMOD	-1
+2	intradermal	intradermal	I-NP	JJ	O	4	NMOD	-1
+3	angiogenesis	angiogenesis	I-NP	NN	O	4	NMOD	3	angiogenesis
+4	assay	assay	I-NP	NN	O	5	SUB	-1
+5	was	be	B-VP	VBD	O	0	ROOT	-1
+6	used	use	I-VP	VBN	O	5	VC	0
+7	to	to	B-VP	TO	O	8	VMOD	-1
+8	demonstrate	demonstrate	I-VP	VB	O	5	VMOD	-1
+9	that	that	B-SBAR	IN	O	8	VMOD	-1
+10	a	a	B-NP	DT	O	12	NMOD	-1
+11	4-day	4-day	I-NP	JJ	O	12	NMOD	-1
+12	treatment	treatment	I-NP	NN	O	19	SUB	19	treatment
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	vandetanib	vandetanib	B-NP	NN	O	13	PMOD	-1
+15	(	(	O	(	O	18	DEP	-1
+16	50	50	B-NP	CD	O	17	NMOD	-1
+17	mg/kg/day	mg/kg/day	I-NP	NN	O	18	DEP	-1
+18	)	)	O	)	O	14	NMOD	-1
+19	was	be	B-VP	VBD	O	9	SBAR	-1
+20	able	able	B-ADJP	JJ	O	19	PRD	-1
+21	to	to	B-VP	TO	O	23	VMOD	-1
+22	significantly	significantly	I-VP	RB	O	23	VMOD	-1
+23	inhibit	inhibit	I-VP	VB	O	20	AMOD	18	inhibit
+24	blood	blood	B-NP	NN	O	26	NMOD	-1
+25	vessel	vessel	I-NP	NN	O	26	NMOD	-1
+26	growth	growth	I-NP	NN	O	23	OBJ	4	growth
+27	induced	induce	B-VP	VBN	O	26	NMOD	17	induced
+28	by	by	B-PP	IN	O	27	VMOD	-1
+29	both	both	B-NP	CC	O	36	NMOD	-1
+30	parental	parental	I-NP	JJ	O	36	NMOD	-1
+31	and	and	I-NP	CC	O	36	NMOD	-1
+32	high	high	I-NP	JJ	B-cell_line	36	NMOD	-1
+33	VEGF-expressing	VEGF-expressing	I-NP	JJ	I-cell_line	36	NMOD	9	expressing
+34	tumor	tumor	I-NP	NN	I-cell_line	36	NMOD	-1
+35	cell	cell	I-NP	NN	I-cell_line	36	NMOD	-1
+36	clones	clone	I-NP	NNS	I-cell_line	28	PMOD	-1
+37	.	.	O	.	O	5	P	-1
+
+1	In	In	B-PP	IN	O	20	VMOD	-1
+2	the	the	B-NP	DT	O	5	NMOD	-1
+3	HT29	HT29	I-NP	NN	B-cell_line	5	NMOD	-1
+4	tumor	tumor	I-NP	NN	I-cell_line	5	NMOD	-1
+5	model	model	I-NP	NN	I-cell_line	1	PMOD	-1
+6	,	,	O	,	O	20	P	-1
+7	treatment	treatment	B-NP	NN	O	8	NMOD	19	treatment
+8	response	response	I-NP	NN	O	20	SUB	16	response
+9	to	to	B-PP	TO	O	8	NMOD	-1
+10	vandetanib	vandetanib	B-NP	NN	O	9	PMOD	-1
+11	(	(	O	(	O	19	DEP	-1
+12	50	50	B-NP	CD	O	13	NMOD	-1
+13	mg/kg/day	mg/kg/day	I-NP	NN	O	15	NMOD	-1
+14	,	,	O	,	O	15	P	-1
+15	Monday-Friday	Monday-Friday	B-NP	NNP	O	19	DEP	-1
+16	for	for	B-PP	IN	O	15	NMOD	-1
+17	2	2	B-NP	CD	O	18	NMOD	-1
+18	weeks	week	I-NP	NNS	O	16	PMOD	-1
+19	)	)	O	)	O	10	NMOD	-1
+20	was	be	B-VP	VBD	O	0	ROOT	-1
+21	greatest	great	B-ADJP	JJS	O	20	PRD	-1
+22	in	in	B-PP	IN	O	21	AMOD	-1
+23	xenografts	xenograft	B-NP	NNS	O	22	PMOD	-1
+24	derived	derive	B-VP	VBN	O	23	NMOD	0
+25	from	from	B-PP	IN	O	24	VMOD	-1
+26	the	the	B-NP	DT	O	30	NMOD	-1
+27	highest	high	I-NP	JJS	B-cell_line	30	NMOD	-1
+28	VEGF-expressing	VEGF-expressing	I-NP	JJ	I-cell_line	30	NMOD	9	expressing
+29	cell	cell	I-NP	NN	I-cell_line	30	NMOD	-1
+30	clones	clone	I-NP	NNS	I-cell_line	25	PMOD	-1
+31	.	.	O	.	O	20	P	-1
+
+1	A	A	B-NP	DT	O	3	NMOD	-1
+2	similar	similar	I-NP	JJ	O	3	NMOD	-1
+3	trend	trend	I-NP	NN	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	noted	note	I-VP	VBN	O	4	VC	-1
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	10	NMOD	-1
+8	SCCVII	SCCVII	I-NP	NN	O	10	NMOD	-1
+9	tumor	tumor	I-NP	NN	O	10	NMOD	-1
+10	model	model	I-NP	NN	O	6	PMOD	-1
+11	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	present	present	I-NP	JJ	O	3	NMOD	0
+3	findings	finding	I-NP	NNS	O	4	SUB	-1
+4	indicate	indicate	B-VP	VBP	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	vandetanib	vandetanib	B-NP	NN	O	7	NMOD	-1
+7	therapy	therapy	I-NP	NN	O	9	SUB	19	therapy
+8	effectively	effectively	B-ADVP	RB	O	9	VMOD	-1
+9	counteracted	counteract	B-VP	VBD	O	5	SBAR	18	counteracted
+10	the	the	B-NP	DT	O	12	NMOD	-1
+11	aggressive	aggressive	I-NP	JJ	O	12	NMOD	-1
+12	feature	feature	I-NP	NN	O	9	OBJ	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	tumor	tumor	B-NP	NN	O	15	NMOD	-1
+15	growth	growth	I-NP	NN	O	13	PMOD	4	growth
+16	resulting	result	B-VP	VBG	O	12	NMOD	0
+17	from	from	B-PP	IN	O	16	VMOD	-1
+18	VEGF	VEGF	B-NP	NN	B-cell_line	21	NMOD	-1
+19	over-expressing	over-expressing	I-NP	JJ	I-cell_line	21	NMOD	9	over-expressing
+20	tumor	tumor	I-NP	NN	I-cell_line	21	NMOD	-1
+21	cells	cell	I-NP	NNS	I-cell_line	17	PMOD	-1
+22	and	and	O	CC	O	9	VMOD	-1
+23	suggest	suggest	B-VP	VBP	O	9	VMOD	-1
+24	that	that	B-SBAR	IN	O	23	VMOD	-1
+25	such	such	B-NP	JJ	O	26	NMOD	-1
+26	tumors	tumor	I-NP	NNS	O	27	SUB	-1
+27	may	may	B-VP	MD	O	24	SBAR	-1
+28	be	be	I-VP	VB	O	27	VC	-1
+29	particularly	particularly	B-ADJP	RB	O	28	PRD	-1
+30	well	well	I-ADJP	RB	O	29	AMOD	-1
+31	suited	suited	I-ADJP	JJ	O	29	AMOD	-1
+32	for	for	B-PP	IN	O	29	AMOD	-1
+33	anti-VEGF	anti-VEGF	B-NP	JJ	O	34	NMOD	-1
+34	interventions	intervention	I-NP	NNS	O	32	PMOD	18	interventions
+35	.	.	O	.	O	4	P	-1
+

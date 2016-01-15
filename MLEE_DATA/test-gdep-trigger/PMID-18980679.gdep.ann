@@ -1,0 +1,233 @@
+1	Silencing	Silencing	B-NP	NN	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	directional	directional	B-NP	JJ	O	4	NMOD	0
+4	migration	migration	I-NP	NN	O	2	PMOD	14	migration
+5	in	in	B-PP	IN	O	4	NMOD	0
+6	roundabout4	roundabout4	B-NP	NN	B-cell_line	9	NMOD	0
+7	knockdown	knockdown	I-NP	JJ	I-cell_line	9	NMOD	0
+8	endothelial	endothelial	I-NP	JJ	I-cell_line	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_line	5	PMOD	0
+10	.	.	O	.	O	1	P	0
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Roundabouts	Roundabout	B-NP	NNS	O	4	SUB	0
+4	are	be	B-VP	VBP	O	1	NMOD	0
+5	axon	axon	B-NP	NN	B-protein	7	NMOD	0
+6	guidance	guidance	I-NP	NN	I-protein	7	NMOD	0
+7	molecules	molecule	I-NP	NNS	I-protein	4	PRD	0
+8	that	that	B-NP	WDT	O	7	NMOD	0
+9	have	have	B-VP	VBP	O	8	SBAR	0
+10	recently	recently	I-VP	RB	O	9	VMOD	0
+11	been	be	I-VP	VBN	O	9	VC	0
+12	identified	identify	I-VP	VBN	O	11	VC	0
+13	to	to	B-VP	TO	O	14	VMOD	0
+14	play	play	I-VP	VB	O	12	VMOD	0
+15	a	a	B-NP	DT	O	16	NMOD	0
+16	role	role	I-NP	NN	O	14	OBJ	0
+17	in	in	B-PP	IN	O	14	VMOD	0
+18	vascular	vascular	B-NP	JJ	O	19	NMOD	0
+19	guidance	guidance	I-NP	NN	O	17	PMOD	2	guidance
+20	as	as	B-ADVP	RB	O	14	VMOD	0
+21	well	well	I-ADVP	RB	O	20	AMOD	0
+22	.	.	O	.	O	4	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	we	we	B-NP	PRP	O	6	SUB	0
+6	have	have	B-VP	VBP	O	0	ROOT	0
+7	investigated	investigate	I-VP	VBN	O	6	VC	0
+8	gene	gene	B-NP	NN	O	10	NMOD	0
+9	knockdown	knockdown	I-NP	NN	O	10	NMOD	19	knockdown
+10	analysis	analysis	I-NP	NN	O	7	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	endothelial	endothelial	B-NP	JJ	O	13	NMOD	0
+13	Robos	Robos	I-NP	NNP	O	11	PMOD	0
+14	,	,	O	,	O	7	P	0
+15	in	in	B-PP	IN	O	7	VMOD	0
+16	particular	particular	B-NP	JJ	O	15	PMOD	0
+17	roundabout	roundabout	I-NP	NN	O	16	NMOD	0
+18	4	4	I-NP	CD	O	17	NMOD	0
+19	(	(	O	(	O	21	DEP	0
+20	robo4	robo4	B-NP	NN	O	21	DEP	0
+21	)	)	O	)	O	17	NMOD	0
+22	,	,	O	,	O	6	P	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	predominant	predominant	I-NP	JJ	O	25	NMOD	0
+25	Robo	Robo	I-NP	NNP	O	6	VMOD	0
+26	in	in	B-PP	IN	O	25	NMOD	0
+27	endothelial	endothelial	B-NP	JJ	B-cell_type	28	NMOD	0
+28	cells	cell	I-NP	NNS	I-cell_type	26	PMOD	0
+29	using	use	B-VP	VBG	O	25	NMOD	0
+30	small	small	B-NP	JJ	O	33	NMOD	0
+31	interfering	interfere	I-NP	VBG	O	33	NMOD	0
+32	RNA	RNA	I-NP	NN	O	33	NMOD	0
+33	technology	technology	I-NP	NN	O	29	OBJ	0
+34	in	in	B-ADVP	FW	O	29	VMOD	0
+35	vitro	vitro	I-ADVP	FW	O	34	AMOD	0
+36	.	.	O	.	O	6	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Robo1	Robo1	B-NP	NN	O	7	NMOD	0
+4	and	and	I-NP	CC	O	7	NMOD	0
+5	Robo4	Robo4	I-NP	NN	B-cell_line	7	NMOD	0
+6	knockdown	knockdown	I-NP	JJ	I-cell_line	7	NMOD	0
+7	cells	cell	I-NP	NNS	I-cell_line	8	SUB	0
+8	display	display	B-VP	VBP	O	1	NMOD	0
+9	distinct	distinct	B-NP	JJ	O	10	NMOD	0
+10	activity	activity	I-NP	NN	O	8	OBJ	0
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	endothelial	endothelial	B-NP	JJ	O	15	NMOD	0
+13	cell	cell	I-NP	NN	O	15	NMOD	0
+14	migration	migration	I-NP	NN	O	15	NMOD	14	migration
+15	assay	assay	I-NP	NN	O	11	PMOD	0
+16	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	knockdown	knockdown	I-NP	NN	O	5	SUB	19	knockdown
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	robo4	robo4	B-NP	NN	O	3	PMOD	0
+5	abrogated	abrogate	B-VP	VBD	O	0	ROOT	18	abrogated
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	chemotactic	chemotactic	I-NP	JJ	O	8	NMOD	0
+8	response	response	I-NP	NN	O	5	OBJ	16	response
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	endothelial	endothelial	B-NP	JJ	B-cell_type	11	NMOD	0
+11	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	0
+12	to	to	B-PP	TO	O	8	NMOD	0
+13	serum	serum	B-NP	NN	O	12	PMOD	0
+14	but	but	O	CC	O	5	VMOD	0
+15	enhanced	enhance	B-VP	VBD	O	5	VMOD	17	enhanced
+16	a	a	B-NP	DT	O	18	NMOD	0
+17	chemokinetic	chemokinetic	I-NP	JJ	O	18	NMOD	0
+18	response	response	I-NP	NN	O	15	OBJ	16	response
+19	to	to	B-PP	TO	O	18	NMOD	0
+20	Slit2	Slit2	B-NP	NN	B-protein	19	PMOD	0
+21	,	,	O	,	O	5	P	0
+22	while	while	B-SBAR	IN	O	5	VMOD	0
+23	robo1	robo1	B-NP	NN	B-cell_line	25	NMOD	0
+24	knockdown	knockdown	I-NP	JJ	I-cell_line	25	NMOD	0
+25	cells	cell	I-NP	NNS	I-cell_line	26	SUB	0
+26	do	do	B-VP	VBP	O	22	SBAR	0
+27	not	not	I-VP	RB	O	26	VMOD	0
+28	display	display	I-VP	VB	O	26	VC	0
+29	chemotactic	chemotactic	B-NP	JJ	O	30	NMOD	0
+30	response	response	I-NP	NN	O	28	OBJ	16	response
+31	to	to	B-PP	TO	O	30	NMOD	0
+32	serum	serum	B-NP	NN	O	34	NMOD	0
+33	or	or	I-NP	CC	O	34	NMOD	0
+34	VEGF	VEGF	I-NP	NN	B-protein	31	PMOD	0
+35	.	.	O	.	O	5	P	0
+
+1	Robo4	Robo4	B-NP	NN	B-protein	6	SUB	0
+2	knockdown	knockdown	B-PP	IN	O	1	NMOD	0
+3	endothelial	endothelial	B-NP	JJ	B-cell_type	4	NMOD	0
+4	cells	cell	I-NP	NNS	I-cell_type	2	PMOD	0
+5	unexpectedly	unexpectedly	B-ADVP	RB	O	6	VMOD	0
+6	show	show	B-VP	VBP	O	0	ROOT	0
+7	up	up	B-PRT	RP	O	6	VMOD	0
+8	regulation	regulation	B-NP	NN	O	6	VC	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	Rho	Rho	B-NP	NN	B-protein	11	NMOD	0
+11	GTPases	GTPas	I-NP	NNS	I-protein	9	PMOD	0
+12	.	.	O	.	O	6	P	0
+
+1	Zebrafish	Zebrafish	B-NP	NN	B-protein	2	NMOD	0
+2	Robo4	Robo4	I-NP	NN	I-protein	3	SUB	0
+3	rescues	rescue	B-VP	VBZ	O	10	VMOD	17	rescues
+4	both	both	O	CC	O	9	NMOD	0
+5	Rho	Rho	B-NP	NN	B-protein	7	NMOD	0
+6	GTPase	GTPase	I-NP	NN	O	7	NMOD	0
+7	homeostasis	homeostasis	I-NP	NN	O	9	NMOD	0
+8	and	and	I-NP	CC	O	9	NMOD	0
+9	serum	serum	I-NP	NN	O	10	SUB	0
+10	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+11	chemotaxis	chemotaxis	B-NP	NN	O	10	OBJ	14	chemotaxis
+12	in	in	B-PP	IN	O	10	VMOD	0
+13	robo4	robo4	B-NP	NN	B-cell_line	15	NMOD	0
+14	knockdown	knockdown	I-NP	JJ	I-cell_line	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_line	12	PMOD	0
+16	.	.	O	.	O	10	P	0
+
+1	Robo1	Robo1	B-NP	NN	B-protein	4	NMOD	0
+2	and	and	I-NP	CC	O	4	NMOD	0
+3	Robo4	Robo4	I-NP	NN	O	4	NMOD	0
+4	interact	interact	I-NP	NN	O	7	NMOD	15	interact
+5	and	and	O	CC	O	7	NMOD	0
+6	share	share	B-NP	NN	B-protein	7	NMOD	0
+7	molecules	molecule	I-NP	NNS	I-protein	0	ROOT	0
+8	such	such	B-PP	JJ	O	9	PMOD	0
+9	as	as	I-PP	IN	O	7	NMOD	0
+10	Slit2	Slit2	B-NP	NN	B-protein	17	NMOD	0
+11	,	,	O	,	O	17	P	0
+12	Mena	Mena	B-NP	NNP	O	14	NMOD	0
+13	and	and	I-NP	CC	O	14	NMOD	0
+14	Vilse	Vilse	I-NP	NNP	O	17	NMOD	0
+15	,	,	O	,	O	17	P	0
+16	a	a	B-NP	DT	O	17	NMOD	0
+17	Cdc42-GAP	Cdc42-GAP	I-NP	NN	B-protein	9	PMOD	0
+18	.	.	O	.	O	7	P	0
+
+1	In	In	B-PP	IN	O	7	VMOD	0
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	7	P	0
+4	this	this	B-NP	DT	O	5	NMOD	0
+5	study	study	I-NP	NN	O	7	SUB	0
+6	mechanistically	mechanistically	B-ADVP	RB	O	7	VMOD	0
+7	implicates	implicate	B-VP	VBZ	O	0	ROOT	0
+8	IRSp53	IRSp53	B-NP	NN	B-protein	7	OBJ	0
+9	in	in	B-PP	IN	O	7	VMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	signaling	signaling	I-NP	NN	O	12	NMOD	0
+12	nexus	nexus	I-NP	NN	O	9	PMOD	0
+13	between	between	B-PP	IN	O	12	NMOD	0
+14	activated	activate	B-NP	VBN	O	15	NMOD	17	activated
+15	Cdc42	Cdc42	I-NP	NN	B-protein	17	NMOD	0
+16	and	and	O	CC	O	17	NMOD	0
+17	Mena	Mena	B-NP	NNP	O	13	PMOD	0
+18	,	,	O	,	O	7	P	0
+19	both	both	B-NP	DT	O	20	NMOD	0
+20	of	of	B-PP	IN	O	7	VMOD	0
+21	which	which	B-NP	WDT	O	20	PMOD	0
+22	have	have	B-VP	VBP	O	20	SBAR	0
+23	previously	previously	I-VP	RB	O	22	VMOD	0
+24	been	be	I-VP	VBN	O	22	VC	0
+25	shown	show	I-VP	VBN	O	24	VC	0
+26	to	to	I-VP	TO	O	27	VMOD	0
+27	be	be	I-VP	VB	O	25	VMOD	0
+28	involved	involve	I-VP	VBN	O	27	VC	0
+29	with	with	B-PP	IN	O	28	VMOD	0
+30	Robo4	Robo4	B-NP	NN	B-protein	31	NMOD	0
+31	signaling	signaling	I-NP	NN	O	29	PMOD	0
+32	in	in	B-PP	IN	O	31	NMOD	0
+33	endothelial	endothelial	B-NP	JJ	B-cell_type	34	NMOD	0
+34	cells	cell	I-NP	NNS	I-cell_type	32	PMOD	0
+35	.	.	O	.	O	7	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	5	SUB	0
+2	:	:	O	:	O	5	P	0
+3	This	This	B-NP	DT	O	4	NMOD	0
+4	study	study	I-NP	NN	O	5	SUB	0
+5	identifies	identify	B-VP	VBZ	O	0	ROOT	0
+6	specific	specific	B-NP	JJ	O	7	NMOD	0
+7	components	component	I-NP	NNS	O	5	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	12	NMOD	0
+10	Robo	Robo	I-NP	NNP	O	12	NMOD	0
+11	signaling	signaling	I-NP	NN	O	12	NMOD	0
+12	apparatus	apparatus	I-NP	NN	O	8	PMOD	0
+13	that	that	B-NP	WDT	O	7	NMOD	0
+14	work	work	B-VP	VBP	O	13	SBAR	0
+15	together	together	B-ADVP	RB	O	14	VMOD	0
+16	to	to	B-VP	TO	O	17	VMOD	0
+17	guide	guide	I-VP	VB	O	14	VMOD	0
+18	directional	directional	B-NP	JJ	O	19	NMOD	0
+19	migration	migration	I-NP	NN	O	17	OBJ	14	migration
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	endothelial	endothelial	B-NP	JJ	B-cell_type	22	NMOD	0
+22	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	0
+23	.	.	O	.	O	5	P	0
+

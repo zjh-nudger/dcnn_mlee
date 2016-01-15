@@ -1,0 +1,169 @@
+1	Role	Role	B-NP	NN	O	0	ROOT	16	Role
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	6	NMOD	-1
+4	interferon-inducible	interferon-inducible	I-NP	JJ	B-DNA	6	NMOD	17	inducible
+5	IFI16	IFI16	I-NP	NN	I-DNA	6	NMOD	-1
+6	gene	gene	I-NP	NN	I-DNA	2	PMOD	-1
+7	in	in	B-PP	IN	O	1	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	induction	induction	I-NP	NN	O	7	PMOD	17	induction
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	ICAM-1	ICAM-1	B-NP	NN	B-protein	10	PMOD	-1
+12	by	by	B-PP	IN	O	9	NMOD	-1
+13	TNF-alpha	TNF-alpha	B-NP	NN	B-protein	12	PMOD	-1
+14	.	.	O	.	O	1	P	-1
+
+1	The	The	B-NP	DT	O	4	NMOD	-1
+2	Interferon-inducible	Interferon-inducible	I-NP	JJ	B-DNA	4	NMOD	17	inducible
+3	gene	gene	I-NP	NN	I-DNA	4	NMOD	-1
+4	IFI16	IFI16	I-NP	NN	O	7	NMOD	-1
+5	,	,	O	,	O	7	P	-1
+6	a	a	B-NP	DT	O	7	NMOD	-1
+7	member	member	I-NP	NN	O	13	SUB	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	HIN200	HIN200	I-NP	NN	B-protein	11	NMOD	-1
+11	family	family	I-NP	NN	I-protein	8	PMOD	-1
+12	,	,	O	,	O	7	P	-1
+13	is	be	B-VP	VBZ	O	29	VMOD	-1
+14	activated	activate	I-VP	VBN	O	13	VC	17	activated
+15	by	by	B-PP	IN	O	14	VMOD	-1
+16	oxidative	oxidative	B-NP	JJ	O	17	NMOD	-1
+17	stress	stress	I-NP	NN	O	20	NMOD	-1
+18	and	and	O	CC	O	20	NMOD	-1
+19	cell	cell	B-NP	NN	O	20	NMOD	-1
+20	density	density	I-NP	NN	O	15	PMOD	-1
+21	,	,	O	,	O	13	P	-1
+22	in	in	B-PP	IN	O	13	VMOD	-1
+23	addition	addition	B-NP	NN	O	22	PMOD	0
+24	to	to	B-PP	TO	O	23	NMOD	-1
+25	Interferons	Interferon	B-NP	NNS	B-protein	24	PMOD	-1
+26	,	,	O	,	O	29	P	-1
+27	and	and	O	CC	O	29	VMOD	-1
+28	it	it	B-NP	PRP	O	29	SUB	-1
+29	is	be	B-VP	VBZ	O	0	ROOT	-1
+30	implicated	implicate	I-VP	VBN	O	29	VC	0
+31	in	in	B-PP	IN	O	30	VMOD	-1
+32	the	the	B-NP	DT	O	33	NMOD	-1
+33	regulation	regulation	I-NP	NN	O	31	PMOD	16	regulation
+34	of	of	B-PP	IN	O	33	NMOD	-1
+35	endothelial	endothelial	B-NP	JJ	B-cell_type	36	NMOD	-1
+36	cell	cell	I-NP	NN	I-cell_type	37	NMOD	-1
+37	proliferation	proliferation	I-NP	NN	O	40	NMOD	1	proliferation
+38	and	and	O	CC	O	40	NMOD	-1
+39	vessel	vessel	B-NP	NN	O	40	NMOD	-1
+40	formation	formation	I-NP	NN	O	34	PMOD	2	formation
+41	in	in	B-ADVP	FW	O	40	NMOD	-1
+42	vitro	vitro	I-ADVP	FW	O	41	AMOD	-1
+43	.	.	O	.	O	29	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	have	have	B-VP	VBP	O	0	ROOT	-1
+3	previously	previously	I-VP	RB	O	2	VMOD	-1
+4	shown	show	I-VP	VBN	O	2	VC	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	IFI16	IFI16	B-NP	NN	B-protein	7	SUB	-1
+7	is	be	B-VP	VBZ	O	5	SBAR	-1
+8	required	require	I-VP	VBN	O	7	VC	0
+9	for	for	B-PP	IN	O	8	VMOD	-1
+10	proinflammatory	proinflammatory	B-NP	JJ	B-DNA	12	NMOD	-1
+11	gene	gene	I-NP	NN	I-DNA	12	NMOD	-1
+12	stimulation	stimulation	I-NP	NN	O	9	PMOD	0
+13	by	by	B-PP	IN	O	12	NMOD	-1
+14	IFN-gamma	IFN-gamma	B-NP	NN	B-protein	13	PMOD	-1
+15	through	through	B-PP	IN	O	12	NMOD	0
+16	the	the	B-NP	DT	O	18	NMOD	-1
+17	NF-kappaB	NF-kappaB	I-NP	NN	B-protein	18	NMOD	-1
+18	complex	complex	I-NP	NN	I-protein	15	PMOD	-1
+19	.	.	O	.	O	2	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	examine	examine	I-VP	VB	O	24	VMOD	-1
+3	whether	whether	B-SBAR	IN	O	2	VMOD	-1
+4	IFI16	IFI16	B-NP	NN	B-protein	5	NMOD	-1
+5	induction	induction	I-NP	NN	O	6	SUB	17	induction
+6	might	might	B-VP	MD	O	3	SBAR	-1
+7	be	be	I-VP	VB	O	6	VC	-1
+8	extended	extend	I-VP	VBN	O	7	VC	17	extended
+9	to	to	B-PP	TO	O	8	VMOD	-1
+10	other	other	B-NP	JJ	O	12	NMOD	-1
+11	proinflammatory	proinflammatory	I-NP	JJ	B-protein	12	NMOD	-1
+12	cytokines	cytokine	I-NP	NNS	I-protein	9	PMOD	-1
+13	such	such	B-PP	JJ	O	14	PMOD	-1
+14	as	as	I-PP	IN	O	12	NMOD	-1
+15	tumor	tumor	B-NP	NN	B-protein	21	NMOD	-1
+16	necrosis	necrosis	I-NP	NN	I-protein	21	NMOD	0
+17	factor	factor	I-NP	NN	I-protein	21	NMOD	-1
+18	(	(	O	(	I-protein	21	NMOD	-1
+19	TNF	TNF	B-NP	NN	I-protein	21	NMOD	-1
+20	)	)	O	)	I-protein	21	NMOD	-1
+21	-alpha	-alpha	B-NP	NN	I-protein	14	PMOD	-1
+22	,	,	O	,	O	24	P	-1
+23	we	we	B-NP	PRP	O	24	SUB	-1
+24	used	use	B-VP	VBD	O	0	ROOT	0
+25	the	the	B-NP	DT	O	26	NMOD	-1
+26	strategy	strategy	I-NP	NN	O	24	OBJ	-1
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	the	the	B-NP	DT	O	30	NMOD	-1
+29	RNA	RNA	I-NP	NN	O	30	NMOD	-1
+30	interference	interference	I-NP	NN	O	27	PMOD	0
+31	to	to	B-VP	TO	O	32	VMOD	-1
+32	knock	knock	I-VP	VB	O	24	VMOD	-1
+33	down	down	B-PRT	RP	O	32	VMOD	-1
+34	IFI16	IFI16	B-NP	NN	B-protein	35	NMOD	-1
+35	expression	expression	I-NP	NN	O	32	OBJ	9	expression
+36	,	,	O	,	O	24	P	-1
+37	and	and	O	CC	O	24	VMOD	-1
+38	analyze	analyze	B-VP	VB	O	24	VMOD	-1
+39	the	the	B-NP	DT	O	40	NMOD	-1
+40	capability	capability	I-NP	NN	O	38	OBJ	-1
+41	of	of	B-PP	IN	O	40	NMOD	-1
+42	TNF-alpha	TNF-alpha	B-NP	NN	B-protein	41	PMOD	-1
+43	to	to	B-VP	TO	O	44	VMOD	-1
+44	stimulate	stimulate	I-VP	VB	O	40	NMOD	17	stimulate
+45	intercellular	intercellular	B-NP	JJ	B-protein	47	NMOD	-1
+46	adhesion	adhesion	I-NP	NN	I-protein	47	NMOD	0
+47	molecule-1	molecule-1	I-NP	NN	I-protein	53	NMOD	-1
+48	(	(	O	(	O	52	DEP	-1
+49	ICAM-1	ICAM-1	B-NP	NN	B-protein	51	NMOD	-1
+50	or	or	O	CC	O	51	NMOD	-1
+51	CD54	CD54	B-NP	NN	B-protein	52	DEP	-1
+52	)	)	O	)	O	47	NMOD	-1
+53	expression	expression	B-NP	NN	O	44	OBJ	9	expression
+54	in	in	B-PP	IN	O	53	NMOD	-1
+55	the	the	B-NP	DT	O	56	NMOD	-1
+56	absence	absence	I-NP	NN	O	54	PMOD	-1
+57	of	of	B-PP	IN	O	56	NMOD	-1
+58	functional	functional	B-NP	JJ	O	57	PMOD	-1
+59	IFI16	IFI16	I-NP	NN	B-protein	58	NMOD	-1
+60	.	.	O	.	O	24	P	-1
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	-1
+2	studies	study	I-NP	NNS	O	3	SUB	-1
+3	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	IFI16	IFI16	B-NP	NN	B-protein	6	SUB	-1
+6	mediates	mediate	B-VP	VBZ	O	4	SBAR	16	mediates
+7	ICAM-1	ICAM-1	B-NP	NN	B-protein	8	NMOD	-1
+8	stimulation	stimulation	I-NP	NN	O	6	OBJ	17	stimulation
+9	by	by	B-PP	IN	O	8	NMOD	-1
+10	TNF-alpha	TNF-alpha	B-NP	NN	B-protein	9	PMOD	-1
+11	through	through	B-PP	IN	O	6	VMOD	0
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	NF-kappaB	NF-kappaB	I-NP	NN	B-protein	14	NMOD	-1
+14	pathway	pathway	I-NP	NN	O	11	PMOD	0
+15	,	,	O	,	O	6	P	-1
+16	thus	thus	B-ADVP	RB	O	17	VMOD	-1
+17	reinforcing	reinforce	B-VP	VBG	O	6	VMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	role	role	I-NP	NN	O	17	OBJ	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	IFI16	IFI16	I-NP	NN	B-protein	23	NMOD	-1
+23	molecule	molecule	I-NP	NN	I-protein	20	PMOD	-1
+24	in	in	B-PP	IN	O	19	NMOD	-1
+25	the	the	B-NP	DT	O	27	NMOD	-1
+26	inflammation	inflammation	I-NP	NN	O	27	NMOD	-1
+27	process	process	I-NP	NN	O	24	PMOD	-1
+28	.	.	O	.	O	3	P	-1
+

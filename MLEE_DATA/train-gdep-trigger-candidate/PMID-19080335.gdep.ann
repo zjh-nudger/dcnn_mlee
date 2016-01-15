@@ -1,0 +1,444 @@
+1	Effect	Effect	B-NP	NN	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	transplanted	transplant	B-NP	VBN	B-cell_line	6	NMOD	19	transplanted
+4	mesenchymal	mesenchymal	I-NP	JJ	I-cell_line	6	NMOD	-1
+5	stem	stem	I-NP	NN	I-cell_line	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_line	2	PMOD	-1
+7	from	from	B-PP	IN	O	6	NMOD	-1
+8	rats	rat	B-NP	NNS	O	7	PMOD	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	different	different	B-NP	JJ	O	11	NMOD	-1
+11	ages	age	I-NP	NNS	O	9	PMOD	-1
+12	on	on	B-PP	IN	O	1	NMOD	-1
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	improvement	improvement	I-NP	NN	O	12	PMOD	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	heart	heart	B-NP	NN	O	17	NMOD	-1
+17	function	function	I-NP	NN	O	15	PMOD	-1
+18	after	after	B-PP	IN	O	14	NMOD	-1
+19	acute	acute	B-NP	JJ	O	21	NMOD	-1
+20	myocardial	myocardial	I-NP	JJ	O	21	NMOD	-1
+21	infarction	infarction	I-NP	NN	O	18	PMOD	-1
+22	.	.	O	.	O	1	P	-1
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Mesenchymal	Mesenchymal	B-NP	JJ	B-cell_type	5	NMOD	-1
+4	stem	stem	I-NP	NN	I-cell_type	5	NMOD	-1
+5	cells	cell	I-NP	NNS	I-cell_type	9	NMOD	-1
+6	(	(	O	(	O	8	DEP	-1
+7	MSCs	MSC	B-NP	NNS	B-cell_type	8	DEP	-1
+8	)	)	O	)	O	5	NMOD	-1
+9	transplantation	transplantation	B-NP	NN	O	10	SUB	19	transplantation
+10	is	be	B-VP	VBZ	O	1	NMOD	-1
+11	of	of	B-PP	IN	O	10	PRD	-1
+12	therapeutic	therapeutic	B-NP	JJ	O	13	NMOD	-1
+13	potential	potential	I-NP	NN	O	11	PMOD	0
+14	after	after	B-PP	IN	O	10	VMOD	-1
+15	ischemic	ischemic	B-NP	JJ	O	16	NMOD	-1
+16	injury	injury	I-NP	NN	O	14	PMOD	-1
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	both	both	B-NP	CC	O	21	AMOD	-1
+19	experimental	experimental	I-NP	JJ	O	21	AMOD	-1
+20	and	and	I-NP	CC	O	21	AMOD	-1
+21	clinical	clinical	I-NP	JJ	O	22	NMOD	-1
+22	studies	study	I-NP	NNS	O	17	PMOD	-1
+23	.	.	O	.	O	10	P	-1
+
+1	Clinically	Clinically	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	elderly	elderly	B-NP	JJ	O	4	NMOD	-1
+4	patients	patient	I-NP	NNS	O	5	SUB	-1
+5	are	be	B-VP	VBP	O	0	ROOT	-1
+6	more	more	B-ADJP	RBR	O	7	AMOD	-1
+7	vulnerable	vulnerable	I-ADJP	JJ	O	5	PRD	-1
+8	to	to	B-PP	TO	O	7	AMOD	-1
+9	acute	acute	B-NP	JJ	O	11	NMOD	-1
+10	myocardial	myocardial	I-NP	JJ	O	11	NMOD	-1
+11	infarction	infarction	I-NP	NN	O	8	PMOD	-1
+12	(	(	O	(	O	14	DEP	-1
+13	AMI	AMI	B-NP	NN	O	14	DEP	-1
+14	)	)	O	)	O	11	NMOD	-1
+15	.	.	O	.	O	5	P	-1
+
+1	But	But	O	CC	O	3	VMOD	-1
+2	little	little	B-NP	JJ	O	3	SUB	-1
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	known	know	I-VP	VBN	O	3	VC	-1
+5	about	about	B-PP	IN	O	4	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	characteristics	characteristic	I-NP	NNS	O	5	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	young	young	B-NP	JJ	B-cell_type	11	NMOD	-1
+10	donor-derived	donor-derived	I-NP	JJ	I-cell_type	11	NMOD	-1
+11	MSCs	MSC	I-NP	NNS	I-cell_type	8	PMOD	-1
+12	transplanted	transplant	B-VP	VBN	O	11	NMOD	19	transplanted
+13	to	to	B-PP	TO	O	12	VMOD	-1
+14	old	old	B-NP	JJ	O	15	NMOD	-1
+15	patients	patient	I-NP	NNS	O	13	PMOD	-1
+16	with	with	B-PP	IN	O	15	NMOD	-1
+17	AMI	AMI	B-NP	NN	O	16	PMOD	-1
+18	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	present	present	I-NP	JJ	O	3	NMOD	0
+3	study	study	I-NP	NN	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	designed	design	I-VP	VBN	O	4	VC	-1
+6	to	to	B-VP	TO	O	7	VMOD	-1
+7	investigate	investigate	I-VP	VB	O	4	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	effect	effect	I-NP	NN	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	transplanted	transplant	B-NP	VBN	O	12	NMOD	19	transplanted
+12	MSCs	MSC	I-NP	NNS	B-protein	10	PMOD	-1
+13	from	from	B-PP	IN	O	9	NMOD	-1
+14	rats	rat	B-NP	NNS	O	13	PMOD	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	different	different	B-NP	JJ	O	17	NMOD	-1
+17	ages	age	I-NP	NNS	O	15	PMOD	-1
+18	on	on	B-PP	IN	O	9	NMOD	-1
+19	the	the	B-NP	DT	O	20	NMOD	-1
+20	improvement	improvement	I-NP	NN	O	18	PMOD	-1
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	heart	heart	B-NP	NN	O	23	NMOD	-1
+23	function	function	I-NP	NN	O	21	PMOD	-1
+24	after	after	B-PP	IN	O	20	NMOD	-1
+25	AMI	AMI	B-NP	NN	O	24	PMOD	-1
+26	.	.	O	.	O	4	P	-1
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	MSCs	MSC	B-NP	NNS	B-cell_type	10	SUB	-1
+4	from	from	B-PP	IN	O	3	NMOD	-1
+5	Sprague-Dawley	Sprague-Dawley	B-NP	NNP	O	9	NMOD	-1
+6	(	(	O	(	O	9	NMOD	-1
+7	SD	SD	B-NP	NNP	O	9	NMOD	-1
+8	)	)	O	)	O	9	NMOD	-1
+9	rats	rat	B-NP	NNS	O	4	PMOD	-1
+10	were	be	B-VP	VBD	O	1	NMOD	-1
+11	isolated	isolate	I-VP	VBN	O	10	VC	19	isolated
+12	and	and	O	CC	O	11	VMOD	-1
+13	cultured	culture	B-VP	VBN	O	11	VMOD	19	cultured
+14	in	in	B-ADVP	FW	O	13	VMOD	-1
+15	vitro	vitro	I-ADVP	FW	O	14	AMOD	-1
+16	.	.	O	.	O	1	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	apoptosis	apoptosis	I-NP	NN	O	3	NMOD	5	apoptosis
+3	characteristics	characteristic	I-NP	NNS	O	6	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	MSCs	MSC	B-NP	NNS	B-cell_type	4	PMOD	-1
+6	were	be	B-VP	VBD	O	0	ROOT	-1
+7	observed	observe	I-VP	VBN	O	6	VC	0
+8	under	under	B-PP	IN	O	7	VMOD	-1
+9	conditions	condition	B-NP	NNS	O	8	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	ischemia	ischemia	B-NP	NN	O	13	NMOD	-1
+12	and	and	I-NP	CC	O	13	NMOD	-1
+13	anoxia	anoxia	I-NP	NN	O	10	PMOD	-1
+14	.	.	O	.	O	6	P	-1
+
+1	SD	SD	B-NP	NN	O	2	NMOD	-1
+2	rats	rat	I-NP	NNS	O	3	SUB	-1
+3	underwent	undergo	B-VP	VBD	O	0	ROOT	0
+4	MI	MI	B-NP	NN	O	7	NMOD	-1
+5	received	receive	B-VP	VBD	O	7	NMOD	0
+6	intramyocardial	intramyocardial	B-NP	JJ	O	7	NMOD	-1
+7	injection	injection	I-NP	NN	O	3	OBJ	19	injection
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	MSCs	MSC	B-NP	NNS	B-cell_type	8	PMOD	-1
+10	from	from	B-PP	IN	O	9	NMOD	-1
+11	young	young	B-NP	JJ	O	13	NMOD	-1
+12	donor	donor	I-NP	NN	O	13	NMOD	-1
+13	rats	rat	I-NP	NNS	O	22	NMOD	-1
+14	(	(	O	(	O	18	DEP	-1
+15	n	n	B-NP	NN	O	17	SUB	-1
+16	=	=	B-VP	SYM	O	17	VMOD	-1
+17	8	8	B-NP	CD	O	18	DEP	-1
+18	)	)	O	)	O	13	NMOD	-1
+19	,	,	O	,	O	22	P	-1
+20	old	old	B-NP	JJ	O	22	NMOD	-1
+21	donor	donor	I-NP	NN	O	22	NMOD	-1
+22	rats	rat	I-NP	NNS	O	10	PMOD	-1
+23	(	(	O	(	O	27	DEP	-1
+24	n	n	B-NP	NN	O	27	DEP	-1
+25	=	=	B-VP	SYM	O	24	NMOD	-1
+26	8	8	B-NP	CD	O	25	AMOD	-1
+27	)	)	O	)	O	22	NMOD	-1
+28	,	,	O	,	O	3	P	-1
+29	respectively	respectively	B-ADVP	RB	O	3	VMOD	-1
+30	.	.	O	.	O	3	P	-1
+
+1	AMI	AMI	B-NP	NN	O	3	NMOD	-1
+2	control	control	I-NP	NN	O	3	NMOD	0
+3	group	group	I-NP	NN	O	4	SUB	-1
+4	received	receive	B-VP	VBD	O	0	ROOT	0
+5	equal	equal	B-NP	JJ	O	8	NMOD	-1
+6	volume	volume	I-NP	NN	O	8	NMOD	-1
+7	physiological	physiological	I-NP	JJ	O	8	NMOD	-1
+8	saline	saline	I-NP	NN	O	4	OBJ	-1
+9	.	.	O	.	O	4	P	-1
+
+1	Immunofluorescence	Immunofluorescence	B-NP	NN	O	2	SUB	-1
+2	was	be	B-VP	VBD	O	0	ROOT	-1
+3	used	use	I-VP	VBN	O	2	VC	0
+4	to	to	B-VP	TO	O	5	VMOD	-1
+5	observe	observe	I-VP	VB	O	3	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	differentiation	differentiation	I-NP	NN	O	5	OBJ	2	differentiation
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	grafted	grafted	I-NP	JJ	B-cell_type	11	NMOD	19	grafted
+11	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	-1
+12	into	into	B-PP	IN	O	7	NMOD	-1
+13	cardiomyocytes	cardiomyocyte	B-NP	NNS	B-cell_type	12	PMOD	-1
+14	.	.	O	.	O	2	P	-1
+
+1	Four	Four	B-NP	CD	O	2	NMOD	-1
+2	weeks	week	I-NP	NNS	O	15	NMOD	-1
+3	after	after	B-PP	IN	O	2	NMOD	-1
+4	cell	cell	B-NP	NN	O	5	NMOD	-1
+5	transplantation	transplantation	I-NP	NN	O	3	PMOD	19	transplantation
+6	,	,	O	,	O	15	P	-1
+7	reverse	reverse	B-NP	JJ	O	10	NMOD	-1
+8	transcriptase-polymerase	transcriptase-polymerase	I-NP	NN	O	10	NMOD	-1
+9	chain	chain	I-NP	NN	O	10	NMOD	-1
+10	reaction	reaction	I-NP	NN	O	15	NMOD	-1
+11	(	(	O	(	O	13	DEP	-1
+12	RT-PCR	RT-PCR	B-NP	NN	O	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	and	and	O	CC	O	15	NMOD	-1
+15	immunohistochemistry	immunohistochemistry	B-NP	NN	O	45	SUB	-1
+16	for	for	B-PP	IN	O	15	NMOD	-1
+17	vascular	vascular	B-NP	JJ	B-protein	20	NMOD	-1
+18	endothelial	endothelial	I-NP	JJ	I-protein	20	NMOD	-1
+19	growth	growth	I-NP	NN	I-protein	20	NMOD	0
+20	factor	factor	I-NP	NN	I-protein	26	NMOD	-1
+21	(	(	O	(	O	23	DEP	-1
+22	VEGF	VEGF	B-NP	NN	B-protein	23	DEP	-1
+23	)	)	O	)	O	20	NMOD	-1
+24	,	,	O	,	O	26	P	-1
+25	VIII-factor	VIII-factor	B-NP	NN	O	26	NMOD	-1
+26	immunohistochemistry	immunohistochemistry	I-NP	NN	O	16	PMOD	-1
+27	for	for	B-PP	IN	O	26	NMOD	-1
+28	vessel	vessel	B-NP	NN	O	29	NMOD	-1
+29	density	density	I-NP	NN	O	33	NMOD	-1
+30	,	,	O	,	O	33	P	-1
+31	TUNEL	TUNEL	B-NP	NN	B-protein	33	NMOD	-1
+32	,	,	O	,	O	33	P	-1
+33	caspase-3	caspase-3	B-NP	NN	B-protein	41	NMOD	-1
+34	for	for	B-PP	IN	O	33	NMOD	-1
+35	cardiomyocyte	cardiomyocyte	B-NP	NN	O	36	NMOD	-1
+36	apoptosis	apoptosis	I-NP	NN	O	34	PMOD	5	apoptosis
+37	,	,	O	,	O	41	P	-1
+38	echocardiography	echocardiography	B-NP	NN	O	41	NMOD	-1
+39	and	and	O	CC	O	41	NMOD	-1
+40	hemodynamic	hemodynamic	B-NP	JJ	O	41	NMOD	-1
+41	detection	detection	I-NP	NN	O	27	PMOD	-1
+42	for	for	B-PP	IN	O	41	NMOD	-1
+43	heart	heart	B-NP	NN	O	44	NMOD	-1
+44	function	function	I-NP	NN	O	42	PMOD	-1
+45	were	be	B-VP	VBD	O	0	ROOT	-1
+46	performed	perform	I-VP	VBN	O	45	VC	-1
+47	.	.	O	.	O	45	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	The	The	B-NP	DT	O	5	NMOD	-1
+4	apoptosis	apoptosis	I-NP	NN	O	5	NMOD	5	apoptosis
+5	rate	rate	I-NP	NN	O	12	SUB	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	11	NMOD	-1
+8	old	old	I-NP	JJ	O	11	NMOD	-1
+9	donor-derived	donor-derived	I-NP	JJ	O	11	NMOD	-1
+10	MSCs	MSC	I-NP	NNS	O	11	NMOD	-1
+11	group	group	I-NP	NN	O	6	PMOD	-1
+12	was	be	B-VP	VBD	O	1	NMOD	-1
+13	significantly	significantly	B-ADJP	RB	O	14	AMOD	-1
+14	higher	high	I-ADJP	JJR	O	12	PRD	-1
+15	than	than	B-PP	IN	O	14	AMOD	-1
+16	that	that	B-NP	DT	O	15	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	22	NMOD	-1
+19	young	young	I-NP	JJ	O	22	NMOD	-1
+20	donor-derived	donor-derived	I-NP	JJ	O	22	NMOD	-1
+21	MSCs	MSC	I-NP	NNS	O	22	NMOD	-1
+22	group	group	I-NP	NN	O	17	PMOD	-1
+23	under	under	B-PP	IN	O	14	AMOD	-1
+24	conditions	condition	B-NP	NNS	O	23	PMOD	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	ischemia	ischemia	B-NP	NN	O	28	NMOD	-1
+27	and	and	O	CC	O	28	NMOD	-1
+28	anoxia	anoxia	B-NP	NN	O	25	PMOD	-1
+29	(	(	O	(	O	34	DEP	-1
+30	P	P	B-NP	NN	O	34	DEP	-1
+31	less	less	B-ADJP	JJR	O	30	NMOD	-1
+32	than	than	B-PP	IN	O	31	AMOD	-1
+33	0.05	0.05	B-NP	CD	O	32	PMOD	-1
+34	)	)	O	)	O	28	NMOD	-1
+35	.	.	O	.	O	1	P	-1
+
+1	Engrafted	Engraft	B-NP	VBN	O	2	NMOD	19	Engrafted
+2	MSCs	MSC	I-NP	NNS	B-protein	3	SUB	-1
+3	survived	survive	B-VP	VBD	O	0	ROOT	5	survived
+4	,	,	O	,	O	3	P	-1
+5	proliferated	proliferate	B-VP	VBD	O	3	VMOD	1	proliferated
+6	and	and	I-VP	CC	O	5	VMOD	-1
+7	differentiated	differentiate	I-VP	VBD	O	5	VMOD	2	differentiated
+8	into	into	B-PP	IN	O	7	VMOD	-1
+9	myocardium-like	myocardium-like	B-NP	JJ	B-cell_type	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	-1
+11	.	.	O	.	O	3	P	-1
+
+1	VEGF	VEGF	B-NP	NN	O	3	NMOD	-1
+2	gene	gene	I-NP	NN	O	3	NMOD	-1
+3	expression	expression	I-NP	NN	O	6	NMOD	9	expression
+4	and	and	O	CC	O	6	NMOD	-1
+5	capillary	capillary	B-NP	JJ	O	6	NMOD	-1
+6	density	density	I-NP	NN	O	12	SUB	-1
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	11	NMOD	-1
+9	old	old	I-NP	JJ	O	11	NMOD	-1
+10	donor-derived	donor-derived	I-NP	JJ	O	11	NMOD	-1
+11	group	group	I-NP	NN	O	7	PMOD	-1
+12	were	be	B-VP	VBD	O	0	ROOT	-1
+13	lower	low	B-ADJP	JJR	O	22	AMOD	-1
+14	than	than	B-PP	IN	O	13	AMOD	-1
+15	those	those	B-NP	DT	O	14	PMOD	-1
+16	in	in	B-PP	IN	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	20	NMOD	-1
+18	young	young	I-NP	JJ	O	20	NMOD	-1
+19	donor-derived	donor-derived	I-NP	JJ	O	20	NMOD	-1
+20	group	group	I-NP	NN	O	16	PMOD	-1
+21	but	but	O	CC	O	22	AMOD	-1
+22	higher	high	B-ADJP	JJR	O	12	PRD	-1
+23	than	than	B-PP	IN	O	22	AMOD	-1
+24	those	those	B-NP	DT	O	23	PMOD	-1
+25	in	in	B-PP	IN	O	24	NMOD	-1
+26	the	the	B-NP	DT	O	28	NMOD	-1
+27	control	control	I-NP	NN	O	28	NMOD	0
+28	group	group	I-NP	NN	O	25	PMOD	-1
+29	(	(	O	(	O	34	DEP	-1
+30	P	P	B-NP	NN	O	34	DEP	-1
+31	less	less	B-ADJP	JJR	O	30	NMOD	-1
+32	than	than	B-PP	IN	O	31	AMOD	-1
+33	0.05	0.05	B-NP	CD	O	32	PMOD	-1
+34	)	)	O	)	O	28	NMOD	-1
+35	.	.	O	.	O	12	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	transplantation	transplantation	I-NP	NN	O	7	SUB	19	transplantation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	old	old	B-NP	JJ	B-cell_type	6	NMOD	-1
+5	donor-derived	donor-derived	I-NP	JJ	I-cell_type	6	NMOD	-1
+6	MSCs	MSC	I-NP	NNS	I-cell_type	3	PMOD	-1
+7	attenuated	attenuate	B-VP	VBD	O	0	ROOT	18	attenuated
+8	apoptosis	apoptosis	B-NP	NN	O	7	OBJ	5	apoptosis
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	cardiomyocytes	cardiomyocyte	B-NP	NNS	B-cell_type	9	PMOD	-1
+11	in	in	B-PP	IN	O	8	NMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	peri-infarct	peri-infarct	I-NP	JJ	B-DNA	14	NMOD	-1
+14	region	region	I-NP	NN	I-DNA	11	PMOD	-1
+15	compared	compare	B-PP	VBN	O	7	VMOD	-1
+16	with	with	B-PP	IN	O	15	VMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	control	control	I-NP	NN	O	19	NMOD	0
+19	group	group	I-NP	NN	O	22	NMOD	-1
+20	and	and	O	CC	O	22	NMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	effect	effect	I-NP	NN	O	16	PMOD	16	effect
+23	was	be	B-VP	VBD	O	7	VMOD	-1
+24	elevated	elevate	I-VP	VBN	O	23	VC	17	elevated
+25	in	in	B-PP	IN	O	24	VMOD	-1
+26	young	young	B-NP	JJ	B-cell_type	28	NMOD	-1
+27	donor-derived	donor-derived	I-NP	JJ	I-cell_type	28	NMOD	-1
+28	MSCs	MSC	I-NP	NNS	I-cell_type	25	PMOD	-1
+29	(	(	O	(	O	34	DEP	-1
+30	P	P	B-NP	NN	O	34	DEP	-1
+31	less	less	B-ADJP	JJR	O	30	NMOD	-1
+32	than	than	B-PP	IN	O	31	AMOD	-1
+33	0.05	0.05	B-NP	CD	O	32	PMOD	-1
+34	)	)	O	)	O	28	NMOD	-1
+35	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	heart	heart	I-NP	NN	O	3	NMOD	-1
+3	functions	function	I-NP	NNS	O	21	SUB	0
+4	(	(	O	(	O	20	DEP	-1
+5	left	left	B-NP	JJ	O	8	NMOD	-1
+6	ventricle	ventricle	I-NP	NN	O	8	NMOD	-1
+7	ejection	ejection	I-NP	NN	O	8	NMOD	-1
+8	fraction	fraction	I-NP	NN	O	13	SUB	-1
+9	(	(	O	(	O	11	DEP	-1
+10	LVEF	LVEF	B-NP	NN	B-protein	11	DEP	-1
+11	)	)	O	)	O	8	NMOD	-1
+12	,	,	O	,	O	8	P	-1
+13	left	leave	B-VP	VBD	O	20	DEP	-1
+14	ventricle	ventricle	B-NP	NN	O	16	NMOD	-1
+15	fractional	fractional	I-NP	JJ	O	16	NMOD	-1
+16	shortening	shortening	I-NP	NN	O	13	OBJ	-1
+17	(	(	O	(	O	19	DEP	-1
+18	LVFS	LVFS	B-NP	NN	B-protein	19	DEP	-1
+19	)	)	O	)	O	16	NMOD	-1
+20	)	)	O	)	O	3	NMOD	-1
+21	were	be	B-VP	VBD	O	47	VMOD	-1
+22	improved	improve	I-VP	VBN	O	21	VC	0
+23	more	more	B-ADVP	RBR	O	24	AMOD	-1
+24	significantly	significantly	I-ADVP	RB	O	22	VMOD	-1
+25	in	in	B-PP	IN	O	22	VMOD	-1
+26	the	the	B-NP	DT	O	30	NMOD	-1
+27	old	old	I-NP	JJ	O	30	NMOD	-1
+28	donor-derived	donor-derived	I-NP	JJ	O	30	NMOD	-1
+29	MSCs	MSC	I-NP	NNS	O	30	NMOD	-1
+30	group	group	I-NP	NN	O	25	PMOD	-1
+31	than	than	B-PP	IN	O	22	VMOD	-1
+32	in	in	B-PP	IN	O	31	PMOD	-1
+33	the	the	B-NP	DT	O	35	NMOD	-1
+34	control	control	I-NP	NN	O	35	NMOD	0
+35	group	group	I-NP	NN	O	32	PMOD	-1
+36	and	and	O	CC	O	47	VMOD	-1
+37	the	the	B-NP	DT	O	39	NMOD	-1
+38	heart	heart	I-NP	NN	O	39	NMOD	-1
+39	function	function	I-NP	NN	O	47	SUB	-1
+40	in	in	B-PP	IN	O	39	NMOD	-1
+41	the	the	B-NP	DT	O	44	NMOD	-1
+42	young	young	I-NP	JJ	O	44	NMOD	-1
+43	donor-derived	donor-derived	I-NP	JJ	O	44	NMOD	-1
+44	MSCs	MSC	I-NP	NNS	O	45	NMOD	-1
+45	group	group	I-NP	NN	O	40	PMOD	-1
+46	further	further	B-ADVP	RB	O	47	VMOD	-1
+47	improved	improve	B-VP	VBD	O	0	ROOT	17	improved
+48	(	(	O	(	O	53	DEP	-1
+49	P	P	B-NP	NN	O	53	DEP	-1
+50	less	less	B-ADJP	JJR	O	49	NMOD	-1
+51	than	than	B-PP	IN	O	50	AMOD	-1
+52	0.05	0.05	B-NP	CD	O	51	PMOD	-1
+53	)	)	O	)	O	47	VMOD	-1
+54	.	.	O	.	O	47	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	5	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Young	Young	B-NP	JJ	B-cell_type	5	NMOD	-1
+4	donor-derived	donor-derived	I-NP	JJ	I-cell_type	5	NMOD	-1
+5	MSCs	MSC	I-NP	NNS	I-cell_type	6	SUB	-1
+6	can	can	B-VP	MD	O	0	ROOT	-1
+7	improve	improve	I-VP	VB	O	6	VC	16	improve
+8	heart	heart	B-NP	NN	O	9	NMOD	-1
+9	function	function	I-NP	NN	O	7	OBJ	-1
+10	significantly	significantly	B-ADVP	RB	O	11	PMOD	-1
+11	through	through	B-PP	IN	O	7	VMOD	0
+12	angiogenesis	angiogenesis	B-NP	NN	O	11	PMOD	3	angiogenesis
+13	and	and	O	CC	O	7	VMOD	-1
+14	decreasing	decrease	B-VP	VBG	O	7	VMOD	18	decreasing
+15	cardiomyocyte	cardiomyocyte	B-NP	NN	O	16	NMOD	-1
+16	apoptosis	apoptosis	I-NP	NN	O	14	OBJ	5	apoptosis
+17	when	when	B-ADVP	WRB	O	14	VMOD	-1
+18	transplanted	transplant	B-VP	VBN	O	17	SBAR	19	transplanted
+19	to	to	B-PP	TO	O	18	VMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	infarcted	infarcte	I-NP	VBN	O	22	NMOD	-1
+22	area	area	I-NP	NN	O	19	PMOD	-1
+23	.	.	O	.	O	6	P	-1
+

@@ -1,0 +1,243 @@
+1	IL-12	IL-12	B-NP	NN	B-protein	2	NMOD	-1
+2	inhibition	inhibition	I-NP	NN	O	8	NMOD	18	inhibition
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	endothelial	endothelial	B-NP	JJ	O	6	NMOD	-1
+5	cell	cell	I-NP	NN	O	6	NMOD	-1
+6	functions	function	I-NP	NNS	O	3	PMOD	0
+7	and	and	O	CC	O	8	NMOD	-1
+8	angiogenesis	angiogenesis	B-NP	NN	O	9	SUB	3	angiogenesis
+9	depends	depend	B-VP	VBZ	O	0	ROOT	0
+10	on	on	B-PP	IN	O	9	VMOD	-1
+11	lymphocyte-endothelial	lymphocyte-endothelial	B-NP	JJ	B-protein	13	NMOD	-1
+12	cell	cell	I-NP	NN	I-protein	13	NMOD	-1
+13	cross-talk	cross-talk	I-NP	NN	I-protein	10	PMOD	-1
+14	.	.	O	.	O	9	P	-1
+
+1	In	In	B-NP	FW	O	2	AMOD	-1
+2	vivo	vivo	I-NP	FW	O	3	AMOD	-1
+3	IL-12-dependent	IL-12-dependent	I-NP	JJ	O	5	NMOD	17	dependent
+4	tumor	tumor	I-NP	NN	O	5	NMOD	-1
+5	inhibition	inhibition	I-NP	NN	O	6	SUB	18	inhibition
+6	rests	rest	B-VP	VBZ	O	0	ROOT	-1
+7	on	on	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	ability	ability	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	IL-12	IL-12	B-NP	NN	B-protein	10	PMOD	-1
+12	to	to	B-VP	TO	O	13	VMOD	-1
+13	activate	activate	I-VP	VB	O	9	NMOD	0
+14	a	a	B-NP	DT	O	16	NMOD	-1
+15	CD8-mediated	CD8-mediated	I-NP	JJ	O	16	NMOD	-1
+16	cytotoxicity	cytotoxicity	I-NP	NN	O	13	OBJ	-1
+17	,	,	O	,	O	6	P	-1
+18	inhibit	inhibit	B-VP	VBP	O	6	VMOD	18	inhibit
+19	angiogenesis	angiogenesis	B-NP	NN	O	18	OBJ	3	angiogenesis
+20	,	,	O	,	O	6	P	-1
+21	and	and	O	CC	O	6	VMOD	-1
+22	cause	cause	B-VP	VBP	O	6	VMOD	-1
+23	vascular	vascular	B-NP	JJ	O	24	NMOD	-1
+24	injury	injury	I-NP	NN	O	22	OBJ	-1
+25	.	.	O	.	O	6	P	-1
+
+1	Although	Although	B-SBAR	IN	O	0	ROOT	-1
+2	in	in	B-NP	FW	O	3	AMOD	-1
+3	vivo	vivo	I-NP	FW	O	4	NMOD	-1
+4	studies	study	I-NP	NNS	O	5	SUB	-1
+5	have	have	B-VP	VBP	O	1	SBAR	-1
+6	shown	show	I-VP	VBN	O	5	VC	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	such	such	B-NP	JJ	O	9	NMOD	-1
+9	inhibition	inhibition	I-NP	NN	O	10	SUB	0
+10	stems	stem	B-VP	VBZ	O	31	VMOD	-1
+11	from	from	B-PP	IN	O	10	VMOD	-1
+12	complex	complex	B-NP	JJ	O	13	NMOD	-1
+13	interactions	interaction	I-NP	NNS	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	immune	immune	B-NP	JJ	B-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	-1
+17	and	and	O	CC	O	31	VMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	production	production	I-NP	NN	O	29	NMOD	9	production
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	IFN-gamma	IFN-gamma	B-NP	NN	B-protein	26	NMOD	-1
+22	and	and	O	CC	O	26	NMOD	-1
+23	other	other	B-NP	JJ	O	26	NMOD	-1
+24	downstream	downstream	I-NP	JJ	B-protein	26	NMOD	0
+25	angiostatic	angiostatic	I-NP	JJ	I-protein	26	NMOD	-1
+26	chemokines	chemokine	I-NP	NNS	I-protein	20	PMOD	-1
+27	,	,	O	,	O	29	P	-1
+28	the	the	B-NP	DT	O	29	NMOD	-1
+29	mechanisms	mechanism	I-NP	NNS	O	31	SUB	-1
+30	involved	involve	B-VP	VBN	O	29	NMOD	0
+31	are	be	B-VP	VBP	O	7	SBAR	-1
+32	still	still	B-ADVP	RB	O	31	VMOD	-1
+33	poorly	poorly	B-ADJP	RB	O	34	VMOD	-1
+34	defined	define	I-ADJP	VBN	O	31	VC	-1
+35	.	.	O	.	O	1	P	-1
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	show	show	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	IL-12	IL-12	B-NP	NN	B-protein	6	SUB	-1
+6	activates	activate	B-VP	VBZ	O	4	SBAR	17	activates
+7	an	an	B-NP	DT	O	9	NMOD	-1
+8	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	program	program	I-NP	NN	O	6	OBJ	18	program
+10	in	in	B-PP	IN	O	6	VMOD	-1
+11	Con	Con	B-NP	NNP	B-cell_line	15	NMOD	-1
+12	A-activated	A-activated	I-NP	JJ	I-cell_line	15	NMOD	17	activated
+13	mouse	mouse	I-NP	NN	I-cell_line	15	NMOD	-1
+14	spleen	spleen	I-NP	NN	I-cell_line	15	NMOD	-1
+15	cells	cell	I-NP	NNS	I-cell_line	22	NMOD	-1
+16	(	(	O	(	O	19	DEP	-1
+17	activated	activate	B-NP	VBN	O	18	NMOD	17	activated
+18	spc	spc	I-NP	NN	O	19	DEP	-1
+19	)	)	O	)	O	15	NMOD	-1
+20	or	or	O	CC	O	22	NMOD	-1
+21	human	human	B-NP	JJ	O	22	NMOD	-1
+22	PBMC	PBMC	I-NP	NN	O	10	PMOD	-1
+23	(	(	O	(	O	26	DEP	-1
+24	activated	activate	B-NP	VBN	O	25	NMOD	17	activated
+25	PBMC	PBMC	I-NP	NN	B-cell_type	26	DEP	-1
+26	)	)	O	)	O	22	NMOD	-1
+27	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	soluble	soluble	I-NP	JJ	B-protein	3	NMOD	-1
+3	factors	factor	I-NP	NNS	I-protein	11	NMOD	-1
+4	they	they	B-NP	PRP	O	3	NMOD	-1
+5	release	release	B-VP	VBP	O	4	SBAR	0
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	its	its	B-NP	PRP$	O	9	NMOD	-1
+8	presence	presence	I-NP	NN	O	9	NMOD	0
+9	arrest	arrest	I-NP	NN	O	6	PMOD	18	arrest
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	cycle	cycle	I-NP	NN	O	19	SUB	0
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	endothelial	endothelial	B-NP	JJ	B-cell_type	14	NMOD	-1
+14	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	-1
+15	(	(	O	(	O	17	DEP	-1
+16	EC	EC	B-NP	NN	B-cell_type	17	DEP	-1
+17	)	)	O	)	O	14	NMOD	-1
+18	,	,	O	,	O	11	P	-1
+19	inhibit	inhibit	B-VP	VBP	O	42	VMOD	18	inhibit
+20	in	in	B-NP	FW	O	21	AMOD	-1
+21	vitro	vitro	I-NP	FW	O	22	NMOD	-1
+22	angiogenesis	angiogenesis	I-NP	NN	O	19	OBJ	3	angiogenesis
+23	,	,	O	,	O	19	P	-1
+24	negatively	negatively	B-ADVP	RB	O	19	VMOD	-1
+25	modulate	modulate	B-VP	VBP	O	19	VMOD	0
+26	the	the	B-NP	DT	O	27	NMOD	-1
+27	production	production	I-NP	NN	O	25	OBJ	9	production
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	matrix	matrix	B-NP	NN	B-protein	30	NMOD	-1
+30	metalloproteinase-9	metalloproteinase-9	I-NP	NN	I-protein	28	PMOD	-1
+31	,	,	O	,	O	42	P	-1
+32	and	and	O	CC	O	34	NMOD	-1
+33	the	the	B-NP	DT	O	34	NMOD	-1
+34	ability	ability	I-NP	NN	O	42	SUB	0
+35	of	of	B-PP	IN	O	34	NMOD	-1
+36	EC	EC	B-NP	NN	B-cell_type	35	PMOD	-1
+37	to	to	B-VP	TO	O	38	VMOD	-1
+38	adhere	adhere	I-VP	VB	O	34	NMOD	15	adhere
+39	to	to	B-PP	TO	O	38	VMOD	-1
+40	vitronectin	vitronectin	B-NP	NN	B-protein	39	PMOD	-1
+41	and	and	O	CC	O	42	VMOD	-1
+42	up-regulate	up-regulate	B-VP	VBP	O	0	ROOT	17	up-regulate
+43	ICAM-1	ICAM-1	B-NP	NN	B-protein	46	NMOD	-1
+44	and	and	I-NP	CC	O	46	NMOD	-1
+45	VCAM-1	VCAM-1	I-NP	NN	B-protein	46	NMOD	-1
+46	expression	expression	I-NP	NN	O	42	OBJ	9	expression
+47	.	.	O	.	O	42	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	effects	effect	I-NP	NNS	O	3	SUB	0
+3	do	do	B-VP	VBP	O	11	VMOD	-1
+4	not	not	I-VP	RB	O	3	VMOD	-1
+5	require	require	I-VP	VB	O	3	VC	16	require
+6	direct	direct	B-NP	JJ	O	7	AMOD	-1
+7	cell-cell	cell-cell	I-NP	JJ	O	8	NMOD	-1
+8	contact	contact	I-NP	NN	O	5	OBJ	15	contact
+9	,	,	O	,	O	3	P	-1
+10	yet	yet	B-ADVP	RB	O	11	VMOD	-1
+11	result	result	B-VP	VBP	O	0	ROOT	-1
+12	from	from	B-PP	IN	O	11	VMOD	-1
+13	continuous	continuous	B-NP	JJ	O	14	NMOD	-1
+14	interaction	interaction	I-NP	NN	O	12	PMOD	15	interaction
+15	between	between	B-PP	IN	O	14	NMOD	-1
+16	activated	activate	B-NP	VBN	B-cell_type	18	NMOD	17	activated
+17	lymphoid	lymphoid	I-NP	JJ	I-cell_type	18	NMOD	-1
+18	cells	cell	I-NP	NNS	I-cell_type	20	NMOD	-1
+19	and	and	O	CC	O	20	NMOD	-1
+20	EC	EC	B-NP	NN	B-cell_type	15	PMOD	-1
+21	.	.	O	.	O	11	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	used	use	B-VP	VBD	O	0	ROOT	0
+3	neutralizing	neutralize	B-VP	VBG	B-protein	4	NMOD	-1
+4	Abs	Ab	B-NP	NNS	I-protein	2	OBJ	-1
+5	to	to	B-VP	TO	O	6	VMOD	-1
+6	show	show	I-VP	VB	O	2	VMOD	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	IFN-inducible	IFN-inducible	I-NP	JJ	B-protein	10	NMOD	-1
+10	protein-10	protein-10	I-NP	NN	I-protein	16	SUB	-1
+11	and	and	O	CC	O	12	AMOD	-1
+12	monokine-induced	monokine-induced	B-ADJP	JJ	O	10	NMOD	-1
+13	by	by	B-PP	IN	O	12	AMOD	-1
+14	IFN-gamma	IFN-gamma	B-NP	NN	B-protein	15	NMOD	-1
+15	chemokines	chemokine	I-NP	NNS	I-protein	13	PMOD	-1
+16	are	be	B-VP	VBP	O	7	SBAR	-1
+17	pivotal	pivotal	B-ADJP	JJ	O	16	PRD	-1
+18	in	in	B-PP	IN	O	17	AMOD	-1
+19	inducing	induce	B-VP	VBG	O	18	PMOD	-1
+20	these	these	B-NP	DT	O	21	NMOD	-1
+21	effects	effect	I-NP	NNS	O	19	OBJ	0
+22	.	.	O	.	O	2	P	-1
+
+1	Experiments	Experiment	B-NP	NNS	O	18	VMOD	-1
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	nu/nu	nu/nu	B-NP	NN	O	4	NMOD	-1
+4	mice	mouse	I-NP	NNS	O	2	PMOD	-1
+5	,	,	O	,	O	18	P	-1
+6	nonobese	nonobese	B-NP	JJ	O	8	NMOD	-1
+7	diabetic-SCID	diabetic-SCID	I-NP	NN	O	8	NMOD	-1
+8	mice	mouse	I-NP	NNS	O	18	SUB	-1
+9	,	,	O	,	O	18	P	-1
+10	or	or	O	CC	O	12	NMOD	-1
+11	activated	activate	B-NP	VBN	O	12	NMOD	17	activated
+12	spc	spc	I-NP	NN	O	18	SUB	-1
+13	enriched	enrich	B-VP	VBN	O	12	NMOD	-1
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	specific	specific	B-NP	JJ	O	17	NMOD	-1
+16	cell	cell	I-NP	NN	O	17	NMOD	-1
+17	subpopulations	subpopulation	I-NP	NNS	O	14	PMOD	-1
+18	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+19	that	that	B-SBAR	IN	O	18	VMOD	-1
+20	CD4	CD4	B-NP	NN	O	33	SUB	-1
+21	(	(	O	(	O	23	DEP	-1
+22	+	+	B-NP	SYM	O	23	DEP	-1
+23	)	)	O	)	O	20	NMOD	-1
+24	,	,	O	,	O	33	P	-1
+25	CD8	CD8	B-NP	NN	B-protein	33	SUB	-1
+26	(	(	O	(	O	28	DEP	-1
+27	+	+	B-NP	SYM	O	28	DEP	-1
+28	)	)	O	)	O	25	NMOD	-1
+29	,	,	O	,	O	33	P	-1
+30	and	and	O	CC	O	33	VMOD	-1
+31	NK	NK	B-NP	NN	B-cell_type	32	NMOD	-1
+32	cells	cell	I-NP	NNS	I-cell_type	33	SUB	-1
+33	are	be	B-VP	VBP	O	19	SBAR	-1
+34	all	all	O	DT	O	33	VMOD	-1
+35	needed	need	B-VP	VBN	O	33	VC	-1
+36	to	to	B-VP	TO	O	37	VMOD	-1
+37	mediate	mediate	I-VP	VB	O	35	VMOD	16	mediate
+38	the	the	B-NP	DT	O	41	NMOD	-1
+39	full	full	I-NP	JJ	O	40	AMOD	-1
+40	anti-angiogenetic	anti-angiogenetic	I-NP	JJ	O	41	NMOD	3	angiogenetic
+41	effect	effect	I-NP	NN	O	37	OBJ	16	effect
+42	of	of	B-PP	IN	O	41	NMOD	-1
+43	IL-12	IL-12	B-NP	NN	B-protein	42	PMOD	-1
+44	.	.	O	.	O	18	P	-1
+

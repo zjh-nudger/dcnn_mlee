@@ -1,0 +1,257 @@
+1	Autocrine	Autocrine	B-NP	NN	O	4	NMOD	-1
+2	angiotensin	angiotensin	I-NP	NN	O	4	NMOD	-1
+3	system	system	I-NP	NN	O	4	NMOD	0
+4	regulation	regulation	I-NP	NN	O	14	SUB	16	regulation
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	bovine	bovine	B-NP	JJ	O	10	NMOD	-1
+7	aortic	aortic	I-NP	JJ	O	10	NMOD	-1
+8	endothelial	endothelial	I-NP	JJ	O	10	NMOD	-1
+9	cell	cell	I-NP	NN	O	10	NMOD	-1
+10	migration	migration	I-NP	NN	O	13	NMOD	14	migration
+11	and	and	O	CC	O	13	NMOD	-1
+12	plasminogen	plasminogen	B-NP	NN	B-protein	13	NMOD	-1
+13	activator	activator	I-NP	NN	I-protein	5	PMOD	0
+14	involves	involve	B-VP	VBZ	O	0	ROOT	0
+15	modulation	modulation	B-NP	NN	O	14	OBJ	16	modulation
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	proto-oncogene	proto-oncogene	B-NP	NN	B-DNA	19	NMOD	-1
+18	pp60c-src	pp60c-src	I-NP	NN	O	19	NMOD	-1
+19	expression	expression	I-NP	NN	O	16	PMOD	9	expression
+20	.	.	O	.	O	14	P	-1
+
+1	Rapid	Rapid	B-NP	JJ	O	4	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	O	4	NMOD	-1
+3	cell	cell	I-NP	NN	O	4	NMOD	-1
+4	migration	migration	I-NP	NN	O	6	NMOD	14	migration
+5	and	and	O	CC	O	6	NMOD	-1
+6	inhibition	inhibition	B-NP	NN	O	9	SUB	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	thrombosis	thrombosis	B-NP	NN	O	7	PMOD	-1
+9	are	be	B-VP	VBP	O	0	ROOT	-1
+10	critical	critical	B-ADJP	JJ	O	9	PRD	0
+11	for	for	B-PP	IN	O	10	AMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	resolution	resolution	I-NP	NN	O	11	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	denudation	denudation	B-NP	NN	O	16	NMOD	0
+16	injuries	injury	I-NP	NNS	O	14	PMOD	-1
+17	to	to	B-PP	TO	O	13	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	vessel	vessel	I-NP	NN	O	20	NMOD	-1
+20	wall	wall	I-NP	NN	O	17	PMOD	-1
+21	.	.	O	.	O	9	P	-1
+
+1	Inhibition	Inhibition	B-NP	NN	O	0	ROOT	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	8	NMOD	-1
+4	endothelial	endothelial	I-NP	JJ	O	8	NMOD	-1
+5	cell	cell	I-NP	NN	O	8	NMOD	-1
+6	autocrine	autocrine	I-NP	NN	O	8	NMOD	-1
+7	angiotensin	angiotensin	I-NP	NN	O	8	NMOD	-1
+8	system	system	I-NP	NN	O	2	PMOD	0
+9	,	,	O	,	O	1	P	-1
+10	with	with	B-PP	IN	O	1	NMOD	-1
+11	either	either	O	CC	O	28	VMOD	-1
+12	the	the	B-NP	DT	O	16	NMOD	-1
+13	angiotensin-converting	angiotensin-converting	I-NP	JJ	B-protein	16	NMOD	-1
+14	enzyme	enzyme	I-NP	NN	I-protein	16	NMOD	-1
+15	inhibitor	inhibitor	I-NP	NN	O	16	NMOD	0
+16	lisinopril	lisinopril	I-NP	NN	O	23	NMOD	-1
+17	or	or	O	CC	O	23	NMOD	-1
+18	the	the	B-NP	DT	O	23	NMOD	-1
+19	angiotensin	angiotensin	I-NP	NN	B-protein	23	NMOD	-1
+20	II	II	I-NP	CD	I-protein	23	NMOD	-1
+21	receptor	receptor	I-NP	NN	I-protein	23	NMOD	-1
+22	antagonist	antagonist	I-NP	NN	I-protein	23	NMOD	-1
+23	sar1	sar1	I-NP	NN	I-protein	28	SUB	-1
+24	,	,	O	,	O	28	P	-1
+25	ile8-angiotensin	ile8-angiotensin	B-NP	NN	B-protein	28	SUB	-1
+26	II	II	I-NP	CD	I-protein	25	NMOD	-1
+27	,	,	O	,	O	25	P	-1
+28	leads	lead	B-VP	VBZ	O	10	SBAR	0
+29	to	to	B-PP	TO	O	28	VMOD	-1
+30	increased	increase	B-NP	VBN	O	37	NMOD	17	increased
+31	endothelial	endothelial	I-NP	JJ	O	33	NMOD	-1
+32	cell	cell	I-NP	NN	O	33	NMOD	-1
+33	migration	migration	I-NP	NN	O	37	NMOD	14	migration
+34	and	and	O	CC	O	37	NMOD	-1
+35	urokinase-like	urokinase-like	B-NP	JJ	O	37	NMOD	-1
+36	plasminogen	plasminogen	I-NP	NN	O	37	NMOD	-1
+37	activator	activator	I-NP	NN	O	41	NMOD	0
+38	(	(	O	(	O	40	DEP	-1
+39	u-PA	u-PA	B-NP	NN	O	40	DEP	-1
+40	)	)	O	)	O	37	NMOD	-1
+41	activity	activity	B-NP	NN	O	49	NMOD	0
+42	(	(	O	(	O	49	DEP	-1
+43	Bell	Bell	B-NP	NNP	O	49	NMOD	-1
+44	,	,	O	,	O	49	P	-1
+45	L.	L.	B-NP	NNP	O	49	NMOD	-1
+46	,	,	O	,	O	49	P	-1
+47	and	and	O	CC	O	49	NMOD	-1
+48	J.	J.	B-NP	NNP	O	49	NMOD	-1
+49	A	A	I-NP	NNP	O	29	PMOD	-1
+50	.	.	O	.	O	1	P	-1
+
+1	Madri	Madri	B-NP	NNP	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	1990	1990	B-NP	CD	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Am	Am	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	J	J	B-NP	NNP	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	Pathol	Pathol	B-NP	NN	O	0	ROOT	-1
+2	.	.	O	.	O	1	P	-1
+
+1	137	137	B-NP	CD	O	3	NMOD	-1
+2	:	:	O	:	O	3	P	-1
+3	7-12	7-12	B-NP	CD	O	0	ROOT	-1
+4	)	)	O	)	O	3	NMOD	-1
+5	.	.	O	.	O	3	P	-1
+
+1	Inhibition	Inhibition	B-NP	NN	O	16	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	6	NMOD	-1
+4	autocrine	autocrine	I-NP	JJ	O	6	NMOD	-1
+5	angiotensin	angiotensin	I-NP	NN	O	6	NMOD	-1
+6	system	system	I-NP	NN	O	2	PMOD	0
+7	with	with	B-PP	IN	O	1	NMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	converting-enzyme	converting-enzyme	I-NP	NN	O	10	NMOD	-1
+10	inhibitor	inhibitor	I-NP	NN	O	14	NMOD	0
+11	or	or	O	CC	O	14	NMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	receptor	receptor	I-NP	NN	O	14	NMOD	-1
+14	antagonist	antagonist	I-NP	NN	O	7	PMOD	-1
+15	also	also	B-ADVP	RB	O	16	VMOD	-1
+16	leads	lead	B-VP	VBZ	O	0	ROOT	0
+17	to	to	B-PP	TO	O	16	VMOD	-1
+18	increased	increase	B-NP	VBN	O	19	NMOD	17	increased
+19	expression	expression	I-NP	NN	O	17	PMOD	9	expression
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	proto-oncogene	proto-oncogene	I-NP	NN	B-DNA	23	NMOD	-1
+23	c-src	c-src	I-NP	NN	O	20	PMOD	-1
+24	:	:	O	:	O	27	P	-1
+25	pp60c-src	pp60c-src	B-NP	NN	B-RNA	26	NMOD	-1
+26	mRNA	mRNA	I-NP	NN	I-RNA	27	SUB	0
+27	increased	increase	B-VP	VBD	O	16	VMOD	17	increased
+28	7-11-fold	7-11-fold	B-ADVP	RB	O	27	VMOD	-1
+29	,	,	O	,	O	27	VMOD	-1
+30	c-src	c-src	B-NP	NN	B-protein	31	NMOD	-1
+31	protein	protein	I-NP	NN	I-protein	29	NMOD	-1
+32	3-fold	3-fold	B-ADVP	RB	O	31	VMOD	-1
+33	,	,	O	,	O	38	P	-1
+34	and	and	O	CC	O	37	NMOD	-1
+35	c-src	c-src	B-NP	NN	B-protein	37	NMOD	-1
+36	kinase	kinase	I-NP	NN	I-protein	37	NMOD	-1
+37	activity	activity	I-NP	NN	O	38	NMOD	0
+38	2-3-fold	2-3-fold	B-ADVP	RB	O	32	AMOD	-1
+39	.	.	O	.	O	16	P	-1
+
+1	Endothelial	Endothelial	B-NP	JJ	O	3	NMOD	-1
+2	cell	cell	I-NP	NN	O	3	NMOD	-1
+3	expression	expression	I-NP	NN	O	6	SUB	9	expression
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	c-src	c-src	B-NP	NN	B-DNA	4	PMOD	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	constitutively	constitutively	B-ADJP	RB	O	6	VMOD	-1
+8	elevated	elevated	I-ADJP	JJ	O	6	PRD	17	elevated
+9	after	after	B-PP	IN	O	8	AMOD	-1
+10	stable	stable	B-NP	JJ	O	11	NMOD	-1
+11	infection	infection	I-NP	NN	O	9	PMOD	0
+12	with	with	B-PP	IN	O	11	NMOD	-1
+13	a	a	B-NP	DT	O	15	NMOD	-1
+14	retroviral	retroviral	I-NP	JJ	B-DNA	15	NMOD	-1
+15	vector	vector	I-NP	NN	I-DNA	12	PMOD	-1
+16	containing	contain	B-VP	VBG	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	20	NMOD	-1
+18	c-src	c-src	I-NP	NN	B-DNA	20	NMOD	-1
+19	coding	coding	I-NP	NN	I-DNA	20	NMOD	-1
+20	sequence	sequence	I-NP	NN	I-DNA	16	OBJ	-1
+21	.	.	O	.	O	6	P	-1
+
+1	Constitutively	Constitutively	B-NP	RB	O	2	AMOD	-1
+2	increased	increase	I-NP	VBN	O	5	NMOD	17	increased
+3	c-src	c-src	I-NP	NN	B-protein	5	NMOD	-1
+4	kinase	kinase	I-NP	NN	I-protein	5	NMOD	-1
+5	activity	activity	I-NP	NN	O	6	SUB	0
+6	reconstituted	reconstitute	B-VP	VBD	O	0	ROOT	0
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	increases	increase	I-NP	NNS	O	6	OBJ	17	increases
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	migration	migration	B-NP	NN	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	-1
+12	u-PA	u-PA	I-NP	NN	O	9	PMOD	-1
+13	observed	observe	B-VP	VBN	O	12	NMOD	0
+14	with	with	B-PP	IN	O	13	VMOD	-1
+15	angiotensin	angiotensin	B-NP	NN	O	17	NMOD	-1
+16	system	system	I-NP	NN	O	17	NMOD	0
+17	interruption	interruption	I-NP	NN	O	14	PMOD	18	interruption
+18	.	.	O	.	O	6	P	-1
+
+1	Antisera	Antiserum	B-NP	NNS	O	5	SUB	-1
+2	to	to	B-PP	TO	O	1	NMOD	-1
+3	bovine	bovine	B-NP	JJ	O	4	NMOD	-1
+4	u-PA	u-PA	I-NP	NN	O	2	PMOD	-1
+5	blocked	block	B-VP	VBD	O	0	ROOT	0
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	increase	increase	I-NP	NN	O	5	OBJ	0
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	migration	migration	B-NP	NN	O	8	PMOD	0
+10	associated	associate	B-VP	VBN	O	9	NMOD	0
+11	with	with	B-PP	IN	O	10	VMOD	-1
+12	increased	increase	B-NP	VBN	O	14	NMOD	17	increased
+13	c-src	c-src	I-NP	NN	B-DNA	14	NMOD	-1
+14	expression	expression	I-NP	NN	O	11	PMOD	9	expression
+15	.	.	O	.	O	5	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	increases	increase	B-NP	NNS	O	17	SUB	17	increases
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	endothelial	endothelial	B-NP	JJ	O	9	NMOD	-1
+8	cell	cell	I-NP	NN	O	9	NMOD	-1
+9	migration	migration	I-NP	NN	O	6	PMOD	14	migration
+10	and	and	I-NP	CC	O	12	NMOD	-1
+11	plasminogen	plasminogen	I-NP	NN	B-protein	12	NMOD	-1
+12	activator	activator	I-NP	NN	I-protein	9	NMOD	0
+13	after	after	B-PP	IN	O	9	NMOD	-1
+14	angiotensin	angiotensin	B-NP	NN	O	16	NMOD	-1
+15	system	system	I-NP	NN	O	16	NMOD	0
+16	inhibition	inhibition	I-NP	NN	O	13	PMOD	18	inhibition
+17	are	be	B-VP	VBP	O	4	SBAR	-1
+18	at	at	B-NP	IN	O	21	NMOD	-1
+19	least	least	I-NP	JJS	O	18	AMOD	-1
+20	partially	partially	I-NP	RB	O	18	AMOD	-1
+21	pp60c-src	pp60c-src	I-NP	NN	B-protein	17	PRD	-1
+22	mediated	mediate	B-VP	VBN	O	21	NMOD	16	mediated
+23	.	.	O	.	O	3	P	-1
+
+1	Elevated	Elevated	B-NP	JJ	O	3	NMOD	17	Elevated
+2	c-src	c-src	I-NP	NN	O	3	NMOD	-1
+3	expression	expression	I-NP	NN	O	8	SUB	9	expression
+4	with	with	B-PP	IN	O	3	NMOD	-1
+5	angiotensin	angiotensin	B-NP	NN	O	7	NMOD	-1
+6	system	system	I-NP	NN	O	7	NMOD	0
+7	inhibition	inhibition	I-NP	NN	O	4	PMOD	18	inhibition
+8	may	may	B-VP	MD	O	0	ROOT	-1
+9	act	act	I-VP	VB	O	8	VC	0
+10	to	to	I-VP	TO	O	11	VMOD	-1
+11	enhance	enhance	I-VP	VB	O	9	VMOD	0
+12	intimal	intimal	B-NP	JJ	O	14	NMOD	-1
+13	wound	wound	I-NP	NN	O	14	NMOD	-1
+14	closure	closure	I-NP	NN	O	11	OBJ	0
+15	and	and	O	CC	O	11	VMOD	-1
+16	to	to	B-VP	TO	O	17	VMOD	-1
+17	reduce	reduce	I-VP	VB	O	11	VMOD	0
+18	luminal	luminal	B-NP	JJ	O	19	NMOD	-1
+19	thrombogenicity	thrombogenicity	I-NP	NN	O	17	OBJ	-1
+20	in	in	B-ADVP	FW	O	11	VMOD	-1
+21	vivo	vivo	I-ADVP	FW	O	20	AMOD	-1

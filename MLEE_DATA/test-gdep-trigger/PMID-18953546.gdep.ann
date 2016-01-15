@@ -1,0 +1,98 @@
+1	[	[	O	(	O	2	NMOD	0
+2	Retinochoroidopathy	Retinochoroidopathy	B-NP	NN	O	0	ROOT	0
+3	after	after	B-PP	IN	O	2	NMOD	0
+4	intravitreal	intravitreal	B-NP	JJ	O	6	NMOD	0
+5	anti-VEGF	anti-VEGF	I-NP	JJ	O	6	NMOD	0
+6	treatment	treatment	I-NP	NN	O	3	PMOD	0
+7	]	]	O	)	O	2	NMOD	0
+
+1	A	A	B-NP	DT	O	3	NMOD	0
+2	74-year-old	74-year-old	I-NP	JJ	O	3	NMOD	0
+3	man	man	I-NP	NN	O	0	ROOT	0
+4	presented	present	B-VP	VBN	O	3	NMOD	0
+5	with	with	B-PP	IN	O	4	VMOD	0
+6	persistent	persistent	B-NP	JJ	O	7	NMOD	0
+7	metamorphopsias	metamorphopsia	I-NP	NNS	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	13	NMOD	0
+10	right	right	I-NP	JJ	B-protein	13	NMOD	0
+11	eye	eye	I-NP	NN	I-protein	13	NMOD	0
+12	2	2	B-NP	CD	I-protein	13	NMOD	0
+13	weeks	week	I-NP	NNS	I-protein	8	PMOD	0
+14	after	after	B-PP	IN	O	4	VMOD	0
+15	intravitreal	intravitreal	B-NP	JJ	O	16	NMOD	0
+16	injection	injection	I-NP	NN	O	14	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	bevacizumab	bevacizumab	B-NP	NN	O	17	PMOD	0
+19	to	to	B-VP	TO	O	20	VMOD	0
+20	treat	treat	I-VP	VB	O	16	NMOD	19	treat
+21	choroidal	choroidal	B-NP	JJ	O	22	NMOD	0
+22	neovascularization	neovascularization	I-NP	NN	O	20	OBJ	3	neovascularization
+23	due	due	B-PP	JJ	O	24	PMOD	0
+24	to	to	B-PP	TO	O	20	VMOD	0
+25	exudative	exudative	B-NP	JJ	O	28	NMOD	0
+26	age-related	age-related	I-NP	JJ	O	28	NMOD	0
+27	macular	macular	I-NP	JJ	O	28	NMOD	0
+28	degeneration	degeneration	I-NP	NN	O	24	PMOD	6	degeneration
+29	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	diagnosis	diagnosis	I-NP	NN	O	4	SUB	0
+3	reached	reach	B-VP	VBN	O	2	NMOD	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	retinochoroiditis	retinochoroiditis	B-NP	NN	O	4	PRD	0
+6	as	as	B-PP	IN	O	5	NMOD	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	occult	occult	I-NP	JJ	O	9	NMOD	0
+9	manifestation	manifestation	I-NP	NN	O	6	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	sarcoidosis	sarcoidosis	B-NP	NN	O	10	PMOD	0
+12	,	,	O	,	O	4	P	0
+13	possibly	possibly	B-ADVP	RB	O	14	VMOD	0
+14	resulting	result	B-VP	VBG	O	4	VMOD	0
+15	from	from	B-PP	IN	O	14	VMOD	0
+16	an	an	B-NP	DT	O	18	NMOD	0
+17	intravitreal	intravitreal	I-NP	JJ	O	18	NMOD	0
+18	injection	injection	I-NP	NN	O	15	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	bevacizumab	bevacizumab	B-NP	NN	B-protein	19	PMOD	0
+21	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	patient	patient	I-NP	NN	O	3	SUB	0
+3	received	receive	B-VP	VBD	O	0	ROOT	19	received
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	prescription	prescription	I-NP	NN	O	3	OBJ	0
+6	for	for	B-PP	IN	O	3	VMOD	0
+7	100	100	B-NP	CD	O	9	NMOD	0
+8	mg	mg	I-NP	NN	O	9	NMOD	0
+9	Ultralan	Ultralan	I-NP	NNP	O	6	PMOD	0
+10	to	to	B-VP	TO	O	11	VMOD	0
+11	be	be	I-VP	VB	O	9	NMOD	0
+12	taken	take	I-VP	VBN	O	11	VC	0
+13	daily	daily	B-ADVP	RB	O	12	VMOD	0
+14	for	for	B-PP	IN	O	12	VMOD	0
+15	3	3	B-NP	CD	O	16	NMOD	0
+16	days	day	I-NP	NNS	O	14	PMOD	0
+17	and	and	O	CC	O	3	VMOD	0
+18	then	then	B-VP	RB	O	3	VMOD	0
+19	tapered	taper	I-VP	VBN	O	3	VC	0
+20	in	in	B-PP	IN	O	19	VMOD	0
+21	3	3	B-NP	CD	O	23	NMOD	0
+22	day	day	I-NP	NN	O	23	NMOD	0
+23	steps	step	I-NP	NNS	O	20	PMOD	0
+24	.	.	O	.	O	3	P	0
+
+1	During	During	B-PP	IN	O	10	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	further	further	I-NP	JJ	O	4	NMOD	0
+4	course	course	I-NP	NN	O	1	PMOD	0
+5	no	no	B-NP	DT	O	6	NMOD	0
+6	deterioration	deterioration	I-NP	NN	O	10	SUB	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	condition	condition	I-NP	NN	O	7	PMOD	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	observed	observe	I-VP	VBN	O	10	VC	0
+12	.	.	O	.	O	10	P	0
+

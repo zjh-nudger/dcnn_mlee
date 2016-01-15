@@ -1,0 +1,244 @@
+1	Inhibition	Inhibition	B-NP	NN	O	15	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	PDGF-stimulated	PDGF-stimulated	B-NP	JJ	O	5	AMOD	17	stimulated
+4	and	and	I-NP	CC	O	5	AMOD	-1
+5	matrix-mediated	matrix-mediated	I-NP	JJ	O	6	NMOD	17	mediated
+6	proliferation	proliferation	I-NP	NN	O	2	PMOD	1	proliferation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	human	human	B-NP	JJ	B-cell_type	12	NMOD	-1
+9	vascular	vascular	I-NP	JJ	I-cell_type	12	NMOD	-1
+10	smooth	smooth	I-NP	JJ	I-cell_type	12	NMOD	-1
+11	muscle	muscle	I-NP	NN	I-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+13	by	by	B-PP	IN	O	1	NMOD	-1
+14	SPARC	SPARC	B-NP	NN	B-protein	13	PMOD	-1
+15	is	be	B-VP	VBZ	O	0	ROOT	-1
+16	independent	independent	B-ADJP	JJ	O	15	PRD	16	independent
+17	of	of	B-PP	IN	O	16	AMOD	-1
+18	changes	change	B-NP	NNS	O	17	PMOD	2	changes
+19	in	in	B-PP	IN	O	18	NMOD	-1
+20	cell	cell	B-NP	NN	O	21	NMOD	-1
+21	shape	shape	I-NP	NN	O	25	NMOD	-1
+22	or	or	O	CC	O	25	NMOD	-1
+23	cyclin-dependent	cyclin-dependent	B-NP	JJ	B-protein	25	NMOD	-1
+24	kinase	kinase	I-NP	NN	I-protein	25	NMOD	-1
+25	inhibitors	inhibitor	I-NP	NNS	O	19	PMOD	-1
+26	.	.	O	.	O	15	P	-1
+
+1	Interactions	Interaction	B-NP	NNS	O	11	SUB	15	Interactions
+2	among	among	B-PP	IN	O	1	NMOD	-1
+3	growth	growth	B-NP	NN	B-protein	4	NMOD	0
+4	factors	factor	I-NP	NNS	I-protein	10	NMOD	-1
+5	,	,	O	,	O	10	P	-1
+6	cells	cell	B-NP	NNS	O	10	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	and	and	O	CC	O	10	NMOD	-1
+9	extracellular	extracellular	B-NP	JJ	O	10	NMOD	-1
+10	matrix	matrix	I-NP	NN	O	2	PMOD	-1
+11	regulate	regulate	B-VP	VBP	O	0	ROOT	16	regulate
+12	proliferation	proliferation	B-NP	NN	O	11	OBJ	1	proliferation
+13	during	during	B-PP	IN	O	11	VMOD	-1
+14	normal	normal	B-NP	JJ	O	15	NMOD	-1
+15	development	development	I-NP	NN	O	13	PMOD	0
+16	and	and	B-PP	CC	O	13	PMOD	-1
+17	in	in	B-PP	IN	O	13	PMOD	-1
+18	pathologies	pathology	B-NP	NNS	O	17	PMOD	-1
+19	such	such	B-PP	JJ	O	20	PMOD	-1
+20	as	as	I-PP	IN	O	18	NMOD	-1
+21	atherosclerosis	atherosclerosis	B-NP	NN	O	20	PMOD	-1
+22	.	.	O	.	O	11	P	-1
+
+1	SPARC	SPARC	B-NP	NN	B-protein	13	SUB	-1
+2	(	(	O	(	O	12	DEP	-1
+3	secreted	secrete	B-VP	VBN	O	12	DEP	0
+4	protein	protein	B-NP	NN	O	3	OBJ	-1
+5	,	,	O	,	O	4	P	-1
+6	acidic	acidic	B-ADJP	JJ	O	4	DEP	-1
+7	,	,	O	,	O	4	P	-1
+8	and	and	O	CC	O	9	AMOD	-1
+9	rich	rich	B-ADJP	JJ	O	4	NMOD	-1
+10	in	in	B-PP	IN	O	9	AMOD	-1
+11	cysteine	cysteine	B-NP	NN	O	10	PMOD	-1
+12	)	)	O	)	O	1	NMOD	-1
+13	is	be	B-VP	VBZ	O	0	ROOT	-1
+14	a	a	B-NP	DT	O	16	NMOD	-1
+15	matrix-associated	matrix-associated	I-NP	JJ	B-protein	16	NMOD	15	associated
+16	glycoprotein	glycoprotein	I-NP	NN	I-protein	13	PRD	-1
+17	that	that	B-NP	WDT	O	16	NMOD	-1
+18	modulates	modulate	B-VP	VBZ	O	17	SBAR	16	modulates
+19	the	the	B-NP	DT	O	22	NMOD	-1
+20	adhesion	adhesion	I-NP	NN	O	22	NMOD	15	adhesion
+21	and	and	I-NP	CC	O	22	NMOD	-1
+22	proliferation	proliferation	I-NP	NN	O	18	OBJ	1	proliferation
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	vascular	vascular	B-NP	JJ	B-cell_type	25	NMOD	-1
+25	cells	cell	I-NP	NNS	I-cell_type	23	PMOD	-1
+26	.	.	O	.	O	13	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	SPARC	SPARC	B-NP	NN	B-protein	9	SUB	-1
+9	inhibits	inhibit	B-VP	VBZ	O	7	SBAR	18	inhibits
+10	human	human	B-NP	JJ	B-cell_type	15	NMOD	-1
+11	arterial	arterial	I-NP	JJ	I-cell_type	15	NMOD	-1
+12	smooth	smooth	I-NP	JJ	I-cell_type	15	NMOD	-1
+13	muscle	muscle	I-NP	NN	I-cell_type	15	NMOD	-1
+14	cell	cell	I-NP	NN	I-cell_type	15	NMOD	-1
+15	proliferation	proliferation	I-NP	NN	O	9	OBJ	1	proliferation
+16	stimulated	stimulate	B-VP	VBN	O	15	NMOD	17	stimulated
+17	by	by	B-PP	IN	O	16	VMOD	-1
+18	platelet-derived	platelet-derived	B-NP	JJ	B-protein	20	NMOD	-1
+19	growth	growth	I-NP	NN	I-protein	20	NMOD	0
+20	factor	factor	I-NP	NN	I-protein	17	PMOD	-1
+21	or	or	B-PP	CC	O	17	PMOD	-1
+22	by	by	B-PP	IN	O	17	PMOD	-1
+23	adhesion	adhesion	B-NP	NN	O	22	PMOD	15	adhesion
+24	to	to	B-PP	TO	O	23	NMOD	-1
+25	monomeric	monomeric	B-NP	JJ	B-protein	28	NMOD	-1
+26	type	type	I-NP	NN	I-protein	28	NMOD	-1
+27	I	I	I-NP	CD	I-protein	28	NMOD	-1
+28	collagen	collagen	I-NP	NN	I-protein	24	PMOD	-1
+29	.	.	O	.	O	6	P	-1
+
+1	Binding	Binding	B-NP	NN	O	2	NMOD	15	Binding
+2	studies	study	I-NP	NNS	O	8	SUB	-1
+3	with	with	B-PP	IN	O	2	NMOD	-1
+4	SPARC	SPARC	B-NP	NN	B-protein	7	NMOD	-1
+5	and	and	I-NP	CC	O	7	NMOD	-1
+6	SPARC	SPARC	I-NP	NN	O	7	NMOD	-1
+7	peptides	peptide	I-NP	NNS	O	3	PMOD	-1
+8	indicate	indicate	B-VP	VBP	O	0	ROOT	-1
+9	specific	specific	B-NP	JJ	O	11	AMOD	-1
+10	and	and	I-NP	CC	O	11	AMOD	-1
+11	saturable	saturable	I-NP	JJ	O	12	NMOD	-1
+12	interaction	interaction	I-NP	NN	O	8	OBJ	15	interaction
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	smooth	smooth	B-NP	JJ	B-cell_type	16	NMOD	-1
+15	muscle	muscle	I-NP	NN	I-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	-1
+17	that	that	B-NP	WDT	O	12	NMOD	-1
+18	involves	involve	B-VP	VBZ	O	17	SBAR	0
+19	the	the	B-NP	DT	O	22	NMOD	-1
+20	C-terminal	C-terminal	I-NP	JJ	B-protein	22	NMOD	-1
+21	Ca2+-binding	Ca2+-binding	I-NP	JJ	I-protein	22	NMOD	-1
+22	region	region	I-NP	NN	I-protein	18	OBJ	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	the	the	B-NP	DT	O	25	NMOD	-1
+25	protein	protein	I-NP	NN	O	23	PMOD	-1
+26	.	.	O	.	O	8	P	-1
+
+1	We	We	B-NP	PRP	O	3	SUB	-1
+2	also	also	B-ADVP	RB	O	3	VMOD	-1
+3	report	report	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	SPARC	SPARC	B-NP	NN	B-protein	6	SUB	-1
+6	arrests	arrest	B-VP	VBZ	O	4	SBAR	18	arrests
+7	monomeric	monomeric	B-NP	JJ	B-cell_type	12	NMOD	-1
+8	collagen-supported	collagen-supported	I-NP	JJ	I-cell_type	12	NMOD	17	supported
+9	smooth	smooth	I-NP	JJ	I-cell_type	12	NMOD	-1
+10	muscle	muscle	I-NP	NN	I-cell_type	12	NMOD	-1
+11	cell	cell	I-NP	NN	I-cell_type	12	NMOD	-1
+12	proliferation	proliferation	I-NP	NN	O	6	OBJ	1	proliferation
+13	in	in	B-PP	IN	O	6	VMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	late	late	I-NP	JJ	O	16	NMOD	-1
+16	G1-phase	G1-phase	I-NP	NN	O	13	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	cell	cell	I-NP	NN	O	20	NMOD	-1
+20	cycle	cycle	I-NP	NN	O	17	PMOD	0
+21	in	in	B-PP	IN	O	16	NMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	absence	absence	I-NP	NN	O	21	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	an	an	B-NP	DT	O	26	NMOD	-1
+26	effect	effect	I-NP	NN	O	24	PMOD	16	effect
+27	on	on	B-PP	IN	O	26	NMOD	-1
+28	cell	cell	B-NP	NN	O	29	NMOD	-1
+29	shape	shape	I-NP	NN	O	27	PMOD	-1
+30	or	or	B-PP	CC	O	27	PMOD	-1
+31	on	on	B-PP	IN	O	27	PMOD	-1
+32	levels	level	B-NP	NNS	O	31	PMOD	-1
+33	of	of	B-PP	IN	O	32	NMOD	-1
+34	cyclin-dependent	cyclin-dependent	B-NP	JJ	B-protein	36	NMOD	-1
+35	kinase	kinase	I-NP	NN	I-protein	36	NMOD	-1
+36	inhibitors	inhibitor	I-NP	NNS	O	33	PMOD	-1
+37	.	.	O	.	O	3	P	-1
+
+1	Cyclin-dependent	Cyclin-dependent	B-NP	JJ	B-protein	3	NMOD	-1
+2	kinase-2	kinase-2	I-NP	NN	I-protein	3	NMOD	-1
+3	activity	activity	I-NP	NN	O	14	NMOD	0
+4	,	,	O	,	O	14	P	-1
+5	p107	p107	B-NP	NN	B-protein	8	NMOD	-1
+6	and	and	O	CC	O	8	NMOD	-1
+7	cyclin	cyclin	B-NP	NN	B-protein	8	NMOD	-1
+8	A	A	I-NP	NN	I-protein	9	NMOD	-1
+9	levels	level	I-NP	NNS	O	14	NMOD	-1
+10	,	,	O	,	O	14	P	-1
+11	and	and	O	CC	O	14	NMOD	-1
+12	retinoblastoma	retinoblastoma	B-NP	NN	B-protein	13	NMOD	-1
+13	protein	protein	I-NP	NN	I-protein	14	NMOD	-1
+14	phosphorylation	phosphorylation	I-NP	NN	O	15	SUB	12	phosphorylation
+15	are	be	B-VP	VBP	O	0	ROOT	-1
+16	markedly	markedly	I-VP	RB	O	15	VMOD	-1
+17	reduced	reduce	I-VP	VBN	O	15	VC	18	reduced
+18	in	in	B-PP	IN	O	17	VMOD	-1
+19	response	response	B-NP	NN	O	18	PMOD	17	response
+20	to	to	B-PP	TO	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	addition	addition	I-NP	NN	O	20	PMOD	19	addition
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	exogenous	exogenous	B-NP	JJ	O	25	NMOD	-1
+25	SPARC	SPARC	I-NP	NN	O	27	NMOD	-1
+26	and/or	and/or	O	CC	O	27	NMOD	-1
+27	peptides	peptide	B-NP	NNS	O	23	PMOD	-1
+28	derived	derive	B-VP	VBN	O	27	NMOD	0
+29	from	from	B-PP	IN	O	28	VMOD	-1
+30	specific	specific	B-NP	JJ	O	31	NMOD	-1
+31	domains	domain	I-NP	NNS	O	29	PMOD	-1
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	SPARC	SPARC	B-NP	NN	B-protein	32	PMOD	-1
+34	.	.	O	.	O	15	P	-1
+
+1	Thus	Thus	B-ADVP	RB	O	6	VMOD	-1
+2	,	,	O	,	O	6	P	-1
+3	SPARC	SPARC	B-NP	NN	B-protein	6	SUB	-1
+4	,	,	O	,	O	3	P	-1
+5	previously	previously	B-VP	RB	O	6	VMOD	-1
+6	characterized	characterize	I-VP	VBN	O	20	VMOD	-1
+7	as	as	B-PP	IN	O	6	VMOD	-1
+8	an	an	B-NP	DT	O	9	NMOD	-1
+9	inhibitor	inhibitor	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	platelet-derived	platelet-derived	B-NP	JJ	B-protein	13	NMOD	-1
+12	growth	growth	I-NP	NN	I-protein	13	NMOD	0
+13	factor	factor	I-NP	NN	I-protein	10	PMOD	-1
+14	binding	bind	B-VP	VBG	O	13	NMOD	15	binding
+15	to	to	B-PP	TO	O	14	VMOD	-1
+16	its	its	B-NP	PRP$	O	17	NMOD	-1
+17	receptor	receptor	I-NP	NN	O	15	PMOD	-1
+18	,	,	O	,	O	6	P	-1
+19	also	also	B-ADVP	RB	O	20	VMOD	-1
+20	antagonizes	antagonize	B-VP	VBZ	O	0	ROOT	18	antagonizes
+21	smooth	smooth	B-NP	JJ	B-cell_type	24	NMOD	-1
+22	muscle	muscle	I-NP	NN	I-cell_type	24	NMOD	-1
+23	cell	cell	I-NP	NN	I-cell_type	24	NMOD	-1
+24	proliferation	proliferation	I-NP	NN	O	20	OBJ	1	proliferation
+25	mediated	mediate	B-VP	VBN	O	24	NMOD	16	mediated
+26	by	by	B-PP	IN	O	25	VMOD	-1
+27	monomeric	monomeric	B-NP	JJ	B-protein	28	NMOD	-1
+28	collagen	collagen	I-NP	NN	I-protein	26	PMOD	-1
+29	at	at	B-PP	IN	O	25	VMOD	-1
+30	the	the	B-NP	DT	O	31	NMOD	-1
+31	level	level	I-NP	NN	O	29	PMOD	-1
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	cyclin-dependent	cyclin-dependent	B-NP	JJ	B-protein	35	NMOD	-1
+34	kinase-2	kinase-2	I-NP	NN	I-protein	35	NMOD	-1
+35	activity	activity	I-NP	NN	O	32	PMOD	0
+36	.	.	O	.	O	20	P	-1
+

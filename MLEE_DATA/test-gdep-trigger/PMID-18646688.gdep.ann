@@ -1,0 +1,364 @@
+1	[	[	O	(	O	15	DEP	0
+2	Inhibitory	Inhibitory	B-NP	JJ	O	3	NMOD	0
+3	effect	effect	I-NP	NN	O	15	DEP	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	adenovirus-mediated	adenovirus-mediated	B-NP	JJ	O	8	NMOD	17	mediated
+6	endostatin	endostatin	I-NP	NN	O	8	NMOD	0
+7	gene	gene	I-NP	NN	O	8	NMOD	0
+8	transfer	transfer	I-NP	NN	O	4	PMOD	0
+9	on	on	B-PP	IN	O	3	NMOD	0
+10	transplanted	transplant	B-NP	VBN	O	12	NMOD	19	transplanted
+11	lung	lung	I-NP	NN	O	12	NMOD	0
+12	carcinoma	carcinoma	I-NP	NN	O	9	PMOD	0
+13	in	in	B-PP	IN	O	12	NMOD	0
+14	mice	mouse	B-NP	NNS	O	13	PMOD	0
+15	]	]	O	)	O	0	ROOT	0
+
+1	OBJECTIVE	OBJECTIVE	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	To	To	B-VP	TO	O	4	VMOD	0
+4	investigate	investigate	I-VP	VB	O	1	NMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	effect	effect	I-NP	NN	O	4	OBJ	16	effect
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	adenovirus-mediated	adenovirus-mediated	B-NP	JJ	O	11	NMOD	17	mediated
+9	endostatin	endostatin	I-NP	NN	O	11	NMOD	0
+10	gene	gene	I-NP	NN	O	11	NMOD	0
+11	transfer	transfer	I-NP	NN	O	7	PMOD	0
+12	on	on	B-PP	IN	O	6	NMOD	0
+13	transplanted	transplant	B-NP	VBN	O	15	NMOD	19	transplanted
+14	lung	lung	I-NP	NN	O	15	NMOD	0
+15	cancer	cancer	I-NP	NN	O	12	PMOD	0
+16	in	in	B-PP	IN	O	6	NMOD	0
+17	mice	mouse	B-NP	NNS	O	16	PMOD	0
+18	and	and	O	CC	O	4	VMOD	0
+19	its	its	B-NP	PRP$	O	20	NMOD	0
+20	mechanism	mechanism	I-NP	NN	O	18	OBJ	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	action	action	B-NP	NN	O	21	PMOD	0
+23	.	.	O	.	O	1	P	0
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Transplant	Transplant	B-NP	NN	O	5	NMOD	19	Transplant
+4	tumor	tumor	I-NP	NN	O	5	NMOD	0
+5	model	model	I-NP	NN	O	6	SUB	0
+6	was	be	B-VP	VBD	O	1	NMOD	0
+7	induced	induce	I-VP	VBN	O	6	VC	0
+8	by	by	B-PP	IN	O	7	VMOD	0
+9	subcutaneous	subcutaneous	B-NP	JJ	O	10	NMOD	0
+10	inoculation	inoculation	I-NP	NN	O	8	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	2	2	B-NP	CD	O	14	NMOD	0
+13	x	x	I-NP	SYM	O	14	AMOD	0
+14	10	10	I-NP	CD	O	24	NMOD	0
+15	(	(	O	(	O	17	DEP	0
+16	6	6	B-NP	CD	O	17	DEP	0
+17	)	)	O	)	O	24	NMOD	0
+18	Lewis	Lewis	B-NP	NNP	O	24	NMOD	0
+19	lung	lung	I-NP	NN	B-cell_type	24	NMOD	0
+20	cancer	cancer	I-NP	NN	I-cell_type	24	NMOD	0
+21	(	(	O	(	I-cell_type	24	NMOD	0
+22	LLC	LLC	B-NP	NN	I-cell_type	24	NMOD	0
+23	)	)	O	)	I-cell_type	24	NMOD	0
+24	cells	cell	B-NP	NNS	I-cell_type	11	PMOD	0
+25	into	into	B-PP	IN	O	7	VMOD	0
+26	the	the	B-NP	DT	O	27	NMOD	0
+27	back	back	I-NP	NN	O	25	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	C57BL/6	C57BL/6	B-NP	NN	O	30	NMOD	0
+30	mice	mouse	I-NP	NNS	O	28	PMOD	0
+31	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	mice	mouse	I-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	0	ROOT	0
+4	treated	treat	I-VP	VBN	O	3	VC	0
+5	by	by	B-PP	IN	O	4	VMOD	0
+6	intratumoral	intratumoral	B-NP	JJ	O	7	NMOD	0
+7	injection	injection	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	2	2	B-NP	CD	O	11	AMOD	0
+10	x	x	I-NP	SYM	O	11	AMOD	0
+11	10	10	I-NP	CD	O	16	NMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	9	9	B-NP	CD	O	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	pfu	pfu	B-NP	NN	O	16	NMOD	0
+16	Ad-mEndostatin	Ad-mEndostatin	I-NP	NN	O	8	PMOD	0
+17	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	expression	expression	I-NP	NN	O	10	NMOD	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	endostatin	endostatin	B-NP	NN	B-protein	3	PMOD	0
+5	in	in	B-ADVP	FW	O	2	NMOD	0
+6	situ	situ	I-ADVP	FW	O	5	AMOD	0
+7	and	and	O	CC	O	10	NMOD	0
+8	its	its	B-NP	PRP$	O	10	NMOD	0
+9	maintaining	maintain	I-NP	VBG	O	10	NMOD	0
+10	time	time	I-NP	NN	O	11	SUB	0
+11	were	be	B-VP	VBD	O	0	ROOT	0
+12	detected	detect	I-VP	VBN	O	11	VC	0
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	immunohistochemistry	immunohistochemistry	B-NP	NN	O	17	NMOD	0
+15	and	and	O	CC	O	17	NMOD	0
+16	Western	Western	B-NP	JJ	O	17	NMOD	0
+17	Blot	Blot	I-NP	NN	O	13	PMOD	0
+18	,	,	O	,	O	12	P	0
+19	respectively	respectively	B-ADVP	RB	O	12	VMOD	0
+20	.	.	O	.	O	11	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	endostatin	endostatin	I-NP	NN	O	3	NMOD	0
+3	level	level	I-NP	NN	O	6	SUB	0
+4	in	in	B-PP	IN	O	3	NMOD	0
+5	serum	serum	B-NP	NN	O	4	PMOD	0
+6	was	be	B-VP	VBD	O	20	VMOD	0
+7	determined	determine	I-VP	VBN	O	6	VC	0
+8	by	by	B-PP	IN	O	7	VMOD	0
+9	ELISA	ELISA	B-NP	NN	O	8	PMOD	0
+10	.	.	O	.	O	6	P	0
+11	The	The	B-NP	DT	O	12	NMOD	0
+12	inhibition	inhibition	I-NP	NN	O	17	NMOD	18	inhibition
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	tumor	tumor	B-NP	NN	O	15	NMOD	0
+15	growth	growth	I-NP	NN	O	13	PMOD	4	growth
+16	and	and	O	CC	O	17	NMOD	0
+17	changes	change	B-NP	NNS	O	20	SUB	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	survival	survival	B-NP	NN	O	18	PMOD	0
+20	were	be	B-VP	VBD	O	29	VMOD	0
+21	recorded	record	I-VP	VBN	O	20	VC	0
+22	and	and	O	CC	O	29	VMOD	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	microvessel	microvessel	I-NP	NN	O	25	NMOD	0
+25	density	density	I-NP	NN	O	29	SUB	0
+26	(	(	O	(	O	28	DEP	0
+27	MVD	MVD	B-NP	NN	O	28	DEP	0
+28	)	)	O	)	O	25	NMOD	0
+29	was	be	B-VP	VBD	O	0	ROOT	0
+30	determined	determine	I-VP	VBN	O	29	VC	0
+31	by	by	B-PP	IN	O	30	VMOD	0
+32	histochemical	histochemical	B-NP	JJ	O	31	PMOD	0
+33	stainingwith	stainingwith	I-NP	NN	O	34	NMOD	0
+34	CD31	CD31	I-NP	NN	B-protein	32	NMOD	0
+35	and	and	I-NP	CC	O	32	NMOD	0
+36	CD105	CD105	I-NP	NN	B-protein	37	NMOD	0
+37	antibodies	antibody	I-NP	NNS	I-protein	32	NMOD	0
+38	.	.	O	.	O	29	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	tumor	tumor	I-NP	NN	O	3	NMOD	0
+3	apoptosis	apoptosis	I-NP	NN	O	4	SUB	5	apoptosis
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	observed	observe	I-VP	VBN	O	4	VC	0
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	electron	electron	B-NP	NN	O	8	NMOD	0
+8	microscopy	microscopy	I-NP	NN	O	6	PMOD	0
+9	.	.	O	.	O	4	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	In	In	B-PP	IN	O	13	VMOD	0
+4	comparison	comparison	B-NP	NN	O	3	PMOD	0
+5	with	with	B-PP	IN	O	4	NMOD	0
+6	controls	control	B-NP	NNS	O	5	PMOD	0
+7	,	,	O	,	O	13	P	0
+8	intratumoral	intratumoral	B-NP	JJ	O	9	NMOD	0
+9	injection	injection	I-NP	NN	O	13	SUB	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	Ad-mEndostatin	Ad-mEndostatin	B-NP	NN	O	10	PMOD	0
+12	significantly	significantly	B-ADVP	RB	O	13	VMOD	0
+13	inhibited	inhibit	B-VP	VBD	O	1	NMOD	18	inhibited
+14	the	the	B-NP	DT	O	18	NMOD	0
+15	tumor	tumor	I-NP	NN	O	16	NMOD	0
+16	growth	growth	I-NP	NN	O	18	NMOD	4	growth
+17	and	and	I-NP	CC	O	18	NMOD	0
+18	metastasis	metastasis	I-NP	NN	O	13	OBJ	14	metastasis
+19	,	,	O	,	O	13	P	0
+20	and	and	O	CC	O	13	VMOD	0
+21	prolonged	prolong	B-VP	VBD	O	13	VMOD	17	prolonged
+22	the	the	B-NP	DT	O	24	NMOD	0
+23	survival	survival	I-NP	NN	O	24	NMOD	5	survival
+24	rate	rate	I-NP	NN	O	21	OBJ	0
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	mice	mouse	B-NP	NNS	O	25	PMOD	0
+27	(	(	O	(	O	32	DEP	0
+28	P	P	B-NP	NN	O	32	DEP	0
+29	less	less	B-ADJP	JJR	O	28	NMOD	0
+30	than	than	B-PP	IN	O	29	AMOD	0
+31	0.05	0.05	B-NP	CD	O	30	PMOD	0
+32	)	)	O	)	O	13	VMOD	0
+33	.	.	O	.	O	1	P	0
+
+1	Strong	Strong	B-NP	JJ	O	3	NMOD	0
+2	positive	positive	I-NP	JJ	O	3	NMOD	0
+3	expression	expression	I-NP	NN	O	6	SUB	9	expression
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	mEndostatin	mEndostatin	B-NP	NN	B-protein	4	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	seen	see	I-VP	VBN	O	6	VC	0
+8	in	in	B-PP	IN	O	7	VMOD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	tumor	tumor	I-NP	NN	O	11	NMOD	0
+11	tissue	tissue	I-NP	NN	O	8	PMOD	0
+12	after	after	B-PP	IN	O	7	VMOD	0
+13	injection	injection	B-NP	NN	O	12	PMOD	19	injection
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	Ad-mEndostatin	Ad-mEndostatin	B-NP	NN	B-protein	14	PMOD	0
+16	,	,	O	,	O	7	P	0
+17	immunhistochemically	immunhistochemically	B-VP	RB	O	18	VMOD	0
+18	ostained	ostaine	I-VP	VBN	O	7	VMOD	0
+19	by	by	B-PP	IN	O	18	VMOD	0
+20	mouse	mouse	B-NP	NN	B-protein	23	NMOD	0
+21	endostatin	endostatin	I-NP	NN	I-protein	23	NMOD	0
+22	monoclonal	monoclonal	I-NP	JJ	I-protein	23	NMOD	0
+23	antibody	antibody	I-NP	NN	I-protein	19	PMOD	0
+24	,	,	O	,	O	6	P	0
+25	while	while	B-SBAR	IN	O	6	VMOD	0
+26	the	the	B-NP	DT	O	28	NMOD	0
+27	control	control	I-NP	NN	O	28	NMOD	0
+28	groups	group	I-NP	NNS	O	29	SUB	0
+29	showed	show	B-VP	VBD	O	25	SBAR	0
+30	only	only	B-NP	RB	O	32	AMOD	0
+31	very	very	I-NP	RB	O	32	AMOD	0
+32	low	low	I-NP	JJ	O	35	NMOD	0
+33	expression	expression	I-NP	NN	O	35	NMOD	9	expression
+34	or	or	I-NP	CC	O	35	NMOD	0
+35	absence	absence	I-NP	NN	O	29	OBJ	9	absence
+36	.	.	O	.	O	6	P	0
+
+1	Serum	Serum	B-NP	NN	O	3	NMOD	0
+2	endostatin	endostatin	I-NP	NN	O	3	NMOD	0
+3	concentration	concentration	I-NP	NN	O	4	SUB	0
+4	was	be	B-VP	VBD	O	20	VMOD	0
+5	1540	1540	B-NP	CD	O	7	AMOD	0
+6	+/-	+/-	I-NP	SYM	O	7	AMOD	0
+7	560	560	I-NP	CD	O	8	NMOD	0
+8	ng/ml	ng/ml	I-NP	NN	O	17	NMOD	0
+9	at	at	B-PP	IN	O	8	NMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	second	second	I-NP	JJ	O	12	NMOD	0
+12	week	week	I-NP	NN	O	9	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	administration	administration	B-NP	NN	O	13	PMOD	19	administration
+15	,	,	O	,	O	17	P	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	expression	expression	I-NP	NN	O	20	SUB	9	expression
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	endostatin	endostatin	B-NP	NN	O	18	PMOD	0
+20	diminished	diminish	B-VP	VBD	O	0	ROOT	18	diminished
+21	a	a	B-NP	DT	O	22	NMOD	0
+22	month	month	I-NP	NN	O	20	OBJ	0
+23	later	later	B-ADVP	RB	O	20	VMOD	0
+24	.	.	O	.	O	20	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	microvessel	microvessel	I-NP	NN	O	3	NMOD	0
+3	density	density	I-NP	NN	O	8	SUB	0
+4	(	(	O	(	O	6	DEP	0
+5	MVD	MVD	B-NP	NN	O	6	DEP	0
+6	)	)	O	)	O	3	NMOD	0
+7	)	)	O	)	O	3	NMOD	0
+8	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+9	from	from	B-PP	IN	O	8	VMOD	0
+10	42.4	42.4	B-NP	CD	O	12	AMOD	0
+11	+/-	+/-	I-NP	SYM	O	12	AMOD	0
+12	4.8	4.8	I-NP	CD	O	9	PMOD	0
+13	to	to	I-NP	TO	O	8	VMOD	0
+14	10.5	10.5	I-NP	CD	O	16	AMOD	0
+15	+/-	+/-	I-NP	SYM	O	16	AMOD	0
+16	3.2	3.2	I-NP	CD	O	13	PMOD	0
+17	per	per	B-PP	IN	O	8	VMOD	0
+18	x	x	B-NP	SYM	O	20	AMOD	0
+19	200	200	B-NP	CD	O	20	AMOD	0
+20	magnificetion	magnificetion	I-NP	NN	O	22	NMOD	0
+21	microscopic	microscopic	I-NP	JJ	O	22	NMOD	0
+22	field	field	I-NP	NN	O	17	PMOD	0
+23	by	by	B-PP	IN	O	8	VMOD	0
+24	CD10	CD10	B-NP	NN	B-protein	25	NMOD	0
+25	staining	staining	I-NP	NN	O	23	PMOD	0
+26	and	and	B-PP	CC	O	23	PMOD	0
+27	from	from	B-PP	IN	O	23	PMOD	0
+28	68.5	68.5	B-NP	CD	O	30	AMOD	0
+29	+/-	+/-	I-NP	SYM	O	30	AMOD	0
+30	4.5	4.5	I-NP	CD	O	27	PMOD	0
+31	to	to	I-NP	TO	O	8	VMOD	0
+32	37.5	37.5	I-NP	CD	O	34	NMOD	0
+33	+/-	+/-	I-NP	SYM	O	34	NMOD	0
+34	4.6	4.6	I-NP	CD	O	31	PMOD	0
+35	by	by	B-PP	IN	O	31	VMOD	0
+36	CD31	CD31	B-NP	NN	B-protein	37	NMOD	0
+37	staining	staining	I-NP	NN	O	35	PMOD	0
+38	,	,	O	,	O	8	P	0
+39	respectively	respectively	B-ADVP	RB	O	8	VMOD	0
+40	(	(	O	(	O	45	DEP	0
+41	P	P	B-NP	NN	O	45	DEP	0
+42	less	less	B-ADJP	JJR	O	41	NMOD	0
+43	than	than	B-PP	IN	O	42	AMOD	0
+44	0.05	0.05	B-NP	CD	O	43	PMOD	0
+45	)	)	O	)	O	8	VMOD	0
+46	.	.	O	.	O	8	P	0
+
+1	More	More	B-NP	RBR	O	2	AMOD	0
+2	apoptotic	apoptotic	I-NP	JJ	B-cell_type	4	NMOD	5	apoptotic
+3	tumor	tumor	I-NP	NN	I-cell_type	4	NMOD	0
+4	cells	cell	I-NP	NNS	I-cell_type	5	SUB	0
+5	were	be	B-VP	VBD	O	0	ROOT	0
+6	seen	see	I-VP	VBN	O	5	VC	0
+7	under	under	B-PP	IN	O	6	VMOD	0
+8	the	the	B-NP	DT	O	11	NMOD	0
+9	transmission	transmission	I-NP	NN	O	11	NMOD	0
+10	electron	electron	I-NP	NN	O	11	NMOD	0
+11	microscope	microscope	I-NP	NN	O	7	PMOD	0
+12	.	.	O	.	O	5	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Endostatin	Endostatin	B-NP	NN	O	5	NMOD	0
+4	gene	gene	I-NP	NN	O	5	NMOD	0
+5	therapy	therapy	I-NP	NN	O	11	SUB	0
+6	mediated	mediate	B-VP	VBN	O	5	NMOD	17	mediated
+7	by	by	B-PP	IN	O	6	VMOD	0
+8	adenoviral	adenoviral	B-NP	JJ	O	9	NMOD	0
+9	vector	vector	I-NP	NN	O	7	PMOD	0
+10	efficiently	efficiently	B-ADVP	RB	O	11	VMOD	0
+11	induces	induce	B-VP	VBZ	O	1	NMOD	17	induces
+12	expression	expression	B-NP	NN	O	11	OBJ	9	expression
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	endostatin	endostatin	B-NP	NN	B-protein	13	PMOD	0
+15	in	in	B-ADVP	FW	O	11	VMOD	0
+16	vivo	vivo	I-ADVP	FW	O	15	AMOD	0
+17	,	,	O	,	O	11	P	0
+18	and	and	O	CC	O	11	VMOD	0
+19	inhibits	inhibit	B-VP	VBZ	O	11	VMOD	18	inhibits
+20	the	the	B-NP	DT	O	23	NMOD	0
+21	growth	growth	I-NP	NN	O	23	NMOD	4	growth
+22	and	and	I-NP	CC	O	23	NMOD	0
+23	metastasis	metastasis	I-NP	NN	O	19	OBJ	14	metastasis
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	tumor	tumor	B-NP	NN	O	24	PMOD	0
+26	.	.	O	.	O	1	P	0
+
+1	It	It	B-NP	PRP	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	concluded	conclude	I-VP	VBN	O	2	VC	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	its	its	B-NP	PRP$	O	6	NMOD	0
+6	action	action	I-NP	NN	O	7	SUB	16	action
+7	is	be	B-VP	VBZ	O	4	SBAR	0
+8	targeted	target	I-VP	VBN	O	7	VC	0
+9	to	to	B-PP	TO	O	8	VMOD	0
+10	tumor	tumor	B-NP	NN	O	11	NMOD	0
+11	neovasculature	neovasculature	I-NP	NN	O	14	NMOD	0
+12	and	and	O	CC	O	14	NMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	mechanism	mechanism	I-NP	NN	O	9	PMOD	0
+15	is	be	B-VP	VBZ	O	4	DEP	0
+16	inhibition	inhibition	B-NP	NN	O	15	PRD	18	inhibition
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	tumor	tumor	B-NP	NN	O	19	NMOD	0
+19	angiogenesis	angiogenesis	I-NP	NN	O	17	PMOD	3	angiogenesis
+20	.	.	O	.	O	2	P	0
+

@@ -1,0 +1,231 @@
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	modulation	modulation	I-NP	NN	O	0	ROOT	16	modulation
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	platelet	platelet	B-NP	NN	B-cell_type	8	NMOD	0
+5	and	and	O	CC	O	8	NMOD	0
+6	endothelial	endothelial	B-NP	JJ	O	8	NMOD	0
+7	cell	cell	I-NP	NN	O	8	NMOD	0
+8	adhesion	adhesion	I-NP	NN	O	3	PMOD	15	adhesion
+9	to	to	B-PP	TO	O	8	NMOD	0
+10	vascular	vascular	B-NP	JJ	O	12	NMOD	0
+11	graft	graft	I-NP	NN	O	12	NMOD	0
+12	materials	material	I-NP	NNS	O	9	PMOD	0
+13	by	by	B-PP	IN	O	2	NMOD	0
+14	perlecan	perlecan	B-NP	NN	O	13	PMOD	0
+15	.	.	O	.	O	2	P	0
+
+1	Controlled	Control	B-NP	VBN	O	2	NMOD	16	Controlled
+2	neo-endothelialisation	neo-endothelialisation	I-NP	NN	O	3	SUB	3	neo-endothelialisation
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	critical	critical	B-ADJP	JJ	O	3	PRD	0
+5	to	to	B-PP	TO	O	4	AMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	patency	patency	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	small	small	B-NP	JJ	O	12	NMOD	0
+10	diameter	diameter	I-NP	NN	O	12	NMOD	0
+11	vascular	vascular	I-NP	JJ	O	12	NMOD	0
+12	grafts	graft	I-NP	NNS	O	8	PMOD	0
+13	.	.	O	.	O	3	P	0
+
+1	Endothelialisation	Endothelialisation	B-NP	NN	O	4	NMOD	3	Endothelialisation
+2	and	and	I-NP	CC	O	4	NMOD	0
+3	platelet	platelet	I-NP	NN	O	4	NMOD	0
+4	adhesion	adhesion	I-NP	NN	O	14	NMOD	15	adhesion
+5	to	to	B-PP	TO	O	4	NMOD	0
+6	purified	purify	B-NP	VBN	O	9	NMOD	0
+7	endothelial	endothelial	I-NP	JJ	O	9	NMOD	0
+8	cell-derived	cell-derived	I-NP	JJ	O	9	NMOD	0
+9	perlecan	perlecan	I-NP	NN	O	5	PMOD	0
+10	,	,	O	,	O	14	P	0
+11	the	the	B-NP	DT	O	14	NMOD	0
+12	major	major	I-NP	JJ	O	14	NMOD	0
+13	heparan	heparan	I-NP	NN	O	14	NMOD	0
+14	sulfate	sulfate	I-NP	NN	O	18	NMOD	0
+15	(	(	O	(	O	17	DEP	0
+16	HS	HS	B-NP	NN	O	17	DEP	0
+17	)	)	O	)	O	14	NMOD	0
+18	proteoglycan	proteoglycan	B-NP	NN	O	23	SUB	0
+19	in	in	B-PP	IN	O	18	NMOD	0
+20	basement	basement	B-NP	NN	O	21	NMOD	0
+21	membranes	membrane	I-NP	NNS	O	19	PMOD	0
+22	,	,	O	,	O	18	P	0
+23	were	be	B-VP	VBD	O	0	ROOT	0
+24	investigated	investigate	I-VP	VBN	O	23	VC	0
+25	using	use	B-VP	VBG	O	24	VMOD	0
+26	in	in	B-ADVP	FW	O	27	AMOD	0
+27	vivo	vivo	I-ADVP	FW	O	31	NMOD	0
+28	and	and	O	CC	O	31	NMOD	0
+29	in	in	B-NP	FW	O	30	AMOD	0
+30	vitro	vitro	I-NP	FW	O	31	NMOD	0
+31	assays	assay	I-NP	NNS	O	25	OBJ	0
+32	.	.	O	.	O	23	P	0
+
+1	Expanded	Expand	B-NP	VBN	O	2	NMOD	0
+2	polytetrafluoroethylene	polytetrafluoroethylene	I-NP	NN	O	7	NMOD	0
+3	(	(	O	(	O	5	DEP	0
+4	ePTFE	ePTFE	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	vascular	vascular	B-NP	JJ	O	7	NMOD	0
+7	grafts	graft	I-NP	NNS	O	8	SUB	0
+8	were	be	B-VP	VBD	O	0	ROOT	0
+9	coated	coat	I-VP	VBN	O	8	VC	19	coated
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	perlecan	perlecan	B-NP	NN	O	10	PMOD	0
+12	and	and	O	CC	O	9	VMOD	0
+13	tested	test	B-VP	VBN	O	9	VMOD	0
+14	in	in	B-PP	IN	O	13	VMOD	0
+15	an	an	B-NP	DT	O	19	NMOD	0
+16	ovine	ovine	I-NP	JJ	O	19	NMOD	0
+17	carotid	carotid	I-NP	NN	O	19	NMOD	0
+18	interposition	interposition	I-NP	NN	O	19	NMOD	0
+19	model	model	I-NP	NN	O	14	PMOD	0
+20	for	for	B-PP	IN	O	19	NMOD	0
+21	a	a	B-NP	DT	O	22	NMOD	0
+22	period	period	I-NP	NN	O	20	PMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	6	6	B-NP	CD	O	25	NMOD	0
+25	weeks	week	I-NP	NNS	O	23	PMOD	0
+26	and	and	O	CC	O	9	VMOD	0
+27	assessed	assess	B-VP	VBN	O	9	VMOD	0
+28	using	use	B-VP	VBG	O	27	VMOD	0
+29	light	light	B-NP	NN	O	32	NMOD	0
+30	and	and	I-NP	CC	O	32	NMOD	0
+31	scanning	scanning	I-NP	NN	O	32	NMOD	0
+32	microscopy	microscopy	I-NP	NN	O	28	OBJ	0
+33	.	.	O	.	O	8	P	0
+
+1	Enhanced	Enhance	B-NP	VBN	O	4	NMOD	17	Enhanced
+2	endothelial	endothelial	I-NP	JJ	O	4	NMOD	0
+3	cell	cell	I-NP	NN	O	4	NMOD	0
+4	growth	growth	I-NP	NN	O	8	NMOD	1	growth
+5	and	and	O	CC	O	8	NMOD	0
+6	reduced	reduce	B-VP	VBD	O	8	NMOD	18	reduced
+7	platelet	platelet	B-NP	NN	O	8	NMOD	0
+8	adhesion	adhesion	I-NP	NN	O	9	SUB	15	adhesion
+9	were	be	B-VP	VBD	O	0	ROOT	0
+10	observed	observe	I-VP	VBN	O	9	VC	0
+11	on	on	B-PP	IN	O	10	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	perlecan	perlecan	I-NP	NN	O	11	PMOD	0
+14	coated	coat	B-VP	VBD	O	9	VMOD	19	coated
+15	grafts	graft	B-NP	NNS	O	14	OBJ	0
+16	when	when	B-ADVP	WRB	O	14	VMOD	0
+17	compared	compare	B-VP	VBN	O	16	SBAR	0
+18	to	to	B-PP	TO	O	17	VMOD	0
+19	uncoated	uncoated	B-NP	JJ	O	20	NMOD	19	uncoated
+20	controls	control	I-NP	NNS	O	18	PMOD	0
+21	implanted	implant	B-VP	VBN	O	20	NMOD	19	implanted
+22	in	in	B-PP	IN	O	21	VMOD	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	same	same	I-NP	JJ	O	25	NMOD	0
+25	sheep	sheep	I-NP	NN	O	22	PMOD	0
+26	(	(	O	(	O	28	DEP	0
+27	n=5	n=5	B-NP	NN	O	28	DEP	0
+28	)	)	O	)	O	25	NMOD	0
+29	.	.	O	.	O	9	P	0
+
+1	Perlecan	Perlecan	B-NP	NN	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	also	also	I-VP	RB	O	2	VMOD	0
+4	found	find	I-VP	VBN	O	2	VC	0
+5	to	to	I-VP	TO	O	6	VMOD	0
+6	stimulate	stimulate	I-VP	VB	O	4	VMOD	17	stimulate
+7	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	0
+8	cell	cell	I-NP	NN	I-cell_type	9	NMOD	0
+9	proliferation	proliferation	I-NP	NN	O	6	OBJ	1	proliferation
+10	in	in	B-ADVP	FW	O	6	VMOD	0
+11	vitro	vitro	I-ADVP	FW	O	10	AMOD	0
+12	over	over	B-PP	IN	O	6	VMOD	0
+13	a	a	B-NP	DT	O	14	NMOD	0
+14	period	period	I-NP	NN	O	12	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	6	6	B-NP	CD	O	17	NMOD	0
+17	days	day	I-NP	NNS	O	15	PMOD	0
+18	in	in	B-PP	IN	O	14	NMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	presence	presence	I-NP	NN	O	18	PMOD	14	presence
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	plasma	plasma	B-NP	NN	B-protein	23	NMOD	0
+23	proteins	protein	I-NP	NNS	I-protein	27	NMOD	0
+24	and	and	O	CC	O	27	NMOD	0
+25	fibroblastic	fibroblastic	B-NP	JJ	B-protein	27	NMOD	0
+26	growth	growth	I-NP	NN	I-protein	27	NMOD	0
+27	factor	factor	I-NP	NN	I-protein	21	PMOD	0
+28	2	2	I-NP	CD	I-protein	27	NMOD	0
+29	(	(	O	(	O	31	DEP	0
+30	FGF-2	FGF-2	B-NP	NN	B-protein	31	DEP	0
+31	)	)	O	)	O	27	NMOD	0
+32	,	,	O	,	O	6	P	0
+33	however	however	B-ADVP	RB	O	42	VMOD	0
+34	in	in	B-PP	IN	O	42	SUB	0
+35	the	the	B-NP	DT	O	36	NMOD	0
+36	absence	absence	I-NP	NN	O	34	PMOD	14	absence
+37	of	of	B-PP	IN	O	36	NMOD	0
+38	FGF-2	FGF-2	B-NP	NN	B-protein	41	NMOD	0
+39	endothelial	endothelial	I-NP	JJ	O	41	NMOD	0
+40	cell	cell	I-NP	NN	O	41	NMOD	0
+41	growth	growth	I-NP	NN	O	37	PMOD	1	growth
+42	could	could	B-VP	MD	O	6	VMOD	0
+43	not	not	I-VP	RB	O	42	VMOD	0
+44	be	be	I-VP	VB	O	42	VC	0
+45	maintained	maintain	I-VP	VBN	O	44	VC	0
+46	during	during	B-PP	IN	O	45	VMOD	0
+47	this	this	B-NP	DT	O	48	NMOD	0
+48	period	period	I-NP	NN	O	46	PMOD	0
+49	.	.	O	.	O	2	P	0
+
+1	Perlecan	Perlecan	B-NP	NN	O	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	found	find	I-VP	VBN	O	2	VC	0
+4	to	to	I-VP	TO	O	5	VMOD	0
+5	be	be	I-VP	VB	O	3	VMOD	0
+6	anti-adhesive	anti-adhesive	B-ADJP	JJ	O	5	PRD	15	anti-adhesive
+7	for	for	B-PP	IN	O	6	AMOD	0
+8	platelets	platelet	B-NP	NNS	B-cell_type	7	PMOD	0
+9	,	,	O	,	O	2	P	0
+10	however	however	B-ADVP	RB	O	11	PMOD	0
+11	after	after	B-PP	IN	O	2	VMOD	0
+12	removal	removal	B-NP	NN	O	11	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	HS	HS	I-NP	NN	B-protein	16	NMOD	0
+16	chains	chain	I-NP	NNS	I-protein	13	PMOD	0
+17	attached	attach	B-VP	VBN	O	16	NMOD	0
+18	to	to	B-PP	TO	O	17	VMOD	0
+19	perlecan	perlecan	B-NP	NN	O	22	NMOD	0
+20	,	,	I-NP	,	O	22	P	0
+21	platelet	platelet	I-NP	NN	O	22	NMOD	0
+22	adhesion	adhesion	I-NP	NN	O	24	NMOD	15	adhesion
+23	and	and	I-NP	CC	O	24	NMOD	0
+24	aggregation	aggregation	I-NP	NN	O	18	PMOD	15	aggregation
+25	were	be	B-VP	VBD	O	2	VMOD	0
+26	supported	support	I-VP	VBN	O	25	VC	0
+27	.	.	O	.	O	2	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	role	role	I-NP	NN	O	3	OBJ	0
+6	for	for	B-PP	IN	O	5	NMOD	0
+7	HS	HS	B-NP	NN	B-protein	8	NMOD	0
+8	chains	chain	I-NP	NNS	I-protein	6	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	perlecan	perlecan	B-NP	NN	O	9	PMOD	0
+11	in	in	B-PP	IN	O	5	NMOD	0
+12	improving	improve	B-VP	VBG	O	11	PMOD	0
+13	graft	graft	B-NP	NN	O	14	NMOD	0
+14	patency	patency	I-NP	NN	O	12	OBJ	0
+15	by	by	B-PP	IN	O	12	VMOD	0
+16	selectively	selectively	B-ADVP	RB	O	17	VMOD	0
+17	promoting	promote	B-VP	VBG	O	15	PMOD	17	promoting
+18	endothelial	endothelial	B-NP	JJ	O	20	NMOD	0
+19	cell	cell	I-NP	NN	O	20	NMOD	0
+20	proliferation	proliferation	I-NP	NN	O	17	OBJ	1	proliferation
+21	while	while	B-SBAR	IN	O	17	VMOD	0
+22	modulating	modulate	B-VP	VBG	O	21	SBAR	16	modulating
+23	platelet	platelet	B-NP	NN	O	24	NMOD	0
+24	adhesion	adhesion	I-NP	NN	O	22	OBJ	15	adhesion
+25	.	.	O	.	O	3	P	0
+

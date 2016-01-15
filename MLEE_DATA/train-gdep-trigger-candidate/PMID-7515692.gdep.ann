@@ -1,0 +1,118 @@
+1	Molecular	Molecular	B-NP	JJ	O	2	NMOD	-1
+2	mediators	mediator	I-NP	NNS	O	0	ROOT	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	interactions	interaction	B-NP	NNS	O	3	PMOD	15	interactions
+5	with	with	B-PP	IN	O	4	NMOD	-1
+6	extracellular	extracellular	B-NP	JJ	B-protein	8	NMOD	-1
+7	matrix	matrix	I-NP	NN	I-protein	8	NMOD	-1
+8	components	component	I-NP	NNS	I-protein	5	PMOD	-1
+9	in	in	B-PP	IN	O	4	NMOD	-1
+10	metastasis	metastasis	B-NP	NN	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	9	PMOD	3	angiogenesis
+13	.	.	O	.	O	2	P	-1
+
+1	Metastasis	Metastasis	B-NP	NN	O	4	NMOD	0
+2	and	and	I-NP	CC	O	4	NMOD	-1
+3	tumor	tumor	I-NP	NN	O	4	NMOD	-1
+4	angiogenesis	angiogenesis	I-NP	NN	O	5	SUB	3	angiogenesis
+5	are	be	B-VP	VBP	O	0	ROOT	-1
+6	invasive	invasive	B-NP	JJ	O	7	NMOD	-1
+7	phenomena	phenomenon	I-NP	NNS	O	5	PRD	-1
+8	and	and	O	CC	O	5	VMOD	-1
+9	share	share	B-VP	VBP	O	5	VMOD	-1
+10	many	many	B-NP	JJ	O	12	NMOD	-1
+11	common	common	I-NP	JJ	O	12	NMOD	-1
+12	properties	property	I-NP	NNS	O	9	OBJ	0
+13	at	at	B-PP	IN	O	9	VMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	physiological	physiological	I-NP	JJ	O	16	NMOD	-1
+16	level	level	I-NP	NN	O	13	PMOD	-1
+17	and	and	O	CC	O	19	NMOD	-1
+18	some	some	B-NP	DT	O	19	NMOD	-1
+19	similarities	similarity	I-NP	NNS	O	9	OBJ	-1
+20	at	at	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	molecular	molecular	I-NP	JJ	O	23	NMOD	-1
+23	level	level	I-NP	NN	O	20	PMOD	-1
+24	.	.	O	.	O	5	P	-1
+
+1	Each	Each	B-NP	DT	O	2	SUB	-1
+2	consists	consist	B-VP	VBZ	O	0	ROOT	-1
+3	of	of	B-PP	IN	O	2	VMOD	-1
+4	repetitive	repetitive	B-NP	JJ	O	5	NMOD	-1
+5	cycles	cycle	I-NP	NNS	O	3	PMOD	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	interaction	interaction	B-NP	NN	O	6	PMOD	15	interaction
+8	with	with	B-PP	IN	O	7	NMOD	-1
+9	adjacent	adjacent	B-NP	JJ	O	12	NMOD	-1
+10	extracellular	extracellular	I-NP	JJ	O	12	NMOD	-1
+11	matrix	matrix	I-NP	NN	O	12	NMOD	-1
+12	components	component	I-NP	NNS	O	8	PMOD	-1
+13	by	by	B-PP	IN	O	2	VMOD	-1
+14	mediating	mediate	B-VP	VBG	O	23	VMOD	16	mediating
+15	cellular	cellular	B-NP	JJ	O	16	NMOD	-1
+16	adhesion	adhesion	I-NP	NN	O	14	OBJ	15	adhesion
+17	,	,	O	,	O	23	P	-1
+18	matrix	matrix	B-NP	NN	O	19	NMOD	-1
+19	dissolution	dissolution	I-NP	NN	O	23	NMOD	-1
+20	,	,	O	,	O	23	P	-1
+21	and	and	O	CC	O	23	NMOD	-1
+22	cellular	cellular	B-NP	JJ	O	23	NMOD	-1
+23	motility	motility	I-NP	NN	O	13	PMOD	14	motility
+24	to	to	B-VP	TO	O	25	VMOD	-1
+25	achieve	achieve	I-VP	VB	O	23	NMOD	-1
+26	metastasis	metastasis	B-NP	NN	O	31	NMOD	14	metastasis
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	cancer	cancer	B-NP	NN	B-cell_type	29	NMOD	-1
+29	cells	cell	I-NP	NNS	I-cell_type	27	PMOD	-1
+30	or	or	O	CC	O	31	NMOD	-1
+31	neovascularization	neovascularization	B-NP	NN	O	25	OBJ	3	neovascularization
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	tumors	tumor	B-NP	NNS	O	32	PMOD	-1
+34	.	.	O	.	O	2	P	-1
+
+1	Molecular	Molecular	B-NP	JJ	B-protein	2	NMOD	-1
+2	factors	factor	I-NP	NNS	I-protein	9	SUB	-1
+3	which	which	B-NP	WDT	O	2	NMOD	-1
+4	implement	implement	B-VP	VBP	O	3	SBAR	-1
+5	this	this	B-NP	DT	O	6	NMOD	-1
+6	triad	triad	I-NP	NN	O	4	OBJ	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	events	event	B-NP	NNS	O	7	PMOD	-1
+9	are	be	B-VP	VBP	O	0	ROOT	-1
+10	reviewed	review	I-VP	VBN	O	9	VC	-1
+11	,	,	O	,	O	9	P	-1
+12	as	as	B-SBAR	IN	O	9	VMOD	-1
+13	are	be	B-VP	VBP	O	12	SBAR	-1
+14	several	several	B-NP	JJ	O	13	PRD	-1
+15	signal	signal	I-NP	NN	B-protein	17	NMOD	-1
+16	transduction	transduction	I-NP	NN	I-protein	17	NMOD	-1
+17	components	component	I-NP	NNS	I-protein	14	NMOD	-1
+18	which	which	B-NP	WDT	O	14	NMOD	-1
+19	may	may	B-VP	MD	O	18	SBAR	-1
+20	regulate	regulate	I-VP	VB	O	19	VC	0
+21	them	them	B-NP	PRP	O	20	OBJ	-1
+22	.	.	O	.	O	9	P	-1
+
+1	Some	Some	B-NP	DT	O	10	NMOD	-1
+2	potentially	potentially	I-NP	RB	O	3	AMOD	-1
+3	promising	promising	I-NP	JJ	O	10	NMOD	-1
+4	prognostic	prognostic	I-NP	JJ	O	10	NMOD	-1
+5	,	,	I-NP	,	O	10	P	-1
+6	diagnostic	diagnostic	I-NP	JJ	O	10	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	and	and	O	CC	O	10	NMOD	-1
+9	therapeutic	therapeutic	B-NP	JJ	O	10	NMOD	-1
+10	modalities	modality	I-NP	NNS	O	17	SUB	-1
+11	for	for	B-PP	IN	O	10	NMOD	-1
+12	tumor	tumor	B-NP	NN	O	13	NMOD	-1
+13	angiogenesis	angiogenesis	I-NP	NN	O	16	NMOD	3	angiogenesis
+14	and	and	O	CC	O	16	NMOD	-1
+15	metastatic	metastatic	B-NP	JJ	O	16	NMOD	0
+16	disease	disease	I-NP	NN	O	11	PMOD	-1
+17	are	be	B-VP	VBP	O	0	ROOT	-1
+18	also	also	I-VP	RB	O	17	VMOD	-1
+19	discussed	discuss	I-VP	VBN	O	17	VC	-1
+20	.	.	O	.	O	17	P	-1
+

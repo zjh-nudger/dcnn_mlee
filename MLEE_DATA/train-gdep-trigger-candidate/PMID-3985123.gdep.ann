@@ -1,0 +1,137 @@
+1	Mast	Mast	B-NP	NN	B-cell_type	2	NMOD	-1
+2	cells	cell	I-NP	NNS	I-cell_type	4	NMOD	-1
+3	and	and	O	CC	O	4	NMOD	-1
+4	tumors	tumor	B-NP	NNS	O	0	ROOT	-1
+5	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	specific	specific	I-NP	JJ	O	3	NMOD	-1
+3	enhancement	enhancement	I-NP	NN	O	0	ROOT	17	enhancement
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	tumor	tumor	B-NP	NN	O	6	NMOD	-1
+6	proliferation	proliferation	I-NP	NN	O	4	PMOD	4	proliferation
+7	in	in	B-ADVP	FW	O	3	NMOD	-1
+8	vitro	vitro	I-ADVP	FW	O	7	AMOD	-1
+9	.	.	O	.	O	3	P	-1
+
+1	Mast	Mast	B-NP	NN	B-cell_type	2	NMOD	-1
+2	cells	cell	I-NP	NNS	I-cell_type	3	SUB	-1
+3	were	be	B-VP	VBD	O	0	ROOT	-1
+4	found	find	I-VP	VBN	O	3	VC	0
+5	to	to	I-VP	TO	O	6	VMOD	-1
+6	be	be	I-VP	VB	O	4	VMOD	-1
+7	unique	unique	B-ADJP	JJ	O	6	PRD	-1
+8	among	among	B-PP	IN	O	6	VMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	peritoneal	peritoneal	I-NP	JJ	B-cell_type	11	NMOD	-1
+11	leukocytes	leukocyte	I-NP	NNS	I-cell_type	8	PMOD	-1
+12	by	by	B-PP	IN	O	6	VMOD	-1
+13	virtue	virtue	B-NP	NN	O	12	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	their	their	B-NP	PRP$	O	16	NMOD	-1
+16	capacity	capacity	I-NP	NN	O	14	PMOD	-1
+17	to	to	B-VP	TO	O	18	VMOD	-1
+18	enhance	enhance	I-VP	VB	O	16	NMOD	17	enhance
+19	profoundly	profoundly	B-ADVP	RB	O	18	VMOD	-1
+20	the	the	B-NP	DT	O	21	NMOD	-1
+21	proliferation	proliferation	I-NP	NN	O	18	OBJ	4	proliferation
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	a	a	B-NP	DT	O	24	NMOD	-1
+24	variety	variety	I-NP	NN	O	22	PMOD	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	tumors	tumor	B-NP	NNS	O	25	PMOD	-1
+27	in	in	B-ADVP	FW	O	18	VMOD	-1
+28	vitro	vitro	I-ADVP	FW	O	27	AMOD	-1
+29	.	.	O	.	O	3	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	phenomenon	phenomenon	I-NP	NN	O	3	SUB	-1
+3	occurs	occur	B-VP	VBZ	O	0	ROOT	-1
+4	at	at	B-PP	IN	O	3	VMOD	-1
+5	mast	mast	B-NP	NN	O	7	NMOD	-1
+6	cell/tumor	cell/tumor	I-NP	NN	O	7	NMOD	-1
+7	ratios	ratio	I-NP	NNS	O	4	PMOD	-1
+8	which	which	B-NP	WDT	O	7	NMOD	-1
+9	reflect	reflect	B-VP	VBP	O	8	SBAR	0
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	stoichiometry	stoichiometry	I-NP	NN	O	9	OBJ	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	host	host	B-NP	NN	O	15	NMOD	-1
+14	cell/tumor	cell/tumor	I-NP	NN	O	15	NMOD	-1
+15	relationships	relationship	I-NP	NNS	O	12	PMOD	-1
+16	in	in	B-ADVP	FW	O	9	VMOD	-1
+17	vivo	vivo	I-ADVP	FW	O	16	AMOD	-1
+18	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	growth	growth	I-NP	NN	B-protein	3	NMOD	0
+3	factor	factor	I-NP	NN	I-protein	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	found	find	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	-1
+7	reside	reside	I-VP	VB	O	5	VMOD	-1
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	mast	mast	B-NP	NN	O	11	NMOD	-1
+10	cell	cell	I-NP	NN	O	11	NMOD	-1
+11	granules	granule	I-NP	NNS	O	8	PMOD	-1
+12	and	and	O	CC	O	4	VMOD	-1
+13	was	be	B-VP	VBD	O	4	VMOD	-1
+14	identified	identify	I-VP	VBN	O	13	VC	-1
+15	as	as	B-PP	IN	O	14	VMOD	-1
+16	heparin	heparin	B-NP	NN	O	15	PMOD	-1
+17	by	by	B-PP	IN	O	14	VMOD	-1
+18	sequential	sequential	B-NP	JJ	O	19	NMOD	-1
+19	purification	purification	I-NP	NN	O	22	NMOD	-1
+20	and	and	O	CC	O	22	NMOD	-1
+21	enzymatic	enzymatic	B-NP	JJ	O	22	NMOD	-1
+22	degradation	degradation	I-NP	NN	O	17	PMOD	0
+23	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	3	NMOD	-1
+2	cellular	cellular	I-NP	JJ	O	3	NMOD	-1
+3	interaction	interaction	I-NP	NN	O	4	SUB	0
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	tumor-specific	tumor-specific	B-ADJP	JJ	O	4	PRD	-1
+6	,	,	O	,	O	4	P	-1
+7	although	although	B-SBAR	IN	O	4	VMOD	-1
+8	isolated	isolate	B-NP	VBN	O	9	NMOD	0
+9	granules	granule	I-NP	NNS	O	10	SUB	-1
+10	could	could	B-VP	MD	O	7	SBAR	-1
+11	enhance	enhance	I-VP	VB	O	10	VC	17	enhance
+12	fibroblast	fibroblast	B-NP	NN	O	13	NMOD	-1
+13	proliferation	proliferation	I-NP	NN	O	11	OBJ	1	proliferation
+14	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	findings	finding	I-NP	NNS	O	3	SUB	-1
+3	are	be	B-VP	VBP	O	0	ROOT	-1
+4	discussed	discuss	I-VP	VBN	O	3	VC	-1
+5	in	in	B-PP	IN	O	4	VMOD	-1
+6	relation	relation	B-NP	NN	O	5	PMOD	-1
+7	to	to	B-PP	TO	O	6	NMOD	-1
+8	previous	previous	B-NP	JJ	O	9	AMOD	-1
+9	morphologic	morphologic	I-NP	JJ	O	10	NMOD	-1
+10	studies	study	I-NP	NNS	O	7	PMOD	-1
+11	,	,	O	,	O	3	P	-1
+12	reports	report	B-NP	NNS	O	3	PRD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	in	in	B-NP	FW	O	15	AMOD	-1
+15	vitro	vitro	I-NP	FW	O	16	AMOD	-1
+16	mast-cell-mediated	mast-cell-mediated	I-NP	JJ	O	18	NMOD	16	mediated
+17	tumor	tumor	I-NP	NN	O	18	NMOD	-1
+18	cytotoxicity	cytotoxicity	I-NP	NN	O	13	PMOD	-1
+19	,	,	O	,	O	3	P	-1
+20	and	and	O	CC	O	22	NMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	role	role	I-NP	NN	O	19	OBJ	16	role
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	mast	mast	B-NP	NN	B-cell_type	25	NMOD	-1
+25	cells	cell	I-NP	NNS	I-cell_type	23	PMOD	-1
+26	in	in	B-PP	IN	O	22	NMOD	-1
+27	angiogenesis	angiogenesis	B-NP	NN	O	31	NMOD	3	angiogenesis
+28	and	and	O	CC	O	31	NMOD	-1
+29	connective	connective	B-NP	JJ	O	31	NMOD	-1
+30	tissue	tissue	I-NP	NN	O	31	NMOD	-1
+31	proliferation	proliferation	I-NP	NN	O	26	PMOD	4	proliferation
+32	.	.	O	.	O	3	P	-1
+

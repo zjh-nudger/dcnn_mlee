@@ -1,0 +1,312 @@
+1	Grape	Grape	B-NP	NN	O	3	NMOD	0
+2	seed	seed	I-NP	NN	O	3	NMOD	0
+3	extract	extract	I-NP	NN	O	4	SUB	0
+4	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	OBJ	3	angiogenesis
+6	via	via	B-PP	IN	O	4	VMOD	0
+7	suppression	suppression	B-NP	NN	O	6	PMOD	18	suppression
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	16	NMOD	0
+10	vascular	vascular	I-NP	JJ	B-protein	16	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-protein	16	NMOD	0
+12	growth	growth	I-NP	NN	I-protein	16	NMOD	0
+13	factor	factor	I-NP	NN	I-protein	16	NMOD	0
+14	receptor	receptor	I-NP	NN	I-protein	16	NMOD	0
+15	signaling	signaling	I-NP	NN	O	16	NMOD	0
+16	pathway	pathway	I-NP	NN	O	8	PMOD	0
+17	.	.	O	.	O	4	P	0
+
+1	Blockade	Blockade	B-NP	NN	O	4	SUB	18	Blockade
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	PMOD	3	angiogenesis
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	an	an	B-NP	DT	O	7	NMOD	0
+6	important	important	I-NP	JJ	O	7	NMOD	0
+7	approach	approach	I-NP	NN	O	4	PRD	0
+8	for	for	B-PP	IN	O	7	NMOD	0
+9	cancer	cancer	B-NP	NN	O	10	NMOD	0
+10	treatment	treatment	I-NP	NN	O	12	NMOD	19	treatment
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	prevention	prevention	I-NP	NN	O	8	PMOD	18	prevention
+13	.	.	O	.	O	4	P	0
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	0
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	0
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	8	SUB	0
+5	(	(	O	(	O	7	DEP	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	is	be	B-VP	VBZ	O	0	ROOT	0
+9	one	one	B-NP	CD	O	8	PRD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	the	the	B-NP	DT	O	14	NMOD	0
+12	most	most	I-NP	RBS	O	13	AMOD	0
+13	critical	critical	I-NP	JJ	O	14	NMOD	0
+14	factors	factor	I-NP	NNS	O	10	PMOD	0
+15	that	that	B-NP	WDT	O	14	NMOD	0
+16	induce	induce	B-VP	VBP	O	15	SBAR	17	induce
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	OBJ	3	angiogenesis
+18	and	and	O	CC	O	16	VMOD	0
+19	has	have	B-VP	VBZ	O	16	VMOD	0
+20	thus	thus	I-VP	RB	O	19	VMOD	0
+21	become	become	I-VP	VBN	O	19	VMOD	0
+22	an	an	B-NP	DT	O	24	NMOD	0
+23	attractive	attractive	I-NP	JJ	O	24	NMOD	0
+24	target	target	I-NP	NN	O	21	PRD	0
+25	for	for	B-PP	IN	O	24	NMOD	0
+26	antiangiogenesis	antiangiogenesis	B-NP	NN	O	27	NMOD	3	angiogenesis
+27	treatment	treatment	I-NP	NN	O	25	PMOD	18	treatment
+28	.	.	O	.	O	8	P	0
+
+1	However	However	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	most	most	B-NP	RBS	O	5	AMOD	0
+4	current	current	I-NP	JJ	O	5	AMOD	0
+5	anti-VEGF	anti-VEGF	I-NP	JJ	O	6	NMOD	0
+6	agents	agent	I-NP	NNS	O	8	SUB	0
+7	often	often	B-ADVP	RB	O	8	VMOD	0
+8	cause	cause	B-VP	VBP	O	0	ROOT	0
+9	some	some	B-NP	DT	O	11	NMOD	0
+10	side	side	I-NP	NN	O	11	NMOD	0
+11	effects	effect	I-NP	NNS	O	8	OBJ	0
+12	when	when	B-ADVP	WRB	O	8	VMOD	0
+13	given	give	B-VP	VBN	O	12	SBAR	0
+14	chronically	chronically	B-ADVP	RB	O	13	VMOD	0
+15	.	.	O	.	O	8	P	0
+
+1	Identification	Identification	B-NP	NN	O	10	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	naturally	naturally	B-VP	RB	O	4	AMOD	0
+4	occurring	occur	I-VP	VBG	O	2	PMOD	0
+5	VEGF	VEGF	B-NP	NN	O	6	NMOD	0
+6	inhibitors	inhibitor	I-NP	NNS	O	4	OBJ	0
+7	derived	derive	B-VP	VBN	O	6	NMOD	0
+8	from	from	B-PP	IN	O	7	VMOD	0
+9	diet	diet	B-NP	NN	O	8	PMOD	0
+10	would	would	B-VP	MD	O	0	ROOT	0
+11	be	be	I-VP	VB	O	10	VC	0
+12	one	one	B-NP	CD	O	14	NMOD	0
+13	alternative	alternative	I-NP	JJ	O	14	NMOD	0
+14	approach	approach	I-NP	NN	O	11	PRD	0
+15	with	with	B-PP	IN	O	14	NMOD	0
+16	an	an	B-NP	DT	O	17	NMOD	0
+17	advantage	advantage	I-NP	NN	O	15	PMOD	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	known	know	B-NP	VBN	O	20	NMOD	0
+20	safety	safety	I-NP	NN	O	18	PMOD	0
+21	.	.	O	.	O	10	P	0
+
+1	Grape	Grape	B-NP	NN	O	3	NMOD	0
+2	seed	seed	I-NP	NN	O	3	NMOD	0
+3	extract	extract	I-NP	NN	O	12	NMOD	0
+4	(	(	O	(	O	6	DEP	0
+5	GSE	GSE	B-NP	NN	B-protein	6	DEP	0
+6	)	)	O	)	O	3	NMOD	0
+7	,	,	O	,	O	12	P	0
+8	a	a	B-NP	DT	O	12	NMOD	0
+9	widely	widely	I-NP	RB	O	10	AMOD	0
+10	used	use	I-NP	VBN	O	12	NMOD	0
+11	dietary	dietary	I-NP	JJ	O	12	NMOD	0
+12	supplement	supplement	I-NP	NN	O	14	SUB	0
+13	,	,	O	,	O	12	P	0
+14	is	be	B-VP	VBZ	O	0	ROOT	0
+15	known	know	I-VP	VBN	O	14	VC	0
+16	to	to	I-VP	TO	O	17	VMOD	0
+17	have	have	I-VP	VB	O	15	VMOD	0
+18	antitumor	antitumor	B-NP	JJ	O	19	NMOD	0
+19	activity	activity	I-NP	NN	O	17	OBJ	18	activity
+20	.	.	O	.	O	14	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	we	we	B-NP	PRP	O	6	SUB	0
+6	have	have	B-VP	VBP	O	0	ROOT	0
+7	explored	explore	I-VP	VBN	O	6	VC	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	activity	activity	I-NP	NN	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	GSE	GSE	B-NP	NN	B-protein	10	PMOD	0
+12	on	on	B-PP	IN	O	9	NMOD	0
+13	VEGF	VEGF	B-NP	NN	B-protein	14	NMOD	0
+14	receptor	receptor	I-NP	NN	I-protein	16	NMOD	0
+15	and	and	I-NP	CC	O	16	NMOD	0
+16	angiogenesis	angiogenesis	I-NP	NN	O	12	PMOD	3	angiogenesis
+17	.	.	O	.	O	6	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	found	find	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	GSE	GSE	B-NP	NN	B-protein	5	SUB	0
+5	could	could	B-VP	MD	O	3	SBAR	0
+6	directly	directly	I-VP	RB	O	7	VMOD	0
+7	inhibit	inhibit	I-VP	VB	O	5	VC	18	inhibit
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	kinase	kinase	I-NP	NN	O	10	NMOD	0
+10	activity	activity	I-NP	NN	O	7	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	purified	purify	B-NP	VBN	B-protein	14	NMOD	0
+13	VEGF	VEGF	I-NP	NN	I-protein	14	NMOD	0
+14	receptor	receptor	I-NP	NN	I-protein	19	NMOD	0
+15	2	2	I-NP	CD	I-protein	14	NMOD	0
+16	,	,	O	,	O	19	P	0
+17	a	a	B-NP	DT	O	19	NMOD	0
+18	novel	novel	I-NP	JJ	O	19	NMOD	0
+19	activity	activity	I-NP	NN	O	11	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	GSE	GSE	B-NP	NN	B-protein	20	PMOD	0
+22	that	that	B-NP	WDT	O	21	NMOD	0
+23	has	have	B-VP	VBZ	O	22	SBAR	0
+24	not	not	I-VP	RB	O	23	VMOD	0
+25	been	be	I-VP	VBN	O	23	VC	0
+26	characterized	characterize	I-VP	VBN	O	25	VC	0
+27	.	.	O	.	O	2	P	0
+
+1	GSE	GSE	B-NP	NN	B-protein	2	SUB	0
+2	could	could	B-VP	MD	O	0	ROOT	0
+3	also	also	I-VP	RB	O	2	VMOD	0
+4	inhibit	inhibit	I-VP	VB	O	2	VC	18	inhibit
+5	the	the	B-NP	DT	O	11	NMOD	0
+6	VEGF	VEGF	I-NP	NN	B-protein	11	NMOD	0
+7	receptor/mitogen-activated	receptor/mitogen-activated	I-NP	JJ	I-protein	11	NMOD	0
+8	protein	protein	I-NP	NN	I-protein	11	NMOD	0
+9	kinase-mediated	kinase-mediated	I-NP	JJ	O	11	NMOD	17	mediated
+10	signaling	signaling	I-NP	NN	O	11	NMOD	0
+11	pathway	pathway	I-NP	NN	O	4	OBJ	0
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	endothelial	endothelial	B-NP	JJ	B-cell_type	14	NMOD	0
+14	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	0
+15	.	.	O	.	O	2	P	0
+
+1	As	As	B-PP	IN	O	6	VMOD	0
+2	a	a	B-NP	DT	O	3	NMOD	0
+3	result	result	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	GSE	GSE	B-NP	NN	B-protein	6	SUB	0
+6	could	could	B-VP	MD	O	0	ROOT	0
+7	inhibit	inhibit	I-VP	VB	O	6	VC	18	inhibit
+8	VEGF-induced	VEGF-induced	B-NP	JJ	O	11	NMOD	17	induced
+9	endothelial	endothelial	I-NP	JJ	O	11	NMOD	0
+10	cell	cell	I-NP	NN	O	11	NMOD	0
+11	proliferation	proliferation	I-NP	NN	O	13	NMOD	1	proliferation
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	migration	migration	I-NP	NN	O	18	NMOD	14	migration
+14	as	as	B-CONJP	RB	O	18	NMOD	0
+15	well	well	I-CONJP	RB	O	14	DEP	0
+16	as	as	I-CONJP	IN	O	14	DEP	0
+17	sprout	sprout	B-NP	NN	O	18	NMOD	0
+18	formation	formation	I-NP	NN	O	7	OBJ	2	formation
+19	from	from	B-PP	IN	O	18	NMOD	0
+20	aorta	aorta	B-NP	NN	O	21	NMOD	0
+21	ring	ring	I-NP	NN	O	19	PMOD	0
+22	.	.	O	.	O	6	P	0
+
+1	In	In	B-NP	FW	O	2	AMOD	0
+2	vivo	vivo	I-NP	FW	O	3	NMOD	0
+3	assay	assay	I-NP	NN	O	5	SUB	0
+4	further	further	B-ADVP	RB	O	5	VMOD	0
+5	showed	show	B-VP	VBD	O	0	ROOT	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	GSE	GSE	B-NP	NN	B-protein	8	SUB	0
+8	could	could	B-VP	MD	O	6	SBAR	0
+9	inhibit	inhibit	I-VP	VB	O	8	VC	18	inhibit
+10	tumor	tumor	B-NP	NN	O	11	NMOD	0
+11	growth	growth	I-NP	NN	O	14	NMOD	4	growth
+12	and	and	O	CC	O	14	NMOD	0
+13	tumor	tumor	B-NP	NN	O	14	NMOD	0
+14	angiogenesis	angiogenesis	I-NP	NN	O	9	OBJ	3	angiogenesis
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	MDA-MB-231	MDA-MB-231	B-NP	NN	B-cell_type	19	NMOD	0
+17	breast	breast	I-NP	NN	I-cell_type	19	NMOD	0
+18	cancer	cancer	I-NP	NN	I-cell_type	19	NMOD	0
+19	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	0
+20	in	in	B-PP	IN	O	9	VMOD	0
+21	mice	mouse	B-NP	NNS	O	20	PMOD	0
+22	.	.	O	.	O	5	P	0
+
+1	Consistent	Consistent	B-ADJP	JJ	O	13	VMOD	0
+2	with	with	B-PP	IN	O	1	AMOD	0
+3	the	the	B-NP	DT	O	6	NMOD	0
+4	in	in	I-NP	FW	O	5	AMOD	0
+5	vitro	vitro	I-NP	FW	O	6	NMOD	0
+6	data	datum	I-NP	NNS	O	2	PMOD	0
+7	,	,	O	,	O	13	P	0
+8	GSE	GSE	B-NP	NN	O	9	NMOD	0
+9	treatment	treatment	I-NP	NN	O	13	SUB	19	treatment
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	tumor-bearing	tumor-bearing	B-NP	JJ	O	12	NMOD	0
+12	mice	mouse	I-NP	NNS	O	10	PMOD	0
+13	led	lead	B-VP	VBD	O	0	ROOT	17	led
+14	to	to	B-PP	TO	O	13	VMOD	0
+15	concomitant	concomitant	B-NP	JJ	O	16	NMOD	0
+16	reduction	reduction	I-NP	NN	O	22	NMOD	18	reduction
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	blood	blood	B-NP	NN	O	20	NMOD	0
+19	vessel	vessel	I-NP	NN	O	20	NMOD	0
+20	density	density	I-NP	NN	O	17	PMOD	0
+21	and	and	I-NP	CC	O	22	NMOD	0
+22	phosphorylation	phosphorylation	I-NP	NN	O	14	PMOD	12	phosphorylation
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	mitogen-activated	mitogen-activated	B-NP	JJ	B-protein	26	NMOD	0
+25	protein	protein	I-NP	NN	I-protein	26	NMOD	0
+26	kinase	kinase	I-NP	NN	I-protein	23	PMOD	0
+27	.	.	O	.	O	13	P	0
+
+1	Depletion	Depletion	B-NP	NN	O	6	SUB	18	Depletion
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	polyphenol	polyphenol	B-NP	NN	O	2	PMOD	0
+4	with	with	B-PP	IN	O	1	NMOD	0
+5	polyvinylpyrrolidone	polyvinylpyrrolidone	B-NP	NN	O	4	PMOD	0
+6	abolished	abolish	B-VP	VBD	O	0	ROOT	18	abolished
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	antiangiogenic	antiangiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	activity	activity	I-NP	NN	O	6	OBJ	18	activity
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	GSE	GSE	B-NP	NN	B-protein	10	PMOD	0
+12	,	,	O	,	O	6	P	0
+13	suggesting	suggest	B-VP	VBG	O	6	VMOD	0
+14	a	a	B-NP	DT	O	16	NMOD	0
+15	water-soluble	water-soluble	I-NP	JJ	O	16	NMOD	0
+16	fraction	fraction	I-NP	NN	O	13	OBJ	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	polyphenol	polyphenol	B-NP	NN	O	17	PMOD	0
+19	in	in	B-PP	IN	O	16	NMOD	0
+20	GSE	GSE	B-NP	NN	B-protein	19	PMOD	0
+21	is	be	B-VP	VBZ	O	6	VMOD	0
+22	responsible	responsible	B-ADJP	JJ	O	21	PRD	17	responsible
+23	for	for	B-PP	IN	O	22	AMOD	0
+24	the	the	B-NP	DT	O	26	NMOD	0
+25	antiangiogenic	antiangiogenic	I-NP	JJ	O	26	NMOD	3	angiogenic
+26	activity	activity	I-NP	NN	O	23	PMOD	18	activity
+27	.	.	O	.	O	6	P	0
+
+1	Taken	Take	B-VP	VBN	O	6	VMOD	0
+2	together	together	B-ADVP	RB	O	1	VMOD	0
+3	,	,	O	,	O	6	P	0
+4	this	this	B-NP	DT	O	5	NMOD	0
+5	study	study	I-NP	NN	O	6	SUB	0
+6	indicates	indicate	B-VP	VBZ	O	0	ROOT	0
+7	that	that	B-SBAR	IN	O	6	VMOD	0
+8	GSE	GSE	B-NP	NN	B-protein	9	SUB	0
+9	is	be	B-VP	VBZ	O	7	SBAR	0
+10	a	a	B-NP	DT	O	16	NMOD	0
+11	well-tolerated	well-tolerated	I-NP	JJ	O	13	AMOD	0
+12	and	and	I-NP	CC	O	13	AMOD	0
+13	inexpensive	inexpensive	I-NP	JJ	O	16	NMOD	0
+14	natural	natural	I-NP	JJ	O	16	NMOD	0
+15	VEGF	VEGF	I-NP	NN	O	16	NMOD	0
+16	inhibitor	inhibitor	I-NP	NN	O	9	PRD	0
+17	and	and	O	CC	O	9	VMOD	0
+18	could	could	B-VP	MD	O	9	VMOD	0
+19	potentially	potentially	I-VP	RB	O	18	VMOD	0
+20	be	be	I-VP	VB	O	18	VC	0
+21	useful	useful	B-ADJP	JJ	O	20	PRD	0
+22	in	in	B-PP	IN	O	21	AMOD	0
+23	cancer	cancer	B-NP	NN	O	24	NMOD	0
+24	prevention	prevention	I-NP	NN	O	26	NMOD	18	prevention
+25	or	or	I-NP	CC	O	26	NMOD	0
+26	treatment	treatment	I-NP	NN	O	22	PMOD	19	treatment
+27	.	.	O	.	O	6	P	0
+

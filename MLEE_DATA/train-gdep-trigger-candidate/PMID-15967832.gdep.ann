@@ -1,0 +1,156 @@
+1	VEGF-targeted	VEGF-targeted	B-NP	JJ	O	2	NMOD	-1
+2	therapy	therapy	I-NP	NN	O	8	NMOD	0
+3	:	:	O	:	O	2	P	-1
+4	therapeutic	therapeutic	B-NP	JJ	O	5	AMOD	-1
+5	potential	potential	I-NP	JJ	O	2	NMOD	0
+6	and	and	I-NP	CC	O	8	NMOD	-1
+7	recent	recent	I-NP	JJ	O	8	NMOD	-1
+8	advances	advance	I-NP	NNS	O	0	ROOT	-1
+9	.	.	O	.	O	8	P	-1
+
+1	After	After	B-PP	IN	O	0	ROOT	-1
+2	over	over	B-NP	IN	O	4	NMOD	-1
+3	30	30	I-NP	CD	O	2	AMOD	-1
+4	years	year	I-NP	NNS	O	1	PMOD	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	theorizing	theorize	B-NP	VBG	O	16	VMOD	-1
+7	,	,	O	,	O	16	P	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	use	use	I-NP	NN	O	16	SUB	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	12	NMOD	3	angiogenesis
+12	inhibitors	inhibitor	I-NP	NNS	O	10	PMOD	-1
+13	as	as	B-PP	IN	O	9	NMOD	-1
+14	anticancer	anticancer	B-NP	JJ	O	15	NMOD	-1
+15	therapy	therapy	I-NP	NN	O	13	PMOD	0
+16	has	have	B-VP	VBZ	O	5	SBAR	-1
+17	finally	finally	I-VP	RB	O	16	VMOD	-1
+18	moved	move	I-VP	VBN	O	16	VC	-1
+19	from	from	B-PP	IN	O	18	VMOD	-1
+20	the	the	B-NP	DT	O	21	NMOD	-1
+21	realm	realm	I-NP	NN	O	19	PMOD	-1
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	research	research	B-NP	NN	O	22	PMOD	-1
+24	to	to	B-PP	TO	O	23	NMOD	-1
+25	reality	reality	B-NP	NN	O	24	PMOD	-1
+26	.	.	O	.	O	1	P	-1
+
+1	Normal	Normal	B-NP	JJ	O	3	NMOD	-1
+2	adult	adult	I-NP	JJ	O	3	NMOD	-1
+3	vasculature	vasculature	I-NP	NN	O	4	SUB	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	generally	generally	B-ADJP	RB	O	6	AMOD	-1
+6	quiescent	quiescent	I-ADJP	JJ	O	4	PRD	-1
+7	in	in	B-PP	IN	O	6	AMOD	-1
+8	nature	nature	B-NP	NN	O	7	PMOD	-1
+9	,	,	O	,	O	6	P	-1
+10	with	with	B-PP	IN	O	6	AMOD	-1
+11	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	-1
+12	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	-1
+13	dividing	divide	B-VP	VBG	O	12	NMOD	0
+14	approximately	approximately	B-NP	RB	O	17	NMOD	-1
+15	every	every	I-NP	DT	O	17	NMOD	-1
+16	10	10	I-NP	CD	O	15	AMOD	-1
+17	years	year	I-NP	NNS	O	13	OBJ	-1
+18	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	8	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	8	P	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	growth	growth	I-NP	NN	O	8	SUB	4	growth
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	tumors	tumor	B-NP	NNS	O	6	PMOD	-1
+8	requires	require	B-VP	VBZ	O	0	ROOT	17	requires
+9	constant	constant	B-NP	JJ	O	11	NMOD	-1
+10	vascular	vascular	I-NP	JJ	O	11	NMOD	-1
+11	growth	growth	I-NP	NN	O	13	NMOD	4	growth
+12	and	and	I-NP	CC	O	13	NMOD	-1
+13	remodeling	remodeling	I-NP	NN	O	8	OBJ	7	remodeling
+14	in	in	B-PP	IN	O	8	VMOD	-1
+15	order	order	B-NP	NN	O	14	PMOD	-1
+16	for	for	B-PP	IN	O	15	NMOD	-1
+17	solid	solid	B-NP	JJ	O	18	NMOD	-1
+18	tumors	tumor	I-NP	NNS	O	16	PMOD	-1
+19	to	to	B-VP	TO	O	20	VMOD	-1
+20	grow	grow	I-VP	VB	O	8	VMOD	4	grow
+21	beyond	beyond	B-PP	IN	O	20	VMOD	-1
+22	1-2	1-2	B-NP	CD	O	23	NMOD	-1
+23	mm	mm	I-NP	NN	O	21	PMOD	-1
+24	(	(	O	(	O	26	DEP	-1
+25	3	3	B-NP	CD	O	26	DEP	-1
+26	)	)	O	)	O	23	NMOD	-1
+27	in	in	B-PP	IN	O	23	NMOD	-1
+28	size	size	B-NP	NN	O	27	PMOD	-1
+29	.	.	O	.	O	8	P	-1
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	-1
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	10	NMOD	-1
+5	(	(	O	(	O	7	DEP	-1
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	-1
+7	)	)	O	)	O	4	NMOD	-1
+8	and	and	O	CC	O	10	NMOD	-1
+9	its	its	B-NP	PRP$	O	10	NMOD	-1
+10	receptors	receptor	I-NP	NNS	O	11	SUB	-1
+11	are	be	B-VP	VBP	O	0	ROOT	-1
+12	key	key	B-NP	JJ	O	13	NMOD	-1
+13	regulators	regulator	I-NP	NNS	O	11	PRD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	the	the	B-NP	DT	O	16	NMOD	-1
+16	process	process	I-NP	NN	O	14	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	angiogenesis	angiogenesis	B-NP	NN	O	17	PMOD	3	angiogenesis
+19	,	,	O	,	O	18	P	-1
+20	which	which	B-NP	WDT	O	18	NMOD	-1
+21	makes	make	B-VP	VBZ	O	20	SBAR	-1
+22	them	them	B-NP	PRP	O	25	NMOD	-1
+23	attractive	attractive	B-NP	JJ	O	24	AMOD	-1
+24	therapeutic	therapeutic	I-NP	JJ	O	25	NMOD	-1
+25	targets	target	I-NP	NNS	O	21	OBJ	0
+26	.	.	O	.	O	11	P	-1
+
+1	A	A	B-NP	DT	O	2	NMOD	-1
+2	multitude	multitude	I-NP	NN	O	7	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	VEGF-targeted	VEGF-targeted	B-NP	JJ	O	6	NMOD	-1
+5	inhibitory	inhibitory	I-NP	JJ	O	6	NMOD	0
+6	agents	agent	I-NP	NNS	O	3	PMOD	-1
+7	are	be	B-VP	VBP	O	0	ROOT	-1
+8	currently	currently	I-VP	RB	O	7	VMOD	-1
+9	being	be	I-VP	VBG	O	7	VC	-1
+10	investigated	investigate	I-VP	VBN	O	9	VC	-1
+11	for	for	B-PP	IN	O	10	VMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	treatment	treatment	I-NP	NN	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	cancer	cancer	B-NP	NN	O	14	PMOD	-1
+16	.	.	O	.	O	7	P	-1
+
+1	This	This	B-NP	DT	O	3	NMOD	-1
+2	review	review	I-NP	NN	O	3	NMOD	-1
+3	article	article	I-NP	NN	O	4	SUB	-1
+4	focuses	focus	B-VP	VBZ	O	0	ROOT	-1
+5	on	on	B-PP	IN	O	4	VMOD	-1
+6	recent	recent	B-NP	JJ	O	7	NMOD	-1
+7	developments	development	I-NP	NNS	O	5	PMOD	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	use	use	I-NP	NN	O	8	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	angiogenesis	angiogenesis	B-NP	NN	O	13	NMOD	3	angiogenesis
+13	inhibitors	inhibitor	I-NP	NNS	O	11	PMOD	-1
+14	for	for	B-PP	IN	O	10	NMOD	-1
+15	the	the	B-NP	DT	O	16	NMOD	-1
+16	treatment	treatment	I-NP	NN	O	14	PMOD	19	treatment
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	breast	breast	B-NP	NN	O	24	NMOD	-1
+19	,	,	O	,	O	24	P	-1
+20	lung	lung	B-NP	NN	O	24	NMOD	-1
+21	,	,	O	,	O	24	P	-1
+22	and	and	O	CC	O	24	NMOD	-1
+23	colorectal	colorectal	B-NP	JJ	O	24	NMOD	-1
+24	cancers	cancer	I-NP	NNS	O	17	PMOD	-1
+25	.	.	O	.	O	4	P	-1
+

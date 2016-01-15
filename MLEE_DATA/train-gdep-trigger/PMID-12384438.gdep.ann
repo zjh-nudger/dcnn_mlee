@@ -1,0 +1,302 @@
+1	Enforced	Enforce	B-NP	VBN	O	2	NMOD	17	Enforced
+2	expression	expression	I-NP	NN	O	9	SUB	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	tissue	tissue	B-NP	NN	O	5	NMOD	0
+5	inhibitor	inhibitor	I-NP	NN	O	3	PMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	matrix	matrix	B-NP	NN	B-protein	8	NMOD	0
+8	metalloproteinase-3	metalloproteinase-3	I-NP	NN	I-protein	6	PMOD	0
+9	affects	affect	B-VP	VBZ	O	0	ROOT	16	affects
+10	functional	functional	B-NP	JJ	O	12	NMOD	0
+11	capillary	capillary	I-NP	JJ	O	12	NMOD	0
+12	morphogenesis	morphogenesis	I-NP	NN	O	9	OBJ	2	morphogenesis
+13	and	and	O	CC	O	9	VMOD	0
+14	inhibits	inhibit	B-VP	VBZ	O	9	VMOD	18	inhibits
+15	tumor	tumor	B-NP	NN	O	16	NMOD	0
+16	growth	growth	I-NP	NN	O	14	OBJ	4	growth
+17	in	in	B-PP	IN	O	14	VMOD	0
+18	a	a	B-NP	DT	O	21	NMOD	0
+19	murine	murine	I-NP	JJ	O	21	NMOD	0
+20	tumor	tumor	I-NP	NN	O	21	NMOD	0
+21	model	model	I-NP	NN	O	17	PMOD	0
+22	.	.	O	.	O	9	P	0
+
+1	Homeostasis	Homeostasis	B-NP	NN	O	6	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	extracellular	extracellular	I-NP	JJ	O	5	NMOD	0
+5	matrix	matrix	I-NP	NN	O	2	PMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	a	a	B-NP	DT	O	9	NMOD	0
+8	delicate	delicate	I-NP	JJ	O	9	NMOD	0
+9	balance	balance	I-NP	NN	O	6	PRD	0
+10	between	between	B-PP	IN	O	9	NMOD	0
+11	degradation	degradation	B-NP	NN	O	13	NMOD	6	degradation
+12	and	and	I-NP	CC	O	13	NMOD	0
+13	remodeling	remodeling	I-NP	NN	O	10	PMOD	7	remodeling
+14	,	,	O	,	O	6	P	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	balance	balance	I-NP	NN	O	17	SUB	0
+17	being	be	B-VP	VBG	O	6	VMOD	0
+18	maintained	maintain	I-VP	VBN	O	17	VC	16	maintained
+19	by	by	B-PP	IN	O	18	VMOD	0
+20	the	the	B-NP	DT	O	21	NMOD	0
+21	interaction	interaction	I-NP	NN	O	19	PMOD	15	interaction
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	activated	activate	B-NP	VBN	O	25	NMOD	17	activated
+24	matrix	matrix	I-NP	NN	B-protein	25	NMOD	0
+25	metalloproteinases	metalloproteinas	I-NP	NNS	I-protein	32	NMOD	0
+26	(	(	O	(	O	28	DEP	0
+27	MMPs	MMP	B-NP	NNS	B-protein	28	DEP	0
+28	)	)	O	)	O	25	NMOD	0
+29	and	and	O	CC	O	32	NMOD	0
+30	specific	specific	B-NP	JJ	O	32	NMOD	0
+31	tissue	tissue	I-NP	NN	O	32	NMOD	0
+32	inhibitors	inhibitor	I-NP	NNS	O	22	PMOD	0
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	matrix	matrix	B-NP	NN	B-protein	35	NMOD	0
+35	metalloproteinases	metalloproteinas	I-NP	NNS	I-protein	33	PMOD	0
+36	(	(	O	(	O	38	DEP	0
+37	TIMPs	TIMP	B-NP	NNS	B-protein	38	DEP	0
+38	)	)	O	)	O	35	NMOD	0
+39	.	.	O	.	O	6	P	0
+
+1	Up-regulation	Up-regulation	B-NP	NN	O	17	SUB	17	Up-regulation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	MMP	MMP	B-NP	NN	B-protein	4	NMOD	0
+4	activity	activity	I-NP	NN	O	2	PMOD	0
+5	,	,	O	,	O	1	P	0
+6	favoring	favor	B-VP	VBG	O	1	NMOD	0
+7	proteolytic	proteolytic	B-NP	JJ	O	8	NMOD	0
+8	degradation	degradation	I-NP	NN	O	15	NMOD	6	degradation
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	basement	basement	I-NP	NN	O	12	NMOD	0
+12	membrane	membrane	I-NP	NN	O	9	PMOD	0
+13	and	and	O	CC	O	15	NMOD	0
+14	extracellular	extracellular	B-NP	JJ	O	15	NMOD	0
+15	matrix	matrix	I-NP	NN	O	6	OBJ	0
+16	,	,	O	,	O	1	P	0
+17	has	have	B-VP	VBZ	O	0	ROOT	0
+18	been	be	I-VP	VBN	O	17	VC	0
+19	linked	link	I-VP	VBN	O	18	VC	0
+20	to	to	B-PP	TO	O	19	VMOD	0
+21	tumor	tumor	B-NP	NN	O	22	NMOD	0
+22	growth	growth	I-NP	NN	O	24	NMOD	4	growth
+23	and	and	O	CC	O	24	NMOD	0
+24	metastasis	metastasis	B-NP	NN	O	30	NMOD	14	metastasis
+25	,	,	O	,	O	30	P	0
+26	as	as	B-CONJP	RB	O	30	NMOD	0
+27	well	well	I-CONJP	RB	O	26	DEP	0
+28	as	as	I-CONJP	IN	O	26	DEP	0
+29	tumor-associated	tumor-associated	B-NP	JJ	O	30	NMOD	0
+30	angiogenesis	angiogenesis	I-NP	NN	O	20	PMOD	3	angiogenesis
+31	,	,	O	,	O	17	P	0
+32	whereas	whereas	O	IN	O	17	VMOD	0
+33	inhibition	inhibition	B-NP	NN	O	37	SUB	18	inhibition
+34	of	of	B-PP	IN	O	33	NMOD	0
+35	MMP	MMP	B-NP	NN	B-protein	36	NMOD	0
+36	activity	activity	I-NP	NN	O	34	PMOD	0
+37	appears	appear	B-VP	VBZ	O	32	SBAR	0
+38	to	to	I-VP	TO	O	39	VMOD	0
+39	restrict	restrict	I-VP	VB	O	37	VMOD	18	restrict
+40	these	these	B-NP	DT	O	41	NMOD	0
+41	processes	process	I-NP	NNS	O	39	OBJ	0
+42	.	.	O	.	O	17	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	have	have	B-VP	VBP	O	0	ROOT	0
+3	used	use	I-VP	VBN	O	2	VC	0
+4	retroviral-mediated	retroviral-mediated	B-NP	JJ	O	6	NMOD	0
+5	gene	gene	I-NP	NN	O	6	NMOD	0
+6	delivery	delivery	I-NP	NN	O	3	OBJ	0
+7	to	to	B-VP	TO	O	8	VMOD	0
+8	effect	effect	I-VP	VB	O	2	VMOD	17	effect
+9	sustained	sustained	B-NP	JJ	O	11	NMOD	0
+10	autocrine	autocrine	I-NP	JJ	O	11	NMOD	0
+11	expression	expression	I-NP	NN	O	8	OBJ	9	expression
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	TIMP-3	TIMP-3	B-NP	NN	B-protein	12	PMOD	0
+14	in	in	B-PP	IN	O	11	NMOD	0
+15	murine	murine	B-NP	JJ	B-cell_type	16	NMOD	0
+16	neuroblastoma	neuroblastoma	I-NP	NN	I-cell_type	20	NMOD	0
+17	and	and	I-NP	CC	O	20	NMOD	0
+18	melanoma	melanoma	I-NP	NN	B-cell_type	20	NMOD	0
+19	tumor	tumor	I-NP	NN	I-cell_type	20	NMOD	0
+20	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+21	in	in	B-SBAR	IN	O	8	VMOD	0
+22	order	order	O	NN	O	21	DEP	0
+23	to	to	B-VP	TO	O	21	DEP	0
+24	further	further	I-VP	RB	O	25	VMOD	0
+25	examine	examine	I-VP	VB	O	21	SBAR	0
+26	the	the	B-NP	DT	O	27	NMOD	0
+27	ability	ability	I-NP	NN	O	25	OBJ	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	TIMPs	TIMP	B-NP	NNS	B-protein	28	PMOD	0
+30	to	to	B-VP	TO	O	31	VMOD	0
+31	inhibit	inhibit	I-VP	VB	O	27	NMOD	18	inhibit
+32	angiogenesis	angiogenesis	B-NP	NN	O	31	OBJ	3	angiogenesis
+33	in	in	B-ADVP	FW	O	31	VMOD	0
+34	vivo	vivo	I-ADVP	FW	O	33	AMOD	0
+35	.	.	O	.	O	2	P	0
+
+1	Growth	Growth	B-NP	NN	O	18	SUB	4	Growth
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	both	both	B-NP	DT	O	5	NMOD	0
+4	histologic	histologic	I-NP	JJ	O	5	NMOD	0
+5	types	type	I-NP	NNS	O	2	PMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	gene-modified	gene-modified	B-NP	JJ	B-cell_type	9	NMOD	0
+8	tumor	tumor	I-NP	NN	I-cell_type	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	0
+10	in	in	B-PP	IN	O	1	NMOD	0
+11	severe	severe	B-NP	JJ	O	13	NMOD	0
+12	combined	combined	I-NP	JJ	O	13	NMOD	0
+13	immunodeficiency	immunodeficiency	I-NP	NN	O	17	NMOD	0
+14	(	(	O	(	O	16	DEP	0
+15	SCID	SCID	B-NP	NN	O	16	DEP	0
+16	)	)	O	)	O	13	NMOD	0
+17	mice	mouse	B-NP	NNS	O	10	PMOD	0
+18	was	be	B-VP	VBD	O	0	ROOT	0
+19	significantly	significantly	I-VP	RB	O	18	VMOD	0
+20	restricted	restrict	I-VP	VBN	O	18	VC	18	restricted
+21	when	when	B-ADVP	WRB	O	20	VMOD	0
+22	compared	compare	B-PP	VBN	O	21	SBAR	0
+23	with	with	B-PP	IN	O	22	VMOD	0
+24	controls	control	B-NP	NNS	O	23	PMOD	0
+25	.	.	O	.	O	18	P	0
+
+1	Grossly	Grossly	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	these	these	B-NP	DT	O	4	NMOD	0
+4	tumors	tumor	I-NP	NNS	O	5	SUB	0
+5	were	be	B-VP	VBD	O	0	ROOT	0
+6	small	small	B-ADJP	JJ	O	5	PRD	0
+7	and	and	O	CC	O	5	VMOD	0
+8	had	have	B-VP	VBD	O	5	VMOD	0
+9	few	few	B-NP	JJ	O	11	NMOD	0
+10	feeding	feeding	I-NP	NN	O	11	NMOD	0
+11	vessels	vessel	I-NP	NNS	O	8	OBJ	0
+12	.	.	O	.	O	5	P	0
+
+1	Histologic	Histologic	B-NP	JJ	O	2	NMOD	0
+2	evaluation	evaluation	I-NP	NN	O	3	SUB	0
+3	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	although	although	B-SBAR	IN	O	24	VMOD	0
+6	tumors	tumor	B-NP	NNS	O	9	SUB	0
+7	overexpressing	overexpresse	B-VP	VBG	O	6	NMOD	9	overexpressing
+8	TIMP-3	TIMP-3	B-NP	NN	B-protein	7	OBJ	0
+9	had	have	B-VP	VBD	O	5	SBAR	0
+10	an	an	B-NP	DT	O	12	NMOD	0
+11	increased	increase	I-NP	VBN	O	12	NMOD	0
+12	number	number	I-NP	NN	O	9	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	CD31	CD31	B-NP	NN	B-protein	19	NMOD	0
+15	(	(	O	(	O	17	DEP	0
+16	+	+	O	SYM	O	17	DEP	0
+17	)	)	O	)	O	14	NMOD	0
+18	endothelial	endothelial	B-NP	JJ	O	19	NMOD	0
+19	cells	cell	I-NP	NNS	O	13	PMOD	0
+20	,	,	O	,	O	24	P	0
+21	these	these	B-NP	DT	O	23	NMOD	0
+22	endothelial	endothelial	I-NP	JJ	B-cell_type	23	NMOD	0
+23	cells	cell	I-NP	NNS	I-cell_type	24	SUB	0
+24	had	have	B-VP	VBD	O	4	SBAR	0
+25	not	not	I-VP	RB	O	24	VMOD	0
+26	formed	form	I-VP	VBN	O	28	NMOD	2	formed
+27	functional	functional	B-NP	JJ	O	28	NMOD	0
+28	tubules	tubule	I-NP	NNS	O	24	OBJ	0
+29	,	,	O	,	O	24	P	0
+30	as	as	B-SBAR	IN	O	24	VMOD	0
+31	evidenced	evidence	B-VP	VBN	O	30	SBAR	0
+32	by	by	B-PP	IN	O	31	VMOD	0
+33	decreased	decrease	B-NP	VBN	O	35	NMOD	18	decreased
+34	vessel	vessel	I-NP	NN	O	35	NMOD	0
+35	continuity	continuity	I-NP	NN	O	39	NMOD	0
+36	and	and	O	CC	O	39	NMOD	0
+37	minimal	minimal	B-NP	JJ	O	39	NMOD	0
+38	pericyte	pericyte	I-NP	NN	O	39	NMOD	0
+39	recruitment	recruitment	I-NP	NN	O	32	PMOD	14	recruitment
+40	.	.	O	.	O	3	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	effect	effect	I-NP	NN	O	3	SUB	0
+3	appears	appear	B-VP	VBZ	O	0	ROOT	0
+4	to	to	I-VP	TO	O	5	VMOD	0
+5	be	be	I-VP	VB	O	3	VMOD	0
+6	mediated	mediate	I-VP	VBN	O	5	VC	0
+7	,	,	O	,	O	6	P	0
+8	in	in	B-PP	IN	O	6	VMOD	0
+9	part	part	B-NP	NN	O	8	PMOD	0
+10	,	,	O	,	O	6	P	0
+11	by	by	B-PP	IN	O	6	VMOD	0
+12	decreased	decrease	B-NP	VBN	O	13	NMOD	18	decreased
+13	expression	expression	I-NP	NN	O	11	PMOD	9	expression
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	vascular	vascular	B-NP	JJ	B-protein	20	NMOD	0
+16	endothelial	endothelial	I-NP	JJ	I-protein	20	NMOD	0
+17	(	(	O	(	I-protein	20	NMOD	0
+18	VE	VE	B-NP	NN	I-protein	20	NMOD	0
+19	)	)	O	)	I-protein	20	NMOD	0
+20	-cadherin	-cadherin	B-NP	NN	I-protein	14	PMOD	0
+21	by	by	B-PP	IN	O	13	NMOD	0
+22	endothelial	endothelial	B-NP	JJ	B-cell_type	23	NMOD	0
+23	cells	cell	I-NP	NNS	I-cell_type	21	PMOD	0
+24	in	in	B-PP	IN	O	6	VMOD	0
+25	the	the	I-PP	DT	O	26	NMOD	0
+26	presence	presence	I-PP	NN	O	24	PMOD	0
+27	of	of	I-PP	IN	O	26	NMOD	0
+28	TIMP-3	TIMP-3	B-NP	NN	B-protein	27	PMOD	0
+29	as	as	B-SBAR	IN	O	6	VMOD	0
+30	seen	see	B-VP	VBN	O	29	SBAR	0
+31	both	both	B-PP	CC	O	30	VMOD	0
+32	in	in	B-PP	IN	O	31	PMOD	0
+33	an	an	B-NP	DT	O	36	NMOD	0
+34	in	in	I-NP	FW	O	35	AMOD	0
+35	vitro	vitro	I-NP	FW	O	36	NMOD	0
+36	assay	assay	I-NP	NN	O	32	PMOD	0
+37	and	and	B-PP	CC	O	31	PMOD	0
+38	in	in	B-PP	IN	O	31	PMOD	0
+39	TIMP-3-overexpressing	TIMP-3-overexpressing	B-NP	JJ	O	40	NMOD	9	overexpressing
+40	tumors	tumor	I-NP	NNS	O	38	PMOD	0
+41	.	.	O	.	O	3	P	0
+
+1	Taken	Take	B-VP	VBN	O	6	VMOD	0
+2	together	together	B-ADVP	RB	O	1	VMOD	0
+3	,	,	O	,	O	6	P	0
+4	these	these	B-NP	DT	O	5	NMOD	0
+5	results	result	I-NP	NNS	O	6	SUB	0
+6	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+7	that	that	B-SBAR	IN	O	20	DEP	0
+8	overexpression	overexpression	B-NP	NN	O	11	SUB	9	overexpression
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	TIMP-3	TIMP-3	B-NP	NN	B-protein	9	PMOD	0
+11	can	can	B-VP	MD	O	7	SBAR	0
+12	inhibit	inhibit	I-VP	VB	O	11	VC	18	inhibit
+13	angiogenesis	angiogenesis	B-NP	NN	O	17	NMOD	3	angiogenesis
+14	and	and	O	CC	O	17	NMOD	0
+15	associated	associate	B-NP	VBN	O	17	NMOD	0
+16	tumor	tumor	I-NP	NN	O	17	NMOD	0
+17	growth	growth	I-NP	NN	O	12	OBJ	4	growth
+18	,	,	O	,	O	20	P	0
+19	and	and	O	CC	O	20	DEP	0
+20	that	that	B-SBAR	IN	O	6	VMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	antiangiogenic	antiangiogenic	I-NP	JJ	O	23	NMOD	3	angiogenic
+23	effects	effect	I-NP	NNS	O	26	SUB	18	effects
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	TIMP-3	TIMP-3	B-NP	NN	B-protein	24	PMOD	0
+26	appear	appear	B-VP	VBP	O	20	SBAR	0
+27	to	to	I-VP	TO	O	28	VMOD	0
+28	be	be	I-VP	VB	O	26	VMOD	0
+29	mediated	mediate	I-VP	VBN	O	28	VC	16	mediated
+30	through	through	B-PP	IN	O	29	VMOD	0
+31	the	the	B-NP	DT	O	32	NMOD	0
+32	inhibition	inhibition	I-NP	NN	O	30	PMOD	18	inhibition
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	functional	functional	B-NP	JJ	O	36	NMOD	0
+35	capillary	capillary	I-NP	JJ	O	36	NMOD	0
+36	morphogenesis	morphogenesis	I-NP	NN	O	33	PMOD	2	morphogenesis
+37	.	.	O	.	O	6	P	0
+

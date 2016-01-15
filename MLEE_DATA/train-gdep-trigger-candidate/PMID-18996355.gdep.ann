@@ -1,0 +1,162 @@
+1	A	A	B-NP	DT	O	6	NMOD	-1
+2	novel	novel	I-NP	JJ	O	6	NMOD	-1
+3	integrin	integrin	I-NP	NN	B-protein	6	NMOD	-1
+4	alpha5beta1	alpha5beta1	I-NP	NN	I-protein	6	NMOD	-1
+5	antagonistic	antagonistic	I-NP	JJ	O	6	NMOD	-1
+6	peptide	peptide	I-NP	NN	O	8	NMOD	-1
+7	,	,	O	,	O	8	P	-1
+8	A5-1	A5-1	B-NP	NN	B-protein	0	ROOT	-1
+9	,	,	O	,	O	8	P	-1
+10	screened	screen	B-VP	VBN	O	8	NMOD	-1
+11	by	by	B-PP	IN	O	10	VMOD	-1
+12	Protein	Protein	B-NP	NN	O	14	NMOD	-1
+13	Chip	Chip	I-NP	NN	O	14	NMOD	-1
+14	system	system	I-NP	NN	O	11	PMOD	0
+15	as	as	B-PP	IN	O	10	VMOD	-1
+16	a	a	B-NP	DT	O	19	NMOD	-1
+17	potent	potent	I-NP	JJ	O	19	NMOD	-1
+18	angiogenesis	angiogenesis	I-NP	NN	O	19	NMOD	3	angiogenesis
+19	inhibitor	inhibitor	I-NP	NN	O	15	PMOD	0
+20	.	.	O	.	O	8	P	-1
+
+1	Integrin	Integrin	B-NP	NN	B-protein	2	NMOD	-1
+2	alpha5beta1	alpha5beta1	I-NP	NN	I-protein	7	SUB	-1
+3	immobilized	immobilize	B-VP	VBN	O	2	NMOD	-1
+4	on	on	B-PP	IN	O	3	VMOD	-1
+5	a	a	B-NP	DT	O	6	NMOD	-1
+6	ProteoChip	ProteoChip	I-NP	NN	O	4	PMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	used	use	I-VP	VBN	O	7	VC	0
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	screen	screen	I-VP	VB	O	7	VMOD	-1
+11	new	new	B-NP	JJ	O	13	NMOD	-1
+12	antagonistic	antagonistic	I-NP	JJ	O	13	NMOD	-1
+13	peptides	peptide	I-NP	NNS	O	10	OBJ	-1
+14	from	from	B-PP	IN	O	10	VMOD	-1
+15	multiple	multiple	B-NP	JJ	O	17	NMOD	-1
+16	hexapeptide	hexapeptide	I-NP	NN	O	17	NMOD	-1
+17	sub-libraries	sub-library	I-NP	NNS	O	14	PMOD	-1
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	the	the	B-NP	DT	O	25	NMOD	-1
+20	positional	positional	I-NP	JJ	O	25	NMOD	-1
+21	scanning	scanning	I-NP	NN	O	25	NMOD	-1
+22	synthetic	synthetic	I-NP	JJ	O	25	NMOD	-1
+23	peptide	peptide	I-NP	NN	O	25	NMOD	-1
+24	combinatorial	combinatorial	I-NP	JJ	O	25	NMOD	-1
+25	library	library	I-NP	NN	O	18	PMOD	-1
+26	(	(	O	(	O	28	DEP	-1
+27	PS-SPCL	PS-SPCL	B-NP	NN	B-protein	28	DEP	-1
+28	)	)	O	)	O	25	NMOD	-1
+29	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	4	NMOD	-1
+2	integrin	integrin	I-NP	NN	B-protein	4	NMOD	-1
+3	alpha5beta1-Fibronectin	alpha5beta1-Fibronectin	I-NP	NN	I-protein	4	NMOD	-1
+4	interaction	interaction	I-NP	NN	O	5	SUB	15	interaction
+5	was	be	B-VP	VBD	O	0	ROOT	-1
+6	demonstrated	demonstrate	I-VP	VBN	O	5	VC	-1
+7	on	on	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	chip	chip	I-NP	NN	O	7	PMOD	-1
+10	.	.	O	.	O	5	P	-1
+
+1	A	A	B-NP	DT	O	4	NMOD	-1
+2	novel	novel	I-NP	JJ	O	4	NMOD	-1
+3	peptide	peptide	I-NP	NN	O	4	NMOD	-1
+4	ligand	ligand	I-NP	NN	O	17	SUB	-1
+5	,	,	O	,	O	17	P	-1
+6	A5-1	A5-1	B-NP	NN	B-protein	17	SUB	-1
+7	(	(	O	(	O	9	DEP	-1
+8	VILVLF	VILVLF	B-NP	NN	B-protein	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	,	,	O	,	O	6	P	-1
+11	with	with	B-PP	IN	O	6	NMOD	-1
+12	high	high	B-NP	JJ	O	13	NMOD	-1
+13	affinity	affinity	I-NP	NN	O	11	PMOD	0
+14	to	to	B-PP	TO	O	13	NMOD	-1
+15	integrin	integrin	B-NP	NN	B-protein	16	NMOD	-1
+16	alpha5beta1	alpha5beta1	I-NP	NN	I-protein	14	PMOD	-1
+17	was	be	B-VP	VBD	O	0	ROOT	-1
+18	identified	identify	I-VP	VBN	O	17	VC	-1
+19	from	from	B-PP	IN	O	18	VMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	hexapeptide	hexapeptide	I-NP	NN	B-DNA	22	NMOD	-1
+22	libraries	library	I-NP	NNS	I-DNA	19	PMOD	-1
+23	with	with	B-PP	IN	O	22	NMOD	-1
+24	this	this	B-NP	DT	O	27	NMOD	-1
+25	chip-based	chip-based	I-NP	JJ	O	27	NMOD	-1
+26	screening	screening	I-NP	NN	O	27	NMOD	-1
+27	method	method	I-NP	NN	O	23	PMOD	-1
+28	on	on	B-PP	IN	O	27	NMOD	-1
+29	the	the	B-NP	DT	O	30	NMOD	-1
+30	basis	basis	I-NP	NN	O	28	PMOD	-1
+31	of	of	B-PP	IN	O	30	NMOD	-1
+32	a	a	B-NP	DT	O	35	NMOD	-1
+33	competitive	competitive	I-NP	JJ	O	35	NMOD	-1
+34	inhibition	inhibition	I-NP	NN	O	35	NMOD	0
+35	assay	assay	I-NP	NN	O	31	PMOD	-1
+36	.	.	O	.	O	17	P	-1
+
+1	A5-1	A5-1	B-NP	NN	B-protein	2	SUB	-1
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	integrin-fibronectin	integrin-fibronectin	I-NP	JJ	O	5	NMOD	-1
+5	interaction	interaction	I-NP	NN	O	17	NMOD	15	interaction
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	a	a	B-NP	DT	O	9	NMOD	-1
+8	dose-dependent	dose-dependent	I-NP	JJ	O	9	NMOD	-1
+9	manner	manner	I-NP	NN	O	6	PMOD	-1
+10	(	(	O	(	O	17	NMOD	-1
+11	IC	IC	B-NP	NN	O	17	NMOD	-1
+12	(	(	O	(	O	14	DEP	-1
+13	50	50	B-NP	CD	O	14	DEP	-1
+14	)	)	O	)	O	11	NMOD	-1
+15	;	;	O	:	O	17	P	-1
+16	1.56+/-0.28	1.56+/-0.28	B-NP	CD	O	17	NMOD	-1
+17	microM	microM	I-NP	NN	O	2	OBJ	-1
+18	.	.	O	.	O	2	P	-1
+
+1	In	In	B-PP	IN	O	5	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	5	P	-1
+4	it	it	B-NP	PRP	O	5	SUB	-1
+5	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+6	human	human	B-NP	JJ	B-cell_type	11	NMOD	-1
+7	umbilical	umbilical	I-NP	JJ	I-cell_type	11	NMOD	-1
+8	vein	vein	I-NP	NN	I-cell_type	11	NMOD	-1
+9	endothelial	endothelial	I-NP	JJ	I-cell_type	11	NMOD	-1
+10	cell	cell	I-NP	NN	I-cell_type	11	NMOD	-1
+11	proliferation	proliferation	I-NP	NN	O	23	NMOD	1	proliferation
+12	,	,	O	,	O	23	P	-1
+13	migration	migration	B-NP	NN	O	23	NMOD	14	migration
+14	,	,	O	,	O	23	P	-1
+15	adhesion	adhesion	B-NP	NN	O	23	NMOD	15	adhesion
+16	,	,	O	,	O	23	P	-1
+17	tubular	tubular	B-NP	JJ	O	19	NMOD	-1
+18	network	network	I-NP	NN	O	19	NMOD	-1
+19	formation	formation	I-NP	NN	O	23	NMOD	2	formation
+20	,	,	O	,	O	23	P	-1
+21	and	and	O	CC	O	23	NMOD	-1
+22	bFGF-induced	bFGF-induced	B-NP	JJ	O	23	NMOD	17	induced
+23	neovascularization	neovascularization	I-NP	NN	O	5	OBJ	3	neovascularization
+24	in	in	B-PP	IN	O	23	NMOD	-1
+25	a	a	B-NP	DT	O	28	NMOD	-1
+26	chick	chick	I-NP	NN	O	28	NMOD	-1
+27	chorioallantoic	chorioallantoic	I-NP	JJ	O	28	NMOD	-1
+28	membrane	membrane	I-NP	NN	O	24	PMOD	-1
+29	.	.	O	.	O	5	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	A5-1	A5-1	B-NP	NN	B-protein	6	SUB	-1
+6	will	will	B-VP	MD	O	4	SBAR	-1
+7	be	be	I-VP	VB	O	6	VC	-1
+8	a	a	B-NP	DT	O	10	NMOD	-1
+9	potent	potent	I-NP	JJ	O	10	NMOD	-1
+10	inhibitor	inhibitor	I-NP	NN	O	7	PRD	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	neovascularization	neovascularization	B-NP	NN	O	11	PMOD	3	neovascularization
+13	.	.	O	.	O	3	P	-1
+

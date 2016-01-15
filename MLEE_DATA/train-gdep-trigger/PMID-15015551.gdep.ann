@@ -1,0 +1,105 @@
+1	Morphogenesis	Morphogenesis	B-NP	NN	O	0	ROOT	2	Morphogenesis
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	embryonic	embryonic	B-NP	JJ	B-cell_type	5	NMOD	0
+4	CNS	CNS	I-NP	NN	I-cell_type	5	NMOD	0
+5	vessels	vessel	I-NP	NNS	I-cell_type	2	PMOD	0
+6	.	.	O	.	O	1	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	chapter	chapter	I-NP	NN	O	3	SUB	0
+3	focuses	focus	B-VP	VBZ	O	0	ROOT	0
+4	on	on	B-PP	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	morphology	morphology	I-NP	NN	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	blood	blood	B-NP	NN	O	10	NMOD	0
+9	vessel	vessel	I-NP	NN	O	10	NMOD	0
+10	formation	formation	I-NP	NN	O	7	PMOD	2	formation
+11	in	in	B-PP	IN	O	6	NMOD	0
+12	and	and	I-PP	CC	O	11	PMOD	0
+13	around	around	I-PP	IN	O	11	PMOD	0
+14	the	the	B-NP	DT	O	18	NMOD	0
+15	early	early	I-NP	JJ	O	18	NMOD	0
+16	central	central	I-NP	JJ	O	18	NMOD	0
+17	nervous	nervous	I-NP	JJ	O	18	NMOD	0
+18	system	system	I-NP	NN	O	11	PMOD	0
+19	(	(	O	(	O	28	DEP	0
+20	CNS	CNS	B-NP	NN	B-protein	27	NMOD	0
+21	,	,	O	,	O	27	P	0
+22	i.e.	i.e.	B-NP	FW	O	27	NMOD	0
+23	,	,	I-NP	,	O	27	P	0
+24	brain	brain	I-NP	NN	O	27	NMOD	0
+25	and	and	I-NP	CC	O	27	NMOD	0
+26	spinal	spinal	I-NP	JJ	O	27	NMOD	0
+27	cord	cord	I-NP	NN	O	28	DEP	0
+28	)	)	O	)	O	18	NMOD	0
+29	of	of	B-PP	IN	O	18	NMOD	0
+30	avian	avian	B-NP	JJ	O	31	NMOD	0
+31	embryos	embryo	I-NP	NNS	O	29	PMOD	0
+32	.	.	O	.	O	3	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	discuss	discuss	B-VP	VBP	O	0	ROOT	0
+3	cell	cell	B-NP	NN	B-cell_type	4	NMOD	0
+4	lineages	lineage	I-NP	NNS	I-cell_type	8	NMOD	0
+5	,	,	O	,	O	8	P	0
+6	proliferation	proliferation	B-NP	NN	O	8	NMOD	1	proliferation
+7	and	and	O	CC	O	8	NMOD	0
+8	interactions	interaction	B-NP	NNS	O	2	OBJ	15	interactions
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	endothelial	endothelial	B-NP	JJ	B-cell_type	11	NMOD	0
+11	cells	cell	I-NP	NNS	I-cell_type	20	NMOD	0
+12	,	,	O	,	O	20	P	0
+13	pericytes	pericyte	B-NP	NNS	B-cell_type	17	NMOD	0
+14	and	and	O	CC	O	17	NMOD	0
+15	smooth	smooth	B-NP	JJ	B-cell_type	17	NMOD	0
+16	muscle	muscle	I-NP	NN	I-cell_type	17	NMOD	0
+17	cells	cell	I-NP	NNS	I-cell_type	20	NMOD	0
+18	,	,	O	,	O	20	P	0
+19	and	and	O	CC	O	20	NMOD	0
+20	macrophages	macrophage	B-NP	NNS	B-cell_type	9	PMOD	0
+21	.	.	O	.	O	2	P	0
+
+1	Due	Due	B-PP	JJ	O	7	VMOD	0
+2	to	to	I-PP	TO	O	1	PMOD	0
+3	space	space	B-NP	NN	O	4	NMOD	0
+4	limitations	limitation	I-NP	NNS	O	2	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	can	can	B-VP	MD	O	0	ROOT	0
+8	not	not	I-VP	RB	O	7	VMOD	0
+9	review	review	I-VP	VB	O	7	VC	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	molecular	molecular	I-NP	JJ	O	12	NMOD	0
+12	control	control	I-NP	NN	O	9	OBJ	16	control
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	CNS	CNS	B-NP	NN	B-protein	15	NMOD	0
+15	angiogenesis	angiogenesis	I-NP	NN	O	13	PMOD	3	angiogenesis
+16	,	,	O	,	O	7	P	0
+17	but	but	O	CC	O	7	VMOD	0
+18	refer	refer	B-VP	VBP	O	7	VMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	reader	reader	I-NP	NN	O	18	OBJ	0
+21	to	to	B-PP	TO	O	20	NMOD	0
+22	other	other	B-NP	JJ	O	23	NMOD	0
+23	chapters	chapter	I-NP	NNS	O	21	PMOD	0
+24	in	in	B-PP	IN	O	18	VMOD	0
+25	this	this	B-NP	DT	O	26	NMOD	0
+26	book	book	I-NP	NN	O	24	PMOD	0
+27	and	and	B-PP	CC	O	24	PMOD	0
+28	to	to	B-PP	TO	O	24	PMOD	0
+29	recent	recent	B-NP	JJ	O	30	NMOD	0
+30	publications	publication	I-NP	NNS	O	24	PMOD	0
+31	on	on	B-PP	IN	O	30	NMOD	0
+32	the	the	B-NP	DT	O	33	NMOD	0
+33	assembly	assembly	I-NP	NN	O	31	PMOD	2	assembly
+34	of	of	B-PP	IN	O	33	NMOD	0
+35	the	the	B-NP	DT	O	36	NMOD	0
+36	vasculature	vasculature	I-NP	NN	O	34	PMOD	0
+37	(	(	O	(	O	41	DEP	0
+38	1	1	B-NP	CD	O	40	NMOD	0
+39	,	,	I-NP	,	O	40	P	0
+40	2	2	I-NP	CD	O	41	DEP	0
+41	)	)	O	)	O	36	NMOD	0
+42	.	.	O	.	O	7	P	0
+

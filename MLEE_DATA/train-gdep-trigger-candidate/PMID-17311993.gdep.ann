@@ -1,0 +1,194 @@
+1	Inhibition	Inhibition	B-NP	NN	O	5	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	Dll4-mediated	Dll4-mediated	B-NP	JJ	O	4	NMOD	17	mediated
+4	signaling	signaling	I-NP	NN	O	2	PMOD	0
+5	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+6	proliferation	proliferation	B-NP	NN	O	5	OBJ	4	proliferation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	immature	immature	B-NP	JJ	B-cell_type	9	NMOD	-1
+9	vessels	vessel	I-NP	NNS	I-cell_type	7	PMOD	-1
+10	and	and	O	CC	O	5	VMOD	-1
+11	results	result	B-VP	VBZ	O	5	VMOD	0
+12	in	in	B-PP	IN	O	11	VMOD	-1
+13	poor	poor	B-NP	JJ	O	15	NMOD	-1
+14	tissue	tissue	I-NP	NN	O	15	NMOD	-1
+15	perfusion	perfusion	I-NP	NN	O	12	PMOD	0
+16	.	.	O	.	O	5	P	-1
+
+1	Vascular	Vascular	B-NP	JJ	O	2	NMOD	-1
+2	development	development	I-NP	NN	O	3	SUB	2	development
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	dependent	dependent	B-ADJP	JJ	O	3	PRD	17	dependent
+5	on	on	B-PP	IN	O	4	AMOD	-1
+6	various	various	B-NP	JJ	O	11	NMOD	-1
+7	growth	growth	I-NP	NN	B-protein	8	NMOD	0
+8	factors	factor	I-NP	NNS	I-protein	6	NMOD	-1
+9	and	and	O	CC	O	11	NMOD	-1
+10	certain	certain	B-NP	JJ	O	11	NMOD	-1
+11	modifiers	modifier	I-NP	NNS	O	5	PMOD	-1
+12	critical	critical	B-ADJP	JJ	O	11	NMOD	0
+13	for	for	B-PP	IN	O	12	AMOD	-1
+14	providing	provide	B-VP	VBG	O	13	PMOD	-1
+15	arterial	arterial	B-NP	JJ	O	18	NMOD	-1
+16	or	or	I-NP	CC	O	18	NMOD	-1
+17	venous	venous	I-NP	JJ	O	18	NMOD	-1
+18	identity	identity	I-NP	NN	O	14	OBJ	-1
+19	,	,	O	,	O	33	P	-1
+20	interaction	interaction	B-NP	NN	O	33	NMOD	15	interaction
+21	with	with	B-PP	IN	O	20	NMOD	-1
+22	the	the	B-NP	DT	O	24	NMOD	-1
+23	surrounding	surround	I-NP	VBG	O	24	NMOD	-1
+24	stroma	stroma	I-NP	NN	O	26	NMOD	-1
+25	and	and	I-NP	CC	O	26	NMOD	-1
+26	tissues	tissue	I-NP	NNS	O	21	PMOD	-1
+27	,	,	O	,	O	33	P	-1
+28	hierarchic	hierarchic	B-NP	JJ	O	30	NMOD	-1
+29	network	network	I-NP	NN	O	30	NMOD	-1
+30	formation	formation	I-NP	NN	O	33	NMOD	2	formation
+31	,	,	O	,	O	33	P	-1
+32	and	and	O	CC	O	33	NMOD	-1
+33	recruitment	recruitment	B-NP	NN	O	3	VMOD	14	recruitment
+34	of	of	B-PP	IN	O	33	NMOD	-1
+35	pericytes	pericyte	B-NP	NNS	B-cell_type	34	PMOD	-1
+36	.	.	O	.	O	3	P	-1
+
+1	Notch	Notch	B-NP	NN	B-protein	2	NMOD	-1
+2	receptors	receptor	I-NP	NNS	I-protein	4	NMOD	-1
+3	and	and	I-NP	CC	O	4	NMOD	-1
+4	ligands	ligand	I-NP	NNS	O	10	SUB	-1
+5	(	(	O	(	O	9	DEP	-1
+6	Jagged	Jagged	B-NP	JJ	O	8	NMOD	-1
+7	and	and	I-NP	CC	O	8	NMOD	-1
+8	Delta-like	Delta-like	I-NP	JJ	O	9	DEP	-1
+9	)	)	O	)	O	4	NMOD	-1
+10	play	play	B-VP	VBP	O	0	ROOT	0
+11	a	a	B-NP	DT	O	13	NMOD	-1
+12	critical	critical	I-NP	JJ	O	13	NMOD	0
+13	role	role	I-NP	NN	O	10	OBJ	0
+14	in	in	B-PP	IN	O	10	VMOD	-1
+15	this	this	B-NP	DT	O	16	NMOD	-1
+16	process	process	I-NP	NN	O	14	PMOD	-1
+17	in	in	B-PP	IN	O	10	VMOD	-1
+18	addition	addition	B-NP	NN	O	17	PMOD	0
+19	to	to	B-PP	TO	O	18	NMOD	-1
+20	VEGF	VEGF	B-NP	NN	B-protein	19	PMOD	-1
+21	.	.	O	.	O	10	P	-1
+
+1	Dll4	Dll4	B-NP	NN	B-protein	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	one	one	B-NP	CD	O	2	PRD	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	Notch	Notch	I-NP	NN	B-protein	7	NMOD	-1
+7	ligands	ligand	I-NP	NNS	I-protein	4	PMOD	-1
+8	that	that	B-NP	WDT	O	3	NMOD	-1
+9	regulates	regulate	B-VP	VBZ	O	8	SBAR	16	regulates
+10	arterial	arterial	B-NP	JJ	O	14	NMOD	-1
+11	specification	specification	I-NP	NN	O	14	NMOD	2	specification
+12	and	and	I-NP	CC	O	14	NMOD	-1
+13	maturation	maturation	I-NP	NN	O	14	NMOD	2	maturation
+14	events	event	I-NP	NNS	O	9	OBJ	-1
+15	.	.	O	.	O	2	P	-1
+
+1	In	In	B-PP	IN	O	7	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	current	current	I-NP	JJ	O	4	NMOD	-1
+4	study	study	I-NP	NN	O	1	PMOD	-1
+5	,	,	O	,	O	7	P	-1
+6	we	we	B-NP	PRP	O	7	SUB	-1
+7	have	have	B-VP	VBP	O	0	ROOT	-1
+8	shown	show	I-VP	VBN	O	7	VC	-1
+9	that	that	B-SBAR	IN	O	8	VMOD	-1
+10	loss	loss	B-NP	NN	O	28	SUB	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	function	function	B-NP	NN	O	11	PMOD	-1
+13	by	by	B-PP	IN	O	10	NMOD	-1
+14	either	either	B-NP	CC	O	19	NMOD	-1
+15	targeted	target	I-NP	VBN	O	19	NMOD	0
+16	allele	allele	I-NP	NN	O	17	NMOD	-1
+17	deletion	deletion	I-NP	NN	O	19	NMOD	0
+18	or	or	I-NP	CC	O	19	NMOD	-1
+19	use	use	I-NP	NN	O	13	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	a	a	B-NP	DT	O	23	NMOD	-1
+22	soluble	soluble	I-NP	JJ	O	23	NMOD	-1
+23	form	form	I-NP	NN	O	20	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	Dll4	Dll4	B-NP	NN	B-protein	27	NMOD	-1
+26	extracellular	extracellular	I-NP	JJ	I-protein	27	NMOD	-1
+27	domain	domain	I-NP	NN	I-protein	24	PMOD	-1
+28	leads	lead	B-VP	VBZ	O	9	SBAR	17	leads
+29	to	to	B-PP	TO	O	28	VMOD	-1
+30	inhibition	inhibition	B-NP	NN	O	29	PMOD	18	inhibition
+31	of	of	B-PP	IN	O	30	NMOD	-1
+32	Notch	Notch	B-NP	NN	O	33	NMOD	-1
+33	signaling	signaling	I-NP	NN	O	31	PMOD	0
+34	,	,	O	,	O	28	P	-1
+35	resulting	result	B-VP	VBG	O	28	VMOD	0
+36	in	in	B-PP	IN	O	35	VMOD	-1
+37	increased	increase	B-NP	VBN	O	39	NMOD	17	increased
+38	vascular	vascular	I-NP	JJ	O	39	NMOD	-1
+39	proliferation	proliferation	I-NP	NN	O	42	NMOD	4	proliferation
+40	but	but	O	CC	O	42	NMOD	-1
+41	defective	defective	B-NP	JJ	O	42	NMOD	18	defective
+42	maturation	maturation	I-NP	NN	O	36	PMOD	2	maturation
+43	.	.	O	.	O	7	P	-1
+
+1	Newly	Newly	B-ADVP	RB	O	2	AMOD	-1
+2	forming	form	B-VP	VBG	O	4	SUB	2	forming
+3	vessels	vessel	B-NP	NNS	O	2	OBJ	-1
+4	have	have	B-VP	VBP	O	15	VMOD	-1
+5	thin	thin	B-NP	JJ	O	6	NMOD	-1
+6	caliber	caliber	I-NP	NN	O	12	NMOD	-1
+7	,	,	O	,	O	12	P	-1
+8	a	a	B-NP	DT	O	12	NMOD	-1
+9	markedly	markedly	I-NP	RB	O	10	AMOD	-1
+10	reduced	reduce	I-NP	VBN	O	12	NMOD	18	reduced
+11	vessel	vessel	I-NP	NN	O	12	NMOD	-1
+12	lumen	lumen	I-NP	NN	O	4	OBJ	-1
+13	,	,	O	,	O	4	P	-1
+14	markedly	markedly	B-ADVP	RB	O	15	VMOD	-1
+15	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+16	pericyte	pericyte	B-NP	NN	O	17	NMOD	-1
+17	recruitment	recruitment	I-NP	NN	O	15	OBJ	14	recruitment
+18	,	,	O	,	O	22	P	-1
+19	and	and	O	CC	O	22	NMOD	-1
+20	deficient	deficient	B-NP	JJ	O	22	NMOD	0
+21	vascular	vascular	I-NP	JJ	O	22	NMOD	-1
+22	perfusion	perfusion	I-NP	NN	O	15	VMOD	0
+23	.	.	O	.	O	15	P	-1
+
+1	sDll4	sDll4	B-NP	NN	O	3	SUB	-1
+2	similarly	similarly	B-ADVP	RB	O	3	VMOD	-1
+3	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+4	defective	defective	B-NP	JJ	O	6	NMOD	18	defective
+5	vascular	vascular	I-NP	JJ	O	6	NMOD	-1
+6	response	response	I-NP	NN	O	3	OBJ	2	response
+7	in	in	B-PP	IN	O	3	VMOD	-1
+8	tumor	tumor	B-NP	NN	O	9	NMOD	-1
+9	implants	implant	I-NP	NNS	O	7	PMOD	-1
+10	leading	lead	B-VP	VBG	O	9	NMOD	17	leading
+11	to	to	B-PP	TO	O	10	VMOD	-1
+12	reduced	reduce	B-NP	VBN	O	14	NMOD	18	reduced
+13	tumor	tumor	I-NP	NN	O	14	NMOD	-1
+14	growth	growth	I-NP	NN	O	11	PMOD	4	growth
+15	.	.	O	.	O	3	P	-1
+
+1	Interference	Interference	B-NP	NN	O	5	SUB	0
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	Dll4-Notch	Dll4-Notch	B-NP	NN	O	4	NMOD	-1
+4	signaling	signaling	I-NP	NN	O	2	PMOD	0
+5	may	may	B-VP	MD	O	0	ROOT	-1
+6	be	be	I-VP	VB	O	5	VC	-1
+7	particularly	particularly	B-ADJP	RB	O	8	AMOD	-1
+8	desirable	desirable	I-ADJP	JJ	O	6	PRD	-1
+9	in	in	B-PP	IN	O	8	AMOD	-1
+10	tumors	tumor	B-NP	NNS	O	9	PMOD	-1
+11	that	that	B-NP	WDT	O	10	NMOD	-1
+12	have	have	B-VP	VBP	O	11	SBAR	-1
+13	highly	highly	I-VP	RB	O	12	VMOD	-1
+14	induced	induce	I-VP	VBN	O	12	VC	17	induced
+15	Dll4-Notch	Dll4-Notch	B-NP	NN	O	16	NMOD	-1
+16	pathway	pathway	I-NP	NN	O	14	OBJ	0
+17	.	.	O	.	O	5	P	-1
+

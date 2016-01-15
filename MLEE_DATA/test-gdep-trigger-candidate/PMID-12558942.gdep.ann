@@ -1,0 +1,296 @@
+1	Enhanced	Enhance	B-NP	VBN	O	2	NMOD	17	Enhanced
+2	expression	expression	I-NP	NN	O	0	ROOT	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	vascular	vascular	B-NP	JJ	B-protein	7	NMOD	-1
+5	endothelial	endothelial	I-NP	JJ	I-protein	7	NMOD	-1
+6	growth	growth	I-NP	NN	I-protein	7	NMOD	0
+7	factor	factor	I-NP	NN	I-protein	3	PMOD	-1
+8	by	by	B-PP	IN	O	2	NMOD	-1
+9	periodontal	periodontal	B-NP	JJ	O	10	NMOD	-1
+10	pathogens	pathogen	I-NP	NNS	O	8	PMOD	-1
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	gingival	gingival	B-NP	JJ	B-cell_type	13	NMOD	-1
+13	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	11	PMOD	-1
+14	.	.	O	.	O	2	P	-1
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	-1
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	8	SUB	-1
+5	(	(	O	(	O	7	DEP	-1
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	-1
+7	)	)	O	)	O	4	NMOD	-1
+8	has	have	B-VP	VBZ	O	0	ROOT	-1
+9	recently	recently	I-VP	RB	O	8	VMOD	-1
+10	attracted	attract	I-VP	VBN	O	8	VC	-1
+11	attention	attention	B-NP	NN	O	10	OBJ	-1
+12	as	as	B-PP	IN	O	10	VMOD	-1
+13	a	a	B-NP	DT	O	15	NMOD	-1
+14	potent	potent	I-NP	JJ	O	15	NMOD	-1
+15	inducer	inducer	I-NP	NN	O	12	PMOD	17	inducer
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	vascular	vascular	B-NP	JJ	O	18	NMOD	-1
+18	permeability	permeability	I-NP	NN	O	20	NMOD	-1
+19	and	and	I-NP	CC	O	20	NMOD	-1
+20	angiogenesis	angiogenesis	I-NP	NN	O	16	PMOD	3	angiogenesis
+21	.	.	O	.	O	8	P	-1
+
+1	Aberrant	Aberrant	B-NP	JJ	O	2	NMOD	16	Aberrant
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	often	often	I-VP	RB	O	3	VMOD	-1
+5	associated	associate	I-VP	VBN	O	3	VC	16	associated
+6	with	with	B-PP	IN	O	5	VMOD	-1
+7	lesion	lesion	B-NP	NN	O	8	NMOD	-1
+8	formation	formation	I-NP	NN	O	6	PMOD	2	formation
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	chronic	chronic	B-NP	JJ	O	11	NMOD	-1
+11	periodontitis	periodontitis	I-NP	NN	O	9	PMOD	-1
+12	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	aim	aim	I-NP	NN	O	7	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	present	present	I-NP	JJ	O	6	NMOD	0
+6	study	study	I-NP	NN	O	3	PMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	to	to	B-VP	TO	O	9	VMOD	-1
+9	investigate	investigate	I-VP	VB	O	7	PRD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	properties	property	I-NP	NNS	O	9	OBJ	0
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	VEGF	VEGF	B-NP	NN	B-protein	14	NMOD	-1
+14	expression	expression	I-NP	NN	O	12	PMOD	9	expression
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	human	human	B-NP	JJ	B-cell_type	18	NMOD	-1
+17	gingival	gingival	I-NP	JJ	I-cell_type	18	NMOD	-1
+18	fibroblasts	fibroblast	I-NP	NNS	I-cell_type	22	NMOD	-1
+19	(	(	O	(	O	21	DEP	-1
+20	HGF	HGF	B-NP	NN	B-protein	21	DEP	-1
+21	)	)	O	)	O	18	NMOD	-1
+22	culture	culture	B-NP	NN	O	15	PMOD	0
+23	.	.	O	.	O	7	P	-1
+
+1	HGF	HGF	B-NP	NN	B-protein	2	SUB	-1
+2	were	be	B-VP	VBD	O	0	ROOT	-1
+3	stimulated	stimulate	I-VP	VBN	O	2	VC	17	stimulated
+4	with	with	B-PP	IN	O	3	VMOD	-1
+5	lipopolysaccharide	lipopolysaccharide	B-NP	NN	O	17	NMOD	-1
+6	(	(	O	(	O	8	DEP	-1
+7	LPS	LPS	B-NP	NN	O	8	DEP	-1
+8	)	)	O	)	O	5	NMOD	-1
+9	,	,	O	,	O	17	P	-1
+10	vesicle	vesicle	B-NP	NN	O	17	NMOD	-1
+11	(	(	O	(	O	13	DEP	-1
+12	Ve	Ve	B-NP	NN	O	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	and	and	O	CC	O	17	NMOD	-1
+15	outer	outer	B-NP	JJ	O	17	NMOD	-1
+16	membrane	membrane	I-NP	NN	O	17	NMOD	-1
+17	protein	protein	I-NP	NN	O	4	PMOD	-1
+18	(	(	O	(	O	20	DEP	-1
+19	OMP	OMP	B-NP	NN	B-protein	20	DEP	-1
+20	)	)	O	)	O	17	NMOD	-1
+21	from	from	B-PP	IN	O	17	NMOD	-1
+22	Actinobacillus	Actinobacillus	B-NP	NN	O	23	NMOD	-1
+23	actinomycetemcomitans	actinomycetemcomitan	I-NP	NNS	O	26	NMOD	-1
+24	and	and	O	CC	O	26	NMOD	-1
+25	Porphyromonas	Porphyromonas	B-NP	NN	O	26	NMOD	-1
+26	gingivalis	gingivalis	I-NP	NN	O	21	PMOD	-1
+27	.	.	O	.	O	2	P	-1
+
+1	HGF	HGF	B-NP	NN	B-protein	3	SUB	-1
+2	constitutively	constitutively	B-ADVP	RB	O	3	VMOD	-1
+3	produced	produce	B-VP	VBD	O	7	VMOD	9	produced
+4	VEGF	VEGF	B-NP	NN	B-protein	6	NMOD	-1
+5	and	and	I-NP	CC	O	6	NMOD	-1
+6	levels	level	I-NP	NNS	O	7	SUB	-1
+7	were	be	B-VP	VBD	O	0	ROOT	-1
+8	significantly	significantly	I-VP	RB	O	7	VMOD	-1
+9	enhanced	enhance	I-VP	VBN	O	7	VC	17	enhanced
+10	(	(	O	(	O	15	DEP	-1
+11	P	P	B-NP	NN	O	13	SUB	-1
+12	less	less	B-ADJP	JJR	O	13	AMOD	-1
+13	than	than	B-PP	IN	O	15	DEP	-1
+14	0.01	0.01	B-NP	CD	O	13	AMOD	-1
+15	)	)	O	)	O	9	VMOD	-1
+16	by	by	B-PP	IN	O	9	VMOD	-1
+17	stimulation	stimulation	B-NP	NN	O	27	NMOD	17	stimulation
+18	with	with	B-PP	IN	O	17	NMOD	-1
+19	Ve	Ve	B-NP	NN	O	21	NMOD	-1
+20	and	and	I-NP	CC	O	21	NMOD	-1
+21	OMP	OMP	I-NP	NN	B-protein	18	PMOD	-1
+22	from	from	B-PP	IN	O	21	NMOD	-1
+23	A.	A.	B-NP	NN	O	24	NMOD	-1
+24	actinomycetemcomitans	actinomycetemcomitan	I-NP	NNS	O	22	PMOD	-1
+25	and	and	O	CC	O	27	NMOD	-1
+26	P.	P.	B-NP	NNP	O	27	NMOD	-1
+27	gingivalis	gingivalis	I-NP	NN	O	16	PMOD	-1
+28	at	at	B-PP	IN	O	27	NMOD	-1
+29	concentrations	concentration	B-NP	NNS	O	28	PMOD	-1
+30	of	of	B-PP	IN	O	29	NMOD	-1
+31	10	10	B-NP	CD	O	32	NMOD	-1
+32	microg/ml	microg/ml	I-NP	NN	O	30	PMOD	-1
+33	or	or	O	CC	O	34	AMOD	-1
+34	higher	high	B-ADVP	JJR	O	32	NMOD	-1
+35	.	.	O	.	O	7	P	-1
+
+1	On	On	B-PP	IN	O	8	VMOD	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	other	other	I-NP	JJ	O	4	NMOD	-1
+4	hand	hand	I-NP	NN	O	1	PMOD	-1
+5	,	,	O	,	O	8	P	-1
+6	VEGF	VEGF	B-NP	NN	B-protein	7	NMOD	-1
+7	levels	level	I-NP	NNS	O	8	SUB	-1
+8	were	be	B-VP	VBD	O	0	ROOT	-1
+9	not	not	I-VP	RB	O	8	VMOD	-1
+10	increased	increase	I-VP	VBN	O	8	VC	17	increased
+11	by	by	B-PP	IN	O	10	VMOD	-1
+12	LPS	LPS	B-NP	NN	O	13	NMOD	-1
+13	stimulation	stimulation	I-NP	NN	O	11	PMOD	0
+14	.	.	O	.	O	8	P	-1
+
+1	VEGF	VEGF	B-NP	NN	B-RNA	3	NMOD	-1
+2	mRNA	mRNA	I-NP	NN	I-RNA	3	NMOD	0
+3	expression	expression	I-NP	NN	O	4	SUB	10	expression
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	also	also	I-VP	RB	O	4	VMOD	-1
+6	observed	observe	I-VP	VBN	O	4	VC	0
+7	in	in	B-PP	IN	O	6	VMOD	-1
+8	Ve-	Ve-	B-NP	NN	O	11	NMOD	-1
+9	and	and	O	CC	O	11	NMOD	-1
+10	OMP-stimulated	OMP-stimulated	B-NP	JJ	O	11	NMOD	17	stimulated
+11	HGF	HGF	I-NP	NN	B-protein	7	PMOD	-1
+12	.	.	O	.	O	4	P	-1
+
+1	A	A	B-NP	DT	O	4	NMOD	-1
+2	vascular	vascular	I-NP	JJ	O	4	NMOD	-1
+3	permeability	permeability	I-NP	NN	O	4	NMOD	-1
+4	enhancement	enhancement	I-NP	NN	O	8	NMOD	17	enhancement
+5	(	(	O	(	O	7	DEP	-1
+6	VPE	VPE	B-NP	NN	O	7	DEP	-1
+7	)	)	O	)	O	4	NMOD	-1
+8	assay	assay	B-NP	NN	O	9	SUB	-1
+9	was	be	B-VP	VBD	O	0	ROOT	-1
+10	performed	perform	I-VP	VBN	O	9	VC	-1
+11	using	use	B-VP	VBG	O	10	VMOD	-1
+12	guinea	guinea	B-NP	NN	O	13	NMOD	-1
+13	pigs	pig	I-NP	NNS	O	11	OBJ	-1
+14	to	to	B-VP	TO	O	15	VMOD	-1
+15	ascertain	ascertain	I-VP	VB	O	11	VMOD	-1
+16	whether	whether	B-SBAR	IN	O	15	VMOD	-1
+17	supernatant	supernatant	B-NP	NN	O	25	SUB	-1
+18	from	from	B-PP	IN	O	17	NMOD	-1
+19	cultures	culture	B-NP	NNS	O	18	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	Ve-	Ve-	B-NP	NN	O	24	NMOD	-1
+22	and	and	O	CC	O	24	NMOD	-1
+23	OMP-stimulated	OMP-stimulated	B-NP	JJ	O	24	NMOD	17	stimulated
+24	HGF	HGF	I-NP	NN	B-protein	20	PMOD	-1
+25	enhance	enhance	B-VP	VBP	O	16	SBAR	17	enhance
+26	vascular	vascular	B-NP	JJ	O	27	NMOD	-1
+27	permeability	permeability	I-NP	NN	O	25	OBJ	-1
+28	in	in	B-ADVP	FW	O	25	VMOD	-1
+29	vivo	vivo	I-ADVP	FW	O	28	AMOD	-1
+30	.	.	O	.	O	9	P	-1
+
+1	Supernatant	Supernatant	B-ADJP	JJ	O	10	VMOD	-1
+2	from	from	B-PP	IN	O	1	AMOD	-1
+3	cultures	culture	B-NP	NNS	O	2	PMOD	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	Ve-	Ve-	B-NP	NN	O	8	NMOD	-1
+6	and	and	O	CC	O	8	NMOD	-1
+7	OMP-stimulated	OMP-stimulated	B-NP	JJ	O	8	NMOD	17	stimulated
+8	HGF	HGF	I-NP	NN	B-protein	4	PMOD	-1
+9	strongly	strongly	B-ADVP	RB	O	10	VMOD	-1
+10	induced	induce	B-VP	VBD	O	0	ROOT	0
+11	VPE	VPE	B-NP	NN	B-protein	10	OBJ	-1
+12	.	.	O	.	O	10	P	-1
+
+1	This	This	B-NP	DT	O	2	SUB	-1
+2	was	be	B-VP	VBD	O	0	ROOT	-1
+3	markedly	markedly	I-VP	RB	O	2	VMOD	-1
+4	suppressed	suppress	I-VP	VBN	O	2	VC	0
+5	upon	upon	B-PP	IN	O	4	VMOD	-1
+6	simultaneous	simultaneous	B-NP	JJ	O	7	NMOD	-1
+7	injection	injection	I-NP	NN	O	5	PMOD	19	injection
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	anti-VEGF	anti-VEGF	B-NP	JJ	B-protein	11	NMOD	-1
+10	polyclonal	polyclonal	I-NP	JJ	I-protein	11	NMOD	-1
+11	antibodies	antibody	I-NP	NNS	I-protein	8	PMOD	-1
+12	with	with	B-PP	IN	O	7	NMOD	-1
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	supernatant	supernatant	I-NP	NN	O	12	PMOD	-1
+15	.	.	O	.	O	2	P	-1
+
+1	Heating	Heating	B-NP	NN	O	4	NMOD	-1
+2	and	and	I-NP	CC	O	4	NMOD	-1
+3	protease	protease	I-NP	NN	B-protein	4	NMOD	-1
+4	treatment	treatment	I-NP	NN	O	8	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	stimulants	stimulant	I-NP	NNS	O	5	PMOD	-1
+8	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+9	the	the	B-NP	DT	O	12	NMOD	-1
+10	VEGF	VEGF	I-NP	NN	B-protein	12	NMOD	-1
+11	enhancing	enhance	B-VP	VBG	O	12	NMOD	17	enhancing
+12	levels	level	B-NP	NNS	O	8	OBJ	-1
+13	in	in	B-PP	IN	O	8	VMOD	-1
+14	Ve	Ve	B-NP	NN	O	16	NMOD	-1
+15	and	and	O	CC	O	16	NMOD	-1
+16	OMP	OMP	B-NP	NN	O	13	PMOD	-1
+17	in	in	B-ADVP	FW	O	8	VMOD	-1
+18	vitro	vitro	I-ADVP	FW	O	17	AMOD	-1
+19	.	.	O	.	O	8	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	Ve	Ve	B-NP	NN	O	7	NMOD	-1
+6	and	and	I-NP	CC	O	7	NMOD	-1
+7	OMP	OMP	I-NP	NN	B-protein	8	SUB	-1
+8	may	may	B-VP	MD	O	4	SBAR	-1
+9	be	be	I-VP	VB	O	8	VC	-1
+10	crucial	crucial	B-NP	JJ	O	13	AMOD	-1
+11	heat-labile	heat-labile	I-NP	JJ	O	13	AMOD	-1
+12	and	and	I-NP	CC	O	13	AMOD	-1
+13	protease-sensitive	protease-sensitive	I-NP	JJ	O	14	NMOD	-1
+14	components	component	I-NP	NNS	O	9	PRD	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	periodontal	periodontal	B-NP	JJ	O	17	NMOD	-1
+17	pathogens	pathogen	I-NP	NNS	O	15	PMOD	-1
+18	that	that	B-NP	WDT	O	17	NMOD	-1
+19	enhance	enhance	B-VP	VBP	O	18	SBAR	17	enhance
+20	VEGF	VEGF	B-NP	NN	B-protein	21	NMOD	-1
+21	expression	expression	I-NP	NN	O	19	OBJ	9	expression
+22	.	.	O	.	O	3	P	-1
+
+1	In	In	B-PP	IN	O	5	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	5	P	-1
+4	VEGF	VEGF	B-NP	NN	B-protein	5	SUB	-1
+5	might	might	B-VP	MD	O	0	ROOT	-1
+6	be	be	I-VP	VB	O	5	VC	-1
+7	associated	associate	I-VP	VBN	O	6	VC	0
+8	with	with	B-PP	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	etiology	etiology	I-NP	NN	O	8	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	periodontitis	periodontitis	B-NP	NN	O	11	PMOD	-1
+13	in	in	B-PP	IN	O	10	NMOD	-1
+14	its	its	B-NP	PRP$	O	16	NMOD	-1
+15	early	early	I-NP	JJ	O	16	NMOD	-1
+16	stages	stage	I-NP	NNS	O	13	PMOD	-1
+17	according	accord	B-PP	VBG	O	16	NMOD	-1
+18	to	to	B-PP	TO	O	17	PMOD	-1
+19	neovascularization	neovascularization	B-NP	NN	O	18	PMOD	3	neovascularization
+20	stimulated	stimulate	B-VP	VBN	O	19	NMOD	17	stimulated
+21	by	by	B-PP	IN	O	20	VMOD	-1
+22	periodontal	periodontal	B-NP	JJ	O	23	NMOD	-1
+23	pathogens	pathogen	I-NP	NNS	O	21	PMOD	-1
+24	causing	cause	B-VP	VBG	O	23	NMOD	-1
+25	swelling	swelling	B-NP	NN	O	27	NMOD	-1
+26	and	and	I-NP	CC	O	27	NMOD	-1
+27	edema	edema	I-NP	NN	O	24	OBJ	-1

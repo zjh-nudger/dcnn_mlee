@@ -1,0 +1,295 @@
+1	Domain	Domain	B-NP	NNP	B-protein	9	SUB	0
+2	5	5	I-NP	CD	I-protein	1	NMOD	0
+3	of	of	B-PP	IN	O	1	NMOD	0
+4	cleaved	cleaved	B-NP	JJ	O	8	NMOD	0
+5	high	high	I-NP	JJ	O	8	NMOD	0
+6	molecular	molecular	I-NP	JJ	O	8	NMOD	0
+7	weight	weight	I-NP	NN	O	8	NMOD	0
+8	kininogen	kininogen	I-NP	NN	O	3	PMOD	0
+9	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	16	inhibits
+10	endothelial	endothelial	B-NP	JJ	O	12	NMOD	0
+11	cell	cell	I-NP	NN	O	12	NMOD	0
+12	migration	migration	I-NP	NN	O	9	OBJ	14	migration
+13	through	through	B-PP	IN	O	12	NMOD	0
+14	Akt	Akt	B-NP	NN	B-protein	13	PMOD	0
+15	.	.	O	.	O	9	P	0
+
+1	Domain	Domain	B-NP	NN	B-protein	15	SUB	0
+2	5	5	I-NP	CD	I-protein	1	NMOD	0
+3	(	(	O	(	O	5	DEP	0
+4	D5	D5	B-NP	NN	O	5	DEP	0
+5	)	)	O	)	O	1	NMOD	0
+6	of	of	B-PP	IN	O	1	NMOD	0
+7	cleaved	cleave	B-NP	VBN	O	11	NMOD	0
+8	high	high	I-NP	JJ	O	11	NMOD	0
+9	molecular	molecular	I-NP	JJ	O	11	NMOD	0
+10	weight	weight	I-NP	NN	O	11	NMOD	0
+11	kininogen	kininogen	I-NP	NN	O	6	PMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	HKa	HKa	B-NP	NN	O	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	inhibits	inhibit	B-VP	VBZ	O	41	VMOD	18	inhibits
+16	angiogenesis	angiogenesis	B-NP	NN	O	15	OBJ	3	angiogenesis
+17	in	in	B-ADVP	FW	O	22	NMOD	0
+18	vivo	vivo	I-ADVP	FW	O	17	AMOD	0
+19	and	and	O	CC	O	17	AMOD	0
+20	endothelial	endothelial	B-NP	JJ	O	22	NMOD	0
+21	cell	cell	I-NP	NN	O	22	NMOD	0
+22	migration	migration	I-NP	NN	O	15	OBJ	14	migration
+23	in	in	B-ADVP	FW	O	22	NMOD	0
+24	vitro	vitro	I-ADVP	FW	O	23	AMOD	0
+25	,	,	O	,	O	41	P	0
+26	but	but	O	CC	O	41	VMOD	0
+27	the	the	B-NP	DT	O	30	NMOD	0
+28	cell	cell	I-NP	NN	O	30	NMOD	0
+29	signaling	signaling	I-NP	NN	O	30	NMOD	0
+30	pathways	pathway	I-NP	NNS	O	41	SUB	0
+31	involved	involve	B-VP	VBN	O	30	NMOD	16	involved
+32	in	in	B-PP	IN	O	31	VMOD	0
+33	HKa	HKa	B-NP	NN	B-protein	36	NMOD	0
+34	and	and	I-NP	CC	O	36	NMOD	0
+35	D5	D5	I-NP	NN	O	36	NMOD	0
+36	inhibition	inhibition	I-NP	NN	O	32	PMOD	18	inhibition
+37	of	of	B-PP	IN	O	36	NMOD	0
+38	endothelial	endothelial	B-NP	JJ	B-cell_type	40	NMOD	0
+39	cell	cell	I-NP	NN	I-cell_type	40	NMOD	0
+40	migration	migration	I-NP	NN	O	37	PMOD	14	migration
+41	are	be	B-VP	VBP	O	0	ROOT	0
+42	incompletely	incompletely	I-VP	RB	O	41	VMOD	0
+43	delineated	delineate	I-VP	VBN	O	41	VC	0
+44	.	.	O	.	O	41	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	study	study	I-NP	NN	O	3	SUB	0
+3	examines	examine	B-VP	VBZ	O	0	ROOT	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	mechanism	mechanism	I-NP	NN	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	HKa	HKa	B-NP	NN	B-protein	10	NMOD	0
+8	and	and	I-NP	CC	O	10	NMOD	0
+9	D5	D5	I-NP	NN	O	10	NMOD	0
+10	inhibition	inhibition	I-NP	NN	O	6	PMOD	18	inhibition
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	two	two	B-NP	CD	O	14	NMOD	0
+13	potent	potent	I-NP	JJ	O	14	NMOD	0
+14	stimulators	stimulator	I-NP	NNS	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	endothelial	endothelial	B-NP	JJ	B-cell_type	18	NMOD	0
+17	cell	cell	I-NP	NN	I-cell_type	18	NMOD	0
+18	migration	migration	I-NP	NN	O	29	NMOD	14	migration
+19	,	,	O	,	O	29	P	0
+20	sphingosine	sphingosine	B-NP	NN	O	21	NMOD	0
+21	1-phosphate	1-phosphate	I-NP	NN	O	29	NMOD	0
+22	(	(	O	(	O	24	DEP	0
+23	S1P	S1P	B-NP	NN	B-protein	24	DEP	0
+24	)	)	O	)	O	21	NMOD	0
+25	and	and	O	CC	O	29	NMOD	0
+26	vascular	vascular	B-NP	JJ	B-protein	29	NMOD	0
+27	endothelial	endothelial	I-NP	JJ	I-protein	29	NMOD	0
+28	growth	growth	I-NP	NN	I-protein	29	NMOD	0
+29	factor	factor	I-NP	NN	I-protein	15	PMOD	0
+30	(	(	O	(	O	32	DEP	0
+31	VEGF	VEGF	B-NP	NN	B-protein	32	DEP	0
+32	)	)	O	)	O	29	NMOD	0
+33	,	,	O	,	O	29	P	0
+34	that	that	B-NP	WDT	O	29	NMOD	0
+35	act	act	B-VP	VBP	O	34	SBAR	16	act
+36	through	through	B-PP	IN	O	35	VMOD	0
+37	the	the	B-NP	DT	O	40	NMOD	0
+38	P13-kinase-Akt	P13-kinase-Akt	I-NP	NN	O	40	NMOD	0
+39	signaling	signaling	I-NP	NN	O	40	NMOD	0
+40	pathway	pathway	I-NP	NN	O	36	PMOD	0
+41	.	.	O	.	O	3	P	0
+
+1	HKa	HKa	B-NP	NN	B-protein	3	NMOD	0
+2	and	and	I-NP	CC	O	3	NMOD	0
+3	D5	D5	I-NP	NN	O	4	SUB	0
+4	inhibit	inhibit	B-VP	VBP	O	0	ROOT	18	inhibit
+5	bovine	bovine	B-NP	JJ	B-cell_type	9	NMOD	0
+6	pulmonary	pulmonary	I-NP	JJ	I-cell_type	9	NMOD	0
+7	artery	artery	I-NP	NN	I-cell_type	9	NMOD	0
+8	endothelial	endothelial	I-NP	JJ	I-cell_type	9	NMOD	0
+9	cell	cell	I-NP	NN	I-cell_type	19	NMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	BPAE	BPAE	B-NP	NN	B-protein	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	or	or	O	CC	O	19	NMOD	0
+14	human	human	B-NP	JJ	O	19	NMOD	0
+15	umbilical	umbilical	I-NP	JJ	O	19	NMOD	0
+16	vein	vein	I-NP	NN	O	19	NMOD	0
+17	endothelial	endothelial	I-NP	JJ	O	19	NMOD	0
+18	cell	cell	I-NP	NN	O	19	NMOD	0
+19	chemotaxis	chemotaxis	I-NP	NN	O	4	OBJ	14	chemotaxis
+20	in	in	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	modified-Boyden	modified-Boyden	I-NP	JJ	O	23	NMOD	0
+23	chamber	chamber	I-NP	NN	O	20	PMOD	0
+24	in	in	B-PP	IN	O	23	NMOD	0
+25	response	response	B-NP	NN	O	26	NMOD	17	response
+26	toVEGF	toVEGF	I-NP	NN	O	28	NMOD	0
+27	or	or	I-NP	CC	O	28	NMOD	0
+28	S1P	S1P	I-NP	NN	B-protein	24	PMOD	0
+29	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	inhibition	inhibition	I-NP	NN	O	7	SUB	18	inhibition
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	migration	migration	B-NP	NN	O	3	PMOD	14	migration
+5	by	by	B-PP	IN	O	2	NMOD	0
+6	HKa	HKa	B-NP	NN	B-protein	5	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	reversed	reverse	I-VP	VBN	O	7	VC	18	reversed
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	antibodies	antibody	B-NP	NNS	B-protein	9	PMOD	0
+11	to	to	B-PP	TO	O	10	NMOD	0
+12	urokinase-type	urokinase-type	B-NP	JJ	B-protein	15	NMOD	0
+13	plasminogen	plasminogen	I-NP	NN	I-protein	15	NMOD	0
+14	activator	activator	I-NP	NN	I-protein	15	NMOD	0
+15	receptor	receptor	I-NP	NN	I-protein	11	PMOD	0
+16	.	.	O	.	O	7	P	0
+
+1	Both	Both	O	CC	O	4	NMOD	0
+2	HKa	HKa	B-NP	NN	B-protein	4	NMOD	0
+3	and	and	I-NP	CC	O	4	NMOD	0
+4	D5	D5	I-NP	NN	O	5	SUB	0
+5	decrease	decrease	B-VP	VBP	O	0	ROOT	18	decrease
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	speed	speed	I-NP	NN	O	5	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	BPAE	BPAE	B-NP	NN	O	11	NMOD	0
+10	cell	cell	I-NP	NN	O	11	NMOD	0
+11	migration	migration	I-NP	NN	O	8	PMOD	14	migration
+12	and	and	O	CC	O	5	VMOD	0
+13	alter	alter	B-VP	VB	O	5	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	morphology	morphology	I-NP	NN	O	13	OBJ	0
+16	in	in	B-PP	IN	O	13	VMOD	0
+17	live	live	B-NP	JJ	O	19	AMOD	0
+18	,	,	I-NP	,	O	19	P	0
+19	time-lapse	time-lapse	I-NP	JJ	O	20	NMOD	0
+20	microscopy	microscopy	I-NP	NN	O	16	PMOD	0
+21	after	after	B-PP	IN	O	20	NMOD	0
+22	stimulation	stimulation	B-NP	NN	O	21	PMOD	17	stimulation
+23	with	with	B-PP	IN	O	22	NMOD	0
+24	S1P	S1P	B-NP	NN	B-protein	26	NMOD	0
+25	or	or	I-NP	CC	O	26	NMOD	0
+26	VEGF	VEGF	I-NP	NN	B-protein	23	PMOD	0
+27	.	.	O	.	O	5	P	0
+
+1	HKa	HKa	B-NP	NN	B-protein	3	NMOD	0
+2	and	and	I-NP	CC	O	3	NMOD	0
+3	D5	D5	I-NP	NN	O	4	SUB	0
+4	reduce	reduce	B-VP	VBP	O	0	ROOT	18	reduce
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	localization	localization	I-NP	NN	O	4	OBJ	14	localization
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	paxillin	paxillin	B-NP	NN	B-protein	7	PMOD	0
+9	to	to	B-PP	TO	O	6	NMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	focal	focal	I-NP	JJ	O	12	NMOD	0
+12	adhesions	adhesion	I-NP	NNS	O	9	PMOD	0
+13	after	after	B-PP	IN	O	4	VMOD	0
+14	S1P	S1P	B-NP	NN	B-protein	17	NMOD	0
+15	and	and	I-NP	CC	O	17	NMOD	0
+16	VEGF	VEGF	I-NP	NN	B-protein	17	NMOD	0
+17	stimulation	stimulation	I-NP	NN	O	13	PMOD	17	stimulation
+18	.	.	O	.	O	4	P	0
+
+1	To	To	B-VP	TO	O	3	VMOD	0
+2	better	well	I-VP	RBR	O	3	VMOD	0
+3	understand	understand	I-VP	VB	O	10	VMOD	0
+4	the	the	B-NP	DT	O	7	NMOD	0
+5	intracellular	intracellular	I-NP	JJ	O	7	NMOD	0
+6	signaling	signaling	I-NP	NN	O	7	NMOD	0
+7	pathways	pathway	I-NP	NNS	O	3	OBJ	0
+8	,	,	O	,	O	10	P	0
+9	we	we	B-NP	PRP	O	10	SUB	0
+10	examined	examine	B-VP	VBD	O	0	ROOT	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	effect	effect	I-NP	NN	O	28	NMOD	16	effect
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	HKa	HKa	B-NP	NN	B-protein	13	PMOD	0
+15	on	on	B-PP	IN	O	12	NMOD	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	phosphorylation	phosphorylation	I-NP	NN	O	23	NMOD	12	phosphorylation
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	Akt	Akt	B-NP	NN	B-protein	18	PMOD	0
+20	and	and	O	CC	O	23	NMOD	0
+21	its	its	B-NP	PRP$	O	23	NMOD	0
+22	downstream	downstream	I-NP	JJ	O	23	NMOD	0
+23	effector	effector	I-NP	NN	O	15	PMOD	0
+24	,	,	O	,	O	28	P	0
+25	GSK-3alpha	GSK-3alpha	B-NP	NN	B-protein	26	NMOD	0
+26	HKa	HKa	I-NP	NN	O	28	NMOD	0
+27	and	and	O	CC	O	28	NMOD	0
+28	D5	D5	B-NP	NN	O	29	SUB	0
+29	inhibit	inhibit	B-VP	VBP	O	10	VMOD	18	inhibit
+30	phosphorylation	phosphorylation	B-NP	NN	O	29	OBJ	12	phosphorylation
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	Akt	Akt	B-NP	NN	B-protein	34	NMOD	0
+33	and	and	I-NP	CC	O	34	NMOD	0
+34	GSK-3alpha	GSK-3alpha	I-NP	NN	B-protein	31	PMOD	0
+35	after	after	B-PP	IN	O	29	VMOD	0
+36	stimulation	stimulation	B-NP	NN	O	37	NMOD	17	stimulation
+37	withVEGF	withVEGF	I-NP	NN	O	39	NMOD	0
+38	and	and	I-NP	CC	O	39	NMOD	0
+39	S1P	S1P	I-NP	NN	B-protein	35	PMOD	0
+40	.	.	O	.	O	10	P	0
+
+1	Inhibitors	Inhibitor	B-NP	NNS	O	9	NMOD	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	Akt	Akt	B-NP	NN	B-protein	5	NMOD	0
+4	and	and	I-NP	CC	O	5	NMOD	0
+5	P13-kinase	P13-kinase	I-NP	NN	B-protein	2	PMOD	0
+6	,	,	O	,	O	9	P	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	upstream	upstream	I-NP	JJ	B-protein	9	NMOD	0
+9	activator	activator	I-NP	NN	I-protein	13	VMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	Akt	Akt	B-NP	NN	B-protein	10	PMOD	0
+12	,	,	O	,	O	13	P	0
+13	block	block	B-VP	VBP	O	0	ROOT	18	block
+14	endothelial	endothelial	B-NP	JJ	O	16	NMOD	0
+15	cell	cell	I-NP	NN	O	16	NMOD	0
+16	migration	migration	I-NP	NN	O	20	NMOD	14	migration
+17	and	and	O	CC	O	20	NMOD	0
+18	disrupt	disrupt	B-NP	NN	O	20	NMOD	18	disrupt
+19	paxillin	paxillin	I-NP	NN	O	20	NMOD	0
+20	localization	localization	I-NP	NN	O	13	OBJ	14	localization
+21	to	to	B-PP	TO	O	20	NMOD	0
+22	the	the	B-NP	DT	O	24	NMOD	0
+23	focal	focal	I-NP	JJ	O	24	NMOD	0
+24	adhesions	adhesion	I-NP	NNS	O	21	PMOD	0
+25	after	after	B-PP	IN	O	13	VMOD	0
+26	stimulation	stimulation	B-NP	NN	O	25	PMOD	17	stimulation
+27	with	with	B-PP	IN	O	26	NMOD	0
+28	VEGF	VEGF	B-NP	NN	B-protein	30	NMOD	0
+29	and	and	I-NP	CC	O	30	NMOD	0
+30	S1P	S1P	I-NP	NN	B-protein	27	PMOD	0
+31	.	.	O	.	O	13	P	0
+
+1	Therefore	Therefore	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	HKa	HKa	B-NP	NN	B-protein	10	SUB	0
+6	through	through	B-PP	IN	O	5	NMOD	0
+7	its	its	B-NP	PRP$	O	9	NMOD	0
+8	D5	D5	I-NP	NN	B-protein	9	NMOD	0
+9	domain	domain	I-NP	NN	I-protein	6	PMOD	0
+10	alters	alter	B-VP	VBZ	O	4	SBAR	16	alters
+11	P13-kinase-Akt	P13-kinase-Akt	B-NP	NN	B-protein	12	NMOD	0
+12	signaling	signaling	I-NP	NN	O	10	OBJ	0
+13	to	to	B-VP	TO	O	14	VMOD	0
+14	inhibit	inhibit	I-VP	VB	O	12	NMOD	18	inhibit
+15	endothelial	endothelial	B-NP	JJ	O	17	NMOD	0
+16	cell	cell	I-NP	NN	O	17	NMOD	0
+17	migration	migration	I-NP	NN	O	14	OBJ	14	migration
+18	through	through	B-PP	IN	O	17	NMOD	0
+19	alterations	alteration	B-NP	NNS	O	18	PMOD	16	alterations
+20	in	in	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	focal	focal	I-NP	JJ	O	23	NMOD	0
+23	adhesions	adhesion	I-NP	NNS	O	20	PMOD	0
+24	.	.	O	.	O	3	P	0
+

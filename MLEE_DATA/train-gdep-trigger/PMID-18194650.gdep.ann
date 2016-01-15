@@ -1,0 +1,162 @@
+1	Angiopoietin-1	Angiopoietin-1	B-NP	NN	B-protein	2	SUB	0
+2	prevents	prevent	B-VP	VBZ	O	0	ROOT	18	prevents
+3	VEGF-induced	VEGF-induced	B-NP	JJ	O	5	NMOD	17	induced
+4	endothelial	endothelial	I-NP	JJ	O	5	NMOD	0
+5	permeability	permeability	I-NP	NN	O	2	OBJ	0
+6	by	by	B-PP	IN	O	2	VMOD	0
+7	sequestering	sequester	B-VP	VBG	O	6	PMOD	16	sequestering
+8	Src	Src	B-NP	NN	B-protein	7	OBJ	0
+9	through	through	B-PP	IN	O	7	VMOD	0
+10	mDia	mDia	B-NP	NN	O	9	PMOD	0
+11	.	.	O	.	O	2	P	0
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	0
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	0
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	9	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	and	and	O	CC	O	9	NMOD	0
+9	Angiopoietin	Angiopoietin	B-NP	NN	B-protein	14	SUB	0
+10	1	1	I-NP	CD	I-protein	9	NMOD	0
+11	(	(	O	(	O	13	DEP	0
+12	Ang1	Ang1	B-NP	NN	B-protein	13	DEP	0
+13	)	)	O	)	O	9	NMOD	0
+14	are	be	B-VP	VBP	O	22	VMOD	0
+15	both	both	O	DT	O	18	NMOD	0
+16	potent	potent	B-NP	JJ	O	18	NMOD	0
+17	proangiogenic	proangiogenic	I-NP	JJ	B-protein	18	NMOD	3	angiogenic
+18	factors	factor	I-NP	NNS	I-protein	14	PRD	0
+19	,	,	O	,	O	22	P	0
+20	but	but	O	CC	O	22	VMOD	0
+21	,	,	O	,	O	22	P	0
+22	whereas	whereas	B-SBAR	IN	O	0	ROOT	0
+23	VEGF	VEGF	B-NP	NN	B-protein	24	SUB	0
+24	causes	cause	B-VP	VBZ	O	22	VMOD	0
+25	vascular	vascular	B-NP	JJ	O	26	NMOD	0
+26	permeability	permeability	I-NP	NN	O	29	VMOD	0
+27	,	,	O	,	O	29	P	0
+28	Ang1	Ang1	B-NP	NN	B-protein	29	SUB	0
+29	stabilizes	stabilize	B-VP	VBZ	O	24	VMOD	16	stabilizes
+30	blood	blood	B-NP	NN	O	31	NMOD	0
+31	vessels	vessel	I-NP	NNS	O	29	OBJ	0
+32	and	and	O	CC	O	29	VMOD	0
+33	protects	protect	B-VP	VBZ	O	24	VMOD	18	protects
+34	them	them	B-NP	PRP	O	33	OBJ	0
+35	from	from	B-PP	IN	O	33	VMOD	0
+36	VEGF-induced	VEGF-induced	B-NP	JJ	O	38	NMOD	17	induced
+37	plasma	plasma	I-NP	NN	O	38	NMOD	0
+38	leakage	leakage	I-NP	NN	O	35	PMOD	14	leakage
+39	.	.	O	.	O	22	P	0
+
+1	The	The	B-NP	DT	O	4	NMOD	0
+2	antivascular	antivascular	I-NP	JJ	O	4	NMOD	0
+3	permeability	permeability	I-NP	NN	O	4	NMOD	0
+4	mechanisms	mechanism	I-NP	NNS	O	8	SUB	0
+5	deployed	deploy	B-VP	VBN	O	4	NMOD	0
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	Ang1	Ang1	B-NP	NN	B-protein	6	PMOD	0
+8	are	be	B-VP	VBP	O	0	ROOT	0
+9	still	still	B-ADVP	RB	O	8	VMOD	0
+10	undefined	undefined	B-ADJP	JJ	O	8	PRD	0
+11	.	.	O	.	O	8	P	0
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	Ang1	Ang1	B-NP	NN	B-protein	7	SUB	0
+7	halts	halt	B-VP	VBZ	O	5	SBAR	18	halts
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	ability	ability	I-NP	NN	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	VEGF	VEGF	B-NP	NN	B-protein	10	PMOD	0
+12	to	to	B-VP	TO	O	13	VMOD	0
+13	induce	induce	I-VP	VB	O	9	NMOD	17	induce
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	phosphorylation-dependent	phosphorylation-dependent	I-NP	JJ	O	16	NMOD	17	dependent
+16	redistribution	redistribution	I-NP	NN	O	13	OBJ	14	redistribution
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	the	the	B-NP	DT	O	21	NMOD	0
+19	adhesion	adhesion	I-NP	NN	B-protein	21	NMOD	0
+20	molecule	molecule	I-NP	NN	I-protein	21	NMOD	0
+21	VE-cadherin	VE-cadherin	I-NP	NN	O	17	PMOD	0
+22	,	,	O	,	O	7	P	0
+23	thereby	thereby	B-VP	RB	O	24	VMOD	0
+24	rescuing	rescue	I-VP	VBG	O	7	VMOD	0
+25	the	the	B-NP	DT	O	28	NMOD	0
+26	endothelial	endothelial	I-NP	JJ	O	28	NMOD	0
+27	barrier	barrier	I-NP	NN	O	28	NMOD	0
+28	function	function	I-NP	NN	O	24	OBJ	0
+29	.	.	O	.	O	4	P	0
+
+1	Ang1	Ang1	B-NP	NN	B-protein	2	SUB	0
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	activation	activation	I-NP	NN	O	2	OBJ	17	activation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	Src	Src	B-NP	NN	B-protein	5	PMOD	0
+7	by	by	B-PP	IN	O	4	NMOD	0
+8	VEGF	VEGF	B-NP	NN	B-protein	13	NMOD	0
+9	,	,	O	,	O	13	P	0
+10	the	the	B-NP	DT	O	13	NMOD	0
+11	most	most	I-NP	RBS	O	12	AMOD	0
+12	upstream	upstream	I-NP	JJ	O	13	NMOD	0
+13	component	component	I-NP	NN	O	7	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	pathway	pathway	I-NP	NN	O	14	PMOD	0
+17	linking	link	B-VP	VBG	O	16	NMOD	0
+18	VEGF	VEGF	B-NP	NN	B-protein	19	NMOD	0
+19	receptors	receptor	I-NP	NNS	I-protein	17	OBJ	0
+20	to	to	B-PP	TO	O	17	VMOD	0
+21	VE-cadherin	VE-cadherin	B-NP	NN	O	22	NMOD	0
+22	internalization	internalization	I-NP	NN	O	20	PMOD	14	internalization
+23	.	.	O	.	O	2	P	0
+
+1	Indeed	Indeed	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	Ang1	Ang1	B-NP	NN	B-protein	4	SUB	0
+4	promotes	promote	B-VP	VBZ	O	0	ROOT	16	promotes
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	activation	activation	I-NP	NN	O	4	OBJ	17	activation
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	mDia	mDia	B-NP	NN	O	7	PMOD	0
+9	through	through	B-PP	IN	O	6	NMOD	0
+10	RhoA	RhoA	B-NP	NN	B-protein	9	PMOD	0
+11	,	,	O	,	O	4	P	0
+12	resulting	result	B-VP	VBG	O	4	VMOD	17	resulting
+13	in	in	B-PP	IN	O	12	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	association	association	I-NP	NN	O	13	PMOD	15	association
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	mDia	mDia	B-NP	NN	O	16	PMOD	0
+18	with	with	B-PP	IN	O	15	NMOD	0
+19	Src	Src	B-NP	NN	B-protein	18	PMOD	0
+20	.	.	O	.	O	4	P	0
+
+1	This	This	B-NP	DT	O	3	SUB	0
+2	ultimately	ultimately	B-ADVP	RB	O	3	VMOD	0
+3	deprives	deprive	B-VP	VBZ	O	0	ROOT	0
+4	VEGF	VEGF	B-NP	NN	B-protein	5	NMOD	0
+5	receptors	receptor	I-NP	NNS	I-protein	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	essential	essential	I-NP	JJ	O	9	NMOD	0
+9	molecule	molecule	I-NP	NN	O	6	PMOD	0
+10	required	require	B-VP	VBN	O	9	NMOD	17	required
+11	for	for	B-PP	IN	O	10	VMOD	0
+12	promoting	promote	B-VP	VBG	O	11	PMOD	17	promoting
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	disruption	disruption	I-NP	NN	O	12	OBJ	18	disruption
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	endothelial	endothelial	B-NP	JJ	O	18	NMOD	0
+17	cell-cell	cell-cell	I-NP	JJ	O	18	NMOD	0
+18	contacts	contact	I-NP	NNS	O	21	NMOD	0
+19	and	and	O	CC	O	21	NMOD	0
+20	paracellular	paracellular	B-NP	JJ	O	21	NMOD	0
+21	permeability	permeability	I-NP	NN	O	15	PMOD	0
+22	.	.	O	.	O	3	P	0
+

@@ -1,0 +1,317 @@
+1	Caffeine	Caffeine	B-NP	NN	O	2	SUB	0
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	adenosine-induced	adenosine-induced	B-NP	JJ	O	4	NMOD	0
+4	accumulation	accumulation	I-NP	NN	O	2	OBJ	17	accumulation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	hypoxia-inducible	hypoxia-inducible	B-NP	JJ	O	7	NMOD	0
+7	factor-1alpha	factor-1alpha	I-NP	NN	O	16	NMOD	0
+8	,	,	O	,	O	16	P	0
+9	vascular	vascular	B-NP	JJ	B-protein	12	NMOD	0
+10	endothelial	endothelial	I-NP	JJ	I-protein	12	NMOD	0
+11	growth	growth	I-NP	NN	I-protein	12	NMOD	0
+12	factor	factor	I-NP	NN	I-protein	16	NMOD	0
+13	,	,	O	,	O	16	P	0
+14	and	and	O	CC	O	16	NMOD	0
+15	interleukin-8	interleukin-8	B-NP	NN	B-protein	16	NMOD	0
+16	expression	expression	I-NP	NN	O	5	PMOD	9	expression
+17	in	in	B-PP	IN	O	16	NMOD	0
+18	hypoxic	hypoxic	B-NP	JJ	B-cell_type	22	NMOD	0
+19	human	human	I-NP	JJ	I-cell_type	22	NMOD	0
+20	colon	colon	I-NP	NN	I-cell_type	22	NMOD	0
+21	cancer	cancer	I-NP	NN	I-cell_type	22	NMOD	0
+22	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	0
+23	.	.	O	.	O	2	P	0
+
+1	Frequent	Frequent	B-NP	JJ	O	3	NMOD	0
+2	coffee	coffee	I-NP	NN	O	3	NMOD	0
+3	consumption	consumption	I-NP	NN	O	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	associated	associate	I-VP	VBN	O	5	VC	0
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	a	a	B-NP	DT	O	10	NMOD	0
+9	reduced	reduce	I-NP	VBN	O	10	NMOD	0
+10	risk	risk	I-NP	NN	O	7	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	colorectal	colorectal	B-NP	JJ	O	13	NMOD	0
+13	cancer	cancer	I-NP	NN	O	11	PMOD	0
+14	in	in	B-PP	IN	O	10	NMOD	0
+15	a	a	B-NP	DT	O	16	NMOD	0
+16	number	number	I-NP	NN	O	14	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	case-control	case-control	B-NP	JJ	O	19	NMOD	0
+19	studies	study	I-NP	NNS	O	17	PMOD	0
+20	.	.	O	.	O	4	P	0
+
+1	Coffee	Coffee	B-NP	NN	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	leading	lead	I-NP	VBG	O	5	NMOD	0
+5	source	source	I-NP	NN	O	2	PRD	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	methylxanthines	methylxanthine	B-NP	NNS	O	6	PMOD	0
+8	,	,	O	,	O	7	P	0
+9	such	such	B-PP	JJ	O	10	PMOD	0
+10	as	as	I-PP	IN	O	7	NMOD	0
+11	caffeine	caffeine	B-NP	NN	O	10	PMOD	0
+12	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	induction	induction	I-NP	NN	O	16	SUB	17	induction
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	vascular	vascular	B-NP	JJ	B-protein	7	NMOD	0
+5	endothelial	endothelial	I-NP	JJ	I-protein	7	NMOD	0
+6	growth	growth	I-NP	NN	I-protein	7	NMOD	0
+7	factor	factor	I-NP	NN	I-protein	12	NMOD	0
+8	(	(	O	(	O	10	DEP	0
+9	VEGF	VEGF	B-NP	NN	B-protein	10	DEP	0
+10	)	)	O	)	O	7	NMOD	0
+11	and	and	O	CC	O	12	NMOD	0
+12	interleukin-8	interleukin-8	B-NP	NN	B-protein	3	PMOD	0
+13	(	(	O	(	O	15	DEP	0
+14	IL-8	IL-8	B-NP	NN	B-protein	15	DEP	0
+15	)	)	O	)	O	12	NMOD	0
+16	is	be	B-VP	VBZ	O	33	VMOD	0
+17	an	an	B-NP	DT	O	19	NMOD	0
+18	essential	essential	I-NP	JJ	O	19	NMOD	17	essential
+19	feature	feature	I-NP	NN	O	16	PRD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	tumor	tumor	B-NP	NN	O	22	NMOD	0
+22	angiogenesis	angiogenesis	I-NP	NN	O	20	PMOD	3	angiogenesis
+23	,	,	O	,	O	33	P	0
+24	and	and	O	CC	O	27	NMOD	0
+25	the	the	B-NP	DT	O	27	NMOD	0
+26	hypoxia-inducible	hypoxia-inducible	I-NP	JJ	O	27	NMOD	0
+27	factor-1	factor-1	I-NP	NN	O	32	NMOD	0
+28	(	(	O	(	O	30	DEP	0
+29	HIF-1	HIF-1	B-NP	NN	B-protein	30	DEP	0
+30	)	)	O	)	O	27	NMOD	0
+31	transcription	transcription	B-NP	NN	B-protein	32	NMOD	0
+32	factor	factor	I-NP	NN	I-protein	33	SUB	0
+33	is	be	B-VP	VBZ	O	0	ROOT	0
+34	known	know	I-VP	VBN	O	33	VC	0
+35	to	to	I-VP	TO	O	36	VMOD	0
+36	be	be	I-VP	VB	O	34	VMOD	0
+37	a	a	B-NP	DT	O	39	NMOD	0
+38	key	key	I-NP	JJ	O	39	NMOD	0
+39	regulator	regulator	I-NP	NN	O	36	PRD	0
+40	of	of	B-PP	IN	O	39	NMOD	0
+41	this	this	B-NP	DT	O	42	NMOD	0
+42	process	process	I-NP	NN	O	40	PMOD	0
+43	.	.	O	.	O	33	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	we	we	B-NP	PRP	O	6	SUB	0
+6	investigated	investigate	B-VP	VBD	O	0	ROOT	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	effects	effect	I-NP	NNS	O	6	OBJ	16	effects
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	caffeine	caffeine	B-NP	NN	O	9	PMOD	0
+11	on	on	B-PP	IN	O	8	NMOD	0
+12	HIF-1	HIF-1	B-NP	NN	O	14	NMOD	0
+13	protein	protein	I-NP	NN	O	14	NMOD	0
+14	accumulation	accumulation	I-NP	NN	O	11	PMOD	17	accumulation
+15	and	and	B-PP	CC	O	11	PMOD	0
+16	on	on	B-PP	IN	O	11	PMOD	0
+17	VEGF	VEGF	B-NP	NN	B-protein	20	NMOD	0
+18	and	and	I-NP	CC	O	20	NMOD	0
+19	IL-8	IL-8	I-NP	NN	B-protein	20	NMOD	0
+20	expression	expression	I-NP	NN	O	16	PMOD	9	expression
+21	in	in	B-PP	IN	O	20	NMOD	0
+22	the	the	B-NP	DT	O	28	NMOD	0
+23	human	human	I-NP	JJ	B-cell_line	28	NMOD	0
+24	colon	colon	I-NP	NN	I-cell_line	28	NMOD	0
+25	cancer	cancer	I-NP	NN	I-cell_line	28	NMOD	0
+26	cell	cell	I-NP	NN	I-cell_line	28	NMOD	0
+27	line	line	I-NP	NN	I-cell_line	28	NMOD	0
+28	HT29	HT29	I-NP	NN	I-cell_line	21	PMOD	0
+29	under	under	B-PP	IN	O	20	NMOD	0
+30	hypoxic	hypoxic	B-NP	JJ	O	31	NMOD	0
+31	conditions	condition	I-NP	NNS	O	29	PMOD	0
+32	.	.	O	.	O	6	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	show	show	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	caffeine	caffeine	B-NP	NN	O	7	SUB	0
+6	significantly	significantly	B-VP	RB	O	7	VMOD	0
+7	inhibits	inhibit	I-VP	VBZ	O	4	SBAR	18	inhibits
+8	adenosine-induced	adenosine-induced	B-NP	JJ	O	11	NMOD	17	induced
+9	HIF-1alpha	HIF-1alpha	I-NP	NN	O	11	NMOD	0
+10	protein	protein	I-NP	NN	O	11	NMOD	0
+11	accumulation	accumulation	I-NP	NN	O	7	OBJ	17	accumulation
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	cancer	cancer	B-NP	NN	B-cell_type	14	NMOD	0
+14	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	0
+15	.	.	O	.	O	3	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	show	show	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	6	NMOD	0
+5	and	and	I-NP	CC	O	6	NMOD	0
+6	VEGF	VEGF	I-NP	NN	B-protein	7	SUB	0
+7	are	be	B-VP	VBP	O	3	SBAR	0
+8	increased	increase	I-VP	VBN	O	7	VC	17	increased
+9	through	through	B-PP	IN	O	8	VMOD	0
+10	A3	A3	B-NP	NN	B-protein	13	NMOD	0
+11	adenosine	adenosine	I-NP	NN	I-protein	13	NMOD	0
+12	receptor	receptor	I-NP	NN	I-protein	13	NMOD	0
+13	stimulation	stimulation	I-NP	NN	O	9	PMOD	17	stimulation
+14	,	,	O	,	O	2	P	0
+15	whereas	whereas	O	IN	O	2	VMOD	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	effects	effect	I-NP	NNS	O	20	SUB	16	effects
+18	on	on	B-PP	IN	O	17	NMOD	0
+19	IL-8	IL-8	B-NP	NN	B-protein	18	PMOD	0
+20	are	be	B-VP	VBP	O	15	SBAR	0
+21	mediated	mediate	I-VP	VBN	O	20	VC	16	mediated
+22	via	via	B-PP	IN	O	21	VMOD	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	A2B	A2B	I-NP	NN	B-protein	25	NMOD	0
+25	subtype	subtype	I-NP	NN	O	22	PMOD	0
+26	.	.	O	.	O	2	P	0
+
+1	Pretreatment	Pretreatment	B-NP	NN	O	7	SUB	19	Pretreatment
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	cells	cell	B-NP	NNS	O	2	PMOD	0
+4	with	with	B-PP	IN	O	1	NMOD	0
+5	caffeine	caffeine	B-NP	NN	O	4	PMOD	0
+6	significantly	significantly	B-ADVP	RB	O	7	VMOD	0
+7	reduces	reduce	B-VP	VBZ	O	0	ROOT	18	reduces
+8	adenosine-induced	adenosine-induced	B-NP	JJ	B-DNA	10	NMOD	17	induced
+9	VEGF	VEGF	I-NP	NN	I-DNA	10	NMOD	0
+10	promoter	promoter	I-NP	NN	I-DNA	11	NMOD	0
+11	activity	activity	I-NP	NN	O	16	NMOD	0
+12	and	and	O	CC	O	16	NMOD	0
+13	VEGF	VEGF	B-NP	NN	B-protein	16	NMOD	0
+14	and	and	O	CC	O	16	NMOD	0
+15	IL-8	IL-8	B-NP	NN	B-protein	16	NMOD	0
+16	expression	expression	I-NP	NN	O	7	OBJ	9	expression
+17	.	.	O	.	O	7	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	mechanism	mechanism	I-NP	NN	O	5	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	caffeine	caffeine	B-NP	NN	O	3	PMOD	0
+5	seems	seem	B-VP	VBZ	O	0	ROOT	0
+6	to	to	I-VP	TO	O	7	VMOD	0
+7	involve	involve	I-VP	VB	O	5	VMOD	16	involve
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	inhibition	inhibition	I-NP	NN	O	7	OBJ	18	inhibition
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	the	the	B-NP	DT	O	14	NMOD	0
+12	extracellular	extracellular	I-NP	JJ	B-protein	14	NMOD	0
+13	signal-regulated	signal-regulated	I-NP	JJ	I-protein	14	NMOD	0
+14	kinase	kinase	I-NP	NN	I-protein	23	NMOD	0
+15	1/2	1/2	I-NP	CD	I-protein	14	NMOD	0
+16	(	(	O	(	O	18	DEP	0
+17	ERK1/2	ERK1/2	B-NP	NN	B-protein	18	DEP	0
+18	)	)	O	)	O	14	NMOD	0
+19	,	,	O	,	O	23	P	0
+20	p38	p38	B-NP	NN	B-protein	23	NMOD	0
+21	,	,	O	,	O	23	P	0
+22	and	and	O	CC	O	23	NMOD	0
+23	Akt	Akt	B-NP	NN	B-protein	10	PMOD	0
+24	,	,	O	,	O	7	P	0
+25	leading	lead	B-VP	VBG	O	7	VMOD	17	leading
+26	to	to	B-PP	TO	O	25	VMOD	0
+27	a	a	B-NP	DT	O	29	NMOD	0
+28	marked	marked	I-NP	JJ	O	29	NMOD	0
+29	decrease	decrease	I-NP	NN	O	44	NMOD	18	decrease
+30	in	in	B-PP	IN	O	29	NMOD	0
+31	adenosine-induced	adenosine-induced	B-NP	JJ	O	33	NMOD	17	induced
+32	HIF-1alpha	HIF-1alpha	I-NP	NN	O	33	NMOD	0
+33	accumulation	accumulation	I-NP	NN	O	30	PMOD	17	accumulation
+34	,	,	O	,	O	44	P	0
+35	VEGF	VEGF	B-NP	NN	B-protein	37	NMOD	0
+36	transcriptional	transcriptional	I-NP	JJ	O	37	NMOD	10	transcriptional
+37	activation	activation	I-NP	NN	O	44	NMOD	17	activation
+38	,	,	O	,	O	44	P	0
+39	and	and	O	CC	O	44	NMOD	0
+40	VEGF	VEGF	B-NP	NN	B-protein	44	NMOD	0
+41	and	and	I-NP	CC	O	44	NMOD	0
+42	IL-8	IL-8	I-NP	NN	B-protein	44	NMOD	0
+43	protein	protein	I-NP	NN	O	44	NMOD	0
+44	accumulation	accumulation	I-NP	NN	O	26	PMOD	17	accumulation
+45	.	.	O	.	O	5	P	0
+
+1	From	From	B-PP	IN	O	7	VMOD	0
+2	a	a	B-NP	DT	O	4	NMOD	0
+3	functional	functional	I-NP	JJ	O	4	NMOD	0
+4	perspective	perspective	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	observe	observe	B-VP	VBP	O	0	ROOT	0
+8	that	that	B-SBAR	IN	O	7	VMOD	0
+9	caffeine	caffeine	B-NP	NN	O	12	SUB	0
+10	also	also	B-ADVP	RB	O	12	VMOD	0
+11	significantly	significantly	B-ADVP	RB	O	12	VMOD	0
+12	inhibits	inhibit	B-VP	VBZ	O	8	SBAR	18	inhibits
+13	the	the	B-NP	DT	O	17	NMOD	0
+14	A3	A3	I-NP	NN	B-protein	17	NMOD	0
+15	receptor-stimulated	receptor-stimulated	I-NP	JJ	O	17	NMOD	17	stimulated
+16	cell	cell	I-NP	NN	O	17	NMOD	0
+17	migration	migration	I-NP	NN	O	12	OBJ	14	migration
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	colon	colon	B-NP	NN	B-cell_type	21	NMOD	0
+20	cancer	cancer	I-NP	NN	I-cell_type	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_type	18	PMOD	0
+22	.	.	O	.	O	7	P	0
+
+1	Conditioned	Condition	B-NP	VBN	O	2	NMOD	0
+2	media	medium	I-NP	NNS	O	12	SUB	0
+3	prepared	prepare	B-VP	VBN	O	2	NMOD	0
+4	from	from	B-PP	IN	O	3	VMOD	0
+5	colon	colon	B-NP	NN	B-cell_type	6	NMOD	0
+6	cells	cell	I-NP	NNS	I-cell_type	4	PMOD	0
+7	treated	treat	B-VP	VBN	O	6	NMOD	19	treated
+8	with	with	B-PP	IN	O	7	VMOD	0
+9	an	an	B-NP	DT	O	11	NMOD	0
+10	adenosine	adenosine	I-NP	NN	O	11	NMOD	0
+11	analog	analog	I-NP	NN	O	8	PMOD	0
+12	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+13	human	human	B-NP	JJ	O	18	NMOD	0
+14	umbilical	umbilical	I-NP	JJ	O	18	NMOD	0
+15	vein	vein	I-NP	NN	O	18	NMOD	0
+16	endothelial	endothelial	I-NP	JJ	O	18	NMOD	0
+17	cell	cell	I-NP	NN	O	18	NMOD	0
+18	migration	migration	I-NP	NN	O	12	OBJ	14	migration
+19	.	.	O	.	O	12	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	provide	provide	B-VP	VBP	O	0	ROOT	0
+4	evidence	evidence	B-NP	NN	O	3	OBJ	0
+5	that	that	B-SBAR	IN	O	20	DEP	0
+6	adenosine	adenosine	B-NP	NN	O	7	SUB	0
+7	could	could	B-VP	MD	O	5	SBAR	0
+8	modulate	modulate	I-VP	VB	O	7	VC	16	modulate
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	migration	migration	I-NP	NN	O	8	OBJ	14	migration
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	colon	colon	B-NP	NN	B-cell_type	14	NMOD	0
+13	cancer	cancer	I-NP	NN	I-cell_type	14	NMOD	0
+14	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+15	by	by	B-PP	IN	O	10	NMOD	0
+16	an	an	B-NP	DT	O	18	NMOD	0
+17	HIF-1alpha/VEGF/IL-8-dependent	HIF-1alpha/VEGF/IL-8-dependent	I-NP	JJ	O	18	NMOD	17	dependent
+18	mechanism	mechanism	I-NP	NN	O	15	PMOD	0
+19	and	and	O	CC	O	20	DEP	0
+20	that	that	B-SBAR	IN	O	4	NMOD	0
+21	caffeine	caffeine	B-NP	NN	O	22	SUB	0
+22	has	have	B-VP	VBZ	O	20	SBAR	0
+23	the	the	B-NP	DT	O	24	NMOD	0
+24	potential	potential	I-NP	NN	O	22	OBJ	0
+25	to	to	B-VP	TO	O	26	VMOD	0
+26	inhibit	inhibit	I-VP	VB	O	24	NMOD	18	inhibit
+27	colon	colon	B-NP	NN	O	30	NMOD	0
+28	cancer	cancer	I-NP	NN	O	30	NMOD	0
+29	cell	cell	I-NP	NN	O	30	NMOD	0
+30	growth	growth	I-NP	NN	O	26	OBJ	1	growth
+31	.	.	O	.	O	3	P	0
+

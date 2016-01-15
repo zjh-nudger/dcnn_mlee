@@ -1,0 +1,205 @@
+1	Effects	Effect	B-NP	NNS	O	0	ROOT	16	Effects
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	doxycycline	doxycycline	B-NP	NN	O	2	PMOD	0
+4	on	on	B-PP	IN	O	1	NMOD	0
+5	in	in	B-NP	FW	O	6	AMOD	0
+6	vitro	vitro	I-NP	FW	O	7	NMOD	0
+7	growth	growth	I-NP	NN	O	13	NMOD	1	growth
+8	,	,	O	,	O	13	P	0
+9	migration	migration	B-NP	NN	O	13	NMOD	14	migration
+10	,	,	O	,	O	13	P	0
+11	and	and	O	CC	O	13	NMOD	0
+12	gelatinase	gelatinase	B-NP	NN	B-protein	13	NMOD	0
+13	activity	activity	I-NP	NN	O	4	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	breast	breast	B-NP	NN	B-cell_type	17	NMOD	0
+16	carcinoma	carcinoma	I-NP	NN	I-cell_type	17	NMOD	0
+17	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+18	.	.	O	.	O	1	P	0
+
+1	Metastatic	Metastatic	B-NP	JJ	O	2	NMOD	0
+2	disease	disease	I-NP	NN	O	3	SUB	0
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	one	one	B-NP	CD	O	3	PRD	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	major	major	I-NP	JJ	O	8	NMOD	0
+8	causes	cause	I-NP	NNS	O	5	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	death	death	B-NP	NN	O	9	PMOD	5	death
+11	from	from	B-PP	IN	O	10	NMOD	0
+12	cancer	cancer	B-NP	NN	O	11	PMOD	0
+13	in	in	B-PP	IN	O	12	NMOD	0
+14	human	human	B-NP	JJ	O	15	NMOD	0
+15	beings	being	I-NP	NNS	O	13	PMOD	0
+16	.	.	O	.	O	3	P	0
+
+1	Several	Several	B-NP	JJ	O	3	NMOD	0
+2	enzyme	enzyme	I-NP	NN	O	3	NMOD	0
+3	systems	system	I-NP	NNS	O	4	SUB	0
+4	have	have	B-VP	VBP	O	18	VMOD	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	implicated	implicate	I-VP	VBN	O	5	VC	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	metastatic	metastatic	I-NP	JJ	O	10	NMOD	0
+10	process	process	I-NP	NN	O	7	PMOD	0
+11	,	,	O	,	O	18	P	0
+12	but	but	O	CC	O	18	VMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	metalloproteinases	metalloproteinas	I-NP	NNS	B-protein	18	SUB	0
+15	(	(	O	(	O	17	DEP	0
+16	MPs	MP	B-NP	NNS	O	17	DEP	0
+17	)	)	O	)	O	14	NMOD	0
+18	appear	appear	B-VP	VBP	O	0	ROOT	0
+19	to	to	I-VP	TO	O	20	VMOD	0
+20	be	be	I-VP	VB	O	18	VMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	major	major	I-NP	JJ	O	23	NMOD	0
+23	group	group	I-NP	NN	O	20	PRD	0
+24	involved	involve	B-ADJP	VBN	O	23	NMOD	0
+25	in	in	B-PP	IN	O	24	VMOD	0
+26	most	most	B-NP	JJS	O	27	NMOD	0
+27	instances	instance	I-NP	NNS	O	25	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	neoplastic	neoplastic	B-NP	JJ	O	30	NMOD	0
+30	invasion	invasion	I-NP	NN	O	28	PMOD	0
+31	.	.	O	.	O	18	P	0
+
+1	Increased	Increase	B-NP	VBN	O	3	NMOD	17	Increased
+2	MP	MP	I-NP	NN	O	3	NMOD	0
+3	activity	activity	I-NP	NN	O	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	correlated	correlate	I-VP	VBN	O	5	VC	0
+7	with	with	B-PP	IN	O	6	VMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	metastatic	metastatic	I-NP	JJ	O	10	NMOD	0
+10	potential	potential	I-NP	NN	O	7	PMOD	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	many	many	B-NP	JJ	O	13	NMOD	0
+13	cancers	cancer	I-NP	NNS	O	11	PMOD	0
+14	,	,	O	,	O	13	P	0
+15	including	include	B-PP	VBG	O	13	NMOD	0
+16	breast	breast	B-NP	NN	O	17	NMOD	0
+17	cancer	cancer	I-NP	NN	O	15	PMOD	0
+18	.	.	O	.	O	4	P	0
+
+1	MPs	MP	B-NP	NNS	O	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	play	play	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	role	role	I-NP	NN	O	3	OBJ	0
+6	in	in	B-PP	IN	O	3	VMOD	0
+7	tumor	tumor	B-NP	NN	O	8	NMOD	0
+8	angiogenesis	angiogenesis	I-NP	NN	O	6	PMOD	3	angiogenesis
+9	.	.	O	.	O	3	P	0
+
+1	Tetracyclines	Tetracycline	B-NP	NNS	O	2	SUB	0
+2	are	be	B-VP	VBP	O	0	ROOT	0
+3	antimicrobial	antimicrobial	B-NP	JJ	O	4	NMOD	0
+4	agents	agent	I-NP	NNS	O	2	PRD	0
+5	that	that	B-NP	WDT	O	4	NMOD	0
+6	can	can	B-VP	MD	O	5	SBAR	0
+7	suppress	suppress	I-VP	VB	O	6	VC	18	suppress
+8	MP	MP	B-NP	NN	O	9	NMOD	0
+9	activity	activity	I-NP	NN	O	7	OBJ	0
+10	in	in	B-PP	IN	O	7	VMOD	0
+11	a	a	B-NP	DT	O	12	NMOD	0
+12	variety	variety	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	tissues	tissue	B-NP	NNS	O	13	PMOD	0
+15	,	,	O	,	O	14	P	0
+16	including	include	B-PP	VBG	O	14	NMOD	0
+17	gingiva	gingiva	B-NP	NN	O	22	NMOD	0
+18	,	,	O	,	O	22	P	0
+19	bone	bone	B-NP	NN	O	22	NMOD	0
+20	,	,	O	,	O	22	P	0
+21	and	and	O	CC	O	22	NMOD	0
+22	cartilage	cartilage	B-NP	NN	O	16	PMOD	0
+23	.	.	O	.	O	2	P	0
+
+1	Several	Several	B-NP	JJ	O	2	NMOD	0
+2	reports	report	I-NP	NNS	O	3	SUB	0
+3	have	have	B-VP	VBP	O	0	ROOT	0
+4	indicated	indicate	I-VP	VBN	O	3	VC	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	tetracyclines	tetracycline	B-NP	NNS	O	7	SUB	0
+7	can	can	B-VP	MD	O	5	SBAR	0
+8	suppress	suppress	I-VP	VB	O	7	VC	18	suppress
+9	tumor	tumor	B-NP	NN	O	10	NMOD	0
+10	MPs	MP	I-NP	NNS	O	8	OBJ	0
+11	as	as	B-ADVP	RB	O	8	VMOD	0
+12	well	well	I-ADVP	RB	O	11	PMOD	0
+13	.	.	O	.	O	3	P	0
+
+1	A	A	B-NP	DT	O	3	NMOD	0
+2	synthetic	synthetic	I-NP	JJ	O	3	NMOD	0
+3	tetracycline	tetracycline	I-NP	NN	O	5	NMOD	0
+4	,	,	O	,	O	5	P	0
+5	doxycycline	doxycycline	B-NP	NN	O	7	SUB	0
+6	,	,	O	,	O	5	P	0
+7	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+8	migration	migration	B-NP	NN	O	25	NMOD	14	migration
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	human	human	B-NP	JJ	B-cell_line	14	NMOD	0
+11	MDA-MB-435	MDA-MB-435	I-NP	NN	I-cell_line	14	NMOD	0
+12	breast	breast	I-NP	NN	I-cell_line	14	NMOD	0
+13	adenocarcinoma	adenocarcinoma	I-NP	NN	I-cell_line	14	NMOD	0
+14	cells	cell	I-NP	NNS	I-cell_line	9	PMOD	0
+15	through	through	B-PP	IN	O	8	NMOD	0
+16	a	a	B-NP	DT	O	19	NMOD	0
+17	reconstituted	reconstitute	I-NP	VBN	O	19	NMOD	7	reconstituted
+18	basement	basement	I-NP	NN	O	19	NMOD	0
+19	membrane	membrane	I-NP	NN	O	15	PMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	Matrigel	Matrigel	B-NP	NN	O	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	,	,	O	,	O	25	P	0
+24	an	an	B-NP	DT	O	25	NMOD	0
+25	assay	assay	I-NP	NN	O	7	OBJ	0
+26	used	use	B-VP	VBN	O	25	NMOD	0
+27	as	as	B-PP	IN	O	26	VMOD	0
+28	an	an	B-NP	DT	O	31	NMOD	0
+29	in	in	I-NP	FW	O	30	AMOD	0
+30	vitro	vitro	I-NP	FW	O	31	NMOD	0
+31	surrogate	surrogate	I-NP	NN	O	27	PMOD	0
+32	for	for	B-PP	IN	O	31	NMOD	0
+33	the	the	B-NP	DT	O	36	NMOD	0
+34	in	in	I-NP	FW	O	35	AMOD	0
+35	vivo	vivo	I-NP	FW	O	36	NMOD	0
+36	process	process	I-NP	NN	O	32	PMOD	0
+37	of	of	B-PP	IN	O	36	NMOD	0
+38	tumor	tumor	B-NP	NN	O	39	NMOD	0
+39	invasion	invasion	I-NP	NN	O	37	PMOD	14	invasion
+40	through	through	B-PP	IN	O	26	VMOD	0
+41	basement	basement	B-NP	NN	O	42	NMOD	0
+42	membranes	membrane	I-NP	NNS	O	40	PMOD	0
+43	.	.	O	.	O	7	P	0
+
+1	Additionally	Additionally	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	doxycycline	doxycycline	B-NP	NN	O	4	SUB	0
+4	diminishes	diminish	B-VP	VBZ	O	0	ROOT	18	diminishes
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	proliferation	proliferation	I-NP	NN	O	4	OBJ	1	proliferation
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	this	this	B-NP	DT	O	12	NMOD	0
+9	breast	breast	I-NP	NN	O	12	NMOD	0
+10	cancer	cancer	I-NP	NN	O	12	NMOD	0
+11	cell	cell	I-NP	NN	O	12	NMOD	0
+12	line	line	I-NP	NN	O	7	PMOD	0
+13	and	and	O	CC	O	4	VMOD	0
+14	also	also	B-VP	RB	O	4	VMOD	0
+15	decreases	decrease	I-VP	VBZ	O	4	VMOD	0
+16	its	its	B-NP	PRP$	O	18	NMOD	0
+17	gelatinolytic	gelatinolytic	I-NP	JJ	O	18	NMOD	0
+18	activity	activity	I-NP	NN	O	15	OBJ	0
+19	,	,	O	,	O	15	P	0
+20	as	as	B-SBAR	IN	O	15	VMOD	0
+21	determined	determine	B-VP	VBN	O	20	SBAR	0
+22	by	by	B-PP	IN	O	21	VMOD	0
+23	gel	gel	B-NP	NN	O	24	NMOD	0
+24	zymography	zymography	I-NP	NN	O	22	PMOD	0
+25	.	.	O	.	O	4	P	0
+

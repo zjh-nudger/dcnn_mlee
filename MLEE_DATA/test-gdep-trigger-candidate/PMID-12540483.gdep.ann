@@ -1,0 +1,247 @@
+1	Insulin-like	Insulin-like	B-NP	JJ	O	5	NMOD	-1
+2	growth	growth	I-NP	NN	O	5	NMOD	0
+3	factor-I	factor-I	I-NP	NN	O	5	NMOD	-1
+4	receptor-mediated	receptor-mediated	I-NP	JJ	O	5	NMOD	16	mediated
+5	vasculogenesis/angiogenesis	vasculogenesis/angiogenesis	I-NP	NN	O	0	ROOT	3	angiogenesis
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	human	human	B-NP	JJ	O	9	NMOD	-1
+8	lung	lung	I-NP	NN	O	9	NMOD	-1
+9	development	development	I-NP	NN	O	6	PMOD	2	development
+10	.	.	O	.	O	5	P	-1
+
+1	The	The	B-NP	DT	O	5	NMOD	-1
+2	structural	structural	I-NP	JJ	O	5	NMOD	-1
+3	and	and	I-NP	CC	O	5	NMOD	-1
+4	functional	functional	I-NP	JJ	O	5	NMOD	-1
+5	development	development	I-NP	NN	O	10	SUB	2	development
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	pulmonary	pulmonary	I-NP	JJ	O	9	NMOD	-1
+9	system	system	I-NP	NN	O	6	PMOD	0
+10	is	be	B-VP	VBZ	O	0	ROOT	-1
+11	dependent	dependent	B-ADJP	JJ	O	10	PRD	17	dependent
+12	upon	upon	B-PP	IN	O	11	AMOD	-1
+13	appropriate	appropriate	B-NP	JJ	O	15	NMOD	-1
+14	early	early	I-NP	JJ	O	15	NMOD	-1
+15	vascularization	vascularization	I-NP	NN	O	12	PMOD	3	vascularization
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	embryonic	embryonic	I-NP	JJ	O	19	NMOD	-1
+19	lung	lung	I-NP	NN	O	16	PMOD	-1
+20	.	.	O	.	O	10	P	-1
+
+1	Our	Our	B-NP	PRP$	O	5	NMOD	-1
+2	previous	previous	I-NP	JJ	O	4	AMOD	-1
+3	in	in	I-NP	FW	O	4	AMOD	-1
+4	vitro	vitro	I-NP	FW	O	5	NMOD	-1
+5	studies	study	I-NP	NNS	O	10	SUB	-1
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	a	a	B-NP	DT	O	9	NMOD	-1
+8	rat	rat	I-NP	NN	O	9	NMOD	-1
+9	model	model	I-NP	NN	O	6	PMOD	-1
+10	indicated	indicate	B-VP	VBD	O	0	ROOT	-1
+11	that	that	B-SBAR	IN	O	10	VMOD	-1
+12	insulin-like	insulin-like	B-NP	JJ	B-protein	14	NMOD	-1
+13	growth	growth	I-NP	NN	I-protein	14	NMOD	0
+14	factor-I	factor-I	I-NP	NN	I-protein	18	SUB	-1
+15	(	(	O	(	O	17	DEP	-1
+16	IGF-I	IGF-I	B-NP	NN	B-protein	17	DEP	-1
+17	)	)	O	)	O	14	NMOD	-1
+18	is	be	B-VP	VBZ	O	11	SBAR	-1
+19	a	a	B-NP	DT	O	22	NMOD	-1
+20	potent	potent	I-NP	JJ	O	21	AMOD	-1
+21	angiogenic	angiogenic	I-NP	JJ	O	22	NMOD	3	angiogenic
+22	agent	agent	I-NP	NN	O	18	PRD	-1
+23	for	for	B-PP	IN	O	22	NMOD	-1
+24	fetal	fetal	B-NP	JJ	B-cell_type	27	NMOD	-1
+25	lung	lung	I-NP	NN	I-cell_type	27	NMOD	-1
+26	endothelial	endothelial	I-NP	JJ	I-cell_type	27	NMOD	-1
+27	cells	cell	I-NP	NNS	I-cell_type	23	PMOD	-1
+28	.	.	O	.	O	10	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	assess	assess	I-VP	VB	O	13	VMOD	-1
+3	its	its	B-NP	PRP$	O	4	NMOD	-1
+4	role	role	I-NP	NN	O	2	OBJ	0
+5	on	on	B-PP	IN	O	4	NMOD	-1
+6	human	human	B-NP	JJ	O	9	NMOD	-1
+7	vascular	vascular	I-NP	JJ	O	9	NMOD	-1
+8	lung	lung	I-NP	NN	O	9	NMOD	-1
+9	development	development	I-NP	NN	O	5	PMOD	2	development
+10	,	,	O	,	O	13	P	-1
+11	we	we	B-NP	PRP	O	13	SUB	-1
+12	first	first	B-ADVP	RB	O	13	VMOD	-1
+13	examined	examine	B-VP	VBD	O	0	ROOT	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	expression	expression	I-NP	NN	O	13	OBJ	9	expression
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	IGF-I/II	IGF-I/II	B-NP	NN	B-protein	21	NMOD	-1
+18	and	and	I-NP	CC	O	21	NMOD	-1
+19	IGF	IGF	I-NP	NN	B-protein	21	NMOD	-1
+20	receptor	receptor	I-NP	NN	I-protein	21	NMOD	-1
+21	type	type	I-NP	NN	I-protein	16	PMOD	-1
+22	I	I	I-NP	CD	I-protein	21	NMOD	-1
+23	(	(	O	(	O	25	DEP	-1
+24	IGF-IR	IGF-IR	B-NP	NN	B-protein	25	DEP	-1
+25	)	)	O	)	O	21	NMOD	-1
+26	in	in	B-PP	IN	O	15	NMOD	-1
+27	human	human	B-NP	JJ	O	32	NMOD	-1
+28	embryonic	embryonic	I-NP	JJ	O	30	AMOD	-1
+29	and	and	I-NP	CC	O	30	AMOD	-1
+30	fetal	fetal	I-NP	JJ	O	32	NMOD	-1
+31	lung	lung	I-NP	NN	O	32	NMOD	-1
+32	tissues	tissue	I-NP	NNS	O	26	PMOD	-1
+33	at	at	B-PP	IN	O	13	VMOD	-1
+34	4-12	4-12	B-NP	NN	O	35	NMOD	-1
+35	wk	wk	I-NP	NN	O	33	PMOD	-1
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	gestation	gestation	B-NP	NN	O	36	PMOD	-1
+38	.	.	O	.	O	13	P	-1
+
+1	Immunohistochemical	Immunohistochemical	B-NP	JJ	O	6	NMOD	-1
+2	and	and	I-NP	CC	O	6	NMOD	-1
+3	in	in	I-NP	FW	O	4	AMOD	-1
+4	situ	situ	I-NP	FW	O	5	NMOD	-1
+5	hybridization	hybridization	I-NP	NN	O	6	NMOD	-1
+6	studies	study	I-NP	NNS	O	7	SUB	-1
+7	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	presence	presence	I-NP	NN	O	7	OBJ	10	presence
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	IGF-I/II-IGF-IR	IGF-I/II-IGF-IR	B-NP	NN	B-protein	12	NMOD	-1
+12	ligands	ligand	I-NP	NNS	I-protein	15	NMOD	-1
+13	and	and	O	CC	O	15	NMOD	-1
+14	mRNA	mRNA	B-NP	NN	B-RNA	15	NMOD	0
+15	transcripts	transcript	I-NP	NNS	I-RNA	10	PMOD	-1
+16	in	in	B-PP	IN	O	9	NMOD	-1
+17	embryonic	embryonic	B-NP	JJ	O	18	NMOD	-1
+18	lungs	lung	I-NP	NNS	O	16	PMOD	-1
+19	as	as	B-ADVP	RB	O	16	PMOD	-1
+20	early	early	I-ADVP	RB	O	19	AMOD	-1
+21	as	as	B-PP	IN	O	19	AMOD	-1
+22	4	4	B-NP	CD	O	24	NMOD	-1
+23	wk	wk	I-NP	NN	O	24	NMOD	-1
+24	gestation	gestation	I-NP	NN	O	21	PMOD	-1
+25	.	.	O	.	O	7	P	-1
+
+1	Immunotargeting	Immunotargeting	B-NP	NN	O	12	SUB	19	Immunotargeting
+2	using	use	B-VP	VBG	O	1	NMOD	-1
+3	an	an	B-NP	DT	O	6	NMOD	-1
+4	anti-IGF-IR	anti-IGF-IR	I-NP	JJ	B-protein	6	NMOD	-1
+5	neutralizing	neutralize	I-NP	VBG	I-protein	6	NMOD	-1
+6	antibody	antibody	I-NP	NN	I-protein	2	OBJ	-1
+7	on	on	B-PP	IN	O	6	NMOD	-1
+8	human	human	B-NP	JJ	B-cell_type	11	NMOD	-1
+9	fetal	fetal	I-NP	JJ	I-cell_type	11	NMOD	-1
+10	lung	lung	I-NP	NN	I-cell_type	11	NMOD	-1
+11	explants	explant	I-NP	NNS	I-cell_type	7	PMOD	-1
+12	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+13	a	a	B-NP	DT	O	15	NMOD	-1
+14	significant	significant	I-NP	JJ	O	15	NMOD	-1
+15	blockade	blockade	I-NP	NN	O	12	OBJ	18	blockade
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	IGF-IR	IGF-IR	B-NP	NN	B-protein	18	NMOD	-1
+18	signaling	signaling	I-NP	NN	O	16	PMOD	0
+19	.	.	O	.	O	12	P	-1
+
+1	Inactivation	Inactivation	B-NP	NN	O	4	SUB	18	Inactivation
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	IGF-IR	IGF-IR	B-NP	NN	B-protein	2	PMOD	-1
+4	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+5	in	in	B-PP	IN	O	4	VMOD	-1
+6	a	a	B-NP	DT	O	7	NMOD	-1
+7	loss	loss	I-NP	NN	O	5	PMOD	18	loss
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	endothelial	endothelial	B-NP	JJ	B-cell_type	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	-1
+11	,	,	O	,	O	4	P	-1
+12	accompanied	accompany	B-VP	VBN	O	4	VMOD	-1
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	dramatic	dramatic	B-NP	JJ	O	15	NMOD	-1
+15	changes	change	I-NP	NNS	O	13	PMOD	16	changes
+16	in	in	B-PP	IN	O	15	NMOD	-1
+17	fetal	fetal	B-NP	JJ	O	20	NMOD	-1
+18	lung	lung	I-NP	NN	O	20	NMOD	-1
+19	explant	explant	I-NP	NN	O	20	NMOD	-1
+20	morphology	morphology	I-NP	NN	O	16	PMOD	-1
+21	.	.	O	.	O	4	P	-1
+
+1	Terminal	Terminal	B-NP	JJ	O	5	NMOD	-1
+2	transferase	transferase	I-NP	NN	O	5	NMOD	-1
+3	dUTP	dUTP	I-NP	NN	O	5	NMOD	-1
+4	end-labeling	end-labeling	I-NP	NN	O	5	NMOD	-1
+5	assay	assay	I-NP	NN	O	8	NMOD	-1
+6	and	and	I-NP	CC	O	8	NMOD	-1
+7	TEM	TEM	I-NP	NN	O	8	NMOD	-1
+8	studies	study	I-NP	NNS	O	12	SUB	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	anti-IGF-IR-treated	anti-IGF-IR-treated	B-NP	JJ	B-cell_type	11	NMOD	19	treated
+11	lungs	lung	I-NP	NNS	I-cell_type	9	PMOD	-1
+12	demonstrated	demonstrate	B-VP	VBD	I-cell_type	0	ROOT	-1
+13	numerous	numerous	B-NP	JJ	I-cell_type	16	NMOD	-1
+14	apoptotic	apoptotic	I-NP	JJ	I-cell_type	16	NMOD	5	apoptotic
+15	mesenchymal	mesenchymal	I-NP	JJ	I-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	12	OBJ	-1
+17	.	.	O	.	O	12	P	-1
+
+1	Rat	Rat	B-NP	NN	O	5	NMOD	-1
+2	embryonic	embryonic	I-NP	JJ	O	5	NMOD	-1
+3	lung	lung	I-NP	NN	O	5	NMOD	-1
+4	explant	explant	I-NP	NN	O	5	NMOD	-1
+5	studies	study	I-NP	NNS	O	7	SUB	-1
+6	further	further	B-ADVP	RBR	O	7	VMOD	-1
+7	validated	validate	B-VP	VBD	O	0	ROOT	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	importance	importance	I-NP	NN	O	7	OBJ	17	importance
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	IGF-IGF-IR	IGF-IGF-IR	I-NP	NN	O	13	NMOD	-1
+13	system	system	I-NP	NN	O	10	PMOD	0
+14	for	for	B-PP	IN	O	13	NMOD	-1
+15	lung	lung	B-NP	NN	O	17	NMOD	-1
+16	vascular	vascular	I-NP	JJ	O	17	NMOD	-1
+17	development	development	I-NP	NN	O	14	PMOD	2	development
+18	.	.	O	.	O	7	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	provide	provide	B-VP	VBP	O	0	ROOT	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	first	first	I-NP	JJ	O	6	NMOD	-1
+6	demonstration	demonstration	I-NP	NN	O	3	OBJ	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	IGF-I/II	IGF-I/II	B-NP	NN	B-protein	9	NMOD	-1
+9	expression	expression	I-NP	NN	O	7	PMOD	9	expression
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	human	human	I-NP	JJ	O	13	NMOD	-1
+13	lung	lung	I-NP	NN	O	10	PMOD	-1
+14	in	in	B-PP	IN	O	9	NMOD	-1
+15	early	early	B-NP	JJ	O	16	NMOD	-1
+16	gestation	gestation	I-NP	NN	O	14	PMOD	-1
+17	and	and	O	CC	O	3	VMOD	-1
+18	indicate	indicate	B-VP	VBP	O	3	VMOD	-1
+19	that	that	B-SBAR	IN	O	18	VMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	IGF	IGF	I-NP	NN	B-protein	22	NMOD	-1
+22	family	family	I-NP	NN	I-protein	32	SUB	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	growth	growth	B-NP	NN	B-protein	25	NMOD	0
+25	factors	factor	I-NP	NNS	I-protein	23	PMOD	-1
+26	,	,	O	,	O	22	P	-1
+27	acting	act	B-VP	VBG	O	22	NMOD	16	acting
+28	through	through	B-PP	IN	O	27	VMOD	0
+29	the	the	B-NP	DT	O	30	NMOD	-1
+30	IGF-IR	IGF-IR	I-NP	NN	B-protein	28	PMOD	-1
+31	,	,	O	,	O	22	P	-1
+32	is	be	B-VP	VBZ	O	19	SBAR	-1
+33	required	require	I-VP	VBN	O	32	VC	17	required
+34	as	as	B-PP	IN	O	33	VMOD	-1
+35	a	a	B-NP	DT	O	37	NMOD	-1
+36	survival	survival	I-NP	NN	B-protein	37	NMOD	0
+37	factor	factor	I-NP	NN	I-protein	34	PMOD	-1
+38	during	during	B-PP	IN	O	37	NMOD	-1
+39	normal	normal	B-NP	JJ	O	42	NMOD	-1
+40	human	human	I-NP	JJ	O	42	NMOD	-1
+41	lung	lung	I-NP	NN	O	42	NMOD	-1
+42	vascularization	vascularization	I-NP	NN	O	38	PMOD	3	vascularization

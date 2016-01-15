@@ -1,0 +1,291 @@
+1	Hypoxic	Hypoxic	B-NP	JJ	O	2	NMOD	0
+2	induction	induction	I-NP	NN	O	16	SUB	17	induction
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	7	NMOD	0
+5	and	and	I-NP	CC	O	7	NMOD	0
+6	VEGF	VEGF	I-NP	NN	B-protein	7	NMOD	0
+7	expression	expression	I-NP	NN	O	3	PMOD	9	expression
+8	in	in	B-PP	IN	O	2	NMOD	0
+9	head	head	B-NP	NN	O	15	NMOD	0
+10	and	and	O	CC	O	15	NMOD	0
+11	neck	neck	B-NP	NN	O	15	NMOD	0
+12	squamous	squamous	I-NP	JJ	O	15	NMOD	0
+13	cell	cell	I-NP	NN	O	15	NMOD	0
+14	carcinoma	carcinoma	I-NP	NN	O	15	NMOD	0
+15	lines	line	I-NP	NNS	O	8	PMOD	0
+16	is	be	B-VP	VBZ	O	0	ROOT	0
+17	mediated	mediate	I-VP	VBN	O	16	VC	16	mediated
+18	by	by	B-PP	IN	O	17	VMOD	0
+19	stress	stress	B-NP	NN	B-protein	22	NMOD	0
+20	activated	activated	I-NP	JJ	I-protein	22	NMOD	0
+21	protein	protein	I-NP	NN	I-protein	22	NMOD	0
+22	kinases	kinase	I-NP	NNS	I-protein	18	PMOD	0
+23	.	.	O	.	O	16	P	0
+
+1	Solid	Solid	B-NP	JJ	O	2	NMOD	0
+2	tumors	tumor	I-NP	NNS	O	3	SUB	0
+3	must	must	B-VP	MD	O	0	ROOT	0
+4	establish	establish	I-VP	VB	O	3	VC	0
+5	a	a	B-NP	DT	O	7	NMOD	0
+6	blood	blood	I-NP	NN	O	7	NMOD	0
+7	supply	supply	I-NP	NN	O	4	OBJ	0
+8	in	in	B-SBAR	IN	O	4	VMOD	0
+9	order	order	O	NN	O	8	DEP	0
+10	to	to	B-VP	TO	O	11	VMOD	0
+11	proliferate	proliferate	I-VP	VB	O	8	SBAR	4	proliferate
+12	and	and	I-VP	CC	O	11	VMOD	0
+13	grow	grow	I-VP	VB	O	11	VMOD	4	grow
+14	.	.	O	.	O	3	P	0
+
+1	Cancer	Cancer	B-NP	NN	B-cell_type	2	NMOD	0
+2	cells	cell	I-NP	NNS	I-cell_type	3	SUB	0
+3	secrete	secrete	B-VP	VBP	O	0	ROOT	0
+4	soluble	soluble	B-NP	JJ	B-protein	5	NMOD	0
+5	factors	factor	I-NP	NNS	I-protein	3	OBJ	0
+6	which	which	B-NP	WDT	O	5	NMOD	0
+7	can	can	B-VP	MD	O	6	SBAR	0
+8	induce	induce	I-VP	VB	O	7	VC	17	induce
+9	proliferation	proliferation	B-NP	NN	O	11	NMOD	1	proliferation
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	migration	migration	I-NP	NN	O	8	OBJ	14	migration
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	capillary	capillary	B-NP	JJ	B-cell_type	15	NMOD	0
+14	endothelial	endothelial	I-NP	JJ	I-cell_type	15	NMOD	0
+15	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	0
+16	.	.	O	.	O	3	P	0
+
+1	Among	Among	B-PP	IN	O	0	ROOT	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	most	most	I-NP	RBS	O	4	AMOD	0
+4	potent	potent	I-NP	JJ	O	9	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	angiogenic	angiogenic	I-NP	JJ	B-protein	8	NMOD	3	angiogenic
+8	factors	factor	I-NP	NNS	I-protein	5	PMOD	0
+9	is	be	B-VP	VBZ	O	1	SBAR	0
+10	vascular	vascular	B-NP	JJ	B-protein	13	NMOD	0
+11	endothelial	endothelial	I-NP	JJ	I-protein	13	NMOD	0
+12	growth	growth	I-NP	NN	I-protein	13	NMOD	0
+13	factor	factor	I-NP	NN	I-protein	9	PRD	0
+14	(	(	O	(	O	16	DEP	0
+15	VEGF	VEGF	B-NP	NN	B-protein	16	DEP	0
+16	)	)	O	)	O	13	NMOD	0
+17	.	.	O	.	O	1	P	0
+
+1	Increased	Increase	B-NP	VBN	O	3	NMOD	17	Increased
+2	VEGF	VEGF	I-NP	NN	B-protein	3	NMOD	0
+3	expression	expression	I-NP	NN	O	7	SUB	9	expression
+4	by	by	B-PP	IN	O	3	NMOD	0
+5	malignant	malignant	B-NP	JJ	O	6	NMOD	0
+6	tumors	tumor	I-NP	NNS	O	4	PMOD	0
+7	has	have	B-VP	VBZ	O	0	ROOT	0
+8	been	be	I-VP	VBN	O	7	VC	0
+9	associated	associate	I-VP	VBN	O	8	VC	16	associated
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	high	high	B-NP	JJ	O	12	NMOD	0
+12	vascularity	vascularity	I-NP	NN	O	10	PMOD	0
+13	,	,	O	,	O	7	P	0
+14	increased	increase	B-VP	VBD	O	7	VMOD	17	increased
+15	cancer	cancer	B-NP	NN	O	17	NMOD	0
+16	cell	cell	I-NP	NN	O	17	NMOD	0
+17	growth	growth	I-NP	NN	O	14	OBJ	1	growth
+18	,	,	O	,	O	22	P	0
+19	and	and	O	CC	O	22	NMOD	0
+20	lymph	lymph	B-NP	NN	O	22	NMOD	0
+21	node	node	I-NP	NN	O	22	NMOD	0
+22	metastasis	metastasis	I-NP	NN	O	7	VMOD	14	metastasis
+23	.	.	O	.	O	7	P	0
+
+1	Reduced	Reduce	B-NP	VBN	O	3	NMOD	18	Reduced
+2	oxygen	oxygen	I-NP	NN	O	3	NMOD	0
+3	tension	tension	I-NP	NN	O	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	shown	show	I-VP	VBN	O	5	VC	0
+7	to	to	I-VP	TO	O	8	VMOD	0
+8	increase	increase	I-VP	VB	O	6	VMOD	17	increase
+9	VEGF	VEGF	B-NP	NN	B-protein	10	NMOD	0
+10	production	production	I-NP	NN	O	8	OBJ	9	production
+11	by	by	B-PP	IN	O	8	VMOD	0
+12	induction	induction	B-NP	NN	O	11	PMOD	17	induction
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	21	NMOD	0
+15	transcription	transcription	I-NP	NN	B-protein	21	NMOD	0
+16	factor	factor	I-NP	NN	I-protein	21	NMOD	0
+17	hypoxia	hypoxia	I-NP	NN	O	21	NMOD	0
+18	inducible	inducible	I-NP	JJ	O	21	NMOD	0
+19	factor	factor	I-NP	NN	O	21	NMOD	0
+20	1	1	I-NP	CD	O	21	NMOD	0
+21	alpha	alpha	I-NP	NN	O	13	PMOD	0
+22	(	(	O	(	O	24	DEP	0
+23	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	24	DEP	0
+24	)	)	O	)	O	21	NMOD	0
+25	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	mechanisms	mechanism	I-NP	NNS	O	13	SUB	0
+3	by	by	B-PP	IN	O	2	NMOD	0
+4	which	which	B-NP	WDT	O	3	PMOD	0
+5	hypoxic	hypoxic	B-NP	JJ	O	7	NMOD	0
+6	tumor	tumor	I-NP	NN	O	7	NMOD	0
+7	environments	environment	I-NP	NNS	O	8	SUB	0
+8	induce	induce	B-VP	VBP	O	3	SBAR	17	induce
+9	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	12	NMOD	0
+10	and	and	O	CC	O	12	NMOD	0
+11	VEGF	VEGF	B-NP	NN	B-protein	12	NMOD	0
+12	expression	expression	I-NP	NN	O	8	OBJ	9	expression
+13	are	be	B-VP	VBP	O	0	ROOT	0
+14	largely	largely	B-ADJP	RB	O	15	AMOD	0
+15	unknown	unknown	I-ADJP	JJ	O	13	PRD	0
+16	.	.	O	.	O	13	P	0
+
+1	Jun	Jun	B-NP	NN	B-protein	4	NMOD	0
+2	N	N	I-NP	NN	I-protein	4	NMOD	0
+3	terminal	terminal	I-NP	JJ	I-protein	4	NMOD	0
+4	kinase	kinase	I-NP	NN	I-protein	10	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	JNK1	JNK1	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	and	and	O	CC	O	10	NMOD	0
+9	p38	p38	B-NP	NN	B-protein	10	NMOD	0
+10	kinase	kinase	I-NP	NN	I-protein	11	SUB	0
+11	are	be	B-VP	VBP	O	0	ROOT	0
+12	activated	activate	I-VP	VBN	O	11	VC	17	activated
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	a	a	B-NP	DT	O	15	NMOD	0
+15	variety	variety	I-NP	NN	O	13	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	stress	stress	B-NP	NN	O	18	NMOD	0
+18	stimuli	stimulus	I-NP	NNS	O	16	PMOD	0
+19	.	.	O	.	O	11	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	determine	determine	I-VP	VB	O	19	VMOD	0
+3	if	if	B-SBAR	IN	O	2	VMOD	0
+4	hypoxic	hypoxic	B-NP	JJ	O	5	NMOD	0
+5	activation	activation	I-NP	NN	O	12	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	these	these	B-NP	DT	O	11	NMOD	0
+8	stress	stress	I-NP	NN	B-protein	11	NMOD	0
+9	activated	activated	I-NP	JJ	I-protein	11	NMOD	0
+10	protein	protein	I-NP	NN	I-protein	11	NMOD	0
+11	kinases	kinase	I-NP	NNS	I-protein	6	PMOD	0
+12	regulated	regulate	B-VP	VBD	O	3	SBAR	16	regulated
+13	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	16	NMOD	0
+14	and	and	I-NP	CC	O	16	NMOD	0
+15	VEGF	VEGF	I-NP	NN	B-protein	16	NMOD	0
+16	expression	expression	I-NP	NN	O	12	OBJ	9	expression
+17	,	,	O	,	O	19	P	0
+18	we	we	B-NP	PRP	O	19	SUB	0
+19	assayed	assay	B-VP	VBD	O	0	ROOT	0
+20	JNK1	JNK1	B-NP	NN	B-protein	23	NMOD	0
+21	and	and	I-NP	CC	O	23	NMOD	0
+22	p38	p38	I-NP	NN	B-protein	23	NMOD	0
+23	activity	activity	I-NP	NN	O	19	OBJ	0
+24	in	in	B-PP	IN	O	23	NMOD	0
+25	squamous	squamous	B-NP	JJ	B-cell_line	31	NMOD	0
+26	cell	cell	I-NP	NN	I-cell_line	31	NMOD	0
+27	carcinoma	carcinoma	I-NP	NN	I-cell_line	31	NMOD	0
+28	(	(	O	(	I-cell_line	31	NMOD	0
+29	SCC	SCC	B-NP	NN	I-cell_line	31	NMOD	0
+30	)	)	O	)	I-cell_line	31	NMOD	0
+31	lines	line	B-NP	NNS	I-cell_line	24	PMOD	0
+32	grown	grow	B-VP	VBN	O	31	NMOD	0
+33	under	under	B-PP	IN	O	32	VMOD	0
+34	normoxic	normoxic	B-NP	JJ	O	36	AMOD	0
+35	or	or	I-NP	CC	O	36	AMOD	0
+36	hypoxic	hypoxic	I-NP	JJ	O	37	NMOD	0
+37	conditions	condition	I-NP	NNS	O	33	PMOD	0
+38	.	.	O	.	O	19	P	0
+
+1	Hypoxia	Hypoxia	B-NP	NN	O	3	SUB	0
+2	rapidly	rapidly	B-ADVP	RB	O	3	VMOD	0
+3	induced	induce	B-VP	VBD	O	0	ROOT	17	induced
+4	both	both	O	CC	O	3	VMOD	0
+5	JNK1	JNK1	B-NP	NN	B-protein	8	NMOD	0
+6	and	and	O	CC	O	8	NMOD	0
+7	p38	p38	B-NP	NN	B-protein	8	NMOD	0
+8	activity	activity	I-NP	NN	O	4	PMOD	0
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	these	these	B-NP	DT	O	11	NMOD	0
+11	cells	cell	I-NP	NNS	O	9	PMOD	0
+12	.	.	O	.	O	3	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	activation	activation	I-NP	NN	O	3	SUB	17	activation
+3	correlated	correlate	B-VP	VBD	O	0	ROOT	0
+4	with	with	B-PP	IN	O	3	VMOD	0
+5	induction	induction	B-NP	NN	O	4	PMOD	17	induction
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	8	NMOD	0
+8	expression	expression	B-NP	NN	O	12	NMOD	9	expression
+9	and	and	O	CC	O	12	NMOD	0
+10	DNA	DNA	B-NP	NN	O	12	NMOD	0
+11	binding	binding	I-NP	NN	O	12	NMOD	15	binding
+12	activity	activity	I-NP	NN	O	6	PMOD	0
+13	which	which	B-NP	WDT	O	12	NMOD	0
+14	was	be	B-VP	VBD	O	13	SBAR	0
+15	blocked	block	I-VP	VBN	O	14	VC	18	blocked
+16	by	by	B-PP	IN	O	15	VMOD	0
+17	the	the	B-NP	DT	O	20	NMOD	0
+18	p38	p38	I-NP	NN	B-protein	20	NMOD	0
+19	inhibitor	inhibitor	I-NP	NN	O	20	NMOD	0
+20	SB203580	SB203580	I-NP	NN	O	16	PMOD	0
+21	.	.	O	.	O	3	P	0
+
+1	Hypoxia	Hypoxia	B-NP	NN	O	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+4	VEGF	VEGF	B-NP	NN	B-protein	5	NMOD	0
+5	production	production	I-NP	NN	O	3	OBJ	9	production
+6	by	by	B-PP	IN	O	3	VMOD	0
+7	SCC	SCC	B-NP	NN	B-cell_line	8	NMOD	0
+8	lines	line	I-NP	NNS	I-cell_line	6	PMOD	0
+9	,	,	O	,	O	3	P	0
+10	which	which	B-NP	WDT	O	3	VMOD	0
+11	was	be	B-VP	VBD	O	10	SBAR	0
+12	inhibited	inhibit	I-VP	VBN	O	11	VC	0
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	treatment	treatment	B-NP	NN	O	13	PMOD	19	treatment
+15	with	with	B-PP	IN	O	14	NMOD	0
+16	SB203580	SB203580	B-NP	NN	O	15	PMOD	0
+17	.	.	O	.	O	3	P	0
+
+1	Overexpression	Overexpression	B-NP	NN	O	6	SUB	9	Overexpression
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	JNK1	JNK1	B-NP	NN	B-protein	5	NMOD	0
+4	or	or	I-NP	CC	O	5	NMOD	0
+5	p38	p38	I-NP	NN	B-protein	2	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	sufficient	sufficient	B-ADJP	JJ	O	6	PRD	0
+8	to	to	B-VP	TO	O	9	VMOD	0
+9	induce	induce	I-VP	VB	O	6	VMOD	17	induce
+10	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	13	NMOD	0
+11	and	and	I-NP	CC	O	13	NMOD	0
+12	VEGF	VEGF	I-NP	NN	B-protein	13	NMOD	0
+13	expression	expression	I-NP	NN	O	9	OBJ	9	expression
+14	.	.	O	.	O	6	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	induction	induction	B-NP	NN	O	10	SUB	17	induction
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	SAPKs	SAPK	B-NP	NNS	B-protein	6	PMOD	0
+8	by	by	B-PP	IN	O	5	NMOD	0
+9	hypoxia	hypoxia	B-NP	NN	O	8	PMOD	0
+10	regulates	regulate	B-VP	VBZ	O	4	SBAR	16	regulates
+11	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	14	NMOD	0
+12	and	and	I-NP	CC	O	14	NMOD	0
+13	VEGF	VEGF	I-NP	NN	B-protein	14	NMOD	0
+14	expression	expression	I-NP	NN	O	10	OBJ	9	expression
+15	in	in	B-PP	IN	O	14	NMOD	0
+16	head	head	B-NP	NN	B-cell_line	21	NMOD	0
+17	and	and	I-NP	CC	I-cell_line	21	NMOD	0
+18	neck	neck	I-NP	NN	I-cell_line	21	NMOD	0
+19	carcinoma	carcinoma	I-NP	NN	I-cell_line	21	NMOD	0
+20	cell	cell	I-NP	NN	I-cell_line	21	NMOD	0
+21	lines	line	I-NP	NNS	I-cell_line	15	PMOD	0
+22	.	.	O	.	O	3	P	0
+

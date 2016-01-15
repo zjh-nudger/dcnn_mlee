@@ -1,0 +1,313 @@
+1	The	The	B-NP	DT	O	5	NMOD	-1
+2	tyrosine	tyrosine	I-NP	NN	B-protein	5	NMOD	-1
+3	kinase	kinase	I-NP	NN	I-protein	5	NMOD	-1
+4	inhibitor	inhibitor	I-NP	NN	O	5	NMOD	0
+5	cediranib	cediranib	I-NP	NN	O	6	SUB	-1
+6	blocks	block	B-VP	VBZ	O	0	ROOT	18	blocks
+7	ligand-induced	ligand-induced	B-NP	JJ	B-protein	12	NMOD	17	induced
+8	vascular	vascular	I-NP	JJ	I-protein	12	NMOD	-1
+9	endothelial	endothelial	I-NP	JJ	I-protein	12	NMOD	-1
+10	growth	growth	I-NP	NN	I-protein	12	NMOD	0
+11	factor	factor	I-NP	NN	I-protein	12	NMOD	-1
+12	receptor-3	receptor-3	I-NP	NN	I-protein	15	NMOD	-1
+13	activity	activity	I-NP	NN	O	15	NMOD	0
+14	and	and	I-NP	CC	O	15	NMOD	-1
+15	lymphangiogenesis	lymphangiogenesis	I-NP	NN	O	6	OBJ	0
+16	.	.	O	.	O	6	P	-1
+
+1	Solid	Solid	B-NP	JJ	O	2	NMOD	-1
+2	tumors	tumor	I-NP	NNS	O	3	SUB	-1
+3	express	express	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	5	NMOD	-1
+5	range	range	I-NP	NN	O	3	OBJ	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	factors	factor	B-NP	NNS	O	6	PMOD	-1
+8	required	require	B-VP	VBN	O	7	NMOD	0
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	sustain	sustain	I-VP	VB	O	8	VMOD	-1
+11	their	their	B-NP	PRP$	O	12	NMOD	-1
+12	growth	growth	I-NP	NN	O	10	OBJ	0
+13	and	and	O	CC	O	3	VMOD	-1
+14	promote	promote	B-VP	VBP	O	3	VMOD	0
+15	their	their	B-NP	PRP$	O	16	NMOD	-1
+16	dissemination	dissemination	I-NP	NN	O	14	OBJ	-1
+17	.	.	O	.	O	3	P	-1
+
+1	Among	Among	B-PP	IN	O	3	PRD	-1
+2	these	these	B-NP	DT	O	3	SUB	-1
+3	are	be	B-VP	VBP	O	0	ROOT	-1
+4	vascular	vascular	B-NP	JJ	B-protein	7	NMOD	-1
+5	endothelial	endothelial	I-NP	JJ	I-protein	7	NMOD	-1
+6	growth	growth	I-NP	NN	I-protein	7	NMOD	0
+7	factor-A	factor-A	I-NP	NN	I-protein	22	NMOD	-1
+8	(	(	O	(	O	10	DEP	-1
+9	VEGF-A	VEGF-A	B-NP	NN	B-protein	10	DEP	-1
+10	)	)	O	)	O	7	NMOD	-1
+11	,	,	O	,	O	22	P	-1
+12	the	the	B-NP	DT	O	15	NMOD	-1
+13	key	key	I-NP	JJ	O	15	NMOD	-1
+14	angiogenic	angiogenic	I-NP	JJ	O	15	NMOD	3	angiogenic
+15	stimulant	stimulant	I-NP	NN	O	22	NMOD	-1
+16	,	,	O	,	O	22	P	-1
+17	and	and	O	CC	O	22	NMOD	-1
+18	VEGF-C	VEGF-C	B-NP	NN	B-protein	22	NMOD	-1
+19	,	,	O	,	O	22	P	-1
+20	a	a	B-NP	DT	O	22	NMOD	-1
+21	primary	primary	I-NP	JJ	O	22	NMOD	-1
+22	mediator	mediator	I-NP	NN	O	3	PRD	0
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	lymphangiogenesis	lymphangiogenesis	B-NP	NN	O	23	PMOD	0
+25	.	.	O	.	O	3	P	-1
+
+1	Small	Small	B-NP	JJ	O	5	NMOD	-1
+2	molecule	molecule	I-NP	NN	O	5	NMOD	-1
+3	tyrosine	tyrosine	I-NP	NN	O	5	NMOD	-1
+4	kinase	kinase	I-NP	NN	O	5	NMOD	-1
+5	inhibitors	inhibitor	I-NP	NNS	O	6	SUB	-1
+6	offer	offer	B-VP	VBP	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	potential	potential	I-NP	NN	O	6	OBJ	0
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	inhibit	inhibit	I-VP	VB	O	8	NMOD	0
+11	more	more	B-NP	JJR	O	12	AMOD	-1
+12	than	than	I-NP	IN	O	14	NMOD	-1
+13	one	one	I-NP	CD	O	12	AMOD	-1
+14	kinase	kinase	I-NP	NN	O	10	OBJ	-1
+15	and	and	O	CC	O	6	VMOD	-1
+16	impede	impede	B-VP	VBP	O	6	VMOD	18	impede
+17	tumor	tumor	B-NP	NN	O	18	NMOD	-1
+18	growth	growth	I-NP	NN	O	16	OBJ	4	growth
+19	by	by	B-PP	IN	O	6	VMOD	-1
+20	multiple	multiple	B-NP	JJ	O	21	NMOD	-1
+21	mechanisms	mechanism	I-NP	NNS	O	19	PMOD	-1
+22	.	.	O	.	O	6	P	-1
+
+1	However	However	B-ADVP	RB	O	8	VMOD	-1
+2	,	,	O	,	O	8	P	-1
+3	their	their	B-NP	PRP$	O	4	NMOD	-1
+4	potency	potency	I-NP	NN	O	8	SUB	-1
+5	toward	toward	B-PP	IN	O	4	NMOD	-1
+6	individual	individual	B-NP	JJ	O	7	NMOD	-1
+7	targets	target	I-NP	NNS	O	5	PMOD	0
+8	can	can	B-VP	MD	O	0	ROOT	-1
+9	vary	vary	I-VP	VB	O	8	VC	-1
+10	.	.	O	.	O	8	P	-1
+
+1	Cediranib	Cediranib	B-NP	NN	O	7	SUB	-1
+2	(	(	O	(	O	6	DEP	-1
+3	RECENTIN	RECENTIN	B-NP	NN	O	5	NMOD	-1
+4	;	;	O	:	O	5	P	-1
+5	AZD2171	AZD2171	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	1	NMOD	-1
+7	is	be	B-VP	VBZ	O	46	VMOD	-1
+8	an	an	B-NP	DT	O	9	NMOD	-1
+9	inhibitor	inhibitor	I-NP	NN	O	7	PRD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	VEGF	VEGF	B-NP	NN	B-protein	12	NMOD	-1
+12	signaling	signaling	I-NP	NN	O	10	PMOD	0
+13	that	that	B-NP	WDT	O	9	NMOD	-1
+14	has	have	B-VP	VBZ	O	13	SBAR	-1
+15	been	be	I-VP	VBN	O	14	VC	-1
+16	shown	show	I-VP	VBN	O	15	VC	-1
+17	in	in	B-PP	IN	O	16	VMOD	-1
+18	experimental	experimental	B-NP	JJ	O	19	NMOD	-1
+19	models	model	I-NP	NNS	O	17	PMOD	-1
+20	to	to	B-VP	TO	O	21	VMOD	-1
+21	prevent	prevent	I-VP	VB	O	16	VMOD	18	prevent
+22	VEGF-A-induced	VEGF-A-induced	B-NP	JJ	O	23	NMOD	17	induced
+23	angiogenesis	angiogenesis	I-NP	NN	O	27	NMOD	3	angiogenesis
+24	and	and	O	CC	O	27	NMOD	-1
+25	primary	primary	B-NP	JJ	O	27	NMOD	-1
+26	tumor	tumor	I-NP	NN	O	27	NMOD	-1
+27	growth	growth	I-NP	NN	O	21	OBJ	4	growth
+28	,	,	O	,	O	46	P	-1
+29	yet	yet	O	RB	O	31	NMOD	-1
+30	the	the	B-NP	DT	O	31	NMOD	-1
+31	effects	effect	I-NP	NNS	O	46	SUB	16	effects
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	cediranib	cediranib	B-NP	NN	O	32	PMOD	-1
+34	on	on	B-PP	IN	O	31	NMOD	-1
+35	VEGF	VEGF	B-NP	NN	B-protein	43	NMOD	-1
+36	receptor	receptor	I-NP	NN	I-protein	43	NMOD	-1
+37	(	(	I-NP	(	O	39	DEP	-1
+38	VEGFR	VEGFR	I-NP	NN	B-protein	39	DEP	-1
+39	)	)	I-NP	)	O	43	NMOD	-1
+40	-3-mediated	-3-mediated	I-NP	JJ	O	43	NMOD	16	mediated
+41	endothelial	endothelial	I-NP	JJ	O	43	NMOD	-1
+42	cell	cell	I-NP	NN	O	43	NMOD	-1
+43	function	function	I-NP	NN	O	45	NMOD	-1
+44	and	and	I-NP	CC	O	45	NMOD	-1
+45	lymphangiogenesis	lymphangiogenesis	I-NP	NN	O	34	PMOD	0
+46	are	be	B-VP	VBP	O	0	ROOT	-1
+47	unknown	unknown	B-ADJP	JJ	O	46	PRD	-1
+48	.	.	O	.	O	46	P	-1
+
+1	To	To	B-VP	TO	O	3	VMOD	-1
+2	better	well	I-VP	RBR	O	3	VMOD	-1
+3	understand	understand	I-VP	VB	O	23	VMOD	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	activity	activity	I-NP	NN	O	14	NMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	cediranib	cediranib	B-NP	NN	O	6	PMOD	-1
+8	against	against	B-PP	IN	O	7	NMOD	0
+9	VEGFR-3	VEGFR-3	B-NP	NN	B-protein	8	PMOD	-1
+10	and	and	O	CC	O	14	NMOD	-1
+11	its	its	B-NP	PRP$	O	14	NMOD	-1
+12	associated	associate	I-NP	VBN	O	14	NMOD	0
+13	signaling	signaling	I-NP	NN	O	14	NMOD	0
+14	events	event	I-NP	NNS	O	3	OBJ	-1
+15	compared	compare	B-PP	VBN	O	14	NMOD	-1
+16	with	with	B-PP	IN	O	15	PMOD	-1
+17	its	its	B-NP	PRP$	O	18	NMOD	-1
+18	activity	activity	I-NP	NN	O	16	PMOD	0
+19	against	against	B-PP	IN	O	18	NMOD	0
+20	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	19	PMOD	-1
+21	,	,	O	,	O	23	P	-1
+22	we	we	B-NP	PRP	O	23	SUB	-1
+23	used	use	B-VP	VBD	O	0	ROOT	0
+24	the	the	B-NP	DT	O	26	NMOD	-1
+25	receptor-specific	receptor-specific	I-NP	JJ	O	26	NMOD	-1
+26	ligands	ligand	I-NP	NNS	O	29	NMOD	-1
+27	VEGF-E	VEGF-E	I-NP	NN	O	29	NMOD	-1
+28	and	and	I-NP	CC	O	29	NMOD	-1
+29	VEGF-C156S	VEGF-C156S	I-NP	NN	O	23	OBJ	-1
+30	.	.	O	.	O	23	P	-1
+
+1	In	In	B-PP	IN	O	7	VMOD	-1
+2	human	human	B-NP	JJ	B-cell_type	4	NMOD	-1
+3	endothelial	endothelial	I-NP	JJ	I-cell_type	4	NMOD	-1
+4	cells	cell	I-NP	NNS	I-cell_type	1	PMOD	-1
+5	,	,	O	,	O	7	P	-1
+6	cediranib	cediranib	B-NP	NN	O	7	SUB	-1
+7	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+8	VEGF-E-induced	VEGF-E-induced	B-NP	JJ	O	9	NMOD	17	induced
+9	phosphorylation	phosphorylation	I-NP	NN	O	7	OBJ	12	phosphorylation
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	14	NMOD	-1
+12	and	and	O	CC	O	14	NMOD	-1
+13	VEGF-C156S-induced	VEGF-C156S-induced	B-NP	JJ	O	14	NMOD	17	induced
+14	phosphorylation	phosphorylation	I-NP	NN	O	10	PMOD	12	phosphorylation
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	VEGFR-3	VEGFR-3	B-NP	NN	B-protein	15	PMOD	-1
+17	at	at	B-PP	IN	O	7	VMOD	-1
+18	concentrations	concentration	B-NP	NNS	O	17	PMOD	-1
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	less	less	B-NP	JJR	O	19	PMOD	-1
+21	than	than	B-PP	IN	O	20	AMOD	-1
+22	/=1nmol/L	/=1nmol/L	B-NP	NN	B-protein	21	PMOD	-1
+23	and	and	O	CC	O	7	VMOD	-1
+24	inhibited	inhibit	B-VP	VBD	O	7	VMOD	0
+25	activation	activation	B-NP	NN	O	24	OBJ	0
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	downstream	downstream	B-NP	JJ	B-protein	29	NMOD	0
+28	signaling	signal	I-NP	VBG	I-protein	29	NMOD	0
+29	molecules	molecule	I-NP	NNS	I-protein	26	PMOD	-1
+30	.	.	O	.	O	7	P	-1
+
+1	Additionally	Additionally	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	cediranib	cediranib	B-NP	NN	O	4	SUB	-1
+4	blocked	block	B-VP	VBD	O	0	ROOT	18	blocked
+5	VEGF-C156S-induced	VEGF-C156S-induced	B-NP	JJ	O	7	AMOD	17	induced
+6	and	and	I-NP	CC	O	7	AMOD	-1
+7	VEGF-E-induced	VEGF-E-induced	I-NP	JJ	O	8	NMOD	17	induced
+8	proliferation	proliferation	I-NP	NN	O	13	NMOD	1	proliferation
+9	,	,	O	,	O	13	P	-1
+10	survival	survival	B-NP	NN	O	13	NMOD	5	survival
+11	,	,	O	,	O	13	P	-1
+12	and	and	O	CC	O	13	NMOD	-1
+13	migration	migration	B-NP	NN	O	4	OBJ	14	migration
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	lymphatic	lymphatic	B-NP	JJ	B-cell_type	20	NMOD	-1
+16	and	and	I-NP	CC	I-cell_type	20	NMOD	-1
+17	blood	blood	I-NP	NN	I-cell_type	20	NMOD	-1
+18	vascular	vascular	I-NP	JJ	I-cell_type	20	NMOD	-1
+19	endothelial	endothelial	I-NP	JJ	I-cell_type	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	-1
+21	.	.	O	.	O	4	P	-1
+
+1	In	In	B-ADVP	FW	O	9	VMOD	-1
+2	vivo	vivo	I-ADVP	FW	O	1	AMOD	-1
+3	,	,	O	,	O	9	P	-1
+4	cediranib	cediranib	B-NP	NN	O	9	SUB	-1
+5	(	(	O	(	O	8	DEP	-1
+6	6	6	B-NP	CD	O	7	NMOD	-1
+7	mg/kg/d	mg/kg/d	I-NP	NN	O	8	DEP	-1
+8	)	)	O	)	O	4	NMOD	-1
+9	prevented	prevent	B-VP	VBD	O	0	ROOT	18	prevented
+10	angiogenesis	angiogenesis	B-NP	NN	O	12	NMOD	3	angiogenesis
+11	and	and	I-NP	CC	O	12	NMOD	-1
+12	lymphangiogenesis	lymphangiogenesis	I-NP	NN	O	9	OBJ	0
+13	induced	induce	B-VP	VBN	O	12	NMOD	17	induced
+14	by	by	B-PP	IN	O	13	VMOD	-1
+15	VEGF-E-expressing	VEGF-E-expressing	B-NP	JJ	O	18	NMOD	9	expressing
+16	and	and	I-NP	CC	O	18	NMOD	-1
+17	VEGF-C156S-expressing	VEGF-C156S-expressing	I-NP	JJ	O	18	NMOD	9	expressing
+18	adenoviruses	adenovirus	I-NP	NNS	O	14	PMOD	-1
+19	,	,	O	,	O	9	P	-1
+20	respectively	respectively	B-ADVP	RB	O	9	VMOD	-1
+21	.	.	O	.	O	9	P	-1
+
+1	Cediranib	Cediranib	B-NP	NN	O	7	SUB	-1
+2	(	(	O	(	O	5	DEP	-1
+3	6	6	B-NP	CD	O	4	NMOD	-1
+4	mg/kg/day	mg/kg/day	I-NP	NN	O	5	DEP	-1
+5	)	)	O	)	O	1	NMOD	-1
+6	also	also	B-ADVP	RB	O	7	VMOD	-1
+7	blocked	block	B-VP	VBD	O	0	ROOT	18	blocked
+8	angiogenesis	angiogenesis	B-NP	NN	O	10	NMOD	3	angiogenesis
+9	and	and	I-NP	CC	O	10	NMOD	-1
+10	lymphangiogenesis	lymphangiogenesis	I-NP	NN	O	7	OBJ	0
+11	induced	induce	B-VP	VBN	O	10	NMOD	0
+12	by	by	B-PP	IN	O	11	VMOD	-1
+13	adenoviruses	adenovirus	B-NP	NNS	O	12	PMOD	-1
+14	expressing	express	B-VP	VBG	O	13	NMOD	9	expressing
+15	VEGF-A	VEGF-A	B-NP	NN	B-protein	17	NMOD	-1
+16	or	or	I-NP	CC	O	17	NMOD	-1
+17	VEGF-C	VEGF-C	I-NP	NN	O	14	OBJ	-1
+18	and	and	O	CC	O	7	VMOD	-1
+19	compromised	compromise	B-VP	VBD	O	7	VMOD	-1
+20	the	the	B-NP	DT	O	24	NMOD	-1
+21	blood	blood	I-NP	NN	O	24	NMOD	-1
+22	and	and	O	CC	O	24	NMOD	-1
+23	lymphatic	lymphatic	B-NP	JJ	O	24	NMOD	-1
+24	vasculatures	vasculature	I-NP	NNS	O	19	OBJ	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	VEGF-C-expressing	VEGF-C-expressing	B-NP	JJ	O	27	NMOD	9	expressing
+27	tumors	tumor	I-NP	NNS	O	25	PMOD	-1
+28	.	.	O	.	O	7	P	-1
+
+1	Cediranib	Cediranib	B-NP	NN	O	2	SUB	-1
+2	may	may	B-VP	MD	O	0	ROOT	-1
+3	,	,	O	,	O	2	P	-1
+4	therefore	therefore	B-ADVP	RB	O	2	VMOD	-1
+5	,	,	O	,	O	2	P	-1
+6	be	be	B-VP	VB	O	2	VC	-1
+7	an	an	B-NP	DT	O	9	NMOD	-1
+8	effective	effective	I-NP	JJ	O	9	NMOD	0
+9	means	mean	I-NP	NNS	O	6	PRD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	preventing	prevent	B-VP	VBG	O	10	PMOD	18	preventing
+12	tumor	tumor	B-NP	NN	O	13	NMOD	-1
+13	progression	progression	I-NP	NN	O	11	OBJ	2	progression
+14	,	,	O	,	O	15	P	-1
+15	not	not	B-CONJP	RB	O	13	NMOD	-1
+16	only	only	I-CONJP	RB	O	15	DEP	-1
+17	by	by	B-PP	IN	O	15	PMOD	-1
+18	inhibiting	inhibit	B-VP	VBG	O	17	PMOD	18	inhibiting
+19	VEGFR-2	VEGFR-2	B-NP	NN	B-protein	20	NMOD	-1
+20	activity	activity	I-NP	NN	O	22	NMOD	0
+21	and	and	O	CC	O	22	NMOD	-1
+22	angiogenesis	angiogenesis	B-NP	NN	O	18	OBJ	3	angiogenesis
+23	,	,	O	,	O	22	NMOD	-1
+24	but	but	B-CONJP	CC	O	23	PMOD	-1
+25	also	also	I-CONJP	RB	O	24	DEP	-1
+26	by	by	B-PP	IN	O	24	PMOD	-1
+27	concomitantly	concomitantly	B-NP	RB	O	28	AMOD	-1
+28	inhibiting	inhibit	I-NP	VBG	O	26	PMOD	18	inhibiting
+29	VEGFR-3	VEGFR-3	I-NP	NN	B-protein	30	NMOD	-1
+30	activity	activity	I-NP	NN	O	32	NMOD	0
+31	and	and	I-NP	CC	O	32	NMOD	-1
+32	lymphangiogenesis	lymphangiogenesis	I-NP	NN	O	28	OBJ	0
+33	.	.	O	.	O	2	P	-1
+

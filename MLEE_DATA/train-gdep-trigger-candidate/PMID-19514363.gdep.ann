@@ -1,0 +1,153 @@
+1	[	[	O	(	O	10	DEP	-1
+2	Role	Role	B-NP	NN	O	10	DEP	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	7	NMOD	-1
+5	tumor	tumor	I-NP	NN	B-protein	7	NMOD	-1
+6	suppressor	suppressor	I-NP	NN	I-protein	7	NMOD	0
+7	ARF	ARF	I-NP	NN	I-protein	3	PMOD	-1
+8	in	in	B-PP	IN	O	2	NMOD	-1
+9	oncogenesis	oncogenesis	B-NP	NN	O	8	PMOD	-1
+10	]	]	O	)	O	0	ROOT	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	paper	paper	I-NP	NN	O	3	SUB	-1
+3	reviews	review	B-VP	VBZ	O	0	ROOT	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	data	datum	I-NP	NNS	O	3	OBJ	-1
+6	available	available	B-ADJP	JJ	O	5	NMOD	-1
+7	in	in	B-PP	IN	O	6	AMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	literature	literature	I-NP	NN	O	7	PMOD	-1
+10	on	on	B-PP	IN	O	9	NMOD	-1
+11	a	a	B-NP	DT	O	12	NMOD	-1
+12	role	role	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	17	NMOD	-1
+15	tumor	tumor	I-NP	NN	B-protein	17	NMOD	-1
+16	suppressor	suppressor	I-NP	NN	I-protein	17	NMOD	0
+17	ARF	ARF	I-NP	NN	I-protein	13	PMOD	-1
+18	in	in	B-PP	IN	O	12	NMOD	-1
+19	oncogenesis	oncogenesis	B-NP	NN	O	18	PMOD	-1
+20	and	and	O	CC	O	3	VMOD	-1
+21	considers	consider	B-VP	VBZ	O	3	VMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	structure	structure	I-NP	NN	O	21	OBJ	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	a	a	B-NP	DT	O	26	NMOD	-1
+26	gene	gene	I-NP	NN	O	24	PMOD	-1
+27	encoding	encode	B-VP	VBG	O	26	NMOD	-1
+28	ARF	ARF	B-NP	NN	B-protein	29	NMOD	-1
+29	protein	protein	I-NP	NN	I-protein	27	OBJ	-1
+30	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	5	NMOD	-1
+2	p53-dependent	p53-dependent	I-NP	JJ	O	4	AMOD	17	dependent
+3	and	and	I-NP	CC	O	4	AMOD	-1
+4	p-53-independent	p-53-independent	I-NP	JJ	O	5	NMOD	16	independent
+5	functions	function	I-NP	NNS	O	9	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	this	this	B-NP	DT	O	8	NMOD	-1
+8	protein	protein	I-NP	NN	O	6	PMOD	-1
+9	are	be	B-VP	VBP	O	0	ROOT	-1
+10	under	under	B-PP	IN	O	9	PRD	-1
+11	many	many	B-NP	JJ	O	12	NMOD	-1
+12	studies	study	I-NP	NNS	O	10	PMOD	-1
+13	.	.	O	.	O	9	P	-1
+
+1	There	There	B-NP	EX	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	evidence	evidence	B-NP	NN	O	2	PRD	-1
+4	for	for	B-PP	IN	O	3	NMOD	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	implication	implication	I-NP	NN	O	4	PMOD	16	implication
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	ARF	ARF	B-NP	NN	B-protein	7	PMOD	-1
+9	in	in	B-PP	IN	O	6	NMOD	-1
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	PMOD	3	angiogenesis
+11	.	.	O	.	O	2	P	-1
+
+1	There	There	B-NP	EX	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	more	more	B-NP	JJR	O	6	NMOD	-1
+4	and	and	I-NP	CC	O	6	NMOD	-1
+5	more	more	I-NP	JJR	O	6	NMOD	-1
+6	information	information	I-NP	NN	O	2	PRD	-1
+7	on	on	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	role	role	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	ARF	ARF	B-NP	NN	B-protein	10	PMOD	-1
+12	in	in	B-PP	IN	O	9	NMOD	-1
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	regulation	regulation	I-NP	NN	O	12	PMOD	16	regulation
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	a	a	B-NP	DT	O	18	NMOD	-1
+17	cell	cell	I-NP	NN	O	18	NMOD	-1
+18	cycle	cycle	I-NP	NN	O	23	NMOD	0
+19	,	,	O	,	O	23	P	-1
+20	apoptosis	apoptosis	B-NP	NN	O	23	NMOD	5	apoptosis
+21	,	,	O	,	O	23	P	-1
+22	and	and	O	CC	O	23	NMOD	-1
+23	autophagy	autophagy	B-NP	NN	O	15	PMOD	-1
+24	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	importance	importance	I-NP	NN	O	12	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	this	this	B-NP	DT	O	6	NMOD	-1
+5	tumor	tumor	I-NP	NN	B-protein	6	NMOD	-1
+6	suppressor	suppressor	I-NP	NN	I-protein	3	PMOD	0
+7	in	in	B-PP	IN	O	2	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	mechanisms	mechanism	I-NP	NNS	O	7	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	carcinogenesis	carcinogenesis	B-NP	NN	O	10	PMOD	0
+12	is	be	B-VP	VBZ	O	0	ROOT	-1
+13	beyond	beyond	B-PP	IN	O	12	PRD	-1
+14	question	question	B-NP	NN	O	13	PMOD	-1
+15	as	as	B-PP	IN	O	12	VMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	inactivation	inactivation	I-NP	NN	O	15	PMOD	18	inactivation
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	ARF	ARF	B-NP	NN	O	21	NMOD	-1
+20	suppressor	suppressor	I-NP	NN	O	21	NMOD	0
+21	activity	activity	I-NP	NN	O	18	PMOD	0
+22	leads	lead	B-VP	VBZ	O	12	VMOD	17	leads
+23	to	to	B-PP	TO	O	22	VMOD	-1
+24	the	the	B-NP	DT	O	26	NMOD	-1
+25	rapid	rapid	I-NP	JJ	O	26	NMOD	-1
+26	growth	growth	I-NP	NN	O	23	PMOD	4	growth
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	neoplasia	neoplasia	B-NP	NN	O	27	PMOD	-1
+29	.	.	O	.	O	12	P	-1
+
+1	However	However	B-ADVP	RB	O	10	VMOD	-1
+2	,	,	O	,	O	10	P	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	exact	exact	I-NP	JJ	O	5	NMOD	-1
+5	mechanisms	mechanism	I-NP	NNS	O	10	SUB	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	ARF	ARF	B-NP	NN	B-protein	8	NMOD	-1
+8	action	action	I-NP	NN	O	6	PMOD	0
+9	yet	yet	B-ADVP	RB	O	10	VMOD	-1
+10	remain	remain	B-VP	VBP	O	0	ROOT	-1
+11	unclear	unclear	B-ADJP	JJ	O	10	PRD	-1
+12	and	and	O	CC	O	10	VMOD	-1
+13	require	require	B-VP	VBP	O	10	VMOD	0
+14	further	far	B-NP	JJR	O	15	NMOD	-1
+15	studies	study	I-NP	NNS	O	13	OBJ	-1
+16	by	by	B-PP	IN	O	13	VMOD	-1
+17	different	different	B-NP	JJ	O	18	NMOD	-1
+18	specialists	specialist	I-NP	NNS	O	16	PMOD	-1
+19	at	at	B-PP	IN	O	18	NMOD	-1
+20	both	both	O	CC	O	26	NMOD	-1
+21	the	the	B-NP	DT	O	26	NMOD	-1
+22	molecular	molecular	I-NP	JJ	O	26	NMOD	-1
+23	genetic	genetic	I-NP	JJ	O	26	NMOD	-1
+24	and	and	I-NP	CC	O	26	NMOD	-1
+25	other	other	I-NP	JJ	O	26	NMOD	-1
+26	levels	level	I-NP	NNS	O	19	PMOD	-1
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	investigation	investigation	B-NP	NN	O	27	PMOD	-1
+29	.	.	O	.	O	10	P	-1
+

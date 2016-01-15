@@ -1,0 +1,305 @@
+1	Host-derived	Host-derived	B-NP	JJ	O	2	NMOD	-1
+2	angiopoietin-2	angiopoietin-2	I-NP	NN	O	3	SUB	-1
+3	affects	affect	B-VP	VBZ	O	0	ROOT	16	affects
+4	early	early	B-NP	JJ	O	5	NMOD	-1
+5	stages	stage	I-NP	NNS	O	3	OBJ	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	tumor	tumor	B-NP	NN	O	8	NMOD	-1
+8	development	development	I-NP	NN	O	11	NMOD	2	development
+9	and	and	O	CC	O	11	NMOD	-1
+10	vessel	vessel	B-NP	NN	O	11	NMOD	-1
+11	maturation	maturation	I-NP	NN	O	6	PMOD	2	maturation
+12	but	but	O	CC	O	3	VMOD	-1
+13	is	be	B-VP	VBZ	O	3	VMOD	-1
+14	dispensable	dispensable	B-ADJP	JJ	O	13	PRD	16	dispensable
+15	for	for	B-PP	IN	O	14	AMOD	-1
+16	later	later	B-NP	JJ	O	17	NMOD	-1
+17	stages	stage	I-NP	NNS	O	15	PMOD	-1
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	tumor	tumor	B-NP	NN	O	20	NMOD	-1
+20	growth	growth	I-NP	NN	O	18	PMOD	4	growth
+21	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	angiopoietin/Tie2	angiopoietin/Tie2	I-NP	NN	O	3	NMOD	-1
+3	system	system	I-NP	NN	O	4	SUB	0
+4	has	have	B-VP	VBZ	O	0	ROOT	-1
+5	been	be	I-VP	VBN	O	4	VC	-1
+6	identified	identify	I-VP	VBN	O	5	VC	-1
+7	as	as	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	second	second	I-NP	JJ	O	14	NMOD	-1
+10	vascular-specific	vascular-specific	I-NP	JJ	B-protein	14	NMOD	-1
+11	receptor	receptor	I-NP	NN	I-protein	14	NMOD	-1
+12	tyrosine	tyrosine	I-NP	NN	I-protein	14	NMOD	-1
+13	kinase	kinase	I-NP	NN	I-protein	14	NMOD	-1
+14	system	system	I-NP	NN	O	7	PMOD	0
+15	controlling	control	B-VP	VBG	O	14	NMOD	16	controlling
+16	vessel	vessel	B-NP	NN	O	17	NMOD	-1
+17	assembly	assembly	I-NP	NN	O	22	NMOD	2	assembly
+18	,	,	O	,	O	22	P	-1
+19	maturation	maturation	B-NP	NN	O	22	NMOD	2	maturation
+20	,	,	O	,	O	22	P	-1
+21	and	and	O	CC	O	22	NMOD	-1
+22	quiescence	quiescence	B-NP	NN	O	15	OBJ	2	quiescence
+23	.	.	O	.	O	4	P	-1
+
+1	Angiopoietin-2	Angiopoietin-2	B-NP	NN	B-protein	5	SUB	-1
+2	(	(	O	(	O	4	DEP	-1
+3	Ang-2	Ang-2	B-NP	NN	B-protein	4	DEP	-1
+4	)	)	O	)	O	1	NMOD	-1
+5	is	be	B-VP	VBZ	O	0	ROOT	-1
+6	prominently	prominently	I-VP	RB	O	5	VMOD	-1
+7	up-regulated	up-regulate	I-VP	VBN	O	5	VC	17	up-regulated
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	host-derived	host-derived	I-NP	JJ	O	11	NMOD	-1
+11	vasculature	vasculature	I-NP	NN	O	8	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	most	most	B-NP	JJS	O	14	NMOD	-1
+14	tumors	tumor	I-NP	NNS	O	12	PMOD	-1
+15	,	,	O	,	O	5	P	-1
+16	making	make	B-VP	VBG	O	5	VMOD	-1
+17	it	it	B-NP	PRP	O	20	SUB	-1
+18	an	an	B-NP	DT	O	20	NMOD	-1
+19	attractive	attractive	I-NP	JJ	O	20	NMOD	-1
+20	candidate	candidate	I-NP	NN	O	16	OBJ	-1
+21	for	for	B-PP	IN	O	20	NMOD	-1
+22	antiangiogenic	antiangiogenic	B-NP	JJ	O	23	NMOD	3	angiogenic
+23	intervention	intervention	I-NP	NN	O	21	PMOD	18	intervention
+24	.	.	O	.	O	5	P	-1
+
+1	Yet	Yet	B-ADVP	RB	O	12	VMOD	-1
+2	,	,	O	,	O	12	P	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	net	net	I-NP	JJ	O	5	NMOD	-1
+5	outcome	outcome	I-NP	NN	O	12	SUB	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	Ang-2	Ang-2	B-NP	NN	B-protein	8	NMOD	-1
+8	functions	function	I-NP	NNS	O	6	PMOD	0
+9	on	on	B-PP	IN	O	8	NMOD	-1
+10	tumor	tumor	B-NP	NN	O	11	NMOD	-1
+11	angiogenesis	angiogenesis	I-NP	NN	O	9	PMOD	3	angiogenesis
+12	is	be	B-VP	VBZ	O	0	ROOT	-1
+13	believed	believe	I-VP	VBN	O	12	VC	-1
+14	to	to	I-VP	TO	O	15	VMOD	-1
+15	be	be	I-VP	VB	O	13	VMOD	-1
+16	contextual	contextual	B-ADJP	JJ	O	15	PRD	-1
+17	depending	depend	B-PP	VBG	O	16	AMOD	16	depending
+18	on	on	B-PP	IN	O	17	PMOD	-1
+19	the	the	B-NP	DT	O	22	NMOD	-1
+20	local	local	I-NP	JJ	O	22	NMOD	-1
+21	cytokine	cytokine	I-NP	NN	O	22	NMOD	-1
+22	milieu	milieu	I-NP	NN	O	18	PMOD	-1
+23	.	.	O	.	O	12	P	-1
+
+1	Correspondingly	Correspondingly	B-ADVP	RB	O	6	VMOD	-1
+2	,	,	O	,	O	6	P	-1
+3	Ang-2	Ang-2	B-NP	NN	B-protein	5	NMOD	-1
+4	manipulatory	manipulatory	I-NP	JJ	O	5	NMOD	-1
+5	therapies	therapy	I-NP	NNS	O	6	SUB	0
+6	have	have	B-VP	VBP	O	0	ROOT	-1
+7	been	be	I-VP	VBN	O	6	VC	-1
+8	shown	show	I-VP	VBN	O	7	VC	-1
+9	to	to	I-VP	TO	O	10	VMOD	-1
+10	exert	exert	I-VP	VB	O	8	VMOD	-1
+11	protumorigenic	protumorigenic	O	JJ	O	16	NMOD	-1
+12	as	as	B-CONJP	RB	O	16	NMOD	-1
+13	well	well	I-CONJP	RB	O	12	DEP	-1
+14	as	as	I-CONJP	IN	O	12	DEP	-1
+15	antitumorigenic	antitumorigenic	B-NP	JJ	O	16	NMOD	-1
+16	effects	effect	I-NP	NNS	O	10	OBJ	0
+17	.	.	O	.	O	6	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	clarify	clarify	I-VP	VB	O	22	VMOD	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	role	role	I-NP	NN	O	2	OBJ	16	role
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	Ang-2	Ang-2	B-NP	NN	B-protein	5	PMOD	-1
+7	for	for	B-PP	IN	O	4	NMOD	-1
+8	angiogenesis	angiogenesis	B-NP	NN	O	11	NMOD	3	angiogenesis
+9	and	and	I-NP	CC	O	11	NMOD	-1
+10	tumor	tumor	I-NP	NN	O	11	NMOD	-1
+11	growth	growth	I-NP	NN	O	7	PMOD	4	growth
+12	in	in	B-PP	IN	O	4	NMOD	-1
+13	a	a	B-NP	DT	O	17	NMOD	-1
+14	definite	definite	I-NP	JJ	O	17	NMOD	-1
+15	genetic	genetic	I-NP	JJ	O	17	NMOD	-1
+16	experimental	experimental	I-NP	JJ	O	17	NMOD	-1
+17	setting	setting	I-NP	NN	O	12	PMOD	-1
+18	,	,	O	,	O	22	P	-1
+19	the	the	B-NP	DT	O	21	NMOD	-1
+20	present	present	I-NP	JJ	O	21	NMOD	0
+21	study	study	I-NP	NN	O	22	SUB	-1
+22	was	be	B-VP	VBD	O	0	ROOT	-1
+23	aimed	aim	I-VP	VBN	O	22	VC	-1
+24	at	at	B-PP	IN	O	23	VMOD	-1
+25	comparatively	comparatively	B-VP	RB	O	26	VMOD	-1
+26	studying	study	I-VP	VBG	O	24	PMOD	-1
+27	the	the	B-NP	DT	O	28	NMOD	-1
+28	growth	growth	I-NP	NN	O	26	OBJ	4	growth
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	different	different	B-NP	JJ	O	31	NMOD	-1
+31	tumors	tumor	I-NP	NNS	O	29	PMOD	-1
+32	in	in	B-PP	IN	O	31	NMOD	-1
+33	wild-type	wild-type	B-NP	JJ	O	36	NMOD	-1
+34	and	and	I-NP	CC	O	36	NMOD	-1
+35	Ang-2-deficient	Ang-2-deficient	I-NP	JJ	O	36	NMOD	9	deficient
+36	mice	mouse	I-NP	NNS	O	32	PMOD	-1
+37	.	.	O	.	O	22	P	-1
+
+1	Lewis	Lewis	B-NP	NNP	O	3	NMOD	-1
+2	lung	lung	I-NP	NN	O	3	NMOD	-1
+3	carcinomas	carcinoma	I-NP	NNS	O	10	NMOD	-1
+4	,	,	O	,	O	10	P	-1
+5	MT-ret	MT-ret	B-NP	NN	O	6	NMOD	-1
+6	melanomas	melanoma	I-NP	NNS	O	10	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	and	and	O	CC	O	10	NMOD	-1
+9	B16F10	B16F10	B-NP	NN	O	10	NMOD	-1
+10	melanomas	melanoma	I-NP	NNS	O	12	SUB	-1
+11	all	all	O	DT	O	12	VMOD	-1
+12	grew	grow	B-VP	VBD	O	0	ROOT	4	grew
+13	slower	slow	B-ADJP	JJR	O	12	PRD	-1
+14	in	in	B-PP	IN	O	13	AMOD	-1
+15	Ang-2-deficient	Ang-2-deficient	B-NP	JJ	O	16	NMOD	9	deficient
+16	mice	mouse	I-NP	NNS	O	14	PMOD	-1
+17	.	.	O	.	O	12	P	-1
+
+1	Yet	Yet	B-ADVP	RB	O	18	VMOD	-1
+2	,	,	O	,	O	18	P	-1
+3	tumor	tumor	B-NP	NN	O	4	NMOD	-1
+4	growth	growth	I-NP	NN	O	18	VMOD	4	growth
+5	in	in	B-PP	IN	O	4	NMOD	-1
+6	wild-type	wild-type	B-NP	JJ	O	9	NMOD	-1
+7	and	and	I-NP	CC	O	9	NMOD	-1
+8	Ang-2-deficient	Ang-2-deficient	I-NP	JJ	O	9	NMOD	9	deficient
+9	mice	mouse	I-NP	NNS	O	5	PMOD	-1
+10	dissociated	dissociate	B-VP	VBN	O	9	NMOD	-1
+11	during	during	B-PP	IN	O	10	VMOD	-1
+12	early	early	B-NP	JJ	O	13	NMOD	-1
+13	stages	stage	I-NP	NNS	O	11	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	tumor	tumor	B-NP	NN	O	16	NMOD	-1
+16	development	development	I-NP	NN	O	14	PMOD	2	development
+17	,	,	O	,	O	18	P	-1
+18	whereas	whereas	O	IN	O	0	ROOT	-1
+19	tumor	tumor	B-NP	NN	O	21	NMOD	-1
+20	growth	growth	I-NP	NN	O	21	NMOD	4	growth
+21	rates	rate	I-NP	NNS	O	29	SUB	-1
+22	during	during	B-PP	IN	O	21	NMOD	-1
+23	later	later	B-NP	JJ	O	24	NMOD	-1
+24	stages	stage	I-NP	NNS	O	22	PMOD	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	primary	primary	B-NP	JJ	O	28	NMOD	-1
+27	tumor	tumor	I-NP	NN	O	28	NMOD	-1
+28	progression	progression	I-NP	NN	O	25	PMOD	2	progression
+29	were	be	B-VP	VBD	O	18	VMOD	-1
+30	similar	similar	B-ADJP	JJ	O	29	PRD	-1
+31	.	.	O	.	O	18	P	-1
+
+1	Analysis	Analysis	B-NP	NN	O	7	SUB	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	6	NMOD	-1
+4	intratumoral	intratumoral	I-NP	JJ	O	6	NMOD	-1
+5	vascular	vascular	I-NP	JJ	O	6	NMOD	-1
+6	architecture	architecture	I-NP	NN	O	2	PMOD	-1
+7	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+8	no	no	B-NP	DT	O	10	NMOD	-1
+9	major	major	I-NP	JJ	O	10	NMOD	-1
+10	differences	difference	I-NP	NNS	O	7	OBJ	-1
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	microvessel	microvessel	B-NP	NN	O	13	NMOD	-1
+13	density	density	I-NP	NN	O	16	NMOD	-1
+14	and	and	I-NP	CC	O	16	NMOD	-1
+15	perfusion	perfusion	I-NP	NN	O	16	NMOD	14	perfusion
+16	characteristics	characteristic	I-NP	NNS	O	11	PMOD	-1
+17	.	.	O	.	O	7	P	-1
+
+1	However	However	B-ADVP	RB	O	7	VMOD	-1
+2	,	,	O	,	O	7	P	-1
+3	diameters	diameter	B-NP	NNS	O	7	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	intratumoral	intratumoral	B-NP	JJ	O	6	NMOD	-1
+6	microvessels	microvessel	I-NP	NNS	O	4	PMOD	-1
+7	were	be	B-VP	VBD	O	19	VMOD	-1
+8	smaller	small	B-ADJP	JJR	O	7	PRD	-1
+9	in	in	B-PP	IN	O	8	AMOD	-1
+10	tumors	tumor	B-NP	NNS	O	9	PMOD	-1
+11	grown	grow	B-VP	VBN	O	10	NMOD	4	grown
+12	in	in	B-PP	IN	O	11	VMOD	-1
+13	Ang-2-deficient	Ang-2-deficient	B-NP	JJ	O	14	NMOD	9	deficient
+14	mice	mouse	I-NP	NNS	O	12	PMOD	-1
+15	,	,	O	,	O	19	P	-1
+16	and	and	O	CC	O	19	VMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	vasculature	vasculature	I-NP	NN	O	19	SUB	-1
+19	had	have	B-VP	VBD	O	0	ROOT	-1
+20	an	an	B-NP	DT	O	22	NMOD	-1
+21	altered	altered	I-NP	JJ	O	22	NMOD	0
+22	pattern	pattern	I-NP	NN	O	19	OBJ	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	pericyte	pericyte	B-NP	NN	O	25	NMOD	-1
+25	recruitment	recruitment	I-NP	NN	O	27	NMOD	14	recruitment
+26	and	and	I-NP	CC	O	27	NMOD	-1
+27	maturation	maturation	I-NP	NN	O	23	PMOD	2	maturation
+28	.	.	O	.	O	19	P	-1
+
+1	Ang-2-deficient	Ang-2-deficient	B-NP	JJ	O	3	NMOD	9	deficient
+2	tumor	tumor	I-NP	NN	O	3	NMOD	-1
+3	vessels	vessel	I-NP	NNS	O	4	SUB	-1
+4	had	have	B-VP	VBD	O	0	ROOT	-1
+5	higher	high	B-NP	JJR	O	8	NMOD	-1
+6	pericyte	pericyte	I-NP	NN	O	8	NMOD	-1
+7	coverage	coverage	I-NP	NN	O	8	NMOD	-1
+8	indices	index	I-NP	NNS	O	4	OBJ	-1
+9	.	.	O	.	O	4	P	-1
+
+1	Recruited	Recruit	B-NP	VBN	O	2	NMOD	14	Recruited
+2	pericytes	pericyte	I-NP	NNS	O	3	SUB	-1
+3	were	be	B-VP	VBD	O	0	ROOT	-1
+4	desmin	desmin	B-NP	NN	O	12	NMOD	-1
+5	and	and	I-NP	CC	O	12	NMOD	-1
+6	NG2	NG2	I-NP	NN	B-protein	12	NMOD	-1
+7	positive	positive	I-NP	JJ	O	12	NMOD	0
+8	and	and	I-NP	CC	O	12	NMOD	-1
+9	predominately	predominately	I-NP	RB	O	10	AMOD	-1
+10	alpha-smooth	alpha-smooth	I-NP	JJ	B-protein	12	NMOD	-1
+11	muscle	muscle	I-NP	NN	I-protein	12	NMOD	-1
+12	actin	actin	I-NP	NN	I-protein	3	PRD	-1
+13	negative	negative	B-ADJP	JJ	O	15	AMOD	0
+14	,	,	O	,	O	15	P	-1
+15	indicative	indicative	B-ADJP	JJ	O	12	NMOD	-1
+16	of	of	B-PP	IN	O	15	AMOD	-1
+17	a	a	B-NP	DT	O	21	NMOD	-1
+18	more	more	I-NP	RBR	O	19	AMOD	-1
+19	mature	mature	I-NP	JJ	O	21	NMOD	-1
+20	pericyte	pericyte	I-NP	NN	O	21	NMOD	-1
+21	phenotype	phenotype	I-NP	NN	O	16	PMOD	-1
+22	.	.	O	.	O	3	P	-1
+
+1	Collectively	Collectively	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	experiments	experiment	I-NP	NNS	O	5	SUB	-1
+5	define	define	B-VP	VBP	O	0	ROOT	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	role	role	I-NP	NN	O	5	OBJ	16	role
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	Ang-2	Ang-2	B-NP	NN	B-protein	8	PMOD	-1
+10	during	during	B-PP	IN	O	7	NMOD	-1
+11	tumor	tumor	B-NP	NN	O	12	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	10	PMOD	3	angiogenesis
+13	and	and	O	CC	O	5	VMOD	-1
+14	establish	establish	B-VP	VB	O	5	VMOD	-1
+15	a	a	B-NP	DT	O	17	NMOD	-1
+16	better	good	I-NP	JJR	O	17	NMOD	-1
+17	rationale	rationale	I-NP	NN	O	14	OBJ	-1
+18	for	for	B-PP	IN	O	17	NMOD	-1
+19	combination	combination	B-NP	NN	O	20	NMOD	-1
+20	therapies	therapy	I-NP	NNS	O	18	PMOD	0
+21	involving	involve	B-VP	VBG	O	20	NMOD	0
+22	Ang-2	Ang-2	B-NP	NN	B-protein	24	NMOD	-1
+23	manipulatory	manipulatory	I-NP	JJ	O	24	NMOD	-1
+24	therapies	therapy	I-NP	NNS	O	21	OBJ	0

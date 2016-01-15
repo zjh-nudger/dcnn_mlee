@@ -1,0 +1,211 @@
+1	Integrin	Integrin	B-NP	NN	B-protein	3	NMOD	-1
+2	alphavbeta3	alphavbeta3	I-NP	NN	O	3	NMOD	-1
+3	requirement	requirement	I-NP	NN	O	0	ROOT	-1
+4	for	for	B-PP	IN	O	3	NMOD	-1
+5	sustained	sustained	B-NP	JJ	O	6	AMOD	-1
+6	mitogen-activated	mitogen-activated	I-NP	JJ	B-protein	9	NMOD	-1
+7	protein	protein	I-NP	NN	I-protein	9	NMOD	-1
+8	kinase	kinase	I-NP	NN	I-protein	9	NMOD	-1
+9	activity	activity	I-NP	NN	O	4	PMOD	0
+10	during	during	B-PP	IN	O	3	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	10	PMOD	3	angiogenesis
+12	.	.	O	.	O	3	P	-1
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	SUB	3	Angiogenesis
+2	depends	depend	B-VP	VBZ	O	0	ROOT	17	depends
+3	on	on	B-PP	IN	O	2	VMOD	-1
+4	growth	growth	B-NP	NN	B-protein	5	NMOD	0
+5	factors	factor	I-NP	NNS	I-protein	10	NMOD	-1
+6	and	and	O	CC	O	10	NMOD	-1
+7	vascular	vascular	B-NP	JJ	O	10	NMOD	-1
+8	cell	cell	I-NP	NN	O	10	NMOD	-1
+9	adhesion	adhesion	I-NP	NN	O	10	NMOD	15	adhesion
+10	events	event	I-NP	NNS	O	3	PMOD	-1
+11	.	.	O	.	O	2	P	-1
+
+1	Integrins	Integrin	B-NP	NNS	B-protein	4	NMOD	-1
+2	and	and	O	CC	O	4	NMOD	-1
+3	growth	growth	B-NP	NN	B-protein	4	NMOD	0
+4	factors	factor	I-NP	NNS	I-protein	5	SUB	-1
+5	are	be	B-VP	VBP	O	0	ROOT	-1
+6	capable	capable	B-ADJP	JJ	O	5	PRD	-1
+7	of	of	B-PP	IN	O	6	AMOD	-1
+8	activating	activate	B-VP	VBG	O	7	PMOD	17	activating
+9	the	the	B-NP	DT	O	12	NMOD	-1
+10	ras/MAP	ras/MAP	I-NP	NN	B-protein	12	NMOD	-1
+11	kinase	kinase	I-NP	NN	I-protein	12	NMOD	-1
+12	pathway	pathway	I-NP	NN	O	8	OBJ	0
+13	in	in	B-ADVP	FW	O	8	VMOD	-1
+14	vitro	vitro	I-ADVP	FW	O	13	AMOD	-1
+15	,	,	O	,	O	5	P	-1
+16	yet	yet	O	RB	O	17	AMOD	-1
+17	how	how	B-ADVP	WRB	O	5	VMOD	-1
+18	these	these	B-NP	DT	O	19	NMOD	-1
+19	signals	signal	I-NP	NNS	O	20	SUB	0
+20	influence	influence	B-VP	VBP	O	17	SBAR	16	influence
+21	endothelial	endothelial	B-NP	JJ	B-cell_type	22	NMOD	-1
+22	cells	cell	I-NP	NNS	I-cell_type	20	OBJ	-1
+23	during	during	B-PP	IN	O	20	VMOD	-1
+24	angiogenesis	angiogenesis	B-NP	NN	O	23	PMOD	3	angiogenesis
+25	is	be	B-VP	VBZ	O	5	VMOD	-1
+26	unknown	unknown	B-ADJP	JJ	O	25	PRD	-1
+27	.	.	O	.	O	5	P	-1
+
+1	Upon	Upon	B-PP	IN	O	34	VMOD	-1
+2	initiation	initiation	B-NP	NN	O	1	PMOD	17	initiation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	angiogenesis	angiogenesis	B-NP	NN	O	3	PMOD	3	angiogenesis
+5	with	with	B-PP	IN	O	2	NMOD	-1
+6	basic	basic	B-NP	JJ	B-protein	9	NMOD	-1
+7	fibroblast	fibroblast	I-NP	NN	I-protein	9	NMOD	-1
+8	growth	growth	I-NP	NN	I-protein	9	NMOD	0
+9	factor	factor	I-NP	NN	I-protein	5	PMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	bFGF	bFGF	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	on	on	B-PP	IN	O	2	NMOD	-1
+14	the	the	B-NP	DT	O	17	NMOD	-1
+15	chick	chick	I-NP	NN	O	17	NMOD	-1
+16	chorioallantoic	chorioallantoic	I-NP	JJ	O	17	NMOD	-1
+17	membrane	membrane	I-NP	NN	O	13	PMOD	-1
+18	(	(	O	(	O	20	DEP	-1
+19	CAM	CAM	B-NP	NN	B-protein	20	DEP	-1
+20	)	)	O	)	O	17	NMOD	-1
+21	,	,	O	,	O	34	P	-1
+22	endothelial	endothelial	B-NP	JJ	B-protein	29	NMOD	-1
+23	cell	cell	I-NP	NN	I-protein	29	NMOD	-1
+24	mitogen-activated	mitogen-activated	I-NP	JJ	I-protein	29	NMOD	-1
+25	protein	protein	I-NP	NN	I-protein	29	NMOD	-1
+26	(	(	O	(	I-protein	29	NMOD	-1
+27	MAP	MAP	B-NP	NN	I-protein	29	NMOD	-1
+28	)	)	O	)	I-protein	29	NMOD	-1
+29	kinase	kinase	B-NP	NN	I-protein	33	NMOD	-1
+30	(	(	O	(	O	32	DEP	-1
+31	ERK	ERK	B-NP	NN	B-protein	32	DEP	-1
+32	)	)	O	)	O	29	NMOD	-1
+33	activity	activity	B-NP	NN	O	34	SUB	0
+34	was	be	B-VP	VBD	O	0	ROOT	-1
+35	detected	detect	I-VP	VBN	O	34	VC	0
+36	as	as	B-ADVP	RB	O	35	VMOD	-1
+37	early	early	I-ADVP	RB	O	36	AMOD	-1
+38	as	as	B-PP	IN	O	35	VMOD	-1
+39	5	5	B-NP	CD	O	40	NMOD	-1
+40	min	min	I-NP	NN	O	38	PMOD	-1
+41	yet	yet	B-ADVP	RB	O	35	VMOD	-1
+42	was	be	B-VP	VBD	O	34	VMOD	-1
+43	sustained	sustained	B-ADJP	JJ	O	42	PRD	-1
+44	for	for	B-PP	IN	O	43	AMOD	-1
+45	at	at	B-NP	IN	O	48	NMOD	-1
+46	least	least	I-NP	JJS	O	45	AMOD	-1
+47	20	20	I-NP	CD	O	45	AMOD	-1
+48	h	h	I-NP	NN	O	44	PMOD	-1
+49	.	.	O	.	O	34	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	initial	initial	I-NP	JJ	O	3	NMOD	-1
+3	wave	wave	I-NP	NN	O	11	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	ERK	ERK	B-NP	NN	B-protein	6	NMOD	-1
+6	activity	activity	I-NP	NN	O	4	PMOD	0
+7	(	(	O	(	O	10	DEP	-1
+8	5-120	5-120	B-NP	CD	O	9	NMOD	-1
+9	min	min	I-NP	NN	O	10	DEP	-1
+10	)	)	O	)	O	6	NMOD	-1
+11	was	be	B-VP	VBD	O	0	ROOT	-1
+12	refractory	refractory	B-ADJP	JJ	O	11	PRD	16	refractory
+13	to	to	B-PP	TO	O	12	AMOD	-1
+14	integrin	integrin	B-NP	NN	O	15	NMOD	-1
+15	antagonists	antagonist	I-NP	NNS	O	13	PMOD	-1
+16	,	,	O	,	O	11	P	-1
+17	whereas	whereas	O	IN	O	11	VMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	sustained	sustained	I-NP	JJ	O	20	NMOD	-1
+20	activity	activity	I-NP	NN	O	25	SUB	0
+21	(	(	O	(	O	24	DEP	-1
+22	4-20	4-20	B-NP	CD	O	23	NMOD	-1
+23	h	h	I-NP	NN	O	24	DEP	-1
+24	)	)	O	)	O	20	NMOD	-1
+25	depended	depend	B-VP	VBD	O	33	NMOD	17	depended
+26	on	on	B-PP	IN	O	25	VMOD	-1
+27	integrin	integrin	B-NP	NN	B-protein	28	NMOD	-1
+28	alphavbeta3	alphavbeta3	I-NP	NN	I-protein	26	PMOD	-1
+29	,	,	O	,	O	33	P	-1
+30	but	but	O	CC	O	33	NMOD	-1
+31	not	not	O	RB	O	30	DEP	-1
+32	beta1	beta1	B-NP	NN	B-protein	33	NMOD	-1
+33	integrins	integrin	I-NP	NNS	I-protein	17	PMOD	-1
+34	.	.	O	.	O	11	P	-1
+
+1	Inhibition	Inhibition	B-NP	NN	O	15	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	MAP	MAP	B-NP	NN	B-protein	5	NMOD	-1
+4	kinase	kinase	I-NP	NN	I-protein	5	NMOD	-1
+5	kinase	kinase	I-NP	NN	I-protein	2	PMOD	-1
+6	(	(	O	(	O	8	DEP	-1
+7	MEK	MEK	B-NP	NN	B-protein	8	DEP	-1
+8	)	)	O	)	O	5	NMOD	-1
+9	during	during	B-PP	IN	O	1	NMOD	-1
+10	this	this	B-NP	DT	O	14	NMOD	-1
+11	sustained	sustained	I-NP	JJ	O	14	NMOD	-1
+12	alphavbeta3-dependent	alphavbeta3-dependent	I-NP	JJ	O	14	NMOD	17	dependent
+13	ERK	ERK	I-NP	NN	B-protein	14	NMOD	-1
+14	signal	signal	I-NP	NN	O	9	PMOD	-1
+15	blocked	block	B-VP	VBD	O	0	ROOT	18	blocked
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	formation	formation	I-NP	NN	O	15	OBJ	2	formation
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	new	new	B-NP	JJ	O	21	NMOD	-1
+20	blood	blood	I-NP	NN	O	21	NMOD	-1
+21	vessels	vessel	I-NP	NNS	O	18	PMOD	-1
+22	while	while	B-SBAR	IN	O	15	VMOD	-1
+23	not	not	O	RB	O	24	VMOD	-1
+24	influencing	influence	B-VP	VBG	O	22	SBAR	16	influencing
+25	preexisting	preexist	I-VP	VBG	O	27	NMOD	-1
+26	blood	blood	B-NP	NN	O	27	NMOD	-1
+27	vessels	vessel	I-NP	NNS	O	24	OBJ	-1
+28	on	on	B-PP	IN	O	24	VMOD	-1
+29	the	the	B-NP	DT	O	30	NMOD	-1
+30	CAM	CAM	I-NP	NN	B-protein	28	PMOD	-1
+31	.	.	O	.	O	15	P	-1
+
+1	Inhibition	Inhibition	B-NP	NN	O	5	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	MEK	MEK	B-NP	NN	B-protein	2	PMOD	-1
+4	also	also	B-ADVP	RB	O	5	VMOD	-1
+5	blocked	block	B-VP	VBD	O	0	ROOT	0
+6	growth	growth	B-NP	NN	B-protein	7	NMOD	0
+7	factor	factor	I-NP	NN	I-protein	8	SUB	-1
+8	induced	induce	B-VP	VBD	O	5	VMOD	17	induced
+9	migration	migration	B-NP	NN	O	12	NMOD	14	migration
+10	but	but	B-NP	CC	O	12	NMOD	-1
+11	not	not	I-NP	RB	O	10	DEP	-1
+12	adhesion	adhesion	B-NP	NN	O	8	OBJ	15	adhesion
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	endothelial	endothelial	B-NP	JJ	B-cell_type	15	NMOD	-1
+15	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	-1
+16	in	in	B-ADVP	FW	O	8	VMOD	-1
+17	vitro	vitro	I-ADVP	FW	O	16	AMOD	-1
+18	.	.	O	.	O	5	P	-1
+
+1	Therefore	Therefore	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	angiogenesis	angiogenesis	B-NP	NN	O	4	SUB	3	angiogenesis
+4	depends	depend	B-VP	VBZ	O	0	ROOT	17	depends
+5	on	on	B-PP	IN	O	4	VMOD	-1
+6	sustained	sustained	B-NP	JJ	O	8	NMOD	-1
+7	ERK	ERK	I-NP	NN	B-protein	8	NMOD	-1
+8	activity	activity	I-NP	NN	O	5	PMOD	0
+9	regulated	regulate	B-VP	VBN	O	8	NMOD	16	regulated
+10	by	by	B-PP	IN	O	9	VMOD	-1
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	ligation	ligation	I-NP	NN	O	13	NMOD	0
+13	state	state	I-NP	NN	O	10	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	both	both	O	CC	O	22	NMOD	-1
+16	a	a	B-NP	DT	O	19	NMOD	-1
+17	growth	growth	I-NP	NN	B-protein	19	NMOD	0
+18	factor	factor	I-NP	NN	I-protein	19	NMOD	-1
+19	receptor	receptor	I-NP	NN	I-protein	22	NMOD	-1
+20	and	and	O	CC	O	22	NMOD	-1
+21	integrin	integrin	B-NP	NN	B-protein	22	NMOD	-1
+22	alphavbeta3	alphavbeta3	I-NP	NN	I-protein	14	PMOD	-1

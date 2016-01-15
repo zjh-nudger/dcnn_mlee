@@ -1,0 +1,303 @@
+1	Characterization	Characterization	B-NP	NN	O	12	NMOD	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	metabolic	metabolic	I-NP	JJ	O	5	NMOD	-1
+5	changes	change	I-NP	NNS	O	2	PMOD	0
+6	underlying	underlie	B-VP	VBG	O	5	NMOD	-1
+7	growth	growth	B-NP	NN	B-protein	8	NMOD	0
+8	factor	factor	I-NP	NN	I-protein	10	NMOD	-1
+9	angiogenic	angiogenic	I-NP	JJ	O	10	NMOD	3	angiogenic
+10	activation	activation	I-NP	NN	O	6	OBJ	17	activation
+11	:	:	O	:	O	1	P	-1
+12	identification	identification	B-NP	NN	O	0	ROOT	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	new	new	B-NP	JJ	O	16	AMOD	-1
+15	potential	potential	I-NP	JJ	O	16	AMOD	0
+16	therapeutic	therapeutic	I-NP	JJ	O	17	NMOD	-1
+17	targets	target	I-NP	NNS	O	13	PMOD	0
+18	.	.	O	.	O	12	P	-1
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	SUB	3	Angiogenesis
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	a	a	B-NP	DT	O	5	NMOD	-1
+4	fundamental	fundamental	I-NP	JJ	O	5	NMOD	-1
+5	process	process	I-NP	NN	O	2	PRD	-1
+6	to	to	B-PP	TO	O	5	NMOD	-1
+7	normal	normal	B-NP	JJ	O	9	AMOD	-1
+8	and	and	I-NP	CC	O	9	AMOD	-1
+9	abnormal	abnormal	I-NP	JJ	O	6	PMOD	-1
+10	tissue	tissue	I-NP	NN	O	11	NMOD	-1
+11	growth	growth	I-NP	NN	O	9	NMOD	4	growth
+12	and	and	I-NP	CC	O	9	NMOD	-1
+13	repair	repair	I-NP	NN	O	9	NMOD	2	repair
+14	,	,	O	,	O	9	P	-1
+15	which	which	B-NP	WDT	O	9	NMOD	-1
+16	consists	consist	B-VP	VBZ	O	15	SBAR	-1
+17	of	of	B-PP	IN	O	16	VMOD	-1
+18	recruiting	recruit	B-VP	VBG	O	17	PMOD	14	recruiting
+19	endothelial	endothelial	B-NP	JJ	B-cell_type	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_type	18	OBJ	-1
+21	toward	toward	B-PP	IN	O	18	VMOD	-1
+22	an	an	B-NP	DT	O	24	NMOD	-1
+23	angiogenic	angiogenic	I-NP	JJ	O	24	NMOD	3	angiogenic
+24	stimulus	stimulus	I-NP	NN	O	21	PMOD	-1
+25	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	cells	cell	I-NP	NNS	O	4	SUB	-1
+3	subsequently	subsequently	B-ADVP	RB	O	4	VMOD	-1
+4	proliferate	proliferate	B-VP	VBP	O	0	ROOT	1	proliferate
+5	and	and	O	CC	O	4	VMOD	-1
+6	differentiate	differentiate	B-VP	VBP	O	4	VMOD	2	differentiate
+7	to	to	I-VP	TO	O	8	VMOD	-1
+8	form	form	I-VP	VB	O	6	VMOD	2	form
+9	endothelial	endothelial	B-NP	JJ	O	10	NMOD	-1
+10	tubes	tube	I-NP	NNS	O	13	NMOD	-1
+11	and	and	O	CC	O	13	NMOD	-1
+12	capillary-like	capillary-like	B-NP	JJ	O	13	NMOD	-1
+13	structures	structure	I-NP	NNS	O	8	OBJ	-1
+14	.	.	O	.	O	4	P	-1
+
+1	Little	Little	B-NP	JJ	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	known	know	I-VP	VBN	O	2	VC	-1
+4	about	about	B-PP	IN	O	3	VMOD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	metabolic	metabolic	I-NP	JJ	O	7	NMOD	-1
+7	adaptation	adaptation	I-NP	NN	O	4	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	endothelial	endothelial	B-NP	JJ	B-cell_type	10	NMOD	-1
+10	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	-1
+11	through	through	B-PP	IN	O	7	NMOD	0
+12	such	such	B-NP	PDT	O	14	NMOD	-1
+13	a	a	I-NP	DT	O	14	NMOD	-1
+14	transformation	transformation	I-NP	NN	O	11	PMOD	2	transformation
+15	.	.	O	.	O	2	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	studied	study	B-VP	VBD	O	0	ROOT	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	metabolic	metabolic	I-NP	JJ	O	5	NMOD	-1
+5	changes	change	I-NP	NNS	O	30	NMOD	16	changes
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	-1
+8	cell	cell	I-NP	NN	I-cell_type	9	NMOD	-1
+9	activation	activation	I-NP	NN	O	6	PMOD	17	activation
+10	by	by	B-PP	IN	O	5	NMOD	-1
+11	growth	growth	B-NP	NN	B-protein	12	NMOD	0
+12	factors	factor	I-NP	NNS	I-protein	10	PMOD	-1
+13	using	use	B-VP	VBG	O	5	NMOD	-1
+14	human	human	B-NP	JJ	B-cell_line	18	NMOD	-1
+15	umbilical	umbilical	I-NP	JJ	I-cell_line	18	NMOD	-1
+16	vein	vein	I-NP	NN	I-cell_line	18	NMOD	-1
+17	endothelial	endothelial	I-NP	JJ	I-cell_line	18	NMOD	-1
+18	cells	cell	I-NP	NNS	I-cell_line	13	OBJ	-1
+19	(	(	O	(	O	21	DEP	-1
+20	HUVECs	HUVEC	B-NP	NNS	B-cell_line	21	DEP	-1
+21	)	)	O	)	O	18	NMOD	-1
+22	,	,	O	,	O	30	P	-1
+23	[	[	B-NP	(	O	30	NMOD	-1
+24	1	1	I-NP	CD	O	30	NMOD	-1
+25	,	,	I-NP	,	O	30	P	-1
+26	2-	2-	I-NP	CD	O	30	NMOD	-1
+27	(	(	O	(	O	29	DEP	-1
+28	13	13	B-NP	CD	O	29	DEP	-1
+29	)	)	O	)	O	26	NMOD	-1
+30	C	C	B-NP	NN	O	35	NMOD	-1
+31	(	(	O	(	O	30	NMOD	-1
+32	2	2	B-NP	CD	O	30	NMOD	-1
+33	)	)	O	)	O	30	NMOD	-1
+34	]	]	O	)	O	30	NMOD	-1
+35	-glucose	-glucose	B-NP	NN	O	40	NMOD	-1
+36	and	and	I-NP	CC	O	40	NMOD	-1
+37	mass	mass	I-NP	NN	O	40	NMOD	-1
+38	isotopomer	isotopomer	I-NP	NN	O	40	NMOD	-1
+39	distribution	distribution	I-NP	NN	O	40	NMOD	0
+40	analysis	analysis	I-NP	NN	O	2	OBJ	-1
+41	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	metabolism	metabolism	I-NP	NN	O	19	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	[	[	B-NP	(	O	11	NMOD	-1
+5	1	1	I-NP	CD	O	11	NMOD	-1
+6	,	,	I-NP	,	O	11	P	-1
+7	2-	2-	I-NP	CD	O	11	NMOD	-1
+8	(	(	O	(	O	10	DEP	-1
+9	13	13	B-NP	CD	O	10	DEP	-1
+10	)	)	O	)	O	7	NMOD	-1
+11	C	C	B-NP	NN	O	16	NMOD	-1
+12	(	(	O	(	O	14	DEP	-1
+13	2	2	B-NP	CD	O	14	DEP	-1
+14	)	)	O	)	O	11	NMOD	-1
+15	]	]	O	)	O	11	NMOD	-1
+16	-glucose	-glucose	B-NP	NN	O	3	PMOD	-1
+17	by	by	B-PP	IN	O	2	NMOD	-1
+18	HUVEC	HUVEC	B-NP	NN	B-cell_line	17	PMOD	-1
+19	allows	allow	B-VP	VBZ	O	0	ROOT	-1
+20	us	us	B-NP	PRP	O	22	SUB	-1
+21	to	to	B-VP	TO	O	22	VMOD	-1
+22	trace	trace	I-VP	VB	O	19	VMOD	-1
+23	many	many	B-NP	JJ	O	22	OBJ	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	the	the	B-NP	DT	O	29	NMOD	-1
+26	main	main	I-NP	JJ	O	29	NMOD	-1
+27	glucose	glucose	I-NP	NN	O	29	NMOD	-1
+28	metabolic	metabolic	I-NP	JJ	O	29	NMOD	-1
+29	pathways	pathway	I-NP	NNS	O	24	PMOD	0
+30	,	,	O	,	O	29	P	-1
+31	including	include	B-PP	VBG	O	29	NMOD	-1
+32	glycogen	glycogen	B-NP	NN	O	33	NMOD	-1
+33	synthesis	synthesis	I-NP	NN	O	31	PMOD	8	synthesis
+34	,	,	O	,	O	19	P	-1
+35	the	the	B-NP	DT	O	37	NMOD	-1
+36	pentose	pentose	I-NP	NN	O	37	NMOD	-1
+37	cycle	cycle	I-NP	NN	O	41	NMOD	0
+38	and	and	O	CC	O	41	NMOD	-1
+39	the	the	B-NP	DT	O	41	NMOD	-1
+40	glycolytic	glycolytic	I-NP	JJ	O	41	NMOD	-1
+41	pathways	pathway	I-NP	NNS	O	19	VMOD	0
+42	.	.	O	.	O	19	P	-1
+
+1	So	So	O	IN	O	0	ROOT	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	established	establish	B-VP	VBD	O	1	VMOD	0
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	these	these	B-NP	DT	O	6	NMOD	-1
+6	pathways	pathway	I-NP	NNS	O	7	SUB	0
+7	were	be	B-VP	VBD	O	4	SBAR	-1
+8	crucial	crucial	B-ADJP	JJ	O	7	PRD	-1
+9	to	to	B-PP	TO	O	8	AMOD	-1
+10	endothelial	endothelial	B-NP	JJ	B-cell_type	12	NMOD	-1
+11	cell	cell	I-NP	NN	I-cell_type	12	NMOD	-1
+12	proliferation	proliferation	I-NP	NN	O	9	PMOD	1	proliferation
+13	under	under	B-PP	IN	O	12	NMOD	-1
+14	vascular	vascular	B-NP	JJ	B-protein	17	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	I-protein	17	NMOD	-1
+16	growth	growth	I-NP	NN	I-protein	17	NMOD	0
+17	factor	factor	I-NP	NN	I-protein	24	NMOD	-1
+18	(	(	O	(	O	20	DEP	-1
+19	VEGF	VEGF	B-NP	NN	B-protein	20	DEP	-1
+20	)	)	O	)	O	17	NMOD	-1
+21	and	and	O	CC	O	24	NMOD	-1
+22	fibroblast	fibroblast	B-NP	NN	B-protein	24	NMOD	-1
+23	growth	growth	I-NP	NN	I-protein	24	NMOD	0
+24	factor	factor	I-NP	NN	I-protein	28	NMOD	-1
+25	(	(	O	(	O	27	DEP	-1
+26	FGF	FGF	B-NP	NN	B-protein	27	DEP	-1
+27	)	)	O	)	O	24	NMOD	-1
+28	stimulation	stimulation	B-NP	NN	O	13	PMOD	17	stimulation
+29	.	.	O	.	O	1	P	-1
+
+1	A	A	B-NP	DT	O	5	NMOD	-1
+2	specific	specific	I-NP	JJ	O	5	NMOD	-1
+3	VEGF	VEGF	I-NP	NN	B-protein	5	NMOD	-1
+4	receptor-2	receptor-2	I-NP	NN	I-protein	5	NMOD	-1
+5	inhibitor	inhibitor	I-NP	NN	O	6	SUB	0
+6	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	importance	importance	I-NP	NN	O	6	OBJ	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	glycogen	glycogen	B-NP	NN	O	11	NMOD	-1
+11	metabolism	metabolism	I-NP	NN	O	15	NMOD	0
+12	and	and	O	CC	O	15	NMOD	-1
+13	pentose	pentose	B-NP	NN	O	15	NMOD	-1
+14	cycle	cycle	I-NP	NN	O	15	NMOD	0
+15	pathway	pathway	I-NP	NN	O	9	PMOD	0
+16	.	.	O	.	O	6	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	showed	show	B-VP	VBD	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	glycogen	glycogen	B-NP	NN	B-protein	7	SUB	-1
+7	was	be	B-VP	VBD	O	5	SBAR	-1
+8	depleted	deplete	I-VP	VBN	O	7	VC	11	depleted
+9	in	in	B-PP	IN	O	8	VMOD	-1
+10	a	a	B-NP	DT	O	13	NMOD	-1
+11	low	low	I-NP	JJ	O	13	NMOD	-1
+12	glucose	glucose	I-NP	NN	O	13	NMOD	-1
+13	medium	medium	I-NP	NN	O	9	PMOD	-1
+14	,	,	O	,	O	8	P	-1
+15	but	but	O	CC	O	8	VMOD	-1
+16	conserved	conserve	B-VP	VBN	O	8	VMOD	-1
+17	under	under	B-PP	IN	O	16	VMOD	-1
+18	hypoxic	hypoxic	B-NP	JJ	O	19	NMOD	-1
+19	conditions	condition	I-NP	NNS	O	17	PMOD	-1
+20	.	.	O	.	O	4	P	-1
+
+1	Finally	Finally	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	direct	direct	B-NP	JJ	O	7	NMOD	-1
+7	inhibition	inhibition	I-NP	NN	O	18	SUB	0
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	key	key	B-NP	JJ	B-protein	10	NMOD	-1
+10	enzymes	enzyme	I-NP	NNS	I-protein	8	PMOD	-1
+11	to	to	B-PP	TO	O	7	NMOD	-1
+12	glycogen	glycogen	B-NP	NN	O	13	NMOD	-1
+13	metabolism	metabolism	I-NP	NN	O	17	NMOD	0
+14	and	and	O	CC	O	17	NMOD	-1
+15	pentose	pentose	B-NP	NN	O	17	NMOD	-1
+16	phosphate	phosphate	I-NP	NN	O	17	NMOD	-1
+17	pathways	pathway	I-NP	NNS	O	11	PMOD	0
+18	reduced	reduce	B-VP	VBD	O	5	SBAR	18	reduced
+19	HUVEC	HUVEC	B-NP	NNS	B-cell_type	22	NMOD	-1
+20	viability	viability	I-NP	NN	O	22	NMOD	-1
+21	and	and	I-NP	CC	O	22	NMOD	-1
+22	migration	migration	I-NP	NN	O	18	OBJ	14	migration
+23	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	9	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	regard	regard	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	9	P	-1
+5	inhibitors	inhibitor	B-NP	NNS	O	9	SUB	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	these	these	B-NP	DT	O	8	NMOD	-1
+8	pathways	pathway	I-NP	NNS	O	6	PMOD	0
+9	have	have	B-VP	VBP	O	0	ROOT	-1
+10	been	be	I-VP	VBN	O	9	VC	-1
+11	shown	show	I-VP	VBN	O	10	VC	-1
+12	to	to	I-VP	TO	O	13	VMOD	-1
+13	be	be	I-VP	VB	O	11	VMOD	-1
+14	effective	effective	B-NP	JJ	O	16	NMOD	0
+15	antitumoral	antitumoral	I-NP	JJ	O	16	NMOD	-1
+16	agents	agent	I-NP	NNS	O	13	PRD	-1
+17	.	.	O	.	O	9	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	sum	sum	I-VP	VB	O	7	VMOD	-1
+3	up	up	B-PRT	RP	O	2	VMOD	-1
+4	,	,	O	,	O	7	P	-1
+5	our	our	B-NP	PRP$	O	6	NMOD	-1
+6	data	datum	I-NP	NNS	O	7	SUB	-1
+7	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+8	that	that	B-SBAR	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	inhibition	inhibition	I-NP	NN	O	14	SUB	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	metabolic	metabolic	B-NP	JJ	O	13	NMOD	-1
+13	pathways	pathway	I-NP	NNS	O	11	PMOD	0
+14	offers	offer	B-VP	VBZ	O	8	SBAR	-1
+15	a	a	B-NP	DT	O	20	NMOD	-1
+16	novel	novel	I-NP	JJ	O	20	NMOD	-1
+17	and	and	I-NP	CC	O	20	NMOD	-1
+18	powerful	powerful	I-NP	JJ	O	20	NMOD	-1
+19	therapeutic	therapeutic	I-NP	JJ	O	20	NMOD	-1
+20	approach	approach	I-NP	NN	O	14	OBJ	-1
+21	,	,	O	,	O	20	P	-1
+22	which	which	B-NP	WDT	O	20	NMOD	-1
+23	simultaneously	simultaneously	B-ADVP	RB	O	24	VMOD	-1
+24	inhibits	inhibit	B-VP	VBZ	O	22	SBAR	18	inhibits
+25	tumor	tumor	B-NP	NN	B-cell_type	27	NMOD	-1
+26	cell	cell	I-NP	NN	I-cell_type	27	NMOD	-1
+27	proliferation	proliferation	I-NP	NN	O	30	NMOD	1	proliferation
+28	and	and	O	CC	O	30	NMOD	-1
+29	tumor-induced	tumor-induced	B-NP	JJ	O	30	NMOD	17	induced
+30	angiogenesis	angiogenesis	I-NP	NN	O	24	OBJ	3	angiogenesis
+31	.	.	O	.	O	7	P	-1
+

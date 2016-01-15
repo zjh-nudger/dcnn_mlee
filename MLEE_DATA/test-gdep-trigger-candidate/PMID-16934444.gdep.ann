@@ -1,0 +1,223 @@
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	role	role	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	syndecans	syndecan	B-NP	NNS	O	3	PMOD	-1
+5	in	in	B-PP	IN	O	2	NMOD	-1
+6	disease	disease	B-NP	NN	O	9	NMOD	-1
+7	and	and	O	CC	O	9	NMOD	-1
+8	wound	wound	B-NP	NN	O	9	NMOD	-1
+9	healing	healing	I-NP	NN	O	5	PMOD	-1
+10	.	.	O	.	O	2	P	-1
+
+1	Syndecans	Syndecan	B-NP	NNS	O	2	SUB	-1
+2	are	be	B-VP	VBP	O	0	ROOT	-1
+3	a	a	B-NP	DT	O	4	NMOD	-1
+4	family	family	I-NP	NN	O	2	PRD	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	transmembrane	transmembrane	B-NP	NN	O	9	NMOD	-1
+7	heparan	heparan	I-NP	NN	O	9	NMOD	-1
+8	sulfate	sulfate	I-NP	NN	O	9	NMOD	-1
+9	proteoglycans	proteoglycan	I-NP	NNS	O	5	PMOD	-1
+10	widely	widely	B-VP	RB	O	11	VMOD	-1
+11	expressed	express	I-VP	VBN	O	9	NMOD	9	expressed
+12	in	in	B-PP	IN	O	11	VMOD	-1
+13	both	both	O	CC	O	17	NMOD	-1
+14	developing	develop	B-VP	VBG	O	17	NMOD	0
+15	and	and	O	CC	O	17	NMOD	-1
+16	adult	adult	B-NP	JJ	O	17	NMOD	-1
+17	tissues	tissue	I-NP	NNS	O	12	PMOD	-1
+18	.	.	O	.	O	2	P	-1
+
+1	Until	Until	B-PP	IN	O	8	VMOD	-1
+2	recently	recently	B-ADVP	RB	O	1	PMOD	-1
+3	,	,	O	,	O	8	P	-1
+4	their	their	B-NP	PRP$	O	5	NMOD	-1
+5	role	role	I-NP	NN	O	8	SUB	0
+6	in	in	B-PP	IN	O	5	NMOD	-1
+7	pathogenesis	pathogenesis	B-NP	NN	O	6	PMOD	0
+8	was	be	B-VP	VBD	O	0	ROOT	-1
+9	largely	largely	B-ADJP	RB	O	10	AMOD	-1
+10	unexplored	unexplored	I-ADJP	JJ	O	8	PRD	-1
+11	.	.	O	.	O	8	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	review	review	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	discuss	discuss	B-VP	VBP	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	reported	report	I-NP	VBN	O	9	NMOD	-1
+9	involvement	involvement	I-NP	NN	O	24	NMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	syndecans	syndecan	B-NP	NNS	O	10	PMOD	-1
+12	in	in	B-PP	IN	O	9	NMOD	-1
+13	human	human	B-NP	JJ	O	14	NMOD	-1
+14	cancers	cancer	I-NP	NNS	O	12	PMOD	-1
+15	,	,	O	,	O	24	P	-1
+16	infectious	infectious	B-NP	JJ	O	17	NMOD	-1
+17	diseases	disease	I-NP	NNS	O	24	NMOD	-1
+18	,	,	O	,	O	24	P	-1
+19	obesity	obesity	B-NP	NN	O	24	NMOD	-1
+20	,	,	O	,	O	24	P	-1
+21	wound	wound	B-NP	NN	O	22	NMOD	-1
+22	healing	healing	I-NP	NN	O	24	NMOD	-1
+23	and	and	I-NP	CC	O	24	NMOD	-1
+24	angiogenesis	angiogenesis	I-NP	NN	O	6	OBJ	3	angiogenesis
+25	.	.	O	.	O	6	P	-1
+
+1	In	In	B-PP	IN	O	7	VMOD	-1
+2	some	some	B-NP	DT	O	3	NMOD	-1
+3	cancers	cancer	I-NP	NNS	O	1	PMOD	-1
+4	,	,	O	,	O	7	P	-1
+5	syndecan	syndecan	B-NP	NN	O	6	NMOD	-1
+6	expression	expression	I-NP	NN	O	7	SUB	9	expression
+7	has	have	B-VP	VBZ	O	0	ROOT	-1
+8	been	be	I-VP	VBN	O	7	VC	-1
+9	shown	show	I-VP	VBN	O	8	VC	-1
+10	to	to	I-VP	TO	O	11	VMOD	-1
+11	regulate	regulate	I-VP	VB	O	9	VMOD	16	regulate
+12	tumor	tumor	B-NP	NN	B-cell_type	14	NMOD	-1
+13	cell	cell	I-NP	NN	I-cell_type	14	NMOD	-1
+14	function	function	I-NP	NN	O	11	OBJ	-1
+15	(	(	O	(	O	23	DEP	-1
+16	e.g.	e.g.	B-NP	FW	O	23	DEP	-1
+17	proliferation	proliferation	I-NP	NN	O	22	NMOD	1	proliferation
+18	,	,	O	,	O	22	P	-1
+19	adhesion	adhesion	B-NP	NN	O	22	NMOD	15	adhesion
+20	,	,	O	,	O	22	P	-1
+21	and	and	O	CC	O	22	NMOD	-1
+22	motility	motility	B-NP	NN	O	23	DEP	14	motility
+23	)	)	O	)	O	14	NMOD	-1
+24	and	and	O	CC	O	7	VMOD	-1
+25	serve	serve	B-VP	VBP	O	7	VMOD	-1
+26	as	as	B-PP	IN	O	25	VMOD	-1
+27	a	a	B-NP	DT	O	29	NMOD	-1
+28	prognostic	prognostic	I-NP	JJ	O	29	NMOD	-1
+29	marker	marker	I-NP	NN	O	26	PMOD	-1
+30	for	for	B-PP	IN	O	29	NMOD	-1
+31	tumor	tumor	B-NP	NN	O	32	NMOD	-1
+32	progression	progression	I-NP	NN	O	35	NMOD	2	progression
+33	and	and	O	CC	O	35	NMOD	-1
+34	patient	patient	B-NP	NN	O	35	NMOD	-1
+35	survival	survival	I-NP	NN	O	30	PMOD	5	survival
+36	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	7	NMOD	-1
+2	ectodomains	ectodomain	I-NP	NNS	O	7	NMOD	-1
+3	and	and	I-NP	CC	O	7	NMOD	-1
+4	heparan	heparan	I-NP	NN	O	7	NMOD	-1
+5	sulfate	sulfate	I-NP	NN	O	7	NMOD	-1
+6	glycosaminoglycan	glycosaminoglycan	I-NP	NN	O	7	NMOD	-1
+7	chains	chain	I-NP	NNS	O	10	SUB	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	syndecans	syndecan	B-NP	NNS	O	8	PMOD	-1
+10	can	can	B-VP	MD	O	0	ROOT	-1
+11	also	also	I-VP	RB	O	10	VMOD	-1
+12	act	act	I-VP	VB	O	10	VC	0
+13	as	as	B-PP	IN	O	12	VMOD	-1
+14	receptors/co-receptors	receptors/co-receptor	B-NP	NNS	O	13	PMOD	-1
+15	for	for	B-PP	IN	O	14	NMOD	-1
+16	some	some	B-NP	DT	O	20	NMOD	-1
+17	bacterial	bacterial	I-NP	JJ	O	20	NMOD	-1
+18	and	and	I-NP	CC	O	20	NMOD	-1
+19	viral	viral	I-NP	JJ	O	20	NMOD	-1
+20	pathogens	pathogen	I-NP	NNS	O	15	PMOD	-1
+21	,	,	O	,	O	12	P	-1
+22	mediating	mediate	B-VP	VBG	O	12	VMOD	0
+23	infection	infection	B-NP	NN	O	22	OBJ	0
+24	.	.	O	.	O	10	P	-1
+
+1	In	In	B-PP	IN	O	5	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	5	P	-1
+4	syndecans	syndecan	B-NP	NNS	O	5	SUB	-1
+5	bind	bind	B-VP	VBP	O	0	ROOT	15	bind
+6	to	to	B-PP	TO	O	5	VMOD	-1
+7	obesity-related	obesity-related	B-NP	JJ	B-protein	8	NMOD	-1
+8	factors	factor	I-NP	NNS	I-protein	6	PMOD	-1
+9	and	and	O	CC	O	5	VMOD	-1
+10	regulate	regulate	B-VP	VBP	O	5	VMOD	0
+11	their	their	B-NP	PRP$	O	12	NMOD	-1
+12	signaling	signaling	I-NP	NN	O	10	OBJ	0
+13	,	,	O	,	O	5	P	-1
+14	in	in	B-PP	IN	O	5	VMOD	-1
+15	turn	turn	B-NP	NN	O	14	PMOD	-1
+16	modulating	modulate	B-VP	VBG	O	15	NMOD	0
+17	food	food	B-NP	NN	O	18	NMOD	-1
+18	consumption	consumption	I-NP	NN	O	21	NMOD	-1
+19	and	and	O	CC	O	21	NMOD	-1
+20	weight	weight	B-NP	NN	O	21	NMOD	-1
+21	balance	balance	I-NP	NN	O	16	OBJ	-1
+22	.	.	O	.	O	5	P	-1
+
+1	In	In	B-NP	FW	O	2	AMOD	-1
+2	vivo	vivo	I-NP	FW	O	4	NMOD	-1
+3	animal	animal	I-NP	NN	O	4	NMOD	-1
+4	models	model	I-NP	NNS	O	11	NMOD	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	tissue	tissue	B-NP	NN	O	7	NMOD	-1
+7	injury	injury	I-NP	NN	O	5	PMOD	6	injury
+8	and	and	O	CC	O	11	NMOD	-1
+9	in	in	B-NP	FW	O	10	AMOD	-1
+10	vitro	vitro	I-NP	FW	O	11	NMOD	-1
+11	data	datum	I-NP	NNS	O	13	SUB	-1
+12	also	also	B-ADVP	RB	O	13	VMOD	-1
+13	implicate	implicate	B-VP	VBP	O	0	ROOT	-1
+14	syndecans	syndecan	B-NP	NNS	O	13	OBJ	-1
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	processes	process	B-NP	NNS	O	15	PMOD	-1
+17	necessary	necessary	B-ADJP	JJ	O	16	NMOD	17	necessary
+18	for	for	B-PP	IN	O	17	AMOD	-1
+19	wound	wound	B-NP	NN	O	20	NMOD	-1
+20	healing	healing	I-NP	NN	O	18	PMOD	-1
+21	,	,	O	,	O	16	P	-1
+22	including	include	B-PP	VBG	O	16	NMOD	-1
+23	fibroblast	fibroblast	B-NP	NN	B-cell_type	26	NMOD	-1
+24	and	and	O	CC	O	26	NMOD	-1
+25	endothelial	endothelial	B-NP	JJ	O	26	NMOD	-1
+26	proliferation	proliferation	I-NP	NN	O	36	NMOD	1	proliferation
+27	,	,	O	,	O	36	P	-1
+28	cell	cell	B-NP	NN	O	29	NMOD	-1
+29	motility	motility	I-NP	NN	O	36	NMOD	14	motility
+30	,	,	O	,	O	36	P	-1
+31	angiogenesis	angiogenesis	B-NP	NN	O	36	NMOD	3	angiogenesis
+32	,	,	O	,	O	36	P	-1
+33	and	and	O	CC	O	36	NMOD	-1
+34	extracellular	extracellular	B-NP	JJ	O	36	NMOD	-1
+35	matrix	matrix	I-NP	NN	O	36	NMOD	-1
+36	organization	organization	I-NP	NN	O	22	PMOD	2	organization
+37	.	.	O	.	O	13	P	-1
+
+1	These	These	B-NP	DT	O	3	NMOD	-1
+2	new	new	I-NP	JJ	O	3	NMOD	-1
+3	insights	insight	I-NP	NNS	O	22	SUB	-1
+4	into	into	B-PP	IN	O	3	NMOD	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	involvement	involvement	I-NP	NN	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	syndecans	syndecan	B-NP	NNS	O	7	PMOD	-1
+9	in	in	B-PP	IN	O	6	NMOD	-1
+10	disease	disease	B-NP	NN	O	13	NMOD	-1
+11	and	and	O	CC	O	13	NMOD	-1
+12	tissue	tissue	B-NP	NN	O	13	NMOD	-1
+13	repair	repair	I-NP	NN	O	9	PMOD	7	repair
+14	coupled	couple	B-VP	VBN	O	13	NMOD	0
+15	with	with	B-PP	IN	O	14	VMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	emergence	emergence	I-NP	NN	O	15	PMOD	-1
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	syndecan-specific	syndecan-specific	B-NP	JJ	O	21	NMOD	-1
+20	molecular	molecular	I-NP	JJ	O	21	NMOD	-1
+21	tools	tool	I-NP	NNS	O	18	PMOD	-1
+22	may	may	B-VP	MD	O	0	ROOT	-1
+23	lead	lead	I-VP	VB	O	22	VC	0
+24	to	to	B-PP	TO	O	23	VMOD	-1
+25	novel	novel	B-NP	JJ	O	26	NMOD	-1
+26	therapies	therapy	I-NP	NNS	O	24	PMOD	0
+27	for	for	B-PP	IN	O	26	NMOD	-1
+28	a	a	B-NP	DT	O	29	NMOD	-1
+29	variety	variety	I-NP	NN	O	27	PMOD	-1
+30	of	of	B-PP	IN	O	29	NMOD	-1
+31	human	human	B-NP	JJ	O	32	NMOD	-1
+32	diseases	disease	I-NP	NNS	O	30	PMOD	-1

@@ -1,0 +1,244 @@
+1	Tumor	Tumor	B-NP	NN	O	2	NMOD	-1
+2	Angiogenesis	Angiogenesis	I-NP	NN	O	9	NMOD	3	Angiogenesis
+3	:	:	O	:	O	2	P	-1
+4	Initiation	Initiation	B-NP	NN	O	9	NMOD	0
+5	and	and	I-NP	CC	O	9	NMOD	-1
+6	Targeting	Targeting	I-NP	NN	O	9	NMOD	0
+7	-	-	B-NP	HYPH	O	9	NMOD	-1
+8	Therapeutic	Therapeutic	I-NP	JJ	O	9	NMOD	-1
+9	Targeting	Targeting	I-NP	NN	O	0	ROOT	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	an	an	B-NP	DT	O	13	NMOD	-1
+12	FGF-Binding	FGF-Binding	I-NP	NN	B-protein	13	NMOD	-1
+13	Protein	Protein	I-NP	NN	I-protein	21	NMOD	-1
+14	,	,	O	,	O	21	P	-1
+15	an	an	B-NP	DT	O	18	NMOD	-1
+16	Angiogenic	Angiogenic	I-NP	JJ	O	18	NMOD	3	Angiogenic
+17	Switch	Switch	I-NP	NNP	O	18	NMOD	-1
+18	Molecule	Molecule	I-NP	NNP	O	21	NMOD	-1
+19	,	,	O	,	O	21	P	-1
+20	and	and	O	CC	O	21	NMOD	-1
+21	Indicator	Indicator	B-NP	NN	O	10	PMOD	-1
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	Early	Early	B-NP	JJ	O	24	NMOD	-1
+24	Stages	Stage	I-NP	NNS	O	22	PMOD	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	Gastrointestinal	Gastrointestinal	B-NP	JJ	O	27	NMOD	-1
+27	Adenocarcinomas	Adenocarcinoma	I-NP	NNS	O	25	PMOD	-1
+28	-	-	B-ADJP	HYPH	O	9	P	-1
+29	.	.	O	.	O	9	P	-1
+
+1	Tumor	Tumor	B-NP	NN	O	2	NMOD	-1
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	has	have	B-VP	VBZ	O	0	ROOT	-1
+4	been	be	I-VP	VBN	O	3	VC	-1
+5	related	relate	I-VP	VBN	O	12	NMOD	-1
+6	to	to	B-PP	TO	O	5	AMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	initiation	initiation	I-NP	NN	O	6	PMOD	17	initiation
+9	as	as	B-CONJP	RB	O	12	NMOD	-1
+10	well	well	I-CONJP	RB	O	9	DEP	-1
+11	as	as	I-CONJP	IN	O	9	DEP	-1
+12	progression	progression	B-NP	NN	O	4	PRD	17	progression
+13	toward	toward	B-PP	IN	O	12	NMOD	-1
+14	more	more	B-NP	RBR	O	15	AMOD	-1
+15	aggressive	aggressive	I-NP	JJ	O	16	NMOD	-1
+16	behavior	behavior	I-NP	NN	O	13	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	human	human	B-NP	JJ	O	19	NMOD	-1
+19	tumors	tumor	I-NP	NNS	O	17	PMOD	-1
+20	.	.	O	.	O	3	P	-1
+
+1	In	In	B-PP	IN	O	9	VMOD	-1
+2	particular	particular	B-NP	JJ	O	1	PMOD	-1
+3	,	,	O	,	O	9	P	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	activity	activity	I-NP	NN	O	9	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	angiogenic	angiogenic	B-NP	JJ	B-protein	8	NMOD	3	angiogenic
+8	factors	factor	I-NP	NNS	I-protein	6	PMOD	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	crucial	crucial	B-ADJP	JJ	O	9	PRD	-1
+11	for	for	B-PP	IN	O	10	AMOD	-1
+12	tumor	tumor	B-NP	NN	O	13	NMOD	-1
+13	progression	progression	I-NP	NN	O	11	PMOD	2	progression
+14	.	.	O	.	O	9	P	-1
+
+1	We	We	B-NP	PRP	O	3	SUB	-1
+2	previously	previously	B-ADVP	RB	O	3	VMOD	-1
+3	characterized	characterize	B-VP	VBD	O	0	ROOT	-1
+4	a	a	B-NP	DT	O	9	NMOD	-1
+5	secreted	secrete	I-NP	VBN	O	9	NMOD	14	secreted
+6	fibroblast	fibroblast	I-NP	NN	B-protein	9	NMOD	-1
+7	growth	growth	I-NP	NN	I-protein	9	NMOD	0
+8	factor-binding	factor-binding	I-NP	JJ	I-protein	9	NMOD	-1
+9	protein	protein	I-NP	NN	I-protein	3	OBJ	-1
+10	(	(	O	(	O	12	DEP	-1
+11	FGF-BP	FGF-BP	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	as	as	B-PP	IN	O	3	VMOD	-1
+14	a	a	B-NP	DT	O	16	NMOD	-1
+15	chaperone	chaperone	I-NP	NN	B-protein	16	NMOD	-1
+16	molecule	molecule	I-NP	NN	I-protein	24	SUB	-1
+17	,	,	O	,	O	16	P	-1
+18	which	which	B-NP	WDT	O	16	NMOD	-1
+19	binds	bind	B-VP	VBZ	O	18	SBAR	0
+20	to	to	B-PP	TO	O	19	VMOD	-1
+21	various	various	B-NP	JJ	O	20	PMOD	15	various
+22	FGFs	FGF	I-NP	NNS	B-protein	21	NMOD	-1
+23	,	,	O	,	O	16	P	-1
+24	enhances	enhance	B-VP	VBZ	O	13	SBAR	0
+25	FGF-mediated	FGF-mediated	B-NP	JJ	O	29	NMOD	-1
+26	biochemical	biochemical	I-NP	JJ	O	29	NMOD	-1
+27	and	and	I-NP	CC	O	29	NMOD	-1
+28	biologic	biologic	I-NP	JJ	O	29	NMOD	-1
+29	events	event	I-NP	NNS	O	24	OBJ	-1
+30	and	and	O	CC	O	24	VMOD	-1
+31	importantly	importantly	B-VP	RB	O	24	VMOD	-1
+32	is	be	I-VP	VBZ	O	24	VMOD	-1
+33	a	a	B-NP	DT	O	36	NMOD	-1
+34	crucial	crucial	I-NP	JJ	B-protein	36	NMOD	17	crucial
+35	rate-limiting	rate-limiting	I-NP	JJ	I-protein	36	NMOD	-1
+36	factor	factor	I-NP	NN	I-protein	32	PRD	-1
+37	for	for	B-PP	IN	O	36	NMOD	-1
+38	tumor-dependent	tumor-dependent	B-NP	JJ	O	39	NMOD	17	dependent
+39	angiogenesis	angiogenesis	I-NP	NN	O	37	PMOD	3	angiogenesis
+40	.	.	O	.	O	3	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	generated	generate	B-VP	VBD	O	0	ROOT	19	generated
+3	monoclonal	monoclonal	B-NP	JJ	B-protein	4	NMOD	-1
+4	antibodies	antibody	I-NP	NNS	I-protein	2	OBJ	-1
+5	that	that	B-NP	WDT	O	4	NMOD	-1
+6	target	target	B-VP	VBP	O	5	SBAR	0
+7	FGF-BP	FGF-BP	B-NP	NN	B-protein	8	NMOD	-1
+8	protein	protein	I-NP	NN	I-protein	6	OBJ	-1
+9	and	and	O	CC	O	2	VMOD	-1
+10	used	use	B-VP	VBD	O	2	VMOD	0
+11	them	them	B-NP	PRP	O	10	OBJ	-1
+12	as	as	B-PP	IN	O	10	VMOD	-1
+13	a	a	B-NP	DT	O	14	NMOD	-1
+14	tool	tool	I-NP	NN	O	12	PMOD	-1
+15	to	to	B-VP	TO	O	16	VMOD	-1
+16	evaluate	evaluate	I-VP	VB	O	10	VMOD	-1
+17	frequency	frequency	B-NP	NN	O	19	NMOD	-1
+18	and	and	I-NP	CC	O	19	NMOD	-1
+19	pattern	pattern	I-NP	NN	O	16	OBJ	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	FGF-BP	FGF-BP	B-NP	NN	B-protein	22	NMOD	-1
+22	expression	expression	I-NP	NN	O	20	PMOD	9	expression
+23	during	during	B-PP	IN	O	19	NMOD	-1
+24	the	the	B-NP	DT	O	26	NMOD	-1
+25	malignant	malignant	I-NP	JJ	O	26	NMOD	-1
+26	progression	progression	I-NP	NN	O	23	PMOD	2	progression
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	pancreas	pancreas	B-NP	NN	O	31	NMOD	-1
+29	and	and	O	CC	O	31	NMOD	-1
+30	colorectal	colorectal	B-NP	JJ	O	31	NMOD	-1
+31	carcinoma	carcinoma	I-NP	NN	O	27	PMOD	-1
+32	in	in	B-PP	IN	O	26	NMOD	-1
+33	archival	archival	B-NP	JJ	O	35	NMOD	-1
+34	tissue	tissue	I-NP	NN	O	35	NMOD	-1
+35	samples	sample	I-NP	NNS	O	32	PMOD	-1
+36	.	.	O	.	O	2	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	found	find	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	-1
+4	FGF-BP	FGF-BP	B-NP	NN	B-protein	5	SUB	-1
+5	is	be	B-VP	VBZ	O	3	SBAR	-1
+6	dramatically	dramatically	I-VP	RB	O	5	VMOD	-1
+7	upregulated	upregulate	I-VP	VBN	O	5	VC	17	upregulated
+8	during	during	B-PP	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	initiation	initiation	I-NP	NN	O	8	PMOD	2	initiation
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	colorectal	colorectal	B-NP	JJ	O	15	NMOD	-1
+13	and	and	I-NP	CC	O	15	NMOD	-1
+14	pancreatic	pancreatic	I-NP	JJ	O	15	NMOD	-1
+15	adenocarcinoma	adenocarcinoma	I-NP	NN	O	11	PMOD	-1
+16	.	.	O	.	O	2	P	-1
+
+1	Crucial	Crucial	B-NP	JJ	O	3	NMOD	-1
+2	genetic	genetic	I-NP	JJ	O	3	NMOD	-1
+3	events	event	I-NP	NNS	O	26	SUB	-1
+4	underlying	underlie	B-VP	VBG	O	3	NMOD	-1
+5	the	the	B-NP	DT	O	8	NMOD	-1
+6	initiation	initiation	I-NP	NN	O	8	NMOD	2	initiation
+7	and	and	I-NP	CC	O	8	NMOD	-1
+8	progression	progression	I-NP	NN	O	4	OBJ	2	progression
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	colorectal	colorectal	B-NP	JJ	O	12	AMOD	-1
+11	and	and	I-NP	CC	O	12	AMOD	-1
+12	pancreatic	pancreatic	I-NP	JJ	O	13	NMOD	-1
+13	adenocarcinoma	adenocarcinoma	I-NP	NN	O	9	PMOD	-1
+14	with	with	B-PP	IN	O	8	NMOD	-1
+15	a	a	B-NP	DT	O	17	NMOD	-1
+16	particular	particular	I-NP	JJ	O	17	NMOD	-1
+17	focus	focus	I-NP	NN	O	14	PMOD	-1
+18	on	on	B-PP	IN	O	17	NMOD	-1
+19	the	the	B-NP	DT	O	20	NMOD	-1
+20	modulation	modulation	I-NP	NN	O	18	PMOD	16	modulation
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	angiogenesis	angiogenesis	B-NP	NN	O	25	NMOD	3	angiogenesis
+23	and	and	O	CC	O	25	NMOD	-1
+24	antiangiogenic	antiangiogenic	B-NP	JJ	O	25	NMOD	3	angiogenic
+25	therapies	therapy	I-NP	NNS	O	21	PMOD	19	therapies
+26	are	be	B-VP	VBP	O	0	ROOT	-1
+27	discussed	discuss	I-VP	VBN	O	26	VC	-1
+28	.	.	O	.	O	26	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	propose	propose	B-VP	VBP	O	0	ROOT	-1
+3	that	that	B-SBAR	IN	O	2	VMOD	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	upregulation	upregulation	I-NP	NN	O	19	SUB	17	upregulation
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	10	NMOD	-1
+8	secreted	secrete	I-NP	VBN	O	10	NMOD	14	secreted
+9	FGF-BP	FGF-BP	I-NP	NN	B-protein	10	NMOD	-1
+10	protein	protein	I-NP	NN	I-protein	6	PMOD	-1
+11	during	during	B-PP	IN	O	5	NMOD	-1
+12	early	early	B-NP	JJ	O	13	NMOD	-1
+13	phases	phase	I-NP	NNS	O	11	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	pancreas	pancreas	B-NP	NN	O	18	NMOD	-1
+16	and	and	O	CC	O	18	NMOD	-1
+17	colon	colon	B-NP	NN	O	18	NMOD	-1
+18	cancer	cancer	I-NP	NN	O	14	PMOD	-1
+19	could	could	B-VP	MD	O	3	SBAR	-1
+20	make	make	I-VP	VB	O	19	VC	-1
+21	this	this	B-NP	DT	O	22	NMOD	-1
+22	protein	protein	I-NP	NN	O	20	OBJ	-1
+23	a	a	B-NP	DT	O	26	NMOD	-1
+24	possible	possible	I-NP	JJ	O	26	NMOD	-1
+25	serum	serum	I-NP	NN	O	26	NMOD	-1
+26	marker	marker	I-NP	NN	O	20	VMOD	-1
+27	indicating	indicate	B-VP	VBG	O	26	NMOD	-1
+28	the	the	B-NP	DT	O	29	NMOD	-1
+29	presence	presence	I-NP	NN	O	27	OBJ	0
+30	of	of	B-PP	IN	O	29	NMOD	-1
+31	high-risk	high-risk	B-NP	JJ	O	33	NMOD	-1
+32	premalignant	premalignant	I-NP	JJ	O	33	NMOD	-1
+33	lesions	lesion	I-NP	NNS	O	30	PMOD	-1
+34	.	.	O	.	O	2	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	8	VMOD	-1
+2	,	,	O	,	O	8	P	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	biological	biological	I-NP	JJ	O	5	NMOD	-1
+5	activity	activity	I-NP	NN	O	8	SUB	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	FGF-BP	FGF-BP	B-NP	NN	B-protein	6	PMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	neutralized	neutralize	I-VP	VBN	O	8	VC	-1
+10	by	by	B-PP	IN	O	9	VMOD	-1
+11	monoclonal	monoclonal	B-NP	JJ	B-protein	12	NMOD	-1
+12	antibodies	antibody	I-NP	NNS	I-protein	10	PMOD	-1
+13	suggesting	suggest	B-VP	VBG	O	12	NMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	potential	potential	I-NP	NN	O	13	OBJ	0
+16	for	for	B-PP	IN	O	15	NMOD	-1
+17	antibody-based	antibody-based	B-NP	JJ	O	18	AMOD	-1
+18	therapeutic	therapeutic	I-NP	JJ	O	19	NMOD	-1
+19	targeting	targeting	I-NP	NN	O	16	PMOD	0

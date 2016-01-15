@@ -1,0 +1,238 @@
+1	Transcriptional	Transcriptional	B-NP	JJ	O	4	NMOD	10	Transcriptional
+2	and	and	I-NP	CC	O	4	NMOD	0
+3	post-translation	post-translation	I-NP	JJ	O	4	NMOD	0
+4	regulation	regulation	I-NP	NN	O	0	ROOT	16	regulation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	Tie1	Tie1	I-NP	NN	B-protein	8	NMOD	0
+8	receptor	receptor	I-NP	NN	I-protein	5	PMOD	0
+9	by	by	B-PP	IN	O	4	NMOD	0
+10	fluid	fluid	B-NP	NN	O	13	NMOD	0
+11	shear	shear	I-NP	NN	O	13	NMOD	0
+12	stress	stress	I-NP	NN	O	13	NMOD	0
+13	changes	change	I-NP	NNS	O	9	PMOD	0
+14	in	in	B-PP	IN	O	13	NMOD	0
+15	vascular	vascular	B-NP	JJ	B-cell_type	17	NMOD	0
+16	endothelial	endothelial	I-NP	JJ	I-cell_type	17	NMOD	0
+17	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+18	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	interaction	interaction	I-NP	NN	O	27	SUB	0
+3	between	between	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	vascular	vascular	I-NP	JJ	O	6	NMOD	0
+6	endothelium	endothelium	I-NP	NN	O	9	NMOD	0
+7	and	and	O	CC	O	9	NMOD	0
+8	hemodynamic	hemodynamic	B-NP	JJ	O	9	NMOD	0
+9	forces	force	I-NP	NNS	O	3	PMOD	0
+10	(	(	O	(	O	18	DEP	0
+11	and	and	O	CC	O	18	DEP	0
+12	more	more	B-ADVP	RBR	O	13	AMOD	0
+13	specifically	specifically	I-ADVP	RB	O	18	DEP	0
+14	,	,	O	,	O	18	P	0
+15	fluid	fluid	B-NP	NN	O	17	NMOD	0
+16	shear	shear	I-NP	NN	O	17	NMOD	0
+17	stress	stress	I-NP	NN	O	18	DEP	0
+18	)	)	O	)	O	9	NMOD	0
+19	,	,	O	,	O	9	P	0
+20	induced	induce	B-VP	VBN	O	9	NMOD	0
+21	by	by	B-PP	IN	O	20	VMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	flow	flow	I-NP	NN	O	21	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	blood	blood	B-NP	NN	O	24	PMOD	0
+26	,	,	O	,	O	2	P	0
+27	plays	play	B-VP	VBZ	O	0	ROOT	0
+28	a	a	B-NP	DT	O	30	NMOD	0
+29	major	major	I-NP	JJ	O	30	NMOD	0
+30	role	role	I-NP	NN	O	27	OBJ	0
+31	in	in	B-PP	IN	O	27	VMOD	0
+32	vascular	vascular	B-NP	JJ	O	33	NMOD	0
+33	remodeling	remodeling	I-NP	NN	O	31	PMOD	7	remodeling
+34	and	and	O	CC	O	31	PMOD	0
+35	in	in	B-PP	IN	O	31	PMOD	0
+36	new	new	B-NP	JJ	O	38	NMOD	0
+37	blood	blood	I-NP	NN	O	38	NMOD	0
+38	vessels	vessel	I-NP	NNS	O	35	PMOD	0
+39	formation	formation	I-NP	NN	O	31	PMOD	2	formation
+40	via	via	B-PP	IN	O	27	VMOD	16	via
+41	a	a	B-NP	DT	O	42	NMOD	0
+42	process	process	I-NP	NN	O	40	PMOD	0
+43	termed	term	I-NP	VBN	O	42	NMOD	0
+44	arteriogenesis	arteriogenesis	I-NP	NN	O	43	VMOD	3	arteriogenesis
+45	.	.	O	.	O	27	P	0
+
+1	Tie1	Tie1	B-NP	NN	B-protein	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	an	an	B-NP	DT	O	7	NMOD	0
+4	orphan	orphan	I-NP	NN	B-protein	7	NMOD	0
+5	tyrosine	tyrosine	I-NP	NN	I-protein	7	NMOD	0
+6	kinase	kinase	I-NP	NN	I-protein	7	NMOD	0
+7	receptor	receptor	I-NP	NN	I-protein	8	SUB	0
+8	expressed	express	B-VP	VBD	O	2	VMOD	9	expressed
+9	almost	almost	B-ADVP	RB	O	8	VMOD	0
+10	exclusively	exclusively	I-ADVP	RB	O	9	AMOD	0
+11	in	in	B-PP	IN	O	8	VMOD	0
+12	endothelial	endothelial	B-NP	JJ	B-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+14	and	and	O	CC	O	2	VMOD	0
+15	is	be	B-VP	VBZ	O	2	VMOD	0
+16	required	require	I-VP	VBN	O	15	VC	17	required
+17	for	for	B-PP	IN	O	16	VMOD	0
+18	normal	normal	B-NP	JJ	O	20	NMOD	0
+19	vascular	vascular	I-NP	JJ	O	20	NMOD	0
+20	development	development	I-NP	NN	O	22	NMOD	2	development
+21	and	and	I-NP	CC	O	22	NMOD	0
+22	maintenance	maintenance	I-NP	NN	O	17	PMOD	16	maintenance
+23	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	present	present	I-NP	JJ	O	3	NMOD	0
+3	study	study	I-NP	NN	O	4	SUB	0
+4	demonstrates	demonstrate	B-VP	VBZ	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	Tie1	Tie1	B-NP	NN	B-protein	7	NMOD	0
+7	expression	expression	I-NP	NN	O	8	SUB	9	expression
+8	is	be	B-VP	VBZ	O	5	SBAR	0
+9	rapidly	rapidly	I-VP	RB	O	8	VMOD	0
+10	down-regulated	down-regulate	I-VP	VBN	O	8	VC	18	down-regulated
+11	in	in	B-PP	IN	O	10	VMOD	0
+12	endothelial	endothelial	B-NP	JJ	B-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+14	exposed	expose	B-VP	VBN	O	13	NMOD	19	exposed
+15	to	to	B-VP	TO	O	16	VMOD	0
+16	shear	shear	I-VP	VB	O	14	VMOD	0
+17	stress	stress	B-NP	NN	O	16	OBJ	0
+18	,	,	O	,	O	23	P	0
+19	and	and	O	CC	O	23	VMOD	0
+20	more	more	B-ADVP	RBR	O	21	AMOD	0
+21	so	so	I-ADVP	RB	O	23	VMOD	0
+22	to	to	B-VP	TO	O	23	VMOD	0
+23	shear	shear	I-VP	VB	O	4	VMOD	0
+24	stress	stress	B-NP	NN	O	25	NMOD	0
+25	changes	change	I-NP	NNS	O	23	OBJ	0
+26	.	.	O	.	O	4	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	down-regulation	down-regulation	I-NP	NN	O	3	SUB	18	down-regulation
+3	is	be	B-VP	VBZ	O	0	ROOT	0
+4	accompanied	accompany	I-VP	VBN	O	3	VC	0
+5	by	by	B-PP	IN	O	4	VMOD	0
+6	a	a	B-NP	DT	O	8	NMOD	0
+7	rapid	rapid	I-NP	JJ	O	8	NMOD	0
+8	cleavage	cleavage	I-NP	NN	O	5	PMOD	11	cleavage
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	Tie1	Tie1	B-NP	NN	B-protein	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	binding	binding	I-NP	NN	O	9	PMOD	15	binding
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	19	NMOD	0
+15	cleaved	cleaved	I-NP	JJ	B-protein	19	NMOD	11	cleaved
+16	Tie1	Tie1	I-NP	NN	I-protein	19	NMOD	0
+17	45	45	I-NP	CD	I-protein	19	NMOD	0
+18	kDa	kDa	I-NP	NN	I-protein	19	NMOD	0
+19	endodomain	endodomain	I-NP	NN	I-protein	13	PMOD	0
+20	to	to	B-PP	TO	O	12	NMOD	0
+21	Tie2	Tie2	B-NP	NN	B-protein	20	PMOD	0
+22	.	.	O	.	O	3	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	rapid	rapid	I-NP	JJ	O	3	NMOD	0
+3	cleavage	cleavage	I-NP	NN	O	6	SUB	11	cleavage
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	Tie1	Tie1	B-NP	NN	B-protein	4	PMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	followed	follow	I-VP	VBN	O	6	VC	0
+8	by	by	B-PP	IN	O	7	VMOD	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	transcriptional	transcriptional	I-NP	JJ	O	11	NMOD	10	transcriptional
+11	down-regulation	down-regulation	I-NP	NN	O	8	PMOD	18	down-regulation
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	response	response	B-NP	NN	O	12	PMOD	0
+14	to	to	B-VP	TO	O	15	VMOD	0
+15	shear	shear	I-VP	VB	O	11	NMOD	0
+16	stress	stress	B-NP	NN	O	15	OBJ	0
+17	.	.	O	.	O	6	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	activity	activity	I-NP	NN	O	7	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	Tie1	Tie1	I-NP	NN	B-DNA	6	NMOD	0
+6	promoter	promoter	I-NP	NN	I-DNA	3	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	suppressed	suppress	I-VP	VBN	O	7	VC	18	suppressed
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	shear	shear	B-NP	NN	O	11	NMOD	0
+11	stress	stress	I-NP	NN	O	9	PMOD	0
+12	and	and	B-PP	CC	O	9	PMOD	0
+13	by	by	B-PP	IN	O	9	PMOD	0
+14	tumor	tumor	B-NP	NN	B-protein	17	NMOD	0
+15	necrosis	necrosis	I-NP	NN	I-protein	17	NMOD	0
+16	factor	factor	I-NP	NN	I-protein	17	NMOD	0
+17	alpha	alpha	I-NP	NN	I-protein	13	PMOD	0
+18	.	.	O	.	O	7	P	0
+
+1	Shear	Shear	B-NP	JJ	O	4	NMOD	0
+2	stress-induced	stress-induced	I-NP	JJ	O	4	NMOD	17	induced
+3	transcriptional	transcriptional	I-NP	JJ	O	4	NMOD	10	transcriptional
+4	suppression	suppression	I-NP	NN	O	7	SUB	18	suppression
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	Tie1	Tie1	B-NP	NN	B-protein	5	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	mediated	mediate	I-VP	VBN	O	7	VC	16	mediated
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	a	a	B-NP	DT	O	15	NMOD	0
+11	negative	negative	I-NP	JJ	B-DNA	15	NMOD	0
+12	shear	shear	I-NP	NN	I-DNA	15	NMOD	0
+13	stress	stress	I-NP	NN	I-DNA	15	NMOD	0
+14	response	response	I-NP	NN	I-DNA	15	NMOD	0
+15	element	element	I-NP	NN	I-DNA	9	PMOD	0
+16	,	,	O	,	O	8	P	0
+17	localized	localize	B-VP	VBN	O	8	VMOD	0
+18	in	in	B-PP	IN	O	17	VMOD	0
+19	a	a	B-NP	DT	O	20	NMOD	0
+20	region	region	I-NP	NN	O	18	PMOD	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	250	250	B-NP	CD	O	23	NMOD	0
+23	bp	bp	I-NP	NN	O	21	PMOD	0
+24	within	within	B-PP	IN	O	20	NMOD	0
+25	the	the	B-NP	DT	O	26	NMOD	0
+26	promoter	promoter	I-NP	NN	B-DNA	24	PMOD	0
+27	.	.	O	.	O	7	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	rapid	rapid	I-NP	JJ	O	3	NMOD	0
+3	down-regulation	down-regulation	I-NP	NN	O	16	SUB	18	down-regulation
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	Tie1	Tie1	B-NP	NN	B-protein	4	PMOD	0
+6	by	by	B-PP	IN	O	3	NMOD	0
+7	shear	shear	B-NP	NN	O	9	NMOD	0
+8	stress	stress	I-NP	NN	O	9	NMOD	0
+9	changes	change	I-NP	NNS	O	13	NMOD	0
+10	and	and	O	CC	O	13	NMOD	0
+11	its	its	B-NP	PRP$	O	13	NMOD	0
+12	rapid	rapid	I-NP	JJ	O	13	NMOD	0
+13	binding	binding	I-NP	NN	O	6	PMOD	15	binding
+14	to	to	B-PP	TO	O	13	NMOD	0
+15	Tie2	Tie2	B-NP	NN	B-protein	14	PMOD	0
+16	may	may	B-VP	MD	O	0	ROOT	0
+17	be	be	I-VP	VB	O	16	VC	0
+18	required	require	I-VP	VBN	O	17	VC	17	required
+19	for	for	B-PP	IN	O	18	VMOD	0
+20	destabilization	destabilization	B-NP	NN	O	19	PMOD	18	destabilization
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	endothelial	endothelial	B-NP	JJ	B-cell_type	23	NMOD	0
+23	cells	cell	I-NP	NNS	I-cell_type	21	PMOD	0
+24	in	in	B-SBAR	IN	O	18	VMOD	0
+25	order	order	O	NN	O	24	DEP	0
+26	to	to	B-VP	TO	O	27	VMOD	0
+27	initiate	initiate	I-VP	VB	O	24	SBAR	17	initiate
+28	the	the	B-NP	DT	O	29	NMOD	0
+29	process	process	I-NP	NN	O	27	OBJ	0
+30	of	of	B-PP	IN	O	29	NMOD	0
+31	vascular	vascular	B-NP	JJ	O	32	NMOD	0
+32	restructuring	restructuring	I-NP	NN	O	30	PMOD	7	restructuring
+33	.	.	O	.	O	16	P	0
+

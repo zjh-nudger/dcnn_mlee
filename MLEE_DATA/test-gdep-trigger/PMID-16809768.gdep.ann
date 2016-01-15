@@ -1,0 +1,325 @@
+1	Prostate-specific	Prostate-specific	B-NP	JJ	B-protein	3	NMOD	0
+2	membrane	membrane	I-NP	NN	I-protein	3	NMOD	0
+3	antigen	antigen	I-NP	NN	I-protein	4	SUB	0
+4	regulates	regulate	B-VP	VBZ	O	0	ROOT	16	regulates
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	OBJ	3	angiogenesis
+6	by	by	B-PP	IN	O	4	VMOD	0
+7	modulating	modulate	B-VP	VBG	O	6	PMOD	16	modulating
+8	integrin	integrin	B-NP	NN	B-protein	10	NMOD	0
+9	signal	signal	I-NP	NN	O	10	NMOD	0
+10	transduction	transduction	I-NP	NN	O	7	OBJ	0
+11	.	.	O	.	O	4	P	0
+
+1	The	The	B-NP	DT	O	6	NMOD	0
+2	transmembrane	transmembrane	I-NP	JJ	B-protein	6	NMOD	0
+3	peptidase	peptidase	I-NP	NN	I-protein	6	NMOD	0
+4	prostate-specific	prostate-specific	I-NP	JJ	I-protein	6	NMOD	0
+5	membrane	membrane	I-NP	NN	I-protein	6	NMOD	0
+6	antigen	antigen	I-NP	NN	I-protein	10	SUB	0
+7	(	(	O	(	O	9	DEP	0
+8	PSMA	PSMA	B-NP	NN	B-protein	9	DEP	0
+9	)	)	O	)	O	6	NMOD	0
+10	is	be	B-VP	VBZ	O	27	VMOD	0
+11	universally	universally	I-VP	RB	O	10	VMOD	0
+12	upregulated	upregulate	I-VP	VBN	O	10	VC	17	upregulated
+13	in	in	B-PP	IN	O	12	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	vasculature	vasculature	I-NP	NN	O	13	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	solid	solid	B-NP	JJ	O	18	NMOD	0
+18	tumors	tumor	I-NP	NNS	O	16	PMOD	0
+19	,	,	O	,	O	27	P	0
+20	but	but	O	CC	O	23	NMOD	0
+21	its	its	B-NP	PRP$	O	23	NMOD	0
+22	functional	functional	I-NP	JJ	O	23	NMOD	0
+23	role	role	I-NP	NN	O	27	SUB	16	role
+24	in	in	B-PP	IN	O	23	NMOD	0
+25	tumor	tumor	B-NP	NN	O	26	NMOD	0
+26	angiogenesis	angiogenesis	I-NP	NN	O	24	PMOD	3	angiogenesis
+27	has	have	B-VP	VBZ	O	0	ROOT	0
+28	not	not	I-VP	RB	O	27	VMOD	0
+29	been	be	I-VP	VBN	O	27	VC	0
+30	investigated	investigate	I-VP	VBN	O	29	VC	0
+31	.	.	O	.	O	27	P	0
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	show	show	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	13	DEP	0
+5	angiogenesis	angiogenesis	B-NP	NN	O	6	SUB	3	angiogenesis
+6	is	be	B-VP	VBZ	O	4	SBAR	0
+7	severely	severely	B-ADJP	RB	O	8	AMOD	0
+8	impaired	impaired	I-ADJP	JJ	O	6	PRD	18	impaired
+9	in	in	B-PP	IN	O	8	AMOD	0
+10	PSMA-null	PSMA-null	B-NP	JJ	O	11	NMOD	0
+11	animals	animal	I-NP	NNS	O	9	PMOD	0
+12	and	and	O	CC	O	13	DEP	0
+13	that	that	B-SBAR	IN	O	3	VMOD	0
+14	this	this	B-NP	DT	O	16	NMOD	0
+15	angiogenic	angiogenic	I-NP	JJ	O	16	NMOD	3	angiogenic
+16	defect	defect	I-NP	NN	O	17	SUB	18	defect
+17	occurs	occur	B-VP	VBZ	O	13	SBAR	0
+18	at	at	B-PP	IN	O	17	VMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	level	level	I-NP	NN	O	18	PMOD	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	endothelial	endothelial	B-NP	JJ	O	24	NMOD	0
+23	cell	cell	I-NP	NN	O	24	NMOD	0
+24	invasion	invasion	I-NP	NN	O	21	PMOD	14	invasion
+25	through	through	B-PP	IN	O	17	VMOD	0
+26	the	the	B-NP	DT	O	29	NMOD	0
+27	extracellular	extracellular	I-NP	JJ	O	29	NMOD	0
+28	matrix	matrix	I-NP	NN	O	29	NMOD	0
+29	barrier	barrier	I-NP	NN	O	25	PMOD	0
+30	.	.	O	.	O	3	P	0
+
+1	Because	Because	B-SBAR	IN	O	19	VMOD	0
+2	proteolytic	proteolytic	B-NP	JJ	O	3	NMOD	0
+3	degradation	degradation	I-NP	NN	O	8	SUB	6	degradation
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	extracellular	extracellular	I-NP	JJ	O	7	NMOD	0
+7	matrix	matrix	I-NP	NN	O	4	PMOD	0
+8	is	be	B-VP	VBZ	O	1	SBAR	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	critical	critical	I-NP	JJ	O	11	NMOD	0
+11	component	component	I-NP	NN	O	8	PRD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	endothelial	endothelial	B-NP	JJ	O	14	NMOD	0
+14	invasion	invasion	I-NP	NN	O	12	PMOD	14	invasion
+15	in	in	B-PP	IN	O	8	VMOD	0
+16	angiogenesis	angiogenesis	B-NP	NN	O	15	PMOD	3	angiogenesis
+17	,	,	O	,	O	19	P	0
+18	it	it	B-NP	PRP	O	19	SUB	0
+19	is	be	B-VP	VBZ	O	0	ROOT	0
+20	logical	logical	B-ADJP	JJ	O	19	PRD	0
+21	to	to	B-VP	TO	O	22	VMOD	0
+22	assume	assume	I-VP	VB	O	20	AMOD	0
+23	that	that	B-SBAR	IN	O	22	VMOD	0
+24	PSMA	PSMA	B-NP	NN	B-protein	25	SUB	0
+25	participates	participate	B-VP	VBZ	O	23	SBAR	16	participates
+26	in	in	B-PP	IN	O	25	VMOD	0
+27	matrix	matrix	B-NP	NN	O	28	NMOD	0
+28	degradation	degradation	I-NP	NN	O	26	PMOD	6	degradation
+29	.	.	O	.	O	19	P	0
+
+1	However	However	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	0
+5	a	a	B-NP	DT	O	10	NMOD	0
+6	novel	novel	I-NP	JJ	O	9	AMOD	0
+7	and	and	I-NP	CC	O	9	AMOD	0
+8	more	more	I-NP	RBR	O	9	AMOD	0
+9	complex	complex	I-NP	JJ	O	10	NMOD	0
+10	role	role	I-NP	NN	O	4	OBJ	16	role
+11	for	for	B-PP	IN	O	10	NMOD	0
+12	PSMA	PSMA	B-NP	NN	B-protein	11	PMOD	0
+13	in	in	B-PP	IN	O	10	NMOD	0
+14	angiogenesis	angiogenesis	B-NP	NN	O	13	PMOD	3	angiogenesis
+15	,	,	O	,	O	14	P	0
+16	where	where	B-ADVP	WRB	O	14	NMOD	0
+17	it	it	B-NP	PRP	O	18	SUB	0
+18	is	be	B-VP	VBZ	O	16	SBAR	0
+19	a	a	B-NP	DT	O	21	NMOD	0
+20	principal	principal	I-NP	JJ	O	21	NMOD	0
+21	component	component	I-NP	NN	O	18	PRD	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	a	a	B-NP	DT	O	25	NMOD	0
+24	regulatory	regulatory	I-NP	JJ	O	25	NMOD	0
+25	loop	loop	I-NP	NN	O	22	PMOD	0
+26	that	that	B-NP	WDT	O	25	NMOD	0
+27	is	be	B-VP	VBZ	O	26	SBAR	0
+28	tightly	tightly	I-VP	RB	O	29	VMOD	0
+29	modulating	modulate	I-VP	VBG	O	27	VC	16	modulating
+30	laminin-specific	laminin-specific	B-NP	JJ	B-protein	32	NMOD	0
+31	integrin	integrin	I-NP	NN	I-protein	32	NMOD	0
+32	signaling	signaling	I-NP	NN	O	42	NMOD	0
+33	and	and	O	CC	O	42	NMOD	0
+34	GTPase-dependent	GTPase-dependent	B-NP	JJ	O	42	NMOD	0
+35	,	,	I-NP	,	O	42	P	0
+36	p21-activated	p21-activated	I-NP	JJ	B-protein	37	NMOD	0
+37	kinase	kinase	I-NP	NN	I-protein	42	NMOD	0
+38	1	1	I-NP	CD	I-protein	37	NMOD	0
+39	(	(	O	(	O	41	DEP	0
+40	PAK-1	PAK-1	B-NP	NN	B-protein	41	DEP	0
+41	)	)	O	)	O	37	NMOD	0
+42	activity	activity	B-NP	NN	O	29	OBJ	0
+43	.	.	O	.	O	4	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	show	show	B-VP	VBP	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	PSMA	PSMA	B-NP	NN	B-protein	5	NMOD	0
+5	inhibition	inhibition	I-NP	NN	O	10	NMOD	18	inhibition
+6	,	,	O	,	O	10	P	0
+7	knockdown	knockdown	B-NP	NN	O	10	NMOD	19	knockdown
+8	,	,	O	,	O	10	P	0
+9	or	or	O	CC	O	10	NMOD	0
+10	deficiency	deficiency	B-NP	NN	O	11	SUB	9	deficiency
+11	decreases	decrease	B-VP	VBZ	O	3	SBAR	16	decreases
+12	endothelial	endothelial	B-NP	JJ	O	14	NMOD	0
+13	cell	cell	I-NP	NN	O	14	NMOD	0
+14	invasion	invasion	I-NP	NN	O	11	OBJ	14	invasion
+15	in	in	B-ADVP	FW	O	11	VMOD	0
+16	vitro	vitro	I-ADVP	FW	O	15	AMOD	0
+17	via	via	B-PP	IN	O	11	VMOD	0
+18	integrin	integrin	B-NP	NN	B-protein	20	NMOD	0
+19	and	and	I-NP	CC	O	20	NMOD	0
+20	PAK	PAK	I-NP	NN	B-protein	17	PMOD	0
+21	,	,	O	,	O	11	P	0
+22	thus	thus	B-ADVP	RB	O	23	VMOD	0
+23	abrogating	abrogate	B-VP	VBG	O	11	VMOD	18	abrogating
+24	angiogenesis	angiogenesis	B-NP	NN	O	23	OBJ	3	angiogenesis
+25	.	.	O	.	O	2	P	0
+
+1	Interestingly	Interestingly	B-ADVP	RB	O	15	VMOD	0
+2	,	,	O	,	O	15	P	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	neutralization	neutralization	I-NP	NN	O	15	SUB	18	neutralization
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	beta	beta	B-NP	NN	O	12	NMOD	0
+7	(	(	O	(	O	9	DEP	0
+8	1	1	B-NP	CD	O	9	DEP	0
+9	)	)	O	)	O	6	NMOD	0
+10	or	or	O	CC	O	12	NMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	inactivation	inactivation	I-NP	NN	O	5	PMOD	18	inactivation
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	PAK	PAK	B-NP	NN	B-protein	13	PMOD	0
+15	increases	increase	B-VP	VBZ	O	0	ROOT	17	increases
+16	PSMA	PSMA	B-NP	NN	B-protein	17	NMOD	0
+17	activity	activity	I-NP	NN	O	15	OBJ	0
+18	,	,	O	,	O	15	P	0
+19	suggesting	suggest	B-VP	VBG	O	15	VMOD	0
+20	that	that	B-SBAR	IN	O	19	VMOD	0
+21	they	they	B-NP	PRP	O	23	SUB	0
+22	negatively	negatively	B-ADVP	RB	O	23	VMOD	0
+23	regulate	regulate	B-VP	VBP	O	20	SBAR	0
+24	PSMA	PSMA	B-NP	NN	B-protein	23	OBJ	0
+25	.	.	O	.	O	15	P	0
+
+1	This	This	B-NP	DT	O	3	NMOD	0
+2	negative	negative	I-NP	JJ	O	3	NMOD	0
+3	regulation	regulation	I-NP	NN	O	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	mediated	mediate	I-VP	VBN	O	4	VC	16	mediated
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	cytoskeleton	cytoskeleton	I-NP	NN	O	6	PMOD	0
+9	as	as	B-PP	IN	O	8	NMOD	0
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	disruption	disruption	I-NP	NN	O	9	PMOD	18	disruption
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	interactions	interaction	B-NP	NNS	O	12	PMOD	15	interactions
+14	between	between	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	18	NMOD	0
+16	PSMA	PSMA	I-NP	NN	B-protein	18	NMOD	0
+17	cytoplasmic	cytoplasmic	I-NP	JJ	I-protein	18	NMOD	0
+18	tail	tail	I-NP	NN	I-protein	24	NMOD	0
+19	and	and	O	CC	O	24	NMOD	0
+20	the	the	B-NP	DT	O	24	NMOD	0
+21	anchor	anchor	I-NP	NN	O	24	NMOD	0
+22	protein	protein	I-NP	NN	O	24	NMOD	0
+23	filamin	filamin	I-NP	NN	O	24	NMOD	0
+24	A	A	I-NP	NN	O	14	PMOD	0
+25	decreases	decrease	B-VP	VBZ	O	4	VMOD	18	decreases
+26	PSMA	PSMA	B-NP	NN	B-protein	27	NMOD	0
+27	activity	activity	I-NP	NN	O	34	NMOD	0
+28	,	,	O	,	O	34	P	0
+29	integrin	integrin	B-NP	NN	B-protein	30	NMOD	0
+30	function	function	I-NP	NN	O	34	NMOD	0
+31	,	,	O	,	O	34	P	0
+32	and	and	O	CC	O	34	NMOD	0
+33	PAK	PAK	B-NP	NN	B-protein	34	NMOD	0
+34	activation	activation	I-NP	NN	O	25	OBJ	17	activation
+35	.	.	O	.	O	4	P	0
+
+1	Finally	Finally	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	inhibition	inhibition	I-NP	NN	O	8	SUB	18	inhibition
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	PAK	PAK	B-NP	NN	B-protein	7	NMOD	0
+7	activation	activation	I-NP	NN	O	5	PMOD	17	activation
+8	enhances	enhance	B-VP	VBZ	O	0	ROOT	17	enhances
+9	the	the	B-NP	DT	O	12	NMOD	0
+10	PSMA/filamin	PSMA/filamin	I-NP	NN	O	12	NMOD	0
+11	A	A	I-NP	NN	O	12	NMOD	0
+12	interaction	interaction	I-NP	NN	O	8	OBJ	15	interaction
+13	and	and	O	CC	O	8	VMOD	0
+14	,	,	O	,	O	8	P	0
+15	thus	thus	B-ADVP	RB	O	8	VMOD	0
+16	,	,	O	,	O	8	P	0
+17	boosts	boost	B-VP	VBZ	O	8	VMOD	17	boosts
+18	PSMA	PSMA	B-NP	NN	B-protein	19	NMOD	0
+19	activity	activity	I-NP	NN	O	17	OBJ	0
+20	.	.	O	.	O	8	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	imply	imply	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	PSMA	PSMA	B-NP	NN	B-protein	6	SUB	0
+6	participates	participate	B-VP	VBZ	O	4	SBAR	16	participates
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	an	an	B-NP	DT	O	10	NMOD	0
+9	autoregulatory	autoregulatory	I-NP	JJ	O	10	NMOD	0
+10	loop	loop	I-NP	NN	O	7	PMOD	0
+11	,	,	O	,	O	6	P	0
+12	wherein	wherein	B-PP	IN	O	6	VMOD	0
+13	active	active	B-NP	JJ	O	14	NMOD	0
+14	PSMA	PSMA	I-NP	NN	B-protein	15	SUB	0
+15	facilitates	facilitate	B-VP	VBZ	O	12	SBAR	17	facilitates
+16	integrin	integrin	B-NP	NN	B-protein	17	NMOD	0
+17	signaling	signaling	I-NP	NN	O	20	NMOD	0
+18	and	and	O	CC	O	20	NMOD	0
+19	PAK	PAK	B-NP	NN	B-protein	20	NMOD	0
+20	activation	activation	I-NP	NN	O	15	OBJ	17	activation
+21	,	,	O	,	O	15	P	0
+22	leading	lead	B-VP	VBG	O	15	VMOD	17	leading
+23	to	to	B-PP	TO	O	22	VMOD	0
+24	both	both	O	CC	O	28	NMOD	0
+25	productive	productive	B-NP	JJ	O	26	NMOD	0
+26	invasion	invasion	I-NP	NN	O	28	NMOD	0
+27	and	and	I-NP	CC	O	28	NMOD	0
+28	downregulation	downregulation	I-NP	NN	O	23	PMOD	18	downregulation
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	integrin	integrin	B-NP	NN	B-protein	31	NMOD	0
+31	beta	beta	I-NP	NN	I-protein	35	NMOD	0
+32	(	(	O	(	O	34	DEP	0
+33	1	1	B-NP	CD	O	34	DEP	0
+34	)	)	O	)	O	31	NMOD	0
+35	signaling	signaling	B-NP	NN	O	29	PMOD	0
+36	via	via	B-PP	IN	O	28	NMOD	0
+37	reduced	reduce	B-NP	VBN	O	39	NMOD	18	reduced
+38	PSMA	PSMA	I-NP	NN	B-protein	39	NMOD	0
+39	activity	activity	I-NP	NN	O	36	PMOD	0
+40	.	.	O	.	O	3	P	0
+
+1	Therefore	Therefore	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	have	have	B-VP	VBP	O	0	ROOT	0
+5	identified	identify	I-VP	VBN	O	4	VC	0
+6	a	a	B-NP	DT	O	8	NMOD	0
+7	novel	novel	I-NP	JJ	O	8	NMOD	0
+8	role	role	I-NP	NN	O	5	OBJ	0
+9	for	for	B-PP	IN	O	8	NMOD	0
+10	PSMA	PSMA	B-NP	NN	B-protein	9	PMOD	0
+11	as	as	B-PP	IN	O	5	VMOD	0
+12	a	a	B-NP	DT	O	15	NMOD	0
+13	true	true	I-NP	JJ	O	15	NMOD	0
+14	molecular	molecular	I-NP	JJ	O	15	NMOD	0
+15	interface	interface	I-NP	NN	O	11	PMOD	0
+16	,	,	O	,	O	15	P	0
+17	integrating	integrate	B-VP	VBG	O	15	NMOD	0
+18	both	both	O	CC	O	22	NMOD	0
+19	extracellular	extracellular	B-NP	JJ	O	22	NMOD	0
+20	and	and	I-NP	CC	O	22	NMOD	0
+21	intracellular	intracellular	I-NP	JJ	O	22	NMOD	0
+22	signals	signal	I-NP	NNS	O	17	OBJ	0
+23	during	during	B-PP	IN	O	17	VMOD	0
+24	angiogenesis	angiogenesis	B-NP	NN	O	23	PMOD	3	angiogenesis
+25	.	.	O	.	O	4	P	0
+

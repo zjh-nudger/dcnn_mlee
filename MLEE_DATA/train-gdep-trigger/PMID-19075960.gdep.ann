@@ -1,0 +1,290 @@
+1	VEGF	VEGF	B-NP	NN	B-protein	5	NMOD	0
+2	,	,	I-NP	,	O	5	P	0
+3	angiopoietin-1	angiopoietin-1	I-NP	NN	B-protein	5	NMOD	0
+4	and	and	I-NP	CC	I-protein	5	NMOD	0
+5	-2	-2	I-NP	CD	I-protein	12	NMOD	0
+6	in	in	B-PP	IN	O	5	NMOD	0
+7	bronchial	bronchial	B-NP	JJ	O	8	NMOD	0
+8	asthma	asthma	I-NP	NN	O	6	PMOD	0
+9	:	:	O	:	O	5	P	0
+10	new	new	B-NP	JJ	O	12	NMOD	0
+11	molecular	molecular	I-NP	JJ	O	12	NMOD	0
+12	targets	target	I-NP	NNS	O	0	ROOT	0
+13	in	in	B-PP	IN	O	12	NMOD	0
+14	airway	airway	B-NP	NN	O	15	NMOD	0
+15	angiogenesis	angiogenesis	I-NP	NN	O	18	NMOD	3	angiogenesis
+16	and	and	O	CC	O	18	NMOD	0
+17	microvascular	microvascular	B-NP	JJ	O	18	NMOD	0
+18	remodeling	remodeling	I-NP	NN	O	13	PMOD	7	remodeling
+19	.	.	O	.	O	12	P	0
+
+1	Airway	Airway	B-NP	NN	O	2	NMOD	0
+2	angiogenesis	angiogenesis	I-NP	NN	O	5	NMOD	3	angiogenesis
+3	and	and	O	CC	O	5	NMOD	0
+4	microvascular	microvascular	B-NP	JJ	O	5	NMOD	0
+5	remodeling	remodeling	I-NP	NN	O	6	SUB	7	remodeling
+6	are	be	B-VP	VBP	O	20	VMOD	0
+7	known	know	I-VP	VBN	O	6	VC	0
+8	features	feature	B-NP	NNS	O	7	OBJ	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	bronchial	bronchial	B-NP	JJ	O	11	NMOD	0
+11	asthma	asthma	I-NP	NN	O	9	PMOD	0
+12	,	,	O	,	O	20	P	0
+13	but	but	O	CC	O	20	VMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	mechanisms	mechanism	I-NP	NNS	O	20	SUB	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	these	these	B-NP	DT	O	19	NMOD	0
+18	structural	structural	I-NP	JJ	O	19	NMOD	0
+19	alterations	alteration	I-NP	NNS	O	16	PMOD	0
+20	are	be	B-VP	VBP	O	0	ROOT	0
+21	just	just	I-VP	RB	O	20	VMOD	0
+22	beginning	begin	I-VP	VBG	O	20	VMOD	0
+23	to	to	I-VP	TO	O	24	VMOD	0
+24	be	be	I-VP	VB	O	22	VMOD	0
+25	elucidated	elucidate	I-VP	VBN	O	24	VC	0
+26	.	.	O	.	O	20	P	0
+
+1	Vascular	Vascular	B-NP	JJ	B-protein	4	NMOD	0
+2	endothelial	endothelial	I-NP	JJ	I-protein	4	NMOD	0
+3	growth	growth	I-NP	NN	I-protein	4	NMOD	0
+4	factor	factor	I-NP	NN	I-protein	9	NMOD	0
+5	(	(	O	(	O	7	DEP	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	,	,	O	,	O	9	P	0
+9	one	one	B-NP	CD	O	17	SUB	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	the	the	B-NP	DT	O	15	NMOD	0
+12	most	most	I-NP	RBS	O	13	AMOD	0
+13	potent	potent	I-NP	JJ	O	15	NMOD	0
+14	angiogenic	angiogenic	I-NP	JJ	B-protein	15	NMOD	3	angiogenic
+15	factors	factor	I-NP	NNS	I-protein	10	PMOD	0
+16	,	,	O	,	O	9	P	0
+17	stimulates	stimulate	B-VP	VBZ	O	0	ROOT	17	stimulates
+18	endothelial	endothelial	B-NP	JJ	B-cell_type	19	NMOD	0
+19	cell	cell	I-NP	NN	I-cell_type	20	NMOD	0
+20	proliferation	proliferation	I-NP	NN	O	17	OBJ	1	proliferation
+21	and	and	O	CC	O	17	VMOD	0
+22	induces	induce	B-VP	VBZ	O	17	VMOD	17	induces
+23	the	the	B-NP	DT	O	24	NMOD	0
+24	angiogenesis	angiogenesis	I-NP	NN	O	22	OBJ	3	angiogenesis
+25	.	.	O	.	O	17	P	0
+
+1	Recently	Recently	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	considerable	considerable	B-NP	JJ	O	4	NMOD	0
+4	attentions	attention	I-NP	NNS	O	5	SUB	0
+5	have	have	B-VP	VBP	O	0	ROOT	0
+6	been	be	I-VP	VBN	O	5	VC	0
+7	devoted	devote	I-VP	VBN	O	6	VC	0
+8	to	to	B-PP	TO	O	7	VMOD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	physiological	physiological	I-NP	JJ	O	11	NMOD	0
+11	roles	role	I-NP	NNS	O	8	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	angiopoietin	angiopoietin	B-NP	NN	B-protein	15	NMOD	0
+14	(	(	O	(	O	15	NMOD	0
+15	Ang	Ang	B-NP	NN	O	19	NMOD	0
+16	)	)	O	)	O	15	NMOD	0
+17	-1	-1	B-NP	CD	O	19	NMOD	0
+18	and	and	I-NP	CC	O	19	NMOD	0
+19	-2	-2	I-NP	CD	O	12	PMOD	0
+20	as	as	B-PP	IN	O	5	VMOD	0
+21	regulatory	regulatory	B-NP	JJ	B-protein	22	NMOD	0
+22	factors	factor	I-NP	NNS	I-protein	20	PMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	VEGF	VEGF	B-NP	NN	B-protein	23	PMOD	0
+25	.	.	O	.	O	5	P	0
+
+1	Ang-1	Ang-1	B-NP	NN	B-protein	2	SUB	0
+2	has	have	B-VP	VBZ	O	0	ROOT	0
+3	been	be	I-VP	VBN	O	2	VC	0
+4	shown	show	I-VP	VBN	O	3	VC	0
+5	to	to	I-VP	TO	O	6	VMOD	0
+6	induce	induce	I-VP	VB	O	21	VMOD	17	induce
+7	the	the	B-NP	DT	O	10	NMOD	0
+8	migration	migration	I-NP	NN	O	10	NMOD	14	migration
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	sprouting	sprouting	I-NP	NN	O	6	OBJ	2	sprouting
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	endothelial	endothelial	B-NP	JJ	B-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	11	PMOD	0
+14	,	,	O	,	O	21	P	0
+15	and	and	O	CC	O	21	VMOD	0
+16	coexpression	coexpression	B-NP	NN	O	21	SUB	9	coexpression
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	Ang-1	Ang-1	B-NP	NN	B-protein	20	NMOD	0
+19	and	and	I-NP	CC	O	20	NMOD	0
+20	VEGF	VEGF	I-NP	NN	B-protein	17	PMOD	0
+21	enhanced	enhance	B-VP	VBD	O	4	VMOD	17	enhanced
+22	angiogenesis	angiogenesis	B-NP	NN	O	21	OBJ	3	angiogenesis
+23	.	.	O	.	O	2	P	0
+
+1	In	In	B-PP	IN	O	12	VMOD	0
+2	the	the	B-NP	DT	O	3	NMOD	0
+3	presence	presence	I-NP	NN	O	1	PMOD	14	presence
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	high	high	B-NP	JJ	O	6	NMOD	0
+6	levels	level	I-NP	NNS	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	VEGF	VEGF	B-NP	NN	B-protein	10	NMOD	0
+9	,	,	O	,	O	10	P	0
+10	Ang-2	Ang-2	B-NP	NN	B-protein	7	PMOD	0
+11	also	also	B-ADVP	RB	O	12	VMOD	0
+12	promotes	promote	B-VP	VBZ	O	0	ROOT	17	promotes
+13	rapid	rapid	B-NP	JJ	O	14	NMOD	0
+14	increase	increase	I-NP	NN	O	12	OBJ	0
+15	in	in	B-PP	IN	O	14	NMOD	0
+16	capillary	capillary	B-NP	JJ	O	17	NMOD	0
+17	diameter	diameter	I-NP	NN	O	15	PMOD	0
+18	,	,	O	,	O	12	P	0
+19	remodeling	remodel	B-VP	VBG	O	12	VMOD	7	remodeling
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	basal	basal	I-NP	JJ	O	23	NMOD	0
+23	lamina	lamina	I-NP	NN	O	27	NMOD	0
+24	,	,	O	,	O	27	P	0
+25	proliferation	proliferation	B-NP	NN	O	27	NMOD	1	proliferation
+26	and	and	I-NP	CC	O	27	NMOD	0
+27	migration	migration	I-NP	NN	O	20	PMOD	14	migration
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	endothelial	endothelial	B-NP	JJ	B-cell_type	30	NMOD	0
+30	cells	cell	I-NP	NNS	I-cell_type	28	PMOD	0
+31	,	,	O	,	O	12	P	0
+32	and	and	O	CC	O	12	VMOD	0
+33	stimulates	stimulate	B-VP	VBZ	O	12	VMOD	17	stimulates
+34	sprouting	sprouting	B-NP	NN	O	33	OBJ	2	sprouting
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	new	new	B-NP	JJ	O	38	NMOD	0
+37	blood	blood	I-NP	NN	O	38	NMOD	0
+38	vessels	vessel	I-NP	NNS	O	35	PMOD	0
+39	.	.	O	.	O	12	P	0
+
+1	Thus	Thus	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	VEGF	VEGF	B-NP	NN	B-protein	7	NMOD	0
+4	,	,	O	,	O	7	P	0
+5	Ang-1	Ang-1	B-NP	NN	B-protein	7	NMOD	0
+6	and	and	O	CC	O	7	NMOD	0
+7	-2	-2	B-NP	CD	O	8	SUB	0
+8	may	may	B-VP	MD	O	25	VMOD	0
+9	play	play	I-VP	VB	O	8	VC	0
+10	complementary	complementary	B-NP	JJ	O	12	AMOD	0
+11	and	and	I-NP	CC	O	12	AMOD	0
+12	coordinated	coordinate	I-NP	VBN	O	13	NMOD	0
+13	roles	role	I-NP	NNS	O	9	OBJ	0
+14	in	in	B-PP	IN	O	9	VMOD	0
+15	airway	airway	B-NP	NN	O	16	NMOD	0
+16	angiogenesis	angiogenesis	I-NP	NN	O	19	NMOD	3	angiogenesis
+17	and	and	O	CC	O	19	NMOD	0
+18	microvascular	microvascular	B-NP	JJ	O	19	NMOD	0
+19	remodeling	remodeling	I-NP	NN	O	14	PMOD	7	remodeling
+20	,	,	O	,	O	25	P	0
+21	and	and	O	CC	O	25	VMOD	0
+22	these	these	B-NP	DT	O	24	NMOD	0
+23	structural	structural	I-NP	JJ	O	24	NMOD	0
+24	changes	change	I-NP	NNS	O	25	SUB	0
+25	are	be	B-VP	VBP	O	0	ROOT	0
+26	potentially	potentially	B-ADJP	RB	O	27	AMOD	0
+27	reversible	reversible	I-ADJP	JJ	O	25	PRD	0
+28	by	by	B-PP	IN	O	27	AMOD	0
+29	therapeutic	therapeutic	B-NP	JJ	O	30	NMOD	0
+30	intervention	intervention	I-NP	NN	O	28	PMOD	0
+31	.	.	O	.	O	25	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	scope	scope	I-NP	NN	O	7	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	present	present	I-NP	JJ	O	6	NMOD	0
+6	review	review	I-NP	NN	O	3	PMOD	0
+7	is	be	B-VP	VBZ	O	0	ROOT	0
+8	to	to	B-VP	TO	O	9	VMOD	0
+9	discuss	discuss	I-VP	VB	O	7	PRD	0
+10	from	from	B-PP	IN	O	9	VMOD	0
+11	a	a	B-NP	DT	O	13	NMOD	0
+12	clinical	clinical	I-NP	JJ	O	13	NMOD	0
+13	point	point	I-NP	NN	O	10	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	view	view	B-NP	NN	O	14	PMOD	0
+16	the	the	B-NP	DT	O	18	NMOD	0
+17	potential	potential	I-NP	JJ	O	18	NMOD	0
+18	interactions	interaction	I-NP	NNS	O	9	VMOD	15	interactions
+19	between	between	B-PP	IN	O	18	NMOD	0
+20	VEGF	VEGF	B-NP	NN	B-protein	22	NMOD	0
+21	and	and	I-NP	CC	O	22	NMOD	0
+22	angiopoietins	angiopoietin	I-NP	NNS	B-protein	19	PMOD	0
+23	in	in	B-PP	IN	O	18	NMOD	0
+24	the	the	B-NP	DT	O	26	NMOD	0
+25	asthmatic	asthmatic	I-NP	JJ	O	26	NMOD	0
+26	airways	airway	I-NP	NNS	O	23	PMOD	0
+27	,	,	O	,	O	7	P	0
+28	and	and	O	CC	O	7	VMOD	0
+29	focus	focus	B-VP	VB	O	7	VMOD	0
+30	on	on	B-PP	IN	O	29	VMOD	0
+31	the	the	B-NP	DT	O	33	NMOD	0
+32	therapeutic	therapeutic	I-NP	JJ	O	33	NMOD	0
+33	implications	implication	I-NP	NNS	O	30	PMOD	0
+34	targeting	target	B-VP	VBG	O	33	NMOD	0
+35	for	for	B-PP	IN	O	34	VMOD	0
+36	these	these	B-NP	DT	O	38	NMOD	0
+37	angiogenic	angiogenic	I-NP	JJ	B-protein	38	NMOD	3	angiogenic
+38	factors	factor	I-NP	NNS	I-protein	35	PMOD	0
+39	.	.	O	.	O	7	P	0
+
+1	Recently	Recently	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	there	there	B-NP	EX	O	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	an	an	B-NP	DT	O	7	NMOD	0
+6	increasing	increase	I-NP	VBG	O	7	NMOD	0
+7	number	number	I-NP	NN	O	4	PRD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	patents	patent	B-NP	NNS	O	8	PMOD	0
+10	which	which	B-NP	WDT	O	9	NMOD	0
+11	have	have	B-VP	VBP	O	10	SBAR	0
+12	been	be	I-VP	VBN	O	11	VC	0
+13	focused	focus	I-VP	VBN	O	12	VC	0
+14	on	on	B-PP	IN	O	13	VMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	inhibitors	inhibitor	I-NP	NNS	O	14	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	VEGF	VEGF	B-NP	NN	B-protein	19	NMOD	0
+19	action	action	I-NP	NN	O	17	PMOD	0
+20	.	.	O	.	O	4	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	inhibitors	inhibitor	I-NP	NNS	O	3	SUB	0
+3	are	be	B-VP	VBP	O	0	ROOT	0
+4	directed	direct	I-VP	VBN	O	3	VC	0
+5	towards	towards	B-PP	IN	O	4	VMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	receptors	receptor	I-NP	NNS	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	VEGF	VEGF	B-NP	NN	B-protein	12	NMOD	0
+10	or	or	O	CC	O	12	NMOD	0
+11	intracellular	intracellular	B-NP	JJ	O	12	NMOD	0
+12	substrates	substrate	I-NP	NNS	O	8	PMOD	0
+13	for	for	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	receptors	receptor	I-NP	NNS	O	13	PMOD	0
+16	.	.	O	.	O	3	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	will	will	B-VP	MD	O	0	ROOT	0
+3	also	also	I-VP	RB	O	2	VMOD	0
+4	discuss	discuss	I-VP	VB	O	2	VC	0
+5	several	several	B-NP	JJ	O	6	NMOD	0
+6	patents	patent	I-NP	NNS	O	4	OBJ	0
+7	regarding	regard	B-VP	VBG	O	6	NMOD	0
+8	inhibitors	inhibitor	B-NP	NNS	O	7	OBJ	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	VEGF	VEGF	B-NP	NN	B-protein	11	NMOD	0
+11	action	action	I-NP	NN	O	9	PMOD	0
+12	in	in	B-PP	IN	O	8	NMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	present	present	I-NP	JJ	O	15	NMOD	0
+15	review	review	I-NP	NN	O	12	PMOD	0
+16	.	.	O	.	O	2	P	0
+

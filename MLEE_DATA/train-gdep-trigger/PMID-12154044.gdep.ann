@@ -1,0 +1,312 @@
+1	Inhibition	Inhibition	B-NP	NN	O	9	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	PMOD	3	angiogenesis
+4	by	by	B-PP	IN	O	1	NMOD	0
+5	the	the	B-NP	DT	O	8	NMOD	0
+6	cancer	cancer	I-NP	NN	O	8	NMOD	0
+7	chemopreventive	chemopreventive	I-NP	JJ	O	8	NMOD	0
+8	agent	agent	I-NP	NN	O	4	PMOD	0
+9	conjugated	conjugate	B-VP	VBD	O	0	ROOT	0
+10	linoleic	linoleic	B-NP	JJ	O	11	NMOD	0
+11	acid	acid	I-NP	NN	O	9	OBJ	0
+12	.	.	O	.	O	9	P	0
+
+1	Dietary	Dietary	B-NP	JJ	O	4	NMOD	0
+2	conjugated	conjugate	I-NP	VBN	O	4	NMOD	0
+3	linoleic	linoleic	I-NP	JJ	O	4	NMOD	0
+4	acid	acid	I-NP	NN	O	8	SUB	0
+5	(	(	O	(	O	7	DEP	0
+6	CLA	CLA	B-NP	NN	O	7	DEP	0
+7	)	)	O	)	O	4	NMOD	0
+8	has	have	B-VP	VBZ	O	0	ROOT	0
+9	been	be	I-VP	VBN	O	8	VC	0
+10	shown	show	I-VP	VBN	O	9	VC	0
+11	previously	previously	B-ADVP	RB	O	10	VMOD	0
+12	to	to	B-VP	TO	O	13	VMOD	0
+13	inhibit	inhibit	I-VP	VB	O	10	VMOD	0
+14	rat	rat	B-NP	NN	O	16	NMOD	0
+15	mammary	mammary	I-NP	JJ	O	16	NMOD	0
+16	carcinogenesis	carcinogenesis	I-NP	NN	O	13	OBJ	0
+17	.	.	O	.	O	8	P	0
+
+1	In	In	B-PP	IN	O	20	VMOD	0
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	to	to	B-PP	TO	O	2	NMOD	0
+4	direct	direct	B-NP	JJ	O	5	NMOD	0
+5	effects	effect	I-NP	NNS	O	3	PMOD	16	effects
+6	on	on	B-PP	IN	O	5	NMOD	0
+7	mammary	mammary	B-NP	JJ	B-cell_type	9	NMOD	0
+8	epithelial	epithelial	I-NP	JJ	I-cell_type	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_type	6	PMOD	0
+10	,	,	O	,	O	9	P	0
+11	including	include	B-PP	VBG	O	9	NMOD	0
+12	decreased	decrease	B-NP	VBN	O	15	NMOD	18	decreased
+13	proliferation	proliferation	I-NP	NN	O	15	NMOD	1	proliferation
+14	and	and	I-NP	CC	O	15	NMOD	0
+15	induction	induction	I-NP	NN	O	11	PMOD	17	induction
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	apoptosis	apoptosis	B-NP	NN	O	16	PMOD	5	apoptosis
+18	,	,	O	,	O	20	P	0
+19	CLA	CLA	B-NP	NN	O	20	SUB	0
+20	may	may	B-VP	MD	O	0	ROOT	0
+21	exert	exert	I-VP	VB	O	20	VC	0
+22	its	its	B-NP	PRP$	O	23	NMOD	0
+23	effects	effect	I-NP	NNS	O	21	OBJ	16	effects
+24	indirectly	indirectly	B-ADVP	RB	O	21	VMOD	0
+25	by	by	B-PP	IN	O	21	VMOD	0
+26	inhibiting	inhibit	B-VP	VBG	O	25	PMOD	18	inhibiting
+27	the	the	B-NP	DT	O	28	NMOD	0
+28	differentiation	differentiation	I-NP	NN	O	26	OBJ	2	differentiation
+29	of	of	B-PP	IN	O	28	NMOD	0
+30	mammary	mammary	B-NP	JJ	B-cell_type	32	NMOD	0
+31	stromal	stromal	I-NP	JJ	I-cell_type	32	NMOD	0
+32	cells	cell	I-NP	NNS	I-cell_type	29	PMOD	0
+33	to	to	B-PP	TO	O	28	NMOD	0
+34	an	an	B-NP	DT	O	37	NMOD	0
+35	endothelial	endothelial	I-NP	JJ	O	37	NMOD	0
+36	cell	cell	I-NP	NN	O	37	NMOD	0
+37	type	type	I-NP	NN	O	33	PMOD	0
+38	.	.	O	.	O	20	P	0
+
+1	Specifically	Specifically	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	CLA	CLA	B-NP	NN	B-protein	4	SUB	0
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	found	find	I-VP	VBN	O	4	VC	0
+6	to	to	I-VP	TO	O	7	VMOD	0
+7	decrease	decrease	I-VP	VB	O	5	VMOD	18	decrease
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	ability	ability	I-NP	NN	O	7	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	mammary	mammary	B-NP	JJ	B-cell_type	13	NMOD	0
+12	stromal	stromal	I-NP	JJ	I-cell_type	13	NMOD	0
+13	cells	cell	I-NP	NNS	I-cell_type	10	PMOD	0
+14	to	to	B-VP	TO	O	15	VMOD	0
+15	form	form	I-VP	VB	O	9	NMOD	2	form
+16	complex	complex	B-NP	NN	O	15	OBJ	0
+17	anastomosing	anastomose	B-VP	VBG	O	16	NMOD	0
+18	microcapillary	microcapillary	B-NP	JJ	B-protein	19	NMOD	0
+19	networks	network	I-NP	NNS	I-protein	17	OBJ	0
+20	in	in	B-ADVP	FW	O	15	VMOD	0
+21	vitro	vitro	I-ADVP	FW	O	20	AMOD	0
+22	on	on	B-PP	IN	O	15	VMOD	0
+23	Engelbreth-Holm-Swarm-derived	Engelbreth-Holm-Swarm-derived	B-NP	JJ	O	26	NMOD	0
+24	reconstituted	reconstitute	I-NP	VBN	O	26	NMOD	0
+25	basement	basement	I-NP	NN	O	26	NMOD	0
+26	membrane	membrane	I-NP	NN	O	22	PMOD	0
+27	.	.	O	.	O	4	P	0
+
+1	This	This	B-NP	DT	O	2	SUB	0
+2	suggested	suggest	B-VP	VBD	O	0	ROOT	0
+3	that	that	B-SBAR	IN	O	2	VMOD	0
+4	CLA	CLA	B-NP	NN	O	5	SUB	0
+5	might	might	B-VP	MD	O	3	SBAR	0
+6	inhibit	inhibit	I-VP	VB	O	5	VC	18	inhibit
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	OBJ	3	angiogenesis
+8	in	in	B-ADVP	FW	O	6	VMOD	0
+9	vivo	vivo	I-ADVP	FW	O	8	AMOD	0
+10	.	.	O	.	O	2	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	test	test	I-VP	VB	O	11	VMOD	0
+3	this	this	B-NP	DT	O	4	NMOD	0
+4	possibility	possibility	I-NP	NN	O	2	OBJ	0
+5	,	,	O	,	O	11	P	0
+6	CD2/F	CD2/F	B-NP	NN	B-protein	10	NMOD	0
+7	(	(	O	(	O	9	DEP	0
+8	1	1	B-NP	CD	O	9	DEP	0
+9	)	)	O	)	O	6	NMOD	0
+10	mice	mouse	B-NP	NNS	O	11	SUB	0
+11	were	be	B-VP	VBD	O	0	ROOT	0
+12	placed	place	I-VP	VBN	O	11	VC	19	placed
+13	on	on	B-PP	IN	O	12	VMOD	0
+14	synthetic	synthetic	B-NP	JJ	O	15	NMOD	0
+15	diets	diet	I-NP	NNS	O	13	PMOD	0
+16	containing	contain	B-VP	VBG	O	15	NMOD	0
+17	0	0	B-NP	CD	O	24	NMOD	0
+18	,	,	I-NP	,	O	24	P	0
+19	1	1	I-NP	CD	O	24	NMOD	0
+20	,	,	O	,	O	24	P	0
+21	or	or	O	CC	O	24	NMOD	0
+22	2	2	B-NP	CD	O	23	AMOD	0
+23	%	%	I-NP	NN	O	24	NMOD	0
+24	CLA	CLA	I-NP	NN	O	16	OBJ	0
+25	for	for	B-PP	IN	O	24	NMOD	0
+26	6	6	B-NP	CD	O	27	NMOD	0
+27	weeks	week	I-NP	NNS	O	25	PMOD	0
+28	,	,	O	,	O	12	P	0
+29	before	before	B-PP	IN	O	12	VMOD	0
+30	angiogenic	angiogenic	B-NP	JJ	O	31	NMOD	3	angiogenic
+31	challenge	challenge	I-NP	NN	O	29	PMOD	0
+32	by	by	B-PP	IN	O	12	VMOD	0
+33	s.c	s.c	B-NP	NN	O	32	PMOD	0
+34	.	.	O	.	O	11	P	0
+
+1	injection	injection	B-NP	NN	O	0	ROOT	0
+2	with	with	B-PP	IN	O	1	NMOD	0
+3	an	an	B-NP	DT	O	6	NMOD	0
+4	angiogenic	angiogenic	I-NP	JJ	O	6	NMOD	3	angiogenic
+5	gel	gel	I-NP	NN	O	6	NMOD	0
+6	substrate	substrate	I-NP	NN	O	2	PMOD	0
+7	(	(	O	(	O	11	DEP	0
+8	Matrigel	Matrigel	B-NP	NN	O	10	NMOD	0
+9	pellet	pellet	I-NP	NN	O	10	NMOD	0
+10	assay	assay	I-NP	NN	O	11	DEP	0
+11	)	)	O	)	O	6	NMOD	0
+12	.	.	O	.	O	1	P	0
+
+1	After	After	B-PP	IN	O	13	VMOD	0
+2	7	7	B-NP	CD	O	3	NMOD	0
+3	days	day	I-NP	NNS	O	1	PMOD	0
+4	,	,	O	,	O	13	P	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	pellets	pellet	I-NP	NNS	O	13	SUB	0
+7	from	from	B-PP	IN	O	6	NMOD	0
+8	animals	animal	B-NP	NNS	O	12	NMOD	0
+9	fed	feed	B-VP	VBN	O	12	NMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	control	control	I-NP	NN	O	12	NMOD	0
+12	diet	diet	I-NP	NN	O	7	PMOD	0
+13	were	be	B-VP	VBD	O	0	ROOT	0
+14	infiltrated	infiltrate	I-VP	VBN	O	13	VC	0
+15	by	by	B-PP	IN	O	14	VMOD	0
+16	abundant	abundant	B-NP	JJ	O	18	NMOD	17	abundant
+17	branching	branching	I-NP	NN	O	18	NMOD	2	branching
+18	networks	network	I-NP	NNS	O	15	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	blood	blood	B-NP	NN	O	21	NMOD	0
+21	vessels	vessel	I-NP	NNS	O	19	PMOD	0
+22	with	with	B-PP	IN	O	21	NMOD	0
+23	patent	patent	B-NP	NN	B-cell_type	25	NMOD	0
+24	lumen-containing	lumen-containing	I-NP	JJ	I-cell_type	25	NMOD	0
+25	RBCs	RBC	I-NP	NNS	I-cell_type	22	PMOD	0
+26	.	.	O	.	O	13	P	0
+
+1	In	In	B-PP	IN	O	9	VMOD	0
+2	contrast	contrast	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	9	P	0
+4	pellets	pellet	B-NP	NNS	O	9	SUB	0
+5	from	from	B-PP	IN	O	4	NMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	CLA-fed	CLA-fed	I-NP	JJ	B-cell_line	8	NMOD	19	fed
+8	animals	animal	I-NP	NNS	I-cell_line	5	PMOD	0
+9	contained	contain	B-VP	VBD	I-cell_line	0	ROOT	0
+10	fewer	few	B-NP	JJR	I-cell_line	12	NMOD	0
+11	infiltrating	infiltrate	I-NP	VBG	I-cell_line	12	NMOD	14	infiltrating
+12	cells	cell	I-NP	NNS	I-cell_line	9	OBJ	0
+13	,	,	O	,	O	12	P	0
+14	which	which	B-NP	WDT	O	12	NMOD	0
+15	formed	form	B-VP	VBD	O	14	SBAR	2	formed
+16	limited	limited	B-NP	JJ	O	19	NMOD	0
+17	branching	branching	I-NP	JJ	O	19	NMOD	0
+18	cellular	cellular	I-NP	JJ	O	19	NMOD	0
+19	networks	network	I-NP	NNS	O	15	OBJ	0
+20	,	,	O	,	O	9	P	0
+21	the	the	B-NP	DT	O	22	NMOD	0
+22	majority	majority	I-NP	NN	O	9	VMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	which	which	B-NP	WDT	O	23	PMOD	0
+25	had	have	B-VP	VBD	O	30	NMOD	0
+26	collapsed	collapse	I-VP	VBN	O	27	NMOD	6	collapsed
+27	lumen	luman	B-NP	NNS	O	25	OBJ	0
+28	and	and	O	CC	O	30	NMOD	0
+29	no	no	B-NP	DT	O	30	NMOD	0
+30	RBCs	RBC	I-NP	NNS	B-cell_type	23	PMOD	0
+31	.	.	O	.	O	9	P	0
+
+1	Both	Both	B-NP	DT	O	2	NMOD	0
+2	levels	level	I-NP	NNS	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	dietary	dietary	B-NP	JJ	O	5	NMOD	0
+5	CLA	CLA	I-NP	NN	O	3	PMOD	0
+6	showed	show	B-VP	VBD	O	0	ROOT	0
+7	similar	similar	B-NP	JJ	O	8	NMOD	0
+8	effects	effect	I-NP	NNS	O	6	OBJ	0
+9	,	,	O	,	O	6	P	0
+10	with	with	B-PP	IN	O	6	VMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	number	number	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	RBC-containing	RBC-containing	B-NP	JJ	B-protein	15	NMOD	0
+15	vessels	vessel	I-NP	NNS	I-protein	13	PMOD	0
+16	per	per	B-PP	IN	O	12	NMOD	0
+17	20x	20x	B-NP	NN	O	18	NMOD	0
+18	field	field	I-NP	NN	O	16	PMOD	0
+19	decreased	decrease	B-VP	VBD	O	6	VMOD	0
+20	to	to	B-PP	TO	O	19	VMOD	0
+21	a	a	B-NP	DT	O	22	NMOD	0
+22	third	third	I-NP	JJ	O	20	PMOD	0
+23	of	of	B-PP	IN	O	19	VMOD	0
+24	that	that	B-NP	DT	O	23	PMOD	0
+25	seen	see	B-VP	VBN	O	24	NMOD	0
+26	in	in	B-PP	IN	O	25	VMOD	0
+27	control	control	B-NP	NN	O	26	PMOD	0
+28	.	.	O	.	O	6	P	0
+
+1	Dietary	Dietary	B-NP	JJ	O	2	NMOD	0
+2	CLA	CLA	I-NP	NN	O	3	SUB	0
+3	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+4	serum	serum	B-NP	NN	O	5	NMOD	0
+5	levels	level	I-NP	NNS	O	3	OBJ	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	vascular	vascular	B-NP	JJ	B-protein	10	NMOD	0
+8	endothelial	endothelial	I-NP	JJ	I-protein	10	NMOD	0
+9	growth	growth	I-NP	NN	I-protein	10	NMOD	0
+10	factor	factor	I-NP	NN	I-protein	18	NMOD	0
+11	(	(	O	(	O	13	DEP	0
+12	VEGF	VEGF	B-NP	NN	B-protein	13	DEP	0
+13	)	)	O	)	O	10	NMOD	0
+14	and	and	O	CC	O	18	NMOD	0
+15	whole	whole	B-NP	JJ	O	18	NMOD	0
+16	mammary	mammary	I-NP	JJ	O	18	NMOD	0
+17	gland	gland	I-NP	NN	O	18	NMOD	0
+18	levels	level	I-NP	NNS	O	6	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	VEGF	VEGF	B-NP	NN	B-protein	24	NMOD	0
+21	and	and	O	CC	O	24	NMOD	0
+22	its	its	B-NP	PRP$	O	24	NMOD	0
+23	receptor	receptor	I-NP	NN	O	24	NMOD	0
+24	Flk-1	Flk-1	I-NP	NN	B-protein	19	PMOD	0
+25	.	.	O	.	O	3	P	0
+
+1	Both	Both	B-NP	DT	O	10	NMOD	0
+2	cis-9	cis-9	I-NP	NN	B-DNA	10	NMOD	0
+3	,	,	I-NP	,	O	10	P	0
+4	trans-11	trans-11	I-NP	NN	B-protein	6	NMOD	0
+5	and	and	I-NP	CC	O	6	NMOD	0
+6	trans-10	trans-10	I-NP	NN	B-protein	10	NMOD	0
+7	,	,	O	,	O	10	P	0
+8	cis-12	cis-12	B-NP	JJ	B-protein	10	NMOD	0
+9	CLA	CLA	I-NP	NN	I-protein	10	NMOD	0
+10	isomers	isomer	I-NP	NNS	I-protein	11	SUB	0
+11	were	be	B-VP	VBD	O	0	ROOT	0
+12	effective	effective	B-ADJP	JJ	O	11	PRD	16	effective
+13	in	in	B-PP	IN	O	12	AMOD	0
+14	inhibiting	inhibit	B-VP	VBG	O	13	PMOD	18	inhibiting
+15	angiogenesis	angiogenesis	B-NP	NN	O	14	OBJ	3	angiogenesis
+16	in	in	B-ADVP	FW	O	14	VMOD	0
+17	vitro	vitro	I-ADVP	FW	O	16	AMOD	0
+18	in	in	B-PP	IN	O	14	VMOD	0
+19	a	a	B-NP	DT	O	21	NMOD	0
+20	dose-dependent	dose-dependent	I-NP	JJ	O	21	NMOD	0
+21	fashion	fashion	I-NP	NN	O	18	PMOD	0
+22	.	.	O	.	O	11	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	ability	ability	I-NP	NN	O	8	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	CLA	CLA	B-NP	NN	B-protein	3	PMOD	0
+5	to	to	B-VP	TO	O	6	VMOD	0
+6	inhibit	inhibit	I-VP	VB	O	2	NMOD	18	inhibit
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	OBJ	3	angiogenesis
+8	may	may	B-VP	MD	O	0	ROOT	0
+9	contribute	contribute	I-VP	VB	O	8	VC	0
+10	to	to	B-PP	TO	O	9	VMOD	0
+11	its	its	B-NP	PRP$	O	12	NMOD	0
+12	efficacy	efficacy	I-NP	NN	O	10	PMOD	0
+13	as	as	B-PP	IN	O	9	VMOD	0
+14	a	a	B-NP	DT	O	16	NMOD	0
+15	chemopreventive	chemopreventive	I-NP	JJ	O	16	NMOD	0
+16	agent	agent	I-NP	NN	O	13	PMOD	0
+17	.	.	O	.	O	8	P	0
+

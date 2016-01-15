@@ -1,0 +1,427 @@
+1	VEGF165	VEGF165	B-NP	NN	B-protein	9	SUB	0
+2	expressed	express	B-VP	VBN	O	1	NMOD	9	expressed
+3	by	by	B-PP	IN	O	2	VMOD	0
+4	a	a	B-NP	DT	O	8	NMOD	0
+5	replication-deficient	replication-deficient	I-NP	JJ	O	8	NMOD	0
+6	recombinant	recombinant	I-NP	JJ	O	8	NMOD	0
+7	adenovirus	adenovirus	I-NP	NN	O	8	NMOD	0
+8	vector	vector	I-NP	NN	O	3	PMOD	0
+9	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	OBJ	3	angiogenesis
+11	in	in	B-ADVP	FW	O	9	VMOD	0
+12	vivo	vivo	I-ADVP	FW	O	11	AMOD	0
+13	.	.	O	.	O	9	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	evaluate	evaluate	I-VP	VB	O	0	ROOT	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	concept	concept	I-NP	NN	O	2	OBJ	0
+5	that	that	B-SBAR	IN	O	4	NMOD	0
+6	localized	localize	B-NP	VBN	O	7	NMOD	0
+7	delivery	delivery	I-NP	NN	O	15	SUB	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	angiogenic	angiogenic	B-NP	JJ	B-protein	10	NMOD	3	angiogenic
+10	factors	factor	I-NP	NNS	I-protein	8	PMOD	0
+11	via	via	B-PP	IN	O	7	NMOD	0
+12	virus-mediated	virus-mediated	B-NP	JJ	O	14	NMOD	0
+13	gene	gene	I-NP	NN	O	14	NMOD	0
+14	transfer	transfer	I-NP	NN	O	11	PMOD	0
+15	may	may	B-VP	MD	O	5	SBAR	0
+16	be	be	I-VP	VB	O	15	VC	0
+17	useful	useful	B-ADJP	JJ	O	16	PRD	0
+18	in	in	B-PP	IN	O	17	AMOD	0
+19	the	the	B-NP	DT	O	20	NMOD	0
+20	treatment	treatment	I-NP	NN	O	18	PMOD	0
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	ischemic	ischemic	B-NP	JJ	O	23	NMOD	0
+23	disorders	disorder	I-NP	NNS	O	21	PMOD	0
+24	,	,	O	,	O	2	VMOD	0
+25	the	the	B-NP	DT	O	27	NMOD	0
+26	replication-deficient	replication-deficient	I-NP	JJ	O	27	NMOD	0
+27	adenovirus	adenovirus	I-NP	NN	O	32	NMOD	0
+28	(	(	O	(	O	30	DEP	0
+29	Ad	Ad	B-NP	NN	O	30	DEP	0
+30	)	)	O	)	O	27	NMOD	0
+31	vector	vector	B-NP	NN	O	32	NMOD	0
+32	AdCMV.VEGF165	AdCMV.VEGF165	I-NP	NN	O	24	PMOD	0
+33	(	(	O	(	O	32	NMOD	0
+34	where	where	B-ADVP	WRB	O	61	VMOD	0
+35	CMV	CMV	B-NP	NN	O	36	SUB	0
+36	is	be	B-VP	VBZ	O	34	SBAR	0
+37	cytomegalovirus	cytomegalovirus	B-NP	NN	O	39	NMOD	0
+38	and	and	I-NP	CC	O	39	NMOD	0
+39	VEGF	VEGF	I-NP	NN	B-protein	36	PRD	0
+40	is	be	B-VP	VBZ	O	61	VMOD	0
+41	vascular	vascular	B-NP	JJ	O	44	NMOD	0
+42	endothelial	endothelial	I-NP	JJ	O	44	NMOD	0
+43	growth	growth	I-NP	NN	O	44	NMOD	0
+44	factor	factor	I-NP	NN	O	61	SUB	0
+45	)	)	O	)	O	44	NMOD	0
+46	containing	contain	B-VP	VBG	O	61	VMOD	0
+47	the	the	B-NP	DT	O	48	NMOD	0
+48	cDNA	cDNA	I-NP	NN	B-DNA	46	OBJ	0
+49	for	for	B-PP	IN	O	46	VMOD	0
+50	human	human	B-NP	JJ	B-protein	51	NMOD	0
+51	VEGF165	VEGF165	I-NP	NN	I-protein	49	PMOD	0
+52	,	,	O	,	O	61	P	0
+53	a	a	B-NP	DT	O	59	NMOD	0
+54	secreted	secrete	I-NP	VBN	O	59	NMOD	0
+55	endothelial	endothelial	I-NP	JJ	B-protein	59	NMOD	0
+56	cell-specific	cell-specific	I-NP	JJ	I-protein	59	NMOD	0
+57	angiogenic	angiogenic	I-NP	JJ	I-protein	59	NMOD	3	angiogenic
+58	growth	growth	I-NP	NN	I-protein	59	NMOD	0
+59	factor	factor	I-NP	NN	I-protein	61	SUB	0
+60	,	,	O	,	O	59	P	0
+61	was	be	B-VP	VBD	O	33	SBAR	0
+62	constructed	construct	I-VP	VBN	O	61	VC	0
+63	.	.	O	.	O	2	P	0
+
+1	Human	Human	B-NP	JJ	B-cell_line	5	NMOD	0
+2	umbilical	umbilical	I-NP	JJ	I-cell_line	5	NMOD	0
+3	vein	vein	I-NP	NN	I-cell_line	5	NMOD	0
+4	endothelial	endothelial	I-NP	JJ	I-cell_line	5	NMOD	0
+5	cells	cell	I-NP	NNS	I-cell_line	14	NMOD	0
+6	(	(	O	(	O	8	DEP	0
+7	HUVECs	HUVEC	B-NP	NNS	B-cell_line	8	DEP	0
+8	)	)	O	)	O	5	NMOD	0
+9	and	and	O	CC	O	14	NMOD	0
+10	rat	rat	B-NP	NN	B-cell_type	14	NMOD	0
+11	aorta	aorta	I-NP	NN	I-cell_type	14	NMOD	0
+12	smooth	smooth	I-NP	JJ	I-cell_type	14	NMOD	0
+13	muscle	muscle	I-NP	NN	I-cell_type	14	NMOD	0
+14	cells	cell	I-NP	NNS	I-cell_type	33	SUB	0
+15	(	(	O	(	O	17	DEP	0
+16	RASMCs	RASMC	B-NP	NNS	B-cell_type	17	DEP	0
+17	)	)	O	)	O	14	NMOD	0
+18	infected	infect	B-VP	VBN	O	14	NMOD	19	infected
+19	with	with	B-PP	IN	O	18	VMOD	0
+20	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	26	NMOD	0
+21	(	(	O	(	O	26	NMOD	0
+22	5	5	B-NP	CD	O	24	AMOD	0
+23	and	and	I-NP	CC	O	24	AMOD	0
+24	20	20	I-NP	CD	O	26	NMOD	0
+25	plaque-forming	plaque-forming	I-NP	JJ	O	26	NMOD	0
+26	units	unit	I-NP	NNS	O	19	PMOD	0
+27	[	[	O	(	O	29	DEP	0
+28	pfu	pfu	B-NP	NN	O	29	DEP	0
+29	]	]	O	)	O	14	NMOD	0
+30	per	per	B-PP	IN	O	14	NMOD	0
+31	cell	cell	B-NP	NN	O	30	PMOD	0
+32	)	)	O	)	O	14	NMOD	0
+33	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	0
+34	VEGF	VEGF	B-NP	NN	B-RNA	36	NMOD	0
+35	mRNA	mRNA	I-NP	NN	I-RNA	36	NMOD	0
+36	expression	expression	I-NP	NN	O	39	NMOD	10	expression
+37	and	and	O	CC	O	39	NMOD	0
+38	protein	protein	B-NP	NN	O	39	NMOD	0
+39	secretion	secretion	I-NP	NN	O	33	OBJ	14	secretion
+40	into	into	B-PP	IN	O	39	NMOD	0
+41	the	the	B-NP	DT	O	42	NMOD	0
+42	supernatant	supernatant	I-NP	NN	O	40	PMOD	0
+43	.	.	O	.	O	33	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	9	VMOD	0
+2	,	,	O	,	O	9	P	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	conditioned	condition	I-NP	VBN	O	5	NMOD	0
+5	medium	medium	I-NP	NN	O	9	SUB	0
+6	from	from	B-PP	IN	O	5	NMOD	0
+7	these	these	B-NP	DT	O	8	NMOD	0
+8	cells	cell	I-NP	NNS	O	6	PMOD	0
+9	enhanced	enhance	B-VP	VBD	O	0	ROOT	17	enhanced
+10	vascular	vascular	B-NP	JJ	O	11	NMOD	0
+11	permeability	permeability	I-NP	NN	O	9	OBJ	0
+12	in	in	B-ADVP	FW	O	9	VMOD	0
+13	vivo	vivo	I-ADVP	FW	O	12	AMOD	0
+14	.	.	O	.	O	9	P	0
+
+1	In	In	B-PP	IN	O	10	VMOD	0
+2	contrast	contrast	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	10	P	0
+4	neither	neither	O	CC	O	9	NMOD	0
+5	VEGF	VEGF	B-NP	NN	B-RNA	6	NMOD	0
+6	mRNA	mRNA	I-NP	NN	I-RNA	9	NMOD	0
+7	nor	nor	O	CC	O	9	NMOD	0
+8	secreted	secrete	B-NP	VBN	O	9	NMOD	14	secreted
+9	protein	protein	I-NP	NN	O	10	SUB	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	found	find	I-VP	VBN	O	10	VC	0
+12	in	in	B-PP	IN	O	11	VMOD	0
+13	uninfected	uninfected	B-NP	JJ	B-cell_line	14	NMOD	19	uninfected
+14	HUVECs	HUVEC	I-NP	NNS	I-cell_line	16	NMOD	0
+15	or	or	I-NP	CC	O	16	NMOD	0
+16	RASMCs	RASMC	I-NP	NNS	B-cell_type	12	PMOD	0
+17	or	or	B-PP	CC	O	12	PMOD	0
+18	in	in	B-PP	IN	O	12	PMOD	0
+19	cells	cell	B-NP	NNS	O	18	PMOD	0
+20	infected	infect	B-VP	VBN	O	19	NMOD	19	infected
+21	with	with	B-PP	IN	O	20	VMOD	0
+22	the	the	B-NP	DT	O	25	NMOD	0
+23	control	control	I-NP	NN	O	25	NMOD	0
+24	vector	vector	I-NP	NN	O	25	NMOD	0
+25	AdCMV.beta	AdCMV.beta	I-NP	NN	O	21	PMOD	0
+26	gal	gal	B-ADJP	JJ	O	25	NMOD	0
+27	(	(	O	(	O	33	DEP	0
+28	where	where	B-ADVP	WRB	O	33	DEP	0
+29	beta	beta	B-NP	NN	B-protein	30	NMOD	0
+30	gal	gal	I-NP	NN	I-protein	31	SUB	0
+31	is	be	B-VP	VBZ	O	28	SBAR	0
+32	beta-galactosidase	beta-galactosidase	B-NP	NN	B-protein	31	PRD	0
+33	)	)	O	)	O	26	AMOD	0
+34	.	.	O	.	O	10	P	0
+
+1	Assessment	Assessment	B-NP	NN	O	8	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	starved	starve	B-NP	VBN	O	4	NMOD	0
+4	HUVECs	HUVEC	I-NP	NNS	B-cell_line	2	PMOD	0
+5	at	at	B-PP	IN	O	1	NMOD	0
+6	14	14	B-NP	CD	O	7	NMOD	0
+7	days	day	I-NP	NNS	O	5	PMOD	0
+8	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	0
+9	sixfold	sixfold	B-NP	RB	O	10	AMOD	0
+10	more	more	I-NP	JJR	O	11	NMOD	0
+11	cells	cell	I-NP	NNS	O	8	OBJ	0
+12	for	for	B-PP	IN	O	11	NMOD	0
+13	AdCMV.VEGF165-infected	AdCMV.VEGF165-infected	B-NP	JJ	B-cell_line	14	NMOD	19	infected
+14	HUVECs	HUVEC	I-NP	NNS	I-cell_line	12	PMOD	0
+15	(	(	O	(	O	20	DEP	0
+16	20	20	B-NP	CD	O	17	NMOD	0
+17	pfu	pfu	I-NP	NN	O	20	DEP	0
+18	per	per	B-PP	IN	O	17	NMOD	0
+19	cell	cell	B-NP	NN	O	18	PMOD	0
+20	)	)	O	)	O	11	NMOD	0
+21	than	than	B-PP	IN	O	11	NMOD	0
+22	for	for	B-PP	IN	O	21	PMOD	0
+23	either	either	B-NP	CC	O	28	NMOD	0
+24	infected	infected	I-NP	JJ	O	28	NMOD	19	infected
+25	or	or	I-NP	CC	O	28	NMOD	0
+26	uninfected	uninfected	I-NP	JJ	B-cell_type	28	NMOD	19	uninfected
+27	control	control	I-NP	NN	I-cell_type	28	NMOD	0
+28	cells	cell	I-NP	NNS	I-cell_type	22	PMOD	0
+29	.	.	O	.	O	8	P	0
+
+1	RASMC	RASMC	B-NP	NN	O	2	NMOD	0
+2	proliferation	proliferation	I-NP	NN	O	3	SUB	1	proliferation
+3	was	be	B-VP	VBD	O	0	ROOT	0
+4	unaffected	unaffected	B-ADJP	JJ	O	3	VC	16	unaffected
+5	by	by	B-PP	IN	O	4	VMOD	0
+6	infection	infection	B-NP	NN	O	5	PMOD	19	infection
+7	with	with	B-PP	IN	O	6	NMOD	0
+8	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	7	PMOD	0
+9	.	.	O	.	O	3	P	0
+
+1	When	When	B-ADVP	WRB	O	0	ROOT	0
+2	plated	plat	B-VP	VBN	O	1	SBAR	19	plated
+3	in	in	B-PP	IN	O	2	VMOD	0
+4	2	2	B-NP	CD	O	5	AMOD	0
+5	%	%	I-NP	NN	O	6	NMOD	0
+6	serum	serum	I-NP	NN	O	3	PMOD	0
+7	on	on	B-PP	IN	O	2	VMOD	0
+8	dishes	dish	B-NP	NNS	O	7	PMOD	0
+9	precoated	precoate	B-VP	VBN	O	8	NMOD	0
+10	with	with	B-PP	IN	O	9	VMOD	0
+11	reconstituted	reconstitute	B-NP	VBN	O	13	NMOD	0
+12	basement	basement	I-NP	NN	O	13	NMOD	0
+13	membrane	membrane	I-NP	NN	O	10	PMOD	0
+14	(	(	O	(	O	16	DEP	0
+15	Matrigel	Matrigel	B-NP	NN	O	16	DEP	0
+16	)	)	O	)	O	13	NMOD	0
+17	,	,	O	,	O	1	P	0
+18	HUVECs	HUVEC	B-NP	NNS	B-cell_line	17	NMOD	0
+19	infected	infect	B-VP	VBN	O	18	NMOD	19	infected
+20	with	with	B-PP	IN	O	19	VMOD	0
+21	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	20	PMOD	0
+22	(	(	O	(	O	27	DEP	0
+23	20	20	B-NP	CD	O	24	NMOD	0
+24	pfu	pfu	I-NP	NN	O	27	DEP	0
+25	per	per	B-PP	IN	O	24	NMOD	0
+26	cell	cell	B-NP	NN	O	25	PMOD	0
+27	)	)	O	)	O	21	NMOD	0
+28	differentiated	differentiate	B-VP	VBN	O	21	NMOD	2	differentiated
+29	into	into	B-PP	IN	O	28	VMOD	0
+30	capillary-like	capillary-like	B-NP	JJ	B-cell_line	31	NMOD	0
+31	structures	structure	I-NP	NNS	I-cell_line	29	PMOD	0
+32	.	.	O	.	O	18	P	0
+
+1	Under	Under	B-PP	IN	O	14	VMOD	0
+2	similar	similar	B-NP	JJ	O	3	NMOD	0
+3	conditions	condition	I-NP	NNS	O	1	PMOD	0
+4	,	,	O	,	O	14	P	0
+5	both	both	B-NP	DT	O	9	NMOD	0
+6	uninfected	uninfected	I-NP	JJ	B-cell_line	7	NMOD	19	uninfected
+7	HUVECs	HUVEC	I-NP	NNS	I-cell_line	9	NMOD	0
+8	and	and	I-NP	CC	O	9	NMOD	0
+9	HUVECs	HUVEC	I-NP	NNS	B-cell_line	14	SUB	0
+10	infected	infect	B-VP	VBN	O	9	NMOD	19	infected
+11	with	with	B-PP	IN	O	10	VMOD	0
+12	AdCMV.beta	AdCMV.beta	B-NP	NN	O	13	NMOD	0
+13	gal	gal	I-NP	NN	O	11	PMOD	0
+14	did	do	B-VP	VBD	O	0	ROOT	0
+15	not	not	I-VP	RB	O	14	VMOD	0
+16	differentiate	differentiate	I-VP	VB	O	14	VC	2	differentiate
+17	.	.	O	.	O	14	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	evaluate	evaluate	I-VP	VB	O	0	ROOT	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	ability	ability	I-NP	NN	O	2	OBJ	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	5	PMOD	0
+7	to	to	B-VP	TO	O	8	VMOD	0
+8	function	function	I-VP	VB	O	4	NMOD	0
+9	in	in	B-ADVP	FW	O	8	VMOD	0
+10	vivo	vivo	I-ADVP	FW	O	9	AMOD	0
+11	,	,	O	,	O	13	P	0
+12	either	either	B-NP	DT	O	13	NMOD	0
+13	AdCMV	AdCMV	I-NP	NN	O	2	VMOD	0
+14	.	.	O	.	O	2	P	0
+
+1	VEGF165	VEGF165	B-NP	NN	B-protein	14	SUB	0
+2	or	or	I-NP	CC	O	14	VMOD	0
+3	AdCMV.beta	AdCMV.beta	I-NP	NN	O	4	NMOD	0
+4	gal	gal	I-NP	JJ	O	14	SUB	0
+5	(	(	O	(	O	13	DEP	0
+6	2	2	B-NP	CD	O	8	NMOD	0
+7	x	x	I-NP	CC	O	8	NMOD	0
+8	10	10	I-NP	CD	O	12	NMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	10	10	B-NP	CD	O	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	pfu	pfu	B-NP	NN	O	13	DEP	0
+13	)	)	O	)	O	4	NMOD	0
+14	was	be	B-VP	VBD	O	0	ROOT	0
+15	resuspended	resuspend	I-VP	VBN	O	14	VC	19	resuspended
+16	in	in	B-PP	IN	O	15	VMOD	0
+17	0.5	0.5	B-NP	CD	O	19	NMOD	0
+18	mL	mL	I-NP	NN	O	19	NMOD	0
+19	Matrigel	Matrigel	I-NP	NNP	O	16	PMOD	0
+20	and	and	O	CC	O	19	NMOD	0
+21	injected	inject	B-VP	VBN	O	20	SBAR	19	injected
+22	subcutaneously	subcutaneously	B-ADVP	RB	O	21	VMOD	0
+23	into	into	B-PP	IN	O	21	VMOD	0
+24	mice	mouse	B-NP	NNS	O	23	PMOD	0
+25	.	.	O	.	O	14	P	0
+
+1	Immunohistochemical	Immunohistochemical	B-NP	JJ	O	2	NMOD	0
+2	staining	staining	I-NP	NN	O	3	SUB	0
+3	demonstrated	demonstrate	B-VP	VBD	O	21	VMOD	0
+4	VEGF	VEGF	B-NP	NN	B-protein	3	OBJ	0
+5	in	in	B-PP	IN	O	4	NMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	tissues	tissue	I-NP	NNS	O	5	PMOD	0
+8	surrounding	surround	B-VP	VBG	O	7	NMOD	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	Matrigel	Matrigel	I-NP	NNP	O	11	NMOD	0
+11	plugs	plug	I-NP	NNS	O	8	OBJ	0
+12	containing	contain	B-VP	VBG	O	11	NMOD	0
+13	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	17	NMOD	0
+14	up	up	B-NP	IN	O	17	NMOD	0
+15	to	to	I-NP	TO	O	14	AMOD	0
+16	3	3	I-NP	CD	O	14	AMOD	0
+17	weeks	week	I-NP	NNS	O	12	OBJ	0
+18	after	after	B-PP	IN	O	12	VMOD	0
+19	injection	injection	B-NP	NN	O	18	PMOD	19	injection
+20	,	,	O	,	O	21	P	0
+21	whereas	whereas	O	IN	O	0	ROOT	0
+22	no	no	B-NP	DT	O	23	NMOD	0
+23	VEGF	VEGF	I-NP	NN	B-protein	24	SUB	0
+24	was	be	B-VP	VBD	O	21	VMOD	0
+25	found	find	I-VP	VBN	O	24	VC	0
+26	in	in	B-PP	IN	O	25	VMOD	0
+27	the	the	B-NP	DT	O	29	NMOD	0
+28	control	control	I-NP	NN	O	29	NMOD	0
+29	plugs	plug	I-NP	NNS	O	26	PMOD	0
+30	with	with	B-PP	IN	O	29	NMOD	0
+31	AdCMV.beta	AdCMV.beta	B-NP	NN	B-protein	32	NMOD	0
+32	gal	gal	I-NP	NN	I-protein	30	PMOD	0
+33	.	.	O	.	O	21	P	0
+
+1	Two	Two	B-NP	CD	O	2	NMOD	0
+2	weeks	week	I-NP	NNS	O	3	PMOD	0
+3	after	after	B-PP	IN	O	7	VMOD	0
+4	injection	injection	B-NP	NN	O	3	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	there	there	B-NP	EX	O	7	SUB	0
+7	was	be	B-VP	VBD	O	21	VMOD	0
+8	histological	histological	B-NP	JJ	O	9	NMOD	0
+9	evidence	evidence	I-NP	NN	O	7	PRD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	neovascularization	neovascularization	B-NP	NN	O	10	PMOD	3	neovascularization
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	tissues	tissue	I-NP	NNS	O	12	PMOD	0
+15	surrounding	surround	B-VP	VBG	O	14	NMOD	0
+16	the	the	B-NP	DT	O	17	NMOD	0
+17	Matrigel	Matrigel	I-NP	NNP	O	15	OBJ	0
+18	containing	contain	B-VP	VBG	O	17	NMOD	0
+19	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	18	OBJ	0
+20	,	,	O	,	O	21	P	0
+21	whereas	whereas	O	IN	O	0	ROOT	0
+22	no	no	B-NP	DT	O	24	NMOD	0
+23	significant	significant	I-NP	JJ	O	24	NMOD	0
+24	angiogenesis	angiogenesis	I-NP	NN	O	25	SUB	3	angiogenesis
+25	was	be	B-VP	VBD	O	21	VMOD	0
+26	observed	observe	I-VP	VBN	O	25	VC	0
+27	in	in	B-PP	IN	O	26	VMOD	0
+28	response	response	B-NP	NN	O	27	PMOD	16	response
+29	to	to	B-PP	TO	O	28	NMOD	0
+30	AdCMV.beta	AdCMV.beta	B-NP	NN	B-protein	31	NMOD	0
+31	gal	gal	I-NP	NN	I-protein	29	PMOD	0
+32	.	.	O	.	O	21	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	8	VMOD	0
+2	,	,	O	,	O	8	P	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	Matrigel	Matrigel	I-NP	NNP	O	5	NMOD	0
+5	plugs	plug	I-NP	NNS	O	8	SUB	0
+6	with	with	B-PP	IN	O	5	NMOD	0
+7	AdCMV.VEGF165	AdCMV.VEGF165	B-NP	NN	O	6	PMOD	0
+8	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	0
+9	hemoglobin	hemoglobin	B-NP	NN	B-protein	10	NMOD	0
+10	content	content	I-NP	NN	O	12	AMOD	0
+11	fourfold	fourfold	B-ADJP	RB	O	12	AMOD	0
+12	higher	high	I-ADJP	JJR	O	8	OBJ	0
+13	than	than	B-PP	IN	O	12	AMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	plugs	plug	I-NP	NNS	O	13	PMOD	0
+16	with	with	B-PP	IN	O	15	NMOD	0
+17	AdCMV.beta	AdCMV.beta	B-NP	NN	B-protein	18	NMOD	0
+18	gal	gal	I-NP	NN	I-protein	16	PMOD	0
+19	.	.	O	.	O	8	P	0
+
+1	Together	Together	B-ADVP	RB	O	10	VMOD	0
+2	,	,	O	,	O	10	P	0
+3	these	these	B-NP	DT	O	9	NMOD	0
+4	in	in	I-NP	FW	O	5	AMOD	0
+5	vitro	vitro	I-NP	FW	O	9	NMOD	0
+6	and	and	O	CC	O	9	NMOD	0
+7	in	in	B-NP	FW	O	8	AMOD	0
+8	vivo	vivo	I-NP	FW	O	9	NMOD	0
+9	studies	study	I-NP	NNS	O	10	SUB	0
+10	are	be	B-VP	VBP	O	0	ROOT	0
+11	consistent	consistent	B-ADJP	JJ	O	10	PRD	0
+12	with	with	B-PP	IN	O	11	AMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	concept	concept	I-NP	NN	O	12	PMOD	0
+15	that	that	B-SBAR	IN	O	14	NMOD	0
+16	Ad	Ad	B-NP	NN	O	17	NMOD	0
+17	vectors	vector	I-NP	NNS	O	18	SUB	0
+18	may	may	B-VP	MD	O	15	SBAR	0
+19	provide	provide	I-VP	VB	O	18	VC	0
+20	a	a	B-NP	DT	O	22	NMOD	0
+21	useful	useful	I-NP	JJ	O	22	NMOD	0
+22	strategy	strategy	I-NP	NN	O	19	OBJ	0
+23	for	for	B-PP	IN	O	22	NMOD	0
+24	efficient	efficient	B-NP	JJ	O	26	NMOD	0
+25	local	local	I-NP	JJ	O	26	NMOD	0
+26	delivery	delivery	I-NP	NN	O	23	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	VEGF165	VEGF165	B-NP	NN	B-protein	27	PMOD	0
+29	in	in	B-PP	IN	O	22	NMOD	0
+30	the	the	B-NP	DT	O	31	NMOD	0
+31	treatment	treatment	I-NP	NN	O	29	PMOD	0
+32	of	of	B-PP	IN	O	31	NMOD	0
+33	ischemic	ischemic	B-NP	JJ	O	34	NMOD	0
+34	diseases	disease	I-NP	NNS	O	32	PMOD	0
+35	.	.	O	.	O	10	P	0
+

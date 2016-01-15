@@ -1,0 +1,181 @@
+1	Pericytes	Pericyte	B-NP	NNS	O	2	SUB	0
+2	limit	limit	B-VP	VBP	O	0	ROOT	18	limit
+3	tumor	tumor	B-NP	NN	O	5	NMOD	0
+4	cell	cell	I-NP	NN	O	5	NMOD	0
+5	metastasis	metastasis	I-NP	NN	O	2	OBJ	14	metastasis
+6	.	.	O	.	O	2	P	0
+
+1	Previously	Previously	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	observed	observe	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	neural	neural	B-NP	JJ	B-protein	8	NMOD	0
+6	cell	cell	I-NP	NN	I-protein	8	NMOD	0
+7	adhesion	adhesion	I-NP	NN	I-protein	8	NMOD	0
+8	molecule	molecule	I-NP	NN	I-protein	12	NMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	NCAM	NCAM	B-NP	NN	B-protein	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	deficiency	deficiency	B-NP	NN	O	17	SUB	9	deficiency
+13	in	in	B-PP	IN	O	12	NMOD	0
+14	beta	beta	B-NP	SYM	B-cell_type	16	NMOD	0
+15	tumor	tumor	I-NP	NN	I-cell_type	16	NMOD	0
+16	cells	cell	I-NP	NNS	I-cell_type	13	PMOD	0
+17	facilitates	facilitate	B-VP	VBZ	O	4	SBAR	17	facilitates
+18	metastasis	metastasis	B-NP	NN	O	17	OBJ	14	metastasis
+19	into	into	B-PP	IN	O	18	NMOD	0
+20	distant	distant	B-NP	JJ	O	21	NMOD	0
+21	organs	organ	I-NP	NNS	O	25	NMOD	0
+22	and	and	O	CC	O	25	NMOD	0
+23	local	local	B-NP	JJ	O	25	NMOD	0
+24	lymph	lymph	I-NP	NN	O	25	NMOD	0
+25	nodes	node	I-NP	NNS	O	19	PMOD	0
+26	.	.	O	.	O	3	P	0
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	show	show	B-VP	VBP	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	NCAM-deficient	NCAM-deficient	B-NP	JJ	O	9	NMOD	0
+7	beta	beta	I-NP	SYM	O	9	NMOD	0
+8	cell	cell	I-NP	NN	O	9	NMOD	0
+9	tumors	tumor	I-NP	NNS	O	10	SUB	0
+10	grew	grow	B-VP	VBD	O	5	SBAR	2	grew
+11	leaky	leaky	B-NP	JJ	O	13	NMOD	0
+12	blood	blood	I-NP	NN	O	13	NMOD	0
+13	vessels	vessel	I-NP	NNS	O	10	OBJ	0
+14	with	with	B-PP	IN	O	13	NMOD	0
+15	perturbed	perturb	B-NP	VBN	O	18	NMOD	0
+16	pericyte-endothelial	pericyte-endothelial	I-NP	JJ	O	18	NMOD	0
+17	cell-cell	cell-cell	I-NP	JJ	O	18	NMOD	0
+18	interactions	interaction	I-NP	NNS	O	22	NMOD	0
+19	and	and	O	CC	O	22	NMOD	0
+20	deficient	deficient	B-NP	JJ	O	22	NMOD	0
+21	perivascular	perivascular	I-NP	JJ	O	22	NMOD	0
+22	deposition	deposition	I-NP	NN	O	14	PMOD	14	deposition
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	ECM	ECM	B-NP	NN	B-protein	25	NMOD	0
+25	components	component	I-NP	NNS	I-protein	23	PMOD	0
+26	.	.	O	.	O	4	P	0
+
+1	Conversely	Conversely	B-ADVP	RB	O	15	VMOD	0
+2	,	,	O	,	O	15	P	0
+3	tumor	tumor	B-NP	NN	O	5	NMOD	0
+4	cell	cell	I-NP	NN	O	5	NMOD	0
+5	expression	expression	I-NP	NN	O	15	SUB	9	expression
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	NCAM	NCAM	B-NP	NN	B-protein	6	PMOD	0
+8	in	in	B-PP	IN	O	5	NMOD	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	fibrosarcoma	fibrosarcoma	I-NP	NN	O	11	NMOD	0
+11	model	model	I-NP	NN	O	8	PMOD	0
+12	(	(	O	(	O	14	DEP	0
+13	T241	T241	B-NP	NN	O	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	improved	improve	B-VP	VBD	O	0	ROOT	17	improved
+16	pericyte	pericyte	B-NP	NN	O	17	NMOD	0
+17	recruitment	recruitment	I-NP	NN	O	15	OBJ	14	recruitment
+18	and	and	O	CC	O	15	VMOD	0
+19	increased	increase	B-VP	VBD	O	15	VMOD	17	increased
+20	perivascular	perivascular	B-NP	JJ	O	21	NMOD	0
+21	deposition	deposition	I-NP	NN	O	19	OBJ	14	deposition
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	ECM	ECM	B-NP	NN	B-protein	24	NMOD	0
+24	molecules	molecule	I-NP	NNS	I-protein	22	PMOD	0
+25	.	.	O	.	O	15	P	0
+
+1	Together	Together	B-ADVP	RB	O	5	VMOD	0
+2	,	,	O	,	O	5	P	0
+3	these	these	B-NP	DT	O	4	NMOD	0
+4	findings	finding	I-NP	NNS	O	5	SUB	0
+5	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	NCAM	NCAM	B-NP	NN	B-protein	8	SUB	0
+8	may	may	B-VP	MD	O	6	SBAR	0
+9	limit	limit	I-VP	VB	O	8	VC	18	limit
+10	tumor	tumor	B-NP	NN	O	12	NMOD	0
+11	cell	cell	I-NP	NN	O	12	NMOD	0
+12	metastasis	metastasis	I-NP	NN	O	9	OBJ	14	metastasis
+13	by	by	B-PP	IN	O	9	VMOD	0
+14	stabilizing	stabilize	B-VP	VBG	O	13	PMOD	17	stabilizing
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	microvessel	microvessel	I-NP	NN	O	17	NMOD	0
+17	wall	wall	I-NP	NN	O	14	OBJ	0
+18	.	.	O	.	O	5	P	0
+
+1	To	To	B-VP	TO	O	3	VMOD	0
+2	directly	directly	I-VP	RB	O	3	VMOD	0
+3	address	address	I-VP	VB	O	16	VMOD	0
+4	whether	whether	B-SBAR	IN	O	3	VMOD	0
+5	pericyte	pericyte	B-NP	NN	O	6	NMOD	0
+6	dysfunction	dysfunction	I-NP	NN	O	7	SUB	5	dysfunction
+7	increases	increase	B-VP	VBZ	O	4	SBAR	17	increases
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	metastatic	metastatic	I-NP	JJ	O	10	NMOD	14	metastatic
+10	potential	potential	I-NP	NN	O	7	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	solid	solid	B-NP	JJ	O	13	NMOD	0
+13	tumors	tumor	I-NP	NNS	O	11	PMOD	0
+14	,	,	O	,	O	16	P	0
+15	we	we	B-NP	PRP	O	16	SUB	0
+16	studied	study	B-VP	VBD	O	0	ROOT	0
+17	beta	beta	B-NP	NN	O	19	NMOD	0
+18	cell	cell	I-NP	NN	O	19	NMOD	0
+19	tumorigenesis	tumorigenesis	I-NP	NN	O	16	OBJ	0
+20	in	in	B-PP	IN	O	19	NMOD	0
+21	primary	primary	B-NP	JJ	O	23	NMOD	0
+22	pericyte-deficient	pericyte-deficient	I-NP	JJ	O	23	NMOD	0
+23	Pdgfb	Pdgfb	I-NP	NN	O	27	NMOD	0
+24	(	(	O	(	O	26	DEP	0
+25	ret/ret	ret/ret	B-NP	NN	O	26	DEP	0
+26	)	)	O	)	O	23	NMOD	0
+27	mice	mouse	B-NP	NNS	O	20	PMOD	0
+28	.	.	O	.	O	16	P	0
+
+1	This	This	B-NP	DT	O	2	SUB	0
+2	resulted	result	B-VP	VBD	O	0	ROOT	0
+3	in	in	B-PP	IN	O	2	VMOD	0
+4	beta	beta	B-NP	SYM	O	7	NMOD	0
+5	tumor	tumor	I-NP	NN	O	7	NMOD	0
+6	cell	cell	I-NP	NN	O	7	NMOD	0
+7	metastases	metastasis	I-NP	NNS	O	3	PMOD	14	metastases
+8	in	in	B-PP	IN	O	7	NMOD	0
+9	distant	distant	B-NP	JJ	O	10	NMOD	0
+10	organs	organ	I-NP	NNS	O	14	NMOD	0
+11	and	and	O	CC	O	14	NMOD	0
+12	local	local	B-NP	JJ	O	14	NMOD	0
+13	lymph	lymph	I-NP	NN	O	14	NMOD	0
+14	nodes	node	I-NP	NNS	O	8	PMOD	0
+15	,	,	O	,	O	2	P	0
+16	demonstrating	demonstrate	B-VP	VBG	O	2	VMOD	0
+17	a	a	B-NP	DT	O	18	NMOD	0
+18	role	role	I-NP	NN	O	16	OBJ	16	role
+19	for	for	B-PP	IN	O	18	NMOD	0
+20	pericytes	pericyte	B-NP	NNS	B-cell_type	19	PMOD	0
+21	in	in	B-PP	IN	O	18	NMOD	0
+22	limiting	limit	B-VP	VBG	O	21	PMOD	18	limiting
+23	tumor	tumor	B-NP	NN	O	25	NMOD	0
+24	cell	cell	I-NP	NN	O	25	NMOD	0
+25	metastasis	metastasis	I-NP	NN	O	22	OBJ	14	metastasis
+26	.	.	O	.	O	2	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	support	support	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	new	new	I-NP	JJ	O	6	NMOD	0
+6	model	model	I-NP	NN	O	3	OBJ	0
+7	for	for	B-PP	IN	O	6	NMOD	0
+8	how	how	B-ADVP	WRB	O	7	PMOD	0
+9	tumor	tumor	B-NP	NN	B-cell_type	10	NMOD	0
+10	cells	cell	I-NP	NNS	I-cell_type	11	SUB	0
+11	trigger	trigger	B-VP	VBP	O	8	SBAR	17	trigger
+12	metastasis	metastasis	B-NP	NN	O	11	OBJ	14	metastasis
+13	by	by	B-PP	IN	O	11	VMOD	0
+14	perturbing	perturb	B-VP	VBG	O	13	PMOD	16	perturbing
+15	pericyte-endothelial	pericyte-endothelial	B-NP	JJ	O	17	NMOD	0
+16	cell-cell	cell-cell	I-NP	JJ	O	17	NMOD	0
+17	interactions	interaction	I-NP	NNS	O	14	OBJ	0
+18	.	.	O	.	O	3	P	0
+

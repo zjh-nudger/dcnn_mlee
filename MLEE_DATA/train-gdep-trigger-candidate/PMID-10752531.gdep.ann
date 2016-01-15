@@ -1,0 +1,345 @@
+1	Vascular	Vascular	B-NP	JJ	O	2	NMOD	-1
+2	proliferation	proliferation	I-NP	NN	O	5	NMOD	2	proliferation
+3	and	and	O	CC	O	5	NMOD	-1
+4	enhanced	enhance	B-VP	VBN	O	5	NMOD	17	enhanced
+5	expression	expression	B-NP	NN	O	0	ROOT	9	expression
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	endothelial	endothelial	B-NP	JJ	B-protein	10	NMOD	-1
+8	nitric	nitric	I-NP	JJ	I-protein	10	NMOD	-1
+9	oxide	oxide	I-NP	NN	I-protein	10	NMOD	-1
+10	synthase	synthase	I-NP	NN	I-protein	6	PMOD	-1
+11	in	in	B-PP	IN	O	5	NMOD	-1
+12	human	human	B-NP	JJ	O	13	NMOD	-1
+13	peritoneum	peritoneum	I-NP	NN	O	11	PMOD	-1
+14	exposed	expose	B-VP	VBN	O	13	NMOD	0
+15	to	to	B-PP	TO	O	14	VMOD	-1
+16	long-term	long-term	B-NP	JJ	O	18	NMOD	-1
+17	peritoneal	peritoneal	I-NP	JJ	O	18	NMOD	-1
+18	dialysis	dialysis	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	5	P	-1
+
+1	Long-term	Long-term	B-NP	JJ	O	3	NMOD	-1
+2	peritoneal	peritoneal	I-NP	JJ	O	3	NMOD	-1
+3	dialysis	dialysis	I-NP	NN	O	7	SUB	-1
+4	(	(	O	(	O	6	DEP	-1
+5	PD	PD	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	associated	associate	I-VP	VBN	O	7	VC	0
+9	with	with	B-PP	IN	O	8	VMOD	-1
+10	alterations	alteration	B-NP	NNS	O	9	PMOD	0
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	peritoneal	peritoneal	B-NP	JJ	O	13	NMOD	-1
+13	permeability	permeability	I-NP	NN	O	15	NMOD	-1
+14	and	and	I-NP	CC	O	15	NMOD	-1
+15	loss	loss	I-NP	NN	O	11	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	ultrafiltration	ultrafiltration	B-NP	NN	O	16	PMOD	-1
+18	.	.	O	.	O	7	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	changes	change	I-NP	NNS	O	3	SUB	0
+3	originate	originate	B-VP	VBP	O	17	VMOD	0
+4	from	from	B-PP	IN	O	3	VMOD	-1
+5	increased	increase	B-NP	VBN	O	8	NMOD	17	increased
+6	peritoneal	peritoneal	I-NP	JJ	O	8	NMOD	-1
+7	surface	surface	I-NP	NN	O	8	NMOD	-1
+8	area	area	I-NP	NN	O	4	PMOD	-1
+9	,	,	O	,	O	17	P	-1
+10	but	but	O	CC	O	17	VMOD	-1
+11	the	the	B-NP	DT	O	15	NMOD	-1
+12	morphologic	morphologic	I-NP	JJ	O	15	NMOD	-1
+13	and	and	I-NP	CC	O	15	NMOD	-1
+14	molecular	molecular	I-NP	JJ	O	15	NMOD	-1
+15	mechanisms	mechanism	I-NP	NNS	O	17	SUB	-1
+16	involved	involve	B-VP	VBN	O	15	NMOD	0
+17	remain	remain	B-VP	VBP	O	0	ROOT	-1
+18	unknown	unknown	B-ADJP	JJ	O	17	PRD	-1
+19	.	.	O	.	O	17	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	hypothesis	hypothesis	I-NP	NN	O	33	SUB	-1
+3	that	that	B-SBAR	IN	O	2	NMOD	-1
+4	modifications	modification	B-NP	NNS	O	17	SUB	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	activity	activity	B-NP	NN	O	8	NMOD	0
+7	and/or	and/or	O	CC	O	8	NMOD	-1
+8	expression	expression	B-NP	NN	O	5	PMOD	9	expression
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	nitric	nitric	B-NP	JJ	B-protein	16	NMOD	-1
+11	oxide	oxide	I-NP	NN	I-protein	16	NMOD	-1
+12	synthase	synthase	I-NP	NN	I-protein	16	NMOD	-1
+13	(	(	O	(	I-protein	16	NMOD	-1
+14	NOS	NOS	B-NP	NN	I-protein	16	NMOD	-1
+15	)	)	O	)	I-protein	16	NMOD	-1
+16	isozymes	isozyme	B-NP	NNS	I-protein	9	PMOD	-1
+17	might	might	B-VP	MD	O	3	SBAR	-1
+18	play	play	I-VP	VB	O	17	VC	0
+19	a	a	B-NP	DT	O	20	NMOD	-1
+20	role	role	I-NP	NN	O	18	OBJ	0
+21	in	in	B-PP	IN	O	18	VMOD	-1
+22	these	these	B-NP	DT	O	23	NMOD	-1
+23	modifications	modification	I-NP	NNS	O	21	PMOD	-1
+24	,	,	O	,	O	18	P	-1
+25	via	via	B-PP	IN	O	18	VMOD	0
+26	enhanced	enhance	B-NP	VBN	O	28	NMOD	17	enhanced
+27	local	local	I-NP	JJ	O	28	NMOD	-1
+28	production	production	I-NP	NN	O	25	PMOD	8	production
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	nitric	nitric	B-NP	JJ	O	31	NMOD	-1
+31	oxide	oxide	I-NP	NN	O	29	PMOD	-1
+32	,	,	O	,	O	2	P	-1
+33	was	be	B-VP	VBD	O	0	ROOT	-1
+34	tested	test	I-VP	VBN	O	33	VC	-1
+35	in	in	B-PP	IN	O	34	VMOD	-1
+36	this	this	B-NP	DT	O	37	NMOD	-1
+37	study	study	I-NP	NN	O	35	PMOD	-1
+38	.	.	O	.	O	33	P	-1
+
+1	NOS	NOS	B-NP	NN	O	2	NMOD	-1
+2	activities	activity	I-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	0	ROOT	-1
+4	measured	measure	I-VP	VBN	O	3	VC	-1
+5	by	by	B-PP	IN	O	4	VMOD	-1
+6	the	the	B-NP	DT	O	8	NMOD	-1
+7	L-citrulline	L-citrulline	I-NP	NN	O	8	NMOD	-1
+8	assay	assay	I-NP	NN	O	5	PMOD	-1
+9	in	in	B-PP	IN	O	4	VMOD	-1
+10	peritoneal	peritoneal	B-NP	JJ	O	11	NMOD	-1
+11	biopsies	biopsy	I-NP	NNS	O	9	PMOD	-1
+12	from	from	B-PP	IN	O	11	NMOD	-1
+13	seven	seven	B-NP	CD	O	15	NMOD	-1
+14	control	control	I-NP	NN	O	15	NMOD	0
+15	subjects	subject	I-NP	NNS	O	12	PMOD	-1
+16	,	,	O	,	O	3	P	-1
+17	eight	eight	B-NP	CD	O	19	NMOD	-1
+18	uremic	uremic	I-NP	JJ	O	19	NMOD	-1
+19	patients	patient	I-NP	NNS	O	30	NMOD	-1
+20	immediately	immediately	B-ADVP	RB	O	19	NMOD	-1
+21	before	before	B-PP	IN	O	20	DEP	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	onset	onset	I-NP	NN	O	21	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	PD	PD	B-NP	NN	O	24	PMOD	-1
+26	,	,	O	,	O	30	P	-1
+27	and	and	O	CC	O	30	NMOD	-1
+28	13	13	B-NP	CD	O	30	NMOD	-1
+29	uremic	uremic	I-NP	JJ	O	30	NMOD	-1
+30	patients	patient	I-NP	NNS	O	3	VMOD	-1
+31	on	on	B-PP	IN	O	30	NMOD	-1
+32	short-term	short-term	O	JJ	O	55	NMOD	-1
+33	(	(	O	(	O	42	DEP	-1
+34	less	less	B-NP	JJR	O	35	AMOD	-1
+35	than	than	I-NP	IN	O	37	NMOD	-1
+36	18	18	I-NP	CD	O	35	AMOD	-1
+37	mo	mo	I-NP	NN	O	42	DEP	-1
+38	,	,	O	,	O	42	P	-1
+39	n	n	B-NP	NN	O	41	SUB	-1
+40	=	=	B-VP	JJ	O	41	VMOD	-1
+41	6	6	B-NP	CD	O	42	DEP	-1
+42	)	)	O	)	O	32	AMOD	-1
+43	or	or	O	CC	O	55	NMOD	-1
+44	long-term	long-term	B-ADJP	JJ	O	55	NMOD	-1
+45	(	(	O	(	O	55	NMOD	-1
+46	greater	great	B-NP	JJR	O	47	AMOD	-1
+47	than	than	I-NP	IN	O	49	NMOD	-1
+48	18	18	I-NP	CD	O	47	AMOD	-1
+49	mo	mo	I-NP	NN	O	55	NMOD	-1
+50	,	,	O	,	O	55	P	-1
+51	n	n	B-NP	NN	O	53	SUB	-1
+52	=	=	B-VP	SYM	O	53	VMOD	-1
+53	7	7	B-NP	CD	O	55	NMOD	-1
+54	)	)	O	)	O	53	DEP	-1
+55	PD	PD	B-NP	NN	O	31	PMOD	-1
+56	.	.	O	.	O	3	P	-1
+
+1	Peritoneal	Peritoneal	B-NP	JJ	B-protein	3	NMOD	-1
+2	NOS	NOS	I-NP	NN	I-protein	3	NMOD	-1
+3	activity	activity	I-NP	NN	O	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	increased	increase	I-VP	VBN	O	4	VC	17	increased
+6	fivefold	fivefold	B-ADVP	RB	O	5	VMOD	-1
+7	in	in	B-PP	IN	O	5	VMOD	-1
+8	long-term	long-term	B-NP	JJ	O	10	NMOD	-1
+9	PD	PD	I-NP	NN	O	10	NMOD	-1
+10	patients	patient	I-NP	NNS	O	7	PMOD	-1
+11	compared	compare	B-PP	VBN	O	5	VMOD	-1
+12	with	with	B-PP	IN	O	11	PMOD	-1
+13	control	control	B-NP	NN	O	14	NMOD	0
+14	subjects	subject	I-NP	NNS	O	12	PMOD	-1
+15	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	7	VMOD	-1
+2	uremic	uremic	B-NP	JJ	O	3	NMOD	-1
+3	patients	patient	I-NP	NNS	O	1	PMOD	-1
+4	,	,	O	,	O	7	P	-1
+5	NOS	NOS	B-NP	NN	B-protein	6	NMOD	-1
+6	activity	activity	I-NP	NN	O	7	SUB	0
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	positively	positively	I-VP	RB	O	7	VMOD	-1
+9	correlated	correlate	I-VP	VBN	O	7	VC	-1
+10	with	with	B-PP	IN	O	9	VMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	duration	duration	I-NP	NN	O	10	PMOD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	PD	PD	B-NP	NN	O	13	PMOD	-1
+15	.	.	O	.	O	7	P	-1
+
+1	Increased	Increase	B-NP	VBN	O	3	NMOD	17	Increased
+2	NOS	NOS	I-NP	NN	B-protein	3	NMOD	-1
+3	activity	activity	I-NP	NN	O	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	mediated	mediate	I-VP	VBN	O	4	VC	16	mediated
+6	solely	solely	B-ADVP	RB	O	7	PMOD	-1
+7	by	by	B-PP	IN	O	5	VMOD	-1
+8	Ca	Ca	B-NP	NN	B-protein	13	NMOD	-1
+9	(	(	O	(	I-protein	13	NMOD	-1
+10	2+	2+	B-ADJP	JJ	I-protein	13	NMOD	-1
+11	)	)	O	)	I-protein	13	NMOD	-1
+12	-dependent	-dependent	B-NP	JJ	I-protein	13	NMOD	-1
+13	NOS	NOS	I-NP	NN	I-protein	7	PMOD	-1
+14	and	and	O	CC	O	4	VMOD	-1
+15	,	,	O	,	O	4	P	-1
+16	as	as	B-SBAR	IN	O	4	VMOD	-1
+17	shown	show	B-VP	VBN	O	16	SBAR	-1
+18	by	by	B-PP	IN	O	17	VMOD	-1
+19	immunoblotting	immunoblotting	B-NP	NN	O	22	NMOD	-1
+20	,	,	O	,	O	22	P	-1
+21	an	an	B-NP	DT	O	22	NMOD	-1
+22	upregulation	upregulation	I-NP	NN	O	18	PMOD	17	upregulation
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	endothelial	endothelial	B-NP	JJ	B-protein	25	NMOD	-1
+25	NOS	NOS	I-NP	NN	I-protein	23	PMOD	-1
+26	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	biologic	biologic	I-NP	JJ	O	3	NMOD	-1
+3	relevance	relevance	I-NP	NN	O	10	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	increased	increase	B-NP	VBN	O	6	NMOD	17	increased
+6	NOS	NOS	I-NP	NN	B-protein	4	PMOD	-1
+7	in	in	B-PP	IN	O	3	NMOD	-1
+8	long-term	long-term	B-NP	JJ	O	9	NMOD	-1
+9	PD	PD	I-NP	NN	O	7	PMOD	-1
+10	was	be	B-VP	VBD	O	0	ROOT	-1
+11	demonstrated	demonstrate	I-VP	VBN	O	10	VC	-1
+12	by	by	B-PP	IN	O	11	VMOD	-1
+13	enhanced	enhance	B-NP	VBN	O	15	NMOD	17	enhanced
+14	nitrotyrosine	nitrotyrosine	I-NP	NN	O	15	NMOD	-1
+15	immunoreactivity	immunoreactivity	I-NP	NN	O	19	NMOD	-1
+16	and	and	O	CC	O	19	NMOD	-1
+17	a	a	B-NP	DT	O	19	NMOD	-1
+18	significant	significant	I-NP	JJ	O	19	NMOD	-1
+19	increase	increase	I-NP	NN	O	25	NMOD	17	increase
+20	in	in	B-PP	IN	O	19	NMOD	-1
+21	vascular	vascular	B-NP	JJ	O	22	NMOD	-1
+22	density	density	I-NP	NN	O	20	PMOD	-1
+23	and	and	O	CC	O	25	NMOD	-1
+24	endothelial	endothelial	B-NP	JJ	O	25	NMOD	-1
+25	area	area	I-NP	NN	O	12	PMOD	-1
+26	in	in	B-PP	IN	O	25	NMOD	-1
+27	the	the	B-NP	DT	O	28	NMOD	-1
+28	peritoneum	peritoneum	I-NP	NN	O	26	PMOD	-1
+29	.	.	O	.	O	10	P	-1
+
+1	Immunoblotting	Immunoblotting	B-NP	NN	O	4	NMOD	-1
+2	and	and	I-NP	CC	O	4	NMOD	-1
+3	immunostaining	immunostaining	I-NP	NN	O	4	NMOD	-1
+4	studies	study	I-NP	NNS	O	5	SUB	-1
+5	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+6	an	an	B-NP	DT	O	7	NMOD	-1
+7	upregulation	upregulation	I-NP	NN	O	5	OBJ	17	upregulation
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	vascular	vascular	B-NP	JJ	B-protein	12	NMOD	-1
+10	endothelial	endothelial	I-NP	JJ	I-protein	12	NMOD	-1
+11	growth	growth	I-NP	NN	I-protein	12	NMOD	0
+12	factor	factor	I-NP	NN	I-protein	8	PMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	VEGF	VEGF	B-NP	NN	B-protein	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	mostly	mostly	B-PP	RB	O	17	PMOD	-1
+17	along	along	I-PP	IN	O	12	NMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	endothelium	endothelium	I-NP	NN	O	17	PMOD	-1
+20	lining	line	B-VP	VBG	O	19	NMOD	-1
+21	peritoneal	peritoneal	B-NP	JJ	O	23	NMOD	-1
+22	blood	blood	I-NP	NN	O	23	NMOD	-1
+23	vessels	vessel	I-NP	NNS	O	20	OBJ	-1
+24	in	in	B-PP	IN	O	20	VMOD	-1
+25	long-term	long-term	B-NP	JJ	O	27	NMOD	-1
+26	PD	PD	I-NP	NN	O	27	NMOD	-1
+27	patients	patient	I-NP	NNS	O	24	PMOD	-1
+28	.	.	O	.	O	5	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	the	the	B-NP	DT	O	3	NMOD	-1
+3	latter	latter	I-NP	JJ	O	1	PMOD	-1
+4	,	,	I-NP	,	O	6	P	-1
+5	VEGF	VEGF	I-NP	NN	B-protein	6	SUB	-1
+6	colocalized	colocalize	B-VP	VBD	O	0	ROOT	14	colocalized
+7	with	with	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	14	NMOD	-1
+9	advanced	advance	I-NP	VBN	O	14	NMOD	-1
+10	glycation	glycation	I-NP	NN	O	14	NMOD	-1
+11	end	end	I-NP	NN	O	14	NMOD	-1
+12	product	product	I-NP	NN	O	14	NMOD	-1
+13	pentosidine	pentosidine	I-NP	NN	O	14	NMOD	-1
+14	deposits	deposit	I-NP	NNS	O	7	PMOD	-1
+15	.	.	O	.	O	6	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	provide	provide	B-VP	VBP	O	0	ROOT	-1
+4	a	a	B-NP	DT	O	14	NMOD	-1
+5	morphologic	morphologic	I-NP	JJ	O	14	NMOD	-1
+6	(	(	O	(	O	12	DEP	-1
+7	angiogenesis	angiogenesis	B-NP	NN	O	11	NMOD	3	angiogenesis
+8	and	and	O	CC	O	11	NMOD	-1
+9	increased	increase	B-VP	VBD	O	11	NMOD	17	increased
+10	endothelial	endothelial	B-NP	JJ	O	11	NMOD	-1
+11	area	area	I-NP	NN	O	12	DEP	-1
+12	)	)	O	)	O	5	AMOD	-1
+13	and	and	O	CC	O	14	NMOD	-1
+14	molecular	molecular	B-ADJP	JJ	O	3	VMOD	-1
+15	(	(	O	(	O	23	DEP	-1
+16	enhanced	enhance	B-NP	VBN	O	18	NMOD	17	enhanced
+17	NOS	NOS	I-NP	NN	B-protein	18	NMOD	-1
+18	activity	activity	I-NP	NN	O	22	NMOD	0
+19	and	and	O	CC	O	22	NMOD	-1
+20	endothelial	endothelial	B-NP	JJ	B-protein	21	NMOD	-1
+21	NOS	NOS	I-NP	NN	I-protein	22	NMOD	-1
+22	upregulation	upregulation	I-NP	NN	O	23	DEP	17	upregulation
+23	)	)	O	)	O	14	NMOD	-1
+24	basis	basis	B-NP	NN	O	14	PMOD	-1
+25	for	for	B-PP	IN	O	14	AMOD	-1
+26	explaining	explain	B-VP	VBG	O	25	PMOD	-1
+27	the	the	B-NP	DT	O	29	NMOD	-1
+28	permeability	permeability	I-NP	NN	O	29	NMOD	-1
+29	changes	change	I-NP	NNS	O	26	OBJ	0
+30	observed	observe	B-VP	VBN	O	29	NMOD	0
+31	in	in	B-PP	IN	O	30	VMOD	-1
+32	long-term	long-term	B-NP	JJ	O	33	NMOD	-1
+33	PD	PD	I-NP	NN	O	31	PMOD	-1
+34	.	.	O	.	O	3	P	-1
+
+1	They	They	B-NP	PRP	O	3	SUB	-1
+2	also	also	B-ADVP	RB	O	3	VMOD	-1
+3	support	support	B-VP	VBP	O	0	ROOT	0
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	implication	implication	I-NP	NN	O	14	NMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	local	local	B-NP	JJ	O	12	NMOD	-1
+8	advanced	advance	I-NP	VBN	O	12	NMOD	-1
+9	glycation	glycation	I-NP	NN	O	12	NMOD	-1
+10	end	end	I-NP	NN	O	12	NMOD	-1
+11	product	product	I-NP	NN	O	12	NMOD	-1
+12	deposits	deposit	I-NP	NNS	O	6	PMOD	-1
+13	and	and	O	CC	O	14	NMOD	-1
+14	liberation	liberation	B-NP	NN	O	3	OBJ	14	liberation
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	VEGF	VEGF	B-NP	NN	B-protein	15	PMOD	-1
+17	in	in	B-PP	IN	O	14	NMOD	-1
+18	that	that	B-NP	DT	O	19	NMOD	-1
+19	process	process	I-NP	NN	O	17	PMOD	-1
+20	.	.	O	.	O	3	P	-1
+

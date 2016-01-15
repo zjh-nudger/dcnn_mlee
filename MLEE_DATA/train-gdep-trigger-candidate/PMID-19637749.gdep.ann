@@ -1,0 +1,152 @@
+1	[	[	O	(	O	8	DEP	-1
+2	Ambiguity	Ambiguity	B-NP	NN	O	3	NMOD	-1
+3	role	role	I-NP	NN	O	8	DEP	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	neutrophils	neutrophil	B-NP	NNS	B-cell_type	4	PMOD	-1
+6	in	in	B-PP	IN	O	3	NMOD	-1
+7	oncogenesis	oncogenesis	B-NP	NN	O	6	PMOD	-1
+8	]	]	O	)	O	0	ROOT	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	review	review	I-NP	NN	O	3	SUB	-1
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	focused	focus	I-VP	VBN	O	3	VC	-1
+5	on	on	B-PP	IN	O	4	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	participation	participation	I-NP	NN	O	5	PMOD	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	polymorphonuclear	polymorphonuclear	B-NP	JJ	B-cell_type	10	NMOD	-1
+10	granulocytes	granulocyte	I-NP	NNS	I-cell_type	8	PMOD	-1
+11	(	(	O	(	O	13	DEP	-1
+12	neutrophils	neutrophil	B-NP	NNS	B-cell_type	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	in	in	B-PP	IN	O	7	NMOD	-1
+15	development	development	B-NP	NN	O	17	NMOD	2	development
+16	and	and	I-NP	CC	O	17	NMOD	-1
+17	spreading	spreading	I-NP	NN	O	14	PMOD	14	spreading
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	a	a	B-NP	DT	O	20	NMOD	-1
+20	tumor	tumor	I-NP	NN	O	18	PMOD	-1
+21	.	.	O	.	O	3	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	consider	consider	B-VP	VBP	O	0	ROOT	-1
+3	both	both	B-NP	DT	O	7	NMOD	-1
+4	the	the	B-NP	DT	O	7	NMOD	-1
+5	well	well	I-NP	RB	O	6	AMOD	-1
+6	known	know	I-NP	VBN	O	7	NMOD	-1
+7	functions	function	I-NP	NNS	O	2	OBJ	0
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	neutrophils	neutrophil	B-NP	NNS	B-cell_type	8	PMOD	-1
+10	(	(	O	(	O	32	DEP	-1
+11	degranulation	degranulation	B-NP	NN	O	26	NMOD	-1
+12	,	,	O	,	O	26	P	-1
+13	production	production	B-NP	NN	O	26	NMOD	8	production
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	reactive	reactive	B-NP	JJ	O	17	NMOD	-1
+16	oxygen	oxygen	I-NP	NN	O	17	NMOD	-1
+17	species	specie	I-NP	NNS	O	14	PMOD	-1
+18	(	(	O	(	O	20	DEP	-1
+19	ROS	ROS	B-NP	NNS	O	20	DEP	-1
+20	)	)	O	)	O	17	NMOD	-1
+21	)	)	O	)	O	13	NMOD	-1
+22	and	and	O	CC	O	26	NMOD	-1
+23	the	the	B-NP	DT	O	26	NMOD	-1
+24	recently	recently	I-NP	RB	O	25	AMOD	-1
+25	shown	show	I-NP	VBN	O	26	NMOD	-1
+26	one	one	I-NP	CD	O	32	DEP	-1
+27	(	(	O	(	O	32	DEP	-1
+28	presentation	presentation	B-NP	NN	O	32	DEP	-1
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	an	an	B-NP	DT	O	31	NMOD	-1
+31	antigene	antigene	I-NP	NN	O	29	PMOD	-1
+32	)	)	O	)	O	7	NMOD	-1
+33	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	special	special	I-NP	JJ	O	3	NMOD	-1
+3	attention	attention	I-NP	NN	O	4	SUB	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	focused	focus	I-VP	VBN	O	4	VC	-1
+6	on	on	B-PP	IN	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	ambiguity	ambiguity	I-NP	NN	O	6	PMOD	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	the	the	B-NP	DT	O	12	NMOD	-1
+11	neutrophil	neutrophil	I-NP	NN	B-cell_type	12	NMOD	-1
+12	role	role	I-NP	NN	O	9	PMOD	0
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	oncogenesis	oncogenesis	B-NP	NN	O	13	PMOD	-1
+15	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	dominant	dominant	I-NP	JJ	O	3	NMOD	-1
+3	view	view	I-NP	NN	O	4	SUB	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	PRD	-1
+6	neutrophils	neutrophil	B-NP	NNS	B-cell_type	7	SUB	-1
+7	display	display	B-VP	VBP	O	5	SBAR	-1
+8	exclusively	exclusively	B-NP	RB	O	9	AMOD	-1
+9	antitumor	antitumor	I-NP	JJ	O	10	NMOD	-1
+10	properties	property	I-NP	NNS	O	7	OBJ	18	properties
+11	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	update	update	I-NP	JJ	O	3	NMOD	-1
+3	information	information	I-NP	NN	O	4	SUB	-1
+4	testifies	testify	B-VP	VBZ	O	0	ROOT	-1
+5	about	about	B-PP	IN	O	4	VMOD	-1
+6	protumoral	protumoral	B-NP	JJ	O	7	NMOD	-1
+7	activity	activity	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	neutrophils	neutrophil	B-NP	NNS	B-cell_type	8	PMOD	-1
+10	:	:	O	:	O	4	P	-1
+11	they	they	B-NP	PRP	O	12	SUB	-1
+12	migrate	migrate	B-VP	VBP	O	4	VMOD	14	migrate
+13	to	to	B-PP	TO	O	12	VMOD	-1
+14	a	a	B-NP	DT	O	15	NMOD	-1
+15	tumor	tumor	I-NP	NN	O	13	PMOD	-1
+16	and	and	O	CC	O	12	VMOD	-1
+17	promote	promote	B-VP	VB	O	12	VMOD	17	promote
+18	angiogenesis	angiogenesis	B-NP	NN	O	20	NMOD	3	angiogenesis
+19	and	and	I-NP	CC	O	20	NMOD	-1
+20	metastasis	metastasis	I-NP	NN	O	17	OBJ	14	metastasis
+21	at	at	B-PP	IN	O	17	VMOD	-1
+22	late	late	B-NP	JJ	O	23	NMOD	-1
+23	stages	stage	I-NP	NNS	O	21	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	the	the	B-NP	DT	O	26	NMOD	-1
+26	tumor	tumor	I-NP	NN	O	24	PMOD	-1
+27	.	.	O	.	O	4	P	-1
+
+1	It	It	B-NP	PRP	O	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	interesting	interesting	B-ADJP	JJ	O	2	PRD	-1
+4	that	that	B-SBAR	IN	O	2	VMOD	-1
+5	certain	certain	B-NP	JJ	O	6	NMOD	-1
+6	components	component	I-NP	NNS	O	19	SUB	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	neutrophil	neutrophil	B-NP	NN	B-cell_type	10	NMOD	-1
+9	cytotoxic	cytotoxic	I-NP	JJ	O	10	NMOD	-1
+10	arsenal	arsenal	I-NP	NN	O	7	PMOD	-1
+11	(	(	O	(	O	18	DEP	-1
+12	ROS	ROS	B-NP	NN	O	17	NMOD	-1
+13	,	,	O	,	O	17	P	-1
+14	cytokines	cytokine	B-NP	NNS	B-protein	17	NMOD	-1
+15	,	,	O	,	O	17	P	-1
+16	specific	specific	B-NP	JJ	O	17	NMOD	-1
+17	enzymes	enzyme	I-NP	NNS	O	18	DEP	-1
+18	)	)	O	)	O	10	NMOD	-1
+19	participate	participate	B-VP	VBP	O	4	SBAR	0
+20	both	both	O	CC	O	19	VMOD	-1
+21	in	in	B-PP	IN	O	20	PRD	-1
+22	antitumoral	antitumoral	B-NP	JJ	O	23	NMOD	-1
+23	defenses	defense	I-NP	NNS	O	21	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	an	an	B-NP	DT	O	29	NMOD	-1
+26	organism	organism	I-NP	NN	O	29	NMOD	-1
+27	and	and	I-NP	CC	O	29	NMOD	-1
+28	protumoral	protumoral	I-NP	JJ	O	29	NMOD	-1
+29	activity	activity	I-NP	NN	O	24	PMOD	0
+30	.	.	O	.	O	2	P	-1
+

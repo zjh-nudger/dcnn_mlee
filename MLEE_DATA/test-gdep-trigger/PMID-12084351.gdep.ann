@@ -1,0 +1,259 @@
+1	Pten	Pten	B-NP	NN	O	2	NMOD	0
+2	signaling	signaling	I-NP	NN	O	0	ROOT	0
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	gliomas	glioma	B-NP	NNS	O	3	PMOD	0
+5	.	.	O	.	O	2	P	0
+
+1	In	In	B-PP	IN	O	17	VMOD	0
+2	1997	1997	B-NP	CD	O	1	PMOD	0
+3	,	,	O	,	O	17	P	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	PTEN	PTEN	I-NP	NN	B-DNA	6	NMOD	0
+6	gene	gene	I-NP	NN	I-DNA	17	SUB	0
+7	(	(	O	(	O	16	DEP	0
+8	phosphatase	phosphatase	B-NP	NN	B-protein	11	NMOD	0
+9	and	and	O	CC	O	11	NMOD	0
+10	tensin	tensin	B-NP	NN	O	11	NMOD	0
+11	homolog	homolog	I-NP	NN	O	16	DEP	0
+12	deleted	delete	B-VP	VBN	O	11	NMOD	0
+13	on	on	B-PP	IN	O	12	VMOD	0
+14	chromosome	chromosome	B-NP	NN	B-DNA	13	PMOD	0
+15	10	10	I-NP	CD	I-DNA	14	NMOD	0
+16	)	)	O	)	O	6	NMOD	0
+17	was	be	B-VP	VBD	O	0	ROOT	0
+18	identified	identify	I-VP	VBN	O	17	VC	0
+19	as	as	B-PP	IN	O	18	VMOD	0
+20	a	a	B-NP	DT	O	23	NMOD	0
+21	tumor	tumor	I-NP	NN	B-DNA	23	NMOD	0
+22	suppressor	suppressor	I-NP	NN	I-DNA	23	NMOD	18	suppressor
+23	gene	gene	I-NP	NN	I-DNA	19	PMOD	0
+24	on	on	B-PP	IN	O	18	VMOD	0
+25	the	the	B-NP	DT	O	27	NMOD	0
+26	long	long	I-NP	JJ	O	27	NMOD	0
+27	arm	arm	I-NP	NN	O	24	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	chromosome	chromosome	B-NP	NN	B-DNA	28	PMOD	0
+30	10	10	I-NP	CD	I-DNA	29	NMOD	0
+31	.	.	O	.	O	17	P	0
+
+1	Since	Since	B-PP	IN	O	6	VMOD	0
+2	then	then	B-NP	RB	O	1	PMOD	0
+3	,	,	O	,	O	6	P	0
+4	important	important	B-NP	JJ	O	5	NMOD	0
+5	progress	progress	I-NP	NN	O	6	SUB	0
+6	has	have	B-VP	VBZ	O	0	ROOT	0
+7	been	be	I-VP	VBN	O	6	VC	0
+8	made	make	I-VP	VBN	O	7	VC	0
+9	with	with	B-PP	IN	O	8	VMOD	0
+10	respect	respect	B-NP	NN	O	9	PMOD	0
+11	to	to	B-PP	TO	O	10	NMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	understanding	understanding	I-NP	NN	O	11	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	role	role	I-NP	NN	O	14	PMOD	16	role
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	the	the	B-NP	DT	O	20	NMOD	0
+19	Pten	Pten	I-NP	NN	B-protein	20	NMOD	0
+20	protein	protein	I-NP	NN	I-protein	17	PMOD	0
+21	in	in	B-PP	IN	O	16	NMOD	0
+22	the	the	B-NP	DT	O	24	NMOD	0
+23	normal	normal	I-NP	JJ	O	24	NMOD	0
+24	development	development	I-NP	NN	O	21	PMOD	2	development
+25	of	of	B-PP	IN	O	24	NMOD	0
+26	the	the	B-NP	DT	O	27	NMOD	0
+27	brain	brain	I-NP	NN	O	25	PMOD	0
+28	as	as	B-CONJP	RB	O	21	PMOD	0
+29	well	well	I-CONJP	RB	O	28	DEP	0
+30	as	as	I-CONJP	IN	O	28	DEP	0
+31	in	in	B-PP	IN	O	21	PMOD	0
+32	the	the	B-NP	DT	O	34	NMOD	0
+33	molecular	molecular	I-NP	JJ	O	34	NMOD	0
+34	pathogenesis	pathogenesis	I-NP	NN	O	31	PMOD	0
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	human	human	B-NP	JJ	O	37	NMOD	0
+37	gliomas	glioma	I-NP	NNS	O	35	PMOD	0
+38	.	.	O	.	O	6	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	review	review	I-NP	NN	O	3	SUB	0
+3	summarizes	summarize	B-VP	VBZ	O	0	ROOT	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	current	current	I-NP	JJ	O	6	NMOD	0
+6	state	state	I-NP	NN	O	3	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	art	art	I-NP	NN	O	7	PMOD	0
+10	concerning	concern	B-VP	VBG	O	9	NMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	involvement	involvement	I-NP	NN	O	10	OBJ	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	aberrant	aberrant	B-NP	JJ	O	16	NMOD	16	aberrant
+15	Pten	Pten	I-NP	NN	O	16	NMOD	0
+16	function	function	I-NP	NN	O	13	PMOD	0
+17	in	in	B-PP	IN	O	12	NMOD	0
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	development	development	I-NP	NN	O	17	PMOD	2	development
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	different	different	B-NP	JJ	O	22	AMOD	0
+22	biologic	biologic	I-NP	JJ	O	23	NMOD	0
+23	features	feature	I-NP	NNS	O	48	NMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	malignant	malignant	B-NP	JJ	O	26	NMOD	0
+26	gliomas	glioma	I-NP	NNS	O	24	PMOD	0
+27	,	,	O	,	O	26	P	0
+28	such	such	B-PP	JJ	O	29	PMOD	0
+29	as	as	I-PP	IN	O	26	NMOD	0
+30	loss	loss	B-NP	NN	O	37	NMOD	0
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	cell-cycle	cell-cycle	B-NP	NN	O	33	NMOD	0
+33	control	control	I-NP	NN	O	31	PMOD	0
+34	and	and	O	CC	O	37	NMOD	0
+35	uncontrolled	uncontrolled	B-NP	JJ	O	37	NMOD	16	uncontrolled
+36	cell	cell	I-NP	NN	O	37	NMOD	0
+37	proliferation	proliferation	I-NP	NN	O	29	PMOD	1	proliferation
+38	,	,	O	,	O	48	P	0
+39	escape	escape	B-NP	NN	O	48	NMOD	18	escape
+40	from	from	B-PP	IN	O	39	NMOD	0
+41	apoptosis	apoptosis	B-NP	NN	O	40	PMOD	5	apoptosis
+42	,	,	O	,	O	48	P	0
+43	brain	brain	B-NP	NN	O	44	NMOD	0
+44	invasion	invasion	I-NP	NN	O	48	NMOD	14	invasion
+45	,	,	O	,	O	48	P	0
+46	and	and	O	CC	O	48	NMOD	0
+47	aberrant	aberrant	B-NP	JJ	O	48	NMOD	16	aberrant
+48	neoangiogenesis	neoangiogenesis	I-NP	NN	O	20	PMOD	3	neoangiogenesis
+49	.	.	O	.	O	3	P	0
+
+1	Most	Most	B-NP	JJS	O	8	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	tumor-suppressive	tumor-suppressive	I-NP	JJ	O	5	NMOD	0
+5	properties	property	I-NP	NNS	O	2	PMOD	0
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	Pten	Pten	B-NP	NN	O	6	PMOD	0
+8	are	be	B-VP	VBP	O	0	ROOT	0
+9	dependent	dependent	B-ADJP	JJ	O	8	PRD	16	dependent
+10	on	on	B-PP	IN	O	9	AMOD	0
+11	its	its	B-NP	PRP$	O	13	NMOD	0
+12	lipid	lipid	I-NP	NN	B-protein	13	NMOD	0
+13	phosphatase	phosphatase	I-NP	NN	I-protein	14	NMOD	0
+14	activity	activity	I-NP	NN	O	10	PMOD	0
+15	,	,	O	,	O	14	P	0
+16	which	which	B-NP	WDT	O	14	NMOD	0
+17	inhibits	inhibit	B-VP	VBZ	O	16	SBAR	16	inhibits
+18	the	the	B-NP	DT	O	25	NMOD	0
+19	phosphatidylinositol-3'-kinase	phosphatidylinositol-3'-kinase	I-NP	NN	B-protein	25	NMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	PI3K	PI3K	B-NP	NN	B-protein	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	/Akt	/Akt	B-NP	NN	B-protein	25	NMOD	0
+24	signaling	signaling	I-NP	NN	O	25	NMOD	0
+25	pathway	pathway	I-NP	NN	O	17	OBJ	0
+26	through	through	B-PP	IN	O	17	VMOD	0
+27	dephosphorylation	dephosphorylation	B-NP	NN	O	37	NMOD	13	dephosphorylation
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	phosphatidylinositol-	phosphatidylinositol-	B-NP	NN	O	28	PMOD	0
+30	(	(	O	(	O	36	DEP	0
+31	3	3	B-NP	CD	O	35	NMOD	0
+32	,	,	I-NP	,	O	35	P	0
+33	4	4	I-NP	CD	O	35	NMOD	0
+34	,	,	I-NP	,	O	35	P	0
+35	5	5	I-NP	CD	O	36	DEP	0
+36	)	)	O	)	O	27	NMOD	0
+37	-triphosphate	-triphosphate	B-NP	NN	O	26	PMOD	0
+38	.	.	O	.	O	8	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	additional	additional	I-NP	JJ	O	3	NMOD	0
+3	function	function	I-NP	NN	O	11	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	Pten	Pten	B-NP	NN	O	4	PMOD	0
+6	as	as	B-PP	IN	O	3	NMOD	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	dual-specificity	dual-specificity	I-NP	NN	B-protein	10	NMOD	0
+9	protein	protein	I-NP	NN	I-protein	10	NMOD	0
+10	phosphatase	phosphatase	I-NP	NN	I-protein	6	PMOD	0
+11	may	may	B-VP	MD	O	0	ROOT	0
+12	also	also	I-VP	RB	O	11	VMOD	0
+13	play	play	I-VP	VB	O	11	VC	0
+14	a	a	B-NP	DT	O	15	NMOD	0
+15	role	role	I-NP	NN	O	13	OBJ	0
+16	in	in	B-PP	IN	O	13	VMOD	0
+17	glioma	glioma	B-NP	NN	O	18	NMOD	0
+18	pathogenesis	pathogenesis	I-NP	NN	O	16	PMOD	0
+19	.	.	O	.	O	11	P	0
+
+1	Besides	Besides	B-PP	IN	O	0	ROOT	0
+2	the	the	B-NP	DT	O	3	NMOD	0
+3	wealth	wealth	I-NP	NN	O	1	PMOD	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	data	datum	B-NP	NNS	O	4	PMOD	0
+6	elucidating	elucidate	B-VP	VBG	O	5	NMOD	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	functional	functional	I-NP	JJ	O	9	NMOD	0
+9	roles	role	I-NP	NNS	O	6	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	Pten	Pten	B-NP	NNP	O	15	VMOD	0
+12	,	,	O	,	O	15	P	0
+13	recent	recent	B-NP	JJ	O	14	NMOD	0
+14	studies	study	I-NP	NNS	O	15	SUB	0
+15	suggest	suggest	B-VP	VBP	O	10	SBAR	0
+16	a	a	B-NP	DT	O	18	NMOD	0
+17	diagnostic	diagnostic	I-NP	JJ	O	18	NMOD	0
+18	significance	significance	I-NP	NN	O	15	OBJ	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	PTEN	PTEN	B-NP	NN	B-DNA	22	NMOD	0
+21	gene	gene	I-NP	NN	I-DNA	22	NMOD	0
+22	alterations	alteration	I-NP	NNS	O	19	PMOD	16	alterations
+23	as	as	B-PP	IN	O	15	VMOD	0
+24	a	a	B-NP	DT	O	26	NMOD	0
+25	molecular	molecular	I-NP	JJ	O	26	NMOD	0
+26	marker	marker	I-NP	NN	O	23	PMOD	0
+27	for	for	B-PP	IN	O	26	NMOD	0
+28	poor	poor	B-NP	JJ	O	29	NMOD	0
+29	prognosis	prognosis	I-NP	NN	O	27	PMOD	0
+30	in	in	B-PP	IN	O	26	NMOD	0
+31	anaplastic	anaplastic	B-NP	JJ	O	32	NMOD	0
+32	astrocytomas	astrocytoma	I-NP	NNS	O	35	NMOD	0
+33	and	and	O	CC	O	35	NMOD	0
+34	anaplastic	anaplastic	B-NP	JJ	O	35	NMOD	0
+35	oligodendrogliomas	oligodendroglioma	I-NP	NNS	O	30	PMOD	0
+36	.	.	O	.	O	1	P	0
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	23	VMOD	0
+2	,	,	O	,	O	23	P	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	possibility	possibility	I-NP	NN	O	23	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	selective	selective	B-NP	JJ	O	7	NMOD	0
+7	targeting	targeting	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	PTEN	PTEN	B-NP	NN	B-cell_type	12	NMOD	0
+10	mutant	mutant	I-NP	JJ	I-cell_type	12	NMOD	0
+11	tumor	tumor	I-NP	NN	I-cell_type	12	NMOD	0
+12	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	0
+13	by	by	B-PP	IN	O	7	NMOD	0
+14	specific	specific	B-NP	JJ	O	16	NMOD	0
+15	pharmacologic	pharmacologic	I-NP	JJ	O	16	NMOD	0
+16	inhibitors	inhibitor	I-NP	NNS	O	13	PMOD	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	members	member	B-NP	NNS	O	17	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	the	the	B-NP	DT	O	22	NMOD	0
+21	Pten/PI3K/Akt	Pten/PI3K/Akt	I-NP	NN	O	22	NMOD	0
+22	pathway	pathway	I-NP	NN	O	19	PMOD	0
+23	opens	open	B-VP	VBZ	O	0	ROOT	0
+24	up	up	B-PRT	RP	O	23	VMOD	0
+25	new	new	B-NP	JJ	O	26	NMOD	0
+26	perspectives	perspective	I-NP	NNS	O	23	OBJ	0
+27	for	for	B-PP	IN	O	26	NMOD	0
+28	a	a	B-NP	DT	O	31	NMOD	0
+29	targeted	target	I-NP	VBN	O	31	NMOD	0
+30	molecular	molecular	I-NP	JJ	O	31	NMOD	0
+31	therapy	therapy	I-NP	NN	O	27	PMOD	19	therapy
+32	of	of	B-PP	IN	O	31	NMOD	0
+33	malignant	malignant	B-NP	JJ	B-cell_type	34	NMOD	0
+34	gliomas	glioma	I-NP	NNS	I-cell_type	32	PMOD	0
+35	.	.	O	.	O	23	P	0
+

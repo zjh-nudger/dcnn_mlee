@@ -1,0 +1,227 @@
+1	RNA	RNA	B-NP	NN	O	2	NMOD	0
+2	damage	damage	I-NP	NN	O	4	NMOD	0
+3	and	and	O	CC	O	4	NMOD	0
+4	inhibition	inhibition	B-NP	NN	O	11	NMOD	18	inhibition
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	neoplastic	neoplastic	B-NP	JJ	O	9	NMOD	0
+7	endothelial	endothelial	I-NP	JJ	O	9	NMOD	0
+8	cell	cell	I-NP	NN	O	9	NMOD	0
+9	growth	growth	I-NP	NN	O	5	PMOD	1	growth
+10	:	:	O	:	O	4	P	0
+11	effects	effect	B-NP	NNS	O	0	ROOT	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	human	human	B-NP	JJ	O	16	NMOD	0
+14	and	and	I-NP	CC	O	16	NMOD	0
+15	amphibian	amphibian	I-NP	JJ	B-protein	16	NMOD	0
+16	ribonucleases	ribonucleas	I-NP	NNS	I-protein	12	PMOD	0
+17	.	.	O	.	O	11	P	0
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	SUB	3	Angiogenesis
+2	defines	define	B-VP	VBZ	O	0	ROOT	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	many	many	I-NP	JJ	O	5	NMOD	0
+5	steps	step	I-NP	NNS	O	2	OBJ	0
+6	involved	involve	B-VP	VBN	O	5	NMOD	0
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	the	the	B-NP	DT	O	11	NMOD	0
+9	growth	growth	I-NP	NN	O	11	NMOD	4	growth
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	migration	migration	I-NP	NN	O	7	PMOD	14	migration
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	0
+14	cell-derived	cell-derived	I-NP	JJ	I-cell_type	16	NMOD	2	derived
+15	blood	blood	I-NP	NN	I-cell_type	16	NMOD	0
+16	vessels	vessel	I-NP	NNS	I-cell_type	12	PMOD	0
+17	.	.	O	.	O	2	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	process	process	I-NP	NN	O	3	SUB	0
+3	is	be	B-VP	VBZ	O	16	VMOD	0
+4	necessary	necessary	B-ADJP	JJ	O	3	PRD	0
+5	for	for	B-PP	IN	O	4	AMOD	0
+6	the	the	B-NP	DT	O	9	NMOD	0
+7	growth	growth	I-NP	NN	O	9	NMOD	4	growth
+8	and	and	I-NP	CC	O	9	NMOD	0
+9	metastasis	metastasis	I-NP	NN	O	5	PMOD	14	metastasis
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	tumors	tumor	B-NP	NNS	O	10	PMOD	0
+12	,	,	O	,	O	16	P	0
+13	and	and	O	CC	O	16	VMOD	0
+14	considerable	considerable	B-NP	JJ	O	15	NMOD	0
+15	effort	effort	I-NP	NN	O	16	SUB	0
+16	is	be	B-VP	VBZ	O	0	ROOT	0
+17	being	be	I-VP	VBG	O	16	VC	0
+18	expended	expend	I-VP	VBN	O	17	VC	0
+19	to	to	I-VP	TO	O	20	VMOD	0
+20	find	find	I-VP	VB	O	18	VMOD	0
+21	inhibitors	inhibitor	B-NP	NNS	O	20	OBJ	0
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	tumor	tumor	B-NP	NN	O	24	NMOD	0
+24	angiogenesis	angiogenesis	I-NP	NN	O	22	PMOD	3	angiogenesis
+25	.	.	O	.	O	16	P	0
+
+1	This	This	B-NP	DT	O	3	SUB	0
+2	usually	usually	B-ADVP	RB	O	3	VMOD	0
+3	involves	involve	B-VP	VBZ	O	0	ROOT	0
+4	screening	screening	B-NP	NN	O	3	OBJ	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	potential	potential	B-NP	JJ	O	8	NMOD	0
+7	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	8	NMOD	3	angiogenic
+8	compounds	compound	I-NP	NNS	O	5	PMOD	0
+9	on	on	B-PP	IN	O	8	NMOD	0
+10	endothelial	endothelial	B-NP	JJ	B-cell_type	11	NMOD	0
+11	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	0
+12	.	.	O	.	O	3	P	0
+
+1	To	To	B-PP	TO	O	18	SUB	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	end	end	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	16	P	0
+5	two	two	B-NP	CD	O	9	NMOD	0
+6	candidate	candidate	I-NP	NN	O	9	NMOD	0
+7	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+8	RNA-damaging	RNA-damaging	I-NP	JJ	O	9	NMOD	0
+9	agents	agent	I-NP	NNS	O	16	NMOD	0
+10	,	,	O	,	O	16	P	0
+11	onconase	onconase	B-NP	NN	O	16	NMOD	0
+12	and	and	O	CC	O	16	NMOD	0
+13	(	(	O	(	O	14	DEP	0
+14	-4	-4	O	CD	O	15	DEP	0
+15	)	)	O	)	O	16	NMOD	0
+16	rhEDN	rhEDN	B-NP	NN	O	1	VMOD	0
+17	,	,	O	,	O	1	P	0
+18	were	be	B-VP	VBD	O	0	ROOT	0
+19	screened	screen	I-VP	VBN	O	18	VC	0
+20	for	for	B-PP	IN	O	19	VMOD	0
+21	their	their	B-NP	PRP$	O	22	NMOD	0
+22	effects	effect	I-NP	NNS	O	20	PMOD	16	effects
+23	on	on	B-PP	IN	O	22	NMOD	0
+24	endothelial	endothelial	B-NP	JJ	B-cell_type	26	NMOD	0
+25	cell	cell	I-NP	NN	I-cell_type	26	NMOD	0
+26	proliferation	proliferation	I-NP	NN	O	23	PMOD	1	proliferation
+27	using	use	B-VP	VBG	O	18	VMOD	0
+28	three	three	B-NP	CD	O	30	NMOD	0
+29	distinct	distinct	I-NP	JJ	O	30	NMOD	0
+30	types	type	I-NP	NNS	O	27	OBJ	0
+31	of	of	B-PP	IN	O	30	NMOD	0
+32	endothelial	endothelial	B-NP	JJ	B-cell_type	33	NMOD	0
+33	cells	cell	I-NP	NNS	I-cell_type	31	PMOD	0
+34	in	in	B-PP	IN	O	30	NMOD	0
+35	culture	culture	B-NP	NN	B-cell_line	34	PMOD	0
+36	:	:	O	:	I-cell_line	43	P	0
+37	HPV-16	HPV-16	B-NP	NN	I-cell_line	43	NMOD	0
+38	E6/E7-immortalized	E6/E7-immortalized	I-NP	JJ	I-cell_line	43	NMOD	19	immortalized
+39	human	human	I-NP	JJ	I-cell_line	43	NMOD	0
+40	umbilical	umbilical	I-NP	JJ	I-cell_line	43	NMOD	0
+41	vein	vein	I-NP	NN	I-cell_line	43	NMOD	0
+42	endothelial	endothelial	I-NP	JJ	I-cell_line	43	NMOD	0
+43	cells	cell	I-NP	NNS	I-cell_line	52	NMOD	0
+44	(	(	O	(	O	46	DEP	0
+45	HUVECs	HUVEC	B-NP	NNS	B-cell_line	46	DEP	0
+46	)	)	O	)	O	43	NMOD	0
+47	,	,	O	,	O	52	P	0
+48	a	a	B-NP	DT	O	52	NMOD	0
+49	Kras-transformed	Kras-transformed	I-NP	JJ	B-cell_line	52	NMOD	19	transformed
+50	HPV-16	HPV-16	I-NP	NN	I-cell_line	52	NMOD	0
+51	E6/E7	E6/E7	I-NP	NN	I-cell_line	52	NMOD	0
+52	HUVEC	HUVEC	I-NP	NN	I-cell_line	68	NMOD	0
+53	(	(	O	(	O	64	DEP	0
+54	Rhim	Rhim	B-NP	NNP	O	63	NMOD	0
+55	et	et	I-NP	FW	O	54	NMOD	0
+56	al.	al.	I-NP	FW	O	54	NMOD	0
+57	,	,	O	,	O	63	P	0
+58	Carcinogenesis	Carcinogenesis	B-NP	NNP	O	63	NMOD	0
+59	4	4	I-NP	CD	O	58	NMOD	0
+60	,	,	I-NP	,	O	63	P	0
+61	673-681	673-681	I-NP	CD	O	63	NMOD	0
+62	,	,	I-NP	,	O	63	P	0
+63	1998	1998	I-NP	CD	O	64	DEP	0
+64	)	)	O	)	O	52	NMOD	0
+65	,	,	O	,	O	68	P	0
+66	and	and	O	CC	O	68	NMOD	0
+67	primary	primary	B-NP	JJ	B-cell_type	68	NMOD	0
+68	HUVECs	HUVEC	I-NP	NNS	I-cell_type	27	VMOD	0
+69	.	.	O	.	O	18	P	0
+
+1	Onconase	Onconase	B-NP	NN	B-protein	3	SUB	0
+2	similarly	similarly	B-ADVP	RB	O	3	VMOD	0
+3	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+4	proliferation	proliferation	B-NP	NN	O	3	OBJ	1	proliferation
+5	in	in	B-PP	IN	O	3	VMOD	0
+6	all	all	B-NP	DT	O	9	NMOD	0
+7	three	three	I-NP	CD	O	9	NMOD	0
+8	cell	cell	I-NP	NN	B-cell_line	9	NMOD	0
+9	lines	line	I-NP	NNS	I-cell_line	5	PMOD	0
+10	(	(	O	(	O	18	DEP	0
+11	IC	IC	B-NP	NN	O	18	DEP	0
+12	(	(	O	(	O	14	DEP	0
+13	50	50	B-NP	CD	O	14	DEP	0
+14	)	)	O	)	O	11	NMOD	0
+15	=	=	B-VP	SYM	O	11	NMOD	0
+16	0.3-1.0	0.3-1.0	B-NP	CD	O	17	NMOD	0
+17	microM	microM	I-NP	NN	O	15	AMOD	0
+18	)	)	O	)	O	9	NMOD	0
+19	while	while	B-SBAR	IN	O	3	VMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	-4	-4	B-NP	CD	O	22	DEP	0
+22	)	)	O	)	O	23	NMOD	0
+23	rhEDN	rhEDN	B-NP	NN	O	24	SUB	0
+24	was	be	B-VP	VBD	O	19	SBAR	0
+25	more	more	B-ADJP	RBR	O	26	AMOD	0
+26	effective	effective	I-ADJP	JJ	O	24	PRD	17	effective
+27	on	on	B-PP	IN	O	26	AMOD	0
+28	immortalized	immortalize	B-NP	VBN	O	31	NMOD	19	immortalized
+29	HUVEC	HUVEC	I-NP	NN	B-cell_line	31	NMOD	0
+30	cell	cell	I-NP	NN	I-cell_line	31	NMOD	0
+31	lines	line	I-NP	NNS	I-cell_line	27	PMOD	0
+32	(	(	O	(	O	40	DEP	0
+33	IC	IC	B-NP	NN	O	40	DEP	0
+34	(	(	O	(	O	36	DEP	0
+35	50	50	B-NP	CD	O	36	DEP	0
+36	)	)	O	)	O	33	NMOD	0
+37	=	=	B-VP	SYM	O	33	NMOD	0
+38	0.02-0.06	0.02-0.06	B-NP	CD	O	39	NMOD	0
+39	microM	microM	I-NP	NN	O	37	AMOD	0
+40	)	)	O	)	O	31	NMOD	0
+41	than	than	B-PP	IN	O	26	AMOD	0
+42	on	on	B-PP	IN	O	41	PMOD	0
+43	primary	primary	B-NP	JJ	B-cell_type	44	NMOD	0
+44	HUVECs	HUVEC	I-NP	NNS	I-cell_type	42	PMOD	0
+45	(	(	O	(	O	53	DEP	0
+46	IC	IC	B-NP	NN	O	52	NMOD	0
+47	(	(	O	(	O	49	DEP	0
+48	50	50	B-NP	CD	O	49	DEP	0
+49	)	)	O	)	O	52	NMOD	0
+50	>	>	B-NP	JJR	O	52	NMOD	0
+51	0.1	0.1	I-NP	CD	O	52	NMOD	0
+52	microM	microM	I-NP	NN	O	53	DEP	0
+53	)	)	O	)	O	44	NMOD	0
+54	.	.	O	.	O	3	P	0
+
+1	Differential	Differential	B-NP	JJ	O	2	NMOD	0
+2	sensitivity	sensitivity	I-NP	NN	O	6	SUB	0
+3	to	to	B-PP	TO	O	2	NMOD	0
+4	these	these	B-NP	DT	O	5	NMOD	0
+5	agents	agent	I-NP	NNS	O	3	PMOD	0
+6	implies	imply	B-VP	VBZ	O	0	ROOT	0
+7	that	that	B-SBAR	IN	O	6	VMOD	0
+8	more	more	B-NP	JJR	O	9	AMOD	0
+9	than	than	I-NP	IN	O	13	NMOD	0
+10	one	one	I-NP	CD	O	9	AMOD	0
+11	endothelial	endothelial	I-NP	JJ	O	13	NMOD	0
+12	cell	cell	I-NP	NN	O	13	NMOD	0
+13	type	type	I-NP	NN	O	14	SUB	0
+14	must	must	B-VP	MD	O	7	SBAR	0
+15	be	be	I-VP	VB	O	14	VC	0
+16	used	use	I-VP	VBN	O	15	VC	0
+17	in	in	B-PP	IN	O	16	VMOD	0
+18	proliferation	proliferation	B-NP	NN	O	19	NMOD	1	proliferation
+19	assays	assay	I-NP	NNS	O	17	PMOD	0
+20	to	to	B-VP	TO	O	21	VMOD	0
+21	screen	screen	I-VP	VB	O	14	VMOD	0
+22	for	for	B-PP	IN	O	21	VMOD	0
+23	novel	novel	B-NP	JJ	O	25	NMOD	0
+24	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	25	NMOD	3	angiogenic
+25	compounds	compound	I-NP	NNS	O	22	PMOD	0
+26	.	.	O	.	O	6	P	0
+

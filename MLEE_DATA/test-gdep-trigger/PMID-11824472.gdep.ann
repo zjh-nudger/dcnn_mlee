@@ -1,0 +1,225 @@
+1	Modulation	Modulation	B-NP	NN	O	0	ROOT	16	Modulation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	angiogenesis	angiogenesis	B-NP	NN	O	5	NMOD	3	angiogenesis
+4	and	and	I-NP	CC	O	5	NMOD	0
+5	progelatinase	progelatinase	I-NP	NN	B-protein	2	PMOD	0
+6	a	a	O	DT	O	1	NMOD	0
+7	by	by	B-PP	IN	O	1	NMOD	0
+8	thrombin	thrombin	B-NP	NN	B-protein	10	NMOD	0
+9	receptor	receptor	I-NP	NN	I-protein	10	NMOD	0
+10	mimetics	mimetic	I-NP	NNS	O	12	NMOD	0
+11	and	and	I-NP	CC	O	12	NMOD	0
+12	antagonists	antagonist	I-NP	NNS	O	7	PMOD	0
+13	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	angiogenic	angiogenic	I-NP	JJ	O	3	NMOD	3	angiogenic
+3	action	action	I-NP	NN	O	6	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	thrombin	thrombin	B-NP	NN	B-protein	4	PMOD	0
+6	has	have	B-VP	VBZ	O	0	ROOT	0
+7	been	be	I-VP	VBN	O	6	VC	0
+8	shown	show	I-VP	VBN	O	7	VC	0
+9	to	to	I-VP	TO	O	10	VMOD	0
+10	be	be	I-VP	VB	O	8	VMOD	0
+11	mediated	mediate	I-VP	VBN	O	10	VC	16	mediated
+12	by	by	B-PP	IN	O	11	VMOD	0
+13	activation	activation	B-NP	NN	O	12	PMOD	17	activation
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	the	the	B-NP	DT	O	17	NMOD	0
+16	thrombin	thrombin	I-NP	NN	B-protein	17	NMOD	0
+17	receptor	receptor	I-NP	NN	I-protein	14	PMOD	0
+18	.	.	O	.	O	6	P	0
+
+1	In	In	B-PP	IN	O	5	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	report	report	I-NP	NN	O	1	PMOD	0
+4	we	we	B-NP	PRP	O	5	SUB	0
+5	studied	study	B-VP	VBD	O	0	ROOT	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	effects	effect	I-NP	NNS	O	5	OBJ	16	effects
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	SFLLR	SFLLR	B-NP	NN	B-protein	12	NMOD	0
+10	,	,	O	,	O	12	P	0
+11	an	an	B-NP	DT	O	12	NMOD	0
+12	agonist	agonist	I-NP	NN	O	8	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	17	NMOD	0
+15	activated	activate	I-NP	VBN	O	17	NMOD	17	activated
+16	thrombin	thrombin	I-NP	NN	B-protein	17	NMOD	0
+17	receptor	receptor	I-NP	NN	I-protein	21	NMOD	0
+18	and	and	I-NP	CC	O	21	NMOD	0
+19	thrombin	thrombin	I-NP	NN	B-protein	21	NMOD	0
+20	receptor	receptor	I-NP	NN	I-protein	21	NMOD	0
+21	peptide	peptide	I-NP	NN	O	25	NMOD	0
+22	and	and	O	CC	O	25	NMOD	0
+23	non	non	B-NP	JJ	O	25	NMOD	0
+24	peptide	peptide	I-NP	NN	O	25	NMOD	0
+25	antagonists	antagonist	I-NP	NNS	O	13	PMOD	0
+26	on	on	B-PP	IN	O	7	NMOD	0
+27	angiogenesis	angiogenesis	B-NP	NN	O	26	PMOD	3	angiogenesis
+28	in	in	B-PP	IN	O	7	NMOD	0
+29	the	the	B-NP	DT	O	32	NMOD	0
+30	chick	chick	I-NP	NN	O	32	NMOD	0
+31	chorioallantoic	chorioallantoic	I-NP	JJ	O	32	NMOD	0
+32	membrane	membrane	I-NP	NN	O	36	NMOD	0
+33	(	(	O	(	O	35	DEP	0
+34	CAM	CAM	B-NP	NN	B-protein	35	DEP	0
+35	)	)	O	)	O	32	NMOD	0
+36	system	system	B-NP	NN	O	28	PMOD	0
+37	.	.	O	.	O	5	P	0
+
+1	As	As	B-SBAR	IN	O	0	ROOT	0
+2	antagonists	antagonist	B-NP	NNS	O	3	SUB	0
+3	were	be	B-VP	VBD	O	1	VMOD	0
+4	used	use	I-VP	VBN	O	3	VC	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	tripeptide	tripeptide	I-NP	NN	O	7	NMOD	0
+7	FPR	FPR	I-NP	NN	O	9	NMOD	0
+8	and	and	O	CC	O	9	NMOD	0
+9	non-peptide	non-peptide	B-NP	NN	B-protein	14	NMOD	0
+10	1	1	I-NP	CD	I-protein	9	NMOD	0
+11	,	,	O	,	O	14	P	0
+12	4-disubstituted	4-disubstituted	B-NP	JJ	O	14	NMOD	0
+13	piperazine	piperazine	I-NP	NN	O	14	NMOD	0
+14	derivatives	derivative	I-NP	NNS	O	4	VMOD	0
+15	.	.	O	.	O	1	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	pentapeptide	pentapeptide	I-NP	NN	B-protein	3	NMOD	0
+3	SFLLR	SFLLR	I-NP	NN	I-protein	8	SUB	0
+4	,	,	O	,	O	3	P	0
+5	like	like	B-PP	IN	O	8	VMOD	0
+6	thrombin	thrombin	B-NP	NN	B-protein	5	PMOD	0
+7	,	,	O	,	O	8	P	0
+8	caused	cause	B-VP	VBD	O	0	ROOT	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	marked	marked	I-NP	JJ	O	11	NMOD	0
+11	stimulation	stimulation	I-NP	NN	O	8	OBJ	17	stimulation
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	PMOD	3	angiogenesis
+14	in	in	B-PP	IN	O	8	VMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	CAM	CAM	I-NP	NN	B-protein	14	PMOD	0
+17	.	.	O	.	O	8	P	0
+
+1	FPR	FPR	B-NP	NN	B-protein	5	NMOD	0
+2	and	and	O	CC	O	5	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	piperazine	piperazine	I-NP	NN	O	5	NMOD	0
+5	derivatives	derivative	I-NP	NNS	O	6	SUB	0
+6	caused	cause	B-VP	VBD	O	0	ROOT	0
+7	suppression	suppression	B-NP	NN	O	6	OBJ	18	suppression
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	PMOD	3	angiogenesis
+10	and	and	B-PP	CC	O	6	VMOD	0
+11	in	in	B-PP	IN	O	6	VMOD	0
+12	combination	combination	B-NP	NN	O	15	SUB	0
+13	with	with	B-PP	IN	O	12	NMOD	0
+14	thrombin	thrombin	B-NP	NN	B-protein	13	PMOD	0
+15	antagonized	antagonize	B-VP	VBD	O	11	SBAR	18	antagonized
+16	its	its	B-NP	PRP$	O	18	NMOD	0
+17	angiogenic	angiogenic	I-NP	JJ	O	18	NMOD	3	angiogenic
+18	effect	effect	I-NP	NN	O	15	OBJ	0
+19	.	.	O	.	O	6	P	0
+
+1	Thrombin	Thrombin	B-NP	NN	B-protein	3	NMOD	0
+2	and	and	I-NP	CC	O	3	NMOD	0
+3	SFLLR	SFLLR	I-NP	NN	B-protein	4	SUB	0
+4	activated	activate	B-VP	VBD	I-protein	0	ROOT	17	activated
+5	progelatinase	progelatinase	B-NP	NN	I-protein	6	NMOD	0
+6	A	A	I-NP	NN	I-protein	4	OBJ	0
+7	(	(	O	(	O	9	DEP	0
+8	MMP-2	MMP-2	B-NP	NN	B-protein	9	DEP	0
+9	)	)	O	)	O	6	NMOD	0
+10	in	in	B-PP	IN	O	6	NMOD	0
+11	the	the	B-NP	DT	O	13	NMOD	0
+12	culture	culture	I-NP	NN	O	13	NMOD	0
+13	medium	medium	I-NP	NN	O	10	PMOD	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	human	human	B-NP	JJ	B-cell_type	19	NMOD	0
+16	umbilical	umbilical	I-NP	JJ	I-cell_type	19	NMOD	0
+17	cord	cord	I-NP	NN	I-cell_type	19	NMOD	0
+18	endothelial	endothelial	I-NP	JJ	I-cell_type	19	NMOD	0
+19	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	HUVECs	HUVEC	B-NP	NNS	B-cell_line	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	.	.	O	.	O	4	P	0
+
+1	MMP-2	MMP-2	B-NP	NN	B-protein	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	involved	involve	I-VP	VBN	O	2	VC	0
+4	in	in	B-PP	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	early	early	I-NP	JJ	O	7	NMOD	0
+7	steps	step	I-NP	NNS	O	4	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	angiogenesis	angiogenesis	B-NP	NN	O	8	PMOD	3	angiogenesis
+10	leading	lead	B-VP	VBG	O	9	NMOD	17	leading
+11	to	to	B-PP	TO	O	10	VMOD	0
+12	local	local	B-NP	JJ	O	13	NMOD	0
+13	dissolution	dissolution	I-NP	NN	O	11	PMOD	11	dissolution
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	basement	basement	B-NP	NN	B-protein	17	NMOD	0
+16	membrane	membrane	I-NP	NN	I-protein	17	NMOD	0
+17	collagen	collagen	I-NP	NN	I-protein	19	NMOD	0
+18	and	and	I-NP	CC	O	19	NMOD	0
+19	migration	migration	I-NP	NN	O	14	PMOD	14	migration
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	the	the	B-NP	DT	O	24	NMOD	0
+22	activated	activate	I-NP	VBN	B-cell_type	24	NMOD	17	activated
+23	endothelial	endothelial	I-NP	JJ	I-cell_type	24	NMOD	0
+24	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	0
+25	.	.	O	.	O	2	P	0
+
+1	FPR	FPR	B-NP	NN	B-protein	5	NMOD	0
+2	and	and	O	CC	O	5	NMOD	0
+3	the	the	B-NP	DT	O	5	NMOD	0
+4	piperazine	piperazine	I-NP	NN	O	5	NMOD	0
+5	derivatives	derivative	I-NP	NNS	O	6	SUB	0
+6	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	activation	activation	I-NP	NN	O	6	OBJ	17	activation
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	this	this	B-NP	DT	O	11	NMOD	0
+11	enzyme	enzyme	I-NP	NN	B-protein	9	PMOD	0
+12	.	.	O	.	O	6	P	0
+
+1	They	They	B-NP	PRP	O	3	SUB	0
+2	also	also	B-ADVP	RB	O	3	VMOD	0
+3	antagonised	antagonise	B-VP	VBD	O	0	ROOT	18	antagonised
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	effects	effect	I-NP	NNS	O	3	OBJ	16	effects
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	both	both	O	CC	O	10	NMOD	0
+8	thrombin	thrombin	B-NP	NN	B-protein	10	NMOD	0
+9	and	and	O	CC	O	10	NMOD	0
+10	SFLLR	SFLLR	B-NP	NN	B-protein	6	PMOD	0
+11	on	on	B-PP	IN	O	5	NMOD	0
+12	MMP-2	MMP-2	B-NP	NN	B-protein	13	NMOD	0
+13	activation	activation	I-NP	NN	O	11	PMOD	17	activation
+14	.	.	O	.	O	3	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	non-thrombogenic	non-thrombogenic	B-NP	JJ	O	8	NMOD	0
+6	agonists	agonist	I-NP	NNS	O	8	NMOD	0
+7	or	or	I-NP	CC	O	8	NMOD	0
+8	antagonists	antagonist	I-NP	NNS	O	14	SUB	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	the	the	B-NP	DT	O	13	NMOD	0
+11	activated	activate	I-NP	VBN	O	13	NMOD	17	activated
+12	thrombin	thrombin	I-NP	NN	B-protein	13	NMOD	0
+13	receptor	receptor	I-NP	NN	I-protein	9	PMOD	0
+14	can	can	B-VP	MD	O	4	SBAR	0
+15	be	be	I-VP	VB	O	14	VC	0
+16	used	use	I-VP	VBN	O	15	VC	0
+17	as	as	B-PP	IN	O	16	VMOD	0
+18	modulators	modulator	B-NP	NNS	O	17	PMOD	16	modulators
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	angiogenesis	angiogenesis	B-NP	NN	O	19	PMOD	3	angiogenesis
+21	.	.	O	.	O	3	P	0
+

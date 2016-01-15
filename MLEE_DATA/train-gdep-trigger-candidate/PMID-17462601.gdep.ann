@@ -1,0 +1,240 @@
+1	An	An	B-NP	DT	O	2	NMOD	-1
+2	antibody	antibody	I-NP	NN	O	8	SUB	-1
+3	directed	direct	B-VP	VBN	O	2	NMOD	-1
+4	against	against	B-PP	IN	O	3	VMOD	0
+5	PDGF	PDGF	B-NP	NN	B-protein	7	NMOD	-1
+6	receptor	receptor	I-NP	NN	I-protein	7	NMOD	-1
+7	beta	beta	I-NP	NN	I-protein	4	PMOD	-1
+8	enhances	enhance	B-VP	VBZ	O	0	ROOT	17	enhances
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	antitumor	antitumor	I-NP	NN	O	14	NMOD	-1
+11	and	and	O	CC	O	14	NMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	14	NMOD	3	angiogenic
+14	activities	activity	I-NP	NNS	O	8	OBJ	18	activities
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	an	an	B-NP	DT	O	20	NMOD	-1
+17	anti-VEGF	anti-VEGF	I-NP	JJ	B-protein	20	NMOD	-1
+18	receptor	receptor	I-NP	NN	I-protein	20	NMOD	-1
+19	2	2	I-NP	CD	I-protein	20	NMOD	-1
+20	antibody	antibody	I-NP	NN	I-protein	15	PMOD	-1
+21	.	.	O	.	O	8	P	-1
+
+1	Platelet-derived	Platelet-derived	B-NP	JJ	B-protein	3	NMOD	-1
+2	growth	growth	I-NP	NN	I-protein	3	NMOD	0
+3	factor	factor	I-NP	NN	I-protein	9	NMOD	-1
+4	(	(	O	(	O	6	DEP	-1
+5	PDGF	PDGF	B-NP	NN	B-protein	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	and	and	O	CC	O	9	NMOD	-1
+8	its	its	B-NP	PRP$	O	9	NMOD	-1
+9	receptors	receptor	I-NP	NNS	O	13	SUB	-1
+10	(	(	O	(	O	12	DEP	-1
+11	PDGFR	PDGFR	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	play	play	B-VP	VBP	O	0	ROOT	0
+14	important	important	B-NP	JJ	O	15	NMOD	0
+15	roles	role	I-NP	NNS	O	13	OBJ	0
+16	in	in	B-PP	IN	O	13	VMOD	-1
+17	tumorigenesis	tumorigenesis	B-NP	NN	O	16	PMOD	-1
+18	through	through	B-PP	IN	O	13	VMOD	0
+19	stimulating	stimulate	B-VP	VBG	O	18	PMOD	17	stimulating
+20	tumor	tumor	B-NP	NN	O	21	NMOD	-1
+21	growth	growth	I-NP	NN	O	19	OBJ	4	growth
+22	and	and	O	CC	O	19	VMOD	-1
+23	promoting	promote	B-VP	VBG	O	19	VMOD	17	promoting
+24	angiogenesis	angiogenesis	B-NP	NN	O	23	OBJ	3	angiogenesis
+25	via	via	B-PP	IN	O	23	VMOD	0
+26	enhancing	enhance	B-VP	VBG	O	25	PMOD	17	enhancing
+27	pericyte	pericyte	B-NP	NN	O	28	NMOD	-1
+28	recruitment	recruitment	I-NP	NN	O	31	NMOD	14	recruitment
+29	and	and	O	CC	O	31	NMOD	-1
+30	vessel	vessel	B-NP	NN	O	31	NMOD	-1
+31	maturation	maturation	I-NP	NN	O	26	OBJ	2	maturation
+32	.	.	O	.	O	13	P	-1
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	produced	produce	B-VP	VBD	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	-1
+5	neutralizing	neutralize	I-NP	VBG	O	6	NMOD	-1
+6	antibody	antibody	I-NP	NN	O	8	NMOD	-1
+7	,	,	O	,	O	8	P	-1
+8	1B3	1B3	B-NP	NN	B-protein	3	OBJ	-1
+9	,	,	O	,	O	8	P	-1
+10	directed	direct	B-VP	VBN	O	8	NMOD	-1
+11	against	against	B-PP	IN	O	10	VMOD	0
+12	mouse	mouse	B-NP	NN	B-protein	13	NMOD	-1
+13	PDGFRbeta	PDGFRbeta	I-NP	NN	I-protein	11	PMOD	-1
+14	.	.	O	.	O	3	P	-1
+
+1	1B3	1B3	B-NP	NN	B-protein	2	SUB	-1
+2	binds	bind	B-VP	VBZ	O	0	ROOT	15	binds
+3	to	to	B-PP	TO	O	2	VMOD	-1
+4	PDGFRbeta	PDGFRbeta	B-NP	NN	B-protein	3	PMOD	-1
+5	with	with	B-PP	IN	O	2	VMOD	-1
+6	high	high	B-NP	JJ	O	7	NMOD	-1
+7	affinity	affinity	I-NP	NN	O	5	PMOD	0
+8	(	(	O	(	O	12	DEP	-1
+9	9x10	9x10	B-NP	CD	O	12	DEP	-1
+10	(	(	O	(	O	12	DEP	-1
+11	-11	-11	B-NP	CD	O	12	DEP	-1
+12	)	)	O	)	O	7	NMOD	-1
+13	M	M	B-NP	NN	O	5	PMOD	-1
+14	)	)	O	)	O	13	NMOD	-1
+15	and	and	O	CC	O	2	VMOD	-1
+16	blocks	block	B-VP	VBZ	O	2	VMOD	18	blocks
+17	PDGF-BB	PDGF-BB	B-NP	NN	B-protein	16	OBJ	-1
+18	from	from	B-PP	IN	O	16	VMOD	-1
+19	binding	bind	B-VP	VBG	O	18	PMOD	15	binding
+20	to	to	B-PP	TO	O	19	VMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	receptor	receptor	I-NP	NN	O	20	PMOD	-1
+23	with	with	B-PP	IN	O	22	NMOD	-1
+24	an	an	B-NP	DT	O	25	NMOD	-1
+25	IC	IC	I-NP	NN	O	23	PMOD	-1
+26	(	(	O	(	O	28	DEP	-1
+27	50	50	B-NP	CD	O	28	DEP	-1
+28	)	)	O	)	O	25	NMOD	-1
+29	of	of	B-PP	IN	O	25	NMOD	-1
+30	approximately	approximately	B-NP	RB	O	32	NMOD	-1
+31	1.2	1.2	I-NP	CD	O	30	AMOD	-1
+32	nM	nM	I-NP	NN	O	29	PMOD	-1
+33	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	antibody	antibody	I-NP	NN	O	4	SUB	-1
+3	also	also	B-ADVP	RB	O	4	VMOD	-1
+4	blocks	block	B-VP	VBZ	O	0	ROOT	18	blocks
+5	ligand-stimulated	ligand-stimulated	B-NP	JJ	O	6	NMOD	-1
+6	activation	activation	I-NP	NN	O	4	OBJ	17	activation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	PDGFRbeta	PDGFRbeta	B-NP	NN	B-protein	12	NMOD	-1
+9	and	and	O	CC	O	12	NMOD	-1
+10	downstream	downstream	B-NP	JJ	B-protein	12	NMOD	0
+11	signaling	signal	I-NP	VBG	I-protein	12	NMOD	0
+12	molecules	molecule	I-NP	NNS	I-protein	7	PMOD	-1
+13	,	,	O	,	O	12	P	-1
+14	including	include	B-PP	VBG	O	12	NMOD	-1
+15	Akt	Akt	B-NP	NN	B-protein	18	NMOD	-1
+16	and	and	I-NP	CC	O	18	NMOD	-1
+17	MAPK	MAPK	I-NP	NN	B-protein	18	NMOD	-1
+18	p42/44	p42/44	I-NP	NN	I-protein	14	PMOD	-1
+19	,	,	O	,	O	18	P	-1
+20	in	in	B-PP	IN	O	18	NMOD	-1
+21	tumor	tumor	B-NP	NN	B-cell_type	22	NMOD	-1
+22	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	-1
+23	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	7	VMOD	-1
+2	animal	animal	B-NP	NN	O	3	NMOD	-1
+3	studies	study	I-NP	NNS	O	1	PMOD	-1
+4	,	,	O	,	O	7	P	-1
+5	1B3	1B3	B-NP	NN	B-protein	7	SUB	-1
+6	significantly	significantly	B-ADVP	RB	O	7	VMOD	-1
+7	enhanced	enhance	B-VP	VBD	O	0	ROOT	17	enhanced
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	antitumor	antitumor	I-NP	NN	O	13	NMOD	-1
+10	and	and	O	CC	O	13	NMOD	-1
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	13	NMOD	3	angiogenic
+13	activities	activity	I-NP	NNS	O	7	OBJ	18	activities
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	DC101	DC101	B-NP	NN	B-protein	18	NMOD	-1
+16	,	,	O	,	O	18	P	-1
+17	an	an	B-NP	DT	O	18	NMOD	-1
+18	antibody	antibody	I-NP	NN	O	14	PMOD	-1
+19	directed	direct	B-VP	VBN	O	18	NMOD	-1
+20	against	against	B-PP	IN	O	19	VMOD	0
+21	mouse	mouse	B-NP	NN	B-protein	26	NMOD	-1
+22	vascular	vascular	I-NP	JJ	I-protein	26	NMOD	-1
+23	endothelial	endothelial	I-NP	JJ	I-protein	26	NMOD	-1
+24	growth	growth	I-NP	NN	I-protein	26	NMOD	0
+25	factor	factor	I-NP	NN	I-protein	26	NMOD	-1
+26	receptor	receptor	I-NP	NN	I-protein	20	PMOD	-1
+27	2	2	B-NP	CD	I-protein	26	NMOD	-1
+28	,	,	O	,	O	7	P	-1
+29	in	in	B-PP	IN	O	7	VMOD	-1
+30	a	a	O	DT	O	45	NMOD	-1
+31	pancreatic	pancreatic	O	JJ	O	45	NMOD	-1
+32	(	(	O	(	O	34	DEP	-1
+33	BxPC-3	BxPC-3	B-NP	NN	B-protein	34	DEP	-1
+34	)	)	O	)	O	31	AMOD	-1
+35	and	and	O	CC	O	45	NMOD	-1
+36	a	a	B-NP	DT	O	45	NMOD	-1
+37	non-small	non-small	I-NP	JJ	B-cell_line	45	NMOD	-1
+38	cell	cell	I-NP	NN	I-cell_line	45	NMOD	-1
+39	lung	lung	I-NP	NN	I-cell_line	45	NMOD	-1
+40	(	(	O	(	I-cell_line	45	NMOD	-1
+41	NCI-H460	NCI-H460	B-NP	NN	I-cell_line	45	NMOD	-1
+42	)	)	O	)	I-cell_line	45	NMOD	-1
+43	tumor	tumor	B-NP	NN	I-cell_line	45	NMOD	-1
+44	xenograft	xenograft	I-NP	NN	I-cell_line	45	NMOD	-1
+45	models	model	I-NP	NNS	I-cell_line	29	PMOD	-1
+46	.	.	O	.	O	7	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	13	SUB	19	Treatment
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	combination	combination	I-NP	NN	O	2	PMOD	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	1B3	1B3	B-NP	NN	B-protein	8	NMOD	-1
+7	and	and	I-NP	CC	O	8	NMOD	-1
+8	DC101	DC101	I-NP	NN	O	5	PMOD	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	BxPC-3	BxPC-3	B-NP	NN	O	12	NMOD	-1
+11	xenograft-bearing	xenograft-bearing	I-NP	NN	O	12	NMOD	-1
+12	mice	mouse	I-NP	NNS	O	9	PMOD	-1
+13	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	tumor	tumor	B-NP	NN	O	16	NMOD	-1
+16	regression	regression	I-NP	NN	O	14	PMOD	18	regression
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	58	58	B-NP	CD	O	19	NMOD	-1
+19	%	%	I-NP	NN	O	17	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	mice	mouse	B-NP	NNS	O	20	PMOD	-1
+22	compared	compare	B-VP	VBN	O	16	NMOD	-1
+23	to	to	B-PP	TO	O	22	VMOD	-1
+24	that	that	B-NP	DT	O	23	PMOD	-1
+25	in	in	B-PP	IN	O	24	NMOD	-1
+26	18	18	B-NP	CD	O	27	NMOD	-1
+27	%	%	I-NP	NN	O	25	PMOD	-1
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	mice	mouse	B-NP	NNS	O	28	PMOD	-1
+30	treated	treat	B-VP	VBN	O	29	NMOD	19	treated
+31	with	with	B-PP	IN	O	30	VMOD	-1
+32	DC101	DC101	B-NP	NN	B-protein	31	PMOD	-1
+33	alone	alone	B-ADVP	RB	O	32	NMOD	-1
+34	.	.	O	.	O	13	P	-1
+
+1	Taken	Take	B-VP	VBN	O	6	VMOD	-1
+2	together	together	B-ADVP	RB	O	1	VMOD	-1
+3	,	,	O	,	O	6	P	-1
+4	these	these	B-NP	DT	O	5	NMOD	-1
+5	results	result	I-NP	NNS	O	6	SUB	0
+6	lend	lend	B-VP	VBP	O	0	ROOT	-1
+7	great	great	B-NP	JJ	O	8	NMOD	-1
+8	support	support	I-NP	NN	O	6	OBJ	0
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	use	use	I-VP	VB	O	6	VMOD	0
+11	PDGFRbeta	PDGFRbeta	B-NP	NN	O	12	NMOD	-1
+12	antagonists	antagonist	I-NP	NNS	O	10	OBJ	-1
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	combinations	combination	B-NP	NNS	O	13	PMOD	-1
+15	with	with	B-PP	IN	O	14	NMOD	-1
+16	other	other	B-NP	JJ	O	20	NMOD	-1
+17	antitumor	antitumor	I-NP	JJ	O	19	AMOD	-1
+18	and/or	and/or	I-NP	CC	O	19	AMOD	-1
+19	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	20	NMOD	3	angiogenic
+20	agents	agent	I-NP	NNS	O	15	PMOD	-1
+21	in	in	B-PP	IN	O	20	NMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	treatment	treatment	I-NP	NN	O	21	PMOD	19	treatment
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	a	a	B-NP	DT	O	26	NMOD	-1
+26	variety	variety	I-NP	NN	O	24	PMOD	-1
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	cancers	cancer	B-NP	NNS	O	27	PMOD	-1
+29	.	.	O	.	O	6	P	-1
+

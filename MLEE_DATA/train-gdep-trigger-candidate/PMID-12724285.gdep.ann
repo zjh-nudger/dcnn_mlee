@@ -1,0 +1,290 @@
+1	Possible	Possible	B-NP	JJ	O	2	NMOD	-1
+2	role	role	I-NP	NN	O	0	ROOT	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	cyclooxygenase	cyclooxygenase	B-NP	NN	B-protein	3	PMOD	-1
+5	II	II	I-NP	CD	I-protein	4	NMOD	-1
+6	in	in	B-PP	IN	O	2	NMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	acquisition	acquisition	I-NP	NN	O	6	PMOD	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	ovarian	ovarian	B-NP	JJ	O	12	NMOD	-1
+11	luteal	luteal	I-NP	JJ	O	12	NMOD	-1
+12	function	function	I-NP	NN	O	9	PMOD	-1
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	rodents	rodent	B-NP	NNS	O	13	PMOD	-1
+15	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	development	development	I-NP	NN	O	15	SUB	2	development
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	corpus	corpus	I-NP	NN	O	6	NMOD	-1
+6	luteum	luteum	I-NP	NN	O	3	PMOD	-1
+7	(	(	O	(	O	9	DEP	-1
+8	CL	CL	B-NP	NN	O	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	,	,	O	,	O	2	P	-1
+11	which	which	B-NP	WDT	O	2	NMOD	-1
+12	involves	involve	B-VP	VBZ	O	11	SBAR	0
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	OBJ	3	angiogenesis
+14	,	,	O	,	O	2	P	-1
+15	is	be	B-VP	VBZ	O	0	ROOT	-1
+16	essential	essential	B-ADJP	JJ	O	15	PRD	0
+17	for	for	B-PP	IN	O	16	AMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	establishment	establishment	I-NP	NN	O	17	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	early	early	B-NP	JJ	O	22	NMOD	-1
+22	pregnancy	pregnancy	I-NP	NN	O	20	PMOD	-1
+23	.	.	O	.	O	15	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	investigated	investigate	B-VP	VBD	O	0	ROOT	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	roles	role	I-NP	NNS	O	2	OBJ	16	roles
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	the	the	B-NP	DT	O	8	NMOD	-1
+7	prostaglandin	prostaglandin	I-NP	NN	O	8	NMOD	-1
+8	synthases	synthas	I-NP	NNS	O	15	NMOD	-1
+9	cyclooxygenase	cyclooxygenase	I-NP	NN	B-protein	8	NMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	COX	COX	B-NP	NN	B-protein	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	I	I	B-NP	NN	O	15	NMOD	-1
+14	and	and	O	CC	O	15	NMOD	-1
+15	COX-II	COX-II	B-NP	NN	O	5	PMOD	-1
+16	in	in	B-PP	IN	O	4	NMOD	-1
+17	angiogenesis	angiogenesis	B-NP	NN	O	20	NMOD	3	angiogenesis
+18	and	and	O	CC	O	20	NMOD	-1
+19	progesterone	progesterone	B-NP	NN	O	20	NMOD	-1
+20	production	production	I-NP	NN	O	16	PMOD	8	production
+21	in	in	B-PP	IN	O	20	NMOD	-1
+22	the	the	B-NP	DT	O	25	NMOD	-1
+23	newly	newly	I-NP	RB	O	24	AMOD	-1
+24	formed	form	I-NP	VBN	O	25	NMOD	2	formed
+25	CL	CL	I-NP	NN	O	21	PMOD	-1
+26	,	,	O	,	O	2	P	-1
+27	using	use	B-VP	VBG	O	2	VMOD	-1
+28	inhibitors	inhibitor	B-NP	NNS	O	27	OBJ	-1
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	the	the	B-NP	DT	O	32	NMOD	-1
+31	COX	COX	I-NP	NN	B-protein	32	NMOD	-1
+32	enzymes	enzyme	I-NP	NNS	I-protein	37	NMOD	-1
+33	and	and	O	CC	O	37	NMOD	-1
+34	the	the	B-NP	DT	O	37	NMOD	-1
+35	gonadotropin-induced	gonadotropin-induced	I-NP	JJ	O	37	NMOD	17	induced
+36	pseudopregnant	pseudopregnant	I-NP	JJ	O	37	NMOD	19	pseudopregnant
+37	rat	rat	I-NP	NN	O	29	PMOD	-1
+38	as	as	B-PP	IN	O	27	VMOD	-1
+39	a	a	B-NP	DT	O	40	NMOD	-1
+40	model	model	I-NP	NN	O	38	PMOD	-1
+41	.	.	O	.	O	2	P	-1
+
+1	Injection	Injection	B-NP	NN	O	18	NMOD	19	Injection
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	indomethacin	indomethacin	B-NP	NN	O	8	NMOD	-1
+4	,	,	O	,	O	8	P	-1
+5	a	a	B-NP	DT	O	8	NMOD	-1
+6	nonselective	nonselective	I-NP	JJ	O	8	NMOD	-1
+7	COX	COX	I-NP	NN	O	8	NMOD	-1
+8	inhibitor	inhibitor	I-NP	NN	O	2	PMOD	0
+9	,	,	O	,	O	1	P	-1
+10	on	on	B-PP	IN	O	1	NMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	day	day	I-NP	NN	O	10	PMOD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	ovulation	ovulation	B-NP	NN	O	13	PMOD	-1
+15	and	and	O	CC	O	18	NMOD	-1
+16	the	the	B-NP	DT	O	18	NMOD	-1
+17	following	follow	I-NP	VBG	O	18	NMOD	-1
+18	day	day	I-NP	NN	O	19	SUB	-1
+19	decreased	decrease	B-VP	VBD	O	0	ROOT	18	decreased
+20	serum	serum	B-NP	NN	O	21	NMOD	-1
+21	levels	level	I-NP	NNS	O	19	OBJ	-1
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	progesterone	progesterone	B-NP	NN	O	22	PMOD	-1
+24	,	,	O	,	O	19	P	-1
+25	as	as	B-SBAR	IN	O	19	VMOD	-1
+26	did	do	O	VBD	O	25	DEP	-1
+27	injection	injection	B-NP	NN	O	26	SUB	19	injection
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	the	the	B-NP	DT	O	33	NMOD	-1
+30	selective	selective	I-NP	JJ	O	33	NMOD	-1
+31	COX-II	COX-II	I-NP	NN	O	33	NMOD	-1
+32	inhibitor	inhibitor	I-NP	NN	O	33	NMOD	0
+33	NS-398	NS-398	I-NP	NN	O	28	PMOD	-1
+34	.	.	O	.	O	19	P	-1
+
+1	In	In	B-PP	IN	O	11	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	11	P	-1
+4	a	a	B-NP	DT	O	7	NMOD	-1
+5	selective	selective	I-NP	JJ	O	7	NMOD	-1
+6	COX-I	COX-I	I-NP	NN	O	7	NMOD	-1
+7	inhibitor	inhibitor	I-NP	NN	O	9	NMOD	0
+8	,	,	O	,	O	9	P	-1
+9	SC-560	SC-560	B-NP	NN	B-protein	11	SUB	-1
+10	,	,	O	,	O	9	P	-1
+11	had	have	B-VP	VBD	O	0	ROOT	-1
+12	no	no	B-NP	DT	O	13	NMOD	-1
+13	effect	effect	I-NP	NN	O	11	OBJ	16	effect
+14	on	on	B-PP	IN	O	11	VMOD	-1
+15	serum	serum	B-NP	NN	O	17	NMOD	-1
+16	progesterone	progesterone	I-NP	NN	O	17	NMOD	-1
+17	concentrations	concentration	I-NP	NNS	O	14	PMOD	-1
+18	.	.	O	.	O	11	P	-1
+
+1	None	None	B-NP	NN	O	5	SUB	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	inhibitors	inhibitor	I-NP	NNS	O	2	PMOD	-1
+5	had	have	B-VP	VBD	O	0	ROOT	-1
+6	any	any	B-NP	DT	O	7	NMOD	-1
+7	effect	effect	I-NP	NN	O	5	OBJ	16	effect
+8	on	on	B-PP	IN	O	5	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	weight	weight	I-NP	NN	O	8	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	superovulated	superovulate	I-NP	VBN	O	14	NMOD	-1
+14	ovaries	ovary	I-NP	NNS	O	11	PMOD	-1
+15	or	or	B-PP	CC	O	8	PMOD	-1
+16	on	on	B-PP	IN	O	8	PMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	synthesis	synthesis	I-NP	NN	O	16	PMOD	8	synthesis
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	progesterone	progesterone	B-NP	NN	O	19	PMOD	-1
+21	by	by	B-PP	IN	O	18	NMOD	-1
+22	cultured	culture	B-NP	VBN	B-cell_line	24	NMOD	0
+23	luteal	luteal	I-NP	JJ	I-cell_line	24	NMOD	-1
+24	cells	cell	I-NP	NNS	I-cell_line	21	PMOD	-1
+25	.	.	O	.	O	5	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	determine	determine	I-VP	VB	O	17	VMOD	-1
+3	whether	whether	B-SBAR	IN	O	2	VMOD	-1
+4	changes	change	B-NP	NNS	O	7	SUB	16	changes
+5	in	in	B-PP	IN	O	4	NMOD	-1
+6	angiogenesis	angiogenesis	B-NP	NN	O	5	PMOD	3	angiogenesis
+7	are	be	B-VP	VBP	O	3	SBAR	-1
+8	responsible	responsible	B-ADJP	JJ	O	7	PRD	16	responsible
+9	for	for	B-PP	IN	O	8	AMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	decrease	decrease	I-NP	NN	O	9	PMOD	18	decrease
+12	in	in	B-PP	IN	O	11	NMOD	-1
+13	progesterone	progesterone	B-NP	NN	O	14	NMOD	-1
+14	synthesis	synthesis	I-NP	NN	O	12	PMOD	8	synthesis
+15	,	,	O	,	O	17	P	-1
+16	we	we	B-NP	PRP	O	17	SUB	-1
+17	measured	measure	B-VP	VBD	O	0	ROOT	-1
+18	hemoglobin	hemoglobin	B-NP	NN	B-protein	21	NMOD	-1
+19	and	and	I-NP	CC	O	21	NMOD	-1
+20	CD34	CD34	I-NP	NN	B-protein	21	NMOD	-1
+21	levels	level	I-NP	NNS	O	17	OBJ	-1
+22	in	in	B-PP	IN	O	21	NMOD	-1
+23	luteinized	luteinize	B-NP	VBN	O	24	NMOD	2	luteinized
+24	ovaries	ovary	I-NP	NNS	O	22	PMOD	-1
+25	following	follow	B-PP	VBG	O	21	NMOD	-1
+26	injection	injection	B-NP	NN	O	25	PMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	COX	COX	B-NP	NN	O	29	NMOD	-1
+29	inhibitors	inhibitor	I-NP	NNS	O	27	PMOD	-1
+30	and	and	O	CC	O	17	VMOD	-1
+31	measured	measure	B-VP	VBD	O	17	VMOD	-1
+32	the	the	B-NP	DT	O	34	NMOD	-1
+33	relative	relative	I-NP	JJ	O	34	NMOD	-1
+34	frequency	frequency	I-NP	NN	O	31	OBJ	-1
+35	of	of	B-PP	IN	O	34	NMOD	-1
+36	cells	cell	B-NP	NNS	O	35	PMOD	-1
+37	positive	positive	B-ADJP	JJ	O	36	NMOD	0
+38	for	for	B-PP	IN	O	37	AMOD	-1
+39	platelet-endothelial	platelet-endothelial	B-NP	JJ	B-protein	42	NMOD	-1
+40	cell	cell	I-NP	NN	I-protein	42	NMOD	-1
+41	adhesion	adhesion	I-NP	NN	I-protein	42	NMOD	0
+42	molecule	molecule	I-NP	NN	I-protein	38	PMOD	-1
+43	as	as	B-PP	IN	O	31	VMOD	-1
+44	a	a	B-NP	DT	O	46	NMOD	-1
+45	specific	specific	I-NP	JJ	O	46	NMOD	-1
+46	marker	marker	I-NP	NN	O	43	PMOD	-1
+47	for	for	B-PP	IN	O	46	NMOD	-1
+48	endothelial	endothelial	B-NP	JJ	B-cell_type	49	NMOD	-1
+49	cells	cell	I-NP	NNS	I-cell_type	47	PMOD	-1
+50	.	.	O	.	O	17	P	-1
+
+1	All	All	B-NP	DT	O	5	SUB	-1
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	these	these	B-NP	DT	O	4	NMOD	-1
+4	parameters	parameter	I-NP	NNS	O	2	PMOD	-1
+5	were	be	B-VP	VBD	O	0	ROOT	-1
+6	reduced	reduce	I-VP	VBN	O	5	VC	0
+7	by	by	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	COX-II	COX-II	I-NP	NN	B-protein	10	NMOD	-1
+10	inhibitors	inhibitor	I-NP	NNS	I-protein	7	PMOD	-1
+11	,	,	O	,	O	5	P	-1
+12	suggesting	suggest	B-VP	VBG	O	5	VMOD	-1
+13	that	that	B-SBAR	IN	O	12	VMOD	-1
+14	changes	change	B-NP	NNS	O	18	SUB	16	changes
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	vasculature	vasculature	I-NP	NN	O	15	PMOD	-1
+18	are	be	B-VP	VBP	O	13	SBAR	-1
+19	responsible	responsible	B-ADJP	JJ	O	18	PRD	16	responsible
+20	for	for	B-PP	IN	O	19	AMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	decrease	decrease	I-NP	NN	O	20	PMOD	18	decrease
+23	in	in	B-PP	IN	O	22	NMOD	-1
+24	serum	serum	B-NP	NN	O	25	NMOD	-1
+25	progesterone	progesterone	I-NP	NN	O	23	PMOD	-1
+26	.	.	O	.	O	5	P	-1
+
+1	Histological	Histological	B-NP	JJ	O	2	NMOD	-1
+2	examination	examination	I-NP	NN	O	7	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	ovarian	ovarian	B-NP	JJ	O	6	NMOD	-1
+5	corrosion	corrosion	I-NP	NN	O	6	NMOD	-1
+6	casts	cast	I-NP	NNS	O	3	PMOD	-1
+7	indicated	indicate	B-VP	VBD	O	0	ROOT	-1
+8	that	that	B-SBAR	IN	O	7	VMOD	-1
+9	NS-398	NS-398	B-NP	NN	B-protein	10	SUB	-1
+10	inhibited	inhibit	B-VP	VBD	O	8	SBAR	18	inhibited
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	establishment	establishment	I-NP	NN	O	10	OBJ	2	establishment
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	luteal	luteal	B-NP	JJ	O	16	NMOD	-1
+15	capillary	capillary	I-NP	JJ	O	16	NMOD	-1
+16	vessels	vessel	I-NP	NNS	O	13	PMOD	-1
+17	following	follow	B-PP	VBG	O	10	VMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	injection	injection	I-NP	NN	O	17	PMOD	19	injection
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	hCG	hCG	B-NP	NN	O	20	PMOD	-1
+22	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	are	be	B-VP	VBP	O	0	ROOT	-1
+4	consistent	consistent	B-ADJP	JJ	O	3	PRD	-1
+5	with	with	B-PP	IN	O	4	AMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	hypothesis	hypothesis	I-NP	NN	O	5	PMOD	-1
+8	that	that	B-SBAR	IN	O	7	NMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	activity	activity	I-NP	NN	O	13	SUB	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	COX-II	COX-II	B-NP	NN	B-protein	11	PMOD	-1
+13	is	be	B-VP	VBZ	O	8	SBAR	-1
+14	associated	associate	I-VP	VBN	O	13	VC	16	associated
+15	with	with	B-PP	IN	O	14	VMOD	-1
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	formation	formation	I-NP	NN	O	15	PMOD	2	formation
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	functional	functional	B-NP	JJ	O	20	NMOD	-1
+20	CL	CL	I-NP	NN	O	18	PMOD	-1
+21	via	via	B-PP	IN	O	17	NMOD	0
+22	its	its	B-NP	PRP$	O	23	NMOD	-1
+23	stimulation	stimulation	I-NP	NN	O	21	PMOD	17	stimulation
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	.	.	O	.	O	3	P	-1
+

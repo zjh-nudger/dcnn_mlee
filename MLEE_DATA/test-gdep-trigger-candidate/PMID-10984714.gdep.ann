@@ -1,0 +1,190 @@
+1	Building	Build	B-VP	VBG	O	0	ROOT	2	Building
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	vertebrate	vertebrate	I-NP	NN	O	4	NMOD	-1
+4	vasculature	vasculature	I-NP	NN	O	1	OBJ	-1
+5	:	:	O	:	O	1	P	-1
+6	research	research	B-NP	NN	O	7	SUB	-1
+7	is	be	B-VP	VBZ	O	1	VMOD	-1
+8	going	go	I-VP	VBG	O	7	VC	-1
+9	swimmingly	swimmingly	B-ADVP	RB	O	8	VMOD	-1
+10	.	.	O	.	O	1	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	vertebrate	vertebrate	I-NP	NN	O	3	NMOD	-1
+3	vasculature	vasculature	I-NP	NN	O	4	SUB	-1
+4	develops	develop	B-VP	VBZ	O	0	ROOT	2	develops
+5	in	in	B-PP	IN	O	4	VMOD	-1
+6	remarkably	remarkably	B-NP	RB	O	7	AMOD	-1
+7	similar	similar	I-NP	JJ	O	8	NMOD	-1
+8	fashion	fashion	I-NP	NN	O	5	PMOD	-1
+9	in	in	B-PP	IN	O	4	VMOD	-1
+10	all	all	B-NP	DT	O	11	NMOD	-1
+11	vertebrates	vertebrate	I-NP	NNS	O	9	PMOD	-1
+12	.	.	O	.	O	4	P	-1
+
+1	A	A	B-NP	DT	O	2	NMOD	-1
+2	cohort	cohort	I-NP	NN	O	7	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	unspecified	unspecified	B-NP	JJ	B-cell_type	6	NMOD	-1
+5	mesodermal	mesodermal	I-NP	JJ	I-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	-1
+7	differentiates	differentiate	B-VP	VBZ	O	0	ROOT	2	differentiates
+8	into	into	B-PP	IN	O	7	VMOD	-1
+9	primitive	primitive	B-NP	JJ	B-cell_type	11	NMOD	-1
+10	endothelial	endothelial	I-NP	JJ	I-cell_type	11	NMOD	-1
+11	cells	cell	I-NP	NNS	I-cell_type	8	PMOD	-1
+12	,	,	O	,	O	11	P	-1
+13	which	which	B-NP	WDT	O	11	NMOD	-1
+14	migrate	migrate	B-VP	VBP	O	13	SBAR	14	migrate
+15	to	to	B-PP	TO	O	14	VMOD	-1
+16	and	and	O	CC	O	15	PMOD	-1
+17	occupy	occupy	B-NP	JJ	O	18	NMOD	-1
+18	positions	position	I-NP	NNS	O	15	PMOD	-1
+19	within	within	B-PP	IN	O	18	NMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	stereotypical	stereotypical	I-NP	JJ	O	22	NMOD	-1
+22	blueprint	blueprint	I-NP	NN	O	19	PMOD	-1
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	the	the	B-NP	DT	O	26	NMOD	-1
+25	primitive	primitive	I-NP	JJ	O	26	NMOD	-1
+26	vasculature	vasculature	I-NP	NN	O	23	PMOD	-1
+27	.	.	O	.	O	7	P	-1
+
+1	Once	Once	O	RB	O	10	VMOD	-1
+2	in	in	B-PP	IN	O	1	AMOD	-1
+3	position	position	B-NP	NN	O	2	PMOD	-1
+4	,	,	O	,	O	10	P	-1
+5	these	these	B-NP	DT	O	6	NMOD	-1
+6	cells	cell	I-NP	NNS	O	10	NMOD	-1
+7	coalesce	coalesce	I-NP	NN	O	10	NMOD	14	coalesce
+8	and	and	I-NP	CC	O	10	NMOD	-1
+9	form	form	I-NP	NN	O	10	NMOD	2	form
+10	cords	cord	I-NP	NNS	O	0	ROOT	-1
+11	,	,	O	,	O	10	P	-1
+12	which	which	B-NP	WDT	O	10	NMOD	-1
+13	lumenize	lumenize	B-VP	VBP	O	12	SBAR	2	lumenize
+14	and	and	O	CC	O	13	VMOD	-1
+15	become	become	B-VP	VBP	O	13	VMOD	-1
+16	ensheathed	ensheathe	I-VP	VBN	O	15	VC	14	ensheathed
+17	by	by	B-PP	IN	O	16	VMOD	-1
+18	supporting	support	B-VP	VBG	O	17	PMOD	0
+19	pericytes	pericyte	B-NP	NNS	O	23	NMOD	-1
+20	and	and	O	CC	O	23	NMOD	-1
+21	smooth	smooth	B-NP	JJ	B-cell_type	23	NMOD	-1
+22	muscle	muscle	I-NP	NN	I-cell_type	23	NMOD	-1
+23	cells	cell	I-NP	NNS	I-cell_type	18	OBJ	-1
+24	.	.	O	.	O	10	P	-1
+
+1	This	This	B-NP	DT	O	4	NMOD	-1
+2	primitive	primitive	I-NP	JJ	O	4	NMOD	-1
+3	vascular	vascular	I-NP	JJ	O	4	NMOD	-1
+4	network	network	I-NP	NN	O	5	SUB	-1
+5	is	be	B-VP	VBZ	O	0	ROOT	-1
+6	extensively	extensively	I-VP	RB	O	5	VMOD	-1
+7	remodeled	remodel	I-VP	VBN	O	5	VC	7	remodeled
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	some	some	B-NP	DT	O	10	NMOD	-1
+10	places	place	I-NP	NNS	O	8	PMOD	-1
+11	,	,	O	,	O	5	P	-1
+12	and	and	O	CC	O	5	VMOD	-1
+13	expanded	expand	B-VP	VBN	O	5	VC	-1
+14	by	by	B-PP	IN	O	13	VMOD	-1
+15	sprouting	sprout	B-VP	VBG	O	14	PMOD	0
+16	in	in	B-PP	IN	O	15	VMOD	-1
+17	others	other	B-NP	NNS	O	16	PMOD	-1
+18	.	.	O	.	O	5	P	-1
+
+1	Various	Various	B-NP	JJ	O	2	NMOD	-1
+2	studies	study	I-NP	NNS	O	11	SUB	-1
+3	using	use	B-VP	VBG	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	mouse	mouse	I-NP	NN	O	10	NMOD	-1
+6	,	,	O	,	O	10	P	-1
+7	quail/chick	quail/chick	B-NP	NN	O	10	NMOD	-1
+8	,	,	O	,	O	10	P	-1
+9	and	and	O	CC	O	10	NMOD	-1
+10	frog	frog	B-NP	NN	O	3	OBJ	-1
+11	have	have	B-VP	VBP	O	0	ROOT	-1
+12	uncovered	uncover	I-VP	VBN	O	11	VC	-1
+13	a	a	B-NP	DT	O	14	NMOD	-1
+14	number	number	I-NP	NN	O	24	NMOD	-1
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	signals	signal	B-NP	NNS	O	15	PMOD	0
+17	that	that	B-NP	WDT	O	16	NMOD	-1
+18	guide	guide	B-VP	VBP	O	17	SBAR	-1
+19	these	these	B-NP	DT	O	21	NMOD	-1
+20	complex	complex	I-NP	JJ	O	21	NMOD	-1
+21	processes	process	I-NP	NNS	O	18	OBJ	-1
+22	but	but	O	CC	O	24	NMOD	-1
+23	many	many	B-NP	JJ	O	24	NMOD	-1
+24	gaps	gap	I-NP	NNS	O	26	SUB	-1
+25	still	still	B-ADVP	RB	O	26	VMOD	-1
+26	exist	exist	B-VP	VBP	O	12	VMOD	-1
+27	in	in	B-PP	IN	O	26	VMOD	-1
+28	our	our	B-NP	PRP$	O	29	NMOD	-1
+29	understanding	understanding	I-NP	NN	O	27	PMOD	-1
+30	of	of	B-PP	IN	O	29	NMOD	-1
+31	the	the	B-NP	DT	O	32	NMOD	-1
+32	mechanisms	mechanism	I-NP	NNS	O	30	PMOD	-1
+33	by	by	B-PP	IN	O	32	NMOD	-1
+34	which	which	B-NP	WDT	O	33	PMOD	-1
+35	the	the	B-NP	DT	O	37	NMOD	-1
+36	embryonic	embryonic	I-NP	JJ	O	37	NMOD	-1
+37	vasculature	vasculature	I-NP	NN	O	38	SUB	-1
+38	is	be	B-VP	VBZ	O	33	SBAR	-1
+39	built	build	I-VP	VBN	O	38	VC	2	built
+40	.	.	O	.	O	11	P	-1
+
+1	Because	Because	B-SBAR	IN	O	33	VMOD	-1
+2	many	many	B-NP	JJ	O	3	NMOD	-1
+3	questions	question	I-NP	NNS	O	4	SUB	-1
+4	will	will	B-VP	MD	O	1	SBAR	-1
+5	require	require	I-VP	VB	O	4	VC	0
+6	in	in	B-NP	FW	O	7	AMOD	-1
+7	vivo	vivo	I-NP	FW	O	8	NMOD	-1
+8	studies	study	I-NP	NNS	O	10	SUB	-1
+9	to	to	B-VP	TO	O	10	VMOD	-1
+10	be	be	I-VP	VB	O	5	VMOD	-1
+11	properly	properly	I-VP	RB	O	10	VMOD	-1
+12	addressed	address	I-VP	VBN	O	10	VC	-1
+13	,	,	O	,	O	33	P	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	zebrafish	zebrafish	I-NP	NN	O	33	SUB	-1
+16	,	,	O	,	O	15	P	-1
+17	with	with	B-PP	IN	O	15	NMOD	-1
+18	its	its	B-NP	PRP$	O	20	NMOD	-1
+19	unique	unique	I-NP	JJ	O	20	NMOD	-1
+20	accessibility	accessibility	I-NP	NN	O	17	PMOD	-1
+21	to	to	B-PP	TO	O	20	NMOD	-1
+22	analysis	analysis	B-NP	NN	O	21	PMOD	-1
+23	by	by	B-PP	IN	O	15	NMOD	-1
+24	combined	combine	B-NP	VBN	O	31	NMOD	-1
+25	embryological	embryological	I-NP	JJ	O	31	NMOD	-1
+26	,	,	I-NP	,	O	31	P	-1
+27	molecular	molecular	I-NP	JJ	O	31	NMOD	-1
+28	,	,	O	,	O	31	P	-1
+29	and	and	O	CC	O	31	NMOD	-1
+30	genetic	genetic	B-NP	JJ	O	31	NMOD	-1
+31	methods	method	I-NP	NNS	O	23	PMOD	-1
+32	,	,	O	,	O	15	P	-1
+33	should	should	B-VP	MD	O	0	ROOT	-1
+34	prove	prove	I-VP	VB	O	33	VC	-1
+35	invaluable	invaluable	B-ADJP	JJ	O	34	PRD	-1
+36	in	in	B-PP	IN	O	35	AMOD	-1
+37	identifying	identify	B-VP	VBG	O	36	PMOD	-1
+38	new	new	B-NP	JJ	O	39	NMOD	-1
+39	molecules	molecule	I-NP	NNS	O	37	OBJ	-1
+40	involved	involve	B-VP	VBN	O	39	NMOD	0
+41	in	in	B-PP	IN	O	40	VMOD	-1
+42	blood	blood	B-NP	NN	O	44	NMOD	-1
+43	vessel	vessel	I-NP	NN	O	44	NMOD	-1
+44	development	development	I-NP	NN	O	47	NMOD	2	development
+45	and	and	O	CC	O	47	NMOD	-1
+46	integrating	integrating	B-NP	JJ	O	47	NMOD	-1
+47	pathways	pathway	I-NP	NNS	O	41	PMOD	0
+48	that	that	B-NP	WDT	O	47	NMOD	-1
+49	influence	influence	B-VP	VBP	O	48	SBAR	0
+50	embryonic	embryonic	B-NP	JJ	O	53	NMOD	-1
+51	blood	blood	I-NP	NN	O	53	NMOD	-1
+52	vessel	vessel	I-NP	NN	O	53	NMOD	-1
+53	formation	formation	I-NP	NN	O	49	OBJ	2	formation

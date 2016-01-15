@@ -1,0 +1,218 @@
+1	MEK5/ERK5	MEK5/ERK5	B-NP	NN	O	2	NMOD	-1
+2	signaling	signaling	I-NP	NN	O	3	SUB	0
+3	modulates	modulate	B-VP	VBZ	O	0	ROOT	16	modulates
+4	endothelial	endothelial	B-NP	JJ	O	6	NMOD	-1
+5	cell	cell	I-NP	NN	O	6	NMOD	-1
+6	migration	migration	I-NP	NN	O	10	NMOD	14	migration
+7	and	and	O	CC	O	10	NMOD	-1
+8	focal	focal	B-NP	JJ	O	10	NMOD	-1
+9	contact	contact	I-NP	NN	O	10	NMOD	0
+10	turnover	turnover	I-NP	NN	O	3	OBJ	0
+11	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	formation	formation	I-NP	NN	O	10	SUB	2	formation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	new	new	B-NP	JJ	O	6	NMOD	-1
+5	blood	blood	I-NP	NN	O	6	NMOD	-1
+6	vessels	vessel	I-NP	NNS	O	3	PMOD	-1
+7	from	from	B-PP	IN	O	6	NMOD	-1
+8	pre-existing	pre-existing	B-NP	JJ	O	9	NMOD	-1
+9	ones	one	I-NP	NNS	O	7	PMOD	-1
+10	requires	require	B-VP	VBZ	O	0	ROOT	17	requires
+11	highly	highly	B-NP	RB	O	12	AMOD	-1
+12	coordinated	coordinate	I-NP	VBN	O	13	NMOD	-1
+13	restructuring	restructuring	I-NP	NN	O	24	NMOD	7	restructuring
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	-1
+17	(	(	O	(	O	19	DEP	-1
+18	EC	EC	B-NP	NNS	B-cell_type	19	DEP	-1
+19	)	)	O	)	O	16	NMOD	-1
+20	and	and	O	CC	O	24	NMOD	-1
+21	the	the	B-NP	DT	O	24	NMOD	-1
+22	surrounding	surround	I-NP	VBG	O	24	NMOD	-1
+23	extracellular	extracellular	I-NP	JJ	O	24	NMOD	-1
+24	matrix	matrix	I-NP	NN	O	10	OBJ	-1
+25	.	.	O	.	O	10	P	-1
+
+1	Directed	Direct	B-NP	VBN	O	3	NMOD	-1
+2	EC	EC	I-NP	NN	O	3	NMOD	-1
+3	migration	migration	I-NP	NN	O	4	SUB	14	migration
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	a	a	B-NP	DT	O	7	NMOD	-1
+6	central	central	I-NP	JJ	O	7	NMOD	-1
+7	step	step	I-NP	NN	O	4	PRD	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	this	this	B-NP	DT	O	10	NMOD	-1
+10	process	process	I-NP	NN	O	8	PMOD	-1
+11	and	and	O	CC	O	4	VMOD	-1
+12	depends	depend	B-VP	VBZ	O	4	VMOD	0
+13	on	on	B-PP	IN	O	12	VMOD	-1
+14	cellular	cellular	B-NP	JJ	O	16	NMOD	-1
+15	signaling	signaling	I-NP	NN	O	16	NMOD	0
+16	cascades	cascade	I-NP	NNS	O	13	PMOD	-1
+17	that	that	B-NP	WDT	O	16	NMOD	-1
+18	initiate	initiate	B-VP	VBP	O	17	SBAR	0
+19	and	and	I-VP	CC	O	18	VMOD	-1
+20	control	control	I-VP	VBP	O	18	VMOD	0
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	structural	structural	I-NP	JJ	O	23	NMOD	-1
+23	rearrangements	rearrangement	I-NP	NNS	O	20	OBJ	-1
+24	.	.	O	.	O	4	P	-1
+
+1	On	On	B-PP	IN	O	22	VMOD	-1
+2	the	the	B-NP	DT	O	3	NMOD	-1
+3	basis	basis	I-NP	NN	O	1	PMOD	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	earlier	early	B-NP	JJR	O	6	NMOD	-1
+6	findings	finding	I-NP	NNS	O	4	PMOD	-1
+7	that	that	B-SBAR	IN	O	1	PMOD	-1
+8	ERK5	ERK5	B-NP	NN	B-protein	9	NMOD	-1
+9	deficiency	deficiency	I-NP	NN	O	13	SUB	9	deficiency
+10	in	in	B-PP	IN	O	9	NMOD	-1
+11	mouse	mouse	B-NP	NN	B-cell_line	12	NMOD	-1
+12	EC	EC	I-NP	NN	I-cell_line	10	PMOD	-1
+13	results	result	B-VP	VBZ	O	7	SBAR	17	results
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	massive	massive	B-NP	JJ	O	16	NMOD	-1
+16	defects	defect	I-NP	NNS	O	14	PMOD	18	defects
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	vessel	vessel	B-NP	NN	O	19	NMOD	-1
+19	architecture	architecture	I-NP	NN	O	17	PMOD	-1
+20	,	,	O	,	O	22	P	-1
+21	we	we	B-NP	PRP	O	22	SUB	-1
+22	focused	focus	B-VP	VBD	O	0	ROOT	-1
+23	on	on	B-PP	IN	O	22	VMOD	-1
+24	the	the	B-NP	DT	O	25	NMOD	-1
+25	impact	impact	I-NP	NN	O	23	PMOD	16	impact
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	the	the	B-NP	DT	O	30	NMOD	-1
+28	MEK5/ERK5	MEK5/ERK5	I-NP	NN	B-protein	30	NMOD	-1
+29	signaling	signaling	I-NP	NN	O	30	NMOD	0
+30	pathway	pathway	I-NP	NN	O	26	PMOD	0
+31	on	on	B-PP	IN	O	25	NMOD	-1
+32	EC	EC	B-NP	NN	B-cell_type	33	NMOD	-1
+33	migration	migration	I-NP	NN	O	31	PMOD	14	migration
+34	.	.	O	.	O	22	P	-1
+
+1	Using	Use	B-VP	VBG	O	9	VMOD	-1
+2	a	a	B-NP	DT	O	6	NMOD	-1
+3	retroviral	retroviral	I-NP	JJ	O	6	NMOD	-1
+4	gene	gene	I-NP	NN	O	6	NMOD	-1
+5	transfer	transfer	I-NP	NN	O	6	NMOD	-1
+6	approach	approach	I-NP	NN	O	1	OBJ	-1
+7	,	,	O	,	O	9	P	-1
+8	we	we	B-NP	PRP	O	9	SUB	-1
+9	found	find	B-VP	VBD	O	0	ROOT	0
+10	that	that	B-SBAR	IN	O	9	VMOD	-1
+11	constitutive	constitutive	B-NP	JJ	O	12	NMOD	-1
+12	activation	activation	I-NP	NN	O	17	SUB	17	activation
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	MEK5/ERK5	MEK5/ERK5	B-NP	NN	B-protein	15	NMOD	-1
+15	signaling	signaling	I-NP	NN	O	13	PMOD	0
+16	strongly	strongly	B-VP	RB	O	17	VMOD	-1
+17	inhibits	inhibit	I-VP	VBZ	O	10	SBAR	18	inhibits
+18	EC	EC	B-NP	NN	B-cell_type	19	NMOD	-1
+19	migration	migration	I-NP	NN	O	17	OBJ	14	migration
+20	and	and	O	CC	O	17	VMOD	-1
+21	results	result	B-VP	VBZ	O	17	VMOD	0
+22	in	in	B-PP	IN	O	21	VMOD	-1
+23	massive	massive	B-NP	JJ	O	25	NMOD	-1
+24	morphological	morphological	I-NP	JJ	O	25	NMOD	-1
+25	changes	change	I-NP	NNS	O	22	PMOD	0
+26	.	.	O	.	O	9	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	area	area	I-NP	NN	O	7	SUB	-1
+3	covered	cover	B-VP	VBN	O	2	NMOD	-1
+4	by	by	B-PP	IN	O	3	VMOD	-1
+5	spread	spread	B-NP	NN	O	6	NMOD	14	spread
+6	EC	EC	I-NP	NN	O	4	PMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	dramatically	dramatically	I-VP	RB	O	7	VMOD	-1
+9	enlarged	enlarge	I-VP	VBN	O	7	VC	-1
+10	,	,	O	,	O	9	P	-1
+11	accompanied	accompany	B-VP	VBN	O	9	VMOD	-1
+12	by	by	B-PP	IN	O	11	VMOD	-1
+13	an	an	B-NP	DT	O	14	NMOD	-1
+14	increase	increase	I-NP	NN	O	12	PMOD	0
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	focal	focal	B-NP	JJ	O	17	NMOD	-1
+17	contacts	contact	I-NP	NNS	O	20	NMOD	-1
+18	and	and	O	CC	O	20	NMOD	-1
+19	altered	altered	B-NP	JJ	O	20	NMOD	0
+20	organization	organization	I-NP	NN	O	15	PMOD	7	organization
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	actin	actin	B-NP	NN	B-protein	23	NMOD	-1
+23	filaments	filament	I-NP	NNS	I-protein	21	PMOD	-1
+24	.	.	O	.	O	7	P	-1
+
+1	Consequently	Consequently	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	cells	cell	B-NP	NNS	O	4	SUB	-1
+4	were	be	B-VP	VBD	O	0	ROOT	-1
+5	more	more	B-ADJP	RBR	O	6	AMOD	-1
+6	rigid	rigid	I-ADJP	JJ	O	4	PRD	-1
+7	and	and	O	CC	O	4	VMOD	-1
+8	show	show	B-VP	VBP	O	4	VMOD	-1
+9	reduced	reduce	B-NP	VBN	O	10	NMOD	18	reduced
+10	motility	motility	I-NP	NN	O	8	OBJ	14	motility
+11	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	phenotype	phenotype	I-NP	NN	O	3	SUB	-1
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	most	most	I-VP	RBS	O	5	AMOD	-1
+5	likely	likely	I-VP	RB	O	6	VMOD	-1
+6	based	base	I-VP	VBN	O	3	VC	-1
+7	on	on	B-PP	IN	O	6	VMOD	-1
+8	decreased	decrease	B-NP	VBN	O	11	NMOD	0
+9	focal	focal	I-NP	JJ	O	11	NMOD	-1
+10	contact	contact	I-NP	NN	O	11	NMOD	0
+11	turnover	turnover	I-NP	NN	O	7	PMOD	0
+12	caused	cause	B-VP	VBN	O	11	NMOD	0
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	reduced	reduce	B-NP	VBN	O	15	NMOD	18	reduced
+15	expression	expression	I-NP	NN	O	13	PMOD	9	expression
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	p130Cas	p130Cas	B-NP	NN	B-protein	21	NMOD	-1
+18	,	,	O	,	O	21	P	-1
+19	a	a	B-NP	DT	O	21	NMOD	-1
+20	key	key	I-NP	JJ	O	21	NMOD	-1
+21	player	player	I-NP	NN	O	16	PMOD	-1
+22	in	in	B-PP	IN	O	15	NMOD	-1
+23	directed	direct	B-NP	VBN	O	25	NMOD	-1
+24	cell	cell	I-NP	NN	O	25	NMOD	-1
+25	migration	migration	I-NP	NN	O	22	PMOD	14	migration
+26	.	.	O	.	O	3	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+3	for	for	B-PP	IN	O	2	VMOD	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	first	first	I-NP	JJ	O	6	NMOD	-1
+6	time	time	I-NP	NN	O	3	PMOD	-1
+7	that	that	B-ADVP	IN	O	2	VMOD	-1
+8	ERK5	ERK5	B-NP	NN	B-protein	9	NMOD	-1
+9	signaling	signaling	I-NP	NN	O	12	SUB	0
+10	not	not	B-CONJP	RB	O	12	VMOD	-1
+11	only	only	I-CONJP	RB	O	10	DEP	-1
+12	is	be	B-VP	VBZ	O	7	SBAR	-1
+13	involved	involve	I-VP	VBN	O	12	VC	16	involved
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	EC	EC	B-NP	NN	B-cell_type	16	NMOD	-1
+16	survival	survival	I-NP	NN	O	19	NMOD	5	survival
+17	and	and	O	CC	O	19	NMOD	-1
+18	stress	stress	B-NP	NN	O	19	NMOD	-1
+19	response	response	I-NP	NN	O	14	PMOD	0
+20	but	but	B-CONJP	CC	O	12	VMOD	-1
+21	also	also	I-CONJP	RB	O	20	DEP	-1
+22	controls	control	B-VP	VBZ	O	12	VMOD	16	controls
+23	migration	migration	B-NP	NN	O	25	NMOD	14	migration
+24	and	and	I-NP	CC	O	25	NMOD	-1
+25	morphology	morphology	I-NP	NN	O	22	OBJ	-1
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	EC	EC	B-NP	NN	B-cell_type	26	PMOD	-1
+28	.	.	O	.	O	2	P	-1
+

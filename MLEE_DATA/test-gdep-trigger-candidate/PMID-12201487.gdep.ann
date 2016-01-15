@@ -1,0 +1,327 @@
+1	Antiangiogenic	Antiangiogenic	B-NP	JJ	O	3	AMOD	3	angiogenic
+2	and	and	I-NP	CC	O	3	AMOD	-1
+3	antitumor	antitumor	I-NP	JJ	O	4	NMOD	-1
+4	effects	effect	I-NP	NNS	O	0	ROOT	18	effects
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	a	a	B-NP	DT	O	10	NMOD	-1
+7	protein	protein	I-NP	NN	O	10	NMOD	-1
+8	kinase	kinase	I-NP	NN	O	10	NMOD	-1
+9	Cbeta	Cbeta	I-NP	NN	O	10	NMOD	-1
+10	inhibitor	inhibitor	I-NP	NN	O	5	PMOD	0
+11	in	in	B-PP	IN	O	4	NMOD	-1
+12	human	human	B-NP	JJ	O	14	NMOD	-1
+13	breast	breast	I-NP	NN	O	14	NMOD	-1
+14	cancer	cancer	I-NP	NN	O	18	NMOD	-1
+15	and	and	O	CC	O	18	NMOD	-1
+16	ovarian	ovarian	B-NP	JJ	O	18	NMOD	-1
+17	cancer	cancer	I-NP	NN	O	18	NMOD	-1
+18	xenografts	xenograft	I-NP	NNS	O	11	PMOD	-1
+19	.	.	O	.	O	4	P	-1
+
+1	In	In	B-PP	IN	O	18	VMOD	-1
+2	cell	cell	B-NP	NN	B-cell_line	3	NMOD	-1
+3	culture	culture	I-NP	NN	I-cell_line	1	PMOD	19	culture
+4	,	,	O	,	O	18	P	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	compound	compound	I-NP	NN	O	8	NMOD	-1
+7	317615	317615	I-NP	CD	O	8	NMOD	-1
+8	2HCl	2HCl	I-NP	NN	O	12	NMOD	-1
+9	,	,	O	,	O	12	P	-1
+10	a	a	B-NP	DT	O	12	NMOD	-1
+11	potent	potent	I-NP	JJ	O	12	NMOD	-1
+12	inhibitor	inhibitor	I-NP	NN	O	18	SUB	18	inhibitor
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	VEGF-stimulated	VEGF-stimulated	B-NP	JJ	O	16	NMOD	17	stimulated
+15	HUVEC	HUVEC	I-NP	NN	O	16	NMOD	-1
+16	proliferation	proliferation	I-NP	NN	O	13	PMOD	1	proliferation
+17	,	,	O	,	O	12	P	-1
+18	was	be	B-VP	VBD	O	0	ROOT	-1
+19	not	not	O	RB	O	18	VMOD	-1
+20	very	very	B-ADJP	RB	O	21	AMOD	-1
+21	effective	effective	I-ADJP	JJ	O	18	PRD	0
+22	against	against	B-PP	IN	O	18	VMOD	0
+23	MX-1	MX-1	B-NP	NN	B-cell_line	26	NMOD	-1
+24	breast	breast	I-NP	NN	I-cell_line	26	NMOD	-1
+25	cancer	cancer	I-NP	NN	I-cell_line	26	NMOD	-1
+26	cells	cell	I-NP	NNS	I-cell_line	36	NMOD	-1
+27	(	(	O	(	O	31	DEP	-1
+28	IC50=	IC50=	B-NP	NN	O	30	NMOD	-1
+29	8.1	8.1	I-NP	CD	O	30	NMOD	-1
+30	microM	microM	I-NP	NN	O	31	DEP	-1
+31	)	)	O	)	O	26	NMOD	-1
+32	or	or	O	CC	O	36	NMOD	-1
+33	SKOV-3	SKOV-3	B-NP	NN	B-cell_line	36	NMOD	-1
+34	ovarian	ovarian	I-NP	JJ	I-cell_line	36	NMOD	-1
+35	carcinoma	carcinoma	I-NP	NN	I-cell_line	36	NMOD	-1
+36	cells	cell	I-NP	NNS	I-cell_line	22	PMOD	-1
+37	(	(	O	(	O	42	DEP	-1
+38	IC50	IC50	B-NP	NN	O	42	DEP	-1
+39	=	=	B-VP	SYM	O	38	NMOD	-1
+40	9.5	9.5	B-NP	CD	O	41	NMOD	-1
+41	microM	microM	I-NP	NN	O	39	AMOD	-1
+42	)	)	O	)	O	36	NMOD	-1
+43	.	.	O	.	O	18	P	-1
+
+1	Exposure	Exposure	B-NP	NN	O	17	SUB	19	Exposure
+2	to	to	B-PP	TO	O	1	NMOD	-1
+3	combinations	combination	B-NP	NNS	O	2	PMOD	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	paclitaxel	paclitaxel	B-NP	NN	O	7	NMOD	-1
+6	or	or	I-NP	CC	O	7	NMOD	-1
+7	carboplatin	carboplatin	I-NP	NN	O	11	NMOD	-1
+8	and	and	O	CC	O	11	NMOD	-1
+9	317615	317615	B-NP	CD	O	11	NMOD	-1
+10	x	x	I-NP	NN	O	11	NMOD	-1
+11	2HCl	2HCl	I-NP	NN	O	4	PMOD	-1
+12	with	with	B-PP	IN	O	11	NMOD	-1
+13	MX-1	MX-1	B-NP	NN	B-cell_line	14	NMOD	-1
+14	cells	cell	I-NP	NNS	I-cell_line	12	PMOD	-1
+15	in	in	B-PP	IN	O	14	NMOD	-1
+16	culture	culture	B-NP	NN	O	15	PMOD	0
+17	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+18	in	in	B-PP	IN	O	17	VMOD	-1
+19	cell	cell	B-NP	NN	O	20	NMOD	-1
+20	survival	survival	I-NP	NN	O	18	PMOD	5	survival
+21	that	that	B-NP	WDT	O	20	NMOD	-1
+22	reflected	reflect	B-VP	VBD	O	21	SBAR	-1
+23	primarily	primarily	B-NP	RB	O	24	NMOD	-1
+24	additivity	additivity	I-NP	NN	O	22	OBJ	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	the	the	B-NP	DT	O	28	NMOD	-1
+27	two	two	I-NP	CD	O	28	NMOD	-1
+28	agents	agent	I-NP	NNS	O	25	PMOD	-1
+29	.	.	O	.	O	17	P	-1
+
+1	Exposure	Exposure	B-NP	NN	O	13	SUB	19	Exposure
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	SKOV-3	SKOV-3	B-NP	NN	B-cell_line	4	NMOD	-1
+4	cells	cell	I-NP	NNS	I-cell_line	2	PMOD	-1
+5	to	to	B-PP	TO	O	1	NMOD	-1
+6	paclitaxel	paclitaxel	B-NP	NN	O	8	NMOD	-1
+7	or	or	I-NP	CC	O	8	NMOD	-1
+8	carboplatin	carboplatin	I-NP	NN	B-protein	5	PMOD	-1
+9	along	along	B-PP	IN	O	1	NMOD	-1
+10	with	with	B-PP	IN	O	9	PMOD	-1
+11	317615	317615	B-NP	CD	O	12	NMOD	-1
+12	2HCl	2HCl	I-NP	NN	O	10	PMOD	-1
+13	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	cell	cell	B-NP	NN	O	16	NMOD	-1
+16	survivals	survival	I-NP	NNS	O	14	PMOD	5	survivals
+17	that	that	B-NP	WDT	O	16	NMOD	-1
+18	reflected	reflect	B-VP	VBD	O	17	SBAR	-1
+19	additivity	additivity	B-NP	NN	O	18	OBJ	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	317615	317615	B-NP	CD	O	23	NMOD	-1
+22	x	x	I-NP	SYM	O	23	NMOD	-1
+23	2HCl	2HCl	I-NP	NN	O	20	PMOD	-1
+24	with	with	B-PP	IN	O	23	NMOD	-1
+25	paclitaxel	paclitaxel	B-NP	NN	O	28	NMOD	-1
+26	and	and	O	CC	O	28	NMOD	-1
+27	greater-than-additive	greater-than-additive	B-NP	JJ	O	28	NMOD	-1
+28	cytotoxicity	cytotoxicity	I-NP	NN	O	24	PMOD	-1
+29	with	with	B-PP	IN	O	28	NMOD	-1
+30	carboplatin	carboplatin	B-NP	NN	B-protein	29	PMOD	-1
+31	.	.	O	.	O	13	P	-1
+
+1	Administration	Administration	B-NP	NN	O	19	SUB	19	Administration
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	317615	317615	B-NP	CD	O	5	NMOD	-1
+4	x	x	I-NP	SYM	O	5	NMOD	-1
+5	2HCI	2HCI	I-NP	NN	O	2	PMOD	-1
+6	orally	orally	B-ADVP	RB	O	1	NMOD	-1
+7	twice	twice	I-ADVP	RB	O	6	AMOD	-1
+8	daily	daily	B-ADVP	RB	O	6	AMOD	-1
+9	to	to	B-PP	TO	O	6	AMOD	-1
+10	nude	nude	B-NP	JJ	O	11	NMOD	-1
+11	mice	mouse	I-NP	NNS	O	9	PMOD	-1
+12	bearing	bear	B-VP	VBG	O	11	NMOD	-1
+13	subcutaneous	subcutaneous	B-NP	JJ	O	15	NMOD	-1
+14	MX-1	MX-1	I-NP	NN	O	15	NMOD	-1
+15	tumors	tumor	I-NP	NNS	O	18	NMOD	-1
+16	or	or	O	CC	O	18	NMOD	-1
+17	SKOV-3	SKOV-3	B-NP	NN	O	18	NMOD	-1
+18	tumors	tumor	I-NP	NNS	O	12	OBJ	-1
+19	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+20	in	in	B-PP	IN	O	19	VMOD	-1
+21	a	a	B-NP	DT	O	23	NMOD	-1
+22	decreased	decrease	I-NP	VBN	O	23	NMOD	18	decreased
+23	number	number	I-NP	NN	O	20	PMOD	-1
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	intratumoral	intratumoral	B-NP	JJ	O	26	NMOD	-1
+26	vessels	vessel	I-NP	NNS	O	24	PMOD	-1
+27	as	as	B-SBAR	IN	O	19	VMOD	-1
+28	determined	determine	B-VP	VBN	O	27	SBAR	-1
+29	by	by	B-PP	IN	O	28	VMOD	-1
+30	CD31	CD31	B-NP	NN	B-protein	33	NMOD	-1
+31	and	and	I-NP	CC	O	33	NMOD	-1
+32	CD105	CD105	I-NP	NN	B-protein	33	NMOD	-1
+33	staining	staining	I-NP	NN	O	29	PMOD	0
+34	with	with	B-PP	IN	O	33	NMOD	-1
+35	decreases	decrease	B-NP	NNS	O	34	PMOD	0
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	35	35	B-NP	CD	O	38	NMOD	-1
+38	%	%	I-NP	NN	O	41	NMOD	-1
+39	and	and	O	CC	O	41	NMOD	-1
+40	43	43	B-NP	CD	O	41	NMOD	-1
+41	%	%	I-NP	NN	O	36	PMOD	-1
+42	in	in	B-PP	IN	O	35	NMOD	-1
+43	MX-1	MX-1	B-NP	NN	O	44	NMOD	-1
+44	tumors	tumor	I-NP	NNS	O	50	NMOD	-1
+45	and	and	O	CC	O	50	NMOD	-1
+46	60	60	B-NP	CD	O	47	NMOD	-1
+47	%	%	I-NP	NN	O	50	NMOD	-1
+48	and	and	O	CC	O	50	NMOD	-1
+49	75	75	B-NP	CD	O	50	NMOD	-1
+50	%	%	I-NP	NN	O	42	PMOD	-1
+51	in	in	B-PP	IN	O	50	NMOD	-1
+52	SKOV-3	SKOV-3	B-NP	NN	O	53	NMOD	-1
+53	tumors	tumor	I-NP	NNS	O	51	PMOD	-1
+54	,	,	O	,	O	19	P	-1
+55	respectively	respectively	B-ADVP	RB	O	19	VMOD	-1
+56	.	.	O	.	O	19	P	-1
+
+1	317615	317615	B-NP	CD	O	3	NMOD	-1
+2	x	x	I-NP	NN	O	3	NMOD	-1
+3	2HCl	2HCl	I-NP	NN	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	an	an	B-NP	DT	O	8	NMOD	-1
+6	active	active	I-NP	JJ	O	7	AMOD	-1
+7	antitumor	antitumor	I-NP	JJ	O	8	NMOD	-1
+8	agent	agent	I-NP	NN	O	4	PRD	-1
+9	against	against	B-PP	IN	O	8	NMOD	18	against
+10	the	the	B-NP	DT	O	12	NMOD	-1
+11	MX-1	MX-1	I-NP	NN	B-protein	12	NMOD	-1
+12	xenograft	xenograft	I-NP	NN	O	9	PMOD	-1
+13	and	and	O	CC	O	4	VMOD	-1
+14	increased	increase	B-VP	VBD	O	4	VMOD	17	increased
+15	the	the	B-NP	DT	O	18	NMOD	-1
+16	tumor	tumor	I-NP	NN	O	18	NMOD	-1
+17	growth	growth	I-NP	NN	O	18	NMOD	4	growth
+18	delay	delay	I-NP	NN	O	14	OBJ	18	delay
+19	produced	produce	B-VP	VBN	O	18	NMOD	0
+20	by	by	B-PP	IN	O	19	VMOD	-1
+21	paclitaxel	paclitaxel	B-NP	NN	O	20	PMOD	-1
+22	by	by	B-PP	IN	O	19	VMOD	-1
+23	1.7-fold	1.7-fold	B-ADJP	JJ	O	28	NMOD	-1
+24	and	and	O	CC	O	28	NMOD	-1
+25	the	the	B-NP	DT	O	28	NMOD	-1
+26	tumor	tumor	I-NP	NN	O	28	NMOD	-1
+27	growth	growth	I-NP	NN	O	28	NMOD	4	growth
+28	delay	delay	I-NP	NN	O	22	PMOD	18	delay
+29	produced	produce	B-VP	VBN	O	28	NMOD	0
+30	by	by	B-PP	IN	O	29	VMOD	-1
+31	carboplatin	carboplatin	B-NP	NN	B-protein	30	PMOD	-1
+32	by	by	B-PP	IN	O	29	VMOD	-1
+33	3.8-fold	3.8-fold	B-ADVP	RB	O	32	PMOD	-1
+34	.	.	O	.	O	4	P	-1
+
+1	Administration	Administration	B-NP	NN	O	7	SUB	19	Administration
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	317615	317615	B-NP	CD	O	5	NMOD	-1
+4	x	x	I-NP	SYM	O	5	NMOD	-1
+5	2HCl	2HCl	I-NP	NN	O	2	PMOD	-1
+6	also	also	B-ADVP	RB	O	7	VMOD	-1
+7	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+8	the	the	B-NP	DT	O	11	NMOD	-1
+9	tumor	tumor	I-NP	NN	O	11	NMOD	-1
+10	growth	growth	I-NP	NN	O	11	NMOD	4	growth
+11	delay	delay	I-NP	NN	O	7	OBJ	18	delay
+12	produced	produce	B-VP	VBN	O	11	NMOD	0
+13	by	by	B-PP	IN	O	12	VMOD	-1
+14	fractionated	fractionate	B-NP	VBN	O	16	NMOD	-1
+15	radiation	radiation	I-NP	NN	O	16	NMOD	0
+16	therapy	therapy	I-NP	NN	O	13	PMOD	0
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	MX-1	MX-1	I-NP	NN	O	20	NMOD	-1
+20	tumor	tumor	I-NP	NN	O	17	PMOD	-1
+21	.	.	O	.	O	7	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	7	SUB	19	Treatment
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	317615	317615	B-NP	CD	O	5	NMOD	-1
+4	x	x	I-NP	SYM	O	5	NMOD	-1
+5	2HCl	2HCl	I-NP	NN	O	2	PMOD	-1
+6	alone	alone	B-ADVP	RB	O	5	NMOD	-1
+7	increased	increase	B-VP	VBD	O	0	ROOT	0
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	lifespan	lifespan	I-NP	NN	O	7	OBJ	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	animals	animal	B-NP	NNS	O	10	PMOD	-1
+12	bearing	bear	B-VP	VBG	O	11	NMOD	-1
+13	intraperitoneal	intraperitoneal	B-NP	JJ	O	15	NMOD	-1
+14	SKOV-3	SKOV-3	I-NP	NN	O	15	NMOD	-1
+15	xenografts	xenograft	I-NP	NNS	O	12	OBJ	-1
+16	by	by	B-PP	IN	O	12	VMOD	-1
+17	1.9	1.9	B-NP	CD	O	18	NMOD	-1
+18	fold	fold	I-NP	RB	O	16	PMOD	-1
+19	compared	compare	B-PP	VBN	O	7	VMOD	-1
+20	with	with	B-PP	IN	O	19	PMOD	-1
+21	untreated	untreated	B-NP	JJ	O	23	NMOD	0
+22	control	control	I-NP	NN	O	23	NMOD	0
+23	animals	animal	I-NP	NNS	O	20	PMOD	-1
+24	.	.	O	.	O	7	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	combination	combination	I-NP	NN	O	9	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	paclitaxel	paclitaxel	B-NP	NN	O	8	NMOD	-1
+5	and	and	O	CC	O	8	NMOD	-1
+6	317615	317615	B-NP	CD	O	8	NMOD	-1
+7	x	x	I-NP	NN	O	8	NMOD	-1
+8	2HCl	2HCl	I-NP	NN	O	3	PMOD	-1
+9	resulted	result	B-VP	VBD	O	0	ROOT	0
+10	in	in	B-PP	IN	O	9	VMOD	-1
+11	100	100	B-NP	CD	O	12	AMOD	-1
+12	%	%	I-NP	NN	O	14	NMOD	-1
+13	120-day	120-day	I-NP	JJ	O	14	NMOD	-1
+14	survival	survival	I-NP	NN	O	10	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	-1
+16	SKOV-3	SKOV-3	B-NP	NN	B-protein	18	NMOD	-1
+17	bearing	bear	B-VP	VBG	O	18	NMOD	-1
+18	animals	animal	B-NP	NNS	O	15	PMOD	-1
+19	.	.	O	.	O	9	P	-1
+
+1	Administration	Administration	B-NP	NN	O	15	SUB	19	Administration
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	317615	317615	B-NP	CD	O	5	NMOD	-1
+4	x	x	I-NP	SYM	O	5	NMOD	-1
+5	2HCl	2HCl	I-NP	NN	O	2	PMOD	-1
+6	along	along	B-PP	IN	O	1	NMOD	-1
+7	with	with	B-PP	IN	O	6	PMOD	-1
+8	carboplatin	carboplatin	B-NP	NN	B-protein	7	PMOD	-1
+9	to	to	B-PP	TO	O	1	NMOD	-1
+10	animals	animal	B-NP	NNS	O	9	PMOD	-1
+11	bearing	bear	B-VP	VBG	O	10	NMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	SKOV-3	SKOV-3	I-NP	NN	O	14	NMOD	-1
+14	tumor	tumor	I-NP	NN	O	11	OBJ	-1
+15	produced	produce	B-VP	VBD	O	0	ROOT	0
+16	a	a	B-NP	DT	O	18	NMOD	-1
+17	1.8-fold	1.8-fold	I-NP	JJ	O	18	NMOD	-1
+18	increase	increase	I-NP	NN	O	15	OBJ	0
+19	in	in	B-PP	IN	O	18	NMOD	-1
+20	lifespan	lifespan	B-NP	NN	O	19	PMOD	-1
+21	compared	compare	B-PP	VBN	O	15	VMOD	-1
+22	with	with	B-PP	IN	O	21	PMOD	-1
+23	carboplatin	carboplatin	B-NP	NN	B-protein	22	PMOD	-1
+24	alone	alone	B-ADVP	RB	O	23	NMOD	-1
+25	.	.	O	.	O	15	P	-1
+
+1	317615	317615	B-NP	CD	O	3	NMOD	-1
+2	x	x	I-NP	NN	O	3	NMOD	-1
+3	2HCl	2HCl	I-NP	NN	O	4	SUB	-1
+4	is	be	B-VP	VBZ	O	0	ROOT	-1
+5	a	a	B-NP	DT	O	9	NMOD	-1
+6	promising	promising	I-NP	JJ	O	8	AMOD	-1
+7	new	new	I-NP	JJ	O	8	AMOD	-1
+8	antiangiogenic	antiangiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	agent	agent	I-NP	NN	O	4	PRD	-1
+10	that	that	B-NP	WDT	O	9	NMOD	-1
+11	is	be	B-VP	VBZ	O	10	SBAR	-1
+12	in	in	B-PP	IN	O	11	PRD	-1
+13	early	early	B-NP	JJ	O	16	NMOD	-1
+14	phase	phase	I-NP	NN	O	16	NMOD	-1
+15	clinical	clinical	I-NP	JJ	O	16	NMOD	-1
+16	testing	testing	I-NP	NN	O	12	PMOD	-1

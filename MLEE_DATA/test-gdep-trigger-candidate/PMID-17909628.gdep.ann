@@ -1,0 +1,199 @@
+1	CX3CR1-dependent	CX3CR1-dependent	B-NP	JJ	O	5	NMOD	17	dependent
+2	subretinal	subretinal	I-NP	JJ	O	5	NMOD	-1
+3	microglia	microglia	I-NP	NN	O	5	NMOD	-1
+4	cell	cell	I-NP	NN	O	5	NMOD	-1
+5	accumulation	accumulation	I-NP	NN	O	6	SUB	1	accumulation
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	associated	associate	I-VP	VBN	O	6	VC	16	associated
+8	with	with	B-PP	IN	O	7	VMOD	-1
+9	cardinal	cardinal	B-NP	JJ	O	10	NMOD	-1
+10	features	feature	I-NP	NNS	O	8	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	age-related	age-related	B-NP	JJ	O	14	NMOD	-1
+13	macular	macular	I-NP	JJ	O	14	NMOD	-1
+14	degeneration	degeneration	I-NP	NN	O	11	PMOD	6	degeneration
+15	.	.	O	.	O	6	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	role	role	I-NP	NN	O	17	SUB	16	role
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	retinal	retinal	B-NP	JJ	B-cell_type	6	NMOD	-1
+5	microglial	microglial	I-NP	JJ	I-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	-1
+7	(	(	O	(	O	9	DEP	-1
+8	MCs	MC	B-NP	NNS	B-cell_type	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	in	in	B-PP	IN	O	2	NMOD	-1
+11	age-related	age-related	B-NP	JJ	O	13	NMOD	-1
+12	macular	macular	I-NP	JJ	O	13	NMOD	-1
+13	degeneration	degeneration	I-NP	NN	O	10	PMOD	6	degeneration
+14	(	(	O	(	O	16	DEP	-1
+15	AMD	AMD	B-NP	NN	O	16	DEP	-1
+16	)	)	O	)	O	13	NMOD	-1
+17	is	be	B-VP	VBZ	O	0	ROOT	-1
+18	unclear	unclear	B-ADJP	JJ	O	17	PRD	-1
+19	.	.	O	.	O	17	P	-1
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	-1
+2	we	we	B-NP	PRP	O	3	SUB	-1
+3	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	17	DEP	-1
+5	all	all	B-NP	DT	O	7	NMOD	-1
+6	retinal	retinal	I-NP	JJ	B-cell_type	7	NMOD	-1
+7	MCs	MC	I-NP	NNS	I-cell_type	8	SUB	-1
+8	express	express	B-VP	VBP	O	4	SBAR	9	express
+9	CX3C	CX3C	B-NP	NN	B-protein	11	NMOD	-1
+10	chemokine	chemokine	I-NP	NN	I-protein	11	NMOD	-1
+11	receptor	receptor	I-NP	NN	I-protein	8	OBJ	-1
+12	1	1	I-NP	CD	I-protein	11	NMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	CX3CR1	CX3CR1	B-NP	NN	B-protein	15	DEP	-1
+15	)	)	O	)	O	11	NMOD	-1
+16	and	and	O	CC	O	17	DEP	-1
+17	that	that	B-SBAR	IN	O	3	VMOD	-1
+18	homozygosity	homozygosity	B-NP	NN	O	33	SUB	-1
+19	for	for	B-PP	IN	O	18	NMOD	-1
+20	the	the	B-NP	DT	O	23	NMOD	-1
+21	CX3CR1	CX3CR1	I-NP	NN	B-DNA	23	NMOD	-1
+22	M280	M280	I-NP	NN	I-DNA	23	NMOD	-1
+23	allele	allele	I-NP	NN	I-DNA	19	PMOD	-1
+24	,	,	O	,	O	23	P	-1
+25	which	which	B-NP	WDT	O	23	NMOD	-1
+26	is	be	B-VP	VBZ	O	25	SBAR	-1
+27	associated	associate	I-VP	VBN	O	26	VC	0
+28	with	with	B-PP	IN	O	27	VMOD	-1
+29	impaired	impaired	B-NP	JJ	O	31	NMOD	18	impaired
+30	cell	cell	I-NP	NN	O	31	NMOD	-1
+31	migration	migration	I-NP	NN	O	28	PMOD	14	migration
+32	,	,	O	,	O	18	P	-1
+33	increases	increase	B-VP	VBZ	O	17	SBAR	0
+34	the	the	B-NP	DT	O	35	NMOD	-1
+35	risk	risk	I-NP	NN	O	33	OBJ	-1
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	AMD	AMD	B-NP	NN	B-protein	36	PMOD	-1
+38	.	.	O	.	O	3	P	-1
+
+1	In	In	B-PP	IN	O	0	ROOT	-1
+2	humans	human	B-NP	NNS	O	1	PMOD	-1
+3	with	with	B-PP	IN	O	2	NMOD	-1
+4	AMD	AMD	B-NP	NN	O	3	PMOD	-1
+5	,	,	O	,	O	1	VMOD	-1
+6	MCs	MC	B-NP	NNS	B-cell_type	5	NMOD	-1
+7	accumulated	accumulate	B-VP	VBN	O	6	NMOD	1	accumulated
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	subretinal	subretinal	I-NP	JJ	O	11	NMOD	-1
+11	space	space	I-NP	NN	O	8	PMOD	-1
+12	at	at	B-PP	IN	O	11	NMOD	-1
+13	sites	site	B-NP	NNS	O	12	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	retinal	retinal	B-NP	JJ	O	16	NMOD	-1
+16	degeneration	degeneration	I-NP	NN	O	19	NMOD	6	degeneration
+17	and	and	O	CC	O	19	NMOD	-1
+18	choroidal	choroidal	B-NP	JJ	O	19	NMOD	-1
+19	neovascularization	neovascularization	I-NP	NN	O	14	PMOD	3	neovascularization
+20	(	(	O	(	O	22	DEP	-1
+21	CNV	CNV	B-NP	NN	B-protein	22	DEP	3	CNV
+22	)	)	O	)	O	19	NMOD	-1
+23	.	.	O	.	O	6	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	CX3CR1-deficient	CX3CR1-deficient	B-NP	JJ	O	3	NMOD	-1
+3	mice	mouse	I-NP	NNS	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	MCs	MC	B-NP	NNS	B-cell_type	6	SUB	-1
+6	accumulated	accumulate	B-VP	VBD	O	0	ROOT	1	accumulated
+7	subretinally	subretinally	B-ADVP	RB	O	6	VMOD	-1
+8	with	with	B-PP	IN	O	6	VMOD	-1
+9	age	age	B-NP	NN	O	12	NMOD	-1
+10	and	and	I-NP	CC	O	12	NMOD	-1
+11	albino	albino	I-NP	NN	O	12	NMOD	-1
+12	background	background	I-NP	NN	O	8	PMOD	-1
+13	and	and	B-PP	CC	O	8	PMOD	-1
+14	after	after	B-PP	IN	O	8	PMOD	-1
+15	laser	laser	B-NP	NN	O	16	NMOD	-1
+16	impact	impact	I-NP	NN	O	14	PMOD	0
+17	preceding	precede	B-VP	VBG	O	16	NMOD	-1
+18	retinal	retinal	B-NP	JJ	O	19	NMOD	-1
+19	degeneration	degeneration	I-NP	NN	O	17	OBJ	6	degeneration
+20	.	.	O	.	O	6	P	-1
+
+1	Raising	Raise	B-VP	VBG	O	8	SUB	-1
+2	the	the	B-NP	DT	O	4	NMOD	-1
+3	albino	albino	I-NP	NN	O	4	NMOD	-1
+4	mice	mouse	I-NP	NNS	O	1	OBJ	-1
+5	in	in	B-PP	IN	O	1	VMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	dark	dark	I-NP	NN	O	5	PMOD	-1
+8	prevented	prevent	B-VP	VBD	O	0	ROOT	0
+9	both	both	B-NP	DT	O	10	NMOD	-1
+10	events	event	I-NP	NNS	O	8	OBJ	-1
+11	.	.	O	.	O	8	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	appearance	appearance	I-NP	NN	O	7	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	lipid-bloated	lipid-bloated	B-NP	JJ	B-cell_type	6	NMOD	-1
+5	subretinal	subretinal	I-NP	JJ	I-cell_type	6	NMOD	-1
+6	MCs	MC	I-NP	NNS	I-cell_type	3	PMOD	-1
+7	was	be	B-VP	VBD	O	19	VMOD	-1
+8	drusen-like	drusen-like	B-ADJP	JJ	O	7	PRD	-1
+9	on	on	B-PP	IN	O	8	AMOD	-1
+10	funduscopy	funduscopy	B-NP	NN	O	9	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	senescent	senescent	B-NP	JJ	O	13	NMOD	-1
+13	mice	mouse	I-NP	NNS	O	11	PMOD	-1
+14	,	,	O	,	O	19	P	-1
+15	and	and	O	CC	O	19	VMOD	-1
+16	CX3CR1-dependent	CX3CR1-dependent	B-NP	JJ	O	18	NMOD	17	dependent
+17	MC	MC	I-NP	NN	O	18	NMOD	-1
+18	accumulation	accumulation	I-NP	NN	O	19	SUB	1	accumulation
+19	was	be	B-VP	VBD	O	0	ROOT	-1
+20	associated	associate	I-VP	VBN	O	19	VC	16	associated
+21	with	with	B-PP	IN	O	20	VMOD	-1
+22	an	an	B-NP	DT	O	23	NMOD	-1
+23	exacerbation	exacerbation	I-NP	NN	O	21	PMOD	17	exacerbation
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	experimental	experimental	B-NP	JJ	O	26	NMOD	-1
+26	CNV	CNV	I-NP	NN	O	24	PMOD	3	CNV
+27	.	.	O	.	O	19	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	show	show	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	CX3CR1-dependent	CX3CR1-dependent	B-NP	JJ	O	6	NMOD	17	dependent
+6	accumulation	accumulation	I-NP	NN	O	10	SUB	1	accumulation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	subretinal	subretinal	B-NP	JJ	O	9	NMOD	-1
+9	MCs	MC	I-NP	NNS	O	7	PMOD	-1
+10	evokes	evoke	B-VP	VBZ	O	4	SBAR	-1
+11	cardinal	cardinal	B-NP	JJ	O	12	NMOD	-1
+12	features	feature	I-NP	NNS	O	10	OBJ	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	AMD	AMD	B-NP	NN	B-protein	13	PMOD	-1
+15	.	.	O	.	O	3	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	findings	finding	I-NP	NNS	O	3	SUB	-1
+3	reveal	reveal	B-VP	VBP	O	0	ROOT	-1
+4	what	what	B-NP	WP	O	3	VMOD	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	believe	believe	B-VP	VBP	O	4	SBAR	-1
+7	to	to	I-VP	TO	O	8	VMOD	-1
+8	be	be	I-VP	VB	O	6	VMOD	-1
+9	a	a	B-NP	DT	O	12	NMOD	-1
+10	novel	novel	I-NP	JJ	O	12	NMOD	-1
+11	pathogenic	pathogenic	I-NP	JJ	O	12	NMOD	-1
+12	process	process	I-NP	NN	O	8	PRD	-1
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	important	important	B-NP	JJ	O	15	NMOD	0
+15	implications	implication	I-NP	NNS	O	13	PMOD	-1
+16	for	for	B-PP	IN	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	development	development	I-NP	NN	O	16	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	new	new	B-NP	JJ	O	21	NMOD	-1
+21	therapies	therapy	I-NP	NNS	O	19	PMOD	0
+22	for	for	B-PP	IN	O	21	NMOD	-1
+23	AMD	AMD	B-NP	NN	O	22	PMOD	-1

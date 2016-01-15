@@ -1,0 +1,252 @@
+1	Mechanisms	Mechanism	B-NP	NNS	O	11	NMOD	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	pericyte	pericyte	B-NP	NN	O	4	NMOD	0
+4	recruitment	recruitment	I-NP	NN	O	2	PMOD	14	recruitment
+5	in	in	B-PP	IN	O	4	NMOD	0
+6	tumour	tumour	B-NP	NN	O	7	NMOD	0
+7	angiogenesis	angiogenesis	I-NP	NN	O	5	PMOD	3	angiogenesis
+8	:	:	O	:	O	1	P	0
+9	a	a	B-NP	DT	O	11	NMOD	0
+10	new	new	I-NP	JJ	O	11	NMOD	0
+11	role	role	I-NP	NN	O	0	ROOT	0
+12	for	for	B-PP	IN	O	11	NMOD	0
+13	metalloproteinases	metalloproteinas	B-NP	NNS	B-protein	12	PMOD	0
+14	.	.	O	.	O	11	P	0
+
+1	Pericytes	Pericyte	B-NP	NNS	O	2	SUB	0
+2	occur	occur	B-VP	VBP	O	0	ROOT	0
+3	in	in	B-PP	IN	O	2	VMOD	0
+4	tumour	tumour	B-NP	NN	B-cell_type	6	NMOD	0
+5	blood	blood	I-NP	NN	I-cell_type	6	NMOD	0
+6	vessels	vessel	I-NP	NNS	I-cell_type	3	PMOD	0
+7	and	and	O	CC	O	2	VMOD	0
+8	are	be	B-VP	VBP	O	2	VMOD	0
+9	critical	critical	B-ADJP	JJ	O	8	PRD	17	critical
+10	for	for	B-PP	IN	O	9	AMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	development	development	I-NP	NN	O	10	PMOD	2	development
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	a	a	B-NP	DT	O	17	NMOD	0
+15	functional	functional	I-NP	JJ	O	17	NMOD	0
+16	vascular	vascular	I-NP	JJ	B-protein	17	NMOD	0
+17	network	network	I-NP	NN	I-protein	13	PMOD	0
+18	.	.	O	.	O	2	P	0
+
+1	Targeting	Target	B-VP	VBG	O	4	SUB	19	Targeting
+2	tumour	tumour	B-NP	NN	O	3	NMOD	0
+3	pericytes	pericyte	I-NP	NNS	O	1	OBJ	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	a	a	B-NP	DT	O	8	NMOD	0
+6	promising	promising	I-NP	JJ	O	8	NMOD	0
+7	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	8	NMOD	3	angiogenic
+8	therapy	therapy	I-NP	NN	O	4	PRD	18	therapy
+9	but	but	O	CC	O	4	VMOD	0
+10	requires	require	B-VP	VBZ	O	4	VMOD	0
+11	identifying	identify	I-VP	VBG	O	10	VMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	mechanisms	mechanism	I-NP	NNS	O	11	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	their	their	B-NP	PRP$	O	16	NMOD	0
+16	recruitment	recruitment	I-NP	NN	O	14	PMOD	14	recruitment
+17	in	in	B-PP	IN	O	16	NMOD	0
+18	tumour	tumour	B-NP	NN	O	17	PMOD	0
+19	and	and	O	CC	O	4	VMOD	0
+20	addressing	address	B-VP	VBG	O	4	VMOD	0
+21	whether	whether	B-SBAR	IN	O	20	VMOD	0
+22	these	these	B-NP	DT	O	23	NMOD	0
+23	mechanisms	mechanism	I-NP	NNS	O	24	SUB	0
+24	can	can	B-VP	MD	O	21	SBAR	0
+25	be	be	I-VP	VB	O	24	VC	0
+26	selectively	selectively	I-VP	RB	O	25	VMOD	0
+27	harnessed	harness	I-VP	VBN	O	25	VC	0
+28	.	.	O	.	O	4	P	0
+
+1	Among	Among	B-PP	IN	O	22	VMOD	0
+2	the	the	B-NP	DT	O	3	NMOD	0
+3	pathways	pathway	I-NP	NNS	O	1	PMOD	0
+4	involved	involve	B-VP	VBN	O	3	NMOD	0
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	pericyte	pericyte	B-NP	NN	O	7	NMOD	0
+7	recruitment	recruitment	I-NP	NN	O	5	PMOD	14	recruitment
+8	during	during	B-PP	IN	O	7	NMOD	0
+9	embryonic	embryonic	B-NP	JJ	O	10	NMOD	0
+10	development	development	I-NP	NN	O	8	PMOD	0
+11	,	,	O	,	O	22	P	0
+12	the	the	B-NP	DT	O	13	NMOD	0
+13	contribution	contribution	I-NP	NN	O	22	SUB	16	contribution
+14	of	of	B-PP	IN	O	13	NMOD	0
+15	platelet-derived	platelet-derived	B-NP	JJ	B-protein	18	NMOD	0
+16	growth	growth	I-NP	NN	I-protein	18	NMOD	0
+17	factor	factor	I-NP	NN	I-protein	18	NMOD	0
+18	B	B	I-NP	NN	I-protein	21	NMOD	0
+19	and	and	O	CC	O	21	NMOD	0
+20	sphingosine	sphingosine	B-NP	NN	O	21	NMOD	0
+21	1-phosphate	1-phosphate	I-NP	NN	O	14	PMOD	0
+22	is	be	B-VP	VBZ	O	0	ROOT	0
+23	confirmed	confirm	I-VP	VBN	O	22	VC	0
+24	in	in	B-PP	IN	O	23	VMOD	0
+25	tumour	tumour	B-NP	NN	O	26	NMOD	0
+26	angiogenesis	angiogenesis	I-NP	NN	O	24	PMOD	3	angiogenesis
+27	.	.	O	.	O	22	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	effect	effect	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	angiopoietin	angiopoietin	B-NP	NN	B-protein	3	PMOD	0
+5	1	1	I-NP	CD	I-protein	4	NMOD	0
+6	depends	depend	B-VP	VBZ	O	0	ROOT	0
+7	on	on	B-PP	IN	O	6	VMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	tumour	tumour	I-NP	NN	O	10	NMOD	0
+10	model	model	I-NP	NN	O	7	PMOD	0
+11	.	.	O	.	O	6	P	0
+
+1	Transforming	Transform	B-NP	VBG	B-protein	3	NMOD	0
+2	growth	growth	I-NP	NN	I-protein	3	NMOD	0
+3	factor-beta1	factor-beta1	I-NP	NN	I-protein	4	SUB	0
+4	enhances	enhance	B-VP	VBZ	O	0	ROOT	17	enhances
+5	tumour	tumour	B-NP	NN	O	6	NMOD	0
+6	vascularization	vascularization	I-NP	NN	O	9	NMOD	3	vascularization
+7	and	and	O	CC	O	9	NMOD	0
+8	microvessel	microvessel	B-NP	NN	O	9	NMOD	0
+9	maturation	maturation	I-NP	NN	O	4	OBJ	2	maturation
+10	.	.	O	.	O	4	P	0
+
+1	Recent	Recent	B-NP	JJ	O	2	NMOD	0
+2	reports	report	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	5	NMOD	0
+5	participation	participation	I-NP	NN	O	3	OBJ	16	participation
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	matrix	matrix	B-NP	NN	B-protein	8	NMOD	0
+8	metalloproteinases	metalloproteinas	I-NP	NNS	I-protein	6	PMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	MMP	MMP	B-NP	NN	B-protein	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	in	in	B-PP	IN	O	5	NMOD	0
+13	tumour	tumour	B-NP	NN	O	15	NMOD	0
+14	pericyte	pericyte	I-NP	NN	O	15	NMOD	0
+15	recruitment	recruitment	I-NP	NN	O	12	PMOD	14	recruitment
+16	that	that	B-NP	WDT	O	15	NMOD	0
+17	is	be	B-VP	VBZ	O	16	SBAR	0
+18	consistent	consistent	B-ADJP	JJ	O	17	PRD	0
+19	with	with	B-PP	IN	O	18	AMOD	0
+20	the	the	B-NP	DT	O	21	NMOD	0
+21	effect	effect	I-NP	NN	O	19	PMOD	16	effect
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	certain	certain	B-NP	JJ	O	22	PMOD	0
+24	MMPs	MMP	I-NP	NNS	B-protein	23	NMOD	0
+25	in	in	B-PP	IN	O	21	NMOD	0
+26	the	the	B-NP	DT	O	27	NMOD	0
+27	development	development	I-NP	NN	O	25	PMOD	2	development
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	microvasculature	microvasculature	B-NP	NN	O	28	PMOD	0
+30	in	in	B-PP	IN	O	21	NMOD	0
+31	embryonic	embryonic	B-NP	JJ	O	32	NMOD	0
+32	development	development	I-NP	NN	O	30	PMOD	0
+33	and	and	B-PP	CC	O	30	PMOD	0
+34	in	in	B-PP	IN	O	30	PMOD	0
+35	in	in	B-NP	FW	O	36	AMOD	0
+36	vitro	vitro	I-NP	FW	O	37	NMOD	0
+37	models	model	I-NP	NNS	O	34	PMOD	0
+38	of	of	B-PP	IN	O	37	NMOD	0
+39	vascular	vascular	B-NP	JJ	O	40	NMOD	0
+40	remodelling	remodelling	I-NP	NN	O	38	PMOD	7	remodelling
+41	.	.	O	.	O	3	P	0
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	discuss	discuss	B-VP	VBP	O	60	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	possibility	possibility	I-NP	NN	O	4	OBJ	0
+7	for	for	B-PP	IN	O	6	NMOD	0
+8	MMPs	MMP	B-NP	NNS	B-protein	7	PMOD	0
+9	to	to	B-VP	TO	O	10	VMOD	0
+10	contribute	contribute	I-VP	VB	O	6	NMOD	17	contribute
+11	to	to	I-VP	TO	O	12	VMOD	0
+12	pericyte	pericyte	I-VP	VB	O	10	VMOD	0
+13	recruitment	recruitment	B-NP	NN	O	12	OBJ	14	recruitment
+14	at	at	B-PP	IN	O	12	VMOD	0
+15	six	six	B-NP	CD	O	16	NMOD	0
+16	levels	level	I-NP	NNS	O	14	PMOD	0
+17	:	:	O	:	O	4	P	0
+18	(	(	B-LST	(	O	19	DEP	0
+19	1	1	I-LST	LS	O	39	NMOD	0
+20	)	)	O	)	O	19	DEP	0
+21	direct	direct	B-NP	JJ	O	22	NMOD	0
+22	promotion	promotion	I-NP	NN	O	39	NMOD	17	promotion
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	pericyte	pericyte	B-NP	NN	O	25	NMOD	0
+25	invasion	invasion	I-NP	NN	O	23	PMOD	14	invasion
+26	by	by	B-PP	IN	O	22	NMOD	0
+27	extracellular	extracellular	B-NP	JJ	O	29	NMOD	0
+28	matrix	matrix	I-NP	NN	O	29	NMOD	0
+29	degradation	degradation	I-NP	NN	O	26	PMOD	6	degradation
+30	;	;	O	:	O	39	P	0
+31	(	(	B-LST	(	O	32	DEP	0
+32	2	2	I-LST	LS	O	39	NMOD	0
+33	)	)	O	)	O	32	DEP	0
+34	stimulation	stimulation	B-NP	NN	O	39	NMOD	17	stimulation
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	pericyte	pericyte	B-NP	NN	O	37	NMOD	0
+37	proliferation	proliferation	I-NP	NN	O	35	PMOD	1	proliferation
+38	and	and	I-NP	CC	O	39	NMOD	0
+39	protection	protection	I-NP	NN	O	4	OBJ	0
+40	against	against	B-PP	IN	O	39	NMOD	0
+41	apoptosis	apoptosis	B-NP	NN	O	40	PMOD	0
+42	by	by	B-PP	IN	O	39	NMOD	0
+43	modification	modification	B-NP	NN	O	42	PMOD	0
+44	of	of	B-PP	IN	O	43	NMOD	0
+45	the	the	B-NP	DT	O	46	NMOD	0
+46	ECM	ECM	I-NP	NN	O	44	PMOD	0
+47	;	;	O	:	O	60	P	0
+48	(	(	B-LST	(	O	49	DEP	0
+49	3	3	I-LST	LS	O	51	NMOD	0
+50	)	)	O	)	O	49	DEP	0
+51	activation	activation	B-NP	NN	O	60	SUB	17	activation
+52	of	of	B-PP	IN	O	51	NMOD	0
+53	pericytes	pericyte	B-NP	NNS	B-cell_type	52	PMOD	0
+54	through	through	B-PP	IN	O	51	NMOD	0
+55	the	the	B-NP	DT	O	56	NMOD	0
+56	release	release	I-NP	NN	O	54	PMOD	0
+57	of	of	B-PP	IN	O	56	NMOD	0
+58	growth	growth	B-NP	NN	B-protein	59	NMOD	0
+59	factor	factor	I-NP	NN	I-protein	57	PMOD	0
+60	bound	bind	B-VP	VBD	O	0	ROOT	15	bound
+61	to	to	B-PP	TO	O	60	VMOD	0
+62	the	the	B-NP	DT	O	63	NMOD	0
+63	ECM	ECM	I-NP	NN	O	61	PMOD	0
+64	;	;	O	:	O	60	P	0
+65	(	(	B-LST	(	O	66	DEP	0
+66	4	4	I-LST	LS	O	68	NMOD	0
+67	)	)	O	)	O	66	DEP	0
+68	transactivation	transactivation	B-NP	NN	O	60	VMOD	0
+69	of	of	B-PP	IN	O	68	NMOD	0
+70	angiogenic	angiogenic	B-NP	JJ	B-protein	73	NMOD	3	angiogenic
+71	cell	cell	I-NP	NN	I-protein	73	NMOD	0
+72	surface	surface	I-NP	NN	I-protein	73	NMOD	0
+73	receptor	receptor	I-NP	NN	I-protein	69	PMOD	0
+74	;	;	O	:	O	60	P	0
+75	(	(	B-LST	(	O	76	DEP	0
+76	5	5	I-LST	LS	O	78	NMOD	0
+77	)	)	O	)	O	76	DEP	0
+78	propagation	propagation	B-NP	NN	O	60	VMOD	0
+79	of	of	B-PP	IN	O	78	NMOD	0
+80	angiogenic	angiogenic	B-NP	JJ	O	81	NMOD	3	angiogenic
+81	signalling	signalling	I-NP	NN	O	79	PMOD	0
+82	as	as	B-PP	IN	O	78	NMOD	0
+83	cofactor	cofactor	B-NP	NN	B-protein	82	PMOD	0
+84	;	;	O	:	O	60	P	0
+85	and	and	O	CC	O	60	VMOD	0
+86	(	(	O	(	O	88	DEP	0
+87	6	6	O	CD	O	88	DEP	0
+88	)	)	O	)	O	60	VMOD	0
+89	recruitment	recruitment	B-NP	NN	O	60	VMOD	14	recruitment
+90	of	of	B-PP	IN	O	89	NMOD	0
+91	bone	bone	B-NP	NN	B-cell_line	94	NMOD	0
+92	marrow-derived	marrow-derived	I-NP	JJ	I-cell_line	94	NMOD	0
+93	stem	stem	I-NP	NN	I-cell_line	94	NMOD	0
+94	cells	cell	I-NP	NNS	I-cell_line	90	PMOD	0
+95	.	.	O	.	O	60	P	0
+

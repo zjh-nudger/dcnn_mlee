@@ -1,0 +1,252 @@
+1	Adenovirus-mediated	Adenovirus-mediated	B-NP	JJ	O	3	NMOD	17	mediated
+2	gene	gene	I-NP	NN	O	3	NMOD	0
+3	transfer	transfer	I-NP	NN	O	8	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	endostatin	endostatin	B-NP	NN	O	4	PMOD	0
+6	in	in	B-ADVP	FW	O	7	AMOD	0
+7	vivo	vivo	I-ADVP	FW	O	3	NMOD	0
+8	results	result	B-VP	VBZ	O	0	ROOT	17	results
+9	in	in	B-PP	IN	O	8	VMOD	0
+10	high	high	B-NP	JJ	O	11	NMOD	0
+11	level	level	I-NP	NN	O	9	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	transgene	transgene	B-NP	NN	O	14	NMOD	0
+14	expression	expression	B-NP	NN	O	12	PMOD	9	expression
+15	and	and	O	CC	O	8	VMOD	0
+16	inhibition	inhibition	B-NP	NN	O	15	ROOT	18	inhibition
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	tumor	tumor	B-NP	NN	O	19	NMOD	0
+19	growth	growth	I-NP	NN	O	21	NMOD	4	growth
+20	and	and	O	CC	O	21	NMOD	0
+21	metastases	metastasis	B-NP	NNS	O	17	PMOD	14	metastases
+22	.	.	O	.	O	16	P	0
+
+1	Inhibition	Inhibition	B-NP	NN	O	4	SUB	18	Inhibition
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	PMOD	3	angiogenesis
+4	has	have	B-VP	VBZ	O	0	ROOT	0
+5	been	be	I-VP	VBN	O	4	VC	0
+6	shown	show	I-VP	VBN	O	5	VC	0
+7	to	to	I-VP	TO	O	8	VMOD	0
+8	be	be	I-VP	VB	O	6	VMOD	0
+9	an	an	B-NP	DT	O	11	NMOD	0
+10	effective	effective	I-NP	JJ	O	11	NMOD	0
+11	strategy	strategy	I-NP	NN	O	8	PRD	0
+12	in	in	B-PP	IN	O	11	NMOD	0
+13	cancer	cancer	B-NP	NN	O	14	NMOD	0
+14	therapy	therapy	I-NP	NN	O	12	PMOD	19	therapy
+15	in	in	B-PP	IN	O	14	NMOD	0
+16	mice	mouse	B-NP	NNS	O	15	PMOD	0
+17	.	.	O	.	O	4	P	0
+
+1	However	However	B-ADVP	RB	O	6	VMOD	0
+2	,	,	O	,	O	6	P	0
+3	its	its	B-NP	PRP$	O	5	NMOD	0
+4	widespread	widespread	I-NP	JJ	O	5	NMOD	0
+5	application	application	I-NP	NN	O	6	SUB	0
+6	has	have	B-VP	VBZ	O	0	ROOT	0
+7	been	be	I-VP	VBN	O	6	VC	0
+8	hampered	hamper	I-VP	VBN	O	7	VC	0
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	difficulties	difficulty	B-NP	NNS	O	9	PMOD	0
+11	in	in	B-PP	IN	O	10	NMOD	0
+12	the	the	B-NP	DT	O	14	NMOD	0
+13	large-scale	large-scale	I-NP	JJ	O	14	NMOD	0
+14	production	production	I-NP	NN	O	11	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	the	the	B-NP	DT	O	18	NMOD	0
+17	antiangiogenic	antiangiogenic	I-NP	JJ	B-protein	18	NMOD	3	angiogenic
+18	proteins	protein	I-NP	NNS	I-protein	15	PMOD	0
+19	.	.	O	.	O	6	P	0
+
+1	This	This	B-NP	DT	O	2	NMOD	0
+2	limitation	limitation	I-NP	NN	O	3	SUB	0
+3	may	may	B-VP	MD	O	0	ROOT	0
+4	be	be	I-VP	VB	O	3	VC	0
+5	resolved	resolve	I-VP	VBN	O	4	VC	0
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	in	in	B-NP	FW	O	8	AMOD	0
+8	vivo	vivo	I-NP	FW	O	9	NMOD	0
+9	delivery	delivery	I-NP	NN	O	11	NMOD	0
+10	and	and	I-NP	CC	O	11	NMOD	0
+11	expression	expression	I-NP	NN	O	6	PMOD	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	antiangiogenic	antiangiogenic	I-NP	JJ	B-DNA	15	NMOD	3	angiogenic
+15	genes	gene	I-NP	NNS	I-DNA	12	PMOD	0
+16	.	.	O	.	O	3	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	have	have	B-VP	VBP	O	0	ROOT	0
+3	constructed	construct	I-VP	VBN	O	2	VC	19	constructed
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	recombinant	recombinant	I-NP	JJ	O	6	NMOD	0
+6	adenovirus	adenovirus	I-NP	NN	O	3	OBJ	0
+7	that	that	B-NP	WDT	O	6	NMOD	0
+8	expresses	express	B-VP	VBZ	O	7	SBAR	9	expresses
+9	murine	murine	B-NP	JJ	B-protein	10	NMOD	0
+10	endostatin	endostatin	I-NP	NN	I-protein	8	OBJ	0
+11	that	that	B-NP	WDT	O	10	NMOD	0
+12	is	be	B-VP	VBZ	O	11	SBAR	0
+13	biologically	biologically	B-ADJP	RB	O	14	AMOD	0
+14	active	active	I-ADJP	JJ	O	12	PRD	0
+15	both	both	O	CC	O	16	AMOD	0
+16	in	in	B-ADVP	FW	O	12	VMOD	0
+17	vitro	vitro	I-ADVP	FW	O	16	AMOD	0
+18	,	,	O	,	O	2	P	0
+19	as	as	B-SBAR	IN	O	2	VMOD	0
+20	determined	determine	B-VP	VBN	O	19	SBAR	0
+21	in	in	B-PP	IN	O	20	VMOD	0
+22	endothelial	endothelial	B-NP	JJ	B-cell_type	25	NMOD	0
+23	cell	cell	I-NP	NN	I-cell_type	25	NMOD	0
+24	proliferation	proliferation	I-NP	NN	O	25	NMOD	1	proliferation
+25	assays	assay	I-NP	NNS	O	21	PMOD	0
+26	,	,	O	,	O	2	P	0
+27	and	and	O	CC	O	26	VMOD	0
+28	in	in	B-ADVP	FW	O	27	PRD	0
+29	vivo	vivo	I-ADVP	FW	O	28	AMOD	0
+30	,	,	O	,	O	28	AMOD	0
+31	by	by	B-PP	IN	O	30	VMOD	0
+32	suppression	suppression	B-NP	NN	O	31	PMOD	18	suppression
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	angiogenesis	angiogenesis	B-NP	NN	O	33	PMOD	3	angiogenesis
+35	induced	induce	B-VP	VBN	O	34	NMOD	17	induced
+36	by	by	B-PP	IN	O	35	VMOD	0
+37	vascular	vascular	B-NP	JJ	B-protein	40	NMOD	0
+38	endothelial	endothelial	I-NP	JJ	I-protein	40	NMOD	0
+39	growth	growth	I-NP	NN	I-protein	40	NMOD	0
+40	factor	factor	I-NP	NN	I-protein	36	PMOD	0
+41	165	165	I-NP	CD	I-protein	40	NMOD	0
+42	.	.	O	.	O	2	P	0
+
+1	Persistent	Persistent	B-NP	JJ	O	4	NMOD	0
+2	high	high	I-NP	JJ	O	4	NMOD	0
+3	serum	serum	I-NP	NN	O	4	NMOD	0
+4	levels	level	I-NP	NNS	O	16	SUB	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	endostatin	endostatin	B-NP	NN	O	5	PMOD	0
+7	(	(	O	(	O	15	DEP	0
+8	605-1740	605-1740	B-NP	CD	O	9	NMOD	0
+9	ng/ml	ng/ml	I-NP	NN	O	15	DEP	0
+10	;	;	O	:	O	15	P	0
+11	mean	mean	B-NP	NN	O	14	NMOD	0
+12	,	,	O	,	O	14	P	0
+13	936	936	B-NP	CD	O	14	NMOD	0
+14	ng/ml	ng/ml	I-NP	NN	O	15	DEP	0
+15	)	)	O	)	O	6	NMOD	0
+16	were	be	B-VP	VBD	O	0	ROOT	0
+17	achieved	achieve	I-VP	VBN	O	16	VC	0
+18	after	after	B-PP	IN	O	17	VMOD	0
+19	systemic	systemic	B-NP	JJ	O	20	NMOD	0
+20	administration	administration	I-NP	NN	O	18	PMOD	19	administration
+21	of	of	B-PP	IN	O	20	NMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	vector	vector	I-NP	NN	O	21	PMOD	0
+24	to	to	B-PP	TO	O	20	NMOD	0
+25	nude	nude	B-NP	JJ	O	26	NMOD	0
+26	mice	mouse	I-NP	NNS	O	24	PMOD	0
+27	,	,	O	,	O	16	P	0
+28	which	which	B-NP	WDT	O	16	VMOD	0
+29	resulted	result	B-VP	VBD	O	28	SBAR	17	resulted
+30	in	in	B-PP	IN	O	29	VMOD	0
+31	significant	significant	B-NP	JJ	O	32	NMOD	0
+32	reduction	reduction	I-NP	NN	O	39	NMOD	18	reduction
+33	of	of	B-PP	IN	O	32	NMOD	0
+34	the	the	B-NP	DT	O	36	NMOD	0
+35	growth	growth	I-NP	NN	O	36	NMOD	4	growth
+36	rates	rate	I-NP	NNS	O	33	PMOD	0
+37	and	and	O	CC	O	39	NMOD	0
+38	the	the	B-NP	DT	O	39	NMOD	0
+39	volumes	volume	I-NP	NNS	O	47	NMOD	0
+40	of	of	B-PP	IN	O	39	NMOD	0
+41	JC	JC	B-NP	NN	O	43	NMOD	0
+42	breast	breast	I-NP	NN	O	43	NMOD	0
+43	carcinoma	carcinoma	I-NP	NN	O	40	PMOD	0
+44	and	and	O	CC	O	47	NMOD	0
+45	Lewis	Lewis	B-NP	NNP	O	47	NMOD	0
+46	lung	lung	I-NP	NN	O	47	NMOD	0
+47	carcinoma	carcinoma	I-NP	NN	O	30	PMOD	0
+48	(	(	O	(	O	60	DEP	0
+49	P	P	B-NP	NN	O	60	DEP	0
+50	less	less	B-NP	JJR	O	49	NMOD	0
+51	than	than	I-NP	IN	O	50	AMOD	0
+52	0.001	0.001	I-NP	CD	O	54	NMOD	0
+53	and	and	I-NP	CC	O	54	NMOD	0
+54	P	P	I-NP	NN	O	51	PMOD	0
+55	less	less	B-ADJP	JJR	O	54	NMOD	0
+56	than	than	B-PP	IN	O	55	AMOD	0
+57	0.05	0.05	B-NP	CD	O	56	PMOD	0
+58	,	,	O	,	O	49	P	0
+59	respectively	respectively	B-ADVP	RB	O	49	NMOD	0
+60	)	)	O	)	O	47	NMOD	0
+61	.	.	O	.	O	16	P	0
+
+1	In	In	B-PP	IN	O	9	VMOD	0
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	9	P	0
+4	the	the	B-NP	DT	O	7	NMOD	0
+5	endostatin	endostatin	I-NP	NN	O	7	NMOD	0
+6	vector	vector	I-NP	NN	O	7	NMOD	0
+7	treatment	treatment	I-NP	NN	O	9	SUB	0
+8	completely	completely	B-ADVP	RB	O	9	VMOD	0
+9	prevented	prevent	B-VP	VBD	O	0	ROOT	18	prevented
+10	the	the	B-NP	DT	O	11	NMOD	0
+11	formation	formation	I-NP	NN	O	9	OBJ	2	formation
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	pulmonary	pulmonary	B-NP	JJ	B-protein	14	NMOD	0
+14	micrometastases	micrometastas	I-NP	NNS	I-protein	12	PMOD	0
+15	in	in	B-PP	IN	O	11	NMOD	0
+16	Lewis	Lewis	B-NP	NNP	O	18	NMOD	0
+17	lung	lung	I-NP	NN	O	18	NMOD	0
+18	carcinoma	carcinoma	I-NP	NN	O	15	PMOD	0
+19	(	(	O	(	O	23	DEP	0
+20	P	P	B-NP	NN	O	22	SUB	0
+21	=	=	B-VP	SYM	O	22	VMOD	0
+22	0.0001	0.0001	B-NP	CD	O	23	DEP	0
+23	)	)	O	)	O	9	VMOD	0
+24	.	.	O	.	O	9	P	0
+
+1	Immunohistochemical	Immunohistochemical	B-NP	JJ	O	2	NMOD	0
+2	staining	staining	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	5	NMOD	0
+5	tumors	tumor	I-NP	NNS	O	3	PMOD	0
+6	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	0
+7	a	a	B-NP	DT	O	9	NMOD	0
+8	decreased	decrease	I-NP	VBN	O	9	NMOD	18	decreased
+9	number	number	I-NP	NN	O	6	OBJ	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	blood	blood	B-NP	NN	B-cell_type	12	NMOD	0
+12	vessels	vessel	I-NP	NNS	I-cell_type	10	PMOD	0
+13	in	in	B-PP	IN	O	9	NMOD	0
+14	the	the	B-NP	DT	O	16	NMOD	0
+15	treatment	treatment	I-NP	NN	O	16	NMOD	0
+16	group	group	I-NP	NN	O	13	PMOD	0
+17	versus	versus	B-PP	IN	O	16	NMOD	0
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	controls	control	I-NP	NNS	O	17	PMOD	0
+20	.	.	O	.	O	6	P	0
+
+1	In	In	B-PP	IN	O	8	VMOD	0
+2	conclusion	conclusion	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	8	P	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	present	present	I-NP	JJ	O	6	NMOD	0
+6	study	study	I-NP	NN	O	8	SUB	0
+7	clearly	clearly	B-ADVP	RB	O	8	VMOD	0
+8	demonstrates	demonstrate	B-VP	VBZ	O	0	ROOT	0
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	potential	potential	I-NP	NN	O	8	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	vector-mediated	vector-mediated	B-NP	JJ	O	15	NMOD	0
+13	antiangiogenic	antiangiogenic	I-NP	JJ	O	15	NMOD	3	angiogenic
+14	gene	gene	I-NP	NN	O	15	NMOD	0
+15	therapy	therapy	I-NP	NN	O	11	PMOD	0
+16	as	as	B-PP	IN	O	10	NMOD	0
+17	a	a	B-NP	DT	O	18	NMOD	0
+18	component	component	I-NP	NN	O	16	PMOD	0
+19	in	in	B-PP	IN	O	18	NMOD	0
+20	cancer	cancer	B-NP	NN	O	21	NMOD	0
+21	therapy	therapy	I-NP	NN	O	19	PMOD	19	therapy
+22	.	.	O	.	O	8	P	0
+

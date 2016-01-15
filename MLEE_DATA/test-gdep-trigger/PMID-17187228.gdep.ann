@@ -1,0 +1,228 @@
+1	Recombinant	Recombinant	B-NP	JJ	B-protein	4	NMOD	0
+2	human	human	I-NP	JJ	I-protein	4	NMOD	0
+3	prothrombin	prothrombin	I-NP	NN	I-protein	4	NMOD	0
+4	kringle-2	kringle-2	I-NP	NN	I-protein	5	SUB	0
+5	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+6	B16F10	B16F10	B-NP	NN	O	8	NMOD	0
+7	melanoma	melanoma	I-NP	NN	O	8	NMOD	0
+8	metastasis	metastasis	I-NP	NN	O	5	OBJ	14	metastasis
+9	through	through	B-PP	IN	O	5	VMOD	0
+10	inhibition	inhibition	B-NP	NN	O	9	PMOD	18	inhibition
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	neovascularization	neovascularization	B-NP	NN	O	14	NMOD	3	neovascularization
+13	and	and	I-NP	CC	O	14	NMOD	0
+14	reduction	reduction	I-NP	NN	O	11	PMOD	18	reduction
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	matrix	matrix	B-NP	NN	B-protein	18	NMOD	0
+17	metalloproteinase	metalloproteinase	I-NP	NN	I-protein	18	NMOD	0
+18	expression	expression	I-NP	NN	O	15	PMOD	9	expression
+19	.	.	O	.	O	5	P	0
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	5	NMOD	3	Angiogenesis
+2	,	,	O	,	O	5	P	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	multi-step	multi-step	I-NP	JJ	O	5	NMOD	0
+5	process	process	I-NP	NN	O	24	SUB	0
+6	which	which	B-NP	WDT	O	5	NMOD	0
+7	involves	involve	B-VP	VBZ	O	6	SBAR	0
+8	endothelial	endothelial	B-NP	JJ	B-cell_type	10	NMOD	0
+9	cell	cell	I-NP	NN	I-cell_type	10	NMOD	0
+10	proliferation	proliferation	I-NP	NN	O	18	NMOD	1	proliferation
+11	,	,	O	,	O	18	P	0
+12	adhesion	adhesion	B-NP	NN	O	18	NMOD	15	adhesion
+13	,	,	O	,	O	18	P	0
+14	migration	migration	B-NP	NN	O	18	NMOD	14	migration
+15	,	,	O	,	O	18	P	0
+16	and	and	O	CC	O	18	NMOD	0
+17	basement	basement	B-NP	NN	O	18	NMOD	0
+18	membrane	membrane	I-NP	NN	O	22	NMOD	0
+19	(	(	O	(	O	21	DEP	0
+20	BM	BM	B-NP	NN	O	21	DEP	0
+21	)	)	O	)	O	18	NMOD	0
+22	degradation	degradation	B-NP	NN	O	7	OBJ	6	degradation
+23	,	,	O	,	O	5	P	0
+24	is	be	B-VP	VBZ	O	0	ROOT	0
+25	essential	essential	B-ADJP	JJ	O	24	PRD	17	essential
+26	for	for	B-PP	IN	O	25	AMOD	0
+27	tumor	tumor	B-NP	NN	O	28	NMOD	0
+28	metastasis	metastasis	I-NP	NN	O	26	PMOD	14	metastasis
+29	.	.	O	.	O	24	P	0
+
+1	Here	Here	B-ADVP	RB	O	3	VMOD	0
+2	we	we	B-NP	PRP	O	3	SUB	0
+3	show	show	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	recombinant	recombinant	B-NP	JJ	B-protein	8	NMOD	0
+6	human	human	I-NP	JJ	I-protein	8	NMOD	0
+7	prothrombin	prothrombin	I-NP	NN	I-protein	8	NMOD	0
+8	kringle-2	kringle-2	I-NP	NN	I-protein	12	SUB	0
+9	(	(	O	(	O	11	DEP	0
+10	rk-2	rk-2	B-NP	NN	O	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	inhibited	inhibit	B-VP	VBD	O	4	SBAR	18	inhibited
+13	bovine	bovine	B-NP	JJ	O	17	NMOD	0
+14	capillary	capillary	I-NP	JJ	O	17	NMOD	0
+15	endothelial	endothelial	I-NP	JJ	O	17	NMOD	0
+16	cell	cell	I-NP	NN	O	17	NMOD	0
+17	migration	migration	I-NP	NN	O	12	OBJ	14	migration
+18	with	with	B-PP	IN	O	17	NMOD	0
+19	an	an	B-NP	DT	O	20	NMOD	0
+20	IC	IC	I-NP	NN	O	18	PMOD	0
+21	(	(	O	(	O	23	DEP	0
+22	50	50	B-NP	CD	O	23	DEP	0
+23	)	)	O	)	O	20	NMOD	0
+24	(	(	O	(	O	30	DEP	0
+25	concentration	concentration	B-NP	NN	O	30	DEP	0
+26	for	for	B-PP	IN	O	25	NMOD	0
+27	half	half	B-NP	DT	O	29	NMOD	0
+28	maximal	maximal	I-NP	JJ	O	29	NMOD	0
+29	inhibition	inhibition	I-NP	NN	O	26	PMOD	0
+30	)	)	O	)	O	20	NMOD	0
+31	of	of	B-PP	IN	O	20	NMOD	0
+32	38	38	B-NP	CD	O	33	NMOD	0
+33	nM	nM	I-NP	NN	O	31	PMOD	0
+34	and	and	O	CC	O	12	VMOD	0
+35	inhibited	inhibit	B-VP	VBD	O	12	VMOD	0
+36	adhesion	adhesion	B-NP	NN	O	35	OBJ	0
+37	to	to	B-PP	TO	O	36	NMOD	0
+38	extracellular	extracellular	B-NP	JJ	B-protein	43	NMOD	0
+39	matrix	matrix	I-NP	NN	I-protein	43	NMOD	0
+40	(	(	O	(	I-protein	43	NMOD	0
+41	ECM	ECM	B-NP	NN	I-protein	43	NMOD	0
+42	)	)	O	)	I-protein	43	NMOD	0
+43	proteins	protein	B-NP	NNS	I-protein	37	PMOD	0
+44	.	.	O	.	O	3	P	0
+
+1	Because	Because	B-SBAR	IN	O	8	VMOD	0
+2	tumor	tumor	B-NP	NN	O	3	NMOD	0
+3	metastasis	metastasis	I-NP	NN	O	4	SUB	14	metastasis
+4	requires	require	B-VP	VBZ	O	1	SBAR	17	requires
+5	angiogenesis	angiogenesis	B-NP	NN	O	4	OBJ	3	angiogenesis
+6	,	,	O	,	O	8	P	0
+7	we	we	B-NP	PRP	O	8	SUB	0
+8	examined	examine	B-VP	VBD	O	0	ROOT	0
+9	whether	whether	B-SBAR	IN	O	8	VMOD	0
+10	rk-2	rk-2	B-NP	NN	B-protein	11	SUB	0
+11	could	could	B-VP	MD	O	9	SBAR	0
+12	inhibit	inhibit	I-VP	VB	O	11	VC	18	inhibit
+13	metastases	metastasis	B-NP	NNS	B-protein	12	OBJ	0
+14	induced	induce	B-VP	VBN	O	13	NMOD	17	induced
+15	by	by	B-PP	IN	O	14	VMOD	0
+16	injection	injection	B-NP	NN	O	15	PMOD	19	injection
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	B16F10	B16F10	B-NP	NN	B-cell_type	20	NMOD	0
+19	melanoma	melanoma	I-NP	NN	I-cell_type	20	NMOD	0
+20	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	0
+21	into	into	B-PP	IN	O	16	NMOD	0
+22	mice	mouse	B-NP	NNS	O	21	PMOD	0
+23	.	.	O	.	O	8	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	revealed	reveal	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	metastatic	metastatic	I-NP	JJ	O	7	NMOD	14	metastatic
+7	tumors	tumor	I-NP	NNS	O	11	SUB	0
+8	in	in	B-PP	IN	O	7	NMOD	0
+9	mouse	mouse	B-NP	NN	O	10	NMOD	0
+10	lung	lung	I-NP	NN	O	8	PMOD	0
+11	were	be	B-VP	VBD	O	27	VMOD	0
+12	markedly	markedly	I-VP	RB	O	11	VMOD	0
+13	decreased	decrease	I-VP	VBN	O	11	VC	18	decreased
+14	in	in	B-PP	IN	O	13	VMOD	0
+15	a	a	B-NP	DT	O	17	NMOD	0
+16	dose-dependent	dose-dependent	I-NP	JJ	O	17	NMOD	0
+17	manner	manner	I-NP	NN	O	14	PMOD	0
+18	and	and	O	CC	O	27	VMOD	0
+19	acute	acute	B-NP	JJ	O	21	NMOD	0
+20	lung	lung	I-NP	NN	O	21	NMOD	0
+21	injury	injury	I-NP	NN	O	27	SUB	0
+22	induced	induce	B-VP	VBN	O	21	NMOD	0
+23	by	by	B-PP	IN	O	22	VMOD	0
+24	B16F10	B16F10	B-NP	NN	O	26	NMOD	0
+25	melanoma	melanoma	I-NP	NN	O	26	NMOD	0
+26	metastasis	metastasis	I-NP	NN	O	23	PMOD	14	metastasis
+27	was	be	B-VP	VBD	O	4	SBAR	0
+28	diminished	diminish	I-VP	VBN	O	27	VC	0
+29	by	by	B-PP	IN	O	28	VMOD	0
+30	systemic	systemic	B-NP	JJ	O	32	NMOD	0
+31	rk-2	rk-2	I-NP	NN	O	32	NMOD	0
+32	treatment	treatment	I-NP	NN	O	29	PMOD	19	treatment
+33	.	.	O	.	O	3	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	immunohistochemical	immunohistochemical	B-NP	JJ	O	3	NMOD	0
+3	analysis	analysis	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	rk-2	rk-2	B-NP	NN	B-protein	6	SUB	0
+6	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+7	expression	expression	B-NP	NN	O	6	OBJ	9	expression
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	vascular	vascular	B-NP	JJ	B-protein	12	NMOD	0
+10	endothelial	endothelial	I-NP	JJ	I-protein	12	NMOD	0
+11	growth	growth	I-NP	NN	I-protein	12	NMOD	0
+12	factor	factor	I-NP	NN	I-protein	8	PMOD	0
+13	,	,	O	,	O	12	P	0
+14	which	which	B-NP	WDT	O	12	NMOD	0
+15	is	be	B-VP	VBZ	O	14	SBAR	0
+16	a	a	B-NP	DT	O	21	NMOD	0
+17	potent	potent	I-NP	JJ	O	19	NMOD	0
+18	angiogenic	angiogenic	I-NP	JJ	O	19	NMOD	3	angiogenic
+19	activator	activator	I-NP	NN	O	21	NMOD	0
+20	and	and	I-NP	CC	O	21	NMOD	0
+21	neovascularization	neovascularization	I-NP	NN	O	15	PRD	3	neovascularization
+22	in	in	B-PP	IN	O	21	NMOD	0
+23	the	the	B-NP	DT	O	25	NMOD	0
+24	mouse	mouse	I-NP	NN	O	25	NMOD	0
+25	lung	lung	I-NP	NN	O	22	PMOD	0
+26	.	.	O	.	O	6	P	0
+
+1	Also	Also	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	rk-2	rk-2	B-NP	NN	B-protein	4	SUB	0
+4	diminished	diminish	B-VP	VBD	O	0	ROOT	18	diminished
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	expression	expression	I-NP	NN	O	4	OBJ	9	expression
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	matrix	matrix	B-NP	NN	B-protein	9	NMOD	0
+9	metalloproteinase-2	metalloproteinase-2	I-NP	NN	I-protein	7	PMOD	0
+10	and	and	O	CC	I-protein	11	NMOD	0
+11	-9	-9	B-NP	CD	I-protein	9	NMOD	0
+12	in	in	B-PP	IN	O	6	NMOD	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	mouse	mouse	I-NP	NN	O	15	NMOD	0
+15	lung	lung	I-NP	NN	O	12	PMOD	0
+16	which	which	B-NP	WDT	O	15	NMOD	0
+17	induces	induce	B-VP	VBZ	O	16	SBAR	17	induces
+18	tumor	tumor	B-NP	NN	O	19	NMOD	0
+19	metastasis	metastasis	I-NP	NN	O	21	NMOD	14	metastasis
+20	and	and	I-NP	CC	O	21	NMOD	0
+21	angiogenesis	angiogenesis	I-NP	NN	O	17	OBJ	3	angiogenesis
+22	.	.	O	.	O	4	P	0
+
+1	These	These	B-NP	DT	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	inhibition	inhibition	B-NP	NN	O	12	SUB	18	inhibition
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	B16F10	B16F10	B-NP	NN	O	9	NMOD	0
+8	melanoma	melanoma	I-NP	NN	O	9	NMOD	0
+9	metastasis	metastasis	I-NP	NN	O	6	PMOD	14	metastasis
+10	by	by	B-PP	IN	O	5	NMOD	0
+11	rk-2	rk-2	B-NP	NN	B-protein	10	PMOD	0
+12	was	be	B-VP	VBD	O	4	SBAR	0
+13	caused	cause	I-VP	VBN	O	12	VC	17	caused
+14	by	by	B-PP	IN	O	13	VMOD	0
+15	inhibition	inhibition	B-NP	NN	O	14	PMOD	18	inhibition
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	neovascularization	neovascularization	B-NP	NN	O	19	NMOD	3	neovascularization
+18	and	and	I-NP	CC	O	19	NMOD	0
+19	reduction	reduction	I-NP	NN	O	16	PMOD	18	reduction
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	matrix	matrix	B-NP	NN	B-protein	23	NMOD	0
+22	metalloproteinase	metalloproteinase	I-NP	NN	I-protein	23	NMOD	0
+23	expression	expression	I-NP	NN	O	20	PMOD	9	expression
+24	.	.	O	.	O	3	P	0
+

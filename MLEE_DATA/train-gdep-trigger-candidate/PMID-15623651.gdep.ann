@@ -1,0 +1,369 @@
+1	2-methoxyestradiol	2-methoxyestradiol	B-NP	NN	O	2	SUB	-1
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	hypoxia-inducible	hypoxia-inducible	B-NP	JJ	O	5	NMOD	-1
+4	factor	factor	I-NP	NN	O	5	NMOD	-1
+5	1alpha	1alpha	I-NP	NN	O	11	NMOD	-1
+6	,	,	O	,	O	11	P	-1
+7	tumor	tumor	B-NP	NN	O	8	NMOD	-1
+8	growth	growth	I-NP	NN	O	11	NMOD	4	growth
+9	,	,	O	,	O	11	P	-1
+10	and	and	O	CC	O	11	NMOD	-1
+11	angiogenesis	angiogenesis	B-NP	NN	O	2	OBJ	3	angiogenesis
+12	and	and	O	CC	O	2	VMOD	-1
+13	augments	augment	B-VP	VBZ	O	2	VMOD	-1
+14	paclitaxel	paclitaxel	B-NP	NN	O	15	NMOD	-1
+15	efficacy	efficacy	I-NP	NN	O	13	OBJ	0
+16	in	in	B-PP	IN	O	15	NMOD	-1
+17	head	head	B-NP	NN	O	22	NMOD	-1
+18	and	and	O	CC	O	22	NMOD	-1
+19	neck	neck	B-NP	NN	O	22	NMOD	-1
+20	squamous	squamous	I-NP	JJ	O	22	NMOD	-1
+21	cell	cell	I-NP	NN	O	22	NMOD	-1
+22	carcinoma	carcinoma	I-NP	NN	O	16	PMOD	-1
+23	.	.	O	.	O	2	P	-1
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Head	Head	B-NP	NN	O	8	NMOD	-1
+4	and	and	I-NP	CC	O	8	NMOD	-1
+5	neck	neck	I-NP	NN	O	8	NMOD	-1
+6	squamous	squamous	I-NP	JJ	O	8	NMOD	-1
+7	cell	cell	I-NP	NN	O	8	NMOD	-1
+8	carcinomas	carcinoma	I-NP	NNS	O	9	SUB	-1
+9	have	have	B-VP	VBP	O	1	NMOD	-1
+10	been	be	I-VP	VBN	O	9	VC	-1
+11	reported	report	I-VP	VBN	O	10	VC	-1
+12	to	to	I-VP	TO	O	13	VMOD	-1
+13	overexpress	overexpress	I-VP	VB	O	11	VMOD	9	overexpress
+14	hypoxia-inducible	hypoxia-inducible	B-NP	JJ	B-protein	15	NMOD	-1
+15	factor	factor	I-NP	NN	I-protein	19	NMOD	-1
+16	(	(	O	(	O	18	DEP	-1
+17	HIF	HIF	B-NP	NN	B-protein	18	DEP	-1
+18	)	)	O	)	O	15	NMOD	-1
+19	-1alpha	-1alpha	B-NP	NN	O	23	NMOD	-1
+20	,	,	O	,	O	23	P	-1
+21	a	a	B-NP	DT	O	23	NMOD	-1
+22	transcription	transcription	I-NP	NN	B-protein	23	NMOD	0
+23	factor	factor	I-NP	NN	I-protein	13	OBJ	-1
+24	that	that	B-NP	WDT	O	23	NMOD	-1
+25	promotes	promote	B-VP	VBZ	O	24	SBAR	0
+26	expression	expression	B-NP	NN	O	31	NMOD	0
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	angiogenesis	angiogenesis	B-NP	NN	B-protein	29	NMOD	3	angiogenesis
+29	factors	factor	I-NP	NNS	I-protein	27	PMOD	-1
+30	and	and	O	CC	O	31	NMOD	-1
+31	resistance	resistance	B-NP	NN	O	25	OBJ	-1
+32	to	to	B-PP	TO	O	31	NMOD	-1
+33	programmed	program	B-NP	VBN	O	35	AMOD	-1
+34	and	and	I-NP	CC	O	35	AMOD	-1
+35	therapy-induced	therapy-induced	I-NP	JJ	O	37	NMOD	17	induced
+36	cell	cell	I-NP	NN	O	37	NMOD	-1
+37	death	death	I-NP	NN	O	32	PMOD	5	death
+38	.	.	O	.	O	9	P	-1
+
+1	2-Methoxyestradiol	2-Methoxyestradiol	B-NP	NN	O	5	SUB	-1
+2	(	(	O	(	O	4	DEP	-1
+3	2ME2	2ME2	B-NP	NN	B-protein	4	DEP	-1
+4	)	)	O	)	O	1	NMOD	-1
+5	is	be	B-VP	VBZ	O	0	ROOT	-1
+6	a	a	B-NP	DT	O	8	NMOD	-1
+7	natural	natural	I-NP	JJ	O	8	NMOD	-1
+8	compound	compound	I-NP	NN	O	5	PRD	-1
+9	with	with	B-PP	IN	O	8	NMOD	-1
+10	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	12	NMOD	-1
+11	inhibitory	inhibitory	I-NP	JJ	O	12	NMOD	18	inhibitory
+12	activity	activity	I-NP	NN	O	9	PMOD	0
+13	that	that	B-NP	WDT	O	8	NMOD	-1
+14	is	be	B-VP	VBZ	O	13	SBAR	-1
+15	currently	currently	I-VP	RB	O	14	VMOD	-1
+16	being	be	I-VP	VBG	O	14	VC	-1
+17	evaluated	evaluate	I-VP	VBN	O	16	VC	-1
+18	in	in	B-PP	IN	O	17	VMOD	-1
+19	phase	phase	B-NP	NN	O	24	NMOD	-1
+20	1	1	I-NP	CD	O	24	NMOD	-1
+21	and	and	I-NP	CC	O	24	NMOD	-1
+22	2	2	I-NP	CD	O	24	NMOD	-1
+23	clinical	clinical	I-NP	JJ	O	24	NMOD	-1
+24	trials	trial	I-NP	NNS	O	18	PMOD	-1
+25	for	for	B-PP	IN	O	24	NMOD	-1
+26	advanced	advance	B-NP	VBN	O	28	NMOD	-1
+27	solid	solid	I-NP	JJ	O	28	NMOD	-1
+28	tumors	tumor	I-NP	NNS	O	31	NMOD	-1
+29	and	and	O	CC	O	31	NMOD	-1
+30	multiple	multiple	B-NP	JJ	O	31	NMOD	-1
+31	myeloma	myeloma	I-NP	NN	O	25	PMOD	-1
+32	.	.	O	.	O	5	P	-1
+
+1	To	To	B-PP	TO	O	6	VMOD	-1
+2	our	our	B-NP	PRP$	O	3	NMOD	-1
+3	knowledge	knowledge	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	this	this	B-NP	DT	O	6	SUB	-1
+6	is	be	B-VP	VBZ	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	first	first	I-NP	JJ	O	9	NMOD	-1
+9	study	study	I-NP	NN	O	6	PRD	-1
+10	to	to	B-VP	TO	O	11	VMOD	-1
+11	evaluate	evaluate	I-VP	VB	O	9	NMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	effects	effect	I-NP	NNS	O	11	OBJ	16	effects
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	2ME2	2ME2	B-NP	NN	B-protein	14	PMOD	-1
+16	in	in	B-PP	IN	O	13	NMOD	-1
+17	head	head	B-NP	NN	O	22	NMOD	-1
+18	and	and	O	CC	O	22	NMOD	-1
+19	neck	neck	B-NP	NN	O	22	NMOD	-1
+20	squamous	squamous	I-NP	JJ	O	22	NMOD	-1
+21	cell	cell	I-NP	NN	O	22	NMOD	-1
+22	carcinoma	carcinoma	I-NP	NN	O	16	PMOD	-1
+23	.	.	O	.	O	6	P	-1
+
+1	EXPERIMENTAL	EXPERIMENTAL	B-NP	JJ	O	2	NMOD	-1
+2	DESIGN	DESIGN	I-NP	NN	O	10	VMOD	-1
+3	:	:	O	:	O	2	P	-1
+4	In	In	B-PP	IN	O	2	NMOD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	present	present	I-NP	JJ	O	7	NMOD	0
+7	study	study	I-NP	NN	O	4	PMOD	-1
+8	,	,	O	,	O	10	P	-1
+9	we	we	B-NP	PRP	O	10	SUB	-1
+10	investigated	investigate	B-VP	VBD	O	0	ROOT	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	effects	effect	I-NP	NNS	O	10	OBJ	16	effects
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	2ME2	2ME2	B-NP	NN	B-protein	13	PMOD	-1
+15	alone	alone	B-ADVP	RB	O	14	NMOD	-1
+16	and	and	O	CC	O	13	PMOD	-1
+17	in	in	B-PP	IN	O	13	PMOD	-1
+18	combination	combination	B-NP	NN	O	17	PMOD	-1
+19	with	with	B-PP	IN	O	18	NMOD	-1
+20	paclitaxel	paclitaxel	B-NP	NN	O	24	NMOD	-1
+21	,	,	O	,	O	24	P	-1
+22	an	an	B-NP	DT	O	24	NMOD	-1
+23	active	active	I-NP	JJ	O	24	NMOD	-1
+24	agent	agent	I-NP	NN	O	19	PMOD	-1
+25	in	in	B-PP	IN	O	24	NMOD	-1
+26	recurrent	recurrent	B-NP	JJ	O	34	NMOD	-1
+27	or	or	I-NP	CC	O	34	NMOD	-1
+28	advanced	advanced	I-NP	JJ	O	29	NMOD	-1
+29	head	head	I-NP	NN	O	34	NMOD	-1
+30	and	and	I-NP	CC	O	34	NMOD	-1
+31	neck	neck	I-NP	NN	O	34	NMOD	-1
+32	squamous	squamous	I-NP	JJ	O	34	NMOD	-1
+33	cell	cell	I-NP	NN	O	34	NMOD	-1
+34	carcinoma	carcinoma	I-NP	NN	O	25	PMOD	-1
+35	.	.	O	.	O	10	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	2ME2	2ME2	B-NP	NN	O	4	SUB	-1
+4	exhibited	exhibit	B-VP	VBD	O	1	NMOD	16	exhibited
+5	antiproliferative	antiproliferative	B-NP	JJ	O	8	NMOD	-1
+6	and	and	I-NP	CC	O	8	NMOD	-1
+7	cytotoxic	cytotoxic	I-NP	JJ	O	8	NMOD	-1
+8	effects	effect	I-NP	NNS	O	4	OBJ	0
+9	in	in	B-PP	IN	O	4	VMOD	-1
+10	a	a	B-NP	DT	O	11	NMOD	-1
+11	panel	panel	I-NP	NN	O	9	PMOD	-1
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	five	five	B-NP	CD	O	14	NMOD	-1
+14	head	head	I-NP	NN	O	21	NMOD	-1
+15	and	and	O	CC	O	21	NMOD	-1
+16	neck	neck	B-NP	NN	O	21	NMOD	-1
+17	squamous	squamous	I-NP	JJ	O	21	NMOD	-1
+18	cell	cell	I-NP	NN	O	21	NMOD	-1
+19	carcinoma	carcinoma	I-NP	NN	O	21	NMOD	-1
+20	cell	cell	I-NP	NN	O	21	NMOD	-1
+21	lines	line	I-NP	NNS	O	12	PMOD	-1
+22	in	in	B-PP	IN	O	4	VMOD	-1
+23	the	the	B-NP	DT	O	28	NMOD	-1
+24	0.5	0.5	I-NP	CD	O	26	AMOD	-1
+25	to	to	I-NP	TO	O	26	AMOD	-1
+26	10	10	I-NP	CD	O	28	NMOD	-1
+27	micromol/L	micromol/L	I-NP	NN	O	28	NMOD	-1
+28	range	range	I-NP	NN	O	22	PMOD	-1
+29	,	,	O	,	O	28	P	-1
+30	including	include	B-PP	VBG	O	28	NMOD	-1
+31	induction	induction	B-NP	NN	O	30	PMOD	17	induction
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	G2-M	G2-M	B-NP	NN	O	34	NMOD	-1
+34	blockade	blockade	I-NP	NN	O	40	NMOD	0
+35	,	,	O	,	O	40	P	-1
+36	caspase-3/7	caspase-3/7	B-NP	NN	B-protein	37	NMOD	-1
+37	activation	activation	I-NP	NN	O	40	NMOD	17	activation
+38	,	,	O	,	O	40	P	-1
+39	and	and	O	CC	O	40	NMOD	-1
+40	apoptosis	apoptosis	B-NP	NN	O	32	PMOD	5	apoptosis
+41	at	at	B-PP	IN	O	31	NMOD	-1
+42	48	48	B-NP	CD	O	43	NMOD	-1
+43	hours	hour	I-NP	NNS	O	41	PMOD	-1
+44	.	.	O	.	O	1	P	-1
+
+1	2ME2	2ME2	B-NP	NN	O	2	SUB	-1
+2	resulted	result	B-VP	VBD	O	0	ROOT	0
+3	in	in	B-PP	IN	O	2	VMOD	-1
+4	decreased	decrease	B-NP	VBN	O	7	NMOD	18	decreased
+5	nuclear	nuclear	I-NP	JJ	O	7	NMOD	-1
+6	HIF-1alpha-binding	HIF-1alpha-binding	I-NP	JJ	O	7	NMOD	15	binding
+7	activity	activity	I-NP	NN	O	3	PMOD	0
+8	and	and	O	CC	O	2	VMOD	-1
+9	affected	affect	B-VP	VBD	O	2	VMOD	16	affected
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	expression	expression	I-NP	NN	O	9	OBJ	9	expression
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	downstream	downstream	B-NP	JJ	B-DNA	14	NMOD	0
+14	genes	gene	I-NP	NNS	I-DNA	12	PMOD	-1
+15	,	,	O	,	O	14	P	-1
+16	such	such	B-PP	JJ	O	17	PMOD	-1
+17	as	as	I-PP	IN	O	14	NMOD	-1
+18	bid	bid	B-NP	NN	O	34	NMOD	-1
+19	,	,	O	,	O	34	P	-1
+20	a	a	B-NP	DT	O	24	NMOD	-1
+21	proapoptotic	proapoptotic	I-NP	JJ	B-protein	24	NMOD	-1
+22	bcl-2	bcl-2	I-NP	NN	I-protein	24	NMOD	-1
+23	family	family	I-NP	NN	I-protein	24	NMOD	-1
+24	member	member	I-NP	NN	I-protein	34	NMOD	-1
+25	,	,	O	,	O	34	P	-1
+26	and	and	O	CC	O	34	NMOD	-1
+27	vascular	vascular	B-NP	JJ	B-protein	30	NMOD	-1
+28	endothelial	endothelial	I-NP	JJ	I-protein	30	NMOD	-1
+29	growth	growth	I-NP	NN	I-protein	30	NMOD	0
+30	factor	factor	I-NP	NN	I-protein	34	NMOD	-1
+31	,	,	O	,	O	34	P	-1
+32	a	a	B-NP	DT	O	34	NMOD	-1
+33	proangiogenic	proangiogenic	I-NP	JJ	B-protein	34	NMOD	3	angiogenic
+34	cytokine	cytokine	I-NP	NN	I-protein	17	PMOD	-1
+35	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	up-regulation	up-regulation	I-NP	NN	O	18	NMOD	17	up-regulation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	Bid	Bid	B-NP	NN	B-protein	3	PMOD	-1
+5	(	(	O	(	O	16	DEP	-1
+6	57.5	57.5	B-NP	CD	O	7	NMOD	-1
+7	%	%	I-NP	NN	O	12	NMOD	-1
+8	at	at	B-PP	IN	O	7	NMOD	-1
+9	12	12	B-NP	CD	O	10	NMOD	-1
+10	hours	hour	I-NP	NNS	O	8	PMOD	-1
+11	,	,	O	,	O	12	P	-1
+12	P	P	B-NP	NN	O	16	DEP	-1
+13	less	less	B-ADJP	JJR	O	12	NMOD	-1
+14	than	than	B-PP	IN	O	13	AMOD	-1
+15	0.0006	0.0006	B-NP	CD	O	14	PMOD	-1
+16	)	)	O	)	O	4	NMOD	-1
+17	and	and	O	CC	O	18	NMOD	-1
+18	inhibition	inhibition	B-NP	NN	O	49	SUB	18	inhibition
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	vascular	vascular	B-NP	JJ	B-protein	24	NMOD	-1
+21	endothelial	endothelial	I-NP	JJ	I-protein	24	NMOD	-1
+22	growth	growth	I-NP	NN	I-protein	24	NMOD	0
+23	factor	factor	I-NP	NN	I-protein	24	NMOD	-1
+24	secretion	secretion	I-NP	NN	O	19	PMOD	14	secretion
+25	(	(	O	(	O	48	DEP	-1
+26	57.7	57.7	B-NP	CD	O	27	NMOD	-1
+27	%	%	I-NP	NN	O	32	NMOD	-1
+28	at	at	B-PP	IN	O	27	NMOD	-1
+29	24	24	B-NP	CD	O	30	NMOD	-1
+30	hours	hour	I-NP	NNS	O	28	PMOD	-1
+31	,	,	O	,	O	32	P	-1
+32	P	P	B-NP	NN	O	39	NMOD	-1
+33	less	less	B-ADJP	JJR	O	32	NMOD	-1
+34	than	than	B-PP	IN	O	33	AMOD	-1
+35	0.015	0.015	B-NP	CD	O	34	PMOD	-1
+36	;	;	O	:	O	39	P	-1
+37	and	and	O	CC	O	39	NMOD	-1
+38	50.3	50.3	B-NP	CD	O	39	NMOD	-1
+39	%	%	I-NP	NN	O	44	NMOD	-1
+40	at	at	B-PP	IN	O	39	NMOD	-1
+41	48	48	B-NP	CD	O	42	NMOD	-1
+42	hours	hour	I-NP	NNS	O	40	PMOD	-1
+43	,	,	O	,	O	44	P	-1
+44	P	P	B-NP	NN	O	46	SUB	-1
+45	less	less	B-ADJP	JJR	O	46	AMOD	-1
+46	than	than	B-PP	IN	O	48	DEP	-1
+47	0.0006	0.0006	B-NP	CD	O	46	AMOD	-1
+48	)	)	O	)	O	24	NMOD	-1
+49	could	could	B-VP	MD	O	0	ROOT	-1
+50	be	be	I-VP	VB	O	49	VC	-1
+51	partially	partially	I-VP	RB	O	50	VMOD	-1
+52	attributed	attribute	I-VP	VBN	O	50	VC	-1
+53	to	to	B-PP	TO	O	52	VMOD	-1
+54	the	the	B-NP	DT	O	55	NMOD	-1
+55	effects	effect	I-NP	NNS	O	53	PMOD	16	effects
+56	on	on	B-PP	IN	O	55	NMOD	-1
+57	HIF-1alpha	HIF-1alpha	B-NP	NN	B-protein	56	PMOD	-1
+58	,	,	O	,	O	49	P	-1
+59	because	because	B-SBAR	IN	O	49	VMOD	-1
+60	HIF-1alpha	HIF-1alpha	B-NP	NN	B-RNA	63	NMOD	-1
+61	small	small	B-NP	JJ	I-RNA	63	NMOD	-1
+62	interfering	interfere	I-NP	VBG	I-RNA	63	NMOD	-1
+63	RNAs	RNA	I-NP	NNS	I-RNA	64	SUB	-1
+64	produced	produce	B-VP	VBD	O	59	SBAR	0
+65	similar	similar	B-NP	JJ	O	66	NMOD	-1
+66	effects	effect	I-NP	NNS	O	64	OBJ	0
+67	.	.	O	.	O	49	P	-1
+
+1	Finally	Finally	B-ADVP	RB	O	22	VMOD	-1
+2	,	,	O	,	O	22	P	-1
+3	in	in	B-ADVP	FW	O	22	VMOD	-1
+4	vivo	vivo	I-ADVP	FW	O	3	AMOD	-1
+5	,	,	O	,	O	22	P	-1
+6	in	in	B-PP	IN	O	22	VMOD	-1
+7	a	a	B-NP	DT	O	9	NMOD	-1
+8	xenograft	xenograft	I-NP	NN	O	9	NMOD	-1
+9	model	model	I-NP	NN	O	6	PMOD	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	head	head	B-NP	NN	O	16	NMOD	-1
+12	and	and	I-NP	CC	O	16	NMOD	-1
+13	neck	neck	I-NP	NN	O	16	NMOD	-1
+14	squamous	squamous	I-NP	JJ	O	16	NMOD	-1
+15	cell	cell	I-NP	NN	O	16	NMOD	-1
+16	carcinoma	carcinoma	I-NP	NN	O	10	PMOD	-1
+17	using	use	B-VP	VBG	O	16	NMOD	-1
+18	UM-SCC-11A	UM-SCC-11A	B-NP	NN	B-cell_line	19	NMOD	-1
+19	cells	cell	I-NP	NNS	I-cell_line	17	OBJ	-1
+20	,	,	O	,	O	22	P	-1
+21	2ME2	2ME2	B-NP	NN	O	22	SUB	-1
+22	exhibited	exhibit	B-VP	VBD	O	0	ROOT	0
+23	antitumor	antitumor	B-NP	JJ	O	25	AMOD	-1
+24	and	and	I-NP	CC	O	25	AMOD	-1
+25	antiangiogenic	antiangiogenic	I-NP	JJ	O	26	NMOD	3	angiogenic
+26	activity	activity	I-NP	NN	O	22	OBJ	18	activity
+27	,	,	O	,	O	22	P	-1
+28	as	as	B-SBAR	IN	O	22	VMOD	-1
+29	measured	measure	B-VP	VBN	O	28	SBAR	-1
+30	by	by	B-PP	IN	O	29	VMOD	-1
+31	CD31	CD31	B-NP	NN	B-protein	32	NMOD	-1
+32	immunostaining	immunostaining	I-NP	NN	O	30	PMOD	-1
+33	.	.	O	.	O	22	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	These	These	B-NP	DT	O	4	NMOD	-1
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	provide	provide	B-VP	VBP	O	1	NMOD	-1
+6	support	support	B-NP	NN	O	5	OBJ	0
+7	for	for	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	use	use	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	2ME2	2ME2	B-NP	NN	B-protein	10	PMOD	-1
+12	in	in	B-PP	IN	O	6	NMOD	-1
+13	combination	combination	B-NP	NN	O	12	PMOD	-1
+14	with	with	B-PP	IN	O	13	NMOD	-1
+15	paclitaxel	paclitaxel	B-NP	NN	O	14	PMOD	-1
+16	for	for	B-PP	IN	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	treatment	treatment	I-NP	NN	O	16	PMOD	19	treatment
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	recurrent	recurrent	B-NP	JJ	O	28	NMOD	-1
+21	or	or	I-NP	CC	O	28	NMOD	-1
+22	advanced	advanced	I-NP	JJ	O	23	NMOD	-1
+23	head	head	I-NP	NN	O	28	NMOD	-1
+24	and	and	I-NP	CC	O	28	NMOD	-1
+25	neck	neck	I-NP	NN	O	28	NMOD	-1
+26	squamous	squamous	I-NP	JJ	O	28	NMOD	-1
+27	cell	cell	I-NP	NN	O	28	NMOD	-1
+28	carcinoma	carcinoma	I-NP	NN	O	19	PMOD	-1
+29	.	.	O	.	O	1	P	-1
+

@@ -1,0 +1,279 @@
+1	[	[	O	(	O	11	NMOD	-1
+2	Activation	Activation	B-NP	NN	O	11	NMOD	17	Activation
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	sterol	sterol	B-NP	NN	B-protein	8	NMOD	-1
+5	regulatory	regulatory	I-NP	JJ	I-protein	8	NMOD	-1
+6	element	element	I-NP	NN	I-protein	8	NMOD	-1
+7	binding	binding	I-NP	NN	I-protein	8	NMOD	0
+8	protein	protein	I-NP	NN	I-protein	3	PMOD	-1
+9	and	and	O	CC	O	11	NMOD	-1
+10	its	its	B-NP	PRP$	O	11	NMOD	-1
+11	involvement	involvement	I-NP	NN	O	0	ROOT	16	involvement
+12	in	in	B-PP	IN	O	11	NMOD	-1
+13	endothelial	endothelial	B-NP	JJ	O	15	NMOD	-1
+14	cell	cell	I-NP	NN	O	15	NMOD	-1
+15	migration	migration	I-NP	NN	O	12	PMOD	14	migration
+16	]	]	O	)	O	11	NMOD	-1
+
+1	OBJECTIVE	OBJECTIVE	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	To	To	B-VP	TO	O	4	VMOD	-1
+4	study	study	I-VP	VB	O	1	NMOD	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	activation	activation	I-NP	NN	O	19	NMOD	17	activation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	sterol	sterol	B-NP	NN	B-protein	12	NMOD	-1
+9	regulatory	regulatory	I-NP	JJ	I-protein	12	NMOD	-1
+10	element	element	I-NP	NN	I-protein	12	NMOD	-1
+11	binding	binding	I-NP	NN	I-protein	12	NMOD	0
+12	protein	protein	I-NP	NN	I-protein	7	PMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	SREBP	SREBP	B-NP	NN	B-protein	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	and	and	O	CC	O	19	NMOD	-1
+17	its	its	B-NP	PRP$	O	19	NMOD	-1
+18	critical	critical	I-NP	JJ	O	19	NMOD	0
+19	role	role	I-NP	NN	O	4	OBJ	0
+20	in	in	B-PP	IN	O	19	NMOD	-1
+21	endothelial	endothelial	B-NP	JJ	O	23	NMOD	-1
+22	cell	cell	I-NP	NN	O	23	NMOD	-1
+23	migration	migration	I-NP	NN	O	20	PMOD	14	migration
+24	.	.	O	.	O	4	P	-1
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Bovine	Bovine	B-NP	JJ	B-cell_type	6	NMOD	-1
+4	aortic	aortic	I-NP	JJ	I-cell_type	6	NMOD	-1
+5	endothelial	endothelial	I-NP	JJ	I-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	10	SUB	-1
+7	(	(	O	(	O	9	DEP	-1
+8	ECs	EC	B-NP	NNS	B-cell_type	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	were	be	B-VP	VBD	O	1	NMOD	-1
+11	cultured	culture	I-VP	VBN	O	10	VC	19	cultured
+12	.	.	O	.	O	1	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	expression	expression	I-NP	NN	O	7	SUB	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	SREBP	SREBP	B-NP	NN	B-protein	6	NMOD	-1
+5	and	and	I-NP	CC	O	6	NMOD	-1
+6	Cdc42	Cdc42	I-NP	NN	B-protein	3	PMOD	-1
+7	were	be	B-VP	VBD	O	0	ROOT	-1
+8	determined	determine	I-VP	VBN	O	7	VC	-1
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	Western	Western	B-NP	JJ	O	11	NMOD	-1
+11	blot	blot	I-NP	NN	O	15	NMOD	-1
+12	and	and	O	CC	O	15	NMOD	-1
+13	quantitative	quantitative	B-NP	JJ	O	15	NMOD	-1
+14	real-time	real-time	I-NP	JJ	O	15	NMOD	-1
+15	PCR	PCR	I-NP	NN	O	9	PMOD	-1
+16	.	.	O	.	O	7	P	-1
+
+1	Moreover	Moreover	B-ADVP	RB	O	11	VMOD	-1
+2	,	,	O	,	O	11	P	-1
+3	outward	outward	B-NP	JJ	O	6	NMOD	-1
+4	growth	growth	I-NP	NN	O	6	NMOD	0
+5	migration	migration	I-NP	NN	O	6	NMOD	0
+6	model	model	I-NP	NN	O	11	SUB	-1
+7	and	and	O	CC	O	6	NMOD	-1
+8	transwell	transwell	B-VP	VB	O	7	AMOD	-1
+9	chamber	chamber	B-NP	NN	O	10	NMOD	-1
+10	assay	assay	I-NP	NN	O	8	OBJ	-1
+11	were	be	B-VP	VBD	O	0	ROOT	-1
+12	used	use	I-VP	VBN	O	11	VC	0
+13	to	to	B-VP	TO	O	14	VMOD	-1
+14	detect	detect	I-VP	VB	O	12	VMOD	-1
+15	ECs	EC	B-NP	NNS	B-cell_type	16	NMOD	-1
+16	migration	migration	I-NP	NN	O	14	OBJ	14	migration
+17	.	.	O	.	O	11	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	(	(	B-LST	(	O	4	DEP	-1
+4	1	1	I-LST	LS	O	7	VMOD	-1
+5	)	)	O	)	O	4	DEP	-1
+6	SREBP	SREBP	B-NP	NN	B-protein	7	SUB	-1
+7	was	be	B-VP	VBD	O	1	NMOD	-1
+8	activated	activate	I-VP	VBN	O	7	VC	17	activated
+9	during	during	B-PP	IN	O	8	VMOD	-1
+10	ECs	EC	B-NP	NNS	B-cell_type	11	NMOD	-1
+11	migration	migration	I-NP	NN	O	9	PMOD	14	migration
+12	.	.	O	.	O	1	P	-1
+
+1	Western	Western	B-NP	NN	O	3	NMOD	-1
+2	blot	blot	I-NP	NN	O	3	NMOD	-1
+3	analysis	analysis	I-NP	NN	O	4	SUB	-1
+4	demonstrated	demonstrate	B-VP	VBD	O	0	ROOT	-1
+5	increased	increase	B-NP	VBN	O	8	NMOD	17	increased
+6	active	active	I-NP	JJ	O	8	NMOD	-1
+7	form	form	I-NP	NN	O	8	NMOD	0
+8	SREBP	SREBP	I-NP	NN	O	4	OBJ	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	migrating	migrate	B-VP	VBG	O	9	PMOD	14	migrating
+11	as	as	B-SBAR	IN	O	4	VMOD	-1
+12	compared	compare	B-VP	VBN	O	11	SBAR	-1
+13	to	to	B-PP	TO	O	12	VMOD	-1
+14	non-migrating	non-migrating	B-NP	JJ	B-cell_type	16	NMOD	14	non-migrating
+15	ECs	EC	I-NP	NNS	I-cell_type	16	NMOD	-1
+16	population	population	I-NP	NN	I-cell_type	13	PMOD	-1
+17	.	.	O	.	O	4	P	-1
+
+1	SREBP	SREBP	B-NP	NN	B-protein	2	NMOD	-1
+2	activation	activation	I-NP	NN	O	3	SUB	17	activation
+3	decreased	decrease	B-VP	VBD	O	38	VMOD	18	decreased
+4	as	as	B-SBAR	IN	O	3	VMOD	-1
+5	ECs	EC	B-NP	NNS	B-cell_type	6	NMOD	-1
+6	migration	migration	I-NP	NN	O	7	SUB	14	migration
+7	slowed	slow	B-VP	VBD	O	4	DEP	18	slowed
+8	;	;	O	:	O	3	P	-1
+9	(	(	B-LST	(	O	10	DEP	-1
+10	2	2	I-LST	LS	O	38	VMOD	-1
+11	)	)	O	)	O	10	DEP	-1
+12	Coincidental	Coincidental	B-ADJP	JJ	O	38	VMOD	-1
+13	with	with	B-PP	IN	O	12	AMOD	-1
+14	SREBP	SREBP	B-NP	NN	B-protein	15	NMOD	-1
+15	activation	activation	I-NP	NN	O	13	PMOD	17	activation
+16	,	,	O	,	O	38	P	-1
+17	mRNA	mRNA	B-NP	NN	O	18	NMOD	0
+18	expression	expression	I-NP	NN	O	36	NMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	its	its	B-NP	PRP$	O	22	NMOD	-1
+21	target	target	I-NP	NN	B-DNA	22	NMOD	0
+22	genes	gene	I-NP	NNS	I-DNA	19	PMOD	-1
+23	such	such	B-PP	JJ	O	24	PMOD	-1
+24	as	as	I-PP	IN	O	22	NMOD	-1
+25	low	low	B-NP	JJ	B-protein	28	NMOD	-1
+26	density	density	I-NP	NN	I-protein	28	NMOD	-1
+27	lipoprotein	lipoprotein	I-NP	NN	I-protein	28	NMOD	-1
+28	receptor	receptor	I-NP	NN	I-protein	24	PMOD	-1
+29	,	,	O	,	O	36	P	-1
+30	HMG-CoA	HMG-CoA	B-NP	NN	B-protein	31	NMOD	-1
+31	reductase	reductase	I-NP	NN	I-protein	36	NMOD	-1
+32	,	,	O	,	O	36	P	-1
+33	and	and	O	CC	O	36	NMOD	-1
+34	fatty	fatty	B-NP	JJ	B-protein	36	NMOD	-1
+35	acid	acid	I-NP	NN	I-protein	36	NMOD	-1
+36	synthase	synthase	I-NP	NN	I-protein	38	SUB	-1
+37	also	also	B-ADVP	RB	O	38	VMOD	-1
+38	increased	increase	B-VP	VBD	O	53	VMOD	17	increased
+39	in	in	B-PP	IN	O	38	VMOD	-1
+40	migrating	migrate	B-VP	VBG	O	39	PMOD	14	migrating
+41	ECs	EC	B-NP	NNS	B-cell_type	42	NMOD	-1
+42	population	population	I-NP	NN	O	40	OBJ	-1
+43	as	as	B-SBAR	IN	O	38	VMOD	-1
+44	detected	detect	B-VP	VBN	O	43	DEP	0
+45	by	by	B-PP	IN	O	44	VMOD	-1
+46	real-time	real-time	B-NP	JJ	O	47	NMOD	-1
+47	PCR	PCR	I-NP	NN	O	45	PMOD	-1
+48	;	;	O	:	O	53	P	-1
+49	(	(	B-LST	(	O	50	DEP	-1
+50	3	3	I-LST	LS	O	53	VMOD	-1
+51	)	)	O	)	O	50	DEP	-1
+52	Migration	Migration	B-NP	NN	O	53	SUB	14	Migration
+53	induced	induce	B-VP	VBD	O	75	VMOD	17	induced
+54	SREBP	SREBP	B-NP	NN	B-protein	55	NMOD	-1
+55	activation	activation	I-NP	NN	O	53	OBJ	17	activation
+56	in	in	B-PP	IN	O	53	VMOD	-1
+57	ECs	EC	B-NP	NNS	B-cell_type	56	PMOD	-1
+58	was	be	B-VP	VBD	O	53	VMOD	-1
+59	inhibited	inhibit	I-VP	VBN	O	58	VC	18	inhibited
+60	by	by	B-PP	IN	O	59	VMOD	-1
+61	SREBP-acting	SREBP-acting	B-NP	JJ	B-protein	63	NMOD	-1
+62	protein	protein	I-NP	NN	I-protein	63	NMOD	-1
+63	RNAi	RNAi	I-NP	NN	O	60	PMOD	-1
+64	and	and	O	CC	O	58	VMOD	-1
+65	pharmacologically	pharmacologically	B-ADVP	RB	O	66	PMOD	-1
+66	by	by	B-PP	IN	O	58	VMOD	-1
+67	25-hydroxycholesterol	25-hydroxycholesterol	B-NP	NN	O	66	PMOD	-1
+68	;	;	O	:	O	53	P	-1
+69	(	(	B-LST	(	O	70	DEP	-1
+70	4	4	I-LST	LS	O	75	VMOD	-1
+71	)	)	O	)	O	70	DEP	-1
+72	Inhibition	Inhibition	B-NP	NN	O	75	SUB	18	Inhibition
+73	of	of	B-PP	IN	O	72	NMOD	-1
+74	SREBP	SREBP	B-NP	NN	B-protein	73	PMOD	-1
+75	led	lead	B-VP	VBD	O	100	VMOD	17	led
+76	to	to	B-PP	TO	O	75	VMOD	-1
+77	decreased	decrease	B-NP	VBN	O	79	NMOD	18	decreased
+78	ECs	EC	I-NP	NNS	B-cell_type	79	NMOD	-1
+79	migration	migration	I-NP	NN	O	76	PMOD	14	migration
+80	in	in	B-PP	IN	O	79	NMOD	-1
+81	various	various	B-NP	JJ	O	82	NMOD	-1
+82	models	model	I-NP	NNS	O	80	PMOD	-1
+83	;	;	O	:	O	75	P	-1
+84	(	(	B-LST	(	O	85	DEP	-1
+85	5	5	I-LST	LS	O	89	VMOD	-1
+86	)	)	O	)	O	85	DEP	-1
+87	Cells	Cell	B-NP	NNPS	O	89	AMOD	-1
+88	genetically	genetically	B-ADJP	RB	O	89	AMOD	-1
+89	deficient	deficient	I-ADJP	JJ	O	100	VMOD	9	deficient
+90	in	in	B-PP	IN	O	89	AMOD	-1
+91	SREBP-acting	SREBP-acting	B-NP	JJ	B-protein	92	NMOD	-1
+92	protein	protein	I-NP	NN	I-protein	97	NMOD	-1
+93	,	,	O	,	O	97	P	-1
+94	S1P	S1P	B-NP	NN	B-protein	97	NMOD	-1
+95	,	,	O	,	O	97	P	-1
+96	or	or	O	CC	O	97	NMOD	-1
+97	S2P	S2P	B-NP	NN	B-protein	90	PMOD	-1
+98	,	,	O	,	O	89	P	-1
+99	phenotypically	phenotypically	B-ADVP	RB	O	100	VMOD	-1
+100	exhibited	exhibit	B-VP	VBD	O	111	VMOD	0
+101	impaired	impaired	B-NP	JJ	O	102	NMOD	0
+102	migration	migration	I-NP	NN	O	100	OBJ	0
+103	;	;	O	:	O	100	P	-1
+104	(	(	O	(	O	106	DEP	-1
+105	6	6	B-NP	CD	O	106	DEP	-1
+106	)	)	O	)	O	100	VMOD	-1
+107	SREBP	SREBP	B-NP	NN	O	108	NMOD	-1
+108	inhibition	inhibition	I-NP	NN	O	111	SUB	18	inhibition
+109	in	in	B-PP	IN	O	108	NMOD	-1
+110	ECs	EC	B-NP	NNS	B-cell_type	109	PMOD	-1
+111	suppressed	suppress	B-VP	VBD	O	0	ROOT	18	suppressed
+112	the	the	B-NP	DT	O	113	NMOD	-1
+113	activity	activity	I-NP	NN	O	111	OBJ	0
+114	of	of	B-PP	IN	O	113	NMOD	-1
+115	small	small	B-NP	JJ	O	117	NMOD	-1
+116	GTPase	GTPase	I-NP	NN	O	117	NMOD	-1
+117	Cdc42	Cdc42	I-NP	NN	B-protein	121	NMOD	-1
+118	,	,	O	,	O	121	P	-1
+119	a	a	B-NP	DT	O	121	NMOD	-1
+120	key	key	I-NP	JJ	O	121	NMOD	-1
+121	molecule	molecule	I-NP	NN	O	114	PMOD	-1
+122	for	for	B-PP	IN	O	121	NMOD	-1
+123	ECs	EC	B-NP	NNS	B-cell_type	124	NMOD	-1
+124	motility	motility	I-NP	NN	O	122	PMOD	14	motility
+125	.	.	O	.	O	111	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	SREBP	SREBP	B-NP	NN	B-protein	4	SUB	-1
+4	is	be	B-VP	VBZ	O	1	NMOD	-1
+5	activated	activate	I-VP	VBN	O	4	VC	17	activated
+6	during	during	B-PP	IN	O	5	VMOD	-1
+7	and	and	O	CC	O	4	VMOD	-1
+8	plays	play	B-VP	VBZ	O	4	VMOD	-1
+9	a	a	B-NP	DT	O	11	NMOD	-1
+10	critical	critical	I-NP	JJ	O	11	NMOD	0
+11	role	role	I-NP	NN	O	8	OBJ	0
+12	in	in	B-PP	IN	O	8	VMOD	-1
+13	ECs	EC	B-NP	NNS	B-cell_type	14	NMOD	-1
+14	migration	migration	I-NP	NN	O	12	PMOD	14	migration
+15	.	.	O	.	O	1	P	-1
+
+1	Targeting	Target	B-NP	VBG	O	2	NMOD	19	Targeting
+2	SREBP	SREBP	I-NP	NN	B-protein	3	SUB	-1
+3	could	could	B-VP	MD	O	0	ROOT	-1
+4	become	become	I-VP	VB	O	3	VC	-1
+5	a	a	B-NP	DT	O	7	NMOD	-1
+6	novel	novel	I-NP	JJ	O	7	NMOD	-1
+7	approach	approach	I-NP	NN	O	4	OBJ	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	fighting	fight	B-VP	VBG	O	8	PMOD	-1
+10	diseases	disease	B-NP	NNS	O	9	OBJ	-1
+11	involving	involve	B-VP	VBG	O	10	NMOD	0
+12	abnormal	abnormal	B-NP	JJ	O	14	NMOD	-1
+13	ECs	EC	I-NP	NNS	O	14	NMOD	-1
+14	migration	migration	I-NP	NN	O	11	OBJ	14	migration
+15	.	.	O	.	O	3	P	-1
+

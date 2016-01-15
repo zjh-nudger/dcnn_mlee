@@ -1,0 +1,207 @@
+1	Regulation	Regulation	B-NP	NN	O	0	ROOT	16	Regulation
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	thrombospondin-1	thrombospondin-1	B-NP	NN	B-protein	2	PMOD	-1
+4	by	by	B-PP	IN	O	1	NMOD	-1
+5	natural	natural	B-NP	JJ	O	8	NMOD	-1
+6	and	and	I-NP	CC	O	8	NMOD	-1
+7	synthetic	synthetic	I-NP	JJ	O	8	NMOD	-1
+8	progestins	progestin	I-NP	NNS	O	4	PMOD	-1
+9	in	in	B-PP	IN	O	8	NMOD	-1
+10	human	human	B-NP	JJ	B-cell_type	13	NMOD	-1
+11	breast	breast	I-NP	NN	I-cell_type	13	NMOD	-1
+12	cancer	cancer	I-NP	NN	I-cell_type	13	NMOD	-1
+13	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	-1
+14	.	.	O	.	O	1	P	-1
+
+1	Our	Our	B-NP	PRP$	O	3	NMOD	-1
+2	recent	recent	I-NP	JJ	O	3	NMOD	-1
+3	studies	study	I-NP	NNS	O	4	SUB	-1
+4	show	show	B-VP	VBP	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	progestins	progestin	B-NP	NNS	O	7	SUB	-1
+7	induce	induce	B-VP	VBP	O	5	SBAR	17	induce
+8	vascular	vascular	B-NP	JJ	B-protein	11	NMOD	-1
+9	endothelial	endothelial	I-NP	JJ	I-protein	11	NMOD	-1
+10	growth	growth	I-NP	NN	I-protein	11	NMOD	0
+11	factor	factor	I-NP	NN	I-protein	7	OBJ	-1
+12	(	(	O	(	O	14	DEP	-1
+13	VEGF	VEGF	B-NP	NN	B-protein	14	DEP	-1
+14	)	)	O	)	O	11	NMOD	-1
+15	in	in	B-PP	IN	O	7	VMOD	-1
+16	breast	breast	B-NP	NN	B-cell_type	18	NMOD	-1
+17	cancer	cancer	I-NP	NN	I-cell_type	18	NMOD	-1
+18	cells	cell	I-NP	NNS	I-cell_type	15	PMOD	-1
+19	that	that	B-NP	WDT	O	18	NMOD	-1
+20	express	express	B-VP	VBP	O	19	SBAR	9	express
+21	mutant	mutant	B-NP	JJ	B-protein	23	NMOD	-1
+22	p53	p53	I-NP	NN	I-protein	23	NMOD	-1
+23	protein	protein	I-NP	NN	I-protein	20	OBJ	-1
+24	.	.	O	.	O	4	P	-1
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	show	show	B-VP	VBP	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	natural	natural	B-NP	JJ	O	9	NMOD	-1
+7	and	and	I-NP	CC	O	9	NMOD	-1
+8	synthetic	synthetic	I-NP	JJ	O	9	NMOD	-1
+9	progestins	progestin	I-NP	NNS	O	11	SUB	-1
+10	also	also	B-ADVP	RB	O	11	VMOD	-1
+11	induce	induce	B-VP	VBP	O	5	SBAR	17	induce
+12	thrombospondin-1	thrombospondin-1	B-NP	NN	B-RNA	16	NMOD	-1
+13	(	(	O	(	I-RNA	16	NMOD	-1
+14	TSP-1	TSP-1	B-NP	NN	I-RNA	16	NMOD	-1
+15	)	)	O	)	I-RNA	16	NMOD	-1
+16	mRNA	mRNA	B-NP	NN	I-RNA	18	NMOD	0
+17	and	and	I-NP	CC	O	18	NMOD	-1
+18	protein	protein	I-NP	NN	O	11	OBJ	-1
+19	in	in	B-PP	IN	O	11	VMOD	-1
+20	T47-D	T47-D	B-NP	NN	B-cell_line	25	NMOD	-1
+21	and	and	I-NP	CC	I-cell_line	25	NMOD	-1
+22	BT-474	BT-474	I-NP	NN	I-cell_line	25	NMOD	-1
+23	breast	breast	I-NP	NN	I-cell_line	25	NMOD	-1
+24	cancer	cancer	I-NP	NN	I-cell_line	25	NMOD	-1
+25	cells	cell	I-NP	NNS	I-cell_line	19	PMOD	-1
+26	.	.	O	.	O	4	P	-1
+
+1	Antiprogestin	Antiprogestin	B-NP	NNP	O	2	NMOD	-1
+2	RU-486	RU-486	I-NP	NNP	O	3	SUB	-1
+3	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	induction	induction	I-NP	NN	O	3	OBJ	17	induction
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	VEGF	VEGF	B-NP	NN	B-protein	9	NMOD	-1
+8	and	and	I-NP	CC	O	9	NMOD	-1
+9	TSP-1	TSP-1	I-NP	NN	B-protein	6	PMOD	-1
+10	by	by	B-PP	IN	O	3	VMOD	-1
+11	progestins	progestin	B-NP	NNS	O	10	PMOD	-1
+12	,	,	O	,	O	3	P	-1
+13	suggesting	suggest	B-VP	VBG	O	3	VMOD	-1
+14	that	that	B-SBAR	IN	O	13	VMOD	-1
+15	this	this	B-NP	DT	O	16	NMOD	-1
+16	effect	effect	I-NP	NN	O	19	SUB	0
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	progestin	progestin	B-NP	NN	O	17	PMOD	-1
+19	is	be	B-VP	VBZ	O	14	SBAR	-1
+20	mediated	mediate	I-VP	VBN	O	19	VC	16	mediated
+21	by	by	B-PP	IN	O	20	VMOD	-1
+22	the	the	B-NP	DT	O	24	NMOD	-1
+23	progesterone	progesterone	I-NP	NN	B-protein	24	NMOD	-1
+24	receptor	receptor	I-NP	NN	I-protein	21	PMOD	-1
+25	(	(	O	(	O	27	DEP	-1
+26	PR	PR	B-NP	NN	B-protein	27	DEP	-1
+27	)	)	O	)	O	24	NMOD	-1
+28	.	.	O	.	O	3	P	-1
+
+1	Actinomycin-D	Actinomycin-D	B-NP	NN	O	5	NMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	but	but	O	CC	O	5	NMOD	-1
+4	not	not	O	RB	O	3	DEP	-1
+5	puromycin	puromycin	B-NP	NN	O	8	SUB	-1
+6	,	,	O	,	O	5	P	-1
+7	also	also	B-ADVP	RB	O	8	VMOD	-1
+8	blocks	block	B-VP	VBZ	O	0	ROOT	18	blocks
+9	progestin-dependent	progestin-dependent	B-NP	JJ	O	10	NMOD	17	dependent
+10	induction	induction	I-NP	NN	O	8	OBJ	17	induction
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	TSP-1	TSP-1	B-NP	NN	B-protein	11	PMOD	-1
+13	.	.	O	.	O	8	P	-1
+
+1	A	A	B-NP	DT	O	4	NMOD	-1
+2	putative	putative	I-NP	JJ	B-DNA	4	NMOD	-1
+3	progestin-response	progestin-response	I-NP	JJ	I-DNA	4	NMOD	-1
+4	element	element	I-NP	NN	I-DNA	5	SUB	-1
+5	was	be	B-VP	VBD	O	0	ROOT	-1
+6	identified	identify	I-VP	VBN	O	5	VC	-1
+7	in	in	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	11	NMOD	-1
+9	human	human	I-NP	JJ	B-DNA	11	NMOD	-1
+10	TSP-1	TSP-1	I-NP	NN	I-DNA	11	NMOD	-1
+11	promoter	promoter	I-NP	NN	I-DNA	7	PMOD	-1
+12	,	,	O	,	O	11	P	-1
+13	which	which	B-NP	WDT	O	11	NMOD	-1
+14	is	be	B-VP	VBZ	O	13	SBAR	-1
+15	consistent	consistent	B-ADJP	JJ	O	14	PRD	-1
+16	with	with	B-PP	IN	O	15	AMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	hypothesis	hypothesis	I-NP	NN	O	16	PMOD	-1
+19	that	that	B-SBAR	IN	O	18	NMOD	-1
+20	a	a	B-NP	DT	O	22	NMOD	-1
+21	progestin-PR	progestin-PR	I-NP	NN	B-protein	22	NMOD	-1
+22	complex	complex	I-NP	NN	I-protein	23	SUB	-1
+23	might	might	B-VP	MD	O	19	SBAR	-1
+24	directly	directly	I-VP	RB	O	23	VMOD	-1
+25	regulate	regulate	I-VP	VB	O	23	VC	16	regulate
+26	transcription	transcription	B-NP	NN	O	25	OBJ	10	transcription
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	the	the	B-NP	DT	O	30	NMOD	-1
+29	TSP-1	TSP-1	I-NP	NN	B-DNA	30	NMOD	-1
+30	gene	gene	I-NP	NN	I-DNA	27	PMOD	-1
+31	in	in	B-PP	IN	O	26	NMOD	-1
+32	human	human	B-NP	JJ	B-cell_type	33	NMOD	-1
+33	cells	cell	I-NP	NNS	I-cell_type	31	PMOD	-1
+34	.	.	O	.	O	5	P	-1
+
+1	Conditioned	Conditioned	B-NP	JJ	O	2	NMOD	-1
+2	medium	medium	I-NP	NN	O	8	SUB	-1
+3	from	from	B-PP	IN	O	2	NMOD	-1
+4	progestin-treated	progestin-treated	B-NP	JJ	B-cell_type	7	NMOD	19	treated
+5	breast	breast	I-NP	NN	I-cell_type	7	NMOD	-1
+6	cancer	cancer	I-NP	NN	I-cell_type	7	NMOD	-1
+7	cells	cell	I-NP	NNS	I-cell_type	3	PMOD	-1
+8	stimulates	stimulate	B-VP	VBZ	O	0	ROOT	17	stimulates
+9	endothelial	endothelial	B-NP	JJ	B-cell_type	11	NMOD	-1
+10	cell	cell	I-NP	NN	I-cell_type	11	NMOD	-1
+11	proliferation	proliferation	I-NP	NN	O	8	OBJ	1	proliferation
+12	in	in	B-PP	IN	O	8	VMOD	-1
+13	the	the	B-NP	DT	O	14	NMOD	-1
+14	absence	absence	I-NP	NN	O	12	PMOD	-1
+15	though	though	B-SBAR	IN	O	8	VMOD	-1
+16	not	not	O	RB	O	15	DEP	-1
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	the	the	I-PP	DT	O	17	PMOD	-1
+19	presence	presence	I-PP	NN	O	17	PMOD	0
+20	of	of	I-PP	IN	O	17	PMOD	-1
+21	antibody	antibody	B-NP	NN	O	17	PMOD	-1
+22	to	to	B-PP	TO	O	21	NMOD	-1
+23	TSP-1	TSP-1	B-NP	NN	B-protein	22	PMOD	-1
+24	,	,	O	,	O	8	P	-1
+25	indicating	indicate	B-VP	VBG	O	8	VMOD	-1
+26	that	that	B-SBAR	IN	O	25	VMOD	-1
+27	TSP-1	TSP-1	B-NP	NN	B-protein	33	SUB	-1
+28	secreted	secrete	B-VP	VBN	O	27	NMOD	14	secreted
+29	by	by	B-PP	IN	O	28	VMOD	-1
+30	breast	breast	B-NP	NN	B-cell_type	32	NMOD	-1
+31	cancer	cancer	I-NP	NN	I-cell_type	32	NMOD	-1
+32	cells	cell	I-NP	NNS	I-cell_type	29	PMOD	-1
+33	could	could	B-VP	MD	O	26	SBAR	-1
+34	be	be	I-VP	VB	O	33	VC	-1
+35	pro-angiogenic	pro-angiogenic	B-ADJP	JJ	O	34	PRD	3	angiogenic
+36	.	.	O	.	O	8	P	-1
+
+1	Since	Since	B-SBAR	IN	O	17	VMOD	-1
+2	tumor	tumor	B-NP	NN	B-protein	4	NMOD	-1
+3	cell-derived	cell-derived	I-NP	JJ	I-protein	2	AMOD	-1
+4	TSP-1	TSP-1	I-NP	NN	I-protein	5	SUB	-1
+5	has	have	B-VP	VBZ	O	1	SBAR	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	potential	potential	I-NP	NN	O	5	OBJ	0
+8	to	to	B-VP	TO	O	9	VMOD	-1
+9	promote	promote	I-VP	VB	O	7	NMOD	17	promote
+10	angiogenesis	angiogenesis	B-NP	NN	O	9	OBJ	3	angiogenesis
+11	in	in	B-PP	IN	O	9	VMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	tumor	tumor	I-NP	NN	O	14	NMOD	-1
+14	microenvironment	microenvironment	I-NP	NN	O	11	PMOD	-1
+15	,	,	O	,	O	17	P	-1
+16	it	it	B-NP	PRP	O	17	SUB	-1
+17	could	could	B-VP	MD	O	0	ROOT	-1
+18	be	be	I-VP	VB	O	17	VC	-1
+19	a	a	B-NP	DT	O	21	NMOD	-1
+20	potential	potential	I-NP	JJ	O	21	NMOD	0
+21	target	target	I-NP	NN	O	18	PRD	0
+22	for	for	B-PP	IN	O	21	NMOD	-1
+23	breast	breast	B-NP	NN	O	25	NMOD	-1
+24	cancer	cancer	I-NP	NN	O	25	NMOD	-1
+25	therapy	therapy	I-NP	NN	O	22	PMOD	19	therapy

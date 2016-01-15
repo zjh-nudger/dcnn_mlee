@@ -1,0 +1,252 @@
+1	Hyperforin	Hyperforin	B-NP	NN	O	2	SUB	-1
+2	blocks	block	B-VP	VBZ	O	0	ROOT	18	blocks
+3	neutrophil	neutrophil	B-NP	NN	B-cell_type	4	NMOD	-1
+4	activation	activation	I-NP	NN	O	2	OBJ	17	activation
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	matrix	matrix	B-NP	NN	B-protein	7	NMOD	-1
+7	metalloproteinase-9	metalloproteinase-9	I-NP	NN	I-protein	11	NMOD	-1
+8	,	,	O	,	O	11	P	-1
+9	motility	motility	B-NP	NN	O	11	NMOD	14	motility
+10	and	and	I-NP	CC	O	11	NMOD	-1
+11	recruitment	recruitment	I-NP	NN	O	5	PMOD	14	recruitment
+12	,	,	O	,	O	2	P	-1
+13	and	and	O	CC	O	2	VMOD	-1
+14	restrains	restrain	B-VP	VBZ	O	2	VMOD	-1
+15	inflammation-triggered	inflammation-triggered	B-NP	JJ	O	16	NMOD	17	triggered
+16	angiogenesis	angiogenesis	I-NP	NN	O	19	NMOD	3	angiogenesis
+17	and	and	I-NP	CC	O	19	NMOD	-1
+18	lung	lung	I-NP	NN	O	19	NMOD	-1
+19	fibrosis	fibrosis	I-NP	NN	O	14	OBJ	-1
+20	.	.	O	.	O	2	P	-1
+
+1	Hyperforin	Hyperforin	B-NP	NN	O	7	NMOD	-1
+2	(	(	O	(	O	4	DEP	-1
+3	Hyp	Hyp	B-NP	NN	B-protein	4	DEP	-1
+4	)	)	O	)	O	1	NMOD	-1
+5	,	,	O	,	O	7	P	-1
+6	a	a	B-NP	DT	O	7	NMOD	-1
+7	polyphenol-derivative	polyphenol-derivative	I-NP	NN	O	0	ROOT	-1
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	St	St	B-NP	NNP	O	8	PMOD	-1
+10	.	.	O	.	O	7	P	-1
+
+1	John	John	B-NP	NNP	O	3	NMOD	-1
+2	's	's	B-NP	POS	O	3	NMOD	-1
+3	wort	wort	I-NP	NN	O	9	SUB	-1
+4	(	(	O	(	O	7	DEP	-1
+5	Hypericum	Hypericum	B-NP	NNP	O	6	NMOD	-1
+6	perforatum	perforatum	I-NP	NNP	O	7	DEP	-1
+7	)	)	O	)	O	3	NMOD	-1
+8	,	,	O	,	O	3	P	-1
+9	has	have	B-VP	VBZ	O	0	ROOT	-1
+10	emerged	emerge	I-VP	VBN	O	9	VC	-1
+11	as	as	B-PP	IN	O	10	VMOD	-1
+12	key	key	B-NP	JJ	O	13	NMOD	-1
+13	player	player	I-NP	NN	O	11	PMOD	-1
+14	not	not	B-CONJP	RB	O	10	VMOD	-1
+15	only	only	I-CONJP	RB	O	14	DEP	-1
+16	in	in	B-PP	IN	O	14	PMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	antidepressant	antidepressant	I-NP	NN	O	19	NMOD	-1
+19	activity	activity	I-NP	NN	O	16	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	plant	plant	I-NP	NN	O	20	PMOD	-1
+23	but	but	B-CONJP	CC	O	14	PMOD	-1
+24	also	also	I-CONJP	RB	O	23	DEP	-1
+25	as	as	B-PP	IN	O	14	PMOD	-1
+26	an	an	B-NP	DT	O	27	NMOD	-1
+27	inhibitor	inhibitor	I-NP	NN	O	25	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	bacteria	bacteria	B-NP	NNS	O	34	NMOD	-1
+30	lymphocyte	lymphocyte	I-NP	NN	O	34	NMOD	-1
+31	and	and	I-NP	CC	O	34	NMOD	-1
+32	tumor	tumor	I-NP	NN	B-cell_type	34	NMOD	-1
+33	cell	cell	I-NP	NN	I-cell_type	34	NMOD	-1
+34	proliferation	proliferation	I-NP	NN	O	28	PMOD	1	proliferation
+35	,	,	O	,	O	38	P	-1
+36	and	and	O	CC	O	38	NMOD	-1
+37	matrix	matrix	B-NP	NN	B-protein	38	NMOD	-1
+38	proteinases	proteinas	I-NP	NNS	I-protein	9	VMOD	-1
+39	.	.	O	.	O	9	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	tested	test	B-VP	VBD	O	0	ROOT	-1
+3	whether	whether	B-SBAR	IN	O	2	VMOD	-1
+4	as	as	B-CONJP	RB	O	3	DEP	-1
+5	well	well	I-CONJP	RB	O	4	DEP	-1
+6	as	as	I-CONJP	IN	O	4	DEP	-1
+7	inhibiting	inhibit	B-VP	VBG	O	4	DEP	18	inhibiting
+8	leukocyte	leukocyte	B-NP	NN	B-protein	9	NMOD	-1
+9	elastase	elastase	I-NP	NN	I-protein	13	NMOD	-1
+10	(	(	O	(	O	12	DEP	-1
+11	LE	LE	B-NP	NN	O	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	activity	activity	B-NP	NN	O	7	OBJ	0
+14	,	,	O	,	O	16	P	-1
+15	Hyp	Hyp	B-NP	NN	B-protein	16	SUB	-1
+16	might	might	B-VP	MD	O	3	SBAR	-1
+17	be	be	I-VP	VB	O	16	VC	-1
+18	effective	effective	B-ADJP	JJ	O	17	PRD	16	effective
+19	in	in	B-PP	IN	O	18	AMOD	-1
+20	containing	contain	B-VP	VBG	O	19	PMOD	-1
+21	both	both	O	CC	O	33	NMOD	-1
+22	polymorphonuclear	polymorphonuclear	B-NP	JJ	B-cell_type	23	NMOD	-1
+23	neutrophil	neutrophil	I-NP	NN	I-cell_type	28	NMOD	-1
+24	(	(	O	(	O	26	DEP	-1
+25	PMN	PMN	B-NP	NN	B-cell_type	26	DEP	-1
+26	)	)	O	)	O	23	NMOD	-1
+27	leukocyte	leukocyte	B-NP	NN	O	28	NMOD	-1
+28	recruitment	recruitment	I-NP	NN	O	33	NMOD	14	recruitment
+29	and	and	O	CC	O	33	NMOD	-1
+30	unfavorable	unfavorable	B-NP	JJ	O	33	NMOD	-1
+31	eventual	eventual	I-NP	JJ	O	33	NMOD	-1
+32	tissue	tissue	I-NP	NN	O	33	NMOD	-1
+33	responses	response	I-NP	NNS	O	20	OBJ	-1
+34	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	show	show	B-VP	VBP	O	45	VMOD	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	,	,	O	,	O	4	P	-1
+6	without	without	B-PP	IN	O	24	VMOD	-1
+7	affecting	affect	B-VP	VBG	O	6	PMOD	0
+8	in	in	B-NP	FW	O	9	AMOD	-1
+9	vitro	vitro	I-NP	FW	O	12	NMOD	-1
+10	human	human	I-NP	JJ	O	12	NMOD	-1
+11	PMN	PMN	I-NP	NN	O	12	NMOD	-1
+12	viability	viability	I-NP	NN	O	15	NMOD	-1
+13	and	and	O	CC	O	15	NMOD	-1
+14	chemokine-receptor	chemokine-receptor	B-NP	NN	B-protein	15	NMOD	-1
+15	expression	expression	I-NP	NN	O	7	OBJ	0
+16	,	,	O	,	O	24	P	-1
+17	Hyp	Hyp	B-NP	NN	B-protein	24	SUB	-1
+18	(	(	O	(	O	23	DEP	-1
+19	as	as	B-PP	IN	O	23	DEP	-1
+20	stable	stable	B-NP	JJ	O	22	NMOD	-1
+21	dicyclohexylammonium	dicyclohexylammonium	I-NP	NN	O	22	NMOD	-1
+22	salt	salt	I-NP	NN	O	19	PMOD	-1
+23	)	)	O	)	O	17	NMOD	-1
+24	was	be	B-VP	VBD	O	4	SBAR	-1
+25	able	able	B-ADJP	JJ	O	24	PRD	-1
+26	to	to	B-VP	TO	O	27	VMOD	-1
+27	inhibit	inhibit	I-VP	VB	O	25	AMOD	18	inhibit
+28	in	in	B-PP	IN	O	27	VMOD	-1
+29	a	a	B-NP	DT	O	31	NMOD	-1
+30	dose-dependent	dose-dependent	I-NP	JJ	O	31	NMOD	-1
+31	manner	manner	I-NP	NN	O	28	PMOD	-1
+32	their	their	B-NP	PRP$	O	35	NMOD	-1
+33	chemotaxis	chemotaxis	I-NP	NN	O	35	NMOD	14	chemotaxis
+34	and	and	I-NP	CC	O	35	NMOD	-1
+35	chemoinvasion	chemoinvasion	I-NP	NN	O	27	OBJ	14	chemoinvasion
+36	(	(	O	(	O	41	DEP	-1
+37	IC50=1	IC50=1	B-NP	NN	O	38	NMOD	-1
+38	microM	microM	I-NP	NN	O	41	DEP	-1
+39	for	for	B-PP	IN	O	38	NMOD	-1
+40	both	both	B-NP	DT	O	39	PMOD	-1
+41	)	)	O	)	O	35	NMOD	-1
+42	;	;	O	:	O	45	P	-1
+43	this	this	B-NP	DT	O	44	NMOD	-1
+44	effect	effect	I-NP	NN	O	45	SUB	0
+45	was	be	B-VP	VBD	O	0	ROOT	-1
+46	associated	associate	I-VP	VBN	O	45	VC	0
+47	with	with	B-PP	IN	O	46	VMOD	-1
+48	a	a	B-NP	DT	O	50	NMOD	-1
+49	reduced	reduce	I-NP	VBN	O	50	NMOD	18	reduced
+50	expression	expression	I-NP	NN	O	47	PMOD	9	expression
+51	of	of	B-PP	IN	O	50	NMOD	-1
+52	the	the	B-NP	DT	O	55	NMOD	-1
+53	adhesion	adhesion	I-NP	NN	B-protein	55	NMOD	0
+54	molecule	molecule	I-NP	NN	I-protein	55	NMOD	-1
+55	CD11b	CD11b	I-NP	NN	B-protein	51	PMOD	-1
+56	by	by	B-PP	IN	O	50	NMOD	-1
+57	formyl-Met-Leu-Phe-stimulated	formyl-Met-Leu-Phe-stimulated	B-NP	JJ	B-cell_type	58	NMOD	17	stimulated
+58	neutrophils	neutrophil	I-NP	NNS	I-cell_type	56	PMOD	-1
+59	and	and	O	CC	O	45	VMOD	-1
+60	block	block	B-NP	NN	O	59	ROOT	18	block
+61	of	of	B-PP	IN	O	60	NMOD	-1
+62	LE-triggered	LE-triggered	B-NP	JJ	O	63	NMOD	17	triggered
+63	activation	activation	I-NP	NN	O	61	PMOD	17	activation
+64	of	of	B-PP	IN	O	63	NMOD	-1
+65	the	the	B-NP	DT	O	68	NMOD	-1
+66	gelatinase	gelatinase	I-NP	NN	B-protein	68	NMOD	-1
+67	matrix	matrix	I-NP	NN	I-protein	68	NMOD	-1
+68	metalloproteinase-9	metalloproteinase-9	I-NP	NN	I-protein	64	PMOD	-1
+69	.	.	O	.	O	60	P	-1
+
+1	PMN-triggered	PMN-triggered	B-NP	JJ	O	2	NMOD	17	triggered
+2	angiogenesis	angiogenesis	I-NP	NN	O	3	SUB	3	angiogenesis
+3	is	be	B-VP	VBZ	O	0	ROOT	-1
+4	also	also	I-VP	RB	O	3	VMOD	-1
+5	blocked	block	I-VP	VBN	O	3	VC	18	blocked
+6	by	by	B-PP	IN	O	5	VMOD	-1
+7	both	both	B-NP	CC	O	12	NMOD	-1
+8	local	local	I-NP	JJ	O	9	NMOD	-1
+9	injection	injection	I-NP	NN	O	12	NMOD	19	injection
+10	and	and	I-NP	CC	O	12	NMOD	-1
+11	daily	daily	I-NP	JJ	O	12	NMOD	-1
+12	i.p	i.p	I-NP	NN	O	6	PMOD	-1
+13	.	.	O	.	O	3	P	-1
+
+1	administration	administration	B-NP	NN	O	0	ROOT	19	administration
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	Hyp	Hyp	I-NP	NN	O	5	NMOD	-1
+5	salt	salt	I-NP	NN	O	2	PMOD	-1
+6	in	in	B-PP	IN	O	1	NMOD	-1
+7	an	an	B-NP	DT	O	10	NMOD	-1
+8	interleukin-8-induced	interleukin-8-induced	I-NP	JJ	O	10	NMOD	17	induced
+9	murine	murine	I-NP	JJ	O	10	NMOD	-1
+10	model	model	I-NP	NN	O	6	PMOD	-1
+11	.	.	O	.	O	1	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	3	NMOD	-1
+2	,	,	O	,	O	3	P	-1
+3	i.p	i.p	B-NP	NN	O	0	ROOT	-1
+4	.	.	O	.	O	3	P	-1
+
+1	treatment	treatment	B-NP	NN	O	4	SUB	19	treatment
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	Hyp	Hyp	B-NP	NN	B-protein	2	PMOD	-1
+4	reduces	reduce	B-VP	VBZ	O	0	ROOT	18	reduces
+5	acute	acute	B-NP	JJ	O	7	NMOD	-1
+6	PMN	PMN	I-NP	NN	O	7	NMOD	-1
+7	recruitment	recruitment	I-NP	NN	O	4	OBJ	14	recruitment
+8	and	and	O	CC	O	4	VMOD	-1
+9	enhances	enhance	B-VP	VBZ	O	4	VMOD	0
+10	resolution	resolution	B-NP	NN	O	9	OBJ	-1
+11	in	in	B-PP	IN	O	9	VMOD	-1
+12	a	a	B-NP	DT	O	16	NMOD	-1
+13	pulmonary	pulmonary	I-NP	JJ	O	16	NMOD	-1
+14	bleomycin-induced	bleomycin-induced	I-NP	JJ	O	16	NMOD	-1
+15	inflammation	inflammation	I-NP	NN	O	16	NMOD	-1
+16	model	model	I-NP	NN	O	11	PMOD	-1
+17	,	,	O	,	O	9	P	-1
+18	significantly	significantly	B-VP	RB	O	19	VMOD	-1
+19	reducing	reduce	I-VP	VBG	O	9	VMOD	0
+20	consequent	consequent	B-NP	JJ	O	21	NMOD	-1
+21	fibrosis	fibrosis	I-NP	NN	O	19	OBJ	-1
+22	.	.	O	.	O	4	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	17	VMOD	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	Hyp	Hyp	B-NP	NN	B-protein	6	SUB	-1
+6	is	be	B-VP	VBZ	O	4	SBAR	-1
+7	a	a	B-NP	DT	O	10	NMOD	-1
+8	powerful	powerful	I-NP	JJ	O	10	NMOD	-1
+9	anti-inflammatory	anti-inflammatory	I-NP	JJ	O	10	NMOD	-1
+10	compound	compound	I-NP	NN	O	6	PRD	-1
+11	with	with	B-PP	IN	O	10	NMOD	-1
+12	therapeutic	therapeutic	B-NP	JJ	O	13	NMOD	-1
+13	potential	potential	I-NP	NN	O	11	PMOD	0
+14	,	,	O	,	O	17	P	-1
+15	and	and	O	CC	O	17	VMOD	-1
+16	they	they	B-NP	PRP	O	17	SUB	-1
+17	elucidate	elucidate	B-VP	VBP	O	0	ROOT	-1
+18	mechanistic	mechanistic	B-NP	JJ	O	19	NMOD	-1
+19	keys	key	I-NP	NNS	O	17	OBJ	-1
+20	.	.	O	.	O	17	P	-1
+

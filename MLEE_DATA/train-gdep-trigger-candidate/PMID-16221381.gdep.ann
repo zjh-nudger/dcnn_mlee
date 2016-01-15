@@ -1,0 +1,178 @@
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	merits	merit	I-NP	NNS	O	0	ROOT	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	vascular	vascular	B-NP	JJ	O	5	NMOD	-1
+5	targeting	targeting	I-NP	NN	O	3	PMOD	0
+6	for	for	B-PP	IN	O	5	NMOD	-1
+7	gynecologic	gynecologic	B-NP	JJ	O	8	NMOD	-1
+8	malignancies	malignancy	I-NP	NNS	O	6	PMOD	-1
+9	.	.	O	.	O	2	P	-1
+
+1	Neovascularization	Neovascularization	B-NP	NN	O	2	SUB	3	Neovascularization
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	an	an	B-NP	DT	O	7	NMOD	-1
+4	early	early	I-NP	JJ	O	7	NMOD	-1
+5	and	and	I-NP	CC	O	7	NMOD	-1
+6	critical	critical	I-NP	JJ	O	7	NMOD	0
+7	step	step	I-NP	NN	O	2	PRD	-1
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	tumor	tumor	B-NP	NN	O	10	NMOD	-1
+10	development	development	I-NP	NN	O	12	NMOD	2	development
+11	and	and	O	CC	O	12	NMOD	-1
+12	progression	progression	B-NP	NN	O	8	PMOD	2	progression
+13	.	.	O	.	O	2	P	-1
+
+1	Tumor	Tumor	B-NP	NN	O	2	NMOD	-1
+2	vessels	vessel	I-NP	NNS	O	3	SUB	-1
+3	are	be	B-VP	VBP	O	0	ROOT	-1
+4	distinct	distinct	B-ADJP	JJ	O	3	PRD	-1
+5	from	from	B-PP	IN	O	4	AMOD	-1
+6	their	their	B-NP	PRP$	O	8	NMOD	-1
+7	normal	normal	I-NP	JJ	O	8	NMOD	-1
+8	counterparts	counterpart	I-NP	NNS	O	5	PMOD	-1
+9	morphologically	morphologically	O	RB	O	3	VMOD	-1
+10	as	as	B-CONJP	RB	O	9	DEP	-1
+11	well	well	I-CONJP	RB	O	10	DEP	-1
+12	as	as	I-CONJP	IN	O	10	DEP	-1
+13	at	at	B-PP	IN	O	9	PMOD	-1
+14	a	a	B-NP	DT	O	16	NMOD	-1
+15	molecular	molecular	I-NP	JJ	O	16	NMOD	-1
+16	level	level	I-NP	NN	O	13	PMOD	-1
+17	.	.	O	.	O	3	P	-1
+
+1	Recent	Recent	B-NP	JJ	O	2	NMOD	-1
+2	studies	study	I-NP	NNS	O	10	SUB	-1
+3	on	on	B-PP	IN	O	2	NMOD	-1
+4	factors	factor	B-NP	NNS	O	3	PMOD	-1
+5	involved	involve	B-VP	VBN	O	4	NMOD	0
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	tumor	tumor	B-NP	NN	O	9	NMOD	-1
+8	vascular	vascular	I-NP	JJ	O	9	NMOD	-1
+9	development	development	I-NP	NN	O	6	PMOD	2	development
+10	have	have	B-VP	VBP	O	0	ROOT	-1
+11	identified	identify	I-VP	VBN	O	10	VC	-1
+12	new	new	B-NP	JJ	O	14	NMOD	-1
+13	therapeutic	therapeutic	I-NP	JJ	O	14	NMOD	-1
+14	targets	target	I-NP	NNS	O	11	OBJ	0
+15	for	for	B-PP	IN	O	11	VMOD	-1
+16	inhibiting	inhibit	B-VP	VBG	O	15	PMOD	18	inhibiting
+17	tumor	tumor	B-NP	NN	O	18	NMOD	-1
+18	neovascularization	neovascularization	I-NP	NN	O	22	NMOD	3	neovascularization
+19	and	and	O	CC	O	22	NMOD	-1
+20	thus	thus	B-ADVP	RB	O	22	NMOD	-1
+21	tumor	tumor	B-NP	NN	O	22	NMOD	-1
+22	progression	progression	I-NP	NN	O	16	OBJ	2	progression
+23	.	.	O	.	O	10	P	-1
+
+1	However	However	B-ADVP	RB	O	16	VMOD	-1
+2	,	,	O	,	O	16	P	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	process	process	I-NP	NN	O	10	SUB	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	tumor	tumor	B-NP	NN	O	9	NMOD	-1
+7	blood	blood	I-NP	NN	O	9	NMOD	-1
+8	vessel	vessel	I-NP	NN	O	9	NMOD	-1
+9	formation	formation	I-NP	NN	O	5	PMOD	2	formation
+10	is	be	B-VP	VBZ	O	16	VMOD	-1
+11	complex	complex	B-ADJP	JJ	O	10	PRD	-1
+12	,	,	O	,	O	16	P	-1
+13	and	and	O	CC	O	16	VMOD	-1
+14	each	each	B-NP	DT	O	15	NMOD	-1
+15	tumor	tumor	I-NP	NN	O	16	SUB	-1
+16	exhibits	exhibit	B-VP	VBZ	O	0	ROOT	-1
+17	unique	unique	B-NP	JJ	O	18	NMOD	-1
+18	features	feature	I-NP	NNS	O	16	OBJ	-1
+19	in	in	B-PP	IN	O	16	VMOD	-1
+20	its	its	B-NP	PRP$	O	21	NMOD	-1
+21	vasculature	vasculature	I-NP	NN	O	19	PMOD	-1
+22	.	.	O	.	O	16	P	-1
+
+1	An	An	B-NP	DT	O	2	NMOD	-1
+2	understanding	understanding	I-NP	NN	O	16	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	relative	relative	I-NP	JJ	O	6	NMOD	-1
+6	contribution	contribution	I-NP	NN	O	3	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	various	various	B-NP	JJ	O	9	NMOD	-1
+9	pathways	pathway	I-NP	NNS	O	7	PMOD	0
+10	in	in	B-PP	IN	O	6	NMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	development	development	I-NP	NN	O	10	PMOD	2	development
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	tumor	tumor	B-NP	NN	O	15	NMOD	-1
+15	vasculature	vasculature	I-NP	NN	O	13	PMOD	-1
+16	is	be	B-VP	VBZ	O	0	ROOT	-1
+17	critical	critical	B-ADJP	JJ	O	16	PRD	0
+18	for	for	B-PP	IN	O	17	AMOD	-1
+19	developing	develop	B-VP	VBG	O	18	PMOD	0
+20	effective	effective	B-NP	JJ	O	22	AMOD	0
+21	and	and	I-NP	CC	O	22	AMOD	-1
+22	selective	selective	I-NP	JJ	O	24	NMOD	-1
+23	therapeutic	therapeutic	I-NP	JJ	O	24	NMOD	-1
+24	approaches	approach	I-NP	NNS	O	19	OBJ	-1
+25	.	.	O	.	O	16	P	-1
+
+1	Several	Several	B-NP	JJ	O	3	NMOD	-1
+2	such	such	I-NP	JJ	O	3	NMOD	-1
+3	agents	agent	I-NP	NNS	O	4	SUB	-1
+4	are	be	B-VP	VBP	O	13	VMOD	-1
+5	currently	currently	B-ADVP	RB	O	4	VMOD	-1
+6	in	in	B-PP	IN	O	4	VMOD	-1
+7	clinical	clinical	B-NP	JJ	O	8	NMOD	-1
+8	trials	trial	I-NP	NNS	O	6	PMOD	-1
+9	,	,	O	,	O	13	P	-1
+10	and	and	O	CC	O	13	VMOD	-1
+11	many	many	B-NP	JJ	O	12	NMOD	-1
+12	others	other	I-NP	NNS	O	13	SUB	-1
+13	are	be	B-VP	VBP	O	0	ROOT	-1
+14	under	under	B-PP	IN	O	13	PRD	-1
+15	development	development	B-NP	NN	O	14	PMOD	0
+16	.	.	O	.	O	13	P	-1
+
+1	In	In	B-PP	IN	O	15	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	review	review	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	15	P	-1
+5	the	the	B-NP	DT	O	8	NMOD	-1
+6	mechanisms	mechanism	I-NP	NNS	O	8	NMOD	-1
+7	and	and	I-NP	CC	O	8	NMOD	-1
+8	factors	factor	I-NP	NNS	O	15	SUB	-1
+9	involved	involve	B-VP	VBN	O	8	NMOD	0
+10	in	in	B-PP	IN	O	9	VMOD	-1
+11	tumor	tumor	B-NP	NN	O	14	NMOD	-1
+12	blood	blood	I-NP	NN	O	14	NMOD	-1
+13	vessel	vessel	I-NP	NN	O	14	NMOD	-1
+14	formation	formation	I-NP	NN	O	10	PMOD	2	formation
+15	are	be	B-VP	VBP	O	0	ROOT	-1
+16	discussed	discuss	I-VP	VBN	O	15	VC	-1
+17	.	.	O	.	O	15	P	-1
+
+1	In	In	B-PP	IN	O	25	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	25	P	-1
+4	selected	select	B-NP	VBN	O	6	NMOD	-1
+5	novel	novel	I-NP	JJ	O	6	NMOD	-1
+6	classes	class	I-NP	NNS	O	25	SUB	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	antivascular	antivascular	B-NP	JJ	O	9	NMOD	-1
+9	therapies	therapy	I-NP	NNS	O	7	PMOD	0
+10	,	,	O	,	O	9	P	-1
+11	including	include	B-PP	VBG	O	9	NMOD	-1
+12	those	those	B-NP	DT	O	16	NMOD	-1
+13	targeting	target	I-NP	VBG	O	16	NMOD	19	targeting
+14	tumor	tumor	I-NP	NN	B-cell_type	16	NMOD	-1
+15	endothelial	endothelial	I-NP	JJ	I-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	19	NMOD	-1
+17	and	and	O	CC	O	19	NMOD	-1
+18	other	other	B-NP	JJ	O	19	NMOD	-1
+19	components	component	I-NP	NNS	O	11	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	tumor	tumor	I-NP	NN	O	23	NMOD	-1
+23	vasculature	vasculature	I-NP	NN	O	20	PMOD	-1
+24	,	,	O	,	O	6	P	-1
+25	are	be	B-VP	VBP	O	0	ROOT	-1
+26	summarized	summarize	I-VP	VBN	O	25	VC	-1
+27	.	.	O	.	O	25	P	-1
+

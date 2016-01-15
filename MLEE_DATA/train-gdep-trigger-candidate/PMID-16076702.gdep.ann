@@ -1,0 +1,268 @@
+1	Thrombospondins	Thrombospondin	B-NP	NNS	B-protein	12	NMOD	-1
+2	,	,	O	,	O	12	P	-1
+3	metallo	metallo	B-NP	NN	B-protein	4	NMOD	-1
+4	proteases	protease	I-NP	NNS	I-protein	7	NMOD	-1
+5	and	and	O	CC	O	7	NMOD	-1
+6	thrombospondin	thrombospondin	B-NP	NN	B-RNA	7	NMOD	-1
+7	receptors	receptor	I-NP	NNS	I-RNA	12	NMOD	-1
+8	messenger	messenger	I-NP	NN	I-RNA	9	NMOD	-1
+9	RNA	RNA	I-NP	NN	I-RNA	12	NMOD	-1
+10	and	and	O	CC	O	12	NMOD	-1
+11	protein	protein	B-NP	NN	O	12	NMOD	-1
+12	expression	expression	I-NP	NN	O	0	ROOT	10	expression
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	different	different	B-NP	JJ	O	16	NMOD	-1
+15	tumour	tumour	I-NP	NN	O	16	NMOD	-1
+16	sublines	subline	I-NP	NNS	O	13	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	22	NMOD	-1
+19	Dunning	Dunning	I-NP	JJ	O	22	NMOD	-1
+20	prostate	prostate	I-NP	NN	O	22	NMOD	-1
+21	cancer	cancer	I-NP	NN	O	22	NMOD	-1
+22	model	model	I-NP	NN	O	17	PMOD	-1
+23	.	.	O	.	O	12	P	-1
+
+1	Thrombospondin	Thrombospondin	B-NP	NN	B-protein	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	a	a	B-NP	DT	O	5	NMOD	-1
+4	potent	potent	I-NP	JJ	O	5	NMOD	-1
+5	inhibitor	inhibitor	I-NP	NN	O	2	PRD	0
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	angiogenesis	angiogenesis	B-NP	NN	O	6	PMOD	3	angiogenesis
+8	and	and	O	CC	O	2	VMOD	-1
+9	might	might	B-VP	MD	O	2	VMOD	-1
+10	therefore	therefore	I-VP	RB	O	9	VMOD	-1
+11	be	be	I-VP	VB	O	9	VC	-1
+12	important	important	B-ADJP	JJ	O	11	PRD	0
+13	in	in	B-PP	IN	O	12	AMOD	-1
+14	controlling	control	B-VP	VBG	O	13	PMOD	16	controlling
+15	tumour	tumour	B-NP	NN	O	16	NMOD	-1
+16	growth	growth	I-NP	NN	O	14	OBJ	4	growth
+17	.	.	O	.	O	2	P	-1
+
+1	TSP	TSP	B-NP	NN	B-protein	2	SUB	-1
+2	interacts	interact	B-VP	VBZ	O	0	ROOT	15	interacts
+3	with	with	B-PP	IN	O	2	VMOD	-1
+4	a	a	B-NP	DT	O	5	NMOD	-1
+5	number	number	I-NP	NN	O	3	PMOD	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	proteases	protease	B-NP	NNS	B-protein	9	NMOD	-1
+8	and	and	I-NP	CC	O	9	NMOD	-1
+9	receptors	receptor	I-NP	NNS	O	6	PMOD	-1
+10	and	and	B-PP	CC	O	3	PMOD	-1
+11	in	in	B-PP	IN	O	3	PMOD	-1
+12	this	this	B-NP	DT	O	13	NMOD	-1
+13	way	way	I-NP	NN	O	14	SUB	-1
+14	inhibits	inhibit	B-VP	VBZ	O	11	PMOD	18	inhibits
+15	stimulation	stimulation	B-NP	NN	O	14	OBJ	17	stimulation
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis
+18	.	.	O	.	O	2	P	-1
+
+1	An	An	B-NP	DT	O	3	NMOD	-1
+2	earlier	early	I-NP	JJR	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	4	SUB	-1
+4	showed	show	B-VP	VBD	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	thrombospondin	thrombospondin	B-NP	NN	B-protein	7	SUB	-1
+7	is	be	B-VP	VBZ	O	5	SBAR	-1
+8	expressed	express	I-VP	VBN	O	7	VC	9	expressed
+9	in	in	B-PP	IN	O	8	VMOD	-1
+10	benign	benign	B-NP	JJ	O	12	NMOD	-1
+11	prostatic	prostatic	I-NP	JJ	O	12	NMOD	-1
+12	hyperplasia	hyperplasia	I-NP	NN	O	20	NMOD	-1
+13	(	(	O	(	O	15	DEP	-1
+14	BPH	BPH	B-NP	NN	O	15	DEP	-1
+15	)	)	O	)	O	12	NMOD	-1
+16	and	and	O	CC	O	20	NMOD	-1
+17	high-grade	high-grade	B-NP	JJ	O	20	NMOD	-1
+18	prostatic	prostatic	I-NP	JJ	O	20	NMOD	-1
+19	intraepithelial	intraepithelial	I-NP	JJ	O	20	NMOD	-1
+20	neoplasia	neoplasia	I-NP	NN	O	9	PMOD	-1
+21	(	(	O	(	O	23	DEP	-1
+22	PIN	PIN	B-NP	NN	B-protein	23	DEP	-1
+23	)	)	O	)	O	20	NMOD	-1
+24	but	but	O	CC	O	7	VMOD	-1
+25	is	be	B-VP	VBZ	O	7	VMOD	-1
+26	absent	absent	B-ADJP	JJ	O	25	PRD	9	absent
+27	in	in	B-PP	IN	O	26	AMOD	-1
+28	prostate	prostate	B-NP	NN	O	29	NMOD	-1
+29	cancer	cancer	I-NP	NN	O	27	PMOD	-1
+30	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	present	present	I-NP	JJ	O	3	NMOD	0
+3	study	study	I-NP	NN	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	therefore	therefore	I-VP	RB	O	4	VMOD	-1
+6	designed	design	I-VP	VBN	O	4	VC	-1
+7	to	to	I-VP	TO	O	8	VMOD	-1
+8	evaluate	evaluate	I-VP	VB	O	4	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	expression	expression	I-NP	NN	O	8	OBJ	9	expression
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	thrombospondin	thrombospondin	B-NP	NN	B-protein	26	NMOD	-1
+13	1	1	I-NP	CD	I-protein	15	NMOD	-1
+14	and	and	I-NP	CC	I-protein	15	NMOD	-1
+15	2	2	I-NP	CD	I-protein	12	NMOD	-1
+16	(	(	O	(	O	20	DEP	-1
+17	TSP-1	TSP-1	B-NP	NN	B-protein	19	NMOD	-1
+18	,	,	O	,	O	19	P	-1
+19	TSP-2	TSP-2	B-NP	NN	B-protein	20	DEP	-1
+20	)	)	O	)	O	12	NMOD	-1
+21	,	,	O	,	O	26	P	-1
+22	TSP	TSP	B-NP	NN	B-protein	23	NMOD	-1
+23	receptors	receptor	I-NP	NNS	I-protein	26	NMOD	-1
+24	CD36	CD36	I-NP	NN	B-protein	26	NMOD	-1
+25	and	and	I-NP	CC	O	26	NMOD	-1
+26	CD47	CD47	I-NP	NN	B-protein	11	PMOD	-1
+27	,	,	O	,	O	26	P	-1
+28	and	and	O	CC	O	27	DEP	-1
+29	matrix-metalloproteases	matrix-metalloproteas	B-NP	NNS	B-protein	28	NMOD	-1
+30	2	2	B-NP	CD	I-protein	32	NMOD	-1
+31	and	and	I-NP	CC	I-protein	32	NMOD	-1
+32	9	9	I-NP	CD	I-protein	29	NMOD	-1
+33	(	(	O	(	O	37	DEP	-1
+34	MMP-	MMP-	B-NP	NN	O	36	NMOD	-1
+35	,	,	O	,	O	36	P	-1
+36	MMP-9	MMP-9	B-NP	NN	B-protein	37	DEP	-1
+37	)	)	O	)	O	29	NMOD	-1
+38	in	in	B-PP	IN	O	29	NMOD	-1
+39	a	a	B-NP	DT	O	43	NMOD	-1
+40	rat	rat	I-NP	NN	B-cell_line	43	NMOD	-1
+41	prostate	prostate	I-NP	NN	I-cell_line	43	NMOD	-1
+42	cancer	cancer	I-NP	NN	I-cell_line	43	NMOD	-1
+43	model	model	I-NP	NN	I-cell_line	38	PMOD	-1
+44	.	.	O	.	O	29	P	-1
+
+1	By	By	B-PP	IN	O	27	VMOD	-1
+2	using	use	B-VP	VBG	O	1	PMOD	-1
+3	immunohistochemistry	immunohistochemistry	B-NP	NN	O	10	NMOD	-1
+4	,	,	O	,	O	10	P	-1
+5	Western	Western	B-NP	NN	O	6	NMOD	-1
+6	blot	blot	I-NP	NN	O	10	NMOD	-1
+7	,	,	O	,	O	10	P	-1
+8	and	and	O	CC	O	10	NMOD	-1
+9	real-time	real-time	B-NP	JJ	O	10	NMOD	-1
+10	PCR	PCR	I-NP	NN	O	2	OBJ	-1
+11	the	the	B-NP	DT	O	13	NMOD	-1
+12	expression	expression	I-NP	NN	O	13	NMOD	9	expression
+13	patterns	pattern	I-NP	NNS	O	27	SUB	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	TSP-1	TSP-1	B-NP	NN	B-protein	26	NMOD	-1
+16	,	,	O	,	O	26	P	-1
+17	TSP-2	TSP-2	B-NP	NN	B-protein	26	NMOD	-1
+18	,	,	O	,	O	26	P	-1
+19	CD36	CD36	B-NP	NN	B-protein	26	NMOD	-1
+20	,	,	O	,	O	26	P	-1
+21	CD47	CD47	B-NP	NN	B-protein	26	NMOD	-1
+22	,	,	O	,	O	26	P	-1
+23	MMP-2	MMP-2	B-NP	NN	B-protein	26	NMOD	-1
+24	,	,	O	,	O	26	P	-1
+25	and	and	O	CC	O	26	NMOD	-1
+26	MMP-9	MMP-9	B-NP	NN	B-protein	14	PMOD	-1
+27	were	be	B-VP	VBD	O	0	ROOT	-1
+28	investigated	investigate	I-VP	VBN	O	27	VC	-1
+29	in	in	B-PP	IN	O	28	VMOD	-1
+30	normal	normal	B-NP	JJ	O	32	NMOD	-1
+31	rat	rat	I-NP	NN	O	32	NMOD	-1
+32	prostate	prostate	I-NP	NN	O	33	NMOD	-1
+33	tissue	tissue	I-NP	NN	O	38	NMOD	-1
+34	and	and	O	CC	O	38	NMOD	-1
+35	five	five	B-NP	CD	O	38	NMOD	-1
+36	malignant	malignant	I-NP	JJ	O	38	NMOD	-1
+37	Dunning	Dunning	I-NP	JJ	O	38	NMOD	-1
+38	sublines	subline	I-NP	NNS	O	39	NMOD	-1
+39	tissue	tissue	I-NP	NN	O	29	PMOD	-1
+40	.	.	O	.	O	27	P	-1
+
+1	TSP-1	TSP-1	B-NP	NN	B-RNA	3	NMOD	-1
+2	mRNA	mRNA	I-NP	NN	I-RNA	3	NMOD	0
+3	levels	level	I-NP	NNS	O	4	SUB	-1
+4	were	be	B-VP	VBD	O	0	ROOT	-1
+5	decreased	decrease	I-VP	VBN	O	4	VC	18	decreased
+6	in	in	B-PP	IN	O	5	VMOD	-1
+7	all	all	B-NP	DT	O	8	NMOD	-1
+8	tumours	tumour	I-NP	NNS	O	6	PMOD	-1
+9	compared	compare	B-PP	VBN	O	5	VMOD	-1
+10	with	with	B-PP	IN	O	9	PMOD	-1
+11	normal	normal	B-NP	JJ	O	12	NMOD	-1
+12	prostate	prostate	I-NP	NN	O	10	PMOD	-1
+13	.	.	O	.	O	4	P	-1
+
+1	However	However	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	there	there	B-NP	EX	O	4	SUB	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	no	no	B-NP	DT	O	6	NMOD	-1
+6	difference	difference	I-NP	NN	O	4	PRD	-1
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	expression	expression	B-NP	NN	O	7	PMOD	10	expression
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	TSP-2	TSP-2	B-NP	NN	B-protein	13	NMOD	-1
+11	and	and	O	CC	O	13	NMOD	-1
+12	CD36	CD36	B-NP	NN	B-RNA	13	NMOD	-1
+13	mRNA	mRNA	I-NP	NN	I-RNA	9	PMOD	0
+14	in	in	B-PP	IN	O	8	NMOD	-1
+15	these	these	B-NP	DT	O	16	NMOD	-1
+16	samples	sample	I-NP	NNS	O	14	PMOD	-1
+17	.	.	O	.	O	4	P	-1
+
+1	MMP-2	MMP-2	B-NP	NN	B-protein	2	SUB	-1
+2	was	be	B-VP	VBD	O	12	VMOD	-1
+3	increased	increase	I-VP	VBN	O	2	VC	17	increased
+4	with	with	B-PP	IN	O	3	VMOD	-1
+5	malignancy	malignancy	B-NP	NN	O	4	PMOD	-1
+6	,	,	O	,	O	12	P	-1
+7	but	but	O	CC	O	12	VMOD	-1
+8	no	no	B-NP	DT	O	9	NMOD	-1
+9	expression	expression	I-NP	NN	O	12	SUB	9	expression
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	MMP-9	MMP-9	B-NP	NN	B-protein	10	PMOD	-1
+12	was	be	B-VP	VBD	O	0	ROOT	-1
+13	seen	see	I-VP	VBN	O	12	VC	-1
+14	.	.	O	.	O	12	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	CD47	CD47	I-NP	NN	B-protein	3	NMOD	-1
+3	receptor	receptor	I-NP	NN	I-protein	4	SUB	-1
+4	did	do	B-VP	VBD	O	0	ROOT	-1
+5	slightly	slightly	I-VP	RB	O	4	VMOD	-1
+6	increase	increase	I-VP	VB	O	4	VC	17	increase
+7	with	with	B-PP	IN	O	6	VMOD	-1
+8	malignancy	malignancy	B-NP	NN	O	7	PMOD	-1
+9	except	except	B-PP	IN	O	6	VMOD	-1
+10	for	for	B-PP	IN	O	9	PMOD	-1
+11	H3327	H3327	B-NP	NN	O	10	PMOD	-1
+12	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	showed	show	B-VP	VBD	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	thrombospondin	thrombospondin	B-NP	NN	B-protein	6	SUB	-1
+6	is	be	B-VP	VBZ	O	4	SBAR	-1
+7	expressed	express	I-VP	VBN	O	6	VC	9	expressed
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	normal	normal	B-NP	JJ	O	10	NMOD	-1
+10	prostate	prostate	I-NP	NN	O	8	PMOD	-1
+11	but	but	B-PP	CC	O	8	PMOD	-1
+12	not	not	B-PP	RB	O	13	PMOD	-1
+13	in	in	I-PP	IN	O	8	PMOD	-1
+14	prostate	prostate	B-NP	NN	O	15	NMOD	-1
+15	tumours	tumour	I-NP	NNS	O	13	PMOD	-1
+16	in	in	B-PP	IN	O	15	NMOD	-1
+17	a	a	B-NP	DT	O	19	NMOD	-1
+18	rat	rat	I-NP	NN	O	19	NMOD	-1
+19	model	model	I-NP	NN	O	16	PMOD	-1
+20	.	.	O	.	O	3	P	-1
+
+1	Simultaneously	Simultaneously	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	MMP-2	MMP-2	B-NP	NN	B-protein	4	NMOD	-1
+4	expression	expression	I-NP	NN	O	5	SUB	9	expression
+5	increases	increase	B-VP	VBZ	O	0	ROOT	17	increases
+6	with	with	B-PP	IN	O	5	VMOD	-1
+7	malignancy	malignancy	B-NP	NN	O	6	PMOD	-1
+8	.	.	O	.	O	5	P	-1
+

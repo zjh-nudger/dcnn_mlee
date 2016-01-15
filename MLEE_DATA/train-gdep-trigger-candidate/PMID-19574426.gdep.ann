@@ -1,0 +1,268 @@
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	0	ROOT	3	Angiogenesis
+2	in	in	B-PP	IN	O	1	NMOD	-1
+3	platelet	platelet	B-NP	NN	O	8	NMOD	-1
+4	endothelial	endothelial	I-NP	JJ	O	8	NMOD	-1
+5	cell	cell	I-NP	NN	O	8	NMOD	-1
+6	adhesion	adhesion	I-NP	NN	O	8	NMOD	0
+7	molecule-1-null	molecule-1-null	I-NP	JJ	O	8	NMOD	9	null
+8	mice	mouse	I-NP	NNS	O	2	PMOD	-1
+9	.	.	O	.	O	1	P	-1
+
+1	Platelet	Platelet	B-NP	NN	B-protein	5	NMOD	-1
+2	endothelial	endothelial	I-NP	JJ	I-protein	5	NMOD	-1
+3	cell	cell	I-NP	NN	I-protein	5	NMOD	-1
+4	adhesion	adhesion	I-NP	NN	I-protein	5	NMOD	0
+5	molecule	molecule	I-NP	NN	I-protein	10	SUB	-1
+6	(	(	O	(	O	8	DEP	-1
+7	PECAM	PECAM	B-NP	NN	O	8	DEP	-1
+8	)	)	O	)	O	5	NMOD	-1
+9	-1	-1	B-NP	CD	O	5	NMOD	-1
+10	has	have	B-VP	VBZ	O	23	VMOD	-1
+11	been	be	I-VP	VBN	O	10	VC	-1
+12	previously	previously	I-VP	RB	O	11	VMOD	-1
+13	implicated	implicate	I-VP	VBN	O	11	VC	0
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	endothelial	endothelial	B-NP	JJ	O	17	NMOD	-1
+16	cell	cell	I-NP	NN	O	17	NMOD	-1
+17	migration	migration	I-NP	NN	O	14	PMOD	14	migration
+18	;	;	O	:	O	23	P	-1
+19	additionally	additionally	B-ADVP	RB	O	23	VMOD	-1
+20	,	,	O	,	O	23	P	-1
+21	anti-PECAM-1	anti-PECAM-1	B-NP	JJ	B-protein	22	NMOD	-1
+22	antibodies	antibody	I-NP	NNS	I-protein	23	SUB	-1
+23	have	have	B-VP	VBP	O	0	ROOT	-1
+24	been	be	I-VP	VBN	O	23	VC	-1
+25	shown	show	I-VP	VBN	O	24	VC	-1
+26	to	to	I-VP	TO	O	27	VMOD	-1
+27	inhibit	inhibit	I-VP	VB	O	25	VMOD	18	inhibit
+28	in	in	B-NP	FW	O	29	AMOD	-1
+29	vivo	vivo	I-NP	FW	O	30	NMOD	-1
+30	angiogenesis	angiogenesis	I-NP	NN	O	27	OBJ	3	angiogenesis
+31	.	.	O	.	O	23	P	-1
+
+1	Studies	Study	B-NP	NNS	O	2	SUB	-1
+2	were	be	B-VP	VBD	O	0	ROOT	-1
+3	therefore	therefore	I-VP	RB	O	2	VMOD	-1
+4	performed	perform	I-VP	VBN	O	2	VC	-1
+5	with	with	B-PP	IN	O	4	VMOD	-1
+6	PECAM-1-null	PECAM-1-null	B-NP	JJ	O	7	NMOD	9	null
+7	mice	mouse	I-NP	NNS	O	5	PMOD	-1
+8	to	to	B-VP	TO	O	10	VMOD	-1
+9	further	further	I-VP	RB	O	10	VMOD	-1
+10	define	define	I-VP	VB	O	2	VMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	involvement	involvement	I-NP	NN	O	10	OBJ	16	involvement
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	PECAM-1	PECAM-1	B-NP	NN	B-protein	13	PMOD	-1
+15	in	in	B-PP	IN	O	12	NMOD	-1
+16	blood	blood	B-NP	NN	O	18	NMOD	-1
+17	vessel	vessel	I-NP	NN	O	18	NMOD	-1
+18	formation	formation	I-NP	NN	O	15	PMOD	2	formation
+19	.	.	O	.	O	2	P	-1
+
+1	Vascularization	Vascularization	B-NP	NN	O	10	NMOD	3	Vascularization
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	subcutaneous	subcutaneous	B-NP	JJ	O	5	NMOD	-1
+4	Matrigel	Matrigel	I-NP	NNP	O	5	NMOD	-1
+5	implants	implant	I-NP	NNS	O	2	PMOD	-1
+6	as	as	B-CONJP	RB	O	10	NMOD	-1
+7	well	well	I-CONJP	RB	O	6	DEP	-1
+8	as	as	I-CONJP	IN	O	6	DEP	-1
+9	tumor	tumor	B-NP	NN	O	10	NMOD	-1
+10	angiogenesis	angiogenesis	I-NP	NN	O	11	SUB	3	angiogenesis
+11	were	be	B-VP	VBD	O	0	ROOT	-1
+12	both	both	O	DT	O	11	VMOD	-1
+13	inhibited	inhibit	B-VP	VBN	O	11	VC	18	inhibited
+14	in	in	B-PP	IN	O	13	VMOD	-1
+15	PECAM-1-null	PECAM-1-null	B-NP	JJ	O	16	NMOD	9	null
+16	mice	mouse	I-NP	NNS	O	14	PMOD	-1
+17	.	.	O	.	O	11	P	-1
+
+1	Reciprocal	Reciprocal	B-NP	JJ	O	4	NMOD	-1
+2	bone	bone	I-NP	NN	O	4	NMOD	-1
+3	marrow	marrow	I-NP	NN	O	4	NMOD	-1
+4	transplants	transplant	I-NP	NNS	O	12	SUB	19	transplants
+5	that	that	B-NP	WDT	O	4	NMOD	-1
+6	involved	involve	B-VP	VBD	O	5	SBAR	0
+7	both	both	O	CC	O	11	NMOD	-1
+8	wild-type	wild-type	B-NP	JJ	B-cell_line	10	AMOD	-1
+9	and	and	I-NP	CC	O	10	AMOD	-1
+10	PECAM-1-deficient	PECAM-1-deficient	I-NP	JJ	O	11	NMOD	9	deficient
+11	mice	mouse	I-NP	NNS	O	6	OBJ	-1
+12	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+13	that	that	B-SBAR	IN	O	12	VMOD	-1
+14	the	the	B-NP	DT	O	17	NMOD	-1
+15	impaired	impaired	I-NP	JJ	O	16	AMOD	18	impaired
+16	angiogenic	angiogenic	I-NP	JJ	O	17	NMOD	3	angiogenic
+17	response	response	I-NP	NN	O	18	SUB	0
+18	resulted	result	B-VP	VBD	O	13	SBAR	0
+19	from	from	B-PP	IN	O	18	VMOD	-1
+20	a	a	B-NP	DT	O	21	NMOD	-1
+21	loss	loss	I-NP	NN	O	19	PMOD	14	loss
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	endothelial	endothelial	B-NP	JJ	O	27	NMOD	-1
+24	,	,	I-NP	,	O	27	P	-1
+25	but	but	I-NP	CC	O	27	NMOD	-1
+26	not	not	I-NP	RB	O	25	DEP	-1
+27	leukocyte	leukocyte	B-NP	NN	B-cell_type	29	NMOD	-1
+28	,	,	O	,	O	29	P	-1
+29	PECAM-1	PECAM-1	B-NP	NN	B-protein	22	PMOD	-1
+30	.	.	O	.	O	12	P	-1
+
+1	In	In	B-NP	FW	O	2	AMOD	-1
+2	vitro	vitro	I-NP	FW	O	4	NMOD	-1
+3	wound	wound	I-NP	NN	O	4	NMOD	-1
+4	migration	migration	I-NP	NN	O	7	NMOD	0
+5	and	and	O	CC	O	7	NMOD	-1
+6	single-cell	single-cell	B-NP	JJ	O	7	NMOD	-1
+7	motility	motility	I-NP	NN	O	12	SUB	14	motility
+8	by	by	B-PP	IN	O	7	NMOD	-1
+9	PECAM-1-null	PECAM-1-null	B-NP	JJ	B-cell_line	11	NMOD	-1
+10	endothelial	endothelial	I-NP	JJ	I-cell_line	11	NMOD	-1
+11	cells	cell	I-NP	NNS	I-cell_line	8	PMOD	-1
+12	were	be	B-VP	VBD	O	0	ROOT	-1
+13	also	also	I-VP	RB	O	12	VMOD	-1
+14	compromised	compromise	I-VP	VBN	O	12	VC	-1
+15	.	.	O	.	O	12	P	-1
+
+1	In	In	B-PP	IN	O	13	VMOD	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	13	P	-1
+4	filopodia	filopodia	B-NP	NN	O	5	NMOD	-1
+5	formation	formation	I-NP	NN	O	8	NMOD	2	formation
+6	,	,	O	,	O	8	P	-1
+7	a	a	B-NP	DT	O	8	NMOD	-1
+8	feature	feature	I-NP	NN	O	13	SUB	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	motile	motile	B-NP	NN	B-cell_type	11	NMOD	-1
+11	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	-1
+12	,	,	O	,	O	8	P	-1
+13	was	be	B-VP	VBD	O	0	ROOT	-1
+14	inhibited	inhibit	I-VP	VBN	O	13	VC	18	inhibited
+15	in	in	B-PP	IN	O	14	VMOD	-1
+16	PECAM-1-null	PECAM-1-null	B-NP	JJ	B-cell_line	18	NMOD	-1
+17	endothelial	endothelial	I-NP	JJ	I-cell_line	18	NMOD	-1
+18	cells	cell	I-NP	NNS	I-cell_line	15	PMOD	-1
+19	as	as	B-CONJP	RB	O	15	PMOD	-1
+20	well	well	I-CONJP	RB	O	19	DEP	-1
+21	as	as	I-CONJP	IN	O	19	DEP	-1
+22	in	in	B-PP	IN	O	15	PMOD	-1
+23	human	human	B-NP	JJ	B-cell_type	25	NMOD	-1
+24	endothelial	endothelial	I-NP	JJ	I-cell_type	25	NMOD	-1
+25	cells	cell	I-NP	NNS	I-cell_type	22	PMOD	-1
+26	treated	treat	B-VP	VBN	O	25	NMOD	19	treated
+27	with	with	B-PP	IN	O	26	VMOD	-1
+28	either	either	B-NP	CC	O	33	NMOD	-1
+29	anti-PECAM-1	anti-PECAM-1	I-NP	JJ	B-protein	30	NMOD	-1
+30	antibody	antibody	I-NP	NN	I-protein	33	NMOD	-1
+31	or	or	I-NP	CC	O	33	NMOD	-1
+32	PECAM-1	PECAM-1	I-NP	NN	B-protein	33	NMOD	-1
+33	siRNA	siRNA	I-NP	NN	O	27	PMOD	-1
+34	.	.	O	.	O	13	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	7	VMOD	-1
+2	,	,	O	,	O	7	P	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	expression	expression	I-NP	NN	O	7	SUB	9	expression
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	PECAM-1	PECAM-1	B-NP	NN	B-protein	5	PMOD	-1
+7	promoted	promote	B-VP	VBD	O	0	ROOT	17	promoted
+8	filopodia	filopodia	B-NP	NN	O	9	NMOD	-1
+9	formation	formation	I-NP	NN	O	7	OBJ	2	formation
+10	and	and	O	CC	O	7	VMOD	-1
+11	increased	increase	B-VP	VBD	O	7	VMOD	17	increased
+12	the	the	B-NP	DT	O	15	NMOD	-1
+13	protein	protein	I-NP	NN	O	15	NMOD	-1
+14	expression	expression	I-NP	NN	O	15	NMOD	9	expression
+15	levels	level	I-NP	NNS	O	11	OBJ	-1
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	Cdc42	Cdc42	B-NP	NN	B-protein	21	NMOD	-1
+18	,	,	O	,	O	21	P	-1
+19	a	a	B-NP	DT	O	21	NMOD	-1
+20	Rho	Rho	I-NP	NN	B-protein	21	NMOD	-1
+21	GTPase	GTPase	I-NP	NN	I-protein	16	PMOD	-1
+22	that	that	B-NP	WDT	O	21	NMOD	-1
+23	is	be	B-VP	VBZ	O	22	SBAR	-1
+24	known	know	I-VP	VBN	O	23	VC	-1
+25	to	to	B-VP	TO	O	26	VMOD	-1
+26	promote	promote	I-VP	VB	O	24	VMOD	17	promote
+27	the	the	B-NP	DT	O	28	NMOD	-1
+28	formation	formation	I-NP	NN	O	26	OBJ	2	formation
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	filopodia	filopodia	B-NP	NN	O	29	PMOD	-1
+31	.	.	O	.	O	7	P	-1
+
+1	In	In	B-PP	IN	O	24	VMOD	-1
+2	the	the	B-NP	DT	O	5	NMOD	-1
+3	developing	develop	I-NP	VBG	O	5	NMOD	2	developing
+4	retinal	retinal	I-NP	NN	O	5	NMOD	-1
+5	vasculature	vasculature	I-NP	NN	O	1	PMOD	-1
+6	,	,	O	,	O	24	P	-1
+7	numerous	numerous	B-NP	JJ	O	11	NMOD	-1
+8	,	,	I-NP	,	O	11	P	-1
+9	long	long	I-NP	JJ	O	11	NMOD	-1
+10	filamentous	filamentous	I-NP	JJ	O	11	NMOD	-1
+11	filopodia	filopodia	I-NP	NN	O	24	SUB	-1
+12	,	,	O	,	O	11	P	-1
+13	emanating	emanate	B-VP	VBG	O	11	NMOD	-1
+14	from	from	B-PP	IN	O	13	VMOD	-1
+15	endothelial	endothelial	B-NP	JJ	B-cell_type	16	NMOD	-1
+16	cells	cell	I-NP	NNS	I-cell_type	14	PMOD	-1
+17	at	at	B-PP	IN	O	13	VMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	tips	tip	I-NP	NNS	O	17	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	angiogenic	angiogenic	B-NP	JJ	O	22	NMOD	3	angiogenic
+22	sprouts	sprout	I-NP	NNS	O	20	PMOD	-1
+23	,	,	O	,	O	11	P	-1
+24	were	be	B-VP	VBD	O	0	ROOT	-1
+25	observed	observe	I-VP	VBN	O	24	VC	0
+26	in	in	B-PP	IN	O	25	VMOD	-1
+27	wild-type	wild-type	B-NP	JJ	O	28	NMOD	-1
+28	animals	animal	I-NP	NNS	O	26	PMOD	-1
+29	,	,	O	,	O	24	VMOD	-1
+30	but	but	O	CC	O	29	VMOD	-1
+31	to	to	B-PP	TO	O	30	DEP	-1
+32	a	a	B-NP	DT	O	34	NMOD	-1
+33	lesser	less	I-NP	JJR	O	34	NMOD	-1
+34	extent	extent	I-NP	NN	O	31	PMOD	-1
+35	in	in	B-PP	IN	O	34	NMOD	-1
+36	the	the	B-NP	DT	O	38	NMOD	-1
+37	PECAM-1-null	PECAM-1-null	I-NP	JJ	O	38	NMOD	9	null
+38	mice	mouse	I-NP	NNS	O	35	PMOD	-1
+39	.	.	O	.	O	24	P	-1
+
+1	Together	Together	B-ADVP	RB	O	15	VMOD	-1
+2	,	,	O	,	O	15	P	-1
+3	these	these	B-NP	DT	O	4	NMOD	-1
+4	data	datum	I-NP	NNS	O	15	SUB	-1
+5	further	further	B-VP	RBR	O	6	VMOD	-1
+6	establish	establish	I-VP	VB	O	4	NMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	involvement	involvement	I-NP	NN	O	6	OBJ	16	involvement
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	endothelial	endothelial	B-NP	JJ	B-protein	11	NMOD	-1
+11	PECAM-1	PECAM-1	I-NP	NN	I-protein	9	PMOD	-1
+12	in	in	B-PP	IN	O	8	NMOD	-1
+13	angiogenesis	angiogenesis	B-NP	NN	O	12	PMOD	3	angiogenesis
+14	and	and	O	CC	O	15	NMOD	-1
+15	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+16	that	that	B-SBAR	IN	O	15	VMOD	-1
+17	,	,	O	,	O	22	P	-1
+18	in	in	B-ADVP	FW	O	22	VMOD	-1
+19	vivo	vivo	I-ADVP	FW	O	18	AMOD	-1
+20	,	,	O	,	O	22	P	-1
+21	PECAM-1	PECAM-1	B-NP	NN	B-protein	22	SUB	-1
+22	may	may	B-VP	MD	O	16	SBAR	-1
+23	stimulate	stimulate	I-VP	VB	O	22	VC	17	stimulate
+24	endothelial	endothelial	B-NP	JJ	O	26	NMOD	-1
+25	cell	cell	I-NP	NN	O	26	NMOD	-1
+26	motility	motility	I-NP	NN	O	23	OBJ	14	motility
+27	by	by	B-PP	IN	O	23	VMOD	-1
+28	promoting	promote	B-VP	VBG	O	27	PMOD	17	promoting
+29	the	the	B-NP	DT	O	30	NMOD	-1
+30	formation	formation	I-NP	NN	O	28	OBJ	2	formation
+31	of	of	B-PP	IN	O	30	NMOD	-1
+32	filopodia	filopodia	B-NP	NN	O	31	PMOD	-1
+33	.	.	O	.	O	15	P	-1
+

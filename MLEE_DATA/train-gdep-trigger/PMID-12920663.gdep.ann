@@ -1,0 +1,345 @@
+1	Proliferative	Proliferative	B-NP	JJ	O	3	NMOD	0
+2	diabetic	diabetic	I-NP	JJ	O	3	NMOD	0
+3	retinopathy	retinopathy	I-NP	NN	O	4	SUB	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	associated	associate	I-VP	VBN	O	4	VC	0
+6	with	with	B-PP	IN	O	5	VMOD	0
+7	a	a	B-NP	DT	O	9	NMOD	0
+8	low	low	I-NP	JJ	O	9	NMOD	0
+9	level	level	I-NP	NN	O	6	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	the	the	B-NP	DT	O	18	NMOD	0
+12	natural	natural	I-NP	JJ	B-protein	18	NMOD	0
+13	ocular	ocular	I-NP	JJ	I-protein	18	NMOD	0
+14	anti-angiogenic	anti-angiogenic	I-NP	JJ	I-protein	18	NMOD	3	angiogenic
+15	agent	agent	I-NP	NN	I-protein	18	NMOD	0
+16	pigment	pigment	I-NP	NN	I-protein	18	NMOD	0
+17	epithelium-derived	epithelium-derived	I-NP	JJ	I-protein	18	NMOD	0
+18	factor	factor	I-NP	NN	I-protein	10	PMOD	0
+19	(	(	O	(	O	21	DEP	0
+20	PEDF	PEDF	B-NP	NN	B-protein	21	DEP	0
+21	)	)	O	)	O	18	NMOD	0
+22	in	in	B-PP	IN	O	9	NMOD	0
+23	aqueous	aqueous	B-NP	JJ	O	24	NMOD	0
+24	humor	humor	I-NP	NN	O	22	PMOD	0
+25	.	.	O	.	O	4	P	0
+
+1	a	a	B-NP	DT	O	3	NMOD	0
+2	pilot	pilot	I-NP	NN	O	3	NMOD	0
+3	study	study	I-NP	NN	O	0	ROOT	0
+4	.	.	O	.	O	3	P	0
+
+1	Retinopathy	Retinopathy	B-NP	NN	O	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	the	the	B-NP	DT	O	8	NMOD	0
+4	most	most	I-NP	RBS	O	5	AMOD	0
+5	common	common	I-NP	JJ	O	8	NMOD	0
+6	microvascular	microvascular	I-NP	JJ	O	8	NMOD	0
+7	diabetes	diabetes	I-NP	NN	O	8	NMOD	0
+8	complication	complication	I-NP	NN	O	2	PRD	0
+9	and	and	O	CC	O	2	VMOD	0
+10	represents	represent	B-VP	VBZ	O	2	VMOD	0
+11	a	a	B-NP	DT	O	13	NMOD	0
+12	major	major	I-NP	JJ	O	13	NMOD	0
+13	threat	threat	I-NP	NN	O	10	OBJ	0
+14	to	to	B-PP	TO	O	13	NMOD	0
+15	the	the	B-NP	DT	O	16	NMOD	0
+16	eyesight	eyesight	I-NP	NN	O	14	PMOD	0
+17	.	.	O	.	O	2	P	0
+
+1	The	The	B-NP	DT	O	2	NMOD	0
+2	aim	aim	I-NP	NN	O	6	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	this	this	B-NP	DT	O	5	NMOD	0
+5	study	study	I-NP	NN	O	3	PMOD	0
+6	was	be	B-VP	VBD	O	0	ROOT	0
+7	to	to	B-VP	TO	O	8	VMOD	0
+8	address	address	I-VP	VB	O	6	PRD	0
+9	the	the	B-NP	DT	O	10	NMOD	0
+10	role	role	I-NP	NN	O	8	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	pro-	pro-	B-NP	JJ	O	15	NMOD	0
+13	and	and	I-NP	CC	O	15	NMOD	0
+14	anti-angiogenic	anti-angiogenic	I-NP	JJ	B-protein	15	NMOD	3	angiogenic
+15	molecules	molecule	I-NP	NNS	I-protein	11	PMOD	0
+16	in	in	B-PP	IN	O	10	NMOD	0
+17	diabetic	diabetic	B-NP	JJ	O	18	NMOD	0
+18	retinopathy	retinopathy	I-NP	NN	O	16	PMOD	0
+19	in	in	B-PP	IN	O	10	NMOD	0
+20	the	the	B-NP	DT	O	22	NMOD	0
+21	aqueous	aqueous	I-NP	JJ	O	22	NMOD	0
+22	humor	humor	I-NP	NN	O	19	PMOD	0
+23	of	of	B-PP	IN	O	22	NMOD	0
+24	the	the	B-NP	DT	O	25	NMOD	0
+25	eye	eye	I-NP	NN	O	23	PMOD	0
+26	.	.	O	.	O	6	P	0
+
+1	Aqueous	Aqueous	B-NP	JJ	O	2	NMOD	0
+2	humor	humor	I-NP	NN	O	3	SUB	0
+3	was	be	B-VP	VBD	O	0	ROOT	0
+4	collected	collect	I-VP	VBN	O	3	VC	19	collected
+5	at	at	B-PP	IN	O	4	VMOD	0
+6	cataract	cataract	B-NP	NN	O	7	NMOD	0
+7	surgery	surgery	I-NP	NN	O	5	PMOD	0
+8	from	from	B-PP	IN	O	7	NMOD	0
+9	19	19	B-NP	CD	O	11	NMOD	0
+10	diabetic	diabetic	I-NP	JJ	O	11	NMOD	0
+11	patients	patient	I-NP	NNS	O	8	PMOD	0
+12	and	and	B-PP	CC	O	8	PMOD	0
+13	from	from	B-PP	IN	O	8	PMOD	0
+14	13	13	B-NP	CD	O	15	NMOD	0
+15	age-	age-	I-NP	NN	O	19	NMOD	0
+16	and	and	O	CC	O	19	NMOD	0
+17	sex-matched	sex-matched	B-NP	JJ	O	19	NMOD	0
+18	normoglycemic	normoglycemic	I-NP	JJ	O	19	NMOD	0
+19	controls	control	I-NP	NNS	O	13	PMOD	0
+20	.	.	O	.	O	3	P	0
+
+1	Levels	Level	B-NP	NNS	O	20	SUB	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	pro-angiogenic	pro-angiogenic	B-NP	JJ	B-protein	7	NMOD	3	angiogenic
+4	vascular	vascular	I-NP	JJ	I-protein	7	NMOD	0
+5	endothelial	endothelial	I-NP	JJ	I-protein	7	NMOD	0
+6	growth	growth	I-NP	NN	I-protein	7	NMOD	0
+7	factor	factor	I-NP	NN	I-protein	16	NMOD	0
+8	(	(	O	(	O	10	DEP	0
+9	VEGF	VEGF	B-NP	NN	B-protein	10	DEP	0
+10	)	)	O	)	O	7	NMOD	0
+11	and	and	O	CC	O	16	NMOD	0
+12	angiogenic	angiogenic	B-NP	JJ	O	16	NMOD	3	angiogenic
+13	inhibitor	inhibitor	I-NP	NN	O	16	NMOD	0
+14	pigment	pigment	I-NP	NN	O	16	NMOD	0
+15	epithelium-derived	epithelium-derived	I-NP	JJ	O	16	NMOD	0
+16	factor	factor	I-NP	NN	O	2	PMOD	0
+17	(	(	O	(	O	19	DEP	0
+18	PEDF	PEDF	B-NP	NN	B-protein	19	DEP	0
+19	)	)	O	)	O	16	NMOD	0
+20	were	be	B-VP	VBD	O	0	ROOT	0
+21	determined	determine	I-VP	VBN	O	20	VC	0
+22	.	.	O	.	O	20	P	0
+
+1	Angiogenic	Angiogenic	B-NP	JJ	O	2	NMOD	3	Angiogenic
+2	activity	activity	I-NP	NN	O	7	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	aqueous	aqueous	I-NP	JJ	O	6	NMOD	0
+6	humor	humor	I-NP	NN	O	3	PMOD	0
+7	was	be	B-VP	VBD	O	0	ROOT	0
+8	quantified	quantify	I-VP	VBN	O	7	VC	0
+9	by	by	B-PP	IN	O	8	VMOD	0
+10	measuring	measure	B-VP	VBG	O	9	PMOD	0
+11	its	its	B-NP	PRP$	O	12	NMOD	0
+12	effect	effect	I-NP	NN	O	10	OBJ	16	effect
+13	on	on	B-PP	IN	O	12	NMOD	0
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	migration	migration	I-NP	NN	O	13	PMOD	14	migration
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	capillary	capillary	B-NP	JJ	B-cell_type	19	NMOD	0
+18	endothelial	endothelial	I-NP	JJ	I-cell_type	19	NMOD	0
+19	cells	cell	I-NP	NNS	I-cell_type	16	PMOD	0
+20	.	.	O	.	O	7	P	0
+
+1	In	In	B-PP	IN	O	8	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	aqueous	aqueous	I-NP	JJ	O	4	NMOD	0
+4	fluid	fluid	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	8	P	0
+6	VEGF	VEGF	B-NP	NN	B-protein	7	NMOD	0
+7	levels	level	I-NP	NNS	O	8	SUB	0
+8	were	be	B-VP	VBD	O	0	ROOT	0
+9	increased	increase	I-VP	VBN	O	8	VC	17	increased
+10	in	in	B-PP	IN	O	9	VMOD	0
+11	diabetics	diabetic	B-NP	NNS	O	10	PMOD	0
+12	(	(	O	(	O	24	DEP	0
+13	mean	mean	B-NP	NN	O	14	NMOD	0
+14	values	value	I-NP	NNS	O	21	NMOD	0
+15	:	:	O	:	O	21	P	0
+16	501	501	B-NP	CD	O	21	NMOD	0
+17	vs.	vs.	B-PP	IN	O	16	NMOD	0
+18	367	367	B-NP	CD	O	19	NMOD	0
+19	pg/ml	pg/ml	I-NP	NN	O	17	PMOD	0
+20	;	;	O	:	O	21	P	0
+21	p	p	B-NP	NN	O	24	DEP	0
+22	=	=	B-VP	SYM	O	21	NMOD	0
+23	0.05	0.05	B-NP	CD	O	22	AMOD	0
+24	)	)	O	)	O	9	VMOD	0
+25	,	,	O	,	O	9	P	0
+26	compared	compare	B-PP	VBN	O	9	VMOD	0
+27	to	to	B-PP	TO	O	26	PMOD	0
+28	controls	control	B-NP	NNS	O	27	PMOD	0
+29	.	.	O	.	O	8	P	0
+
+1	PEDF	PEDF	B-NP	NN	B-protein	2	SUB	0
+2	was	be	B-VP	VBD	O	0	ROOT	0
+3	found	find	I-VP	VBN	O	2	VC	0
+4	to	to	I-VP	TO	O	5	VMOD	0
+5	be	be	I-VP	VB	O	3	VMOD	0
+6	decreased	decrease	I-VP	VBN	O	5	VC	18	decreased
+7	in	in	B-PP	IN	O	6	VMOD	0
+8	diabetics	diabetic	B-NP	NNS	O	7	PMOD	0
+9	(	(	O	(	O	21	DEP	0
+10	mean	mean	B-NP	NN	O	11	NMOD	0
+11	values	value	I-NP	NNS	O	18	NMOD	0
+12	:	:	O	:	O	18	P	0
+13	2080	2080	B-NP	CD	O	18	NMOD	0
+14	vs.	vs.	B-PP	IN	O	13	NMOD	0
+15	5780	5780	B-NP	CD	O	16	NMOD	0
+16	ng/ml	ng/ml	I-NP	NN	O	14	PMOD	0
+17	;	;	O	:	O	18	P	0
+18	p	p	B-NP	NN	O	21	DEP	0
+19	=	=	B-VP	SYM	O	18	NMOD	0
+20	0.04	0.04	B-NP	CD	O	19	AMOD	0
+21	)	)	O	)	O	6	VMOD	0
+22	compared	compare	B-VP	VBN	O	6	VMOD	0
+23	to	to	B-PP	TO	O	22	PMOD	0
+24	controls	control	B-NP	NNS	O	23	PMOD	0
+25	.	.	O	.	O	2	P	0
+
+1	In	In	B-PP	IN	O	13	VMOD	0
+2	seven	seven	B-NP	CD	O	4	NMOD	0
+3	diabetic	diabetic	I-NP	JJ	O	4	NMOD	0
+4	patients	patient	I-NP	NNS	O	1	PMOD	0
+5	with	with	B-PP	IN	O	4	NMOD	0
+6	proliferative	proliferative	B-NP	JJ	O	7	NMOD	0
+7	retinopathy	retinopathy	I-NP	NN	O	5	PMOD	0
+8	,	,	O	,	O	13	P	0
+9	the	the	B-NP	DT	O	12	NMOD	0
+10	most	most	I-NP	RBS	O	11	AMOD	0
+11	profound	profound	I-NP	JJ	O	12	NMOD	0
+12	finding	finding	I-NP	NN	O	13	SUB	0
+13	was	be	B-VP	VBD	O	29	VMOD	0
+14	a	a	B-NP	DT	O	16	NMOD	0
+15	significant	significant	I-NP	JJ	O	16	NMOD	0
+16	decrease	decrease	I-NP	NN	O	13	PRD	18	decrease
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	the	the	B-NP	DT	O	20	NMOD	0
+19	PEDF	PEDF	I-NP	NN	B-protein	20	NMOD	0
+20	level	level	I-NP	NN	O	17	PMOD	0
+21	(	(	O	(	O	27	DEP	0
+22	mean	mean	B-NP	JJ	O	23	NMOD	0
+23	value	value	I-NP	NN	O	26	NMOD	0
+24	:	:	O	:	O	26	P	0
+25	237	237	B-NP	CD	O	26	NMOD	0
+26	ng/ml	ng/ml	I-NP	NN	O	27	DEP	0
+27	)	)	O	)	O	16	NMOD	0
+28	,	,	O	,	O	29	P	0
+29	whereas	whereas	O	IN	O	0	ROOT	0
+30	VEGF	VEGF	B-NP	NN	B-protein	31	NMOD	0
+31	levels	level	I-NP	NNS	O	32	SUB	0
+32	were	be	B-VP	VBD	O	29	VMOD	0
+33	comparable	comparable	B-ADJP	JJ	O	32	PRD	0
+34	to	to	B-PP	TO	O	33	AMOD	0
+35	diabetic	diabetic	B-NP	JJ	O	36	NMOD	0
+36	patients	patient	I-NP	NNS	O	34	PMOD	0
+37	without	without	B-PP	IN	O	36	NMOD	0
+38	proliferation	proliferation	B-NP	NN	O	37	PMOD	0
+39	(	(	O	(	O	48	DEP	0
+40	mean	mean	B-NP	JJ	O	41	NMOD	0
+41	value	value	I-NP	NN	O	45	NMOD	0
+42	:	:	O	:	O	45	P	0
+43	3153	3153	B-NP	CD	O	45	NMOD	0
+44	;	;	O	:	O	45	P	0
+45	p	p	B-NP	NN	O	47	SUB	0
+46	=	=	B-VP	SYM	O	47	VMOD	0
+47	0.003	0.003	B-NP	CD	O	48	DEP	0
+48	)	)	O	)	O	36	NMOD	0
+49	.	.	O	.	O	29	P	0
+
+1	Angiogenic	Angiogenic	B-NP	JJ	O	2	NMOD	3	Angiogenic
+2	activity	activity	I-NP	NN	O	11	SUB	0
+3	in	in	B-PP	IN	O	2	NMOD	0
+4	samples	sample	B-NP	NNS	O	3	PMOD	0
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	patients	patient	B-NP	NNS	O	5	PMOD	0
+7	from	from	B-PP	IN	O	6	NMOD	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	control	control	I-NP	NN	O	10	NMOD	0
+10	group	group	I-NP	NN	O	7	PMOD	0
+11	was	be	B-VP	VBD	O	20	VMOD	0
+12	generally	generally	B-ADJP	RB	O	13	AMOD	0
+13	inhibitory	inhibitory	I-ADJP	JJ	O	11	PRD	18	inhibitory
+14	due	due	B-PP	IN	O	11	VMOD	0
+15	to	to	B-PP	TO	O	14	PMOD	0
+16	PEDF	PEDF	B-NP	NN	B-protein	15	PMOD	0
+17	,	,	O	,	O	20	P	0
+18	and	and	O	CC	O	20	VMOD	0
+19	inhibition	inhibition	B-NP	NN	O	20	SUB	18	inhibition
+20	was	be	B-VP	VBD	O	0	ROOT	0
+21	blocked	block	I-VP	VBN	O	20	VC	18	blocked
+22	by	by	B-PP	IN	O	21	VMOD	0
+23	neutralizing	neutralize	B-VP	VBG	B-protein	24	NMOD	0
+24	antibodies	antibody	B-NP	NNS	I-protein	22	PMOD	0
+25	to	to	B-PP	TO	O	24	NMOD	0
+26	PEDF	PEDF	B-NP	NN	B-protein	25	PMOD	0
+27	.	.	O	.	O	20	P	0
+
+1	Likewise	Likewise	B-ADVP	RB	O	10	VMOD	0
+2	,	,	O	,	O	10	P	0
+3	in	in	B-PP	IN	O	10	VMOD	0
+4	diabetics	diabetic	B-NP	NNS	O	3	PMOD	0
+5	without	without	B-PP	IN	O	4	NMOD	0
+6	proliferation	proliferation	B-NP	NN	O	5	PMOD	0
+7	,	,	O	,	O	10	P	0
+8	angiogenic	angiogenic	B-NP	JJ	O	9	NMOD	3	angiogenic
+9	activity	activity	I-NP	NN	O	10	SUB	0
+10	was	be	B-VP	VBD	O	0	ROOT	0
+11	also	also	I-VP	RB	O	10	VMOD	0
+12	blocked	block	I-VP	VBN	O	10	VC	18	blocked
+13	by	by	B-PP	IN	O	12	VMOD	0
+14	antibodies	antibody	B-NP	NNS	B-protein	13	PMOD	0
+15	to	to	B-PP	TO	O	14	NMOD	0
+16	PEDF	PEDF	B-NP	NN	B-protein	15	PMOD	0
+17	.	.	O	.	O	10	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	will	will	B-VP	MD	O	0	ROOT	0
+3	demonstrate	demonstrate	I-VP	VB	O	2	VC	0
+4	here	here	B-ADVP	RB	O	3	VMOD	0
+5	that	that	B-SBAR	IN	O	3	VMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	level	level	I-NP	NN	O	15	SUB	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	14	NMOD	0
+10	natural	natural	I-NP	JJ	B-protein	14	NMOD	0
+11	ocular	ocular	I-NP	JJ	I-protein	14	NMOD	0
+12	anti-angiogenic	anti-angiogenic	I-NP	JJ	I-protein	14	NMOD	3	angiogenic
+13	agent	agent	I-NP	NN	I-protein	14	NMOD	0
+14	PEDF	PEDF	I-NP	NN	I-protein	8	PMOD	0
+15	is	be	B-VP	VBZ	O	5	SBAR	0
+16	inversely	inversely	I-VP	RB	O	15	VMOD	0
+17	associated	associate	I-VP	VBN	O	15	VC	0
+18	with	with	B-PP	IN	O	17	VMOD	0
+19	proliferative	proliferative	B-NP	JJ	O	20	NMOD	0
+20	retinopathy	retinopathy	I-NP	NN	O	18	PMOD	0
+21	.	.	O	.	O	2	P	0
+
+1	PEDF	PEDF	B-NP	NN	B-protein	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	an	an	B-NP	DT	O	6	NMOD	0
+4	important	important	I-NP	JJ	O	5	AMOD	0
+5	negative	negative	I-NP	JJ	O	6	NMOD	0
+6	regulator	regulator	I-NP	NN	O	2	PRD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	angiogenic	angiogenic	B-NP	JJ	O	9	NMOD	3	angiogenic
+9	activity	activity	I-NP	NN	O	7	PMOD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	aqueous	aqueous	B-NP	JJ	O	12	NMOD	0
+12	humor	humor	I-NP	NN	O	10	PMOD	0
+13	.	.	O	.	O	2	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	may	may	B-VP	MD	O	0	ROOT	0
+4	have	have	I-VP	VB	O	3	VC	0
+5	implications	implication	B-NP	NNS	O	4	OBJ	0
+6	for	for	B-PP	IN	O	5	NMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	development	development	I-NP	NN	O	6	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	novel	novel	B-NP	JJ	O	11	NMOD	0
+11	regimens	regimen	I-NP	NNS	O	9	PMOD	0
+12	for	for	B-PP	IN	O	8	NMOD	0
+13	diabetic	diabetic	B-NP	JJ	O	14	NMOD	0
+14	retinopathy	retinopathy	I-NP	NN	O	12	PMOD	0
+15	.	.	O	.	O	3	P	0
+

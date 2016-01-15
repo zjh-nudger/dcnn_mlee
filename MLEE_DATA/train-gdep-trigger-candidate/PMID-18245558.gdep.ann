@@ -1,0 +1,282 @@
+1	Suppression	Suppression	B-NP	NN	O	7	NMOD	18	Suppression
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	lung	lung	B-NP	NN	O	5	NMOD	-1
+4	tumor	tumor	I-NP	NN	O	5	NMOD	-1
+5	growth	growth	I-NP	NN	O	2	PMOD	4	growth
+6	and	and	I-NP	CC	O	7	NMOD	-1
+7	metastasis	metastasis	I-NP	NN	O	0	ROOT	14	metastasis
+8	in	in	B-PP	IN	O	7	NMOD	-1
+9	mice	mouse	B-NP	NNS	O	8	PMOD	-1
+10	by	by	B-PP	IN	O	7	NMOD	-1
+11	adeno-associated	adeno-associated	B-NP	JJ	O	13	NMOD	-1
+12	virus-mediated	virus-mediated	I-NP	JJ	O	13	NMOD	17	mediated
+13	expression	expression	I-NP	NN	O	10	PMOD	9	expression
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	vasostatin	vasostatin	B-NP	NN	B-protein	14	PMOD	-1
+16	.	.	O	.	O	7	P	-1
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	4	NMOD	-1
+2	:	:	O	:	O	1	P	-1
+3	Angiogenesis	Angiogenesis	B-NP	NN	O	4	NMOD	3	Angiogenesis
+4	inhibitors	inhibitor	I-NP	NNS	O	5	SUB	-1
+5	have	have	B-VP	VBP	O	0	ROOT	-1
+6	strong	strong	B-NP	JJ	O	7	AMOD	-1
+7	therapeutic	therapeutic	I-NP	JJ	O	8	NMOD	-1
+8	potential	potential	I-NP	NN	O	5	OBJ	0
+9	as	as	B-PP	IN	O	5	VMOD	-1
+10	antitumor	antitumor	B-NP	JJ	O	11	NMOD	-1
+11	agents	agent	I-NP	NNS	O	9	PMOD	-1
+12	in	in	B-PP	IN	O	5	VMOD	-1
+13	suppressing	suppress	B-VP	VBG	O	12	PMOD	18	suppressing
+14	tumor	tumor	B-NP	NN	O	15	NMOD	-1
+15	growth	growth	I-NP	NN	O	18	NMOD	4	growth
+16	and	and	O	CC	O	18	NMOD	-1
+17	metastatic	metastatic	B-NP	JJ	O	18	NMOD	0
+18	progression	progression	I-NP	NN	O	13	OBJ	0
+19	.	.	O	.	O	5	P	-1
+
+1	Vasostatin	Vasostatin	B-NP	NN	B-protein	5	NMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	the	the	B-NP	DT	O	5	NMOD	-1
+4	N-terminal	N-terminal	I-NP	JJ	B-protein	5	NMOD	-1
+5	domain	domain	I-NP	NN	I-protein	9	SUB	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	calreticulin	calreticulin	B-NP	NN	B-protein	6	PMOD	-1
+8	,	,	O	,	O	5	P	-1
+9	is	be	B-VP	VBZ	O	0	ROOT	-1
+10	a	a	B-NP	DT	O	13	NMOD	-1
+11	potent	potent	I-NP	JJ	O	13	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	13	NMOD	3	angiogenesis
+13	inhibitor	inhibitor	I-NP	NN	O	9	PRD	0
+14	.	.	O	.	O	9	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	determined	determine	B-VP	VBD	O	0	ROOT	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	effectiveness	effectiveness	I-NP	NN	O	6	OBJ	16	effectiveness
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	vasostatin	vasostatin	B-NP	NN	O	9	PMOD	-1
+11	delivered	deliver	B-VP	VBN	O	10	NMOD	19	delivered
+12	by	by	B-PP	IN	O	11	VMOD	-1
+13	recombinant	recombinant	B-NP	JJ	B-protein	16	NMOD	-1
+14	pseudotype	pseudotype	I-NP	NN	I-protein	16	NMOD	-1
+15	adeno-associated	adeno-associated	I-NP	JJ	I-protein	16	NMOD	-1
+16	virus	virus	I-NP	NN	I-protein	12	PMOD	-1
+17	2/5	2/5	I-NP	CD	I-protein	16	NMOD	-1
+18	(	(	O	(	O	20	DEP	-1
+19	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	O	20	DEP	-1
+20	)	)	O	)	O	16	NMOD	-1
+21	as	as	B-PP	IN	O	6	VMOD	-1
+22	a	a	B-NP	DT	O	25	NMOD	-1
+23	gene	gene	I-NP	NN	O	25	NMOD	-1
+24	therapy	therapy	I-NP	NN	O	25	NMOD	0
+25	approach	approach	I-NP	NN	O	21	PMOD	-1
+26	for	for	B-PP	IN	O	25	NMOD	-1
+27	lung	lung	B-NP	NN	O	29	NMOD	-1
+28	cancer	cancer	I-NP	NN	O	29	NMOD	-1
+29	treatment	treatment	I-NP	NN	O	26	PMOD	0
+30	.	.	O	.	O	6	P	-1
+
+1	EXPERIMENTAL	EXPERIMENTAL	B-NP	JJ	O	2	NMOD	-1
+2	DESIGN	DESIGN	I-NP	NN	O	30	NMOD	-1
+3	:	:	O	:	O	2	P	-1
+4	We	We	B-NP	PRP	O	5	SUB	-1
+5	used	use	B-VP	VBD	O	6	NMOD	0
+6	rAAV2/5	rAAV2/5	B-NP	NN	O	30	NMOD	-1
+7	to	to	B-VP	TO	O	8	VMOD	-1
+8	deliver	deliver	I-VP	VB	O	6	SBAR	19	deliver
+9	vasostatin	vasostatin	B-NP	NN	O	8	OBJ	-1
+10	intratumorally	intratumorally	B-ADVP	RB	O	8	VMOD	-1
+11	or	or	I-ADVP	CC	O	10	AMOD	-1
+12	systemically	systemically	I-ADVP	RB	O	10	AMOD	-1
+13	in	in	B-PP	IN	O	10	DEP	-1
+14	different	different	B-NP	JJ	O	18	NMOD	-1
+15	mouse	mouse	I-NP	NN	O	18	NMOD	-1
+16	lung	lung	I-NP	NN	O	18	NMOD	-1
+17	tumor	tumor	I-NP	NN	O	18	NMOD	-1
+18	models	model	I-NP	NNS	O	13	PMOD	-1
+19	--	--	O	:	O	30	P	-1
+20	subcutaneous	subcutaneous	B-NP	JJ	O	30	NMOD	-1
+21	,	,	I-NP	,	O	30	P	-1
+22	orthotopic	orthotopic	I-NP	JJ	O	23	NMOD	-1
+23	xenograft	xenograft	I-NP	NN	O	30	NMOD	-1
+24	,	,	O	,	O	30	P	-1
+25	and	and	O	CC	O	30	NMOD	-1
+26	spontaneous	spontaneous	B-NP	JJ	O	30	NMOD	-1
+27	metastasis	metastasis	I-NP	NN	O	30	NMOD	0
+28	lung	lung	I-NP	NN	O	30	NMOD	-1
+29	tumor	tumor	I-NP	NN	O	30	NMOD	-1
+30	models	model	I-NP	NNS	O	0	ROOT	-1
+31	.	.	O	.	O	30	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	therapeutic	therapeutic	I-NP	JJ	O	3	NMOD	-1
+3	efficacy	efficacy	I-NP	NN	O	6	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	O	4	PMOD	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	determined	determine	I-VP	VBN	O	6	VC	-1
+8	by	by	B-PP	IN	O	7	VMOD	-1
+9	monitoring	monitor	B-VP	VBG	O	8	PMOD	-1
+10	tumor	tumor	B-NP	NN	O	11	NMOD	-1
+11	volume	volume	I-NP	NN	O	17	NMOD	-1
+12	,	,	O	,	O	17	P	-1
+13	survival	survival	B-NP	NN	O	14	NMOD	0
+14	rate	rate	I-NP	NN	O	17	NMOD	-1
+15	,	,	O	,	O	17	P	-1
+16	and	and	O	CC	O	17	NMOD	-1
+17	degree	degree	B-NP	NN	O	9	OBJ	-1
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	neovascularization	neovascularization	B-NP	NN	O	18	PMOD	3	neovascularization
+20	after	after	B-PP	IN	O	9	VMOD	-1
+21	treatment	treatment	B-NP	NN	O	20	PMOD	0
+22	in	in	B-PP	IN	O	21	NMOD	-1
+23	these	these	B-NP	DT	O	24	NMOD	-1
+24	models	model	I-NP	NNS	O	22	PMOD	-1
+25	.	.	O	.	O	6	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	Mice	Mouse	B-NP	NNS	O	14	SUB	-1
+4	bearing	bear	B-VP	VBG	O	3	NMOD	-1
+5	subcutaneous	subcutaneous	B-NP	JJ	O	6	NMOD	-1
+6	tumor	tumor	I-NP	NN	O	4	OBJ	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	B-cell_line	13	NMOD	-1
+9	pretreated	pretreate	B-VP	VBN	I-cell_line	13	NMOD	19	pretreated
+10	Lewis	Lewis	B-NP	NNP	I-cell_line	13	NMOD	-1
+11	lung	lung	I-NP	NN	I-cell_line	13	NMOD	-1
+12	carcinoma	carcinoma	I-NP	NN	I-cell_line	13	NMOD	-1
+13	cells	cell	I-NP	NNS	I-cell_line	7	PMOD	-1
+14	showed	show	B-VP	VBD	O	1	NMOD	-1
+15	>	>	B-NP	SYM	O	17	AMOD	-1
+16	50	50	B-NP	CD	O	17	AMOD	-1
+17	%	%	I-NP	NN	O	18	NMOD	-1
+18	reduction	reduction	I-NP	NN	O	14	OBJ	18	reduction
+19	in	in	B-PP	IN	O	18	NMOD	-1
+20	primary	primary	B-NP	JJ	O	22	NMOD	-1
+21	tumor	tumor	I-NP	NN	O	22	NMOD	-1
+22	volume	volume	I-NP	NN	O	19	PMOD	-1
+23	and	and	O	CC	O	14	VMOD	-1
+24	reduced	reduce	B-VP	VBD	O	14	VMOD	18	reduced
+25	spontaneous	spontaneous	B-NP	JJ	B-protein	27	NMOD	-1
+26	pulmonary	pulmonary	I-NP	JJ	I-protein	27	NMOD	-1
+27	metastases	metastasis	I-NP	NNS	I-protein	24	OBJ	14	metastases
+28	.	.	O	.	O	1	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	tumor-suppressive	tumor-suppressive	I-NP	JJ	O	3	NMOD	-1
+3	action	action	I-NP	NN	O	13	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	B-protein	4	PMOD	-1
+6	in	in	B-PP	IN	O	3	NMOD	-1
+7	subcutaneous	subcutaneous	B-NP	JJ	O	12	NMOD	-1
+8	human	human	I-NP	JJ	O	12	NMOD	-1
+9	lung	lung	I-NP	NN	O	12	NMOD	-1
+10	tumor	tumor	I-NP	NN	O	12	NMOD	-1
+11	A549	A549	I-NP	NN	O	12	NMOD	-1
+12	xenograft	xenograft	I-NP	NN	O	6	PMOD	-1
+13	correlated	correlate	B-VP	VBD	O	0	ROOT	-1
+14	with	with	B-PP	IN	O	13	VMOD	-1
+15	a	a	B-NP	DT	O	17	NMOD	-1
+16	reduced	reduce	I-NP	VBN	O	17	NMOD	18	reduced
+17	number	number	I-NP	NN	O	14	PMOD	-1
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	capillary	capillary	B-NP	JJ	O	20	NMOD	-1
+20	vessels	vessel	I-NP	NNS	O	18	PMOD	-1
+21	in	in	B-PP	IN	O	20	NMOD	-1
+22	tumors	tumor	B-NP	NNS	O	21	PMOD	-1
+23	.	.	O	.	O	13	P	-1
+
+1	In	In	B-PP	IN	O	8	VMOD	-1
+2	the	the	B-NP	DT	O	5	NMOD	-1
+3	orthotopic	orthotopic	I-NP	JJ	O	5	NMOD	-1
+4	xenograft	xenograft	I-NP	NN	O	5	NMOD	-1
+5	model	model	I-NP	NN	O	1	PMOD	-1
+6	,	,	O	,	O	8	P	-1
+7	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	O	8	SUB	-1
+8	suppressed	suppress	B-VP	VBD	O	0	ROOT	18	suppressed
+9	metastasis	metastasis	B-NP	NN	O	19	NMOD	14	metastasis
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	A549	A549	B-NP	NN	O	12	NMOD	-1
+12	tumors	tumor	I-NP	NNS	O	10	PMOD	-1
+13	to	to	B-PP	TO	O	9	NMOD	-1
+14	mediastinal	mediastinal	B-NP	JJ	O	16	NMOD	-1
+15	lymph	lymph	I-NP	NN	O	16	NMOD	-1
+16	nodes	node	I-NP	NNS	O	13	PMOD	-1
+17	and	and	O	CC	O	19	NMOD	-1
+18	contralateral	contralateral	B-NP	JJ	O	19	NMOD	-1
+19	lung	lung	I-NP	NN	O	8	OBJ	-1
+20	.	.	O	.	O	8	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	19	VMOD	-1
+2	,	,	O	,	O	19	P	-1
+3	treatment	treatment	B-NP	NN	O	19	SUB	19	treatment
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	immunocompetent	immunocompetent	B-NP	JJ	O	6	NMOD	-1
+6	mice	mouse	I-NP	NNS	O	4	PMOD	-1
+7	in	in	B-PP	IN	O	3	NMOD	-1
+8	the	the	B-NP	DT	O	12	NMOD	-1
+9	spontaneous	spontaneous	I-NP	JJ	O	12	NMOD	-1
+10	lung	lung	I-NP	NN	O	12	NMOD	-1
+11	metastases	metastasis	I-NP	NNS	O	12	NMOD	0
+12	model	model	I-NP	NN	O	7	PMOD	-1
+13	with	with	B-PP	IN	O	12	NMOD	-1
+14	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	O	13	PMOD	-1
+15	after	after	B-PP	IN	O	14	NMOD	-1
+16	primary	primary	B-NP	JJ	O	18	NMOD	-1
+17	tumor	tumor	I-NP	NN	O	18	NMOD	-1
+18	excision	excision	I-NP	NN	O	15	PMOD	19	excision
+19	prolonged	prolong	B-VP	VBD	O	0	ROOT	0
+20	their	their	B-NP	PRP$	O	22	NMOD	-1
+21	median	median	I-NP	JJ	O	22	NMOD	-1
+22	survival	survival	I-NP	NN	O	19	OBJ	0
+23	from	from	B-PP	IN	O	19	VMOD	-1
+24	21	21	B-NP	CD	O	23	PMOD	-1
+25	to	to	I-NP	TO	O	23	PMOD	-1
+26	51.5	51.5	I-NP	CD	O	27	NMOD	-1
+27	days	day	I-NP	NNS	O	25	PMOD	-1
+28	.	.	O	.	O	19	P	-1
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Our	Our	B-NP	PRP$	O	4	NMOD	-1
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	show	show	B-VP	VBP	O	1	NMOD	-1
+6	the	the	B-NP	DT	O	7	NMOD	-1
+7	effectiveness	effectiveness	I-NP	NN	O	5	OBJ	18	effectiveness
+8	of	of	B-PP	IN	O	7	NMOD	-1
+9	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	O	8	PMOD	-1
+10	as	as	B-PP	IN	O	5	VMOD	-1
+11	an	an	B-NP	DT	O	13	NMOD	-1
+12	angiogenesis	angiogenesis	I-NP	NN	O	13	NMOD	3	angiogenesis
+13	inhibitor	inhibitor	I-NP	NN	O	10	PMOD	0
+14	in	in	B-PP	IN	O	5	VMOD	-1
+15	suppressing	suppress	B-VP	VBG	O	14	PMOD	18	suppressing
+16	tumor	tumor	B-NP	NN	O	17	NMOD	-1
+17	growth	growth	I-NP	NN	O	15	OBJ	4	growth
+18	during	during	B-PP	IN	O	15	VMOD	-1
+19	different	different	B-NP	JJ	O	20	NMOD	-1
+20	stages	stage	I-NP	NNS	O	18	PMOD	-1
+21	of	of	B-PP	IN	O	20	NMOD	-1
+22	tumor	tumor	B-NP	NN	O	23	NMOD	-1
+23	progression	progression	I-NP	NN	O	21	PMOD	2	progression
+24	,	,	O	,	O	5	P	-1
+25	validating	validate	B-VP	VBG	O	5	VMOD	-1
+26	the	the	B-NP	DT	O	27	NMOD	-1
+27	application	application	I-NP	NN	O	25	OBJ	0
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	rAAV2/5-VAS	rAAV2/5-VAS	B-NP	NN	B-DNA	31	NMOD	-1
+30	gene	gene	I-NP	NN	I-DNA	31	NMOD	-1
+31	therapy	therapy	I-NP	NN	O	28	PMOD	0
+32	in	in	B-PP	IN	O	25	VMOD	-1
+33	treatment	treatment	B-NP	NN	O	32	PMOD	0
+34	against	against	B-PP	IN	O	33	NMOD	18	against
+35	lung	lung	B-NP	NN	O	36	NMOD	-1
+36	cancer	cancer	I-NP	NN	O	34	PMOD	-1
+37	.	.	O	.	O	1	P	-1
+

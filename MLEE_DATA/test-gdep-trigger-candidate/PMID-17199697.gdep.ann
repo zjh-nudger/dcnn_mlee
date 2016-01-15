@@ -1,0 +1,179 @@
+1	Extracellular	Extracellular	B-NP	JJ	O	2	NMOD	-1
+2	matrix	matrix	I-NP	NN	O	0	ROOT	-1
+3	as	as	B-PP	IN	O	2	NMOD	-1
+4	a	a	B-NP	DT	O	6	NMOD	-1
+5	bioactive	bioactive	I-NP	JJ	O	6	NMOD	-1
+6	material	material	I-NP	NN	O	3	PMOD	-1
+7	for	for	B-PP	IN	O	6	NMOD	-1
+8	soft	soft	B-NP	JJ	O	10	NMOD	-1
+9	tissue	tissue	I-NP	NN	O	10	NMOD	-1
+10	reconstruction	reconstruction	I-NP	NN	O	7	PMOD	7	reconstruction
+11	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	extracellular	extracellular	I-NP	JJ	O	3	NMOD	-1
+3	matrix	matrix	I-NP	NN	O	7	SUB	-1
+4	(	(	O	(	O	6	DEP	-1
+5	ECM	ECM	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	directs	direct	B-VP	VBZ	O	0	ROOT	-1
+8	all	all	B-NP	DT	O	9	NMOD	-1
+9	phases	phase	I-NP	NNS	O	7	OBJ	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	healing	heal	B-VP	VBG	O	10	PMOD	-1
+12	following	follow	B-PP	VBG	O	11	VMOD	-1
+13	trauma	trauma	B-NP	NN	O	15	NMOD	-1
+14	or	or	I-NP	CC	O	15	NMOD	-1
+15	disease	disease	I-NP	NN	O	12	PMOD	-1
+16	and	and	O	CC	O	7	VMOD	-1
+17	is	be	B-VP	VBZ	O	7	VMOD	-1
+18	therefore	therefore	B-ADVP	RB	O	17	VMOD	-1
+19	a	a	B-NP	DT	O	21	NMOD	-1
+20	natural	natural	I-NP	JJ	O	21	NMOD	-1
+21	source	source	I-NP	NN	O	17	PRD	-1
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	prosthetic	prosthetic	B-NP	JJ	O	25	NMOD	-1
+24	mesh	mesh	I-NP	JJ	O	25	NMOD	-1
+25	material	material	I-NP	NN	O	22	PMOD	-1
+26	that	that	B-NP	WDT	O	25	NMOD	-1
+27	can	can	B-VP	MD	O	26	SBAR	-1
+28	be	be	I-VP	VB	O	27	VC	-1
+29	used	use	I-VP	VBN	O	28	VC	0
+30	strategically	strategically	B-ADVP	RB	O	29	VMOD	-1
+31	to	to	B-VP	TO	O	32	VMOD	-1
+32	induce	induce	I-VP	VB	O	29	VMOD	17	induce
+33	the	the	B-NP	DT	O	36	NMOD	-1
+34	repair	repair	I-NP	NN	O	36	NMOD	2	repair
+35	and	and	I-NP	CC	O	36	NMOD	-1
+36	restoration	restoration	I-NP	NN	O	32	OBJ	2	restoration
+37	of	of	B-PP	IN	O	36	NMOD	-1
+38	soft	soft	B-NP	JJ	O	39	NMOD	-1
+39	tissues	tissue	I-NP	NNS	O	37	PMOD	-1
+40	following	follow	B-PP	VBG	O	36	NMOD	-1
+41	surgery	surgery	B-NP	NN	O	40	PMOD	19	surgery
+42	.	.	O	.	O	7	P	-1
+
+1	Biomaterials	Biomaterial	B-NP	NNS	O	25	SUB	-1
+2	such	such	B-PP	JJ	O	3	PMOD	-1
+3	as	as	I-PP	IN	O	1	NMOD	-1
+4	Surgisis	Surgisis	B-NP	NNP	O	3	PMOD	-1
+5	(	(	O	(	O	16	DEP	-1
+6	Cook	Cook	B-NP	NNP	O	8	NMOD	-1
+7	Biotech	Biotech	I-NP	NNP	O	8	NMOD	-1
+8	Incorporated	Incorporated	I-NP	NNP	O	13	NMOD	-1
+9	,	,	O	,	O	13	P	-1
+10	West	West	B-NP	NNP	O	11	NMOD	-1
+11	Lafayette	Lafayette	I-NP	NNP	O	13	NMOD	-1
+12	,	,	O	,	O	13	P	-1
+13	IN	IN	B-NP	NNP	O	15	NMOD	-1
+14	,	,	O	,	O	15	P	-1
+15	USA	USA	B-NP	NNP	O	16	DEP	-1
+16	)	)	O	)	O	4	NMOD	-1
+17	,	,	O	,	O	4	P	-1
+18	which	which	B-NP	WDT	O	4	NMOD	-1
+19	are	be	B-VP	VBP	O	18	SBAR	-1
+20	derived	derive	I-VP	VBN	O	19	VC	0
+21	from	from	B-PP	IN	O	20	VMOD	-1
+22	natural	natural	B-NP	JJ	O	23	NMOD	-1
+23	ECM	ECM	I-NP	NN	O	21	PMOD	-1
+24	,	,	O	,	O	1	P	-1
+25	provide	provide	B-VP	VBP	O	0	ROOT	-1
+26	the	the	B-NP	DT	O	28	NMOD	-1
+27	extracellular	extracellular	I-NP	JJ	B-protein	28	NMOD	-1
+28	components	component	I-NP	NNS	I-protein	25	OBJ	-1
+29	necessary	necessary	B-ADJP	JJ	O	28	NMOD	-1
+30	to	to	B-VP	TO	O	31	VMOD	-1
+31	direct	direct	I-VP	VB	O	29	AMOD	-1
+32	the	the	B-NP	DT	O	34	NMOD	-1
+33	healing	healing	I-NP	NN	O	34	NMOD	-1
+34	response	response	I-NP	NN	O	31	OBJ	0
+35	,	,	O	,	O	25	P	-1
+36	allow	allow	B-VP	VBP	O	25	VMOD	-1
+37	for	for	B-PP	IN	O	36	VMOD	-1
+38	the	the	B-NP	DT	O	39	NMOD	-1
+39	proliferation	proliferation	I-NP	NN	O	37	PMOD	4	proliferation
+40	of	of	B-PP	IN	O	39	NMOD	-1
+41	new	new	B-NP	JJ	O	43	AMOD	-1
+42	,	,	I-NP	,	O	43	P	-1
+43	healthy	healthy	I-NP	JJ	O	44	NMOD	-1
+44	tissue	tissue	I-NP	NN	O	40	PMOD	-1
+45	and	and	O	CC	O	36	VMOD	-1
+46	restore	restore	B-VP	VB	O	36	VMOD	-1
+47	tissue	tissue	B-NP	NN	O	48	NMOD	-1
+48	integrity	integrity	I-NP	NN	O	46	OBJ	-1
+49	to	to	B-PP	TO	O	48	NMOD	-1
+50	the	the	B-NP	DT	O	52	NMOD	-1
+51	damaged	damage	I-NP	VBN	O	52	NMOD	0
+52	site	site	I-NP	NN	O	49	PMOD	-1
+53	.	.	O	.	O	25	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	3-D	3-D	I-NP	NN	O	3	NMOD	-1
+3	organization	organization	I-NP	NN	O	8	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	these	these	B-NP	DT	O	7	NMOD	-1
+6	extracellular	extracellular	I-NP	JJ	B-protein	7	NMOD	-1
+7	components	component	I-NP	NNS	I-protein	4	PMOD	-1
+8	distinguishes	distinguish	B-VP	VBZ	O	0	ROOT	-1
+9	the	the	B-NP	DT	O	11	NMOD	-1
+10	Surgisis	Surgisis	I-NP	NN	O	11	NMOD	-1
+11	mesh	mesh	I-NP	NN	O	8	OBJ	-1
+12	from	from	B-PP	IN	O	11	NMOD	-1
+13	synthetic	synthetic	B-NP	JJ	O	14	NMOD	-1
+14	materials	material	I-NP	NNS	O	12	PMOD	-1
+15	and	and	O	CC	O	8	VMOD	-1
+16	is	be	B-VP	VBZ	O	8	VMOD	-1
+17	associated	associate	I-VP	VBN	O	16	VC	0
+18	with	with	B-PP	IN	O	17	VMOD	-1
+19	constructive	constructive	B-NP	JJ	O	20	NMOD	-1
+20	tissue	tissue	I-NP	NN	O	18	PMOD	-1
+21	remodelling	remodelle	B-VP	VBG	O	20	NMOD	7	remodelling
+22	instead	instead	B-CONJP	RB	O	25	NMOD	-1
+23	of	of	I-CONJP	IN	O	22	DEP	-1
+24	scar	scar	B-NP	NN	O	25	NMOD	-1
+25	tissue	tissue	I-NP	NN	O	21	OBJ	-1
+26	.	.	O	.	O	8	P	-1
+
+1	Common	Common	B-NP	JJ	O	2	NMOD	-1
+2	features	feature	I-NP	NNS	O	0	ROOT	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	this	this	B-NP	DT	O	6	NMOD	-1
+5	ECM-assisted	ECM-assisted	I-NP	JJ	O	6	NMOD	17	assisted
+6	tissue	tissue	I-NP	NN	O	3	PMOD	-1
+7	remodelling	remodelle	B-VP	VBG	O	6	NMOD	7	remodelling
+8	include	include	B-VP	VBP	O	7	VMOD	-1
+9	angiogenesis	angiogenesis	B-NP	NN	O	11	NMOD	3	angiogenesis
+10	,	,	O	,	O	11	P	-1
+11	recruitment	recruitment	B-NP	NN	O	8	OBJ	14	recruitment
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	circulating	circulate	B-VP	VBG	B-cell_type	15	NMOD	0
+14	progenitor	progenitor	B-NP	NN	I-cell_type	15	NMOD	-1
+15	cells	cell	I-NP	NNS	I-cell_type	18	NMOD	-1
+16	and	and	O	CC	O	18	NMOD	-1
+17	constructive	constructive	B-NP	JJ	O	18	NMOD	-1
+18	remodelling	remodelling	I-NP	NN	O	12	PMOD	7	remodelling
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	damaged	damage	B-NP	VBN	O	22	NMOD	0
+21	tissue	tissue	I-NP	NN	O	22	NMOD	-1
+22	structures	structure	I-NP	NNS	O	19	PMOD	-1
+23	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	tissue	tissue	I-NP	NN	O	3	NMOD	-1
+3	response	response	I-NP	NN	O	8	SUB	0
+4	to	to	B-PP	TO	O	3	NMOD	-1
+5	this	this	B-NP	DT	O	7	NMOD	-1
+6	biologic	biologic	I-NP	JJ	O	7	NMOD	-1
+7	mesh	mesh	I-NP	NN	O	4	PMOD	-1
+8	is	be	B-VP	VBZ	O	0	ROOT	-1
+9	discussed	discuss	I-VP	VBN	O	8	VC	-1
+10	in	in	B-PP	IN	O	9	VMOD	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	context	context	I-NP	NN	O	10	PMOD	-1
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	recent	recent	B-NP	JJ	O	15	NMOD	-1
+15	reports	report	I-NP	NNS	O	13	PMOD	-1
+16	on	on	B-PP	IN	O	9	VMOD	-1
+17	clinical	clinical	B-NP	JJ	O	19	NMOD	-1
+18	hernia	hernia	I-NP	NN	O	19	NMOD	-1
+19	repair	repair	I-NP	NN	O	16	PMOD	0

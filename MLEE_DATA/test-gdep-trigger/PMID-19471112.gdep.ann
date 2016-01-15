@@ -1,0 +1,239 @@
+1	Cisplatin	Cisplatin	B-NP	NN	B-protein	2	SUB	0
+2	reduces	reduce	B-VP	VBZ	O	0	ROOT	18	reduces
+3	endothelial	endothelial	B-NP	JJ	O	5	NMOD	0
+4	cell	cell	I-NP	NN	O	5	NMOD	0
+5	migration	migration	I-NP	NN	O	2	OBJ	14	migration
+6	via	via	B-PP	IN	O	2	VMOD	0
+7	regulation	regulation	B-NP	NN	O	6	PMOD	16	regulation
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	type	type	B-NP	NN	B-protein	12	NMOD	0
+10	2-matrix	2-matrix	I-NP	CD	I-protein	12	NMOD	0
+11	metalloproteinase	metalloproteinase	I-NP	NN	I-protein	12	NMOD	0
+12	activity	activity	I-NP	NN	O	8	PMOD	0
+13	.	.	O	.	O	2	P	0
+
+1	AIMS	AIMS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	In	In	B-PP	IN	O	1	NMOD	0
+4	this	this	B-NP	DT	O	5	NMOD	0
+5	study	study	I-NP	NN	O	3	PMOD	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	investigated	investigate	B-VP	VBD	O	1	NMOD	0
+8	the	the	B-NP	DT	O	9	NMOD	0
+9	effect	effect	I-NP	NN	O	7	OBJ	16	effect
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	cisplatin	cisplatin	B-NP	NN	O	10	PMOD	0
+12	on	on	B-PP	IN	O	9	NMOD	0
+13	endothelial	endothelial	B-NP	JJ	B-cell_type	15	NMOD	0
+14	cell	cell	I-NP	NN	I-cell_type	15	NMOD	0
+15	migration	migration	I-NP	NN	O	19	NMOD	14	migration
+16	,	,	O	,	O	19	P	0
+17	an	an	B-NP	DT	O	19	NMOD	0
+18	essential	essential	I-NP	JJ	O	19	NMOD	17	essential
+19	process	process	I-NP	NN	O	12	PMOD	0
+20	for	for	B-PP	IN	O	19	NMOD	0
+21	vascular	vascular	B-NP	JJ	O	22	NMOD	0
+22	remodeling	remodeling	I-NP	NN	O	24	NMOD	7	remodeling
+23	and	and	I-NP	CC	O	24	NMOD	0
+24	regeneration	regeneration	I-NP	NN	O	20	PMOD	2	regeneration
+25	in	in	B-PP	IN	O	24	NMOD	0
+26	several	several	B-NP	JJ	O	25	PMOD	0
+27	physiological	physiological	I-NP	JJ	O	26	NMOD	0
+28	and	and	I-NP	CC	O	26	NMOD	0
+29	pathological	pathological	I-NP	JJ	O	26	NMOD	0
+30	situations	situation	I-NP	NNS	O	26	NMOD	0
+31	.	.	O	.	O	1	P	0
+
+1	MATERIAL	MATERIAL	B-NP	NN	O	3	NMOD	0
+2	AND	AND	I-NP	CC	O	3	NMOD	0
+3	METHODS	METHODS	I-NP	NNS	O	0	ROOT	0
+4	:	:	O	:	O	3	P	0
+5	Human	Human	B-NP	JJ	B-cell_type	9	NMOD	0
+6	umbilical	umbilical	I-NP	JJ	I-cell_type	9	NMOD	0
+7	vein	vein	I-NP	NN	I-cell_type	9	NMOD	0
+8	endothelial	endothelial	I-NP	JJ	I-cell_type	9	NMOD	0
+9	cells	cell	I-NP	NNS	I-cell_type	13	SUB	0
+10	(	(	O	(	O	12	DEP	0
+11	HUVEC	HUVEC	B-NP	NNS	B-cell_line	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	were	be	B-VP	VBD	O	3	NMOD	0
+14	treated	treat	I-VP	VBN	O	13	VC	19	treated
+15	with	with	B-PP	IN	O	14	VMOD	0
+16	cisplatin	cisplatin	B-NP	NN	O	20	NMOD	0
+17	and	and	O	CC	O	20	NMOD	0
+18	endothelial	endothelial	B-NP	JJ	O	20	NMOD	0
+19	cell	cell	I-NP	NN	O	20	NMOD	0
+20	migration	migration	I-NP	NN	O	15	PMOD	14	migration
+21	analyzed	analyze	B-VP	VBN	O	20	NMOD	0
+22	by	by	B-PP	IN	O	21	VMOD	0
+23	fluorescence	fluorescence	B-NP	NN	O	27	NMOD	0
+24	and	and	O	CC	O	27	NMOD	0
+25	scratch-wound	scratch-wound	B-NP	JJ	O	27	NMOD	0
+26	migration	migration	I-NP	NN	O	27	NMOD	0
+27	assay	assay	I-NP	NN	O	22	PMOD	0
+28	.	.	O	.	O	3	P	0
+
+1	MMP2	MMP2	B-NP	NN	B-protein	4	NMOD	0
+2	and	and	I-NP	CC	O	4	NMOD	0
+3	MMP9	MMP9	I-NP	NN	B-protein	4	NMOD	0
+4	activity	activity	I-NP	NN	O	5	SUB	0
+5	were	be	B-VP	VBD	O	13	VMOD	0
+6	determined	determine	I-VP	VBN	O	5	VC	0
+7	by	by	B-PP	IN	O	6	VMOD	0
+8	zymographic	zymographic	B-NP	JJ	O	9	NMOD	0
+9	assay	assay	I-NP	NN	O	7	PMOD	0
+10	,	,	O	,	O	13	P	0
+11	and	and	O	CC	O	13	NMOD	0
+12	MAPK	MAPK	B-NP	NN	B-protein	13	NMOD	0
+13	activation	activation	I-NP	NN	O	0	ROOT	17	activation
+14	by	by	B-PP	IN	O	13	NMOD	0
+15	Western	Western	B-NP	JJ	O	17	NMOD	0
+16	blotting	blotting	I-NP	NN	O	17	NMOD	0
+17	analysis	analysis	I-NP	NN	O	14	PMOD	0
+18	.	.	O	.	O	13	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	4	VMOD	0
+2	:	:	O	:	O	4	P	0
+3	We	We	B-NP	PRP	O	4	SUB	0
+4	demonstrated	demonstrate	B-VP	VBD	O	19	VMOD	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	cisplatin	cisplatin	B-NP	NN	O	7	SUB	0
+7	provoked	provoke	B-VP	VBD	O	5	SBAR	17	provoked
+8	a	a	B-NP	DT	O	12	NMOD	0
+9	time-	time-	I-NP	NN	O	12	NMOD	0
+10	and	and	O	CC	O	12	NMOD	0
+11	dose-dependent	dose-dependent	B-NP	JJ	O	12	NMOD	0
+12	decrease	decrease	I-NP	NN	O	7	OBJ	18	decrease
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	HUVEC	HUVEC	B-NP	NNS	B-cell_type	15	NMOD	0
+15	migration	migration	I-NP	NN	O	13	PMOD	14	migration
+16	;	;	O	:	O	19	P	0
+17	this	this	B-NP	DT	O	18	NMOD	0
+18	effect	effect	I-NP	NN	O	19	SUB	0
+19	was	be	B-VP	VBD	O	0	ROOT	0
+20	clearly	clearly	B-ADJP	RB	O	19	VMOD	0
+21	independent	independent	I-ADJP	JJ	O	19	PRD	0
+22	from	from	B-PP	IN	O	21	AMOD	0
+23	its	its	B-NP	PRP$	O	27	NMOD	0
+24	well	well	I-NP	RB	O	25	AMOD	0
+25	known	known	I-NP	JJ	O	27	NMOD	0
+26	cytotoxic	cytotoxic	I-NP	JJ	O	27	NMOD	0
+27	activity	activity	I-NP	NN	O	22	PMOD	0
+28	.	.	O	.	O	19	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	6	P	0
+4	cisplatin	cisplatin	B-NP	NN	O	6	SUB	0
+5	markedly	markedly	B-ADVP	RB	O	6	VMOD	0
+6	reduced	reduce	B-VP	VBD	O	0	ROOT	18	reduced
+7	MMP2	MMP2	B-NP	NN	B-protein	8	NMOD	0
+8	activity	activity	I-NP	NN	O	6	OBJ	0
+9	in	in	B-PP	IN	O	8	NMOD	0
+10	both	both	B-NP	CC	O	11	AMOD	0
+11	conditioned	condition	I-NP	VBN	O	12	NMOD	0
+12	media	medium	I-NP	NNS	O	15	NMOD	0
+13	and	and	O	CC	O	15	NMOD	0
+14	cell	cell	B-NP	NN	O	15	NMOD	0
+15	lysates	lysate	I-NP	NNS	O	22	NMOD	0
+16	,	,	O	,	O	22	P	0
+17	increased	increase	B-NP	VBN	O	19	NMOD	17	increased
+18	p38	p38	I-NP	NN	B-protein	19	NMOD	0
+19	MAPK	MAPK	I-NP	NN	I-protein	22	NMOD	0
+20	and	and	O	CC	O	22	NMOD	0
+21	JNK	JNK	B-NP	NN	B-protein	22	NMOD	0
+22	phosphorylation	phosphorylation	I-NP	NN	O	9	PMOD	12	phosphorylation
+23	,	,	O	,	O	6	P	0
+24	but	but	O	CC	O	6	VMOD	0
+25	did	do	B-VP	VBD	O	6	VMOD	0
+26	not	not	I-VP	RB	O	25	VMOD	0
+27	affect	affect	I-VP	VB	O	25	VC	16	affect
+28	ERK	ERK	B-NP	NN	B-protein	29	NMOD	0
+29	phosphorylation	phosphorylation	I-NP	NN	O	27	OBJ	12	phosphorylation
+30	.	.	O	.	O	6	P	0
+
+1	Endothelial	Endothelial	B-NP	JJ	O	3	NMOD	0
+2	cell	cell	I-NP	NN	O	3	NMOD	0
+3	migration	migration	I-NP	NN	O	4	SUB	14	migration
+4	was	be	B-VP	VBD	O	0	ROOT	0
+5	attenuated	attenuate	I-VP	VBN	O	4	VC	18	attenuated
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	treatment	treatment	B-NP	NN	O	6	PMOD	19	treatment
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	cells	cell	B-NP	NNS	O	8	PMOD	0
+10	with	with	B-PP	IN	O	7	NMOD	0
+11	GM6001	GM6001	B-NP	NN	O	15	NMOD	0
+12	,	,	O	,	O	15	P	0
+13	a	a	B-NP	DT	O	15	NMOD	0
+14	non-specific	non-specific	I-NP	JJ	O	15	NMOD	0
+15	inhibitor	inhibitor	I-NP	NN	O	10	PMOD	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	MMPs	MMP	B-NP	NNS	B-protein	16	PMOD	0
+18	,	,	O	,	O	15	P	0
+19	or	or	O	CC	O	6	PMOD	0
+20	by	by	B-PP	IN	O	6	PMOD	0
+21	a	a	B-NP	DT	O	24	NMOD	0
+22	selective	selective	I-NP	JJ	B-protein	24	NMOD	0
+23	anti-MMP2	anti-MMP2	I-NP	JJ	I-protein	24	NMOD	0
+24	antibody	antibody	I-NP	NN	I-protein	20	PMOD	0
+25	.	.	O	.	O	4	P	0
+
+1	However	However	B-ADVP	RB	O	19	VMOD	0
+2	,	,	O	,	O	19	P	0
+3	treatment	treatment	B-NP	NN	O	11	NMOD	19	treatment
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	cells	cell	B-NP	NNS	O	4	PMOD	0
+6	with	with	B-PP	IN	O	3	NMOD	0
+7	SB202190	SB202190	B-NP	NN	O	9	NMOD	0
+8	or	or	I-NP	CC	O	9	NMOD	0
+9	SP600125	SP600125	I-NP	NN	B-protein	6	PMOD	0
+10	,	,	O	,	O	11	P	0
+11	inhibitors	inhibitor	B-NP	NNS	O	19	SUB	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	p38	p38	B-NP	NN	B-protein	14	NMOD	0
+14	MAPK	MAPK	I-NP	NN	I-protein	16	NMOD	0
+15	and	and	I-NP	CC	O	16	NMOD	0
+16	JNK	JNK	I-NP	NN	B-protein	12	PMOD	0
+17	respectively	respectively	B-ADVP	RB	O	11	NMOD	0
+18	,	,	O	,	O	11	P	0
+19	did	do	B-VP	VBD	O	0	ROOT	0
+20	not	not	I-VP	RB	O	19	VMOD	0
+21	affect	affect	I-VP	VB	O	19	VC	16	affect
+22	HUVEC	HUVEC	B-NP	NN	B-cell_type	23	NMOD	0
+23	migration	migration	I-NP	NN	O	21	OBJ	14	migration
+24	.	.	O	.	O	19	P	0
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	4	NMOD	0
+2	:	:	O	:	O	1	P	0
+3	These	These	B-NP	DT	O	4	NMOD	0
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	suggested	suggest	B-VP	VBD	O	0	ROOT	0
+6	that	that	B-SBAR	IN	O	5	VMOD	0
+7	cisplatin	cisplatin	B-NP	NN	O	8	SUB	0
+8	induced	induce	B-VP	VBD	O	6	SBAR	17	induced
+9	a	a	B-NP	DT	O	10	NMOD	0
+10	reduction	reduction	I-NP	NN	O	8	OBJ	18	reduction
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	endothelial	endothelial	B-NP	JJ	O	14	NMOD	0
+13	cell	cell	I-NP	NN	O	14	NMOD	0
+14	migration	migration	I-NP	NN	O	11	PMOD	14	migration
+15	through	through	B-PP	IN	O	8	VMOD	0
+16	an	an	B-NP	DT	O	17	NMOD	0
+17	inhibition	inhibition	I-NP	NN	O	15	PMOD	18	inhibition
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	MMP2	MMP2	B-NP	NN	B-protein	20	NMOD	0
+20	activity	activity	I-NP	NN	O	18	PMOD	0
+21	by	by	B-PP	IN	O	17	NMOD	0
+22	downstream	downstream	B-NP	JJ	O	25	NMOD	0
+23	signal	signal	I-NP	NN	O	25	NMOD	0
+24	transduction	transduction	I-NP	NN	O	25	NMOD	0
+25	pathways	pathway	I-NP	NNS	O	21	PMOD	0
+26	independent	independent	B-ADJP	JJ	O	25	NMOD	16	independent
+27	of	of	B-PP	IN	O	26	AMOD	0
+28	JNK	JNK	B-NP	NN	B-protein	32	NMOD	0
+29	and	and	I-NP	CC	O	32	NMOD	0
+30	p38	p38	I-NP	NN	B-protein	32	NMOD	0
+31	MAPK	MAPK	I-NP	NN	I-protein	32	NMOD	0
+32	activation	activation	I-NP	NN	O	27	PMOD	17	activation
+33	.	.	O	.	O	5	P	0
+

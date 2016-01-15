@@ -1,0 +1,267 @@
+1	Induction	Induction	B-NP	NN	O	0	ROOT	17	Induction
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	Ets-1	Ets-1	B-NP	NN	B-protein	2	PMOD	-1
+4	in	in	B-PP	IN	O	1	NMOD	-1
+5	endothelial	endothelial	B-NP	JJ	B-cell_type	6	NMOD	-1
+6	cells	cell	I-NP	NNS	I-cell_type	4	PMOD	-1
+7	during	during	B-PP	IN	O	1	NMOD	-1
+8	reendothelialization	reendothelialization	B-NP	NN	O	7	PMOD	3	reendothelialization
+9	after	after	B-PP	IN	O	1	NMOD	-1
+10	denuding	denude	B-VP	VBG	O	9	PMOD	-1
+11	injury	injury	B-NP	NN	O	10	OBJ	-1
+12	.	.	O	.	O	1	P	-1
+
+1	Ets-1	Ets-1	B-NP	NN	B-protein	5	NMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	a	a	B-NP	DT	O	5	NMOD	-1
+4	transcription	transcription	I-NP	NN	B-protein	5	NMOD	0
+5	factor	factor	I-NP	NN	I-protein	7	SUB	-1
+6	,	,	O	,	O	5	P	-1
+7	is	be	B-VP	VBZ	O	0	ROOT	-1
+8	induced	induce	I-VP	VBN	O	7	VC	17	induced
+9	in	in	B-PP	IN	O	8	VMOD	-1
+10	endothelial	endothelial	B-NP	JJ	B-cell_type	11	NMOD	-1
+11	cells	cell	I-NP	NNS	I-cell_type	9	PMOD	-1
+12	(	(	O	(	O	14	DEP	-1
+13	ECs	EC	B-NP	NNS	B-cell_type	14	DEP	-1
+14	)	)	O	)	O	11	NMOD	-1
+15	during	during	B-PP	IN	O	8	VMOD	-1
+16	angiogenesis	angiogenesis	B-NP	NN	O	15	PMOD	3	angiogenesis
+17	.	.	O	.	O	7	P	-1
+
+1	Here	Here	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	investigated	investigate	B-VP	VBD	O	0	ROOT	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	expression	expression	I-NP	NN	O	4	OBJ	9	expression
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	Ets-1	Ets-1	B-NP	NN	B-protein	7	PMOD	-1
+9	during	during	B-PP	IN	O	6	NMOD	-1
+10	reendothelialization	reendothelialization	B-NP	NN	O	9	PMOD	3	reendothelialization
+11	.	.	O	.	O	4	P	-1
+
+1	When	When	B-ADVP	WRB	O	23	VMOD	-1
+2	a	a	B-NP	DT	O	4	NMOD	-1
+3	confluent	confluent	I-NP	JJ	O	4	NMOD	-1
+4	monolayer	monolayer	I-NP	NN	O	1	OBJ	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	human	human	B-NP	JJ	B-cell_line	11	NMOD	-1
+7	umbilical	umbilical	I-NP	JJ	I-cell_line	11	NMOD	-1
+8	vein	vein	I-NP	NN	I-cell_line	11	NMOD	-1
+9	endothelial	endothelial	I-NP	JJ	I-cell_line	11	NMOD	-1
+10	cell	cell	I-NP	NN	I-cell_line	11	NMOD	-1
+11	line	line	I-NP	NN	I-cell_line	13	NMOD	-1
+12	,	,	O	,	O	13	P	-1
+13	ECV304	ECV304	B-NP	NN	B-cell_line	5	PMOD	-1
+14	,	,	O	,	O	23	P	-1
+15	was	be	B-VP	VBD	O	23	VMOD	-1
+16	denuded	denude	I-VP	VBN	O	15	VC	19	denuded
+17	,	,	O	,	O	23	P	-1
+18	ECV304	ECV304	B-NP	NN	B-protein	23	SUB	-1
+19	at	at	B-PP	IN	O	18	NMOD	-1
+20	the	the	B-NP	DT	O	22	NMOD	-1
+21	wound	wound	I-NP	NN	O	22	NMOD	-1
+22	edge	edge	I-NP	NN	O	19	PMOD	-1
+23	expressed	express	B-VP	VBD	O	0	ROOT	9	expressed
+24	Ets-1	Ets-1	B-NP	NN	B-protein	23	OBJ	-1
+25	.	.	O	.	O	23	P	-1
+
+1	An	An	B-NP	DT	O	3	NMOD	-1
+2	immunohistochemical	immunohistochemical	I-NP	JJ	O	3	NMOD	-1
+3	analysis	analysis	I-NP	NN	O	4	SUB	-1
+4	revealed	reveal	B-VP	VBD	O	0	ROOT	-1
+5	that	that	B-SBAR	IN	O	4	VMOD	-1
+6	Ets-1	Ets-1	B-NP	NN	B-protein	7	SUB	-1
+7	accumulated	accumulate	B-VP	VBN	O	5	SBAR	17	accumulated
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	migrating	migrate	B-VP	VBG	B-cell_type	10	NMOD	0
+10	cells	cell	B-NP	NNS	I-cell_type	8	PMOD	-1
+11	at	at	B-PP	IN	O	7	VMOD	-1
+12	the	the	B-NP	DT	O	14	NMOD	-1
+13	wound	wound	I-NP	JJ	O	14	NMOD	-1
+14	edge	edge	I-NP	NN	O	11	PMOD	-1
+15	and	and	O	CC	O	4	VMOD	-1
+16	returned	return	B-VP	VBD	O	4	VMOD	-1
+17	to	to	B-PP	TO	O	16	VMOD	-1
+18	basal	basal	B-NP	JJ	O	19	NMOD	-1
+19	level	level	I-NP	NN	O	17	PMOD	-1
+20	when	when	B-ADVP	WRB	O	16	VMOD	-1
+21	reendothelialization	reendothelialization	B-NP	NN	O	22	SUB	3	reendothelialization
+22	was	be	B-VP	VBD	O	20	SBAR	-1
+23	accomplished	accomplish	I-VP	VBN	O	22	VC	-1
+24	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	induction	induction	I-NP	NN	O	5	SUB	17	induction
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	Ets-1	Ets-1	B-NP	NN	B-protein	3	PMOD	-1
+5	could	could	B-VP	MD	O	0	ROOT	-1
+6	be	be	I-VP	VB	O	5	VC	-1
+7	reproduced	reproduce	I-VP	VBN	O	6	VC	17	reproduced
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	in	in	B-NP	FW	O	10	AMOD	-1
+10	vivo	vivo	I-NP	FW	O	11	NMOD	-1
+11	denudation	denudation	I-NP	NN	O	8	PMOD	19	denudation
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	rat	rat	B-NP	NN	O	15	NMOD	-1
+14	aortic	aortic	I-NP	JJ	O	15	NMOD	-1
+15	endothelium	endothelium	I-NP	NN	O	12	PMOD	-1
+16	by	by	B-PP	IN	O	7	VMOD	-1
+17	a	a	B-NP	DT	O	19	NMOD	-1
+18	balloon	balloon	I-NP	NN	O	19	NMOD	-1
+19	catheter	catheter	I-NP	NN	O	16	PMOD	-1
+20	.	.	O	.	O	5	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	induction	induction	I-NP	NN	O	20	SUB	17	induction
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	Ets-1	Ets-1	B-NP	NN	B-protein	3	PMOD	-1
+5	in	in	B-PP	IN	O	2	NMOD	-1
+6	ECs	EC	B-NP	NNS	B-cell_type	5	PMOD	-1
+7	after	after	B-SBAR	IN	O	20	VMOD	-1
+8	denudation	denudation	B-NP	NN	O	9	SUB	19	denudation
+9	was	be	B-VP	VBD	O	7	SBAR	-1
+10	regulated	regulate	I-VP	VBN	O	9	VC	16	regulated
+11	transcriptionally	transcriptionally	B-ADVP	RB	O	10	VMOD	-1
+12	,	,	O	,	O	20	P	-1
+13	and	and	O	CC	O	15	NMOD	-1
+14	humeral	humeral	B-NP	JJ	B-protein	15	NMOD	-1
+15	factors	factor	I-NP	NNS	I-protein	20	SUB	-1
+16	released	release	B-VP	VBN	O	15	NMOD	14	released
+17	from	from	B-PP	IN	O	16	VMOD	-1
+18	injured	injure	B-NP	VBN	O	19	NMOD	-1
+19	ECs	EC	I-NP	NNS	B-cell_type	17	PMOD	-1
+20	might	might	B-VP	MD	O	0	ROOT	-1
+21	not	not	I-VP	RB	O	20	VMOD	-1
+22	be	be	I-VP	VB	O	20	VC	-1
+23	responsible	responsible	B-ADJP	JJ	O	22	PRD	0
+24	.	.	O	.	O	20	P	-1
+
+1	Mitogen-activated	Mitogen-activated	B-NP	JJ	B-protein	3	NMOD	-1
+2	protein	protein	I-NP	NN	I-protein	3	NMOD	-1
+3	kinase	kinase	I-NP	NN	I-protein	7	NMOD	-1
+4	(	(	O	(	O	6	DEP	-1
+5	MAPK	MAPK	B-NP	NN	B-protein	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	activities	activity	B-NP	NNS	O	8	SUB	0
+8	were	be	B-VP	VBD	O	0	ROOT	-1
+9	investigated	investigate	I-VP	VBN	O	8	VC	-1
+10	to	to	B-VP	TO	O	11	VMOD	-1
+11	explore	explore	I-VP	VB	O	8	VMOD	-1
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	mechanism	mechanism	I-NP	NN	O	11	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	this	this	B-NP	DT	O	16	NMOD	-1
+16	induction	induction	I-NP	NN	O	14	PMOD	17	induction
+17	.	.	O	.	O	8	P	-1
+
+1	Although	Although	B-SBAR	IN	O	32	VMOD	-1
+2	extracellular	extracellular	B-NP	JJ	B-protein	5	NMOD	-1
+3	signal-regulated	signal-regulated	I-NP	JJ	I-protein	5	NMOD	-1
+4	protein	protein	I-NP	NN	I-protein	5	NMOD	-1
+5	kinase	kinase	I-NP	NN	I-protein	20	NMOD	-1
+6	1/2	1/2	I-NP	CD	I-protein	5	NMOD	-1
+7	(	(	O	(	O	9	DEP	-1
+8	ERK1/2	ERK1/2	B-NP	NN	B-protein	9	DEP	-1
+9	)	)	O	)	O	5	NMOD	-1
+10	,	,	O	,	O	20	P	-1
+11	c-Jun	c-Jun	B-NP	NN	B-protein	13	NMOD	-1
+12	N-terminal	N-terminal	I-NP	JJ	I-protein	13	NMOD	-1
+13	kinase	kinase	I-NP	NN	I-protein	20	NMOD	-1
+14	1	1	I-NP	CD	I-protein	13	NMOD	-1
+15	(	(	O	(	O	17	DEP	-1
+16	JNK1	JNK1	B-NP	NN	B-protein	17	DEP	-1
+17	)	)	O	)	O	13	NMOD	-1
+18	,	,	O	,	O	20	P	-1
+19	and	and	O	CC	O	20	NMOD	-1
+20	p38	p38	B-NP	NN	B-protein	21	SUB	-1
+21	were	be	B-VP	VBD	O	1	SBAR	-1
+22	activated	activate	I-VP	VBN	O	21	VC	17	activated
+23	after	after	B-PP	IN	O	22	VMOD	-1
+24	denudation	denudation	B-NP	NN	O	23	PMOD	0
+25	,	,	O	,	O	32	P	-1
+26	the	the	B-NP	DT	O	27	NMOD	-1
+27	activation	activation	I-NP	NN	O	32	SUB	17	activation
+28	of	of	B-PP	IN	O	27	NMOD	-1
+29	ERK1	ERK1	B-NP	NN	B-protein	31	NMOD	-1
+30	and	and	I-NP	CC	O	31	NMOD	-1
+31	p38	p38	I-NP	NN	B-protein	28	PMOD	-1
+32	was	be	B-VP	VBD	O	0	ROOT	-1
+33	more	more	B-ADJP	RBR	O	36	AMOD	-1
+34	rapid	rapid	I-ADJP	JJ	O	36	AMOD	-1
+35	and	and	I-ADJP	CC	O	36	AMOD	-1
+36	prominent	prominent	I-ADJP	JJ	O	32	PRD	-1
+37	.	.	O	.	O	32	P	-1
+
+1	PD98059	PD98059	B-NP	NN	O	11	NMOD	-1
+2	,	,	O	,	O	11	P	-1
+3	a	a	B-NP	DT	O	11	NMOD	-1
+4	specific	specific	I-NP	JJ	O	11	NMOD	-1
+5	MAPK/ERK	MAPK/ERK	I-NP	NN	B-protein	6	NMOD	-1
+6	kinase	kinase	I-NP	NN	I-protein	11	NMOD	-1
+7	(	(	O	(	O	9	DEP	-1
+8	MEK	MEK	B-NP	NN	B-protein	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	1	1	B-NP	CD	O	11	NMOD	-1
+11	inhibitor	inhibitor	I-NP	NN	O	13	SUB	0
+12	,	,	O	,	O	11	P	-1
+13	did	do	B-VP	VBD	O	22	VMOD	-1
+14	not	not	I-VP	RB	O	13	VMOD	-1
+15	affect	affect	I-VP	VB	O	13	VC	16	affect
+16	the	the	B-NP	DT	O	17	NMOD	-1
+17	induction	induction	I-NP	NN	O	15	OBJ	17	induction
+18	of	of	B-PP	IN	O	17	NMOD	-1
+19	ets-1	ets-1	B-NP	NN	B-RNA	20	NMOD	-1
+20	mRNA	mRNA	I-NP	NN	I-RNA	18	PMOD	0
+21	,	,	O	,	O	22	P	-1
+22	whereas	whereas	O	IN	O	0	ROOT	-1
+23	SB203580	SB203580	B-NP	NN	O	28	NMOD	-1
+24	,	,	O	,	O	28	P	-1
+25	a	a	B-NP	DT	O	28	NMOD	-1
+26	specific	specific	I-NP	JJ	O	28	NMOD	-1
+27	p38	p38	I-NP	NN	B-protein	28	NMOD	-1
+28	inhibitor	inhibitor	I-NP	NN	O	32	SUB	0
+29	,	,	O	,	O	28	P	-1
+30	almost	almost	B-ADVP	RB	O	32	VMOD	-1
+31	completely	completely	I-ADVP	RB	O	30	AMOD	-1
+32	abrogated	abrogate	B-VP	VBD	O	22	VMOD	18	abrogated
+33	its	its	B-NP	PRP$	O	34	NMOD	-1
+34	induction	induction	I-NP	NN	O	32	OBJ	17	induction
+35	.	.	O	.	O	22	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	indicate	indicate	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	Ets-1	Ets-1	B-NP	NN	B-protein	6	SUB	-1
+6	is	be	B-VP	VBZ	O	4	SBAR	-1
+7	induced	induce	I-VP	VBN	O	6	VC	17	induced
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	ECs	EC	B-NP	NNS	B-cell_type	8	PMOD	-1
+10	after	after	B-PP	IN	O	7	VMOD	-1
+11	denudation	denudation	B-NP	NN	O	10	PMOD	19	denudation
+12	through	through	B-PP	IN	O	7	VMOD	0
+13	activation	activation	B-NP	NN	O	12	PMOD	17	activation
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	p38	p38	B-NP	NN	B-protein	14	PMOD	-1
+16	.	.	O	.	O	3	P	-1
+
+1	This	This	B-NP	DT	O	2	NMOD	-1
+2	induction	induction	I-NP	NN	O	5	SUB	17	induction
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	Ets-1	Ets-1	B-NP	NN	B-protein	3	PMOD	-1
+5	may	may	B-VP	MD	O	0	ROOT	-1
+6	be	be	I-VP	VB	O	5	VC	-1
+7	relevant	relevant	B-ADJP	JJ	O	6	PRD	-1
+8	for	for	B-PP	IN	O	7	AMOD	-1
+9	reendothelialization	reendothelialization	B-NP	NN	O	8	PMOD	3	reendothelialization
+10	by	by	B-PP	IN	O	7	AMOD	-1
+11	regulating	regulate	B-VP	VBG	O	10	PMOD	0
+12	the	the	B-NP	DT	O	13	NMOD	-1
+13	expression	expression	I-NP	NN	O	11	OBJ	0
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	certain	certain	B-NP	JJ	O	16	NMOD	-1
+16	genes	gene	I-NP	NNS	O	14	PMOD	-1
+17	.	.	O	.	O	5	P	-1
+

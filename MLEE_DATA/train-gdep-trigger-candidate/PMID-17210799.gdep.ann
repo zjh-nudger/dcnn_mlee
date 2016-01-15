@@ -1,0 +1,352 @@
+1	Activation	Activation	B-NP	NN	O	11	SUB	17	Activation
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	vascular	vascular	B-NP	JJ	B-protein	6	NMOD	-1
+4	endothelial	endothelial	I-NP	JJ	I-protein	6	NMOD	-1
+5	growth	growth	I-NP	NN	I-protein	6	NMOD	0
+6	factor	factor	I-NP	NN	I-protein	2	PMOD	-1
+7	through	through	B-PP	IN	O	1	NMOD	0
+8	reactive	reactive	B-NP	JJ	O	10	NMOD	-1
+9	oxygen	oxygen	I-NP	NN	O	10	NMOD	-1
+10	species	specie	I-NP	NNS	O	7	PMOD	-1
+11	mediates	mediate	B-VP	VBZ	O	0	ROOT	16	mediates
+12	20-hydroxyeicosatetraenoic	20-hydroxyeicosatetraenoic	B-NP	JJ	O	13	AMOD	-1
+13	acid-induced	acid-induced	I-NP	JJ	O	16	NMOD	17	induced
+14	endothelial	endothelial	I-NP	JJ	O	16	NMOD	-1
+15	cell	cell	I-NP	NN	O	16	NMOD	-1
+16	proliferation	proliferation	I-NP	NN	O	11	OBJ	1	proliferation
+17	.	.	O	.	O	11	P	-1
+
+1	20-Hydroxyeicosatetraenoic	20-Hydroxyeicosatetraenoic	B-NP	JJ	O	2	NMOD	-1
+2	acid	acid	I-NP	NN	O	6	SUB	-1
+3	(	(	O	(	O	5	DEP	-1
+4	20-HETE	20-HETE	B-NP	NN	O	5	DEP	-1
+5	)	)	O	)	O	2	NMOD	-1
+6	is	be	B-VP	VBZ	O	24	VMOD	-1
+7	formed	form	I-VP	VBN	O	6	VC	8	formed
+8	by	by	B-PP	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	omega-hydroxylation	omega-hydroxylation	I-NP	NN	O	8	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	arachidonic	arachidonic	B-NP	JJ	O	13	NMOD	-1
+13	acid	acid	I-NP	NN	O	11	PMOD	-1
+14	by	by	B-PP	IN	O	7	VMOD	-1
+15	cytochrome	cytochrome	B-NP	NN	B-protein	17	NMOD	-1
+16	P450	P450	I-NP	NN	I-protein	17	NMOD	-1
+17	4A	4A	I-NP	NN	I-protein	20	NMOD	-1
+18	and	and	I-NP	CC	I-protein	20	NMOD	-1
+19	4F	4F	I-NP	NN	I-protein	20	NMOD	-1
+20	enzymes	enzyme	I-NP	NNS	I-protein	14	PMOD	-1
+21	,	,	O	,	O	24	P	-1
+22	and	and	O	CC	O	24	VMOD	-1
+23	it	it	B-NP	PRP	O	24	SUB	-1
+24	induces	induce	B-VP	VBZ	O	0	ROOT	17	induces
+25	angiogenic	angiogenic	B-NP	JJ	O	26	NMOD	3	angiogenic
+26	responses	response	I-NP	NNS	O	24	OBJ	-1
+27	in	in	B-ADVP	FW	O	26	NMOD	-1
+28	vivo	vivo	I-ADVP	FW	O	27	AMOD	-1
+29	.	.	O	.	O	24	P	-1
+
+1	To	To	B-VP	TO	O	2	VMOD	-1
+2	test	test	I-VP	VB	O	24	VMOD	-1
+3	the	the	B-NP	DT	O	4	NMOD	-1
+4	hypothesis	hypothesis	I-NP	NN	O	2	OBJ	-1
+5	that	that	B-SBAR	IN	O	4	NMOD	-1
+6	20-HETE	20-HETE	B-NP	NN	O	7	SUB	-1
+7	increases	increase	B-VP	VBZ	O	5	SBAR	17	increases
+8	endothelial	endothelial	B-NP	JJ	B-cell_type	9	NMOD	-1
+9	cell	cell	I-NP	NN	I-cell_type	7	OBJ	-1
+10	(	(	O	(	O	12	DEP	-1
+11	EC	EC	B-NP	NN	B-cell_type	12	DEP	-1
+12	)	)	O	)	O	9	NMOD	-1
+13	proliferation	proliferation	B-NP	NN	O	9	NMOD	1	proliferation
+14	via	via	B-PP	IN	O	7	VMOD	0
+15	vascular	vascular	B-NP	JJ	B-protein	18	NMOD	-1
+16	endothelial	endothelial	I-NP	JJ	I-protein	18	NMOD	-1
+17	growth	growth	I-NP	NN	I-protein	18	NMOD	0
+18	factor	factor	I-NP	NN	I-protein	14	PMOD	-1
+19	(	(	O	(	O	21	DEP	-1
+20	VEGF	VEGF	B-NP	NN	B-protein	21	DEP	-1
+21	)	)	O	)	O	18	NMOD	-1
+22	,	,	O	,	O	24	P	-1
+23	we	we	B-NP	PRP	O	24	SUB	-1
+24	studied	study	B-VP	VBD	O	0	ROOT	-1
+25	the	the	B-NP	DT	O	26	NMOD	-1
+26	effects	effect	I-NP	NNS	O	45	NMOD	16	effects
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	WIT003	WIT003	B-NP	NN	B-protein	27	PMOD	-1
+29	[	[	O	(	O	41	DEP	-1
+30	20-hydroxyeicosa-5	20-hydroxyeicosa-5	B-NP	NN	O	41	DEP	-1
+31	(	(	O	(	O	33	DEP	-1
+32	Z	Z	B-NP	NN	B-protein	33	DEP	-1
+33	)	)	O	)	O	30	NMOD	-1
+34	,	,	O	,	O	30	P	-1
+35	14	14	B-NP	CD	O	30	NMOD	-1
+36	(	(	O	(	O	41	DEP	-1
+37	Z	Z	B-NP	NN	B-protein	40	NMOD	-1
+38	)	)	O	)	O	40	NMOD	-1
+39	-dienoic	-dienoic	B-NP	JJ	O	40	NMOD	-1
+40	acid	acid	I-NP	NN	O	41	DEP	-1
+41	]	]	O	)	O	26	NMOD	-1
+42	,	,	O	,	O	45	P	-1
+43	a	a	B-NP	DT	O	45	NMOD	-1
+44	20-HETE	20-HETE	I-NP	NN	O	45	NMOD	-1
+45	analog	analog	I-NP	NN	O	24	OBJ	-1
+46	on	on	B-PP	IN	O	45	NMOD	-1
+47	human	human	B-NP	JJ	O	51	NMOD	-1
+48	macrovascular	macrovascular	I-NP	JJ	O	51	NMOD	-1
+49	or	or	I-NP	CC	O	51	NMOD	-1
+50	microvascular	microvascular	I-NP	JJ	B-cell_line	51	NMOD	-1
+51	EC	EC	I-NP	NN	I-cell_line	46	PMOD	-1
+52	.	.	O	.	O	24	P	-1
+
+1	WIT003	WIT003	B-NP	NN	B-protein	7	NMOD	-1
+2	,	,	O	,	O	7	P	-1
+3	as	as	B-CONJP	RB	O	7	NMOD	-1
+4	well	well	I-CONJP	RB	O	3	DEP	-1
+5	as	as	I-CONJP	IN	O	3	DEP	-1
+6	pure	pure	B-NP	JJ	O	7	NMOD	-1
+7	20-HETE	20-HETE	I-NP	NN	O	0	ROOT	-1
+8	,	,	O	,	O	7	P	-1
+9	stimulated	stimulate	B-VP	VBN	O	7	NMOD	17	stimulated
+10	EC	EC	B-NP	NNP	B-cell_type	11	NMOD	-1
+11	proliferation	proliferation	I-NP	NN	O	9	OBJ	1	proliferation
+12	by	by	B-PP	IN	O	9	VMOD	-1
+13	approximately	approximately	B-NP	RB	O	15	NMOD	-1
+14	40	40	I-NP	CD	O	13	AMOD	-1
+15	%	%	I-NP	NN	O	12	PMOD	-1
+16	.	.	O	.	O	7	P	-1
+
+1	These	These	B-NP	DT	O	3	NMOD	-1
+2	proliferative	proliferative	I-NP	JJ	O	3	NMOD	0
+3	effects	effect	I-NP	NNS	O	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	-1
+5	accompanied	accompany	I-VP	VBN	O	4	VC	-1
+6	by	by	B-PP	IN	O	5	VMOD	-1
+7	increased	increase	B-NP	VBN	O	9	NMOD	17	increased
+8	VEGF	VEGF	I-NP	NN	B-protein	9	NMOD	-1
+9	expression	expression	I-NP	NN	O	11	NMOD	9	expression
+10	and	and	O	CC	O	11	NMOD	-1
+11	release	release	B-NP	NN	O	6	PMOD	14	release
+12	that	that	B-NP	WDT	O	11	NMOD	-1
+13	were	be	B-VP	VBD	O	12	SBAR	-1
+14	observed	observe	I-VP	VBN	O	13	VC	0
+15	as	as	B-ADVP	RB	O	14	VMOD	-1
+16	early	early	I-ADVP	RB	O	15	AMOD	-1
+17	as	as	B-PP	IN	O	14	VMOD	-1
+18	4	4	B-NP	CD	O	19	NMOD	-1
+19	h	h	I-NP	NN	O	17	PMOD	-1
+20	after	after	B-PP	IN	O	14	VMOD	-1
+21	20-HETE	20-HETE	B-NP	NN	O	23	NMOD	-1
+22	agonist	agonist	I-NP	NN	O	23	NMOD	-1
+23	addition	addition	I-NP	NN	O	20	PMOD	0
+24	.	.	O	.	O	4	P	-1
+
+1	This	This	B-NP	DT	O	2	SUB	-1
+2	was	be	B-VP	VBD	O	0	ROOT	-1
+3	accompanied	accompany	I-VP	VBN	O	2	VC	-1
+4	by	by	B-PP	IN	O	3	VMOD	-1
+5	increased	increase	B-NP	VBN	O	6	NMOD	17	increased
+6	phosphorylation	phosphorylation	I-NP	NN	O	4	PMOD	12	phosphorylation
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	10	NMOD	-1
+9	VEGF	VEGF	I-NP	NN	B-protein	10	NMOD	-1
+10	receptor	receptor	I-NP	NN	I-protein	7	PMOD	-1
+11	2	2	I-NP	CD	I-protein	10	NMOD	-1
+12	.	.	O	.	O	2	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	proliferative	proliferative	I-NP	JJ	O	3	NMOD	0
+3	effects	effect	I-NP	NNS	O	6	SUB	0
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	20-HETE	20-HETE	B-NP	NN	O	4	PMOD	-1
+6	were	be	B-VP	VBD	O	0	ROOT	-1
+7	markedly	markedly	I-VP	RB	O	6	VMOD	-1
+8	inhibited	inhibit	I-VP	VBN	O	6	VC	18	inhibited
+9	by	by	B-PP	IN	O	8	VMOD	-1
+10	a	a	B-NP	DT	O	12	NMOD	-1
+11	VEGF-neutralizing	VEGF-neutralizing	I-NP	JJ	B-protein	12	NMOD	-1
+12	antibody	antibody	I-NP	NN	I-protein	9	PMOD	-1
+13	.	.	O	.	O	6	P	-1
+
+1	Polyethylene	Polyethylene	B-NP	NN	B-protein	3	NMOD	-1
+2	glycol-superoxide	glycol-superoxide	I-NP	NN	I-protein	3	NMOD	-1
+3	dismutase	dismutase	I-NP	NN	I-protein	8	SUB	-1
+4	(	(	O	(	O	6	DEP	-1
+5	PEG-SOD	PEG-SOD	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	markedly	markedly	B-ADVP	RB	O	8	VMOD	-1
+8	inhibited	inhibit	B-VP	VBD	O	0	ROOT	18	inhibited
+9	both	both	O	CC	O	18	NMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	increases	increase	I-NP	NNS	O	18	NMOD	17	increases
+12	in	in	B-PP	IN	O	11	NMOD	-1
+13	VEGF	VEGF	B-NP	NN	B-protein	14	NMOD	-1
+14	expression	expression	I-NP	NN	O	12	PMOD	9	expression
+15	and	and	O	CC	O	18	NMOD	-1
+16	the	the	B-NP	DT	O	18	NMOD	-1
+17	proliferative	proliferative	I-NP	JJ	O	18	NMOD	0
+18	effects	effect	I-NP	NNS	O	8	OBJ	0
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	20-HETE	20-HETE	B-NP	NN	O	19	PMOD	-1
+21	.	.	O	.	O	8	P	-1
+
+1	In	In	B-PP	IN	O	15	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	15	P	-1
+4	administration	administration	B-NP	NN	O	15	SUB	19	administration
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	the	the	B-NP	DT	O	14	NMOD	-1
+7	NAD	NAD	I-NP	NN	B-protein	14	NMOD	-1
+8	(	(	O	(	I-protein	14	NMOD	-1
+9	P	P	B-NP	NN	I-protein	14	NMOD	-1
+10	)	)	O	)	I-protein	14	NMOD	-1
+11	H	H	B-NP	NN	I-protein	14	NMOD	-1
+12	oxidase	oxidase	I-NP	NN	I-protein	14	NMOD	-1
+13	inhibitor	inhibitor	I-NP	NN	O	14	NMOD	0
+14	apocynin	apocynin	I-NP	NN	O	5	PMOD	-1
+15	had	have	B-VP	VBD	O	0	ROOT	-1
+16	no	no	B-NP	DT	O	17	NMOD	-1
+17	effect	effect	I-NP	NN	O	15	OBJ	16	effect
+18	to	to	B-PP	TO	O	15	VMOD	-1
+19	the	the	B-NP	DT	O	21	NMOD	-1
+20	proliferative	proliferative	I-NP	JJ	O	21	NMOD	0
+21	response	response	I-NP	NN	O	18	PMOD	0
+22	to	to	B-PP	TO	O	21	NMOD	-1
+23	20-HETE	20-HETE	B-NP	NN	O	22	PMOD	-1
+24	.	.	O	.	O	15	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	20-HETE	20-HETE	I-NP	NN	O	3	NMOD	-1
+3	agonist	agonist	I-NP	NN	O	5	SUB	-1
+4	markedly	markedly	B-ADVP	RB	O	5	VMOD	-1
+5	increased	increase	B-VP	VBD	O	22	VMOD	17	increased
+6	superoxide	superoxide	B-NP	NN	O	7	NMOD	-1
+7	formation	formation	I-NP	NN	O	5	OBJ	8	formation
+8	as	as	B-SBAR	IN	O	5	VMOD	-1
+9	reflected	reflect	B-VP	VBN	O	8	SBAR	-1
+10	by	by	B-PP	IN	O	9	VMOD	-1
+11	an	an	B-NP	DT	O	12	NMOD	-1
+12	increase	increase	I-NP	NN	O	10	PMOD	0
+13	in	in	B-PP	IN	O	12	NMOD	-1
+14	dihydroethidium	dihydroethidium	B-NP	NN	O	15	NMOD	-1
+15	staining	staining	I-NP	NN	O	13	PMOD	19	staining
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	EC	EC	B-NP	NN	B-cell_type	16	PMOD	-1
+18	,	,	O	,	O	22	P	-1
+19	and	and	O	CC	O	22	VMOD	-1
+20	this	this	B-NP	DT	O	21	NMOD	-1
+21	increase	increase	I-NP	NN	O	22	SUB	0
+22	was	be	B-VP	VBD	O	0	ROOT	-1
+23	inhibited	inhibit	I-VP	VBN	O	22	VC	18	inhibited
+24	by	by	B-PP	IN	O	23	VMOD	-1
+25	PEG-SOD	PEG-SOD	B-NP	NN	B-protein	24	PMOD	-1
+26	but	but	B-PP	CC	O	24	PMOD	-1
+27	not	not	B-PP	RB	O	28	PMOD	-1
+28	by	by	I-PP	IN	O	24	PMOD	-1
+29	apocynin	apocynin	B-NP	NN	O	28	PMOD	-1
+30	.	.	O	.	O	22	P	-1
+
+1	20-HETE	20-HETE	B-NP	NN	O	3	SUB	-1
+2	also	also	B-ADVP	RB	O	3	VMOD	-1
+3	increased	increase	B-VP	VBD	O	0	ROOT	17	increased
+4	the	the	B-NP	DT	O	5	NMOD	-1
+5	phosphorylation	phosphorylation	I-NP	NN	O	3	OBJ	12	phosphorylation
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	p42/p44	p42/p44	B-NP	NN	B-protein	10	NMOD	-1
+8	mitogen-activated	mitogen-activated	I-NP	JJ	I-protein	10	NMOD	-1
+9	protein	protein	I-NP	NN	I-protein	10	NMOD	-1
+10	kinase	kinase	I-NP	NN	I-protein	6	PMOD	-1
+11	(	(	O	(	O	13	DEP	-1
+12	MAPK	MAPK	B-NP	NN	B-protein	13	DEP	-1
+13	)	)	O	)	O	10	NMOD	-1
+14	in	in	B-PP	IN	O	5	NMOD	-1
+15	EC	EC	B-NP	NN	B-cell_type	14	PMOD	-1
+16	,	,	O	,	O	3	P	-1
+17	whereas	whereas	O	IN	O	3	VMOD	-1
+18	an	an	B-NP	DT	O	19	NMOD	-1
+19	inhibitor	inhibitor	I-NP	NN	O	37	SUB	0
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	MAPK	MAPK	B-NP	NN	B-protein	20	PMOD	-1
+22	[	[	O	(	O	36	DEP	-1
+23	U0126	U0126	B-NP	NN	O	35	NMOD	-1
+24	,	,	O	,	O	23	P	-1
+25	1	1	B-NP	CD	O	23	NMOD	-1
+26	,	,	I-NP	,	O	23	P	-1
+27	4-diamino-2	4-diamino-2	I-NP	CD	O	23	NMOD	-1
+28	,	,	O	,	O	35	P	-1
+29	3-dicyano-1	3-dicyano-1	B-NP	NN	O	35	NMOD	-1
+30	,	,	O	,	O	35	P	-1
+31	4-bis	4-bis	B-NP	NN	O	35	NMOD	-1
+32	(	(	O	(	O	34	DEP	-1
+33	2-aminophenylthio	2-aminophenylthio	B-NP	NN	O	34	DEP	-1
+34	)	)	O	)	O	35	NMOD	-1
+35	butadiene	butadiene	B-NP	NN	O	36	DEP	-1
+36	]	]	O	)	O	19	NMOD	-1
+37	suppressed	suppress	B-VP	VBD	O	17	SBAR	18	suppressed
+38	the	the	B-NP	DT	O	39	NMOD	-1
+39	proliferative	proliferative	I-NP	JJ	O	43	NMOD	0
+40	and	and	O	CC	O	43	NMOD	-1
+41	the	the	B-NP	DT	O	42	NMOD	-1
+42	VEGF	VEGF	I-NP	NN	O	43	NMOD	-1
+43	changes	change	I-NP	NNS	O	48	NMOD	16	changes
+44	but	but	B-NP	CC	O	48	NMOD	-1
+45	not	not	I-NP	RB	O	44	DEP	-1
+46	the	the	B-NP	DT	O	48	NMOD	-1
+47	pro-oxidant	pro-oxidant	I-NP	JJ	O	48	NMOD	-1
+48	effects	effect	I-NP	NNS	O	37	OBJ	0
+49	of	of	B-PP	IN	O	48	NMOD	-1
+50	20-HETE	20-HETE	B-NP	NN	O	49	PMOD	-1
+51	.	.	O	.	O	3	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	20-HETE	20-HETE	B-NP	NN	O	6	SUB	-1
+6	stimulates	stimulate	B-VP	VBZ	O	4	SBAR	17	stimulates
+7	superoxide	superoxide	B-NP	NN	O	8	NMOD	-1
+8	formation	formation	I-NP	NN	O	6	OBJ	8	formation
+9	by	by	B-PP	IN	O	6	VMOD	-1
+10	pathways	pathway	B-NP	NNS	O	9	PMOD	0
+11	other	other	B-ADJP	JJ	O	12	DEP	-1
+12	than	than	B-PP	IN	O	10	NMOD	-1
+13	apocynin-sensitive	apocynin-sensitive	B-NP	JJ	B-protein	14	NMOD	-1
+14	NAD	NAD	I-NP	NN	I-protein	19	NMOD	-1
+15	(	(	O	(	I-protein	19	NMOD	-1
+16	P	P	B-NP	NN	I-protein	19	NMOD	-1
+17	)	)	O	)	I-protein	19	NMOD	-1
+18	H	H	B-NP	NN	I-protein	19	NMOD	-1
+19	oxidase	oxidase	I-NP	NN	I-protein	12	PMOD	-1
+20	,	,	O	,	O	6	P	-1
+21	thereby	thereby	B-VP	RB	O	22	VMOD	-1
+22	activating	activate	I-VP	VBG	O	6	VMOD	17	activating
+23	MAPK	MAPK	B-NP	NN	B-protein	22	OBJ	-1
+24	and	and	O	CC	O	22	VMOD	-1
+25	then	then	O	RB	O	22	VMOD	-1
+26	enhancing	enhance	B-VP	VBG	O	25	AMOD	17	enhancing
+27	VEGF	VEGF	B-NP	NN	B-protein	28	NMOD	-1
+28	synthesis	synthesis	I-NP	NN	O	26	OBJ	9	synthesis
+29	that	that	B-NP	WDT	O	28	NMOD	-1
+30	drives	drive	B-VP	VBZ	O	29	SBAR	16	drives
+31	EC	EC	B-NP	NN	B-cell_type	32	NMOD	-1
+32	proliferation	proliferation	I-NP	NN	O	30	OBJ	1	proliferation
+33	.	.	O	.	O	3	P	-1
+
+1	Thus	Thus	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	20-HETE	20-HETE	B-NP	NN	O	4	SUB	-1
+4	may	may	B-VP	MD	O	0	ROOT	-1
+5	be	be	I-VP	VB	O	4	VC	-1
+6	involved	involve	I-VP	VBN	O	5	VC	16	involved
+7	in	in	B-PP	IN	O	6	VMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	regulation	regulation	I-NP	NN	O	7	PMOD	16	regulation
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	EC	EC	B-NP	NNP	B-cell_type	12	NMOD	-1
+12	functions	function	I-NP	NNS	O	10	PMOD	0
+13	,	,	O	,	O	12	P	-1
+14	such	such	B-PP	JJ	O	15	PMOD	-1
+15	as	as	I-PP	IN	O	12	NMOD	-1
+16	angiogenesis	angiogenesis	B-NP	NN	O	15	PMOD	3	angiogenesis
+17	.	.	O	.	O	4	P	-1
+

@@ -1,0 +1,334 @@
+1	EPOX	EPOX	B-NP	NN	B-protein	2	SUB	0
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	OBJ	3	angiogenesis
+4	by	by	B-PP	IN	O	2	VMOD	0
+5	degradation	degradation	B-NP	NN	O	4	PMOD	11	degradation
+6	of	of	B-PP	IN	O	5	NMOD	0
+7	Mcl-1	Mcl-1	B-NP	NN	B-protein	6	PMOD	0
+8	through	through	B-PP	IN	O	2	VMOD	17	through
+9	ERK	ERK	B-NP	NN	B-protein	10	NMOD	0
+10	inactivation	inactivation	I-NP	NN	O	8	PMOD	18	inactivation
+11	.	.	O	.	O	2	P	0
+
+1	PURPOSE	PURPOSE	B-NP	NN	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	Antiangiogenic	Antiangiogenic	B-NP	JJ	O	4	NMOD	3	angiogenic
+4	therapy	therapy	I-NP	NN	O	5	SUB	18	therapy
+5	is	be	B-VP	VBZ	O	1	NMOD	0
+6	considered	consider	I-VP	VBN	O	5	VC	0
+7	as	as	B-PP	IN	O	6	VMOD	0
+8	an	an	B-NP	DT	O	10	NMOD	0
+9	effective	effective	I-NP	JJ	O	10	NMOD	0
+10	strategy	strategy	I-NP	NN	O	7	PMOD	0
+11	for	for	B-PP	IN	O	10	NMOD	0
+12	controlling	control	B-VP	VBG	O	11	PMOD	16	controlling
+13	the	the	B-NP	DT	O	16	NMOD	0
+14	growth	growth	I-NP	NN	O	16	NMOD	4	growth
+15	and	and	I-NP	CC	O	16	NMOD	0
+16	metastasis	metastasis	I-NP	NN	O	12	OBJ	14	metastasis
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	tumors	tumor	B-NP	NNS	O	17	PMOD	0
+19	.	.	O	.	O	1	P	0
+
+1	Among	Among	B-PP	IN	O	15	VMOD	0
+2	a	a	B-NP	DT	O	3	NMOD	0
+3	myriad	myriad	I-NP	NN	O	1	PMOD	0
+4	of	of	B-PP	IN	O	3	NMOD	0
+5	biological	biological	B-NP	JJ	O	6	NMOD	0
+6	activities	activity	I-NP	NNS	O	4	PMOD	0
+7	described	describe	B-VP	VBN	O	6	NMOD	0
+8	for	for	B-PP	IN	O	7	VMOD	0
+9	xanthone	xanthone	B-NP	NN	O	10	NMOD	0
+10	derivatives	derivative	I-NP	NNS	O	8	PMOD	0
+11	,	,	O	,	O	15	P	0
+12	the	the	B-NP	DT	O	14	NMOD	0
+13	anticancer	anticancer	I-NP	JJ	O	14	NMOD	0
+14	activity	activity	I-NP	NN	O	15	SUB	18	activity
+15	is	be	B-VP	VBZ	O	23	VMOD	0
+16	quite	quite	B-ADJP	RB	O	17	AMOD	0
+17	remarkable	remarkable	I-ADJP	JJ	O	15	PRD	0
+18	,	,	O	,	O	23	P	0
+19	but	but	O	CC	O	23	VMOD	0
+20	the	the	B-NP	DT	O	22	NMOD	0
+21	molecular	molecular	I-NP	JJ	O	22	NMOD	0
+22	mechanism	mechanism	I-NP	NN	O	23	SUB	0
+23	is	be	B-VP	VBZ	O	0	ROOT	0
+24	not	not	I-VP	RB	O	23	VMOD	0
+25	clearly	clearly	I-VP	RB	O	23	VMOD	0
+26	resolved	resolve	I-VP	VBN	O	23	VC	0
+27	.	.	O	.	O	23	P	0
+
+1	In	In	B-PP	IN	O	7	VMOD	0
+2	the	the	B-NP	DT	O	4	NMOD	0
+3	present	present	I-NP	JJ	O	4	NMOD	0
+4	study	study	I-NP	NN	O	1	PMOD	0
+5	,	,	O	,	O	7	P	0
+6	we	we	B-NP	PRP	O	7	SUB	0
+7	investigated	investigate	B-VP	VBD	O	0	ROOT	0
+8	the	the	B-NP	DT	O	10	NMOD	0
+9	antiangiogenic	antiangiogenic	I-NP	JJ	O	10	NMOD	3	angiogenic
+10	mechanism	mechanism	I-NP	NN	O	7	OBJ	18	mechanism
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	3	3	B-NP	CD	O	27	NMOD	0
+13	,	,	O	,	O	27	P	0
+14	6-di	6-di	B-NP	NNS	O	27	NMOD	0
+15	(	(	O	(	O	23	DEP	0
+16	2	2	B-NP	CD	O	20	NMOD	0
+17	,	,	O	,	O	20	P	0
+18	3-epoxypropoxy	3-epoxypropoxy	B-ADJP	JJ	O	20	NMOD	0
+19	)	)	O	)	O	20	NMOD	0
+20	xanthone	xanthone	B-NP	NN	O	23	DEP	0
+21	(	(	O	(	O	23	DEP	0
+22	EPOX	EPOX	B-NP	NN	B-protein	23	DEP	0
+23	)	)	O	)	O	14	NMOD	0
+24	,	,	O	,	O	27	P	0
+25	a	a	B-NP	DT	O	27	NMOD	0
+26	novel	novel	I-NP	JJ	O	27	NMOD	0
+27	Mcl-1	Mcl-1	I-NP	NN	B-protein	29	NMOD	0
+28	targeting	target	B-VP	VBG	O	29	NMOD	16	targeting
+29	drug	drug	B-NP	NN	O	11	PMOD	0
+30	.	.	O	.	O	7	P	0
+
+1	EXPERIMENTAL	EXPERIMENTAL	B-NP	JJ	O	2	NMOD	0
+2	DESIGN	DESIGN	I-NP	NN	O	13	SUB	0
+3	:	:	O	:	O	2	P	0
+4	To	To	B-VP	TO	O	5	VMOD	0
+5	evaluate	evaluate	I-VP	VB	O	2	NMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	antiangiogenic	antiangiogenic	I-NP	JJ	O	8	NMOD	3	angiogenic
+8	activity	activity	I-NP	NN	O	5	OBJ	18	activity
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	EPOX	EPOX	B-NP	NN	B-protein	9	PMOD	0
+11	,	,	O	,	O	13	P	0
+12	we	we	B-NP	PRP	O	13	SUB	0
+13	did	do	B-VP	VBD	O	0	ROOT	0
+14	cell	cell	B-NP	NN	O	15	NMOD	0
+15	viability	viability	I-NP	NN	O	22	NMOD	0
+16	,	,	O	,	O	22	P	0
+17	cell	cell	B-NP	NN	O	18	NMOD	0
+18	cycle	cycle	I-NP	NN	O	22	NMOD	0
+19	,	,	O	,	O	22	P	0
+20	tube	tube	B-NP	NN	O	22	NMOD	0
+21	formation	formation	I-NP	NN	O	22	NMOD	2	formation
+22	assay	assay	I-NP	NN	O	13	OBJ	0
+23	in	in	B-ADVP	FW	O	13	VMOD	0
+24	vitro	vitro	I-ADVP	FW	O	23	AMOD	0
+25	,	,	O	,	O	29	P	0
+26	and	and	O	CC	O	29	NMOD	0
+27	Matrigel	Matrigel	B-NP	NNP	O	29	NMOD	0
+28	plug	plug	I-NP	NN	O	29	NMOD	0
+29	assay	assay	I-NP	NN	O	13	OBJ	0
+30	in	in	B-ADVP	FW	O	13	VMOD	0
+31	vivo	vivo	I-ADVP	FW	O	30	AMOD	0
+32	.	.	O	.	O	13	P	0
+
+1	To	To	B-VP	TO	O	2	VMOD	0
+2	evaluate	evaluate	I-VP	VB	O	14	VMOD	0
+3	the	the	B-NP	DT	O	4	NMOD	0
+4	effect	effect	I-NP	NN	O	2	OBJ	16	effect
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	EPOX	EPOX	B-NP	NN	B-protein	5	PMOD	0
+7	on	on	B-PP	IN	O	4	NMOD	0
+8	the	the	B-NP	DT	O	11	NMOD	0
+9	endothelial	endothelial	I-NP	JJ	O	11	NMOD	0
+10	signaling	signaling	I-NP	NN	O	11	NMOD	0
+11	pathway	pathway	I-NP	NN	O	7	PMOD	0
+12	,	,	O	,	O	14	P	0
+13	we	we	B-NP	PRP	O	14	SUB	0
+14	did	do	B-VP	VBD	O	0	ROOT	0
+15	immunoblotting	immunoblotting	B-NP	NN	O	21	NMOD	0
+16	,	,	O	,	O	21	P	0
+17	immunoprecipitation	immunoprecipitation	B-NP	NN	O	21	NMOD	0
+18	,	,	O	,	O	21	P	0
+19	and	and	O	CC	O	21	NMOD	0
+20	immunofluorescence	immunofluorescence	B-NP	NN	O	21	NMOD	0
+21	analysis	analysis	I-NP	NN	O	14	OBJ	0
+22	.	.	O	.	O	14	P	0
+
+1	Intracellular	Intracellular	B-NP	JJ	O	3	NMOD	0
+2	glutathione	glutathione	I-NP	NN	O	3	NMOD	0
+3	levels	level	I-NP	NNS	O	4	SUB	0
+4	were	be	B-VP	VBD	O	0	ROOT	0
+5	determined	determine	I-VP	VBN	O	4	VC	0
+6	with	with	B-PP	IN	O	5	VMOD	0
+7	the	the	B-NP	DT	O	8	NMOD	0
+8	use	use	I-NP	NN	O	6	PMOD	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	monochlorobimane	monochlorobimane	B-NP	NN	O	14	NMOD	0
+11	,	,	O	,	O	14	P	0
+12	a	a	B-NP	DT	O	14	NMOD	0
+13	glutathione-specific	glutathione-specific	I-NP	JJ	B-DNA	14	NMOD	0
+14	probe	probe	I-NP	NN	I-DNA	9	PMOD	0
+15	.	.	O	.	O	4	P	0
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	EPOX	EPOX	B-NP	NN	B-protein	6	NMOD	0
+4	induced	induce	B-VP	VBD	O	3	AMOD	17	induced
+5	endothelial	endothelial	B-NP	JJ	B-cell_type	6	NMOD	0
+6	cell	cell	I-NP	NN	I-cell_type	7	NMOD	0
+7	apoptosis	apoptosis	I-NP	NN	O	1	NMOD	5	apoptosis
+8	in	in	B-PP	IN	O	7	NMOD	0
+9	association	association	B-NP	NN	O	8	PMOD	16	association
+10	with	with	B-PP	IN	O	9	NMOD	0
+11	proteasome-dependent	proteasome-dependent	B-NP	JJ	O	13	NMOD	17	dependent
+12	Mcl-1	Mcl-1	I-NP	NN	B-protein	13	NMOD	0
+13	degradation	degradation	I-NP	NN	O	10	PMOD	11	degradation
+14	.	.	O	.	O	1	P	0
+
+1	Down-regulation	Down-regulation	B-NP	NN	O	4	SUB	18	Down-regulation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	Mcl-1	Mcl-1	B-NP	NN	B-protein	2	PMOD	0
+4	resulted	result	B-VP	VBD	O	0	ROOT	17	resulted
+5	in	in	B-PP	IN	O	4	VMOD	0
+6	an	an	B-NP	DT	O	7	NMOD	0
+7	increase	increase	I-NP	NN	O	12	NMOD	17	increase
+8	in	in	B-PP	IN	O	7	NMOD	0
+9	Mcl-1-free	Mcl-1-free	B-NP	JJ	O	10	NMOD	16	free
+10	Bim	Bim	I-NP	NN	O	8	PMOD	0
+11	,	,	O	,	O	12	P	0
+12	activation	activation	B-NP	NN	O	5	PMOD	17	activation
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	Bax	Bax	B-NP	NN	B-protein	13	PMOD	0
+15	,	,	O	,	O	12	NMOD	0
+16	and	and	O	CC	O	15	PMOD	0
+17	then	then	O	RB	O	16	DEP	0
+18	signaling	signaling	B-NP	NN	O	17	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	mitochondria-mediated	mitochondria-mediated	B-NP	JJ	O	21	NMOD	0
+21	apoptosis	apoptosis	I-NP	NN	O	19	PMOD	0
+22	.	.	O	.	O	4	P	0
+
+1	Additionally	Additionally	B-ADVP	RB	O	13	VMOD	0
+2	,	,	O	,	O	13	P	0
+3	glutathione	glutathione	B-NP	NN	O	4	NMOD	0
+4	depletion	depletion	I-NP	NN	O	8	NMOD	18	depletion
+5	and	and	O	CC	O	8	NMOD	0
+6	extracellular	extracellular	B-NP	JJ	B-protein	8	NMOD	0
+7	signal-regulated	signal-regulated	I-NP	JJ	I-protein	8	NMOD	0
+8	kinase	kinase	I-NP	NN	I-protein	12	NMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	ERK	ERK	B-NP	NN	B-protein	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	inactivation	inactivation	B-NP	NN	O	13	SUB	18	inactivation
+13	was	be	B-VP	VBD	O	0	ROOT	0
+14	observed	observe	I-VP	VBN	O	13	VC	0
+15	in	in	B-PP	IN	O	14	VMOD	0
+16	EPOX-treated	EPOX-treated	B-NP	JJ	B-cell_line	17	NMOD	19	treated
+17	cells	cell	I-NP	NNS	I-cell_line	15	PMOD	0
+18	.	.	O	.	O	13	P	0
+
+1	Glutathione	Glutathione	B-NP	NN	O	2	NMOD	0
+2	supplementation	supplementation	I-NP	NN	O	3	SUB	19	supplementation
+3	reversed	reverse	B-VP	VBD	O	0	ROOT	18	reversed
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	inhibitory	inhibitory	I-NP	JJ	O	6	NMOD	0
+6	effects	effect	I-NP	NNS	O	3	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	EPOX	EPOX	B-NP	NN	B-protein	7	PMOD	0
+9	on	on	B-PP	IN	O	6	NMOD	0
+10	ERK	ERK	B-NP	NN	B-protein	9	PMOD	0
+11	,	,	O	,	O	10	P	0
+12	which	which	B-NP	WDT	O	10	NMOD	0
+13	increases	increase	B-VP	VBZ	O	12	SBAR	17	increases
+14	the	the	B-NP	DT	O	15	NMOD	0
+15	phosphorylation	phosphorylation	I-NP	NN	O	13	OBJ	12	phosphorylation
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	Mcl-1	Mcl-1	B-NP	NN	B-protein	16	PMOD	0
+18	at	at	B-PP	IN	O	15	NMOD	0
+19	T	T	B-NP	NN	O	23	NMOD	0
+20	(	(	B-LST	(	O	21	DEP	0
+21	163.	163.	I-LST	LS	O	23	NMOD	0
+22	)	)	O	)	O	21	DEP	0
+23	Overexpression	Overexpression	B-NP	NN	O	18	PMOD	9	Overexpression
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	mitogen-activated	mitogen-activated	B-NP	JJ	B-protein	27	NMOD	0
+26	protein/ERK	protein/ERK	I-NP	NN	I-protein	27	NMOD	0
+27	kinase	kinase	I-NP	NN	I-protein	24	PMOD	0
+28	(	(	O	(	O	30	DEP	0
+29	MEK	MEK	B-NP	NN	B-protein	30	DEP	0
+30	)	)	O	)	O	27	NMOD	0
+31	partially	partially	B-ADVP	RB	O	3	VMOD	0
+32	reversed	reverse	B-VP	VBD	O	3	VMOD	18	reversed
+33	the	the	B-NP	DT	O	34	NMOD	0
+34	effect	effect	I-NP	NN	O	32	OBJ	16	effect
+35	of	of	B-PP	IN	O	34	NMOD	0
+36	EPOX	EPOX	B-NP	NN	B-protein	35	PMOD	0
+37	on	on	B-PP	IN	O	34	NMOD	0
+38	Mcl-1	Mcl-1	B-NP	NN	B-protein	39	NMOD	0
+39	dephosphorylation	dephosphorylation	I-NP	NN	O	44	NMOD	13	dephosphorylation
+40	,	,	O	,	O	44	P	0
+41	ubiquitination	ubiquitination	B-NP	NN	O	44	NMOD	0
+42	,	,	O	,	O	44	P	0
+43	and	and	O	CC	O	44	NMOD	0
+44	degradation	degradation	B-NP	NN	O	37	PMOD	11	degradation
+45	,	,	O	,	O	3	P	0
+46	further	further	B-ADVP	RB	O	47	VMOD	0
+47	implicating	implicate	B-VP	VBG	O	3	VMOD	0
+48	ERK	ERK	B-NP	NN	B-protein	47	OBJ	0
+49	in	in	B-PP	IN	O	47	VMOD	0
+50	the	the	B-NP	DT	O	51	NMOD	0
+51	regulation	regulation	I-NP	NN	O	49	PMOD	16	regulation
+52	of	of	B-PP	IN	O	51	NMOD	0
+53	Mcl-1	Mcl-1	B-NP	NN	B-protein	54	NMOD	0
+54	stability	stability	I-NP	NN	O	52	PMOD	0
+55	.	.	O	.	O	3	P	0
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	0
+3	This	This	B-NP	DT	O	4	NMOD	0
+4	study	study	I-NP	NN	O	5	SUB	0
+5	provides	provide	B-VP	VBZ	O	1	NMOD	0
+6	evidence	evidence	B-NP	NN	O	5	OBJ	0
+7	that	that	B-SBAR	IN	O	6	NMOD	0
+8	EPOX	EPOX	B-NP	NN	B-protein	9	SUB	0
+9	induces	induce	B-VP	VBZ	O	7	SBAR	17	induces
+10	glutathione	glutathione	B-NP	NN	O	11	NMOD	0
+11	depletion	depletion	I-NP	NN	O	18	NMOD	18	depletion
+12	,	,	O	,	O	18	P	0
+13	ERK	ERK	B-NP	NN	B-protein	14	NMOD	0
+14	inactivation	inactivation	I-NP	NN	O	18	NMOD	18	inactivation
+15	,	,	O	,	O	18	P	0
+16	and	and	O	CC	O	18	NMOD	0
+17	Mcl-1	Mcl-1	B-NP	NN	B-protein	18	NMOD	0
+18	degradation	degradation	I-NP	NN	O	9	OBJ	11	degradation
+19	on	on	B-PP	IN	O	18	NMOD	0
+20	endothelial	endothelial	B-NP	JJ	B-cell_type	21	NMOD	0
+21	cells	cell	I-NP	NNS	I-cell_type	19	PMOD	0
+22	,	,	O	,	O	18	P	0
+23	which	which	B-NP	WDT	O	18	NMOD	0
+24	leads	lead	B-VP	VBZ	O	23	SBAR	17	leads
+25	to	to	B-PP	TO	O	24	VMOD	0
+26	inhibition	inhibition	B-NP	NN	O	25	PMOD	18	inhibition
+27	of	of	B-PP	IN	O	26	NMOD	0
+28	angiogenesis	angiogenesis	B-NP	NN	O	27	PMOD	3	angiogenesis
+29	.	.	O	.	O	1	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	results	result	I-NP	NNS	O	3	SUB	0
+3	suggest	suggest	B-VP	VBP	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	EPOX	EPOX	B-NP	NN	B-protein	6	SUB	0
+6	is	be	B-VP	VBZ	O	4	SBAR	0
+7	a	a	B-NP	DT	O	10	NMOD	0
+8	novel	novel	I-NP	JJ	O	10	NMOD	0
+9	antiangiogenic	antiangiogenic	I-NP	JJ	O	10	NMOD	3	angiogenic
+10	agent	agent	I-NP	NN	O	6	PRD	0
+11	,	,	O	,	O	6	P	0
+12	making	make	B-VP	VBG	O	17	VMOD	0
+13	it	it	B-NP	PRP	O	17	SUB	0
+14	a	a	B-NP	DT	O	17	NMOD	0
+15	promising	promising	I-NP	JJ	O	17	NMOD	0
+16	lead	lead	I-NP	NN	O	17	NMOD	0
+17	compound	compound	I-NP	NN	O	6	PRD	0
+18	for	for	B-PP	IN	O	17	NMOD	0
+19	further	further	B-NP	JJ	O	20	NMOD	0
+20	development	development	I-NP	NN	O	18	PMOD	0
+21	in	in	B-PP	IN	O	17	NMOD	0
+22	the	the	B-NP	DT	O	23	NMOD	0
+23	treatment	treatment	I-NP	NN	O	21	PMOD	0
+24	of	of	B-PP	IN	O	23	NMOD	0
+25	angiogenesis-related	angiogenesis-related	B-NP	JJ	O	26	NMOD	3	angiogenesis
+26	pathologies	pathology	I-NP	NNS	O	24	PMOD	0
+27	.	.	O	.	O	3	P	0
+

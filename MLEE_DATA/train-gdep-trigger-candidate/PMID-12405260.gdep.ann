@@ -1,0 +1,209 @@
+1	Brn-3a	Brn-3a	B-NP	NN	B-protein	6	NMOD	-1
+2	,	,	O	,	O	6	P	-1
+3	a	a	B-NP	DT	O	6	NMOD	-1
+4	neuronal	neuronal	I-NP	JJ	B-protein	6	NMOD	-1
+5	transcription	transcription	I-NP	NN	I-protein	6	NMOD	0
+6	factor	factor	I-NP	NN	I-protein	13	NMOD	-1
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	11	NMOD	-1
+9	POU	POU	I-NP	NN	B-DNA	11	NMOD	-1
+10	gene	gene	I-NP	NN	I-DNA	11	NMOD	-1
+11	family	family	I-NP	NN	I-DNA	7	PMOD	-1
+12	:	:	O	:	O	6	P	-1
+13	indications	indication	B-NP	NNS	O	0	ROOT	-1
+14	for	for	B-PP	IN	O	13	NMOD	-1
+15	its	its	B-NP	PRP$	O	16	NMOD	-1
+16	involvement	involvement	I-NP	NN	O	14	PMOD	0
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	cancer	cancer	B-NP	NN	O	20	NMOD	-1
+19	and	and	I-NP	CC	O	20	NMOD	-1
+20	angiogenesis	angiogenesis	I-NP	NN	O	17	PMOD	3	angiogenesis
+21	.	.	O	.	O	13	P	-1
+
+1	Brn-3a	Brn-3a	B-NP	NN	B-protein	4	NMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	a	a	B-NP	DT	O	4	NMOD	-1
+4	member	member	I-NP	NN	O	0	ROOT	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	the	the	B-NP	DT	O	9	NMOD	-1
+7	POU	POU	I-NP	NN	B-DNA	9	NMOD	-1
+8	gene	gene	I-NP	NN	I-DNA	9	NMOD	-1
+9	family	family	I-NP	NN	I-DNA	5	PMOD	-1
+10	(	(	O	(	O	4	NMOD	-1
+11	so-called	so-called	B-ADJP	JJ	O	30	SUB	-1
+12	because	because	B-PP	IN	O	11	AMOD	-1
+13	of	of	I-PP	IN	O	12	PMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	similarity	similarity	I-NP	NN	O	12	PMOD	-1
+16	with	with	B-PP	IN	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	18	NMOD	-1
+18	group	group	I-NP	NN	O	16	PMOD	-1
+19	of	of	B-PP	IN	O	18	NMOD	-1
+20	transcription	transcription	B-NP	NN	B-protein	21	NMOD	0
+21	factors	factor	I-NP	NNS	I-protein	27	NMOD	-1
+22	Pit	Pit	B-NP	NN	B-protein	27	NMOD	-1
+23	,	,	O	,	O	27	P	-1
+24	Oct	Oct	B-NP	NN	B-protein	27	NMOD	-1
+25	,	,	O	,	O	27	P	-1
+26	and	and	O	CC	O	27	NMOD	-1
+27	Unc	Unc	B-NP	NN	B-protein	19	PMOD	-1
+28	)	)	O	)	O	27	NMOD	-1
+29	,	,	O	,	O	11	P	-1
+30	was	be	B-VP	VBD	O	10	SBAR	-1
+31	found	find	I-VP	VBN	O	30	VC	0
+32	in	in	B-PP	IN	O	31	VMOD	-1
+33	neuronal	neuronal	B-NP	JJ	B-cell_type	34	NMOD	-1
+34	cells	cell	I-NP	NNS	I-cell_type	32	PMOD	-1
+35	engaged	engage	B-VP	VBN	O	34	NMOD	16	engaged
+36	in	in	B-PP	IN	O	35	VMOD	-1
+37	the	the	B-NP	DT	O	39	NMOD	-1
+38	transcription	transcription	I-NP	NN	O	39	NMOD	10	transcription
+39	activity	activity	I-NP	NN	O	36	PMOD	0
+40	of	of	B-PP	IN	O	39	NMOD	-1
+41	the	the	B-NP	DT	O	45	NMOD	-1
+42	p1	p1	I-NP	NN	B-DNA	45	NMOD	-1
+43	and	and	I-NP	CC	I-DNA	45	NMOD	-1
+44	p2	p2	I-NP	NN	I-DNA	45	NMOD	-1
+45	promoters	promoter	I-NP	NNS	I-DNA	40	PMOD	-1
+46	of	of	B-PP	IN	O	45	NMOD	-1
+47	the	the	B-NP	DT	O	51	NMOD	-1
+48	most	most	I-NP	RBS	B-DNA	51	NMOD	-1
+49	powerful	powerful	I-NP	JJ	I-DNA	51	NMOD	-1
+50	antiapoptotic	antiapoptotic	I-NP	JJ	I-DNA	51	NMOD	-1
+51	gene	gene	I-NP	NN	I-DNA	55	NMOD	-1
+52	,	,	O	,	O	55	P	-1
+53	namely	namely	B-ADVP	RB	O	55	NMOD	-1
+54	,	,	O	,	O	55	P	-1
+55	Bcl-2	Bcl-2	B-NP	NN	B-protein	46	PMOD	-1
+56	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	alternative	alternative	I-NP	JJ	O	3	NMOD	-1
+3	splicing	splicing	I-NP	NN	O	7	SUB	-1
+4	of	of	B-PP	IN	O	3	NMOD	-1
+5	Brn-3a	Brn-3a	B-NP	NN	B-RNA	6	NMOD	-1
+6	mRNA	mRNA	I-NP	NN	I-RNA	4	PMOD	0
+7	produces	produce	B-VP	VBZ	O	0	ROOT	9	produces
+8	two	two	B-NP	CD	O	10	NMOD	-1
+9	molecular	molecular	I-NP	JJ	O	10	NMOD	-1
+10	forms	form	I-NP	NNS	O	7	OBJ	-1
+11	:	:	O	:	O	10	P	-1
+12	a	a	B-ADVP	DT	O	10	VMOD	-1
+13	longer	longer	I-ADVP	RBR	O	23	NMOD	-1
+14	,	,	O	,	O	23	P	-1
+15	Bcl-2	Bcl-2	B-NP	NN	B-protein	17	NMOD	-1
+16	transactivating	transactivating	I-NP	NN	O	17	NMOD	-1
+17	form	form	I-NP	NN	O	23	NMOD	0
+18	,	,	O	,	O	23	P	-1
+19	and	and	O	CC	O	23	NMOD	-1
+20	a	a	B-NP	DT	O	23	NMOD	-1
+21	shorter	short	I-NP	JJR	O	23	NMOD	-1
+22	inactive	inactive	I-NP	JJ	O	23	NMOD	-1
+23	form	form	I-NP	NN	O	12	PMOD	0
+24	,	,	O	,	O	25	P	-1
+25	lacking	lack	B-VP	VBG	O	23	NMOD	-1
+26	84	84	B-NP	CD	O	27	NMOD	-1
+27	AA	AA	I-NP	NN	O	25	OBJ	-1
+28	in	in	B-PP	IN	O	25	VMOD	-1
+29	the	the	B-NP	DT	O	30	NMOD	-1
+30	aminoterminus	aminoterminus	I-NP	NN	B-protein	28	PMOD	-1
+31	.	.	O	.	O	7	P	-1
+
+1	In	In	B-PP	IN	O	21	VMOD	-1
+2	neuronal	neuronal	B-NP	JJ	B-cell_type	3	NMOD	-1
+3	cells	cell	I-NP	NNS	I-cell_type	1	PMOD	-1
+4	,	,	O	,	O	21	P	-1
+5	following	follow	B-PP	VBG	O	21	SUB	-1
+6	Brn-3a	Brn-3a	B-NP	NN	B-DNA	8	NMOD	-1
+7	gene	gene	I-NP	NN	I-DNA	8	NMOD	-1
+8	transfection	transfection	I-NP	NN	O	10	NMOD	19	transfection
+9	and	and	O	CC	O	10	NMOD	-1
+10	superexpression	superexpression	B-NP	NN	O	13	NMOD	9	superexpression
+11	,	,	O	,	O	13	P	-1
+12	an	an	B-NP	DT	O	13	NMOD	-1
+13	increase	increase	I-NP	NN	O	5	PMOD	17	increase
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	30	30	B-NP	CD	O	16	NMOD	-1
+16	fold	fold	I-NP	RB	O	14	PMOD	-1
+17	of	of	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	20	NMOD	-1
+19	Bcl-2	Bcl-2	I-NP	NN	B-protein	20	NMOD	-1
+20	protein	protein	I-NP	NN	I-protein	17	PMOD	-1
+21	occurs	occur	B-VP	VBZ	O	0	ROOT	-1
+22	,	,	O	,	O	21	P	-1
+23	leading	lead	B-VP	VBG	O	21	VMOD	17	leading
+24	to	to	B-PP	TO	O	23	VMOD	-1
+25	apoptosis	apoptosis	B-NP	NN	O	26	NMOD	5	apoptosis
+26	protection	protection	I-NP	NN	O	24	PMOD	18	protection
+27	.	.	O	.	O	21	P	-1
+
+1	However	However	B-ADVP	RB	O	5	VMOD	-1
+2	,	,	O	,	O	5	P	-1
+3	recent	recent	B-NP	JJ	O	4	NMOD	-1
+4	works	work	I-NP	NNS	O	5	SUB	-1
+5	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	Brn-3a	Brn-3a	B-NP	NN	B-protein	8	NMOD	-1
+8	expression	expression	I-NP	NN	O	9	SUB	9	expression
+9	is	be	B-VP	VBZ	O	6	SBAR	-1
+10	not	not	O	RB	O	9	VMOD	-1
+11	restricted	restricted	B-ADJP	JJ	O	9	PRD	18	restricted
+12	to	to	B-PP	TO	O	11	AMOD	-1
+13	neuronal	neuronal	B-NP	JJ	B-cell_type	14	NMOD	-1
+14	cells	cell	I-NP	NNS	I-cell_type	12	PMOD	-1
+15	,	,	O	,	O	9	P	-1
+16	as	as	B-SBAR	IN	O	9	VMOD	-1
+17	its	its	B-NP	PRP$	O	18	NMOD	-1
+18	activity	activity	I-NP	NN	O	19	SUB	0
+19	was	be	B-VP	VBD	O	16	SBAR	-1
+20	detected	detect	I-VP	VBN	O	19	VC	0
+21	also	also	B-ADVP	RB	O	20	VMOD	-1
+22	in	in	B-PP	IN	O	20	VMOD	-1
+23	cancer	cancer	B-NP	NN	B-cell_type	24	NMOD	-1
+24	cells	cell	I-NP	NNS	I-cell_type	22	PMOD	-1
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	non-neuronal	non-neuronal	B-NP	JJ	O	27	NMOD	-1
+27	nature	nature	I-NP	NN	O	25	PMOD	-1
+28	.	.	O	.	O	5	P	-1
+
+1	Looking	Look	B-VP	VBG	O	10	VMOD	-1
+2	for	for	B-PP	IN	O	1	VMOD	-1
+3	mechanisms	mechanism	B-NP	NNS	O	2	PMOD	-1
+4	linking	link	B-VP	VBG	O	3	NMOD	-1
+5	Brn-3a	Brn-3a	B-NP	NN	B-protein	4	OBJ	-1
+6	to	to	B-PP	TO	O	4	VMOD	-1
+7	carcinogenesis	carcinogenesis	B-NP	NN	O	6	PMOD	0
+8	,	,	O	,	O	10	P	-1
+9	we	we	B-NP	PRP	O	10	SUB	-1
+10	discuss	discuss	B-VP	VBP	O	0	ROOT	-1
+11	the	the	B-NP	DT	O	12	NMOD	-1
+12	role	role	I-NP	NN	O	10	OBJ	16	role
+13	of	of	B-PP	IN	O	12	NMOD	-1
+14	this	this	B-NP	DT	O	16	NMOD	-1
+15	transcription	transcription	I-NP	NN	B-protein	16	NMOD	0
+16	factor	factor	I-NP	NN	I-protein	13	PMOD	-1
+17	in	in	B-PP	IN	O	12	NMOD	-1
+18	influencing	influence	B-VP	VBG	O	17	PMOD	18	influencing
+19	Bcl-2/p53	Bcl-2/p53	B-NP	NN	O	20	NMOD	-1
+20	antagonism	antagonism	I-NP	NN	O	23	NMOD	18	antagonism
+21	and	and	O	CC	O	23	NMOD	-1
+22	Bcl-2/VEGF	Bcl-2/VEGF	B-NP	NN	B-protein	23	NMOD	-1
+23	induction	induction	I-NP	NN	O	18	OBJ	17	induction
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	tumor	tumor	B-NP	NN	O	26	NMOD	-1
+26	angiogenesis	angiogenesis	I-NP	NN	O	24	PMOD	3	angiogenesis
+27	,	,	O	,	O	10	P	-1
+28	concluding	conclude	B-VP	VBG	O	10	VMOD	-1
+29	this	this	B-NP	DT	O	30	NMOD	-1
+30	review	review	I-NP	NN	O	28	OBJ	-1
+31	with	with	B-PP	IN	O	30	NMOD	-1
+32	a	a	B-NP	DT	O	33	NMOD	-1
+33	proposal	proposal	I-NP	NN	O	31	PMOD	-1
+34	for	for	B-PP	IN	O	33	NMOD	-1
+35	the	the	B-NP	DT	O	37	NMOD	-1
+36	oncogenic	oncogenic	I-NP	JJ	O	37	NMOD	-1
+37	nature	nature	I-NP	NN	O	34	PMOD	-1
+38	of	of	B-PP	IN	O	37	NMOD	-1
+39	Brn-3a	Brn-3a	B-NP	NN	B-protein	38	PMOD	-1
+40	.	.	O	.	O	10	P	-1
+

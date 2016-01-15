@@ -1,0 +1,286 @@
+1	Ectopic	Ectopic	B-NP	JJ	O	3	NMOD	-1
+2	decorin	decorin	I-NP	NN	O	3	NMOD	-1
+3	expression	expression	I-NP	NN	O	4	SUB	9	expression
+4	up-regulates	up-regulate	B-VP	VBZ	O	0	ROOT	17	up-regulates
+5	VEGF	VEGF	B-NP	NN	B-protein	6	NMOD	-1
+6	expression	expression	I-NP	NN	O	4	OBJ	9	expression
+7	in	in	B-PP	IN	O	6	NMOD	-1
+8	mouse	mouse	B-NP	NN	B-cell_type	11	NMOD	-1
+9	cerebral	cerebral	I-NP	JJ	I-cell_type	11	NMOD	-1
+10	endothelial	endothelial	I-NP	JJ	I-cell_type	11	NMOD	-1
+11	cells	cell	I-NP	NNS	I-cell_type	7	PMOD	-1
+12	via	via	B-PP	IN	O	4	VMOD	0
+13	activation	activation	B-NP	NN	O	12	PMOD	17	activation
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	the	the	B-NP	DT	O	17	NMOD	-1
+16	transcription	transcription	I-NP	NN	B-protein	17	NMOD	0
+17	factors	factor	I-NP	NNS	I-protein	14	PMOD	-1
+18	Sp1	Sp1	B-NP	NN	B-protein	23	NMOD	-1
+19	,	,	O	,	O	23	P	-1
+20	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	23	NMOD	-1
+21	,	,	O	,	O	23	P	-1
+22	and	and	O	CC	O	23	NMOD	-1
+23	Stat3	Stat3	B-NP	NN	B-protein	17	NMOD	-1
+24	.	.	O	.	O	4	P	-1
+
+1	We	We	B-NP	PRP	O	2	SUB	-1
+2	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+3	that	that	B-SBAR	IN	O	2	VMOD	-1
+4	a	a	B-NP	DT	O	6	NMOD	-1
+5	proteoglycan	proteoglycan	I-NP	NN	O	6	NMOD	-1
+6	decorin	decorin	I-NP	NN	O	10	SUB	-1
+7	(	(	O	(	O	9	DEP	-1
+8	DCN	DCN	B-NP	NN	O	9	DEP	-1
+9	)	)	O	)	O	6	NMOD	-1
+10	up-regulates	up-regulate	B-VP	VBZ	O	3	SBAR	16	up-regulates
+11	the	the	B-NP	DT	O	15	NMOD	-1
+12	vascular	vascular	I-NP	JJ	B-protein	15	NMOD	-1
+13	endothelial	endothelial	I-NP	JJ	I-protein	15	NMOD	-1
+14	growth	growth	I-NP	NN	I-protein	15	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	19	NMOD	-1
+16	(	(	O	(	O	18	DEP	-1
+17	VEGF	VEGF	B-NP	NN	B-protein	18	DEP	-1
+18	)	)	O	)	O	15	NMOD	-1
+19	expression	expression	B-NP	NN	O	10	OBJ	9	expression
+20	with	with	B-PP	IN	O	19	NMOD	-1
+21	activation	activation	B-NP	NN	O	20	PMOD	16	activation
+22	of	of	B-PP	IN	O	21	NMOD	-1
+23	VEGF	VEGF	B-NP	NN	B-protein	26	NMOD	-1
+24	regulating	regulating	I-NP	NN	I-protein	26	NMOD	16	regulating
+25	transcription	transcription	I-NP	NN	I-protein	26	NMOD	0
+26	factors	factor	I-NP	NNS	I-protein	42	NMOD	-1
+27	Sp1	Sp1	B-NP	NN	B-protein	31	NMOD	-1
+28	,	,	O	,	O	31	P	-1
+29	hypoxia-inducible	hypoxia-inducible	B-NP	JJ	O	31	NMOD	-1
+30	factor	factor	I-NP	NN	O	31	NMOD	-1
+31	1alpha	1alpha	I-NP	NN	O	26	NMOD	-1
+32	(	(	O	(	O	34	DEP	-1
+33	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	34	DEP	-1
+34	)	)	O	)	O	31	NMOD	-1
+35	,	,	O	,	O	42	P	-1
+36	and	and	O	CC	O	42	NMOD	-1
+37	signal	signal	B-NP	NN	B-protein	42	NMOD	-1
+38	transducer	transducer	I-NP	NN	I-protein	42	NMOD	-1
+39	and	and	O	CC	I-protein	42	NMOD	-1
+40	activator	activator	B-NP	NN	I-protein	42	NMOD	0
+41	of	of	B-PP	IN	I-protein	42	NMOD	-1
+42	transcription	transcription	B-NP	NN	I-protein	22	PMOD	0
+43	3	3	I-NP	CD	I-protein	42	NMOD	-1
+44	(	(	O	(	O	46	DEP	-1
+45	Stat3	Stat3	B-NP	NN	B-protein	46	DEP	-1
+46	)	)	O	)	O	42	NMOD	-1
+47	via	via	B-PP	IN	O	10	VMOD	0
+48	epidermal	epidermal	B-NP	JJ	B-protein	51	NMOD	-1
+49	growth	growth	I-NP	NN	I-protein	51	NMOD	0
+50	factor	factor	I-NP	NN	I-protein	51	NMOD	-1
+51	receptor	receptor	I-NP	NN	I-protein	58	NMOD	-1
+52	(	(	O	(	O	54	DEP	-1
+53	EGFR	EGFR	B-NP	NN	B-protein	54	DEP	-1
+54	)	)	O	)	O	51	NMOD	-1
+55	,	,	O	,	O	58	P	-1
+56	mitogen-activated	mitogen-activated	B-NP	JJ	B-protein	58	AMOD	-1
+57	protein	protein	I-NP	NN	I-protein	58	AMOD	-1
+58	kinase	kinase	I-NP	NN	I-protein	47	PMOD	-1
+59	extracellular	extracellular	I-NP	JJ	O	58	AMOD	-1
+60	signal-regulated	signal-regulated	I-NP	JJ	O	58	NMOD	-1
+61	kinase	kinase	I-NP	NN	O	60	AMOD	-1
+62	1/2	1/2	I-NP	CD	O	61	NMOD	-1
+63	(	(	O	(	O	65	DEP	-1
+64	ERK1/2	ERK1/2	B-NP	NN	B-protein	65	DEP	-1
+65	)	)	O	)	O	62	NMOD	-1
+66	,	,	O	,	O	74	P	-1
+67	and	and	O	CC	O	70	NMOD	-1
+68	protein	protein	B-NP	NN	B-protein	70	NMOD	-1
+69	kinase	kinase	I-NP	NN	I-protein	70	NMOD	-1
+70	B	B	I-NP	NN	I-protein	74	NMOD	-1
+71	(	(	O	(	O	73	DEP	-1
+72	AKT	AKT	B-NP	NN	O	73	DEP	-1
+73	)	)	O	)	O	70	NMOD	-1
+74	pathways	pathway	B-NP	NNS	O	10	OBJ	0
+75	in	in	B-PP	IN	O	74	NMOD	-1
+76	DCN	DCN	B-NP	NN	B-cell_line	84	NMOD	-1
+77	transfected	transfecte	I-NP	VBN	I-cell_line	84	NMOD	19	transfected
+78	mouse	mouse	I-NP	NN	I-cell_line	84	NMOD	-1
+79	cerebral	cerebral	I-NP	JJ	I-cell_line	84	NMOD	-1
+80	endothelial	endothelial	I-NP	JJ	I-cell_line	84	NMOD	-1
+81	(	(	O	(	I-cell_line	84	NMOD	-1
+82	MCE	MCE	B-NP	NN	I-cell_line	84	NMOD	-1
+83	)	)	I-NP	)	I-cell_line	84	NMOD	-1
+84	cells	cell	I-NP	NNS	I-cell_line	75	PMOD	-1
+85	.	.	O	.	O	2	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	9	SUB	0
+2	with	with	B-PP	IN	O	1	NMOD	-1
+3	pharmacological	pharmacological	B-NP	JJ	O	4	NMOD	-1
+4	inhibitors	inhibitor	I-NP	NNS	O	8	NMOD	-1
+5	and	and	O	CC	O	8	NMOD	-1
+6	small	small	B-NP	JJ	O	8	NMOD	-1
+7	interfering	interfere	I-NP	VBG	O	8	NMOD	-1
+8	RNAs	RNA	I-NP	NNS	B-RNA	2	PMOD	-1
+9	reveal	reveal	B-VP	VBP	O	0	ROOT	-1
+10	that	that	B-SBAR	IN	O	9	VMOD	-1
+11	induction	induction	B-NP	NN	O	13	NMOD	17	induction
+12	and	and	O	CC	O	13	NMOD	-1
+13	activation	activation	B-NP	NN	O	21	SUB	17	activation
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	Sp1	Sp1	B-NP	NN	B-protein	20	NMOD	-1
+16	,	,	O	,	O	20	P	-1
+17	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	20	NMOD	-1
+18	,	,	O	,	O	20	P	-1
+19	and	and	O	CC	O	20	NMOD	-1
+20	Stat3	Stat3	B-NP	NN	B-protein	14	PMOD	-1
+21	facilitate	facilitate	B-VP	VBP	O	10	SBAR	-1
+22	their	their	B-NP	PRP$	O	26	NMOD	-1
+23	nuclear	nuclear	I-NP	JJ	O	24	NMOD	-1
+24	localization	localization	I-NP	NN	O	26	NMOD	14	localization
+25	and	and	O	CC	O	26	NMOD	-1
+26	binding	binding	B-NP	NN	O	21	OBJ	15	binding
+27	to	to	B-PP	TO	O	26	NMOD	-1
+28	their	their	B-NP	PRP$	O	30	NMOD	-1
+29	specific	specific	I-NP	JJ	O	30	NMOD	-1
+30	motifs	motif	I-NP	NNS	O	27	PMOD	-1
+31	of	of	B-PP	IN	O	30	NMOD	-1
+32	the	the	B-NP	DT	O	34	NMOD	-1
+33	VEGF	VEGF	I-NP	NN	B-DNA	34	NMOD	-1
+34	promoter	promoter	I-NP	NN	I-DNA	31	PMOD	-1
+35	and	and	O	CC	O	21	VMOD	-1
+36	induce	induce	B-VP	VB	O	21	VMOD	17	induce
+37	VEGF	VEGF	B-NP	NN	B-protein	38	NMOD	-1
+38	expression	expression	I-NP	NN	O	36	OBJ	9	expression
+39	via	via	B-PP	IN	O	36	VMOD	0
+40	two	two	B-NP	CD	O	42	NMOD	-1
+41	independent	independent	I-NP	JJ	O	42	NMOD	0
+42	pathways	pathway	I-NP	NNS	O	39	PMOD	0
+43	,	,	O	,	O	21	P	-1
+44	DCN/EGFR/phosphoinositide-3	DCN/EGFR/phosphoinositide-3	B-NP	NN	O	45	NMOD	-1
+45	kinase/AKT	kinase/AKT	I-NP	NN	O	47	NMOD	-1
+46	and	and	I-NP	CC	O	47	NMOD	-1
+47	DCN/EGFR/ERK1/2	DCN/EGFR/ERK1/2	I-NP	NN	O	21	OBJ	-1
+48	,	,	O	,	O	47	P	-1
+49	respectively	respectively	B-ADVP	RB	O	47	NMOD	-1
+50	,	,	O	,	O	47	P	-1
+51	in	in	B-PP	IN	O	47	NMOD	-1
+52	DCN	DCN	B-NP	NN	B-cell_line	55	NMOD	-1
+53	synthesizing	synthesize	B-VP	VBG	I-cell_line	55	NMOD	9	synthesizing
+54	MCE	MCE	B-NP	NN	I-cell_line	55	NMOD	-1
+55	cells	cell	I-NP	NNS	I-cell_line	51	PMOD	-1
+56	.	.	O	.	O	9	P	-1
+
+1	The	The	B-NP	DT	O	6	NMOD	-1
+2	cell	cell	I-NP	NN	O	6	NMOD	-1
+3	type	type	I-NP	NN	O	6	NMOD	-1
+4	specific	specific	I-NP	JJ	O	6	NMOD	-1
+5	glycosylation	glycosylation	I-NP	NN	O	6	NMOD	-1
+6	protects	protect	I-NP	NNS	O	9	NMOD	18	protects
+7	Sp1	Sp1	I-NP	NN	B-protein	9	NMOD	-1
+8	and	and	I-NP	CC	O	9	NMOD	-1
+9	HIF1alpha	HIF1alpha	I-NP	NN	B-protein	14	SUB	-1
+10	from	from	B-PP	IN	O	9	NMOD	-1
+11	proteosome	proteosome	B-NP	NN	O	12	NMOD	-1
+12	degradation	degradation	I-NP	NN	O	10	PMOD	11	degradation
+13	and	and	O	CC	O	14	VMOD	-1
+14	plays	play	B-VP	VBZ	O	0	ROOT	-1
+15	an	an	B-NP	DT	O	19	NMOD	-1
+16	important	important	I-NP	JJ	O	18	AMOD	0
+17	and	and	I-NP	CC	O	18	AMOD	-1
+18	novel	novel	I-NP	JJ	O	19	NMOD	-1
+19	role	role	I-NP	NN	O	14	OBJ	0
+20	in	in	B-PP	IN	O	14	VMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	regulation	regulation	I-NP	NN	O	20	PMOD	16	regulation
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	VEGF	VEGF	B-NP	NN	B-protein	23	PMOD	-1
+25	in	in	B-PP	IN	O	22	NMOD	-1
+26	DCN	DCN	B-NP	NN	B-cell_line	29	NMOD	-1
+27	transfected	transfecte	I-NP	VBN	I-cell_line	29	NMOD	19	transfected
+28	MCE	MCE	I-NP	NN	I-cell_line	29	NMOD	-1
+29	cells	cell	I-NP	NNS	I-cell_line	25	PMOD	-1
+30	.	.	O	.	O	14	P	-1
+
+1	Induction	Induction	B-NP	NN	O	19	NMOD	17	Induction
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	gelatinases	gelatinas	B-NP	NNS	B-protein	2	PMOD	-1
+4	(	(	O	(	O	10	DEP	-1
+5	matrix	matrix	B-NP	NN	B-protein	9	NMOD	-1
+6	metalloproteinase	metalloproteinase	I-NP	NN	I-protein	9	NMOD	-1
+7	2	2	B-NP	CD	I-protein	9	NMOD	-1
+8	and	and	I-NP	CC	I-protein	9	NMOD	-1
+9	9	9	I-NP	CD	I-protein	10	DEP	-1
+10	)	)	O	)	O	3	NMOD	-1
+11	,	,	O	,	O	19	P	-1
+12	the	the	B-NP	DT	O	19	NMOD	-1
+13	serine	serine	I-NP	NN	B-protein	17	NMOD	-1
+14	protease	protease	I-NP	NN	I-protein	17	NMOD	-1
+15	tissue	tissue	I-NP	NN	I-protein	17	NMOD	-1
+16	plasminogen	plasminogen	I-NP	NN	I-protein	17	NMOD	-1
+17	activator	activator	I-NP	NN	I-protein	19	NMOD	0
+18	and	and	O	CC	O	19	NMOD	-1
+19	plasmin	plasmin	B-NP	NN	O	26	SUB	-1
+20	by	by	B-PP	IN	O	19	NMOD	-1
+21	DCN	DCN	B-NP	NN	O	22	NMOD	-1
+22	transfection	transfection	I-NP	NN	O	20	PMOD	19	transfection
+23	in	in	B-PP	IN	O	22	NMOD	-1
+24	MCE	MCE	B-NP	NN	B-cell_type	25	NMOD	-1
+25	cells	cell	I-NP	NNS	I-cell_type	23	PMOD	-1
+26	leads	lead	B-VP	VBZ	O	0	ROOT	17	leads
+27	to	to	B-PP	TO	O	26	VMOD	-1
+28	extracellular	extracellular	B-NP	JJ	O	29	NMOD	-1
+29	proteolysis	proteolysis	I-NP	NN	O	27	PMOD	0
+30	and	and	O	CC	O	26	VMOD	-1
+31	to	to	B-VP	TO	O	32	VMOD	-1
+32	release	release	I-VP	VB	O	26	VMOD	0
+33	of	of	B-PP	IN	O	32	VMOD	-1
+34	matrix-bound	matrix-bound	B-NP	JJ	B-protein	35	NMOD	15	bound
+35	VEGF	VEGF	I-NP	NN	I-protein	33	PMOD	-1
+36	and	and	I-NP	CC	O	32	VMOD	-1
+37	activation	activation	I-NP	NN	O	32	OBJ	17	activation
+38	of	of	B-PP	IN	O	37	NMOD	-1
+39	angiogenesis	angiogenesis	B-NP	NN	O	38	PMOD	3	angiogenesis
+40	.	.	O	.	O	26	P	-1
+
+1	In	In	B-PP	IN	O	6	VMOD	-1
+2	this	this	B-NP	DT	O	3	NMOD	-1
+3	study	study	I-NP	NN	O	1	PMOD	-1
+4	,	,	O	,	O	6	P	-1
+5	we	we	B-NP	PRP	O	6	SUB	-1
+6	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+7	that	that	B-SBAR	IN	O	6	VMOD	-1
+8	two	two	B-NP	CD	O	12	NMOD	-1
+9	independent	independent	I-NP	JJ	O	12	NMOD	0
+10	downstream	downstream	I-NP	JJ	O	12	NMOD	0
+11	signal	signal	I-NP	NN	O	12	NMOD	-1
+12	pathways	pathway	I-NP	NNS	O	17	NMOD	0
+13	,	,	O	,	O	17	P	-1
+14	DCN/EGFR/ERK1/2	DCN/EGFR/ERK1/2	B-NP	NN	B-protein	17	NMOD	-1
+15	and	and	I-NP	CC	O	17	NMOD	-1
+16	DCN/EGFR/phosphoinositide-3	DCN/EGFR/phosphoinositide-3	I-NP	NN	O	17	NMOD	-1
+17	kinase/AKT	kinase/AKT	I-NP	NN	O	19	SUB	-1
+18	,	,	O	,	O	17	P	-1
+19	mediate	mediate	B-VP	VBP	O	7	SBAR	17	mediate
+20	up-regulation	up-regulation	B-NP	NN	O	22	NMOD	17	up-regulation
+21	and	and	I-NP	CC	O	22	NMOD	-1
+22	activation	activation	I-NP	NN	O	19	OBJ	17	activation
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	transcription	transcription	B-NP	NN	B-protein	25	NMOD	0
+25	factors	factor	I-NP	NNS	I-protein	23	PMOD	-1
+26	of	of	B-PP	IN	O	25	NMOD	-1
+27	VEGF	VEGF	B-NP	NN	B-protein	26	PMOD	-1
+28	such	such	B-PP	JJ	O	29	PMOD	-1
+29	as	as	I-PP	IN	O	25	NMOD	-1
+30	HIF1alpha	HIF1alpha	B-NP	NN	B-protein	35	NMOD	-1
+31	,	,	O	,	O	35	P	-1
+32	Stat3	Stat3	B-NP	NN	B-protein	35	NMOD	-1
+33	,	,	O	,	O	35	P	-1
+34	and	and	O	CC	O	35	NMOD	-1
+35	Sp1	Sp1	B-NP	NN	B-protein	29	PMOD	-1
+36	and	and	O	CC	O	19	VMOD	-1
+37	increase	increase	B-VP	VB	O	19	VMOD	17	increase
+38	VEGF	VEGF	B-NP	NN	B-protein	39	NMOD	-1
+39	transcription	transcription	I-NP	NN	O	41	NMOD	10	transcription
+40	and	and	O	CC	O	41	NMOD	-1
+41	angiogenesis	angiogenesis	B-NP	NN	O	37	OBJ	3	angiogenesis
+42	in	in	B-PP	IN	O	41	NMOD	-1
+43	MCE	MCE	B-NP	NN	B-cell_type	44	NMOD	-1
+44	cells	cell	I-NP	NNS	I-cell_type	42	PMOD	-1
+45	.	.	O	.	O	6	P	-1
+

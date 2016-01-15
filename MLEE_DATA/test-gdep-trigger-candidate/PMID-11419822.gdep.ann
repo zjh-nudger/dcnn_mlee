@@ -1,0 +1,410 @@
+1	Coexpression	Coexpression	B-NP	NN	O	0	ROOT	9	Coexpression
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	vascular	vascular	B-NP	JJ	B-protein	6	NMOD	-1
+4	endothelial	endothelial	I-NP	JJ	I-protein	6	NMOD	-1
+5	growth	growth	I-NP	NN	I-protein	6	NMOD	0
+6	factor	factor	I-NP	NN	I-protein	9	NMOD	-1
+7	and	and	O	CC	O	9	NMOD	-1
+8	p53	p53	B-NP	NN	B-protein	9	NMOD	-1
+9	protein	protein	I-NP	NN	I-protein	2	PMOD	-1
+10	in	in	B-PP	IN	O	1	NMOD	-1
+11	squamous	squamous	B-NP	JJ	O	13	NMOD	-1
+12	cell	cell	I-NP	NN	O	13	NMOD	-1
+13	carcinoma	carcinoma	I-NP	NN	O	10	PMOD	-1
+14	of	of	B-PP	IN	O	13	NMOD	-1
+15	the	the	B-NP	DT	O	16	NMOD	-1
+16	esophagus	esophagus	I-NP	NN	O	14	PMOD	-1
+17	.	.	O	.	O	1	P	-1
+
+1	OBJECTIVE	OBJECTIVE	B-NP	NN	O	4	SUB	-1
+2	:	:	O	:	O	4	P	-1
+3	p53	p53	B-NP	NN	B-protein	4	SUB	-1
+4	plays	play	B-VP	VBZ	O	19	VMOD	-1
+5	a	a	B-NP	DT	O	6	NMOD	-1
+6	role	role	I-NP	NN	O	4	OBJ	0
+7	in	in	B-PP	IN	O	4	VMOD	-1
+8	tumor	tumor	B-NP	NN	O	9	NMOD	-1
+9	angiogenesis	angiogenesis	I-NP	NN	O	7	PMOD	3	angiogenesis
+10	,	,	O	,	O	19	P	-1
+11	and	and	O	CC	O	15	NMOD	-1
+12	vascular	vascular	B-NP	JJ	B-protein	15	NMOD	-1
+13	endothelial	endothelial	I-NP	JJ	I-protein	15	NMOD	-1
+14	growth	growth	I-NP	NN	I-protein	15	NMOD	0
+15	factor	factor	I-NP	NN	I-protein	19	SUB	-1
+16	(	(	O	(	O	18	DEP	-1
+17	VEGF	VEGF	B-NP	NN	B-protein	18	DEP	-1
+18	)	)	O	)	O	15	NMOD	-1
+19	plays	play	B-VP	VBZ	O	0	ROOT	-1
+20	a	a	B-NP	DT	O	22	NMOD	-1
+21	key	key	I-NP	JJ	O	22	NMOD	-1
+22	role	role	I-NP	NN	O	19	OBJ	0
+23	in	in	B-PP	IN	O	19	VMOD	-1
+24	tumor	tumor	B-NP	NN	O	25	NMOD	-1
+25	angiogenesis	angiogenesis	I-NP	NN	O	23	PMOD	3	angiogenesis
+26	.	.	O	.	O	19	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	aim	aim	I-NP	NN	O	7	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	present	present	I-NP	JJ	O	6	NMOD	0
+6	study	study	I-NP	NN	O	3	PMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	to	to	B-VP	TO	O	9	VMOD	-1
+9	clarify	clarify	I-VP	VB	O	7	PRD	-1
+10	how	how	B-ADVP	WRB	O	9	VMOD	-1
+11	expression	expression	B-NP	NN	O	15	SUB	9	expression
+12	of	of	B-PP	IN	O	11	NMOD	-1
+13	p53	p53	B-NP	NN	B-protein	14	NMOD	-1
+14	protein	protein	I-NP	NN	I-protein	12	PMOD	-1
+15	participates	participate	B-VP	VBZ	O	10	SBAR	16	participates
+16	in	in	B-PP	IN	O	15	VMOD	-1
+17	angiogenesis	angiogenesis	B-NP	NN	O	16	PMOD	3	angiogenesis
+18	,	,	O	,	O	20	P	-1
+19	and	and	O	CC	O	20	DEP	-1
+20	whether	whether	B-SBAR	IN	O	9	VMOD	-1
+21	the	the	B-NP	DT	O	22	NMOD	-1
+22	coexpression	coexpression	I-NP	NN	O	28	SUB	9	coexpression
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	VEGF	VEGF	B-NP	NN	B-protein	27	NMOD	-1
+25	and	and	I-NP	CC	O	27	NMOD	-1
+26	p53	p53	I-NP	NN	B-protein	27	NMOD	-1
+27	protein	protein	I-NP	NN	I-protein	23	PMOD	-1
+28	has	have	B-VP	VBZ	O	20	SBAR	-1
+29	a	a	B-NP	DT	O	30	NMOD	-1
+30	significance	significance	I-NP	NN	O	28	OBJ	16	significance
+31	for	for	B-PP	IN	O	28	VMOD	-1
+32	angiogenesis	angiogenesis	B-NP	NN	O	36	NMOD	3	angiogenesis
+33	and	and	O	CC	O	36	NMOD	-1
+34	the	the	B-NP	DT	O	36	NMOD	-1
+35	clinicopathological	clinicopathological	I-NP	JJ	O	36	NMOD	-1
+36	features	feature	I-NP	NNS	O	31	PMOD	-1
+37	in	in	B-PP	IN	O	28	VMOD	-1
+38	esophageal	esophageal	B-NP	JJ	O	41	NMOD	-1
+39	squamous	squamous	I-NP	JJ	O	41	NMOD	-1
+40	cell	cell	I-NP	NN	O	41	NMOD	-1
+41	carcinoma	carcinoma	I-NP	NN	O	37	PMOD	-1
+42	(	(	O	(	O	44	DEP	-1
+43	SCC	SCC	B-NP	NN	O	44	DEP	-1
+44	)	)	O	)	O	41	NMOD	-1
+45	.	.	O	.	O	7	P	-1
+
+1	METHODS	METHODS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	Tissues	Tissue	B-NP	NNS	O	4	NMOD	-1
+4	samples	sample	I-NP	NNS	O	5	SUB	-1
+5	were	be	B-VP	VBD	O	1	NMOD	-1
+6	taken	take	I-VP	VBN	O	5	VC	19	taken
+7	from	from	B-PP	IN	O	6	VMOD	-1
+8	60	60	B-NP	CD	O	9	NMOD	-1
+9	patients	patient	I-NP	NNS	O	7	PMOD	-1
+10	with	with	B-PP	IN	O	9	NMOD	-1
+11	esophageal	esophageal	B-NP	JJ	O	12	NMOD	-1
+12	SCC	SCC	I-NP	NN	O	10	PMOD	-1
+13	after	after	B-PP	IN	O	12	NMOD	-1
+14	surgery	surgery	B-NP	NN	O	13	PMOD	19	surgery
+15	.	.	O	.	O	1	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	expression	expression	I-NP	NN	O	11	SUB	9	expression
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	VEGF	VEGF	B-NP	NN	B-protein	7	NMOD	-1
+5	and	and	I-NP	CC	O	7	NMOD	-1
+6	p53	p53	I-NP	NN	B-protein	7	NMOD	-1
+7	protein	protein	I-NP	NN	I-protein	3	PMOD	-1
+8	in	in	B-PP	IN	O	2	NMOD	-1
+9	these	these	B-NP	DT	O	10	NMOD	-1
+10	SCC	SCC	I-NP	NN	O	8	PMOD	-1
+11	was	be	B-VP	VBD	O	0	ROOT	-1
+12	examined	examine	I-VP	VBN	O	11	VC	-1
+13	immunohistochemically	immunohistochemically	B-ADVP	RB	O	12	VMOD	-1
+14	.	.	O	.	O	11	P	-1
+
+1	Microvessel	Microvessel	B-NP	NN	O	2	NMOD	-1
+2	density	density	I-NP	NN	O	6	SUB	-1
+3	(	(	O	(	O	5	DEP	-1
+4	MVD	MVD	B-NP	NN	O	5	DEP	-1
+5	)	)	O	)	O	2	NMOD	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	determined	determine	I-VP	VBN	O	6	VC	-1
+8	by	by	B-PP	IN	O	7	VMOD	-1
+9	counting	count	B-VP	VBG	O	10	NMOD	-1
+10	microvessels	microvessel	B-NP	NNS	O	8	PMOD	-1
+11	in	in	B-PP	IN	O	10	NMOD	-1
+12	tumor	tumor	B-NP	NN	O	13	NMOD	-1
+13	sections	section	I-NP	NNS	O	11	PMOD	-1
+14	stained	stain	B-VP	VBN	O	13	NMOD	-1
+15	for	for	B-PP	IN	O	14	VMOD	-1
+16	Factor	Factor	B-NP	NN	O	18	NMOD	-1
+17	VIII-related	VIII-related	I-NP	JJ	O	18	NMOD	-1
+18	antigen	antigen	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	6	P	-1
+
+1	Ki-67	Ki-67	B-NP	NN	B-protein	3	NMOD	-1
+2	labeling	labeling	I-NP	NN	O	3	NMOD	-1
+3	index	index	I-NP	NN	O	7	SUB	-1
+4	(	(	O	(	O	6	DEP	-1
+5	LI	LI	B-NP	NN	O	6	DEP	-1
+6	)	)	O	)	O	3	NMOD	-1
+7	was	be	B-VP	VBD	O	0	ROOT	-1
+8	calculated	calculate	I-VP	VBN	O	7	VC	-1
+9	,	,	O	,	O	8	P	-1
+10	based	base	B-PP	VBN	O	8	VMOD	-1
+11	on	on	B-PP	IN	O	10	PMOD	-1
+12	Ki-67	Ki-67	B-NP	NN	B-protein	14	NMOD	-1
+13	antigen	antigen	I-NP	NN	I-protein	14	NMOD	-1
+14	immunostaining	immunostaining	I-NP	NN	O	11	PMOD	-1
+15	,	,	O	,	O	8	P	-1
+16	as	as	B-PP	IN	O	8	VMOD	-1
+17	a	a	B-NP	DT	O	19	NMOD	-1
+18	proliferative	proliferative	I-NP	JJ	B-protein	19	NMOD	0
+19	marker	marker	I-NP	NN	I-protein	16	PMOD	-1
+20	.	.	O	.	O	7	P	-1
+
+1	Apoptotic	Apoptotic	B-NP	JJ	O	2	NMOD	-1
+2	index	index	I-NP	NN	O	6	SUB	-1
+3	(	(	O	(	O	5	DEP	-1
+4	AI	AI	B-NP	NN	O	5	DEP	-1
+5	)	)	O	)	O	2	NMOD	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	calculated	calculate	I-VP	VBN	O	6	VC	-1
+8	,	,	O	,	O	7	P	-1
+9	based	base	B-PP	VBN	O	7	VMOD	-1
+10	on	on	B-PP	IN	O	9	PMOD	-1
+11	the	the	B-NP	DT	O	20	NMOD	-1
+12	terminal	terminal	I-NP	JJ	O	20	NMOD	-1
+13	deoxynucleotidyl	deoxynucleotidyl	I-NP	NN	O	20	NMOD	-1
+14	transferase-mediated	transferase-mediated	I-NP	JJ	O	20	NMOD	-1
+15	deoxyuridine	deoxyuridine	I-NP	NN	O	20	NMOD	-1
+16	triphosphate	triphosphate	I-NP	NN	O	20	NMOD	-1
+17	biotin	biotin	I-NP	NN	O	20	NMOD	-1
+18	nick	nick	I-NP	NN	O	20	NMOD	-1
+19	end	end	I-NP	NN	O	20	NMOD	-1
+20	labeling	labeling	I-NP	NN	O	10	PMOD	-1
+21	,	,	O	,	O	7	P	-1
+22	to	to	B-VP	TO	O	23	VMOD	-1
+23	evaluate	evaluate	I-VP	VB	O	7	VMOD	-1
+24	apoptosis	apoptosis	B-NP	NN	O	23	OBJ	0
+25	.	.	O	.	O	6	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	VEGF	VEGF	B-NP	NN	B-protein	4	NMOD	-1
+4	expression	expression	I-NP	NN	O	5	SUB	9	expression
+5	was	be	B-VP	VBD	O	15	VMOD	-1
+6	observed	observe	I-VP	VBN	O	5	VC	0
+7	in	in	B-PP	IN	O	6	VMOD	-1
+8	58.3	58.3	B-NP	CD	O	9	NMOD	-1
+9	%	%	I-NP	NN	O	7	PMOD	-1
+10	,	,	O	,	O	15	P	-1
+11	and	and	O	CC	O	15	VMOD	-1
+12	p53	p53	B-NP	NN	B-protein	14	NMOD	-1
+13	protein	protein	I-NP	NN	O	14	NMOD	-1
+14	expression	expression	I-NP	NN	O	15	SUB	9	expression
+15	was	be	B-VP	VBD	O	1	NMOD	-1
+16	observed	observe	I-VP	VBN	O	15	VC	0
+17	in	in	B-PP	IN	O	16	VMOD	-1
+18	61.7	61.7	B-NP	CD	O	19	NMOD	-1
+19	%	%	I-NP	NN	O	17	PMOD	-1
+20	of	of	B-PP	IN	O	19	NMOD	-1
+21	the	the	B-NP	DT	O	23	NMOD	-1
+22	60	60	I-NP	CD	O	23	NMOD	-1
+23	patients	patient	I-NP	NNS	O	20	PMOD	-1
+24	.	.	O	.	O	1	P	-1
+
+1	VEGF	VEGF	B-NP	NN	B-protein	4	NMOD	-1
+2	and	and	I-NP	CC	O	4	NMOD	-1
+3	p53	p53	I-NP	NN	B-protein	4	NMOD	-1
+4	protein	protein	I-NP	NN	I-protein	5	SUB	-1
+5	were	be	B-VP	VBD	O	0	ROOT	-1
+6	significantly	significantly	I-VP	RB	O	5	VMOD	-1
+7	coexpressed	coexpresse	I-VP	VBN	O	5	VC	9	coexpressed
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	26	26	B-NP	CD	O	8	PMOD	-1
+10	(	(	O	(	O	13	DEP	-1
+11	43.4	43.4	B-NP	CD	O	12	NMOD	-1
+12	%	%	I-NP	NN	O	13	DEP	-1
+13	)	)	O	)	O	9	NMOD	-1
+14	.	.	O	.	O	5	P	-1
+
+1	Histological	Histological	B-NP	JJ	O	3	NMOD	-1
+2	venous	venous	I-NP	JJ	O	3	NMOD	-1
+3	invasion	invasion	I-NP	NN	O	12	NMOD	14	invasion
+4	(	(	O	(	O	9	DEP	-1
+5	p	p	B-NP	NN	O	7	SUB	-1
+6	less	less	B-ADJP	JJR	O	7	AMOD	-1
+7	than	than	B-PP	IN	O	9	DEP	-1
+8	0.01	0.01	B-NP	CD	O	7	AMOD	-1
+9	)	)	O	)	O	3	NMOD	-1
+10	and	and	O	CC	O	12	NMOD	-1
+11	distant	distant	B-NP	JJ	O	12	NMOD	-1
+12	metastasis	metastasis	I-NP	NN	O	19	SUB	0
+13	(	(	O	(	O	18	DEP	-1
+14	p	p	B-NP	NN	O	16	SUB	-1
+15	less	less	B-ADJP	JJR	O	16	AMOD	-1
+16	than	than	B-PP	IN	O	18	DEP	-1
+17	0.05	0.05	B-NP	CD	O	16	AMOD	-1
+18	)	)	O	)	O	12	NMOD	-1
+19	were	be	B-VP	VBD	O	0	ROOT	-1
+20	significantly	significantly	I-VP	RB	O	19	VMOD	-1
+21	correlated	correlate	I-VP	VBN	O	19	VC	-1
+22	with	with	B-PP	IN	O	21	VMOD	-1
+23	p53	p53	B-NP	NN	B-protein	25	NMOD	-1
+24	protein	protein	I-NP	NN	I-protein	25	NMOD	-1
+25	expression	expression	I-NP	NN	O	22	PMOD	9	expression
+26	.	.	O	.	O	19	P	-1
+
+1	The	The	B-NP	DT	O	3	NMOD	-1
+2	two	two	I-NP	CD	O	3	NMOD	-1
+3	parameters	parameter	I-NP	NNS	O	4	SUB	-1
+4	were	be	B-VP	VBD	O	0	ROOT	-1
+5	more	more	I-VP	RBR	O	6	AMOD	-1
+6	frequently	frequently	I-VP	RB	O	4	VMOD	-1
+7	observed	observe	I-VP	VBN	O	4	VC	0
+8	in	in	B-PP	IN	O	7	VMOD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	SCC	SCC	I-NP	NN	O	8	PMOD	-1
+11	with	with	B-PP	IN	O	10	NMOD	-1
+12	VEGF/p53	VEGF/p53	B-NP	NN	B-protein	13	NMOD	-1
+13	coexpression	coexpression	I-NP	NN	O	11	PMOD	9	coexpression
+14	than	than	B-PP	IN	O	7	VMOD	-1
+15	in	in	B-PP	IN	O	14	PMOD	-1
+16	those	those	B-NP	DT	O	15	PMOD	-1
+17	without	without	B-PP	IN	O	16	NMOD	-1
+18	the	the	B-NP	DT	O	19	NMOD	-1
+19	coexpression	coexpression	I-NP	NN	O	17	PMOD	9	coexpression
+20	.	.	O	.	O	4	P	-1
+
+1	The	The	B-NP	DT	O	5	NMOD	-1
+2	MVD	MVD	I-NP	NN	O	5	NMOD	-1
+3	and	and	I-NP	CC	O	5	NMOD	-1
+4	Ki-67	Ki-67	I-NP	NN	O	5	NMOD	-1
+5	LI	LI	I-NP	NN	O	6	SUB	-1
+6	were	be	B-VP	VBD	O	24	VMOD	-1
+7	significantly	significantly	B-ADJP	RB	O	8	AMOD	-1
+8	higher	high	I-ADJP	JJR	O	6	PRD	-1
+9	(	(	O	(	O	19	DEP	-1
+10	p	p	B-NP	NN	O	15	NMOD	-1
+11	less	less	B-NP	JJR	O	10	NMOD	-1
+12	than	than	I-NP	IN	O	11	AMOD	-1
+13	0.01	0.01	I-NP	CD	O	12	PMOD	-1
+14	and	and	I-NP	CC	O	15	NMOD	-1
+15	p	p	I-NP	NN	O	19	DEP	-1
+16	less	less	B-ADJP	JJR	O	15	NMOD	-1
+17	than	than	B-PP	IN	O	16	AMOD	-1
+18	0.001	0.001	B-NP	CD	O	17	PMOD	-1
+19	)	)	O	)	O	6	VMOD	-1
+20	,	,	O	,	O	24	P	-1
+21	and	and	O	CC	O	24	VMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	AI	AI	I-NP	NN	O	24	SUB	-1
+24	was	be	B-VP	VBD	O	0	ROOT	-1
+25	significantly	significantly	B-ADJP	RB	O	26	AMOD	-1
+26	lower	low	I-ADJP	JJR	O	24	PRD	-1
+27	(	(	O	(	O	32	DEP	-1
+28	p	p	B-NP	NN	O	30	SUB	-1
+29	less	less	B-ADJP	JJR	O	30	AMOD	-1
+30	than	than	B-PP	IN	O	32	DEP	-1
+31	0.001	0.001	B-NP	CD	O	30	AMOD	-1
+32	)	)	O	)	O	24	VMOD	-1
+33	in	in	B-PP	IN	O	24	VMOD	-1
+34	the	the	B-NP	DT	O	35	NMOD	-1
+35	SCC	SCC	I-NP	NN	O	33	PMOD	-1
+36	with	with	B-PP	IN	O	35	NMOD	-1
+37	p53	p53	B-NP	NN	B-protein	39	NMOD	-1
+38	protein	protein	I-NP	NN	I-protein	39	NMOD	-1
+39	expression	expression	I-NP	NN	O	36	PMOD	9	expression
+40	than	than	B-PP	IN	O	24	VMOD	-1
+41	in	in	B-PP	IN	O	40	PMOD	-1
+42	the	the	B-NP	DT	O	43	NMOD	-1
+43	SCC	SCC	I-NP	NN	O	41	PMOD	-1
+44	without	without	B-PP	IN	O	24	VMOD	-1
+45	it	it	B-NP	PRP	O	44	PMOD	-1
+46	.	.	O	.	O	24	P	-1
+
+1	The	The	B-NP	DT	O	5	NMOD	-1
+2	MVD	MVD	I-NP	NN	O	5	NMOD	-1
+3	and	and	I-NP	CC	O	5	NMOD	-1
+4	Ki-67	Ki-67	I-NP	NN	O	5	NMOD	-1
+5	LI	LI	I-NP	NN	O	6	SUB	-1
+6	were	be	B-VP	VBD	O	12	VMOD	-1
+7	higher	high	B-ADJP	JJR	O	6	PRD	-1
+8	,	,	O	,	O	12	P	-1
+9	and	and	O	CC	O	12	VMOD	-1
+10	the	the	B-NP	DT	O	11	NMOD	-1
+11	AI	AI	I-NP	NN	O	12	SUB	-1
+12	was	be	B-VP	VBD	O	0	ROOT	-1
+13	lower	low	B-ADJP	JJR	O	12	PRD	-1
+14	in	in	B-PP	IN	O	13	AMOD	-1
+15	the	the	B-NP	DT	O	16	NMOD	-1
+16	SCC	SCC	I-NP	NN	O	14	PMOD	-1
+17	with	with	B-PP	IN	O	16	NMOD	-1
+18	VEGF/p53	VEGF/p53	B-NP	NN	B-protein	19	NMOD	-1
+19	coexpression	coexpression	I-NP	NN	O	17	PMOD	9	coexpression
+20	than	than	B-PP	IN	O	13	AMOD	-1
+21	in	in	B-PP	IN	O	20	PMOD	-1
+22	those	those	B-NP	DT	O	21	PMOD	-1
+23	without	without	B-PP	IN	O	22	NMOD	-1
+24	the	the	B-NP	DT	O	25	NMOD	-1
+25	coexpression	coexpression	I-NP	NN	O	23	PMOD	9	coexpression
+26	.	.	O	.	O	12	P	-1
+
+1	The	The	B-NP	DT	O	4	NMOD	-1
+2	5-yr	5-yr	I-NP	JJ	O	4	NMOD	-1
+3	survival	survival	I-NP	NN	O	4	NMOD	0
+4	rate	rate	I-NP	NN	O	10	SUB	-1
+5	in	in	B-PP	IN	O	4	NMOD	-1
+6	patients	patient	B-NP	NNS	O	5	PMOD	-1
+7	with	with	B-PP	IN	O	6	NMOD	-1
+8	the	the	B-NP	DT	O	9	NMOD	-1
+9	coexpression	coexpression	I-NP	NN	O	7	PMOD	9	coexpression
+10	was	be	B-VP	VBD	O	0	ROOT	-1
+11	poorer	poor	B-ADJP	JJR	O	10	PRD	-1
+12	than	than	B-PP	IN	O	11	AMOD	-1
+13	in	in	B-PP	IN	O	12	PMOD	-1
+14	the	the	B-NP	DT	O	16	NMOD	-1
+15	other	other	I-NP	JJ	O	16	NMOD	-1
+16	patients	patient	I-NP	NNS	O	13	PMOD	-1
+17	.	.	O	.	O	10	P	-1
+
+1	CONCLUSION	CONCLUSION	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	These	These	B-NP	DT	O	4	NMOD	-1
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	suggest	suggest	B-VP	VBP	O	1	NMOD	-1
+6	that	that	B-SBAR	IN	O	22	DEP	-1
+7	mutant	mutant	B-NP	JJ	B-protein	9	NMOD	-1
+8	p53	p53	I-NP	NN	I-protein	9	NMOD	-1
+9	expression	expression	I-NP	NN	O	10	SUB	9	expression
+10	is	be	B-VP	VBZ	O	6	SBAR	-1
+11	associated	associate	I-VP	VBN	O	10	VC	0
+12	with	with	B-PP	IN	O	11	VMOD	-1
+13	angiogenesis	angiogenesis	B-NP	NN	O	16	NMOD	3	angiogenesis
+14	and	and	O	CC	O	16	NMOD	-1
+15	distant	distant	B-NP	JJ	O	16	NMOD	-1
+16	metastasis	metastasis	I-NP	NN	O	12	PMOD	0
+17	in	in	B-PP	IN	O	16	NMOD	-1
+18	esophageal	esophageal	B-NP	JJ	O	19	NMOD	-1
+19	SCC	SCC	I-NP	NN	O	17	PMOD	-1
+20	,	,	O	,	O	22	P	-1
+21	and	and	O	CC	O	22	DEP	-1
+22	that	that	B-SBAR	IN	O	5	VMOD	-1
+23	the	the	B-NP	DT	O	24	NMOD	-1
+24	coexpression	coexpression	I-NP	NN	O	29	SUB	9	coexpression
+25	of	of	B-PP	IN	O	24	NMOD	-1
+26	p53	p53	B-NP	NN	B-protein	28	NMOD	-1
+27	and	and	I-NP	CC	O	28	NMOD	-1
+28	VEGF	VEGF	I-NP	NN	B-protein	25	PMOD	-1
+29	may	may	B-VP	MD	O	22	SBAR	-1
+30	play	play	I-VP	VB	O	29	VC	0
+31	an	an	B-NP	DT	O	33	NMOD	-1
+32	important	important	I-NP	JJ	O	33	NMOD	0
+33	role	role	I-NP	NN	O	30	OBJ	0
+34	in	in	B-PP	IN	O	30	VMOD	-1
+35	angiogenesis	angiogenesis	B-NP	NN	O	34	PMOD	3	angiogenesis
+36	,	,	O	,	O	5	P	-1
+37	and	and	O	CC	O	5	VMOD	-1
+38	have	have	B-VP	VBP	O	5	VMOD	-1
+39	important	important	B-NP	JJ	O	40	AMOD	0
+40	clinical	clinical	I-NP	JJ	O	41	NMOD	-1
+41	significance	significance	I-NP	NN	O	38	OBJ	-1

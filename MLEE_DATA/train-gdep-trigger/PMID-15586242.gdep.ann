@@ -1,0 +1,191 @@
+1	Hypoxia-responsive	Hypoxia-responsive	B-NP	JJ	O	5	NMOD	0
+2	element-mediated	element-mediated	I-NP	JJ	O	5	NMOD	16	mediated
+3	soluble	soluble	I-NP	JJ	O	5	NMOD	0
+4	Tie2	Tie2	I-NP	NN	O	5	NMOD	0
+5	vector	vector	I-NP	NN	O	6	SUB	0
+6	exhibits	exhibit	B-VP	VBZ	O	0	ROOT	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	activity	activity	I-NP	NN	O	6	OBJ	18	activity
+10	in	in	B-ADVP	FW	O	6	VMOD	0
+11	vitro	vitro	I-ADVP	FW	O	10	AMOD	0
+12	under	under	B-PP	IN	O	6	VMOD	0
+13	hypoxic	hypoxic	B-NP	JJ	O	14	NMOD	0
+14	condition	condition	I-NP	NN	O	12	PMOD	0
+15	.	.	O	.	O	6	P	0
+
+1	Hypoxia-inducible	Hypoxia-inducible	B-NP	JJ	O	2	NMOD	0
+2	factor-1	factor-1	I-NP	NN	O	6	SUB	0
+3	(	(	O	(	O	5	DEP	0
+4	HIF-1	HIF-1	B-NP	NN	B-protein	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	one	one	B-NP	CD	O	6	PRD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	the	the	B-NP	DT	O	13	NMOD	0
+10	key	key	I-NP	JJ	O	13	NMOD	0
+11	mammalian	mammalian	I-NP	JJ	B-protein	13	NMOD	0
+12	transcription	transcription	I-NP	NN	I-protein	13	NMOD	0
+13	factors	factor	I-NP	NNS	I-protein	8	PMOD	0
+14	and	and	O	CC	O	6	VMOD	0
+15	shows	show	B-NP	NNS	O	17	NMOD	0
+16	increased	increase	B-VP	VBN	O	17	NMOD	0
+17	levels	level	B-NP	NNS	O	14	OBJ	0
+18	in	in	B-PP	IN	O	17	NMOD	0
+19	both	both	O	CC	O	25	NMOD	0
+20	protein	protein	B-NP	NN	O	21	NMOD	0
+21	stability	stability	I-NP	NN	O	25	NMOD	0
+22	and	and	O	CC	O	25	NMOD	0
+23	intrinsic	intrinsic	B-NP	JJ	O	25	NMOD	0
+24	transcriptional	transcriptional	I-NP	JJ	O	25	NMOD	0
+25	activity	activity	I-NP	NN	O	18	PMOD	0
+26	during	during	B-PP	IN	O	17	NMOD	0
+27	low	low	B-NP	JJ	O	29	NMOD	0
+28	oxygen	oxygen	I-NP	NN	O	29	NMOD	0
+29	tension	tension	I-NP	NN	O	26	PMOD	0
+30	.	.	O	.	O	6	P	0
+
+1	Hypoxia-activated	Hypoxia-activated	B-NP	JJ	O	4	NMOD	0
+2	functional	functional	I-NP	JJ	O	4	NMOD	0
+3	HIF-1	HIF-1	I-NP	NN	B-protein	4	NMOD	0
+4	protein	protein	I-NP	NN	I-protein	5	SUB	0
+5	binds	bind	B-VP	VBZ	O	0	ROOT	15	binds
+6	to	to	B-PP	TO	O	5	VMOD	0
+7	hypoxia-responsive	hypoxia-responsive	B-NP	JJ	B-DNA	8	NMOD	0
+8	elements	element	I-NP	NNS	I-DNA	6	PMOD	0
+9	(	(	O	(	O	11	DEP	0
+10	HRE	HRE	B-NP	NN	B-DNA	11	DEP	0
+11	)	)	O	)	O	8	NMOD	0
+12	in	in	B-PP	IN	O	8	NMOD	0
+13	the	the	B-NP	DT	O	14	NMOD	0
+14	enhancers	enhancer	I-NP	NNS	B-DNA	12	PMOD	0
+15	of	of	B-PP	IN	O	14	NMOD	0
+16	several	several	B-NP	JJ	O	17	NMOD	0
+17	genes	gene	I-NP	NNS	O	15	PMOD	0
+18	including	include	B-PP	VBG	O	17	NMOD	0
+19	VEGF	VEGF	B-NP	NN	B-protein	23	NMOD	0
+20	,	,	O	,	O	23	P	0
+21	the	the	B-NP	DT	O	23	NMOD	0
+22	major	major	I-NP	JJ	O	23	NMOD	0
+23	player	player	I-NP	NN	O	18	PMOD	0
+24	in	in	B-PP	IN	O	23	NMOD	0
+25	angiogenesis	angiogenesis	B-NP	NN	O	24	PMOD	3	angiogenesis
+26	,	,	O	,	O	5	P	0
+27	and	and	O	CC	O	5	VMOD	0
+28	initiates	initiate	B-VP	VBZ	O	5	VMOD	17	initiates
+29	their	their	B-NP	PRP$	O	31	NMOD	0
+30	mRNA	mRNA	I-NP	NN	B-RNA	31	NMOD	0
+31	expression	expression	I-NP	NN	O	28	OBJ	10	expression
+32	.	.	O	.	O	5	P	0
+
+1	The	The	B-NP	DT	O	3	NMOD	0
+2	molecular	molecular	I-NP	JJ	O	3	NMOD	0
+3	mechanisms	mechanism	I-NP	NNS	O	11	SUB	0
+4	regulating	regulate	B-VP	VBG	O	3	NMOD	0
+5	the	the	B-NP	DT	O	7	NMOD	0
+6	gene	gene	I-NP	NN	O	7	NMOD	0
+7	expression	expression	I-NP	NN	O	4	OBJ	0
+8	under	under	B-PP	IN	O	7	NMOD	0
+9	hypoxic	hypoxic	B-NP	JJ	O	10	NMOD	0
+10	conditions	condition	I-NP	NNS	O	8	PMOD	0
+11	could	could	B-VP	MD	O	0	ROOT	0
+12	increase	increase	I-VP	VB	O	11	VC	0
+13	the	the	B-NP	DT	O	15	NMOD	0
+14	therapeutic	therapeutic	I-NP	JJ	O	15	NMOD	0
+15	window	window	I-NP	NN	O	12	OBJ	0
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	tumor-specific	tumor-specific	B-NP	JJ	O	19	NMOD	0
+18	delivery	delivery	I-NP	NN	O	19	NMOD	0
+19	systems	system	I-NP	NNS	O	16	PMOD	0
+20	.	.	O	.	O	11	P	0
+
+1	In	In	B-PP	IN	O	6	VMOD	0
+2	this	this	B-NP	DT	O	3	NMOD	0
+3	study	study	I-NP	NN	O	1	PMOD	0
+4	,	,	O	,	O	6	P	0
+5	to	to	B-VP	TO	O	6	VMOD	0
+6	examine	examine	I-VP	VB	O	15	VMOD	0
+7	hypoxia-specific	hypoxia-specific	B-NP	JJ	O	8	NMOD	0
+8	production	production	I-NP	NN	O	6	OBJ	0
+9	of	of	B-PP	IN	O	8	NMOD	0
+10	anti-angiogenic	anti-angiogenic	B-NP	JJ	B-DNA	12	NMOD	3	angiogenic
+11	therapeutic	therapeutic	I-NP	JJ	I-DNA	12	NMOD	0
+12	gene	gene	I-NP	NN	I-DNA	9	PMOD	0
+13	,	,	O	,	O	15	P	0
+14	we	we	B-NP	PRP	O	15	SUB	0
+15	constructed	construct	B-VP	VBD	O	0	ROOT	19	constructed
+16	5	5	B-NP	CD	O	17	NMOD	0
+17	copies	copy	I-NP	NNS	O	15	OBJ	0
+18	of	of	B-PP	IN	O	17	NMOD	0
+19	HRE	HRE	B-NP	NN	B-DNA	18	PMOD	0
+20	(	(	O	(	O	22	DEP	0
+21	5xHRE	5xHRE	B-NP	NN	O	22	DEP	0
+22	)	)	O	)	O	19	NMOD	0
+23	of	of	B-PP	IN	O	19	NMOD	0
+24	human	human	B-NP	JJ	B-protein	25	NMOD	0
+25	VEGF	VEGF	I-NP	NN	I-protein	23	PMOD	0
+26	linked	link	B-VP	VBN	O	25	NMOD	19	linked
+27	to	to	B-PP	TO	O	26	VMOD	0
+28	soluble	soluble	B-NP	JJ	O	27	PMOD	0
+29	Tie2	Tie2	I-NP	NN	B-protein	28	NMOD	0
+30	(	(	O	(	O	32	DEP	0
+31	sTie2	sTie2	B-NP	NN	O	32	DEP	0
+32	)	)	O	)	O	29	NMOD	0
+33	driven	drive	B-VP	VBN	O	28	NMOD	0
+34	by	by	B-PP	IN	O	33	VMOD	0
+35	minimal	minimal	B-NP	JJ	B-DNA	37	NMOD	0
+36	SV40	SV40	I-NP	NN	I-DNA	37	NMOD	0
+37	promoter	promoter	I-NP	NN	I-DNA	34	PMOD	0
+38	(	(	O	(	O	40	DEP	0
+39	5xHRE/SV40/sTie2	5xHRE/SV40/sTie2	B-NP	NN	O	40	DEP	0
+40	)	)	O	)	O	37	NMOD	0
+41	.	.	O	.	O	15	P	0
+
+1	Our	Our	B-NP	PRP$	O	2	NMOD	0
+2	data	datum	I-NP	NNS	O	3	SUB	0
+3	showed	show	B-VP	VBD	O	0	ROOT	0
+4	that	that	B-SBAR	IN	O	3	VMOD	0
+5	under	under	B-PP	IN	O	11	VMOD	0
+6	hypoxia	hypoxia	B-NP	NN	O	5	PMOD	0
+7	the	the	B-NP	DT	O	9	NMOD	0
+8	secreted	secrete	I-NP	VBN	O	9	NMOD	14	secreted
+9	sTie2	sTie2	I-NP	NN	O	5	PMOD	0
+10	selectively	selectively	B-ADVP	RB	O	11	VMOD	0
+11	inhibited	inhibit	B-VP	VBD	O	4	SBAR	18	inhibited
+12	tube	tube	B-NP	NN	O	13	NMOD	0
+13	formation	formation	I-NP	NN	O	16	NMOD	2	formation
+14	and	and	I-NP	CC	O	16	NMOD	0
+15	migration	migration	I-NP	NN	O	16	NMOD	14	migration
+16	capacities	capacity	I-NP	NNS	O	11	OBJ	0
+17	of	of	B-PP	IN	O	16	NMOD	0
+18	endothelial	endothelial	B-NP	JJ	B-cell_type	19	NMOD	0
+19	cells	cell	I-NP	NNS	I-cell_type	17	PMOD	0
+20	in	in	B-ADVP	FW	O	11	VMOD	0
+21	vitro	vitro	I-ADVP	FW	O	20	AMOD	0
+22	.	.	O	.	O	3	P	0
+
+1	Hence	Hence	B-ADVP	RB	O	4	VMOD	0
+2	,	,	O	,	O	4	P	0
+3	we	we	B-NP	PRP	O	4	SUB	0
+4	propose	propose	B-VP	VBP	O	0	ROOT	0
+5	that	that	B-SBAR	IN	O	4	VMOD	0
+6	the	the	B-NP	DT	O	8	NMOD	0
+7	vector	vector	I-NP	NN	O	8	NMOD	0
+8	system	system	I-NP	NN	O	10	NMOD	0
+9	,	,	O	,	O	10	P	0
+10	5xHRE/SV40/sTie2	5xHRE/SV40/sTie2	B-NP	NN	O	12	SUB	0
+11	,	,	O	,	O	10	P	0
+12	might	might	B-VP	MD	O	5	SBAR	0
+13	be	be	I-VP	VB	O	12	VC	0
+14	a	a	B-NP	DT	O	16	NMOD	0
+15	useful	useful	I-NP	JJ	O	16	NMOD	0
+16	tool	tool	I-NP	NN	O	13	PRD	0
+17	for	for	B-PP	IN	O	16	NMOD	0
+18	down-regulating	down-regulate	B-VP	VBG	O	17	PMOD	18	down-regulating
+19	tumor	tumor	B-NP	NN	O	20	NMOD	0
+20	angiogenesis	angiogenesis	I-NP	NN	O	18	OBJ	3	angiogenesis
+21	under	under	B-PP	IN	O	18	VMOD	0
+22	hypoxic	hypoxic	B-NP	JJ	O	23	NMOD	0
+23	condition	condition	I-NP	NN	O	21	PMOD	0
+24	.	.	O	.	O	4	P	0
+

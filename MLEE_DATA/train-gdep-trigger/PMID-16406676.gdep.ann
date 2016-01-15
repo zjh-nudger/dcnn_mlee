@@ -1,0 +1,149 @@
+1	Regulation	Regulation	B-NP	NN	O	0	ROOT	16	Regulation
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	tumor	tumor	B-NP	NN	O	4	NMOD	0
+4	angiogenesis	angiogenesis	I-NP	NN	O	2	PMOD	3	angiogenesis
+5	by	by	B-PP	IN	O	1	NMOD	0
+6	thrombospondin-1	thrombospondin-1	B-NP	NN	B-protein	5	PMOD	0
+7	.	.	O	.	O	1	P	0
+
+1	Angiogenesis	Angiogenesis	B-NP	NN	O	2	SUB	3	Angiogenesis
+2	plays	play	B-VP	VBZ	O	0	ROOT	0
+3	a	a	B-NP	DT	O	5	NMOD	0
+4	critical	critical	I-NP	JJ	O	5	NMOD	0
+5	role	role	I-NP	NN	O	2	OBJ	0
+6	in	in	B-PP	IN	O	2	VMOD	0
+7	the	the	B-NP	DT	O	10	NMOD	0
+8	growth	growth	I-NP	NN	O	10	NMOD	4	growth
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	metastasis	metastasis	I-NP	NN	O	6	PMOD	14	metastasis
+11	of	of	B-PP	IN	O	10	NMOD	0
+12	tumors	tumor	B-NP	NNS	O	11	PMOD	0
+13	.	.	O	.	O	2	P	0
+
+1	Thrombospondin-1	Thrombospondin-1	B-NP	NN	B-protein	5	SUB	0
+2	(	(	O	(	O	4	DEP	0
+3	TSP-1	TSP-1	B-NP	NN	B-protein	4	DEP	0
+4	)	)	O	)	O	1	NMOD	0
+5	is	be	B-VP	VBZ	O	15	VMOD	0
+6	a	a	B-NP	DT	O	9	NMOD	0
+7	potent	potent	I-NP	JJ	O	9	NMOD	0
+8	angiogenesis	angiogenesis	I-NP	NN	O	9	NMOD	3	angiogenesis
+9	inhibitor	inhibitor	I-NP	NN	O	5	PRD	0
+10	,	,	O	,	O	15	P	0
+11	and	and	O	CC	O	12	NMOD	0
+12	down-regulation	down-regulation	B-NP	NN	O	15	SUB	18	down-regulation
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	TSP-1	TSP-1	B-NP	NN	B-protein	13	PMOD	0
+15	has	have	B-VP	VBZ	O	0	ROOT	0
+16	been	be	I-VP	VBN	O	15	VC	0
+17	suggested	suggest	I-VP	VBN	O	16	VC	0
+18	to	to	I-VP	TO	O	19	VMOD	0
+19	alter	alter	I-VP	VB	O	17	VMOD	16	alter
+20	tumor	tumor	B-NP	NN	O	21	NMOD	0
+21	growth	growth	I-NP	NN	O	19	OBJ	4	growth
+22	by	by	B-PP	IN	O	19	VMOD	0
+23	modulating	modulate	B-VP	VBG	O	22	PMOD	16	modulating
+24	angiogenesis	angiogenesis	B-NP	NN	O	23	OBJ	3	angiogenesis
+25	in	in	B-PP	IN	O	23	VMOD	0
+26	a	a	B-NP	DT	O	27	NMOD	0
+27	variety	variety	I-NP	NN	O	25	PMOD	0
+28	of	of	B-PP	IN	O	27	NMOD	0
+29	tumor	tumor	B-NP	NN	O	30	NMOD	0
+30	types	type	I-NP	NNS	O	28	PMOD	0
+31	.	.	O	.	O	15	P	0
+
+1	Expression	Expression	B-NP	NN	O	4	SUB	9	Expression
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	TSP-1	TSP-1	B-NP	NN	B-protein	2	PMOD	0
+4	is	be	B-VP	VBZ	O	0	ROOT	0
+5	up-regulated	up-regulate	I-VP	VBN	O	4	VC	17	up-regulated
+6	by	by	B-PP	IN	O	5	VMOD	0
+7	the	the	B-NP	DT	O	10	NMOD	0
+8	tumor	tumor	I-NP	NN	B-DNA	10	NMOD	0
+9	suppressor	suppressor	I-NP	NN	I-DNA	10	NMOD	0
+10	gene	gene	I-NP	NN	I-DNA	12	NMOD	0
+11	,	,	O	,	O	12	P	0
+12	p53	p53	B-NP	NN	B-protein	6	PMOD	0
+13	,	,	O	,	O	4	P	0
+14	and	and	O	CC	O	4	VMOD	0
+15	down-regulated	down-regulate	B-VP	VBN	O	4	VC	18	down-regulated
+16	by	by	B-PP	IN	O	15	VMOD	0
+17	oncogenes	oncogene	B-NP	NNS	B-DNA	16	PMOD	0
+18	such	such	B-PP	JJ	O	19	PMOD	0
+19	as	as	I-PP	IN	O	17	NMOD	0
+20	Myc	Myc	B-NP	NN	B-protein	22	NMOD	0
+21	and	and	I-NP	CC	O	22	NMOD	0
+22	Ras	Ras	I-NP	NN	B-protein	19	PMOD	0
+23	.	.	O	.	O	4	P	0
+
+1	TSP-1	TSP-1	B-NP	NN	B-protein	2	SUB	0
+2	inhibits	inhibit	B-VP	VBZ	O	0	ROOT	18	inhibits
+3	angiogenesis	angiogenesis	B-NP	NN	O	2	OBJ	3	angiogenesis
+4	by	by	B-PP	IN	O	2	VMOD	0
+5	inhibiting	inhibit	B-VP	VBG	O	4	PMOD	18	inhibiting
+6	endothelial	endothelial	B-NP	JJ	O	8	NMOD	0
+7	cell	cell	I-NP	NN	O	8	NMOD	0
+8	migration	migration	I-NP	NN	O	10	NMOD	14	migration
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	proliferation	proliferation	I-NP	NN	O	5	OBJ	1	proliferation
+11	and	and	B-PP	CC	O	4	PMOD	0
+12	by	by	B-PP	IN	O	4	PMOD	0
+13	inducing	induce	B-VP	VBG	O	12	PMOD	0
+14	apoptosis	apoptosis	B-NP	NN	O	13	OBJ	0
+15	.	.	O	.	O	2	P	0
+
+1	In	In	B-PP	IN	O	15	VMOD	0
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	15	P	0
+4	activation	activation	B-NP	NN	O	15	SUB	17	activation
+5	of	of	B-PP	IN	O	4	NMOD	0
+6	transforming	transform	B-VP	VBG	B-protein	9	NMOD	0
+7	growth	growth	B-NP	NN	I-protein	9	NMOD	0
+8	factor	factor	I-NP	NN	I-protein	9	NMOD	0
+9	beta	beta	I-NP	NN	I-protein	5	PMOD	0
+10	(	(	O	(	O	12	DEP	0
+11	TGF-beta	TGF-beta	B-NP	NN	B-protein	12	DEP	0
+12	)	)	O	)	O	9	NMOD	0
+13	by	by	B-PP	IN	O	4	NMOD	0
+14	TSP-1	TSP-1	B-NP	NN	B-protein	13	PMOD	0
+15	plays	play	B-VP	VBZ	O	0	ROOT	0
+16	a	a	B-NP	DT	O	18	NMOD	0
+17	crucial	crucial	I-NP	JJ	O	18	NMOD	0
+18	role	role	I-NP	NN	O	15	OBJ	0
+19	in	in	B-PP	IN	O	15	VMOD	0
+20	the	the	B-NP	DT	O	21	NMOD	0
+21	regulation	regulation	I-NP	NN	O	19	PMOD	16	regulation
+22	of	of	B-PP	IN	O	21	NMOD	0
+23	tumor	tumor	B-NP	NN	O	24	NMOD	0
+24	progression	progression	I-NP	NN	O	22	PMOD	2	progression
+25	.	.	O	.	O	15	P	0
+
+1	An	An	B-NP	DT	O	2	NMOD	0
+2	understanding	understanding	I-NP	NN	O	15	SUB	0
+3	of	of	B-PP	IN	O	2	NMOD	0
+4	the	the	B-NP	DT	O	6	NMOD	0
+5	molecular	molecular	I-NP	JJ	O	6	NMOD	0
+6	basis	basis	I-NP	NN	O	3	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	TSP-1-mediated	TSP-1-mediated	B-NP	JJ	O	9	NMOD	0
+9	inhibition	inhibition	I-NP	NN	O	7	PMOD	18	inhibition
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	angiogenesis	angiogenesis	B-NP	NN	O	14	NMOD	3	angiogenesis
+12	and	and	I-NP	CC	O	14	NMOD	0
+13	tumor	tumor	I-NP	NN	O	14	NMOD	0
+14	progression	progression	I-NP	NN	O	10	PMOD	2	progression
+15	will	will	B-VP	MD	O	0	ROOT	0
+16	aid	aid	I-VP	VB	O	15	VC	0
+17	in	in	B-PP	IN	O	16	VMOD	0
+18	the	the	B-NP	DT	O	19	NMOD	0
+19	development	development	I-NP	NN	O	17	PMOD	0
+20	of	of	B-PP	IN	O	19	NMOD	0
+21	novel	novel	B-NP	JJ	O	22	NMOD	0
+22	therapeutics	therapeutic	I-NP	NNS	O	20	PMOD	0
+23	for	for	B-PP	IN	O	22	NMOD	0
+24	the	the	B-NP	DT	O	25	NMOD	0
+25	treatment	treatment	I-NP	NN	O	23	PMOD	0
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	cancer	cancer	B-NP	NN	O	26	PMOD	0
+28	.	.	O	.	O	15	P	0
+

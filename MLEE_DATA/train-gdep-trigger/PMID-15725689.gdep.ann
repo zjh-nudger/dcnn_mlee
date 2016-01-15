@@ -1,0 +1,222 @@
+1	Role	Role	B-NP	NN	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	0
+3	thrombogenic	thrombogenic	B-NP	JJ	B-protein	4	NMOD	0
+4	factors	factor	I-NP	NNS	I-protein	2	PMOD	0
+5	in	in	B-PP	IN	O	1	NMOD	0
+6	the	the	B-NP	DT	O	7	NMOD	0
+7	development	development	I-NP	NN	O	5	PMOD	0
+8	of	of	B-PP	IN	O	7	NMOD	0
+9	atherosclerosis	atherosclerosis	B-NP	NN	O	8	PMOD	0
+10	.	.	O	.	O	1	P	0
+
+1	Hemostatic	Hemostatic	B-NP	JJ	B-protein	2	NMOD	0
+2	factors	factor	I-NP	NNS	I-protein	3	SUB	0
+3	play	play	B-VP	VBP	O	0	ROOT	0
+4	a	a	B-NP	DT	O	6	NMOD	0
+5	crucial	crucial	I-NP	JJ	O	6	NMOD	0
+6	role	role	I-NP	NN	O	3	OBJ	0
+7	in	in	B-PP	IN	O	3	VMOD	0
+8	generating	generate	B-VP	VBG	O	7	PMOD	2	generating
+9	thrombotic	thrombotic	B-NP	JJ	O	10	NMOD	0
+10	plugs	plug	I-NP	NNS	O	8	OBJ	0
+11	at	at	B-PP	IN	O	8	VMOD	0
+12	sites	site	B-NP	NNS	O	11	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	vascular	vascular	B-NP	JJ	O	15	NMOD	0
+15	damage	damage	I-NP	NN	O	13	PMOD	6	damage
+16	(	(	O	(	O	18	DEP	0
+17	atherothrombosis	atherothrombosis	B-NP	NN	O	18	DEP	0
+18	)	)	O	)	O	15	NMOD	0
+19	.	.	O	.	O	3	P	0
+
+1	However	However	B-ADVP	RB	O	15	VMOD	0
+2	,	,	O	,	O	15	P	0
+3	whether	whether	B-SBAR	IN	O	15	SUB	0
+4	hemostatic	hemostatic	B-NP	JJ	B-protein	5	NMOD	0
+5	factors	factor	I-NP	NNS	I-protein	6	SUB	0
+6	contribute	contribute	B-VP	VBP	O	3	SBAR	0
+7	directly	directly	B-ADVP	RB	O	6	VMOD	0
+8	or	or	B-ADVP	CC	O	7	AMOD	0
+9	indirectly	indirectly	B-ADVP	RB	O	7	AMOD	0
+10	to	to	B-PP	TO	O	6	VMOD	0
+11	the	the	B-NP	DT	O	12	NMOD	0
+12	pathogenesis	pathogenesis	I-NP	NN	O	10	PMOD	0
+13	of	of	B-PP	IN	O	12	NMOD	0
+14	atherosclerosis	atherosclerosis	B-NP	NN	O	13	PMOD	0
+15	remains	remain	B-VP	VBZ	O	0	ROOT	0
+16	uncertain	uncertain	B-ADJP	JJ	O	15	PRD	0
+17	.	.	O	.	O	15	P	0
+
+1	Autopsy	Autopsy	B-NP	NN	O	2	NMOD	0
+2	studies	study	I-NP	NNS	O	3	SUB	0
+3	have	have	B-VP	VBP	O	0	ROOT	0
+4	revealed	reveal	I-VP	VBN	O	3	VC	0
+5	that	that	B-SBAR	IN	O	15	DEP	0
+6	intimal	intimal	B-NP	JJ	O	7	NMOD	0
+7	thickening	thickening	I-NP	NN	O	8	SUB	4	thickening
+8	represents	represent	B-VP	VBZ	O	5	SBAR	0
+9	the	the	B-NP	DT	O	11	NMOD	0
+10	first	first	I-NP	JJ	O	11	NMOD	0
+11	stage	stage	I-NP	NN	O	8	OBJ	0
+12	of	of	B-PP	IN	O	11	NMOD	0
+13	atherosclerosis	atherosclerosis	B-NP	NN	O	12	PMOD	0
+14	and	and	O	CC	O	15	DEP	0
+15	that	that	B-SBAR	IN	O	4	VMOD	0
+16	lipid-rich	lipid-rich	B-NP	JJ	O	17	NMOD	0
+17	plaque	plaque	I-NP	NN	O	18	SUB	0
+18	arises	arise	B-VP	VBZ	O	15	SBAR	0
+19	from	from	B-PP	IN	O	18	VMOD	0
+20	such	such	B-NP	JJ	O	21	NMOD	0
+21	lesions	lesion	I-NP	NNS	O	19	PMOD	0
+22	.	.	O	.	O	3	P	0
+
+1	Several	Several	B-NP	JJ	O	2	NMOD	0
+2	factors	factor	I-NP	NNS	O	3	SUB	0
+3	contribute	contribute	B-VP	VBP	O	0	ROOT	17	contribute
+4	to	to	B-PP	TO	O	3	VMOD	0
+5	the	the	B-NP	DT	O	6	NMOD	0
+6	start	start	I-NP	NN	O	4	PMOD	0
+7	of	of	B-PP	IN	O	6	NMOD	0
+8	intimal	intimal	B-NP	JJ	O	9	NMOD	0
+9	thickening	thickening	I-NP	NN	O	7	PMOD	4	thickening
+10	.	.	O	.	O	3	P	0
+
+1	Platelets	Platelet	B-NP	NNS	B-cell_type	2	SUB	0
+2	release	release	B-VP	VBP	O	0	ROOT	0
+3	several	several	B-NP	JJ	O	5	NMOD	0
+4	growth	growth	I-NP	NN	B-protein	5	NMOD	0
+5	factors	factor	I-NP	NNS	I-protein	2	OBJ	0
+6	and	and	O	CC	O	8	NMOD	0
+7	bioactive	bioactive	B-NP	JJ	O	8	NMOD	0
+8	agents	agent	I-NP	NNS	O	2	OBJ	0
+9	that	that	B-NP	WDT	O	8	NMOD	0
+10	play	play	B-VP	VBP	O	9	SBAR	0
+11	a	a	B-NP	DT	O	13	NMOD	0
+12	central	central	I-NP	JJ	O	13	NMOD	0
+13	role	role	I-NP	NN	O	10	OBJ	0
+14	in	in	B-PP	IN	O	10	VMOD	0
+15	development	development	B-NP	NN	O	14	PMOD	2	development
+16	of	of	B-PP	IN	O	15	NMOD	0
+17	not	not	B-CONJP	RB	O	16	PMOD	0
+18	only	only	I-CONJP	RB	O	17	DEP	0
+19	thrombus	thrombus	B-NP	NN	O	17	NMOD	0
+20	but	but	B-CONJP	CC	O	19	NMOD	0
+21	also	also	I-CONJP	RB	O	20	DEP	0
+22	of	of	B-PP	IN	O	20	PMOD	0
+23	intimal	intimal	B-NP	JJ	O	24	NMOD	0
+24	thickening	thickening	I-NP	NN	O	22	PMOD	4	thickening
+25	.	.	O	.	O	2	P	0
+
+1	We	We	B-NP	PRP	O	2	SUB	0
+2	have	have	B-VP	VBP	O	0	ROOT	0
+3	been	be	I-VP	VBN	O	2	VC	0
+4	investigating	investigate	I-VP	VBG	O	3	VC	0
+5	which	which	B-NP	WDT	O	4	VMOD	0
+6	coagulation	coagulation	B-NP	NN	B-protein	7	NMOD	0
+7	factors	factor	I-NP	NNS	I-protein	5	NMOD	0
+8	simultaneously	simultaneously	B-ADVP	RB	O	5	NMOD	0
+9	,	,	O	,	O	16	P	0
+10	or	or	O	CC	O	16	VMOD	0
+11	subsequently	subsequently	B-ADVP	RB	O	16	VMOD	0
+12	with	with	B-PP	IN	O	11	PMOD	0
+13	platelet	platelet	B-NP	NN	O	14	NMOD	0
+14	aggregation	aggregation	I-NP	NN	O	12	PMOD	15	aggregation
+15	,	,	O	,	O	11	P	0
+16	participate	participate	B-VP	VBP	O	5	SBAR	17	participate
+17	in	in	B-PP	IN	O	16	VMOD	0
+18	thrombus	thrombus	B-NP	NN	O	19	NMOD	0
+19	formation	formation	I-NP	NN	O	17	PMOD	2	formation
+20	.	.	O	.	O	2	P	0
+
+1	Tissue	Tissue	B-NP	NN	B-protein	2	NMOD	0
+2	factor	factor	I-NP	NN	I-protein	6	SUB	0
+3	(	(	O	(	O	5	DEP	0
+4	TF	TF	B-NP	NN	B-protein	5	DEP	0
+5	)	)	O	)	O	2	NMOD	0
+6	is	be	B-VP	VBZ	O	0	ROOT	0
+7	an	an	B-NP	DT	O	9	NMOD	0
+8	essential	essential	I-NP	JJ	O	9	NMOD	0
+9	initiator	initiator	I-NP	NN	O	6	PRD	0
+10	of	of	B-PP	IN	O	9	NMOD	0
+11	blood	blood	B-NP	NN	O	12	NMOD	0
+12	coagulation	coagulation	I-NP	NN	O	10	PMOD	0
+13	that	that	B-NP	WDT	O	12	NMOD	0
+14	is	be	B-VP	VBZ	O	13	SBAR	0
+15	expressed	express	I-VP	VBN	O	14	VC	9	expressed
+16	in	in	B-PP	IN	O	15	VMOD	0
+17	various	various	B-NP	JJ	O	18	NMOD	0
+18	stages	stage	I-NP	NNS	O	16	PMOD	0
+19	of	of	B-PP	IN	O	18	NMOD	0
+20	atherosclerotic	atherosclerotic	B-NP	JJ	O	21	NMOD	0
+21	lesions	lesion	I-NP	NNS	O	19	PMOD	0
+22	in	in	B-PP	IN	O	21	NMOD	0
+23	humans	human	B-NP	NNS	O	26	NMOD	0
+24	and	and	O	CC	O	26	NMOD	0
+25	other	other	B-NP	JJ	O	26	NMOD	0
+26	animals	animal	I-NP	NNS	O	22	PMOD	0
+27	.	.	O	.	O	6	P	0
+
+1	Factors	Factor	B-NP	NNS	O	19	SUB	0
+2	including	include	B-PP	VBG	O	1	NMOD	0
+3	thrombin	thrombin	B-NP	NN	B-protein	5	NMOD	0
+4	and	and	I-NP	CC	O	5	NMOD	0
+5	fibrin	fibrin	I-NP	NN	B-protein	2	PMOD	0
+6	,	,	O	,	O	1	P	0
+7	which	which	B-NP	WDT	O	1	NMOD	0
+8	are	be	B-VP	VBP	O	7	SBAR	0
+9	downstream	downstream	B-ADJP	JJ	O	8	PRD	16	downstream
+10	of	of	B-PP	IN	O	9	AMOD	0
+11	the	the	B-NP	DT	O	13	NMOD	0
+12	coagulation	coagulation	I-NP	NN	O	13	NMOD	0
+13	cascade	cascade	I-NP	NN	O	10	PMOD	0
+14	activated	activate	B-VP	VBN	O	13	NMOD	17	activated
+15	by	by	B-PP	IN	O	14	VMOD	0
+16	TF	TF	B-NP	NN	B-protein	15	PMOD	0
+17	,	,	O	,	O	1	P	0
+18	also	also	B-ADVP	RB	O	19	VMOD	0
+19	contribute	contribute	B-VP	VBP	O	0	ROOT	0
+20	to	to	B-PP	TO	O	19	VMOD	0
+21	atherosclerosis	atherosclerosis	B-NP	NN	O	20	PMOD	0
+22	.	.	O	.	O	19	P	0
+
+1	TF	TF	B-NP	NN	B-protein	2	SUB	0
+2	is	be	B-VP	VBZ	O	0	ROOT	0
+3	involved	involve	I-VP	VBN	O	2	VC	17	involved
+4	in	in	B-PP	IN	O	3	VMOD	0
+5	cell	cell	B-NP	NN	O	6	NMOD	0
+6	migration	migration	I-NP	NN	O	10	NMOD	14	migration
+7	,	,	O	,	O	10	P	0
+8	embryogenesis	embryogenesis	B-NP	NN	O	10	NMOD	0
+9	and	and	I-NP	CC	O	10	NMOD	0
+10	angiogenesis	angiogenesis	I-NP	NN	O	4	PMOD	3	angiogenesis
+11	.	.	O	.	O	2	P	0
+
+1	Thus	Thus	B-NP	RB	O	21	VMOD	0
+2	TF	TF	I-NP	NN	B-protein	21	SUB	0
+3	,	,	O	,	O	2	P	0
+4	in	in	B-PP	IN	O	2	AMOD	0
+5	addition	addition	B-NP	NN	O	4	PMOD	0
+6	to	to	B-PP	TO	O	5	NMOD	0
+7	factors	factor	B-NP	NNS	O	19	NMOD	0
+8	downstream	downstream	B-ADVP	RB	O	7	NMOD	0
+9	of	of	B-PP	IN	O	8	AMOD	0
+10	the	the	B-NP	DT	O	12	NMOD	0
+11	coagulation	coagulation	I-NP	NN	O	12	NMOD	0
+12	cascade	cascade	I-NP	NN	O	9	PMOD	0
+13	and	and	O	CC	O	19	NMOD	0
+14	the	the	B-NP	DT	O	19	NMOD	0
+15	protease-activated	protease-activated	I-NP	JJ	O	19	NMOD	0
+16	receptor	receptor	I-NP	NN	O	19	NMOD	0
+17	2	2	I-NP	CD	O	19	NMOD	0
+18	activation	activation	I-NP	NN	O	19	NMOD	0
+19	system	system	I-NP	NN	O	6	PMOD	0
+20	,	,	O	,	O	2	P	0
+21	would	would	B-VP	MD	O	0	ROOT	0
+22	be	be	I-VP	VB	O	21	VC	0
+23	a	a	B-NP	DT	O	25	NMOD	0
+24	multifactorial	multifactorial	I-NP	JJ	O	25	NMOD	0
+25	regulator	regulator	I-NP	NN	O	22	PRD	0
+26	of	of	B-PP	IN	O	25	NMOD	0
+27	atherogenesis	atherogenesis	B-NP	NN	O	26	PMOD	0
+28	.	.	O	.	O	21	P	0
+

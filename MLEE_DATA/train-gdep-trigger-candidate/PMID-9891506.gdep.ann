@@ -1,0 +1,253 @@
+1	Effect	Effect	B-NP	NN	O	0	ROOT	0
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	U-995	U-995	B-NP	NN	B-cell_line	10	NMOD	-1
+4	,	,	O	,	O	10	P	-1
+5	a	a	B-NP	DT	O	10	NMOD	-1
+6	potent	potent	I-NP	JJ	O	10	NMOD	-1
+7	shark	shark	I-NP	NN	O	10	NMOD	-1
+8	cartilage-derived	cartilage-derived	I-NP	JJ	O	10	NMOD	-1
+9	angiogenesis	angiogenesis	I-NP	NN	O	10	NMOD	3	angiogenesis
+10	inhibitor	inhibitor	I-NP	NN	O	2	PMOD	0
+11	,	,	O	,	O	10	P	-1
+12	on	on	B-PP	IN	O	1	NMOD	-1
+13	anti-angiogenesis	anti-angiogenesis	B-NP	JJ	O	15	AMOD	3	angiogenesis
+14	and	and	I-NP	CC	O	15	AMOD	-1
+15	anti-tumor	anti-tumor	I-NP	JJ	O	16	NMOD	-1
+16	activities	activity	I-NP	NNS	O	12	PMOD	18	activities
+17	.	.	O	.	O	1	P	-1
+
+1	BACKGROUND	BACKGROUND	B-NP	NN	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	A	A	B-NP	DT	O	6	NMOD	-1
+4	potent	potent	I-NP	JJ	O	6	NMOD	-1
+5	angiogenesis	angiogenesis	I-NP	NN	O	6	NMOD	3	angiogenesis
+6	inhibitor	inhibitor	I-NP	NN	O	8	NMOD	0
+7	,	,	O	,	O	8	P	-1
+8	U-995	U-995	B-NP	NN	B-cell_line	10	SUB	-1
+9	,	,	O	,	O	8	P	-1
+10	has	have	B-VP	VBZ	O	1	NMOD	-1
+11	been	be	I-VP	VBN	O	10	VC	-1
+12	purified	purify	I-VP	VBN	O	11	VC	19	purified
+13	from	from	B-PP	IN	O	12	VMOD	-1
+14	the	the	B-NP	DT	O	15	NMOD	-1
+15	cartilage	cartilage	I-NP	NN	O	13	PMOD	-1
+16	of	of	B-PP	IN	O	15	NMOD	-1
+17	the	the	B-NP	DT	O	19	NMOD	-1
+18	blue	blue	I-NP	JJ	O	19	NMOD	-1
+19	shark	shark	I-NP	NN	O	16	PMOD	-1
+20	(	(	O	(	O	23	DEP	-1
+21	Prionace	Prionace	B-NP	NN	O	22	NMOD	-1
+22	glauca	glauca	I-NP	NN	O	23	DEP	-1
+23	)	)	O	)	O	19	NMOD	-1
+24	.	.	O	.	O	10	P	-1
+
+1	U-995	U-995	B-NP	NN	B-cell_line	2	SUB	-1
+2	is	be	B-VP	VBZ	O	0	ROOT	-1
+3	composed	compose	I-VP	VBN	O	2	VC	-1
+4	of	of	B-PP	IN	O	3	VMOD	-1
+5	two	two	B-NP	CD	O	7	NMOD	-1
+6	single	single	I-NP	JJ	O	7	NMOD	-1
+7	peptides	peptide	I-NP	NNS	O	4	PMOD	-1
+8	with	with	B-PP	IN	O	7	NMOD	-1
+9	molecular	molecular	B-NP	JJ	O	10	NMOD	-1
+10	mass	mass	I-NP	NN	O	8	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	10	10	B-NP	CD	O	14	AMOD	-1
+13	and	and	I-NP	CC	O	14	AMOD	-1
+14	14	14	I-NP	CD	O	15	NMOD	-1
+15	kDa	kDa	I-NP	NN	O	11	PMOD	-1
+16	,	,	O	,	O	3	P	-1
+17	respectively	respectively	B-ADVP	RB	O	3	VMOD	-1
+18	.	.	O	.	O	2	P	-1
+
+1	MATERIALS	MATERIALS	B-NP	NNS	O	3	NMOD	-1
+2	AND	AND	I-NP	CC	O	3	NMOD	-1
+3	METHODS	METHODS	I-NP	NNS	O	6	SUB	-1
+4	:	:	O	:	O	6	P	-1
+5	U-995	U-995	B-NP	NN	B-cell_line	6	SUB	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	designed	design	I-VP	VBN	O	6	VC	-1
+8	to	to	B-VP	TO	O	9	VMOD	-1
+9	study	study	I-VP	VB	O	6	VMOD	-1
+10	human	human	B-NP	JJ	B-cell_type	14	NMOD	-1
+11	umbilical	umbilical	I-NP	JJ	I-cell_type	14	NMOD	-1
+12	vein	vein	I-NP	NN	I-cell_type	14	NMOD	-1
+13	endothelial	endothelial	I-NP	JJ	I-cell_type	14	NMOD	-1
+14	cell	cell	I-NP	NN	I-cell_type	20	NMOD	-1
+15	(	(	O	(	O	17	DEP	-1
+16	HUVEC	HUVEC	B-NP	NN	B-cell_line	17	DEP	-1
+17	)	)	O	)	O	14	NMOD	-1
+18	migration	migration	B-NP	NN	O	14	NMOD	14	migration
+19	and	and	I-NP	CC	O	14	NMOD	-1
+20	proliferation	proliferation	I-NP	NN	O	9	OBJ	1	proliferation
+21	in	in	B-ADVP	FW	O	24	NMOD	-1
+22	vitro	vitro	I-ADVP	FW	O	21	AMOD	-1
+23	and	and	O	CC	O	21	AMOD	-1
+24	angiogenesis	angiogenesis	B-NP	NN	O	9	VMOD	3	angiogenesis
+25	induced	induce	B-VP	VBN	O	24	NMOD	17	induced
+26	by	by	B-PP	IN	O	25	VMOD	-1
+27	TNF	TNF	B-NP	NN	B-protein	28	NMOD	-1
+28	alpha	alpha	I-NP	NN	I-protein	26	PMOD	-1
+29	in	in	B-PP	IN	O	25	VMOD	-1
+30	chicken	chicken	B-NP	NN	O	32	NMOD	-1
+31	chorioallantoic	chorioallantoic	I-NP	JJ	O	32	NMOD	-1
+32	membrane	membrane	I-NP	NN	O	29	PMOD	-1
+33	(	(	O	(	O	35	DEP	-1
+34	CAM	CAM	B-NP	NN	B-protein	35	DEP	-1
+35	)	)	O	)	O	32	NMOD	-1
+36	.	.	O	.	O	6	P	-1
+
+1	Furthermore	Furthermore	B-ADVP	RB	O	4	VMOD	-1
+2	,	,	O	,	O	4	P	-1
+3	we	we	B-NP	PRP	O	4	SUB	-1
+4	determined	determine	B-VP	VBD	O	0	ROOT	-1
+5	the	the	B-NP	DT	O	6	NMOD	-1
+6	ability	ability	I-NP	NN	O	4	OBJ	0
+7	of	of	B-PP	IN	O	6	NMOD	-1
+8	U-995	U-995	B-NP	NN	B-cell_line	7	PMOD	-1
+9	to	to	B-PP	TO	O	6	NMOD	-1
+10	inhibiting	inhibit	B-VP	VBG	O	9	PMOD	18	inhibiting
+11	tumor	tumor	B-NP	NN	O	13	NMOD	-1
+12	cell	cell	I-NP	NN	O	13	NMOD	-1
+13	growth	growth	I-NP	NN	O	15	NMOD	1	growth
+14	and	and	O	CC	O	15	NMOD	-1
+15	metastasis	metastasis	B-NP	NN	O	10	OBJ	14	metastasis
+16	.	.	O	.	O	4	P	-1
+
+1	RESULTS	RESULTS	B-NP	NNS	O	0	ROOT	0
+2	:	:	O	:	O	1	P	-1
+3	U-995	U-995	B-NP	NN	O	11	SUB	-1
+4	(	(	O	(	O	9	DEP	-1
+5	15	15	B-NP	CD	O	7	AMOD	-1
+6	and	and	I-NP	CC	O	7	AMOD	-1
+7	30	30	I-NP	CD	O	8	NMOD	-1
+8	micrograms/ml	micrograms/ml	I-NP	NN	O	9	DEP	-1
+9	)	)	O	)	O	3	NMOD	-1
+10	markedly	markedly	B-ADVP	RB	O	11	VMOD	-1
+11	inhibited	inhibit	B-VP	VBD	O	19	VMOD	18	inhibited
+12	HUVEC	HUVEC	B-NP	NN	B-cell_type	13	NMOD	-1
+13	migration	migration	I-NP	NN	O	19	SUB	14	migration
+14	and	and	O	CC	O	19	VMOD	-1
+15	,	,	O	,	O	19	P	-1
+16	at	at	B-PP	IN	O	19	VMOD	-1
+17	15-50	15-50	B-NP	CD	O	18	NMOD	-1
+18	micrograms/ml	micrograms/ml	I-NP	NNS	O	16	PMOD	-1
+19	produced	produce	B-VP	VBD	O	1	NMOD	0
+20	a	a	B-NP	DT	O	22	NMOD	-1
+21	dose-dependent	dose-dependent	I-NP	JJ	O	22	NMOD	-1
+22	decline	decline	I-NP	NN	O	19	OBJ	0
+23	in	in	B-PP	IN	O	22	NMOD	-1
+24	[	[	B-NP	(	O	26	DEP	-1
+25	3H	3H	I-NP	NN	O	26	DEP	-1
+26	]	]	I-NP	)	O	28	NMOD	-1
+27	-thymidine	-thymidine	I-NP	JJ	O	28	NMOD	-1
+28	incorporation	incorporation	I-NP	NN	O	23	PMOD	0
+29	.	.	O	.	O	1	P	-1
+
+1	30	30	B-NP	CD	O	3	AMOD	-1
+2	and	and	I-NP	CC	O	3	AMOD	-1
+3	50	50	I-NP	CD	O	4	NMOD	-1
+4	micrograms/ml	micrograms/ml	I-NP	NNS	O	0	ROOT	-1
+5	of	of	B-PP	IN	O	4	NMOD	-1
+6	U-995	U-995	B-NP	NN	B-cell_line	5	PMOD	-1
+7	,	,	O	,	O	4	P	-1
+8	when	when	B-ADVP	WRB	O	4	VMOD	-1
+9	added	add	B-VP	VBN	O	8	SBAR	19	added
+10	to	to	B-PP	TO	O	9	VMOD	-1
+11	TNF	TNF	B-NP	NN	B-protein	13	NMOD	-1
+12	alpha-induced	alpha-induced	I-NP	JJ	O	11	AMOD	17	induced
+13	angiogenesis	angiogenesis	I-NP	NN	O	10	PMOD	3	angiogenesis
+14	caused	cause	B-VP	VBD	O	8	SBAR	17	caused
+15	discontinuous	discontinuous	B-NP	JJ	O	19	NMOD	-1
+16	and	and	I-NP	CC	O	19	NMOD	-1
+17	disrupted	disrupt	I-NP	VBN	O	19	NMOD	6	disrupted
+18	blood	blood	I-NP	NN	O	19	NMOD	-1
+19	vessels	vessel	I-NP	NNS	O	14	OBJ	-1
+20	.	.	O	.	O	4	P	-1
+
+1	Moreover	Moreover	B-ADVP	RB	O	9	VMOD	-1
+2	,	,	O	,	O	9	P	-1
+3	U-995	U-995	B-NP	NN	B-cell_line	9	SUB	-1
+4	(	(	O	(	O	7	DEP	-1
+5	30	30	B-NP	CD	O	6	NMOD	-1
+6	micrograms/ml	micrograms/ml	I-NP	NNS	O	7	DEP	-1
+7	)	)	O	)	O	3	NMOD	-1
+8	markedly	markedly	B-ADVP	RB	O	9	VMOD	-1
+9	prevented	prevent	B-VP	VBD	O	0	ROOT	18	prevented
+10	collagenase-induced	collagenase-induced	B-NP	JJ	O	11	NMOD	17	induced
+11	collagenolysis	collagenolysis	I-NP	NN	O	9	OBJ	3	collagenolysis
+12	.	.	O	.	O	9	P	-1
+
+1	In	In	B-PP	IN	O	0	ROOT	-1
+2	addition	addition	B-NP	NN	O	1	PMOD	0
+3	,	,	O	,	O	1	VMOD	-1
+4	when	when	B-ADVP	WRB	O	3	ROOT	-1
+5	200	200	B-NP	CD	O	6	AMOD	-1
+6	micrograms	microgram	I-NP	NNS	O	7	NMOD	-1
+7	U-995	U-995	I-NP	NN	B-cell_line	8	SUB	-1
+8	was	be	B-VP	VBD	O	4	SBAR	-1
+9	injected	inject	I-VP	VBN	O	8	VMOD	19	injected
+10	i.p	i.p	B-ADJP	JJ	O	9	PRD	-1
+11	.	.	O	.	O	4	P	-1
+
+1	into	into	B-PP	IN	O	4	VMOD	-1
+2	mice	mouse	B-NP	NNS	O	1	PMOD	-1
+3	it	it	B-NP	PRP	O	4	SUB	-1
+4	suppressed	suppress	B-VP	VBD	O	0	ROOT	18	suppressed
+5	sarcoma-180	sarcoma-180	B-NP	NN	O	7	NMOD	-1
+6	cell	cell	I-NP	NN	O	7	NMOD	-1
+7	growth	growth	I-NP	NN	O	13	NMOD	1	growth
+8	and	and	O	CC	O	13	NMOD	-1
+9	B16-F10	B16-F10	B-NP	NN	O	13	NMOD	-1
+10	mouse	mouse	I-NP	NN	O	13	NMOD	-1
+11	melanoma	melanoma	I-NP	NN	O	13	NMOD	-1
+12	cell	cell	I-NP	NN	O	13	NMOD	-1
+13	metastasis	metastasis	I-NP	NN	O	4	OBJ	14	metastasis
+14	in	in	B-ADVP	FW	O	4	VMOD	-1
+15	vivo	vivo	I-ADVP	FW	O	14	AMOD	-1
+16	.	.	O	.	O	4	P	-1
+
+1	CONCLUSIONS	CONCLUSIONS	B-NP	NNS	O	0	ROOT	-1
+2	:	:	O	:	O	1	P	-1
+3	These	These	B-NP	DT	O	4	NMOD	-1
+4	results	result	I-NP	NNS	O	5	SUB	0
+5	suggest	suggest	B-VP	VBP	O	1	NMOD	-1
+6	that	that	B-SBAR	IN	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	anti-angiogenic	anti-angiogenic	I-NP	JJ	O	9	NMOD	3	angiogenic
+9	effects	effect	I-NP	NNS	O	12	SUB	18	effects
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	U-995	U-995	B-NP	NN	B-cell_line	10	PMOD	-1
+12	may	may	B-VP	MD	O	6	SBAR	-1
+13	be	be	I-VP	VB	O	12	VC	-1
+14	be	be	I-VP	VB	O	13	PRD	-1
+15	due	due	B-ADJP	JJ	O	14	PRD	17	due
+16	to	to	B-PP	TO	O	15	AMOD	-1
+17	interference	interference	B-NP	NN	O	16	PMOD	18	interference
+18	with	with	B-PP	IN	O	17	NMOD	-1
+19	the	the	B-NP	DT	O	22	NMOD	-1
+20	proliferation	proliferation	I-NP	NN	O	22	NMOD	1	proliferation
+21	and	and	I-NP	CC	O	22	NMOD	-1
+22	migration	migration	I-NP	NN	O	18	PMOD	14	migration
+23	of	of	B-PP	IN	O	22	NMOD	-1
+24	HUVECs	HUVEC	B-NP	NNS	B-cell_line	23	PMOD	-1
+25	as	as	B-CONJP	RB	O	28	NMOD	-1
+26	well	well	I-CONJP	RB	O	25	DEP	-1
+27	as	as	I-CONJP	IN	O	25	DEP	-1
+28	inhibition	inhibition	B-NP	NN	O	15	DEP	18	inhibition
+29	of	of	B-PP	IN	O	28	NMOD	-1
+30	collagenolysis	collagenolysis	B-NP	NN	O	29	PMOD	0
+31	,	,	O	,	O	15	P	-1
+32	thereby	thereby	B-VP	RB	O	33	VMOD	-1
+33	leading	lead	I-VP	VBG	O	15	AMOD	0
+34	to	to	B-PP	TO	O	33	VMOD	-1
+35	inhibition	inhibition	B-NP	NN	O	34	PMOD	18	inhibition
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	both	both	O	CC	O	42	NMOD	-1
+38	angiogenesis	angiogenesis	B-NP	NN	O	42	NMOD	3	angiogenesis
+39	and	and	O	CC	O	42	NMOD	-1
+40	tumor	tumor	B-NP	NN	O	42	NMOD	-1
+41	cell	cell	I-NP	NN	O	42	NMOD	-1
+42	growth	growth	I-NP	NN	O	36	PMOD	1	growth
+43	.	.	O	.	O	1	P	-1
+

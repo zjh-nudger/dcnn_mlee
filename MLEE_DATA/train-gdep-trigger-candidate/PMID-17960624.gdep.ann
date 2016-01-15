@@ -1,0 +1,272 @@
+1	Ovarian	Ovarian	B-NP	JJ	O	2	NMOD	-1
+2	cancers	cancer	I-NP	NNS	O	3	SUB	-1
+3	overexpress	overexpres	B-VP	VBP	O	0	ROOT	9	overexpress
+4	the	the	B-NP	DT	O	7	NMOD	-1
+5	antimicrobial	antimicrobial	I-NP	JJ	B-protein	7	NMOD	-1
+6	protein	protein	I-NP	NN	I-protein	7	NMOD	-1
+7	hCAP-18	hCAP-18	I-NP	NN	O	11	NMOD	-1
+8	and	and	O	CC	O	11	NMOD	-1
+9	its	its	B-NP	PRP$	O	11	NMOD	-1
+10	derivative	derivative	I-NP	JJ	O	11	NMOD	-1
+11	LL-37	LL-37	I-NP	NN	B-protein	12	SUB	-1
+12	increases	increase	B-VP	VBZ	O	3	VMOD	17	increases
+13	ovarian	ovarian	B-NP	JJ	B-cell_type	15	NMOD	-1
+14	cancer	cancer	I-NP	NN	I-cell_type	15	NMOD	-1
+15	cell	cell	I-NP	NN	I-cell_type	12	OBJ	-1
+16	proliferation	proliferation	I-NP	NN	O	15	NMOD	1	proliferation
+17	and	and	I-NP	CC	O	15	NMOD	-1
+18	invasion	invasion	I-NP	NN	O	15	NMOD	14	invasion
+19	.	.	O	.	O	3	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	role	role	I-NP	NN	O	28	SUB	16	role
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	the	the	B-NP	DT	O	6	NMOD	-1
+5	pro-inflammatory	pro-inflammatory	I-NP	JJ	O	6	NMOD	-1
+6	peptide	peptide	I-NP	NN	O	17	NMOD	-1
+7	,	,	O	,	O	17	P	-1
+8	LL-37	LL-37	B-NP	NN	B-protein	17	NMOD	-1
+9	,	,	O	,	O	17	P	-1
+10	and	and	O	CC	O	17	NMOD	-1
+11	its	its	B-NP	PRP$	O	17	NMOD	-1
+12	pro-form	pro-form	I-NP	JJ	O	17	NMOD	-1
+13	,	,	I-NP	,	O	17	P	-1
+14	human	human	I-NP	JJ	B-protein	17	NMOD	-1
+15	cationic	cationic	I-NP	JJ	I-protein	17	NMOD	-1
+16	antimicrobial	antimicrobial	I-NP	JJ	I-protein	17	NMOD	-1
+17	protein	protein	I-NP	NN	I-protein	3	PMOD	-1
+18	18	18	I-NP	CD	I-protein	17	NMOD	-1
+19	(	(	O	(	O	21	DEP	-1
+20	hCAP-18	hCAP-18	B-NP	NN	B-protein	21	DEP	-1
+21	)	)	O	)	O	17	NMOD	-1
+22	,	,	O	,	O	2	P	-1
+23	in	in	B-PP	IN	O	2	NMOD	-1
+24	cancer	cancer	B-NP	NN	O	25	NMOD	-1
+25	development	development	I-NP	NN	O	27	NMOD	2	development
+26	and	and	O	CC	O	27	NMOD	-1
+27	progression	progression	B-NP	NN	O	23	PMOD	2	progression
+28	is	be	B-VP	VBZ	O	0	ROOT	-1
+29	poorly	poorly	I-VP	RB	O	28	VMOD	-1
+30	understood	understand	I-VP	VBN	O	28	VC	-1
+31	.	.	O	.	O	28	P	-1
+
+1	In	In	B-PP	IN	O	8	VMOD	-1
+2	damaged	damage	B-NP	VBN	O	4	AMOD	6	damaged
+3	and	and	I-NP	CC	O	4	AMOD	-1
+4	inflamed	inflamed	I-NP	JJ	O	5	NMOD	-1
+5	tissue	tissue	I-NP	NN	O	1	PMOD	-1
+6	,	,	O	,	O	8	P	-1
+7	LL-37	LL-37	B-NP	NN	B-protein	8	SUB	-1
+8	functions	function	B-VP	VBZ	O	16	VMOD	0
+9	as	as	B-PP	IN	O	8	VMOD	-1
+10	a	a	B-NP	DT	O	11	NMOD	-1
+11	chemoattractant	chemoattractant	I-NP	NN	B-protein	9	PMOD	-1
+12	,	,	O	,	O	16	P	-1
+13	mitogen	mitogen	B-NP	NN	O	16	NMOD	-1
+14	and	and	O	CC	O	16	NMOD	-1
+15	pro-angiogenic	pro-angiogenic	B-NP	JJ	O	16	NMOD	3	angiogenic
+16	factor	factor	I-NP	NN	O	0	ROOT	-1
+17	suggesting	suggest	B-VP	VBG	O	16	NMOD	-1
+18	that	that	B-SBAR	IN	O	17	VMOD	-1
+19	the	the	B-NP	DT	O	20	NMOD	-1
+20	peptide	peptide	I-NP	NN	O	21	SUB	-1
+21	may	may	B-VP	MD	O	18	SBAR	-1
+22	potentiate	potentiate	I-VP	VB	O	21	VC	-1
+23	tumor	tumor	B-NP	NN	O	24	NMOD	-1
+24	progression	progression	I-NP	NN	O	22	OBJ	2	progression
+25	.	.	O	.	O	16	P	-1
+
+1	The	The	B-NP	DT	O	2	NMOD	-1
+2	aim	aim	I-NP	NN	O	6	SUB	-1
+3	of	of	B-PP	IN	O	2	NMOD	-1
+4	this	this	B-NP	DT	O	5	NMOD	-1
+5	study	study	I-NP	NN	O	3	PMOD	-1
+6	was	be	B-VP	VBD	O	0	ROOT	-1
+7	to	to	B-VP	TO	O	8	VMOD	-1
+8	characterize	characterize	I-VP	VB	O	6	PRD	-1
+9	the	the	B-NP	DT	O	10	NMOD	-1
+10	distribution	distribution	I-NP	NN	O	8	OBJ	0
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	hCAP-18/LL-37	hCAP-18/LL-37	B-NP	NN	B-protein	11	PMOD	-1
+13	in	in	B-PP	IN	O	10	NMOD	-1
+14	normal	normal	B-NP	JJ	O	17	AMOD	-1
+15	and	and	I-NP	CC	O	17	AMOD	-1
+16	cancerous	cancerous	I-NP	JJ	O	17	AMOD	-1
+17	ovarian	ovarian	I-NP	JJ	O	18	NMOD	-1
+18	tissue	tissue	I-NP	NN	O	13	PMOD	-1
+19	and	and	O	CC	O	8	VMOD	-1
+20	to	to	B-VP	TO	O	21	VMOD	-1
+21	examine	examine	I-VP	VB	O	8	VMOD	-1
+22	the	the	B-NP	DT	O	23	NMOD	-1
+23	effects	effect	I-NP	NNS	O	21	OBJ	16	effects
+24	of	of	B-PP	IN	O	23	NMOD	-1
+25	LL-37	LL-37	B-NP	NN	B-protein	24	PMOD	-1
+26	on	on	B-PP	IN	O	23	NMOD	-1
+27	ovarian	ovarian	B-NP	JJ	B-cell_type	29	NMOD	-1
+28	cancer	cancer	I-NP	NN	I-cell_type	29	NMOD	-1
+29	cells	cell	I-NP	NNS	I-cell_type	26	PMOD	-1
+30	.	.	O	.	O	6	P	-1
+
+1	Expression	Expression	B-NP	NN	O	4	SUB	9	Expression
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	hCAP-18/LL-37	hCAP-18/LL-37	B-NP	NN	B-protein	2	PMOD	-1
+4	was	be	B-VP	VBD	O	0	ROOT	-1
+5	localized	localized	B-ADJP	JJ	O	4	VC	14	localized
+6	to	to	B-PP	TO	O	5	VMOD	-1
+7	immune	immune	B-NP	JJ	O	10	NMOD	-1
+8	and	and	I-NP	CC	O	10	NMOD	-1
+9	granulosa	granulosa	I-NP	NN	O	10	NMOD	-1
+10	cells	cell	I-NP	NNS	O	6	PMOD	-1
+11	of	of	B-PP	IN	O	10	NMOD	-1
+12	normal	normal	B-NP	JJ	O	14	NMOD	-1
+13	ovarian	ovarian	I-NP	JJ	O	14	NMOD	-1
+14	tissue	tissue	I-NP	NN	O	11	PMOD	-1
+15	.	.	O	.	O	4	P	-1
+
+1	By	By	B-PP	IN	O	6	VMOD	-1
+2	contrast	contrast	B-NP	NN	O	1	PMOD	-1
+3	,	,	O	,	O	6	P	-1
+4	ovarian	ovarian	B-NP	JJ	O	5	NMOD	-1
+5	tumors	tumor	I-NP	NNS	O	6	SUB	-1
+6	displayed	display	B-VP	VBD	O	0	ROOT	-1
+7	significantly	significantly	B-NP	RB	O	8	AMOD	-1
+8	higher	high	I-NP	JJR	O	9	NMOD	-1
+9	levels	level	I-NP	NNS	O	6	OBJ	-1
+10	of	of	B-PP	IN	O	9	NMOD	-1
+11	hCAP-18/LL-37	hCAP-18/LL-37	B-NP	NN	O	10	PMOD	-1
+12	where	where	B-ADVP	WRB	O	11	NMOD	-1
+13	expression	expression	B-NP	NN	O	14	SUB	9	expression
+14	was	be	B-VP	VBD	O	12	SBAR	-1
+15	observed	observe	I-VP	VBN	O	14	VC	0
+16	in	in	B-PP	IN	O	15	VMOD	-1
+17	tumor	tumor	B-NP	NN	B-cell_type	20	NMOD	-1
+18	and	and	O	CC	I-cell_type	20	NMOD	-1
+19	stromal	stromal	B-NP	JJ	I-cell_type	20	NMOD	-1
+20	cells	cell	I-NP	NNS	I-cell_type	16	PMOD	-1
+21	.	.	O	.	O	6	P	-1
+
+1	Protein	Protein	B-NP	NN	O	2	NMOD	-1
+2	expression	expression	I-NP	NN	O	3	SUB	0
+3	was	be	B-VP	VBD	O	0	ROOT	-1
+4	statistically	statistically	I-VP	RB	O	3	VMOD	-1
+5	compared	compare	I-VP	VBN	O	3	VC	-1
+6	to	to	B-PP	TO	O	5	VMOD	-1
+7	the	the	B-NP	DT	O	8	NMOD	-1
+8	degree	degree	I-NP	NN	O	15	NMOD	-1
+9	of	of	B-PP	IN	O	8	NMOD	-1
+10	immune	immune	B-NP	JJ	O	12	NMOD	-1
+11	cell	cell	I-NP	NN	O	12	NMOD	-1
+12	infiltration	infiltration	I-NP	NN	O	9	PMOD	14	infiltration
+13	and	and	O	CC	O	15	NMOD	-1
+14	microvessel	microvessel	B-NP	NN	O	15	NMOD	-1
+15	density	density	I-NP	NN	O	6	PMOD	-1
+16	in	in	B-PP	IN	O	5	VMOD	-1
+17	epithelial-derived	epithelial-derived	B-NP	JJ	O	19	NMOD	-1
+18	ovarian	ovarian	I-NP	JJ	O	19	NMOD	-1
+19	tumors	tumor	I-NP	NNS	O	23	NMOD	-1
+20	and	and	O	CC	O	23	NMOD	-1
+21	a	a	B-NP	DT	O	23	NMOD	-1
+22	significant	significant	I-NP	JJ	O	23	NMOD	-1
+23	correlation	correlation	I-NP	NN	O	16	PMOD	-1
+24	was	be	B-VP	VBD	O	3	VMOD	-1
+25	observed	observe	I-VP	VBN	O	24	VC	0
+26	for	for	B-PP	IN	O	25	VMOD	-1
+27	both	both	B-NP	DT	O	26	PMOD	-1
+28	.	.	O	.	O	3	P	-1
+
+1	It	It	B-NP	PRP	O	2	SUB	-1
+2	was	be	B-VP	VBD	O	0	ROOT	-1
+3	demonstrated	demonstrate	I-VP	VBN	O	2	VC	-1
+4	that	that	B-SBAR	IN	O	3	VMOD	-1
+5	ovarian	ovarian	B-NP	JJ	O	8	NMOD	-1
+6	tumor	tumor	I-NP	NN	O	8	NMOD	-1
+7	tissue	tissue	I-NP	NN	O	8	NMOD	-1
+8	lysates	lysate	I-NP	NNS	O	13	NMOD	-1
+9	and	and	O	CC	O	13	NMOD	-1
+10	ovarian	ovarian	B-NP	JJ	B-cell_line	13	NMOD	-1
+11	cancer	cancer	I-NP	NN	I-cell_line	13	NMOD	-1
+12	cell	cell	I-NP	NN	I-cell_line	13	NMOD	-1
+13	lines	line	I-NP	NNS	I-cell_line	14	SUB	-1
+14	express	express	B-VP	VBP	O	4	SBAR	9	express
+15	hCAP-18/LL-37	hCAP-18/LL-37	B-NP	NN	B-protein	14	OBJ	-1
+16	.	.	O	.	O	2	P	-1
+
+1	Treatment	Treatment	B-NP	NN	O	10	SUB	19	Treatment
+2	of	of	B-PP	IN	O	1	NMOD	-1
+3	ovarian	ovarian	B-NP	JJ	B-cell_line	6	NMOD	-1
+4	cancer	cancer	I-NP	NN	I-cell_line	6	NMOD	-1
+5	cell	cell	I-NP	NN	I-cell_line	6	NMOD	-1
+6	lines	line	I-NP	NNS	I-cell_line	2	PMOD	-1
+7	with	with	B-PP	IN	O	1	NMOD	-1
+8	recombinant	recombinant	B-NP	JJ	B-protein	9	NMOD	-1
+9	LL-37	LL-37	I-NP	NN	I-protein	7	PMOD	-1
+10	stimulated	stimulate	B-VP	VBD	O	0	ROOT	17	stimulated
+11	proliferation	proliferation	B-NP	NN	O	19	NMOD	1	proliferation
+12	,	,	I-NP	,	O	19	P	-1
+13	chemotaxis	chemotaxis	I-NP	NN	O	19	NMOD	14	chemotaxis
+14	,	,	I-NP	,	O	19	P	-1
+15	invasion	invasion	I-NP	NN	O	19	NMOD	14	invasion
+16	and	and	I-NP	CC	O	19	NMOD	-1
+17	matrix	matrix	I-NP	NN	B-protein	19	NMOD	-1
+18	metalloproteinase	metalloproteinase	I-NP	NN	I-protein	19	NMOD	-1
+19	expression	expression	I-NP	NN	O	10	OBJ	9	expression
+20	.	.	O	.	O	10	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	demonstrate	demonstrate	B-VP	VBP	O	0	ROOT	-1
+4	for	for	B-PP	IN	O	3	VMOD	-1
+5	the	the	B-NP	DT	O	7	NMOD	-1
+6	first	first	I-NP	JJ	O	7	NMOD	-1
+7	time	time	I-NP	NN	O	4	PMOD	-1
+8	that	that	B-SBAR	IN	O	3	VMOD	-1
+9	hCAP-18/LL-37	hCAP-18/LL-37	B-NP	NN	B-protein	10	SUB	-1
+10	is	be	B-VP	VBZ	O	8	SBAR	-1
+11	significantly	significantly	I-VP	RB	O	10	VMOD	-1
+12	overexpressed	overexpresse	I-VP	VBN	O	10	VC	9	overexpressed
+13	in	in	B-PP	IN	O	12	VMOD	-1
+14	ovarian	ovarian	B-NP	JJ	O	15	NMOD	-1
+15	tumors	tumor	I-NP	NNS	O	13	PMOD	-1
+16	and	and	O	CC	O	3	VMOD	-1
+17	suggest	suggest	B-VP	VBP	O	3	VMOD	-1
+18	LL-37	LL-37	B-NP	NN	B-protein	17	OBJ	-1
+19	may	may	B-VP	MD	O	35	NMOD	-1
+20	contribute	contribute	I-VP	VB	O	19	VC	16	contribute
+21	to	to	B-PP	TO	O	20	VMOD	-1
+22	ovarian	ovarian	B-NP	JJ	O	23	NMOD	-1
+23	tumorigenesis	tumorigenesis	I-NP	NN	O	21	PMOD	-1
+24	through	through	B-PP	IN	O	20	VMOD	0
+25	direct	direct	B-NP	JJ	O	26	NMOD	-1
+26	stimulation	stimulation	I-NP	NN	O	24	PMOD	17	stimulation
+27	of	of	B-PP	IN	O	26	NMOD	-1
+28	tumor	tumor	B-NP	NN	B-cell_type	29	NMOD	-1
+29	cells	cell	I-NP	NNS	I-cell_type	27	PMOD	-1
+30	,	,	O	,	O	19	P	-1
+31	initiation	initiation	B-NP	NN	O	35	NMOD	17	initiation
+32	of	of	B-PP	IN	O	31	NMOD	-1
+33	angiogenesis	angiogenesis	B-NP	NN	O	32	PMOD	3	angiogenesis
+34	and	and	I-NP	CC	O	35	NMOD	-1
+35	recruitment	recruitment	I-NP	NN	O	3	VMOD	14	recruitment
+36	of	of	B-PP	IN	O	35	NMOD	-1
+37	immune	immune	B-NP	JJ	B-cell_type	38	NMOD	-1
+38	cells	cell	I-NP	NNS	I-cell_type	36	PMOD	-1
+39	.	.	O	.	O	3	P	-1
+
+1	These	These	B-NP	DT	O	2	NMOD	-1
+2	data	datum	I-NP	NNS	O	3	SUB	-1
+3	provide	provide	B-VP	VBP	O	0	ROOT	-1
+4	further	further	B-NP	JJ	O	5	NMOD	-1
+5	evidence	evidence	I-NP	NN	O	3	OBJ	-1
+6	of	of	B-PP	IN	O	5	NMOD	-1
+7	the	the	B-NP	DT	O	9	NMOD	-1
+8	existing	exist	I-NP	VBG	O	9	NMOD	-1
+9	relationship	relationship	I-NP	NN	O	6	PMOD	-1
+10	between	between	B-PP	IN	O	9	NMOD	-1
+11	pro-inflammatory	pro-inflammatory	B-NP	JJ	B-protein	12	NMOD	-1
+12	molecules	molecule	I-NP	NNS	I-protein	16	NMOD	-1
+13	and	and	O	CC	O	16	NMOD	-1
+14	ovarian	ovarian	B-NP	JJ	O	16	NMOD	-1
+15	cancer	cancer	I-NP	NN	O	16	NMOD	-1
+16	progression	progression	I-NP	NN	O	10	PMOD	2	progression
+17	.	.	O	.	O	3	P	-1
+

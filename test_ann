@@ -1,0 +1,6 @@
+1	Subretinal	Subretinal	B-NP	JJ	O	2	NMOD	0
+2	neovascularization	neovascularization	I-NP	NN	O	0	ROOT	3	neovascularization
+3	following	follow	B-PP	VBG	O	2	NMOD	0
+4	rubella	rubella	B-NP	NN	O	5	NMOD	0
+5	retinopathy	retinopathy	I-NP	NN	O	3	PMOD	0
+6	.	.	O	.	O	2	P	0
