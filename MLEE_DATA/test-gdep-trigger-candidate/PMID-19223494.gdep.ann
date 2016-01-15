@@ -317,3 +317,5 @@
 23	and	and	O	CC	O	25	NMOD	-1
 24	renal	renal	B-NP	JJ	O	25	NMOD	-1
 25	cancer	cancer	I-NP	NN	O	21	PMOD	-1
+26	.	.	O	.	O	1	P	-1
+

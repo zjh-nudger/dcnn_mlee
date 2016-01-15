@@ -142,3 +142,5 @@
 26	to	to	I-VP	TO	O	27	VMOD	-1
 27	be	be	I-VP	VB	O	25	VMOD	-1
 28	determined	determine	I-VP	VBN	O	27	VC	-1
+29	.	.	O	.	O	25	P	-1
+

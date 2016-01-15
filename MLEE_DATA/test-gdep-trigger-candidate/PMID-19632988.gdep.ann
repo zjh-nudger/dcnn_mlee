@@ -182,3 +182,5 @@
 24	and	and	O	CC	O	26	NMOD	-1
 25	biological	biological	B-NP	JJ	O	26	NMOD	-1
 26	activity	activity	I-NP	NN	O	22	PMOD	0
+27	.	.	O	.	O	8	P	-1
+

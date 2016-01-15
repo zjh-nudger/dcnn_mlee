@@ -408,3 +408,5 @@
 39	important	important	B-NP	JJ	O	40	AMOD	0
 40	clinical	clinical	I-NP	JJ	O	41	NMOD	-1
 41	significance	significance	I-NP	NN	O	38	OBJ	-1
+42	.	.	O	.	O	1	P	-1
+

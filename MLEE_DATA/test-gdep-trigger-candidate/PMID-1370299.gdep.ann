@@ -255,3 +255,5 @@
 19	thrombogenicity	thrombogenicity	I-NP	NN	O	17	OBJ	-1
 20	in	in	B-ADVP	FW	O	11	VMOD	-1
 21	vivo	vivo	I-ADVP	FW	O	20	AMOD	-1
+22	.	.	O	.	O	8	P	-1
+

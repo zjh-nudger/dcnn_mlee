@@ -246,3 +246,5 @@
 29	most	most	I-NP	JJS	O	27	OBJ	-1
 30	from	from	B-PP	IN	O	29	NMOD	-1
 31	it	it	B-NP	PRP	O	30	PMOD	-1
+32	.	.	O	.	O	12	P	-1
+

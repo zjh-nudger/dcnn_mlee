@@ -221,3 +221,5 @@
 30	of	of	B-PP	IN	O	29	NMOD	-1
 31	human	human	B-NP	JJ	O	32	NMOD	-1
 32	diseases	disease	I-NP	NNS	O	30	PMOD	-1
+33	.	.	O	.	O	22	P	-1
+

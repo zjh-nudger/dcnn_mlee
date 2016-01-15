@@ -180,6 +180,7 @@ def process(input,example_file,label_file):
     output_examples(tree_container,example_file,label_file)
 
 if __name__=='__main__':
+    execfile('process_candidate.py')
     train_input_dir = 'MLEE_DATA/train-gdep-trigger-candidate'
     test_input_dir = 'MLEE_DATA/test-gdep-trigger-candidate'
     train_label_file = open('MLEE_DATA/mlee-train-labels.txt','w')

@@ -227,3 +227,5 @@
 22	modulating	modulate	B-VP	VBG	O	21	SBAR	16	modulating
 23	platelet	platelet	B-NP	NN	O	24	NMOD	-1
 24	adhesion	adhesion	I-NP	NN	O	22	OBJ	15	adhesion
+25	.	.	O	.	O	3	P	-1
+

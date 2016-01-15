@@ -360,3 +360,5 @@
 17	of	of	B-PP	IN	O	16	NMOD	-1
 18	tumor	tumor	B-NP	NN	O	19	NMOD	-1
 19	angiogenesis	angiogenesis	I-NP	NN	O	17	PMOD	3	angiogenesis
+20	.	.	O	.	O	2	P	-1
+

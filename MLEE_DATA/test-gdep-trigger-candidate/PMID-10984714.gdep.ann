@@ -188,3 +188,5 @@
 51	blood	blood	I-NP	NN	O	53	NMOD	-1
 52	vessel	vessel	I-NP	NN	O	53	NMOD	-1
 53	formation	formation	I-NP	NN	O	49	OBJ	2	formation
+54	.	.	O	.	O	33	P	-1
+

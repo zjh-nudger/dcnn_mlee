@@ -177,3 +177,5 @@
 17	clinical	clinical	B-NP	JJ	O	19	NMOD	-1
 18	hernia	hernia	I-NP	NN	O	19	NMOD	-1
 19	repair	repair	I-NP	NN	O	16	PMOD	0
+20	.	.	O	.	O	8	P	-1
+

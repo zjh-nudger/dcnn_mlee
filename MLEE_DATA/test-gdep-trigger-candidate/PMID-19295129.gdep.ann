@@ -206,3 +206,5 @@
 42	thus	thus	B-ADVP	RB	O	16	VMOD	-1
 43	,	,	O	,	O	16	P	-1
 44	angiogenesis	angiogenesis	B-NP	NN	O	16	VMOD	3	angiogenesis
+45	.	.	O	.	O	16	P	-1
+

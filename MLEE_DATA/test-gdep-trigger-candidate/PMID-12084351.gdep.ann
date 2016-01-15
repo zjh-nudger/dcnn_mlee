@@ -255,3 +255,5 @@
 32	of	of	B-PP	IN	O	31	NMOD	-1
 33	malignant	malignant	B-NP	JJ	B-cell_type	34	NMOD	-1
 34	gliomas	glioma	I-NP	NNS	I-cell_type	32	PMOD	-1
+35	.	.	O	.	O	23	P	-1
+

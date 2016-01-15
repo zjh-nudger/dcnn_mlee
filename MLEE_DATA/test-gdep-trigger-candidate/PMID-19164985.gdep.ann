@@ -289,3 +289,5 @@
 7	effects	effect	I-NP	NNS	O	5	OBJ	0
 8	of	of	B-PP	IN	O	7	NMOD	-1
 9	PRP	PRP	B-NP	NN	B-protein	8	PMOD	-1
+10	.	.	O	.	O	4	P	-1
+

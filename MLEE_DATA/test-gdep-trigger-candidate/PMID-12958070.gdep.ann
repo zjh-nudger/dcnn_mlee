@@ -251,3 +251,5 @@
 27	to	to	B-PP	TO	O	26	VMOD	-1
 28	hepatic	hepatic	B-NP	JJ	O	29	NMOD	-1
 29	diseases	disease	I-NP	NNS	O	27	PMOD	-1
+30	.	.	O	.	O	9	P	-1
+

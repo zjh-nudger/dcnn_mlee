@@ -324,3 +324,5 @@
 44	of	of	B-PP	IN	O	43	NMOD	-1
 45	current	current	B-NP	JJ	O	46	NMOD	-1
 46	therapies	therapy	I-NP	NNS	O	44	PMOD	0
+47	.	.	O	.	O	28	P	-1
+

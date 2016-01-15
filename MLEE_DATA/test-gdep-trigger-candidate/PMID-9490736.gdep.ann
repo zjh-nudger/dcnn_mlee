@@ -209,3 +209,5 @@
 20	and	and	O	CC	O	22	NMOD	-1
 21	integrin	integrin	B-NP	NN	B-protein	22	NMOD	-1
 22	alphavbeta3	alphavbeta3	I-NP	NN	I-protein	14	PMOD	-1
+23	.	.	O	.	O	4	P	-1
+

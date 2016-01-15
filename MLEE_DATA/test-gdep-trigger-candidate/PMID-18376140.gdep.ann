@@ -223,3 +223,5 @@
 16	anti-tumor	anti-tumor	I-NP	JJ	O	18	NMOD	-1
 17	angiogenesis	angiogenesis	I-NP	NN	O	18	NMOD	3	angiogenesis
 18	therapy	therapy	I-NP	NN	O	12	PMOD	18	therapy
+19	.	.	O	.	O	3	P	-1
+

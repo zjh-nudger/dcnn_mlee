@@ -397,3 +397,5 @@
 35	suppression	suppression	B-NP	NN	O	24	PMOD	18	suppression
 36	of	of	B-PP	IN	O	35	NMOD	-1
 37	angiogenesis	angiogenesis	B-NP	NN	O	36	PMOD	3	angiogenesis
+38	.	.	O	.	O	1	P	-1
+

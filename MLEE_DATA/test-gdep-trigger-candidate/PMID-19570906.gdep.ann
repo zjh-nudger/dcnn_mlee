@@ -205,3 +205,5 @@
 23	breast	breast	B-NP	NN	O	25	NMOD	-1
 24	cancer	cancer	I-NP	NN	O	25	NMOD	-1
 25	therapy	therapy	I-NP	NN	O	22	PMOD	19	therapy
+26	.	.	O	.	O	17	P	-1
+

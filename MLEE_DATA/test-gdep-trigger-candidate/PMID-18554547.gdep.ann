@@ -197,3 +197,5 @@
 16	an	an	B-NP	DT	O	18	NMOD	-1
 17	animal	animal	I-NP	NN	O	18	NMOD	-1
 18	model	model	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	3	P	-1
+

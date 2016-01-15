@@ -307,3 +307,5 @@
 12	apoptosis	apoptosis	I-NP	NN	O	10	OBJ	5	apoptosis
 13	in	in	B-PP	IN	O	12	NMOD	-1
 14	LSCC	LSCC	B-NP	NN	B-cell_type	13	PMOD	-1
+15	.	.	O	.	O	3	P	-1
+

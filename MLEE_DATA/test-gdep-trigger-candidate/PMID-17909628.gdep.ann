@@ -197,3 +197,5 @@
 21	therapies	therapy	I-NP	NNS	O	19	PMOD	0
 22	for	for	B-PP	IN	O	21	NMOD	-1
 23	AMD	AMD	B-NP	NN	O	22	PMOD	-1
+24	.	.	O	.	O	3	P	-1
+

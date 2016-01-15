@@ -256,3 +256,5 @@
 30	of	of	B-PP	IN	O	29	NMOD	-1
 31	fibrous	fibrous	B-NP	JJ	O	32	NMOD	-1
 32	encapsulation	encapsulation	I-NP	NN	O	30	PMOD	14	encapsulation
+33	.	.	O	.	O	9	P	-1
+

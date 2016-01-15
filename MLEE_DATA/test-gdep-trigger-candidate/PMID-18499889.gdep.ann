@@ -240,3 +240,5 @@
 17	including	include	B-PP	VBG	O	15	NMOD	-1
 18	patient-specific	patient-specific	B-NP	JJ	B-protein	19	NMOD	-1
 19	factors	factor	I-NP	NNS	I-protein	17	PMOD	-1
+20	.	.	O	.	O	12	P	-1
+

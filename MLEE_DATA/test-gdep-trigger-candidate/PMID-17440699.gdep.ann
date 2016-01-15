@@ -345,3 +345,5 @@
 22	after	after	I-PP	IN	O	12	PMOD	-1
 23	antiangiogenic	antiangiogenic	B-NP	JJ	O	24	NMOD	3	angiogenic
 24	treatment	treatment	I-NP	NN	O	12	PMOD	0
+25	.	.	O	.	O	1	P	-1
+

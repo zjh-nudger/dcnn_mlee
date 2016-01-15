@@ -242,3 +242,5 @@
 21	of	of	B-PP	IN	O	20	NMOD	-1
 22	growing	grow	B-NP	VBG	O	23	NMOD	4	growing
 23	capillaries	capillary	I-NP	NNS	O	21	PMOD	-1
+24	.	.	O	.	O	3	P	-1
+

@@ -245,3 +245,5 @@
 40	human	human	I-NP	JJ	O	42	NMOD	-1
 41	lung	lung	I-NP	NN	O	42	NMOD	-1
 42	vascularization	vascularization	I-NP	NN	O	38	PMOD	3	vascularization
+43	.	.	O	.	O	3	P	-1
+

@@ -325,3 +325,5 @@
 14	phase	phase	I-NP	NN	O	16	NMOD	-1
 15	clinical	clinical	I-NP	JJ	O	16	NMOD	-1
 16	testing	testing	I-NP	NN	O	12	PMOD	-1
+17	.	.	O	.	O	4	P	-1
+

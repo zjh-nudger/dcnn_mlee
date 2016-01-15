@@ -248,3 +248,5 @@
 19	in	in	B-PP	IN	O	18	NMOD	-1
 20	cancer	cancer	B-NP	NN	O	21	NMOD	-1
 21	therapy	therapy	I-NP	NN	O	19	PMOD	19	therapy
+22	.	.	O	.	O	8	P	-1
+

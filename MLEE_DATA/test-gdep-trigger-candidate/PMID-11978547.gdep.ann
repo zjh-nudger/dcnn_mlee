@@ -287,3 +287,5 @@
 19	carcinoma	carcinoma	I-NP	NN	I-cell_line	21	NMOD	-1
 20	cell	cell	I-NP	NN	I-cell_line	21	NMOD	-1
 21	lines	line	I-NP	NNS	I-cell_line	15	PMOD	-1
+22	.	.	O	.	O	3	P	-1
+

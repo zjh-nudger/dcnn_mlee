@@ -219,3 +219,5 @@
 32	and	and	I-NP	CC	O	34	NMOD	-1
 33	brain	brain	I-NP	NN	O	34	NMOD	-1
 34	injury	injury	I-NP	NN	O	30	PMOD	6	injury
+35	.	.	O	.	O	2	P	-1
+

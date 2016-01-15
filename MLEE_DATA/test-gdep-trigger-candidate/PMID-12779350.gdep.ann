@@ -189,3 +189,5 @@
 18	improves	improve	I-VP	VBZ	O	16	SBAR	17	improves
 19	tumor	tumor	B-NP	NN	O	20	NMOD	-1
 20	response	response	I-NP	NN	O	18	OBJ	0
+21	.	.	O	.	O	5	P	-1
+

@@ -321,3 +321,5 @@
 22	signals	signal	I-NP	NNS	O	17	OBJ	0
 23	during	during	B-PP	IN	O	17	VMOD	-1
 24	angiogenesis	angiogenesis	B-NP	NN	O	23	PMOD	3	angiogenesis
+25	.	.	O	.	O	4	P	-1
+

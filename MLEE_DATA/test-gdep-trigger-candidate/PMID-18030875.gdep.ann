@@ -159,3 +159,5 @@
 29	and	and	O	CC	O	31	NMOD	-1
 30	pancreatic	pancreatic	B-NP	JJ	O	31	NMOD	-1
 31	cancer	cancer	I-NP	NN	O	20	PMOD	-1
+32	.	.	O	.	O	5	P	-1
+

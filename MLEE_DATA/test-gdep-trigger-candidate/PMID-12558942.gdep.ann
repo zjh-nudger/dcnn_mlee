@@ -294,3 +294,5 @@
 25	swelling	swelling	B-NP	NN	O	27	NMOD	-1
 26	and	and	I-NP	CC	O	27	NMOD	-1
 27	edema	edema	I-NP	NN	O	24	OBJ	-1
+28	.	.	O	.	O	5	P	-1
+

@@ -168,3 +168,5 @@
 19	for	for	B-PP	IN	O	18	NMOD	-1
 20	rheumatoid	rheumatoid	B-NP	JJ	O	21	NMOD	-1
 21	arthritis	arthritis	I-NP	NN	O	19	PMOD	-1
+22	.	.	O	.	O	11	P	-1
+

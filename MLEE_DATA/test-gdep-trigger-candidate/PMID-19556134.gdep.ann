@@ -151,3 +151,5 @@
 16	chemotherapy	chemotherapy	B-NP	NN	O	18	NMOD	0
 17	and	and	I-NP	CC	O	18	NMOD	-1
 18	radiotherapy	radiotherapy	I-NP	NN	O	15	PMOD	0
+19	.	.	O	.	O	7	P	-1
+

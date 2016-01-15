@@ -243,3 +243,5 @@
 31	later	later	B-NP	JJ	O	33	NMOD	-1
 32	adult	adult	I-NP	JJ	O	33	NMOD	-1
 33	life	life	I-NP	NN	O	30	PMOD	-1
+34	.	.	O	.	O	12	P	-1
+

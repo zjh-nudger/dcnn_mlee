@@ -235,3 +235,5 @@
 30	p38	p38	I-NP	NN	B-protein	32	NMOD	-1
 31	MAPK	MAPK	I-NP	NN	I-protein	32	NMOD	-1
 32	activation	activation	I-NP	NN	O	27	PMOD	17	activation
+33	.	.	O	.	O	5	P	-1
+

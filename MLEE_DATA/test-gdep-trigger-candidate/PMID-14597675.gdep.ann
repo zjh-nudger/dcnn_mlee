@@ -237,3 +237,5 @@
 34	with	with	B-PP	IN	O	33	NMOD	-1
 35	opposing	oppose	B-NP	VBG	O	36	NMOD	-1
 36	actions	action	I-NP	NNS	O	34	PMOD	-1
+37	.	.	O	.	O	3	P	-1
+

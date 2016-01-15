@@ -303,3 +303,5 @@
 22	Ang-2	Ang-2	B-NP	NN	B-protein	24	NMOD	-1
 23	manipulatory	manipulatory	I-NP	JJ	O	24	NMOD	-1
 24	therapies	therapy	I-NP	NNS	O	21	OBJ	0
+25	.	.	O	.	O	5	P	-1
+

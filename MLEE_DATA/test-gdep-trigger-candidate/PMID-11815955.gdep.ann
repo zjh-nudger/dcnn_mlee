@@ -292,3 +292,5 @@
 26	of	of	B-PP	IN	O	25	NMOD	-1
 27	tumor	tumor	B-NP	NN	O	28	NMOD	-1
 28	burden	burden	I-NP	NN	O	26	PMOD	-1
+29	.	.	O	.	O	13	P	-1
+

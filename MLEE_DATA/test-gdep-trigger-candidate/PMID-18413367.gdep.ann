@@ -307,3 +307,5 @@
 26	invading	invade	B-VP	VBG	B-cell_type	28	NMOD	14	invading
 27	cancer	cancer	B-NP	NN	I-cell_type	28	NMOD	-1
 28	cells	cell	I-NP	NNS	I-cell_type	25	PMOD	-1
+29	.	.	O	.	O	5	P	-1
+

@@ -293,3 +293,5 @@
 16	an	an	B-NP	DT	O	18	NMOD	-1
 17	anticancer	anticancer	I-NP	JJ	O	18	NMOD	-1
 18	agent	agent	I-NP	NN	O	15	PMOD	-1
+19	.	.	O	.	O	2	P	-1
+

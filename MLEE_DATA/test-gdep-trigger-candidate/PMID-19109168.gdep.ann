@@ -259,3 +259,5 @@
 13	and	and	O	CC	O	15	NMOD	-1
 14	tumor	tumor	B-NP	NN	O	15	NMOD	-1
 15	progression	progression	I-NP	NN	O	8	PMOD	2	progression
+16	.	.	O	.	O	2	P	-1
+

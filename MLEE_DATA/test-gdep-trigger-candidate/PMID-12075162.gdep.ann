@@ -161,3 +161,5 @@
 14	characterize	characterize	B-VP	VB	O	12	VMOD	-1
 15	breast	breast	B-NP	NN	O	16	NMOD	-1
 16	lesions	lesion	I-NP	NNS	O	14	OBJ	-1
+17	.	.	O	.	O	8	P	-1
+

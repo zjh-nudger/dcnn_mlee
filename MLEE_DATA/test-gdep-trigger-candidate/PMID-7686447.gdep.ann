@@ -416,3 +416,5 @@
 21	other	other	B-NP	JJ	O	23	NMOD	-1
 22	angiogenic	angiogenic	I-NP	JJ	O	23	NMOD	3	angiogenic
 23	diseases	disease	I-NP	NNS	O	18	PMOD	-1
+24	.	.	O	.	O	5	P	-1
+

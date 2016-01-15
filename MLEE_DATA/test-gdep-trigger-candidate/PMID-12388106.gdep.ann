@@ -190,3 +190,5 @@
 19	responsive	responsive	I-ADJP	JJ	O	16	VMOD	16	responsive
 20	to	to	B-PP	TO	O	19	AMOD	-1
 21	FGF2	FGF2	B-NP	NN	B-protein	20	PMOD	-1
+22	.	.	O	.	O	3	P	-1
+

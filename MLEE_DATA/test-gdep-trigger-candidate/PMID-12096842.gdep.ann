@@ -331,3 +331,5 @@
 16	during	during	B-PP	IN	O	13	NMOD	-1
 17	distraction	distraction	B-NP	NN	O	18	NMOD	0
 18	osteogenesis	osteogenesis	I-NP	NN	O	16	PMOD	-1
+19	.	.	O	.	O	8	P	-1
+

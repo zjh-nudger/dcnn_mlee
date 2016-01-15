@@ -365,3 +365,5 @@
 20	investigated	investigate	I-VP	VBN	O	19	VC	-1
 21	in	in	B-PP	IN	O	20	VMOD	-1
 22	CML	CML	B-NP	NN	O	21	PMOD	-1
+23	.	.	O	.	O	3	P	-1
+

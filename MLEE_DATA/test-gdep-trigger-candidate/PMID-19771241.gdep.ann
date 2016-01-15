@@ -242,3 +242,5 @@
 17	antibody-based	antibody-based	B-NP	JJ	O	18	AMOD	-1
 18	therapeutic	therapeutic	I-NP	JJ	O	19	NMOD	-1
 19	targeting	targeting	I-NP	NN	O	16	PMOD	0
+20	.	.	O	.	O	8	P	-1
+

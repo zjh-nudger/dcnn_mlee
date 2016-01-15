@@ -304,3 +304,5 @@
 22	a	a	B-NP	DT	O	24	NMOD	-1
 23	clinical	clinical	I-NP	JJ	O	24	NMOD	-1
 24	trial	trial	I-NP	NN	O	21	PMOD	-1
+25	.	.	O	.	O	14	P	-1
+

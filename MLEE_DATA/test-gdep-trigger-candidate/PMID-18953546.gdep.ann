@@ -94,3 +94,5 @@
 9	condition	condition	I-NP	NN	O	7	PMOD	-1
 10	was	be	B-VP	VBD	O	0	ROOT	-1
 11	observed	observe	I-VP	VBN	O	10	VC	0
+12	.	.	O	.	O	10	P	-1
+

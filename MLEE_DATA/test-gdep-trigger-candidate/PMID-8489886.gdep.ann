@@ -168,3 +168,5 @@
 82	energy	energy	B-NP	NN	O	84	NMOD	-1
 83	conservation	conservation	I-NP	NN	O	84	NMOD	-1
 84	measures	measure	I-NP	NNS	O	30	VMOD	-1
+85	.	.	O	.	O	15	P	-1
+

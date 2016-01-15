@@ -229,3 +229,5 @@
 20	of	of	B-PP	IN	O	19	NMOD	-1
 21	endothelial	endothelial	B-NP	JJ	B-cell_type	22	NMOD	-1
 22	cells	cell	I-NP	NNS	I-cell_type	20	PMOD	-1
+23	.	.	O	.	O	5	P	-1
+

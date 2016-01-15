@@ -137,3 +137,5 @@
 19	non-VEGF	non-VEGF	I-NP	JJ	O	21	NMOD	-1
 20	binding	binding	I-NP	NN	O	21	NMOD	15	binding
 21	mechanism	mechanism	I-NP	NN	O	17	PMOD	0
+22	.	.	O	.	O	3	P	-1
+
