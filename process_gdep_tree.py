@@ -24,37 +24,38 @@ class Node:
         str_childs_index = [str(index) for index in self.childs_index]
         return '['+str(self.index)+',('+str(self.parent_index)+'),('+\
                 ','.join(str_childs_index)+')]'
+
+
+def build_all_trees(input_dir):  
+    ##2	neovascularization	neovascularization	I-NP	NN	O	0	ROOT	3	neovascularization
+    tree_container = []
+    for f in glob.glob(input_dir+'/*.ann'):
+        input = open(f)
+        node_container = []
+        for line in input.readlines():
+            if len(line)==0 or len(line.split('\t'))<5:
+                for node in node_container:
+                    if node.label>0:
+                        tree_container.append(node_container)
+                        break
+                node_container = []
+                continue
+            toks = line.split('\t')
+            node = Node(toks[1])
+            node.index = int(toks[0])
+            node.parent_index = int(toks[6])
+            node.label = int(toks[8])
+            node.dependency = toks[7]
+            node_container.append(node)
+        input.close()
     
-input_dir = 'MLEE_DATA/train-gdep-trigger-candidate'
-
-##2	neovascularization	neovascularization	I-NP	NN	O	0	ROOT	3	neovascularization
-tree_container = []
-for f in glob.glob(input_dir+'/*.ann'):
-    input = open(f)
-    node_container = []
-    for line in input.readlines():
-        if len(line)==0 or len(line.split('\t'))<5:
-            for node in node_container:
-                if node.label>0:
-                    tree_container.append(node_container)
-                    break
-            node_container = []
-            continue
-        toks = line.split('\t')
-        node = Node(toks[1])
-        node.index = int(toks[0])
-        node.parent_index = int(toks[6])
-        node.label = int(toks[8])
-        node.dependency = toks[7]
-        node_container.append(node)
-    input.close()
-
-for tree in tree_container:
-    for node1 in tree:
-        for node2 in tree:
-            if node2.parent_index == node1.index:
-                node1.childs_index.append(node2.index)
-
+    for tree in tree_container:
+        for node1 in tree:
+            for node2 in tree:
+                if node2.parent_index == node1.index:
+                    node1.childs_index.append(node2.index)
+    return tree_container
+    
 #1338 sentences contain triggers
 #print len(tree_container)
 
@@ -108,25 +109,26 @@ def tree_to_string(tree):
     return ''.join(tree_str)
 #print tree_to_string(tree_container[0])
 
-labeld_tree = {}
-label_file = open('MLEE_DATA/mlee-train-labels.txt','w')
-example_file = open('MLEE_DATA/mlee-train-data.txt','w')
-for tree in tree_container:
-    for node in tree:
-        if node.label < 0:
-            continue
-        if node.is_root():# root is trigger
-            label_file.write(str(node.label)+'\n')
-            example_file.write(tree_to_string(tree)+'\n') # tree:tree_container
-        elif node.is_leaf():
-            label_file.write(str(node.label)+'\n')
-            example_file.write(tree_to_string(build_sub_tree(tree,node.parent_index))+'\n')
-        else:
-            label_file.write(str(node.label)+'\n')
-            example_file.write(tree_to_string(build_sub_tree(tree,node.index))+'\n')
-            
-label_file.close()
-example_file.close()
+def output_examples(tree_container,example_file,label_file):
+    if not isinstance(example_file,file):
+        example_file = open(example_file,'w')
+    if not isinstance(label_file,file):        
+        label_file = open(label_file,'w')
+    for tree in tree_container:
+        for node in tree:
+            if node.label < 0:
+                continue
+            if node.is_root():# root is trigger
+                label_file.write(str(node.label)+'\n')
+                example_file.write(tree_to_string(tree)+'\n') # tree:tree_container
+            elif node.is_leaf():
+                label_file.write(str(node.label)+'\n')
+                example_file.write(tree_to_string(build_sub_tree(tree,node.parent_index))+'\n')
+            else:
+                label_file.write(str(node.label)+'\n')
+                example_file.write(tree_to_string(build_sub_tree(tree,node.index))+'\n')
+    label_file.close()
+    example_file.close()
 
 ###############################################################################
      
@@ -172,25 +174,17 @@ def multi_trigger_sentence_count(trees):
             count+=1
     return count
 
+#input:directory
+def process(input,example_file,label_file):
+    tree_container = build_all_trees(input)
+    output_examples(tree_container,example_file,label_file)
+
 if __name__=='__main__':
-    for f in glob.glob(input_dir+'/*.ann'):
-        pass
-
-'''
-input_file = open('test_ann')
-node_container = []
-for line in input_file.readlines():
-    toks = line.split('\t')
-    node = Node(toks[1])
-    node.index = int(toks[0])
-    node.parent_index = int(toks[6])
-    node.label = int(toks[8])
-    node.depdendency = toks[7]
-    node_container.append(node)
-input_file.close()
-
-for node1 in node_container:
-    for node2 in node_container:
-        if node2.parent_index == node1.index:
-            node1.childs_index.append(node2.index)
-'''
+    train_input_dir = 'MLEE_DATA/train-gdep-trigger-candidate'
+    test_input_dir = 'MLEE_DATA/test-gdep-trigger-candidate'
+    train_label_file = open('MLEE_DATA/mlee-train-labels.txt','w')
+    test_label_file = open('MLEE_DATA/mlee-test-labels.txt','w')
+    train_example_file = open('MLEE_DATA/mlee-train-tree.txt','w')
+    test_example_file = open('MLEE_DATA/mlee-test-tree.txt','w')
+    process(train_input_dir,train_example_file,train_label_file)
+    process(test_input_dir,test_example_file,test_label_file)
